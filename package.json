@@ -65,7 +65,7 @@
     "nuxt-highcharts": "^2.0.2",
     "nuxt-stripe-module": "^3.2.0",
     "pg-hstore": "^2.3.4",
-    "sequelize": "^6.13.0",
+    "sequelize": "^6.15.0",
     "sequelize-cli": "^6.3.0",
     "sqlite3": "^5.0.2",
     "tedious": "^14.0.0",
