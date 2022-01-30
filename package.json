@@ -62,7 +62,7 @@
     "nuxt-client-init-module": "^0.3.0",
     "nuxt-headway": "^1.0.0",
     "nuxt-helmet": "^2.1.1",
-    "nuxt-highcharts": "^2.0.2",
+    "nuxt-highcharts": "^2.0.3",
     "nuxt-stripe-module": "^3.2.0",
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.15.0",
