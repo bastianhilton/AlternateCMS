@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/admin/add-new/add-new-page", {data:[{}],fetch:{},mutations:[]});

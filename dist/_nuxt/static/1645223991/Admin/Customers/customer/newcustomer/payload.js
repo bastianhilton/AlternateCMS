@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/admin/customers/customer/newcustomer", {data:[{}],fetch:{},mutations:[]});

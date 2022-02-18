@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/Admin/Shop/inventory", {data:[{}],fetch:{},mutations:[]});

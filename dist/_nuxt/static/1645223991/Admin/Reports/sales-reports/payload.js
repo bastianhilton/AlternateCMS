@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/admin/reports/sales-reports", {data:[{}],fetch:{},mutations:[]});

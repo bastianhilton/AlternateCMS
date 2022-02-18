@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/Admin/System/integrations-marketplace", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/Admin/System/data-transfer", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/admin/reports/business-intelligence", {data:[{}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/admin/shop/currency", {data:[{}],fetch:{},mutations:[]});

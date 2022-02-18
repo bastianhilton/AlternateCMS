@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/admin/reports/customer-engagement", {data:[{}],fetch:{},mutations:[]});
