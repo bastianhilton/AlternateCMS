@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/Admin/Add-New/add-new-currency", {data:[{}],fetch:{},mutations:[]});

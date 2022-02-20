@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/admin/add-new/add-new-taxrule", {data:[{}],fetch:{},mutations:[]});
