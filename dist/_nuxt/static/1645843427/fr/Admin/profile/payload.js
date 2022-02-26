@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fr/Admin/profile", {data:[{}],fetch:{},mutations:[]});

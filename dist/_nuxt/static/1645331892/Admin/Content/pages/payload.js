@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/admin/content/pages", {data:[{}],fetch:{},mutations:[]});

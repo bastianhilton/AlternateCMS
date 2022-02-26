@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/admin/shop/states", {data:[{}],fetch:{},mutations:[]});

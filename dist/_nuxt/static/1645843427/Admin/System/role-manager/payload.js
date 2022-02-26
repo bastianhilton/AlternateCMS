@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/admin/system/role-manager", {data:[{}],fetch:{},mutations:[]});

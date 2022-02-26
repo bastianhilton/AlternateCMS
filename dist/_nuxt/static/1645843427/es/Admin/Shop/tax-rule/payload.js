@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/es/Admin/Shop/tax-rule", {data:[{}],fetch:{},mutations:[]});

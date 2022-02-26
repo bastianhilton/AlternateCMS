@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/Admin/Add-new/add-new-return", {data:[{}],fetch:{},mutations:[]});

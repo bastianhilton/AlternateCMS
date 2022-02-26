@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/Admin/Add-New/add-new-shipment", {data:[{}],fetch:{},mutations:[]});

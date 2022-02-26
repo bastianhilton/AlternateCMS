@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/Admin/Customers/customer-groups", {data:[{}],fetch:{},mutations:[]});
