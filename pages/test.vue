@@ -1,5 +1,5 @@
 <template>
-  <button @click="showMessageFromBackend">Show message from backend</button>
+  <FormulateInput @click="showMessageFromBackend">Show message from backend</FormulateInput>
 </template>
 
 <script>

@@ -1,0 +1,635 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model articles {
+  id         Int       @id @default(autoincrement())
+  name       String    @db.VarChar(255)
+  excerpt    String
+  content    String?
+  image      String?
+  categories String?
+  customers  String?
+  users      String?
+  published  DateTime? @default(now()) @db.Timestamptz(6)
+}
+
+model billing_agreements {
+  id           Int       @id @default(autoincrement())
+  reference_id Int       @default(autoincrement())
+  created      DateTime? @db.Timestamp(6)
+  first_name   String    @db.VarChar(255)
+  last_name    String    @db.VarChar(255)
+  status       String?
+  updated      DateTime? @db.Timestamp(6)
+  action       Boolean?
+}
+
+model cart_price_rules {
+  id                                     Int       @id @default(autoincrement())
+  rule                                   String?   @db.VarChar(255)
+  description                            String?   @db.VarChar(255)
+  active                                 Boolean?
+  coupon                                 String?
+  uses_per_customer                      String?
+  priority                               String?
+  start_date                             DateTime? @db.Date
+  end_date                               DateTime? @db.Date
+  status                                 String?
+  website                                String?
+  actions_apply                          String?
+  actions_discount_amount                Decimal?  @db.Decimal
+  actions_discard_subsequent_rules       Boolean?
+  actions_max_qty_discount_is_applied_to Decimal?  @db.Decimal
+  actions_discount_qty_step              Decimal?  @db.Decimal
+  actions_apply_shipping_amount          Boolean?
+}
+
+model catalog_price_rule {
+  id                               Int       @id @default(autoincrement())
+  rule                             String?   @db.VarChar(255)
+  description                      String?   @db.VarChar(255)
+  active                           Boolean?
+  customer_groups                  String?
+  priority                         String?
+  start_date                       DateTime? @db.Date
+  end_date                         DateTime? @db.Date
+  status                           String?
+  website                          String?
+  actions_apply                    String?
+  actions_discount_amount          Decimal?  @db.Decimal
+  actions_discard_subsequent_rules Boolean?
+}
+
+model categories {
+  id               Int      @id @default(autoincrement())
+  thumbnail        String?
+  name             String   @db.VarChar(255)
+  visibility       String?
+  status           Boolean?
+  websites         String?
+  product          String?
+  country          String?
+  description      String?  @db.VarChar
+  content          String?  @db.VarChar(255)
+  image            String?
+  meta_title       String?
+  meta_keywords    String?
+  meta_description String?
+  meta_url         String?
+}
+
+model cities {
+  id          Int     @id @default(autoincrement())
+  name        String  @db.VarChar(255)
+  description String?
+  state       String? @db.VarChar
+  country     String? @db.VarChar
+  postalCode  String?
+  image       String?
+}
+
+model comments {
+  id            Int       @id @default(autoincrement())
+  customer_name String    @db.VarChar(255)
+  description   String?   @db.VarChar(255)
+  image         String?
+  response      String?
+  published     DateTime? @db.Timestamp(6)
+}
+
+model core_store {
+  id          Int     @id @default(autoincrement())
+  key         String? @db.VarChar(255)
+  value       String?
+  type        String? @db.VarChar(255)
+  environment String? @db.VarChar(255)
+  tag         String? @db.VarChar(255)
+}
+
+model countries {
+  id          Int     @id @default(autoincrement())
+  name        String  @db.VarChar(255)
+  description String?
+  image       String?
+  region      String?
+}
+
+model coupons {
+  id         Int       @id @default(autoincrement())
+  name       String    @db.VarChar(255)
+  excerpt    String?   @db.VarChar(255)
+  discount   Decimal?  @db.Money
+  image      String?
+  published  DateTime? @db.Timestamp(6)
+  expiration DateTime? @db.Date
+  categories String?
+  articles   String?
+  products   String?
+  customers  String?
+  users      String?
+}
+
+model credit_memos {
+  credit_memo  Int       @id @default(autoincrement())
+  order_number Int       @default(autoincrement())
+  created      DateTime? @db.Timestamp(6)
+  bill_to_name String    @db.VarChar(255)
+  status       String?
+  refunded     Int?
+  action       Boolean?
+}
+
+model currency_rates {
+  import_service String   @id
+  usd            Decimal? @db.Money
+}
+
+model currency_symbols {
+  symbol       String   @id
+  use_standard Boolean?
+}
+
+model customers {
+  id                Int       @id @default(autoincrement())
+  thumbnail         String?
+  name_prefix       String?
+  first_name        String
+  middle_name       String?
+  last_name         String
+  email             String
+  customer_group    String?
+  phone             String?
+  zipcode           String?
+  name_suffix       String?
+  websites          String?
+  product           String?
+  country           String?
+  state             String?
+  customer_since    DateTime? @default(now()) @db.Timestamptz(6)
+  confirmed_email   String?
+  date_of_birth     String?
+  tax_vat_number    String?
+  gender            String?
+  description       String?
+  short_description String?
+  image             String?
+  Address           String?
+  address_two       String?
+}
+
+model gift_certificates {
+  id             Int       @id @default(autoincrement())
+  name           String    @db.VarChar(255)
+  excerpt        String?   @db.VarChar(255)
+  discount       Decimal?  @db.Money
+  image          String?
+  published      DateTime? @db.Timestamp(6)
+  special_offers String?
+  rewards        String?
+  coupons        String?
+  expiration     DateTime? @db.Date
+  categories     String?
+  articles       String?
+  products       String?
+  customers      String?
+  users          String?
+}
+
+model glossary {
+  id        Int       @id @default(autoincrement())
+  name      String    @db.VarChar(255)
+  content   String?
+  image     String?
+  published DateTime? @db.Timestamp(6)
+}
+
+model invoices {
+  invoice               Int       @id @default(autoincrement())
+  order_number          Int       @default(autoincrement())
+  invoice_date          DateTime? @db.Timestamp(6)
+  bill_to_name          String    @db.VarChar(255)
+  billing_address       String?   @db.VarChar(255)
+  grand_total_base      Int?
+  grand_total_purchased Int?
+  status                Boolean?
+  action                Boolean?
+  shipping_address      String?   @db.VarChar(255)
+  customer_name         String?   @db.VarChar(255)
+  email                 String?   @db.VarChar(255)
+  customer_group        String?
+  payment_method        String?
+  shipping_information  String?
+  subtotal              Int?
+  shipping_and_handling Int?
+}
+
+model newsletter_queue {
+  id          Int       @id @default(autoincrement())
+  queue_start DateTime? @db.Date
+  queue_end   DateTime? @db.Date
+  subject     String?   @db.VarChar(255)
+  status      Boolean?
+  processed   DateTime? @db.Date
+  recipients  DateTime? @db.Date
+  action      String?
+}
+
+model newsletter_subscribers {
+  id                  Int     @id @default(autoincrement())
+  name                String  @db.VarChar(255)
+  email               String  @db.VarChar(255)
+  type                String?
+  customer_first_name String? @db.VarChar(255)
+  customer_last_name  String? @db.VarChar(255)
+  store               String?
+  status              String?
+  websites            String?
+}
+
+model orders {
+  id                           Int       @id @default(autoincrement())
+  purchase_point               Int?
+  purchase_date                DateTime? @db.Timestamp(6)
+  bill_to_name                 String    @db.VarChar(255)
+  ship_to_name                 String?   @db.VarChar(255)
+  grand_total_base             Int?
+  grand_total_purchased        Int?
+  status                       Boolean?
+  action                       Boolean?
+  allocated_sources            String?
+  braintree_transaction_source String?
+}
+
+model pages {
+  id               Int      @id @default(autoincrement())
+  enable_page      Boolean?
+  title            String   @db.VarChar(255)
+  content_title    String?  @db.VarChar(255)
+  content          String?
+  url_key          String?
+  meta_title       String?
+  meta_keywords    String?
+  meta_description String?
+}
+
+model polls {
+  id          Int       @id @default(autoincrement())
+  name        String    @db.VarChar(255)
+  excerpt     String?   @db.VarChar(255)
+  description String?
+  image       String?
+  published   DateTime? @db.Timestamp(6)
+  question    String?   @db.VarChar(255)
+  response    String?   @db.VarChar(255)
+  categories  String?
+  articles    String?
+  products    String?
+  customers   String?
+  users       String?
+}
+
+model product_attribute {
+  id                                Int      @id @default(autoincrement())
+  default_label                     String?
+  catalog_input_type_store_owner    String?
+  values_required                   Boolean?
+  attribute_code                    String?
+  scope                             String?
+  default_value                     String?
+  unique_value                      Boolean?
+  input_validation_store_owner      String?
+  add_column_options                Boolean?
+  filter_options                    Boolean?
+  use_search                        Boolean?
+  comparable_storefront             Boolean?
+  layered_navigation                Boolean?
+  search_results_layered_navigation Boolean?
+  position                          String?
+  promo_rule_conditions             Boolean?
+  allow_html_tags_storefront        Boolean?
+  visible_catalog_pages_storefront  Boolean?
+  used_product_listing              Boolean?
+  used_sorting_product_listing      Boolean?
+}
+
+model product_attribute_set {
+  id       Int     @id @default(autoincrement())
+  name     String  @db.VarChar(255)
+  based_on String?
+}
+
+model products {
+  id                  BigInt    @id @default(autoincrement())
+  sku                 BigInt    @unique @default(autoincrement())
+  thumbnail           String?
+  name                String    @db.VarChar(255)
+  type                String?
+  attribute_set       String?
+  price               Decimal?  @db.Money
+  quantity_per_source String?
+  salable_quantity    String?
+  visibility          String?
+  status              Boolean?
+  websites            String?
+  product             String?
+  tax_class           String?
+  stock_status        String?
+  weight              Int?
+  categories          String?
+  new_from            DateTime? @default(now()) @db.Timestamptz(6)
+  country             String?
+  size                Int?
+  format              String?
+  height              BigInt?
+  content             String?
+  short_description   String?
+  image               String?
+  meta_title          String?
+  meta_keywords       String?
+  meta_description    String?
+  meta_url            String?
+  file                String?
+  to_date             DateTime? @db.Date
+  manufacture         String?
+}
+
+model quotes {
+  id         Int       @id @default(autoincrement())
+  name       String    @db.VarChar(255)
+  excerpt    String?   @db.VarChar(255)
+  image      String?
+  published  DateTime? @db.Timestamp(6)
+  categories String?
+  articles   String?
+  products   String?
+  customers  String?
+  users      String?
+}
+
+model rating {
+  id                 Int      @id @default(autoincrement())
+  default_value      String?
+  default_store_view String?
+  rating_visibility  String?
+  active             Boolean?
+  sort_order         Decimal? @db.Decimal
+}
+
+model reports {
+  id             Int       @id @default(autoincrement())
+  customer       String?
+  email          String?
+  products       String?
+  quantity       Decimal?  @db.Decimal
+  subtotal       String?
+  applied_coupon String?
+  created        DateTime? @default(now()) @db.Timestamp(6)
+  updated        DateTime? @default(now()) @db.Timestamp(6)
+  ip_address     String?
+}
+
+model reviews {
+  id       Int      @id @default(autoincrement())
+  name     String   @db.VarChar(255)
+  sku      Int      @default(autoincrement())
+  price    Decimal? @db.Decimal
+  quantity Decimal? @db.Decimal
+  status   Boolean?
+  websites String?
+}
+
+model reward_points {
+  id         Int       @id @default(autoincrement())
+  name       String    @db.VarChar(255)
+  excerpt    String?   @db.VarChar(255)
+  discount   Decimal?  @db.Money
+  image      String?
+  published  DateTime? @db.Timestamp(6)
+  coupons    String?
+  expiration DateTime? @db.Date
+  categories String?
+  articles   String?
+  products   String?
+  customers  String?
+  users      String?
+}
+
+model role {
+  id        Int    @id @default(autoincrement())
+  role_name String @db.VarChar(255)
+}
+
+model shipments {
+  shipment       Int       @id @default(autoincrement())
+  order_number   Int       @default(autoincrement())
+  ship_date      DateTime? @db.Timestamp(6)
+  ship_to_name   String    @db.VarChar(255)
+  order_date     DateTime? @db.Timestamp(6)
+  total_quantity Int?
+  action         Boolean?
+}
+
+model shops {
+  id                Int     @id @default(autoincrement())
+  name              String  @db.VarChar(255)
+  description       String?
+  image             String?
+  website           String? @db.VarChar(255)
+  products          String?
+  articles          String?
+  customers         String?
+  comments          String?
+  coupons           String?
+  categories        String?
+  polls             String?
+  quotes            String?
+  reviews           String?
+  gift_certificates String?
+  rating            String?
+  tags              String?
+  users             String?
+  invoices          String?
+  reports           String?
+  reward_points     String?
+  special_discounts String?
+  statistics        String?
+  stocks            String?
+}
+
+model source {
+  id              Int      @id @default(autoincrement())
+  name            String   @db.VarChar(255)
+  code            Int      @default(autoincrement())
+  enabled         Boolean?
+  description     String?  @db.VarChar(255)
+  latitude        String?
+  longitude       String?
+  pickup_location Boolean?
+  contact_name    String?  @db.VarChar(255)
+  email           String?  @db.VarChar(255)
+  phone           Decimal? @db.Decimal
+  fax             Decimal? @db.Decimal
+  country         String?
+  state           String?
+  city            String?
+  street          String?
+  postcode        Decimal? @db.Decimal
+}
+
+model special_discounts {
+  id         Int       @id @default(autoincrement())
+  name       String    @db.VarChar(255)
+  excerpt    String?   @db.VarChar(255)
+  discount   Decimal?  @db.Money
+  image      String?
+  published  DateTime? @db.Timestamp(6)
+  rewards    String?
+  coupons    String?
+  expiration DateTime? @db.Date
+  categories String?
+  articles   String?
+  products   String?
+  customers  String?
+  users      String?
+}
+
+model states {
+  id          Int     @id @default(autoincrement())
+  name        String  @db.VarChar(255)
+  description String?
+  country     String?
+  image       String?
+}
+
+model statistics {
+  id             Int       @id @default(autoincrement())
+  name           String    @db.VarChar(255)
+  excerpt        String?   @db.VarChar(255)
+  description    String?
+  image          String?
+  published      DateTime? @db.Timestamp(6)
+  special_offers String?
+  reports        String?
+  rewards        String?
+  coupons        String?
+  expiration     DateTime? @db.Date
+  categories     String?
+  articles       String?
+  products       String?
+  customers      String?
+  users          String?
+}
+
+model stocks {
+  id          Int      @id @default(autoincrement())
+  name        String   @db.VarChar(255)
+  enabled     Boolean?
+  description String?  @db.VarChar(255)
+  website     String?
+  sources     String?
+}
+
+model tags {
+  id         Int     @id @default(autoincrement())
+  name       String  @db.VarChar(255)
+  excerpt    String? @db.VarChar(255)
+  categories String?
+  articles   String?
+  products   String?
+  customers  String?
+  users      String?
+}
+
+model tax_rate {
+  id                 Int      @id @default(autoincrement())
+  tax_identifier     Int      @default(autoincrement())
+  zip_post_is_range  Boolean?
+  postcode           Decimal? @db.Decimal
+  state              String?
+  country            String?
+  rate_percent       Decimal? @db.Decimal
+  default_store_view String?
+}
+
+model tax_rule {
+  id       Int     @id @default(autoincrement())
+  name     String  @db.VarChar(255)
+  tax_rate String?
+}
+
+model themes {
+  id           Int     @id @default(autoincrement())
+  title        String?
+  parent_theme String?
+  theme_path   String?
+  action       String?
+}
+
+model transactions {
+  id                    Int       @id @default(autoincrement())
+  order_id              Int       @default(autoincrement())
+  transaction_id        Int       @default(autoincrement())
+  parent_transaction_id Int       @default(autoincrement())
+  created               DateTime? @db.Timestamp(6)
+  payment_method        String    @db.VarChar(255)
+  closed                String?
+}
+
+model upload_file {
+  id                Int       @id @default(autoincrement())
+  name              String    @db.VarChar(255)
+  alternativeText   String?   @db.VarChar(255)
+  caption           String?   @db.VarChar(255)
+  width             Int?
+  height            Int?
+  formats           Json?
+  hash              String    @db.VarChar(255)
+  ext               String?   @db.VarChar(255)
+  mime              String    @db.VarChar(255)
+  size              Decimal   @db.Decimal(10, 2)
+  url               String    @db.VarChar(255)
+  previewUrl        String?   @db.VarChar(255)
+  provider          String    @db.VarChar(255)
+  provider_metadata Json?
+  created_by        Int?
+  updated_by        Int?
+  created_at        DateTime? @default(now()) @db.Timestamptz(6)
+  updated_at        DateTime? @default(now()) @db.Timestamptz(6)
+}
+
+model upload_file_morph {
+  id             Int     @id @default(autoincrement())
+  upload_file_id Int?
+  related_id     Int?
+  related_type   String?
+  field          String?
+  order          Int?
+}
+
+model url_rewrites {
+  id            Int      @id @default(autoincrement())
+  request_path  String?
+  description   String?  @db.VarChar(255)
+  redirect_type Boolean?
+  target_path   String?
+  store         String?
+}
+
+model users {
+  id               Int       @id @default(autoincrement())
+  username         String    @db.VarChar(255)
+  first_name       String    @db.VarChar(255)
+  last_name        String?   @db.VarChar(255)
+  email            String    @db.VarChar(255)
+  password         Decimal   @db.Decimal
+  interface_locale String?
+  active           Boolean?
+  expiration_date  DateTime? @db.Date
+  type_of_user     String?
+}

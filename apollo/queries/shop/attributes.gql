@@ -1,0 +1,8 @@
+query MyQuery {
+  product_attribute {
+    default_label
+    id
+    default_value
+    attribute_code
+  }
+}

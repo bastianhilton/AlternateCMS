@@ -1,0 +1,11 @@
+query MyQuery {
+  articles {
+    id
+    name
+    excerpt
+    content
+    categories
+    image
+    published
+  }
+}

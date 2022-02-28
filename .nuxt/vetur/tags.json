@@ -1,0 +1,23 @@
+{
+  "IoSocketStatus": {
+    "description": "Auto imported from node_modules/nuxt-socket-io/lib/components/SocketStatus.js"
+  },
+  "Breadcrumbs": {
+    "description": "Auto imported from components/Breadcrumbs.vue"
+  },
+  "Customerslimit": {
+    "description": "Auto imported from components/customerslimit.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "Newcustomers": {
+    "description": "Auto imported from components/newcustomers.vue"
+  },
+  "Reviewslimit": {
+    "description": "Auto imported from components/reviewslimit.vue"
+  }
+}

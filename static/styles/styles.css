@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+.topnav li {
+    display: grid;
+}
+
 .pageTitle {
     position: relative;
     padding-top: 15px;

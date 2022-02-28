@@ -2,128 +2,74 @@
   <div>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand"><button type="button" class="btn btn-primary">Add Segment</button></a>
-        <form class="d-flex input-group w-auto">
-          <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search By Keyword"
-            aria-describedby="search-addon" />
-          <span id="search-addon" class="input-group-text border-0">
-            <i class="fas fa-search"></i>
-          </span>
-        </form>
+        <a class="navbar-brand" href="/admin/add-new/add-new-segment"><FormulateInput type="button">Add Segment</FormulateInput></a>
+        
       </div>
     </nav>
     <br>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <ul class="navbar-nav">
-          <!-- Dropdown -->
-          <form action="/" class="filterAction">
-            <label for="actions">Actions: </label>
-            <select id="actions" name="actions">
-              <option value="volvo">Volvo</option>
-              <option value="saab">Saab</option>
-              <option value="opel">Opel</option>
-              <option value="audi">Audi</option>
-            </select>
-          </form>
-        </ul>
-        <h6 class="navTotal">3 items found</h6>
-        <ul class="nav navbar-nav ms-auto">
-          <form action="/" class="filterPage">
-            <select id="filterPagination" name="filterPagination">
-              <option value="twenty"> 20 </option>
-              <option value="thirty"> 30 </option>
-              <option value="fifty"> 50 </option>
-              <option value="onehundred"> 100 </option>
-              <option value="twohundred"> 200 </option>
-            </select>
-            <label for="cars">per page </label>
-          </form>
-          <nav aria-label="Page navigation example">
-            <ul class="pagination">
-              <li class="page-item">
-                <a class="page-link" href="#" aria-label="Previous">
-                  <span aria-hidden="true">&laquo;</span>
-                </a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#" aria-label="Next">
-                  <span aria-hidden="true">&raquo;</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </ul>
-      </div>
-    </nav>
-    <br>
-    <div class="table-responsive">
-      <table class="table table-striped">
-        <thead class="table-dark">
+    
+    <div class="table table-responsive">
+      <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-export="true" data-show-toggle="true" data-click-to-select="true" data-show-multi-sort="true" data-show-print="true" >
+        <thead class="table table-dark">
           <tr>
-            <th scope="col">
-              <div class="form-check">
-                <input id="flexCheckDefault" class="form-check-input" type="checkbox" value="" />
-              </div>
-            </th>
-            <th scope="col">ID</th>
-            <th scope="col">Segment</th>
-            <th scope="col">Status</th>
-            <th scope="col">Website</th>
+            <th>ID</th>
+            <th>Segment</th>
+            <th>Status</th>
+            <th>Website</th>
+            <th>Action</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody v-for="segments in segments" :key="segments.id">
           <tr>
-            <th scope="row">
-              <div class="form-check">
-                <input id="flexCheckDefault" class="form-check-input" type="checkbox" value="" />
-              </div>
-            </th>
-            <td><input id="segmentID" type="text" name="id"></td>
-            <td><input type="text"></td>
-            <td><select id="segmentStatus" name="status">
-                    <option value="status">Active</option>
-                    <option value="status">Inactive</option>
-                </select></td>
-            <td><select id="segmentWebsite" name="website">
-                    <option value="website">Main Website</option>
-                </select></td>
+            <td><FormulateInput id="segmentID" type="text" name=" id" /></td>
+            <td><FormulateInput type="text" name="segment" /></td>
+            <td><FormulateInput type="text" name="status" /></td>
+            <td><FormulateInput type="select" :options="categories.name" id="segmentStatus" name="status">
+                </FormulateInput></td>
+            <td><FormulateInput type="select" :options="website.name" id="segmentWebsite" name="website">
+                </FormulateInput></td>
           </tr>
           <tr>
-            <th scope="row">
-              <div class="form-check">
-                <input id="flexCheckDefault" class="form-check-input" type="checkbox" value="" />
-              </div>
-            </th>
-            <td>Adipisicing</td>
-            <td>Elit</td>
-            <td>Sint</td>
-            <td><a href="/">Edit</a></td>
-          </tr>
-          <tr>
-            <th scope="row">
-              <div class="form-check">
-                <input id="flexCheckDefault" class="form-check-input" type="checkbox" value="" />
-              </div>
-            </th>
-            <td>Hic</td>
-            <td>Fugiat</td>
-            <td>Temporibus</td>
-            <td><a href="/">Edit</a></td>
+            <td>{{ segments.id }}</td>
+            <td>{{ segments.name }}</td>
+            <td>{{ segments.status }}</td>
+            <td>{{ segments.website }}</td>
+            <td><a href="/">View</a></td>
           </tr>
         </tbody>
       </table>
     </div>
+
   </div>
 </template>
 
 <script>
+ import segments from '~/apollo/queries/customers/segments'
+ import website from '~/apollo/queries/shop/website'
+ import categories from '~/apollo/queries/shop/categories'
 
-  export default {
-
+export default {
+   data() {
+    return {
+      segments: [],
+      website: [],
+      categories: []
+    }
+  },
+  apollo: {
+    segments: {
+      prefetch: true,
+      query: segments
+    },
+    website: {
+      prefetch: true,
+      query: website
+    },
+    categories: {
+      prefetch: true,
+      query: categories
+    }
+  }, 
     head: {
       title: 'Customers Segments'
     }

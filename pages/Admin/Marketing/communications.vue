@@ -3,129 +3,61 @@
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
           <div class="dropdown">
-            <button id="dropdownMenuButton" class="btn btn-primary dropdown-toggle" type="button"
+            <FormulateInput id="dropdownMenuButton" class="btn btn-primary dropdown-toggle" type="button"
               data-mdb-toggle="dropdown" aria-expanded="false">
               Email
-            </button>
+            </FormulateInput>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li><a class="dropdown-item" href="#">Email Templates</a></li>
+              <li><a class="dropdown-item" href="/admin/add-new-email">Send An Email</a></li>
               <li><a class="dropdown-item" href="#">Email Reminders</a></li>
             </ul>
           </div>
-          <div class="dropdown" style="float:left; left: 8%; position: absolute;">
-            <button id="dropdownMenuButton" class="btn btn-primary dropdown-toggle" type="button"
-              data-mdb-toggle="dropdown" aria-expanded="false">
-              Newsletters
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li><a class="dropdown-item" href="#">Newsletter Templates</a></li>
-              <li><a class="dropdown-item" href="#">Newsletter Queue</a></li>
-              <li><a class="dropdown-item" href="#">Newsletter Subscribers</a></li>
-            </ul>
-          </div>
-          <form class="d-flex input-group w-auto">
-          <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search By Keyword"
-            aria-describedby="search-addon" />
-          <span id="search-addon" class="input-group-text border-0">
-            <i class="fas fa-search"></i>
-          </span>
-        </form>
-      </div>
-    </nav>
-    <br>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <h6 class="navTotal">3 items found</h6>
-        <ul class="nav navbar-nav ms-auto">
-          <form action="/" class="filterPage">
-            <select id="filterPagination" name="filterPagination">
-              <option value="twenty"> 20 </option>
-              <option value="thirty"> 30 </option>
-              <option value="fifty"> 50 </option>
-              <option value="onehundred"> 100 </option>
-              <option value="twohundred"> 200 </option>
-            </select>
-            <label for="cars">per page </label>
-          </form>
-          <nav aria-label="Page navigation example">
-            <ul class="pagination">
-              <li class="page-item">
-                <a class="page-link" href="#" aria-label="Previous">
-                  <span aria-hidden="true">&laquo;</span>
-                </a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#" aria-label="Next">
-                  <span aria-hidden="true">&raquo;</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </ul>
-      </div>
-    </nav>
-    <br>
-    <div class="table-responsive">
-      <table class="table table-striped">
-        <thead class="table-dark">
+          
+</div>
+</nav>
+<br>
+    <div class="table table-responsive">
+        <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-export="true" data-show-toggle="true" data-click-to-select="true" data-show-multi-sort="true" data-show-print="true" >
+        <thead class="table table-dark">
           <tr>
-            <th scope="col">
-              <div class="form-check">
-                <input id="flexCheckDefault" class="form-check-input" type="checkbox" value="" />
-              </div>
-            </th>
-            <th scope="col">ID</th>
-            <th scope="col">Group</th>
-            <th scope="col">Tax Class</th>
-            <th scope="col">Actions</th>
+            <th>ID</th>
+            <th>Customer Email</th>
+            <th>Email Subject</th>
+            <th>Email Created On</th>
+            <th>Actions</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody v-for="emails in emails" :key="emails.id">
           <tr>
-            <th scope="row">
-              <div class="form-check">
-                <input id="flexCheckDefault" class="form-check-input" type="checkbox" value="" />
-              </div>
-            </th>
-            <td>Sit</td>
-            <td>Amet</td>
-            <td>Consectetur</td>
-            <td><a href="/">Edit</a></td>
-          </tr>
-          <tr>
-            <th scope="row">
-              <div class="form-check">
-                <input id="flexCheckDefault" class="form-check-input" type="checkbox" value="" />
-              </div>
-            </th>
-            <td>Adipisicing</td>
-            <td>Elit</td>
-            <td>Sint</td>
-            <td><a href="/">Edit</a></td>
-          </tr>
-          <tr>
-            <th scope="row">
-              <div class="form-check">
-                <input id="flexCheckDefault" class="form-check-input" type="checkbox" value="" />
-              </div>
-            </th>
-            <td>Hic</td>
-            <td>Fugiat</td>
-            <td>Temporibus</td>
-            <td><a href="/">Edit</a></td>
+            <td>{{ emails.id }}</td>
+            <td>{{ emails.email }}</td>
+            <td>{{ emails.subject }}</td>
+            <td>{{ emails.created_at }}</td>
+            <td><a href="/">View</a></td>
           </tr>
         </tbody>
       </table>
     </div>
+
   </div>
 </template>
 
 <script>
-  export default {
+ // eslint-disable-next-line camelcase
+ import emails from '~/apollo/queries/marketing/emails'
 
+export default {
+  data() {
+    return {
+      emails: [],
+    }
+  },
+  apollo: {
+    emails: {
+      prefetch: true,
+      query: emails
+    }
+  }, 
     head: {
       title: 'Communications'
     }

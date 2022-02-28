@@ -2,111 +2,53 @@
   <div>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand"><button type="button" class="btn btn-primary">Add New Customer Group</button></a>
-        <form class="d-flex input-group w-auto">
-          <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search By Keyword"
-            aria-describedby="search-addon" />
-          <span id="search-addon" class="input-group-text border-0">
-            <i class="fas fa-search"></i>
-          </span>
-        </form>
-      </div>
-    </nav>
-    <br>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <h6 class="navTotal">3 items found</h6>
-        <ul class="nav navbar-nav ms-auto">
-          <form action="/" class="filterPage">
-            <select id="filterPagination" name="filterPagination">
-              <option value="twenty"> 20 </option>
-              <option value="thirty"> 30 </option>
-              <option value="fifty"> 50 </option>
-              <option value="onehundred"> 100 </option>
-              <option value="twohundred"> 200 </option>
-            </select>
-            <label for="cars">per page </label>
-          </form>
-          <nav aria-label="Page navigation example">
-            <ul class="pagination">
-              <li class="page-item">
-                <a class="page-link" href="#" aria-label="Previous">
-                  <span aria-hidden="true">&laquo;</span>
-                </a>
-              </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link" href="#" aria-label="Next">
-                  <span aria-hidden="true">&raquo;</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </ul>
-      </div>
-    </nav>
-    <br>
-    <div class="table-responsive">
-      <table class="table table-striped">
-        <thead class="table-dark">
+        <a class="navbar-brand" href="/admin/add-new/add-new-customergroup"><FormulateInput type="button">Add New Customer Group</FormulateInput></a>
+        
+</div>
+</nav>
+<br>
+    <div class="table table-responsive">
+        <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-export="true" data-show-toggle="true" data-click-to-select="true" data-show-multi-sort="true" data-show-print="true" >
+        <thead class="table table-dark">
           <tr>
-            <th scope="col">
-              <div class="form-check">
-                <input id="flexCheckDefault" class="form-check-input" type="checkbox" value="" />
-              </div>
-            </th>
-            <th scope="col">ID</th>
-            <th scope="col">Group</th>
-            <th scope="col">Tax Class</th>
-            <th scope="col">Actions</th>
+            <th>ID</th>
+            <th>Customer Group</th>
+            <th>Tax Class</th>
+            <th>Created</th>
+            <th>Action</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody v-for="customers in customer_group" :key="customers.id">
           <tr>
-            <th scope="row">
-              <div class="form-check">
-                <input id="flexCheckDefault" class="form-check-input" type="checkbox" value="" />
-              </div>
-            </th>
-            <td>Sit</td>
-            <td>Amet</td>
-            <td>Consectetur</td>
-            <td><a href="/">Edit</a></td>
-          </tr>
-          <tr>
-            <th scope="row">
-              <div class="form-check">
-                <input id="flexCheckDefault" class="form-check-input" type="checkbox" value="" />
-              </div>
-            </th>
-            <td>Adipisicing</td>
-            <td>Elit</td>
-            <td>Sint</td>
-            <td><a href="/">Edit</a></td>
-          </tr>
-          <tr>
-            <th scope="row">
-              <div class="form-check">
-                <input id="flexCheckDefault" class="form-check-input" type="checkbox" value="" />
-              </div>
-            </th>
-            <td>Hic</td>
-            <td>Fugiat</td>
-            <td>Temporibus</td>
-            <td><a href="/">Edit</a></td>
+            <td>{{ customers.id }}</td>
+            <td>{{ customers.name }}</td>
+            <td>{{ customers.tax_class }}</td>
+            <td>{{ customers.created_at }}</td>
+            <td><a href="/">View</a></td>
           </tr>
         </tbody>
       </table>
     </div>
+
   </div>
 </template>
 
 <script>
+// eslint-disable-next-line camelcase
+import customer_group from '~/apollo/queries/customers/customerGroups'
 
-  export default {
-
+export default {
+  data() {
+    return {
+      customer_group: [],
+    }
+  },
+  apollo: {
+    customer_group: {
+      prefetch: true,
+      query: customer_group
+    }
+  },
     head: {
       title: 'Customers Group'
     }

@@ -1,0 +1,10 @@
+query MyQuery {
+  emails {
+    id
+    recipients
+    subject
+    title
+    created_at
+    content
+  }
+}

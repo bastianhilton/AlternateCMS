@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark topnav">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
                 data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -10,8 +10,7 @@
 
             <div id="navbarSupportedContent" class="collapse navbar-collapse">
                 <a class="navbar-brand mt-2 mt-lg-0" href="/">
-                    <img src="~/static/styles/logo.png" height="15" alt=""
-                        loading="lazy" />
+                    AlternateCMS
                 </a>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <!--Sales Dropdown-->
@@ -37,10 +36,13 @@
                                 <a class="dropdown-item" href="/admin/sales/returns">Returns</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/sales/billing-agreements">Billing Agreements</a>
+                                <a class="dropdown-item" href="/admin/sales/agreements">Agreements</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/sales/transactions">Transactions</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/sales/certificates">Gift Certificates</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/sales/payment-virtual-terminal">Payment Virtual Terminal</a>
@@ -76,22 +78,22 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li>
-                                <a class="dropdown-item" href="/admin/marketing/promotions">Promotions</a>
+                                <a class="dropdown-item" href="/admin/marketing/events">Events</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/marketing/private-sales">Private Sales</a>
+                                <a class="dropdown-item" href="/admin/marketing/invitations">Invitations</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/marketing/seo">SEO & Search</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/marketing/customer-engagement">Customer Engagement</a>
+                                <a class="dropdown-item" href="/admin/marketing/newsletter">Newsletter</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/marketing/communications">Communications</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/marketing/user-content">User Content</a>
+                                <a class="dropdown-item" href="/admin/marketing/reviews">Reviews</a>
                             </li>
                         </ul>
                     </li>
@@ -112,10 +114,10 @@
                                 <a class="dropdown-item" href="/admin/content/media-manager">Media Manager</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/content/theme-manager">Theme Manager</a>
+                                <a class="dropdown-item" href="/admin/content/tags">Tags</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/content/design-schedule">Design Schedule</a>
+                                <a class="dropdown-item" href="/admin/content/glossary">Glossary</a>
                             </li>
                         </ul>
                     </li>
@@ -166,22 +168,28 @@
                                 <a class="dropdown-item" href="/admin/shop/categories">Categories</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/shop/currency">Currency</a>
+                                <a class="dropdown-item" href="/admin/shop/collections">Collections</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/shop/inventory">Inventory</a>
+                                <a class="dropdown-item" href="/admin/shop/cities">Cities</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/shop/countries">Countries</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/shop/states">States</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/shop/attributes">Attributes</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/shop/taxes">Taxes</a>
+                                <a class="dropdown-item" href="/admin/shop/coupons">Coupons</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/shop/multi-vendor">Multi-Vendor</a>
+                                <a class="dropdown-item" href="/admin/shop/tax-rule">Tax Rule</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/shop/fullfillment">Fullfillment</a>
+                                <a class="dropdown-item" href="/admin/shop/tax-rate">Tax Rate</a>
                             </li>
                         </ul>
                     </li>
@@ -193,23 +201,20 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li>
-                                <a class="dropdown-item" href="/admin/system/data-transfer">Data Transfer</a>
+                                <a class="dropdown-item" href="/admin/system/general-settings">General Settings</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/system/permissions">Permissions</a>
+                                <a class="dropdown-item" href="/admin/system/integrations">Integrations</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/system/integrations-marketplace">Integrations Marketplace</a>
+                                <a class="dropdown-item" href="/admin/system/role-manager">Role Manager</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/system/action-logs">Action Logs</a>
+                                <a class="dropdown-item" href="/admin/system/help">Help Center</a>
                             </li>
-                            <li>
-                                <a class="dropdown-item" href="/admin/system/tools">Tools</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="/admin/system/settings">Other Settings</a>
-                            </li>
+                            <!--<li>
+                                <a class="dropdown-item" href="/admin/system/settings">Profile Settings</a>
+                            </li>-->
                         </ul>
                     </li>
                 </ul>
@@ -218,7 +223,7 @@
             <div class="d-flex align-items-center">
                 <!-- Search -->
                 <form class="d-flex input-group w-auto">
-                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                    <input type="search" class="form-control rounded" label="Search" aria-label="Search"
                         aria-describedby="search-addon" />
                     <span id="search-addon" class="input-group-text border-0">
                         <i class="fas fa-search"></i>

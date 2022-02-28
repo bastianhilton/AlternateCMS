@@ -10,15 +10,15 @@
     </div>-->
     <div class="row">
 
-            <div class="table-responsive table-bordered orderTable col">
+            <div class="table table-responsive table-bordered orderTable col">
                 <h4>Sales</h4>
-                <table class="table">
+                <table class="table table">
                     <thead>
                         <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">Lifetime Sales</th>
-                            <th scope="col">Average Order</th>
-                            <th scope="col"># of Shops</th>
+                            <th>#</th>
+                            <th>Lifetime Sales</th>
+                            <th>Average Order</th>
+                            <th># of Shops</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -44,14 +44,14 @@
                 </table>
             </div>
             <!-- Latest Orders -->
-            <div class="table-responsive table-bordered latestOrders col">
-                <table class="table">
-                    <h4>Last Orders</h4>
+            <div class="table table-responsive table-bordered orderTable col">
+                <h4>Last Orders</h4>
+                <table class="table table">
                     <thead>
                         <tr>
-                            <th scope="col">Customer</th>
-                            <th scope="col">Items</th>
-                            <th scope="col">Total</th>
+                            <th>Customer</th>
+                            <th>Items</th>
+                            <th>Total</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -74,14 +74,14 @@
                 </table>
             </div>
             <!-- Latest Search Terms -->
-            <div class="table-responsive table-bordered latestOrders col">
-                <table class="table">
-                    <h4>Last Search Terms</h4>
+            <div class="table table-responsive table-bordered orderTable col">
+                <h4>Last Search Terms</h4>
+                <table class="table table">
                     <thead>
                         <tr>
-                            <th scope="col">Search Term</th>
-                            <th scope="col">Results</th>
-                            <th scope="col">Uses</th>
+                            <th>Search Term</th>
+                            <th>Results</th>
+                            <th>Uses</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -132,13 +132,13 @@
         <!-- Pills content -->
         <div id="ex2-content" class="tab-content">
             <div id="ex2-pills-1" class="tab-pane fade show active" role="tabpanel" aria-labelledby="ex2-tab-1">
-                <div class="table-responsive table-bordered latestOrders col">
-                    <table class="table">
+                <div class="table table-responsive table-bordered latestOrders col">
+                    <table class="table table">
                         <thead>
                             <tr>
-                                <th scope="col">Product</th>
-                                <th scope="col">Price</th>
-                                <th scope="col">Quantity</th>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -162,13 +162,13 @@
                 </div>
             </div>
             <div id="ex2-pills-2" class="tab-pane fade" role="tabpanel" aria-labelledby="ex2-tab-2">
-                <div class="table-responsive table-bordered latestOrders col">
-                    <table class="table">
+                <div class="table table-responsive table-bordered latestOrders col">
+                    <table class="table table">
                         <thead>
                             <tr>
-                                <th scope="col">Product</th>
-                                <th scope="col">Price</th>
-                                <th scope="col">How Many Times Viewed</th>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>How Many Times Viewed</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -192,106 +192,13 @@
                 </div>
             </div>
             <div id="ex2-pills-3" class="tab-pane fade" role="tabpanel" aria-labelledby="ex2-tab-3">
-                <div class="table-responsive table-bordered latestOrders col">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col">Customer</th>
-                                <th scope="col">Orders</th>
-                                <th scope="col">Average</th>
-                                <th scope="col">Total</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>Otto</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>Thornton</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>Thornton</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <Newcustomers />
             </div>
             <div id="ex2-pills-4" class="tab-pane fade" role="tabpanel" aria-labelledby="ex2-tab-4">
-                <div class="table-responsive table-bordered latestOrders col">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col">Customer</th>
-                                <th scope="col">Orders</th>
-                                <th scope="col">Average</th>
-                                <th scope="col">Total</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>Otto</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>Thornton</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>Thornton</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <Customerslimit />
             </div>
             <div id="ex2-pills-5" class="tab-pane fade" role="tabpanel" aria-labelledby="ex2-tab-5">
-                <div class="table-responsive table-bordered latestOrders col">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th scope="col">Customer</th>
-                                <th scope="col"># of Comments</th>
-                                <th scope="col">Date</th>
-                                <th scope="col">Message</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>Otto</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>Thornton</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>Thornton</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <Reviewslimit />
             </div>
         </div>
   </div>
@@ -299,18 +206,15 @@
 
 <script>
 // import products from '~/apollo/queries/shop/products'
+import Customerslimit from '~/components/customerslimit'
+import Newcustomers from '~/components/newcustomers'
+import Reviewslimit from '~/components/reviewslimit'
 
 export default {
- /* data() {
-    return {
-      products: [],
-    }
-  },
-  apollo: {
-    products: {
-      prefetch: true,
-      query: products
-    }
-  }, */
+
+  components: { Newcustomers, Customerslimit, Reviewslimit},
+  head: {
+      title: "AlternateCMS"
+  }
 }
 </script>

@@ -1,4 +1,6 @@
+
 export default {
+  target: 'static',
   head: {
     title: 'AlternateCMS',
     meta: [{
@@ -18,118 +20,134 @@ export default {
         content: 'telephone=no'
       }
     ],
-    link: [{
-        rel: 'icon',
-        type: 'image/x-icon',
-        href: '/favicon.ico'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.css'
-      },
+    link: [{rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
+      {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'},
+      {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap'},
+      {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.css'},
     ],
-    script: [{ src: 'https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.js', mode: 'client' },
-      { src: 'https://cdn.headwayapp.co/widget.js', mode: 'client' },
+    script: [
       { src: 'https://cdn.jsdelivr.net/npm/chart.js', mode: 'client' },
+      { src: 'https://polyfill.io/v3/polyfill.min.js?features=es2015', mode: 'client' },
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.js', mode: 'client' },
+      // { src: 'https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js', mode: 'client' },
     ]
   },
 
   css: [
     '~/static/styles/styles.css',
     'simplemde/dist/simplemde.min.css',
+    '~/static/styles/snow.min.css',
+    '~/static/styles/bootstrap-table.css'
   ],
 
-  script: [],
-
-  /* router: {
-    middleware: ['ssr-cookie']
-  }, */
+  script: [
+    { src: '~/static/styles/bootstrap-table.js', mode: 'client' },
+    { src: '~/static/styles/bootstrap-table-locale-all.js', mode: 'client' }
+  ],
 
   plugins: [
     { src: '~plugins/simplemde.js', mode: 'client' },
-    // '~/plugins/auth.js'
+    { src: '~plugins/main.js', mode: 'client' },
+    { src: '~plugins/vue-scrollama.js', mode: 'client' },
+    // { src: '~plugins/vue-chart.js', mode: 'client' },
   ],
 
   components: true,
-  middleware: ['auth'],
+  middleware: [],
 
   buildModules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/dotenv',
     '@aceforth/nuxt-optimized-images',
-    'nuxt-client-init-module',
-    'nuxt-headway',
+    '@nuxtjs/moment',
+    '@braid/vue-formulate/nuxt',
   ],
-
-  headway: {
-    account: '7zjnG7'
-  },
 
   optimizedImages: {
     optimizeImages: true
   },
 
   modules: [
-    // 'bootstrap-vue/nuxt',
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
-    '@nuxt/content',
     '@nuxtjs/sentry',
-    ['nuxt-stripe-module', {
-      publishableKey: 'YOUR_STRIPE_PUBLISHABLE_KEY',
-    }],
-    // 'nuxt-adyen-module',
-    {
-      src: '@nuxtjs/lunr-module',
-      // These are the default options:
-      options: {
-        includeComponent: true,
-        globalComponent: false,
-        css: true,
-        defaultLanguage: 'en',
-        languages: false,
-        path: 'search-index',
-        ref: 'id',
-        fields: [
-          'title',
-          'body'
-        ]
-      }
-    },
-    'nuxt-highcharts',
     '@nuxtjs/apollo',
     '@nuxtjs/auth-next',
-    'nuxt-helmet',
-    '@nuxtjs/moment',
+    'nuxt-leaflet',
+    '@nuxtjs/i18n',
+    '@nuxtjs/gtm',
+    'nuxt-socket-io',
+    '@nuxtjs/universal-storage',
+    '@nuxtjs/recaptcha',
+    '@nuxtjs/google-analytics',
+    '@nuxtjs/robots',
+    '@nuxtjs/google-adsense',
+    '@nuxtjs/sitemap',
   ],
 
-  helmet: {
-    /*
-    frameguard: false,
-    ...
-    */
- },
+    'google-adsense': {
+        id: 'ca-pub-#########'
+    },
+
+  sitemap: {
+    hostname: 'http://localhost'
+  },
+
+  googleAnalytics: {
+    id: 'UA-XXX-X'
+  },
+
+  storage: {
+      vuex: {
+        namespace: 'storage'
+      },
+      cookie: {
+        prefix: '',
+        options: {
+          path: '/'
+        }
+      },
+      localStorage: {
+        prefix: ''
+      },
+      ignoreExceptions: false,
+  },
+
+  io: {
+    sockets: [ // Required
+      { // At least one entry is required
+        name: 'home',
+        url: 'http://localhost:3000',
+        default: true,
+      },
+    ]
+  },
+
+  gtm: {
+    id: 'GTM-XXXXXXX'
+  },
+
+  i18n: {
+    locales: ['en', 'fr', 'es'],
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        en: {
+          welcome: 'Welcome'
+        },
+        fr: {
+          welcome: 'Bienvenue'
+        },
+        es: {
+          welcome: 'Bienvenido'
+        }
+      }
+    }
+  },
 
   auth: {
-    strategies: {
-      graphql: {
-        scheme: '~/schemes/graphqlScheme.js',
-      },
-    },
-    redirect: {
-      login: '/login',
-      logout: '/login?logout=true',
-      callback: false,
-      home: '/dashboard',
-    },
+    
   },
 
   axios: {
@@ -165,22 +183,18 @@ export default {
 
   content: {},
 
-  privateRuntimeConfig: {
-    host: process.env.DB_HOST,
-    username: process.env.DB_USERNAME,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_DATABASE,
-    port: process.env.DB_PORT
+  formulate: {
+    configPath: '~/formulate.config.js'
   },
 
-  serverMiddleware: [
-    { path: '/api', handler: '~/api'},
-  ],
+  publicRuntimeConfig: {
+    recaptcha: {
+      siteKey: process.env.RECAPTCHA_SITE_KEY, // for example
+      version: 3
+    }
+  },
 
   build: {
-    transpile: [],
-    extend(config, ctx) {
-      
-    }
+    extend(config, ctx) {},
   },
 }

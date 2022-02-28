@@ -1,11 +1,10 @@
 <template>
   <div>
-    <form action="" method="get">
+    <FormulateForm method="POST" @submit.prevent>
       <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand"><button type="button" class="btn btn-warning">Reset</button></a>
-          <a class="navbar-brand"><button type="button" class="btn btn-success">Save and Continue Edit</button></a>
-          <a class="navbar-brand"><button type="button" class="btn btn-primary">Save Customer</button></a>
+          <a class="navbar-brand"><FormulateInput type="reset" class="btn btn-warning" label="Reset" /></a>
+          <a class="navbar-brand"><FormulateInput type="button" @click="addCustomer">Save Customer</FormulateInput></a>
         </div>
       </nav>
       <br>
@@ -23,79 +22,88 @@
           <!-- Tab content -->
           <div id="v-tabs-tabContent" class="tab-content">
             <div id="v-tabs-home" class="tab-pane fade show active" role="tabpanel" aria-labelledby="v-tabs-home-tab">
-              <div class="table-responsive">
-                <table class="table">
+              <div class="table table-responsive">
+                <table class="table table">
                   <tbody>
-                    <tr>
-                      <td style="text-align: right;">Enable Customer</td>
-                      <td>
-                        <div class="form-check form-switch">
-                          <input id="flexSwitchCheckDefault" class="form-check-input" type="checkbox" role="switch" />
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td style="text-align: right;">Associate to Website</td>
-                      <td><select id="country" name="country">
-                          <option value="country">Main Website</option>
-                        </select></td>
-                    </tr>
-                    <tr>
-                      <td style="text-align: right;">Group</td>
-                      <td><select id="country" name="country">
-                          <option value="country">General</option>
-                        </select></td>
-                    </tr>
+                    <!--<tr>
+                      <td style="text-align: right;">Customer Since</td>
+                      <client-only>
+                      <td><FormulateInput id="currentDate" v-model="customer_since" type="text" disabled /></td>
+                      </client-only>
+                    </tr>-->
                     <tr>
                       <td style="text-align: right;">Name Prefix</td>
-                      <td><input type="text"></td>
+                      <td><FormulateInput v-model="name_prefix" type="text" /></td>
                     </tr>
                     <tr>
                       <td style="text-align: right;">First Name</td>
-                      <td><input type="text"></td>
+                      <td><FormulateInput v-model="first_name" type="text" required /></td>
                     </tr>
                     <tr>
                       <td style="text-align: right;">Middle Name/Initial</td>
-                      <td><input type="text"></td>
+                      <td><FormulateInput v-model="middle_name" type="text" /></td>
                     </tr>
                     <tr>
                       <td style="text-align: right;">Last Name</td>
-                      <td><input type="text"></td>
+                      <td><FormulateInput v-model="last_name" type="text" required /></td>
                     </tr>
                     <tr>
                       <td style="text-align: right;">Name Suffix</td>
-                      <td><input type="text"></td>
+                      <td><FormulateInput v-model="name_suffix" type="text" /></td>
                     </tr>
                     <tr>
                       <td style="text-align: right;">Email</td>
-                      <td><input type="text"></td>
+                      <td><FormulateInput v-model="email" type="text" required /></td>
                     </tr>
                     <tr>
                       <td style="text-align: right;">Date of Birth</td>
-                      <td><input type="date"></td>
+                      <td><FormulateInput v-model="date_of_birth" type="text" /></td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: right;">Phone Number</td>
+                      <td><FormulateInput v-model="phone" type="text" /></td>
                     </tr>
                     <tr>
                       <td style="text-align: right;">Tax/VAT Number</td>
-                      <td><input type="text"></td>
+                      <td><FormulateInput v-model="tax_vat_number" type="text" /></td>
                     </tr>
                     <tr>
                       <td style="text-align: right;">Gender</td>
-                      <td><select id="dhcp" name="dhcp">
-                          <option value="fc-dhcp">Female</option>
-                          <option value="fc-dhcp">Male</option>
-                          <option value="fc-dhcp">Not Specified</option>
-                        </select>
+                      <td><FormulateInput id="gender" v-model="gender" name="gender" type="text" />
                       </td>
                     </tr>
                     <tr>
-                      <td style="text-align: right;">Send Welcome Email From</td>
-                      <td><select id="categories" name="Select">
-                          <option value="fc-dhcp">Default Store View</option>
-                        </select></td>
+                      <td style="text-align: right;">About Customer</td>
+                      <td><FormulateInput
+  type="textarea" id="aboutCustomer" v-model="short_description" name="aboutCustomer">
+                        </FormulateInput></td>
                     </tr>
                     <tr>
-                      <td style="text-align: right;">Customer Code</td>
-                      <td><input type="text"></td>
+                      <td style="text-align: right;">Address Line 1</td>
+                      <td><FormulateInput v-model="Address" type="text" /></td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: right;">Address Line 2</td>
+                      <td><FormulateInput v-model="address_two" type="text" /></td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: right;">State</td>
+                      <td><FormulateInput id="state" v-model="state" name="state" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: right;">Postal Code</td>
+                      <td><FormulateInput v-model="zipcode" type="text" /></td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: right;">Country</td>
+                      <td><FormulateInput id="country" v-model="country" name="country" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: right;">Image</td>
+                      <td><dropzone id="dropzone" ref="myDropzone" v-model="image" :options="dropzoneOptions" @vdropzone-file-added="onFileAdded" @vdropzone-error="onError" @vdropzone-success="onSuccess" @vdropzone-complete="onComplete" />
+                      </td>
                     </tr>
                   </tbody>
                 </table>
@@ -105,20 +113,178 @@
           <!-- Tab content -->
         </div>
       </div>
-    </form>
+    </FormulateForm>
   </div>
 </template>
 
 <script>
-  export default {
+import gql from "graphql-tag";
+import customers from "~/apollo/queries/customers/customers"
 
-    head: {
-      title: 'New Customer'
+const ADD_CUSTOMERS = gql`
+    mutation ($first_name:String!,$middle_name:String!,$last_name:String!,$gender:String!,$email:String!,$description:String!,$date_of_birth:String!,$websites:String!,$customer_group:String!,$phone:String!,$zipcode:String!,$name_prefix:String!,$name_suffix:String!,$product:String!,$state:String!,$country:String!,$tax_vat_number: String!,$Address:String!,$address_two:String!,$short_description:String!,$image: String){
+    insert_customers(objects: {first_name: $first_name, middle_name: $middle_name, last_name: $last_name, gender: $gender, email: $email, description: $description, product: $product, state: $state, date_of_birth: $date_of_birth, websites: $websites, customer_group: $customer_group, phone: $phone, zipcode: $zipcode, name_suffix: $name_suffix, name_prefix: $name_prefix, country: $country, Address: $Address, address_two: $address_two, tax_vat_number: $tax_vat_number, short_description: $short_description, image: $image}) {
+        affected_rows
+        returning {
+            first_name
+            middle_name
+            last_name
+            gender
+            email
+            description
+            product
+            state
+            date_of_birth
+            websites
+            customer_group
+            phone
+            zipcode
+            name_prefix
+            name_suffix
+            tax_vat_number
+            country
+            Address
+            address_two
+            short_description
+            image
     }
   }
+}`;
 
+export default {
+
+    data() {
+    return {
+            first_name: " ",
+            middle_name: " ",
+            last_name: " ",
+            gender: " ",
+            email: " ",
+            description: " ",
+            date_of_birth: " ",
+            websites: " ",
+            customer_group: " ",
+            phone: " ",
+            product: " ",
+            zipcode: " ",
+            name_prefix: " ",
+            name_suffix: " ",
+            tax_vat_number: " ",
+            state: " ",
+            country: " ",
+            Address: " ",
+            address_two: " ",
+            short_description: " ",
+            image: " ",
+            dropzoneOptions: {
+                url: "../../static/media/",
+                thumbnailWidth: 150,
+                maxFileAddress: 10,
+                createImageThumbnails: true,
+                maxThumbnailFileSize: 4,
+                duplicateCheck: true,
+                includeStyling: true,
+                headers: { "My-Awesome-Header": "header value" }
+            }
+        }
+  },
+    head: {
+        title: 'Add New Customer'
+    }, 
+/* eslint-disable camelcase */
+   
+  methods: {
+      async addCustomer() {
+            const first_name = this.first_name;
+            const middle_name = this.middle_name;
+            const last_name = this.last_name;
+            const gender = this.gender;
+            const email = this.email;
+            const description = this.description;
+            const product = this.product;
+            const state = this.state;
+            const date_of_birth = this.date_of_birth;
+            const websites = this.websites;
+            const customer_group = this.customer_group;
+            const tax_vat_number = this.tax_vat_number;
+            const phone = this.phone;
+            const zipcode = this.zipcode;
+            const name_prefix = this.name_prefix;
+            const name_suffix = this.name_suffix;
+            const country = this.country;
+            const Address = this.Address;
+            const address_two = this.address_two;
+            const short_description = this.short_description;
+            const image = this.image;
+            await this.$apollo.mutate({
+                mutation: ADD_CUSTOMERS,
+                variables: {
+                    first_name,
+                    middle_name,
+                    last_name,
+                    gender,
+                    email,
+                    description,
+                    product,
+                    state,
+                    date_of_birth,
+                    tax_vat_number,
+                    websites,
+                    customer_group,
+                    phone,
+                    zipcode,
+                    name_prefix,
+                    name_suffix,
+                    country,
+                    Address,
+                    address_two,
+                    short_description,
+                    image,
+                 },
+        update: (cache, { data: { insertCustomers }}) => {
+                        // Read data from cache for this query
+                        try {
+                            const insertedCustomer = insertCustomers.returning;
+                            console.log(insertedCustomer)
+                            cache.writeQuery({
+                                query: customers
+                            })
+                        }
+                        catch (err) {
+                            console.error(err)
+                        }
+                    }
+                }).then(() => {
+                    this.$router.push({path: '../customers/all-customers'})
+                }).catch(err => console.log(err));
+                    this.first_name = ' ';
+                    this.middle_name = ' ';
+                    this.last_name = ' ';
+                    this.gender = ' ';
+                    this.email = ' ';
+                    this.description = ' ';
+                    this.product = ' ';
+                    this.state = ' ';
+                    this.date_of_birth = ' ';
+                    this.websites = ' ';
+                    this.customer_group = ' ';
+                    this.tax_vat_number = ' ';
+                    this.phone = ' ';
+                    this.zipcode = ' ';
+                    this.name_prefix = ' ';
+                    this.name_suffix = ' ';
+                    this.country = ' ';
+                    this.Address = ' ';
+                    this.address_two = ' ';
+                    this.short_description = ' ';
+                    this.image = ' ';
+                },
+        },
+}
 </script>
 
 <style>
-
+input, select, option {
+    padding: 5px;
+}
 </style>
