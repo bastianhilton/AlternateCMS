@@ -96,7 +96,7 @@
     "imagemin-pngquant": "^9.0.2",
     "imagemin-svgo": "^10.0.0",
     "lqip-loader": "^2.2.1",
-    "nightwatch": "^1.7.6",
+    "nightwatch": "^2.0.8",
     "node-fetch": "^2.6.1",
     "nodemon": "^2.0.15",
     "pg": "^8.7.1",
