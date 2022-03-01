@@ -32,7 +32,7 @@
     "@nuxtjs/sitemap": "^2.4.0",
     "@nuxtjs/universal-storage": "^0.5.9",
     "@prisma/client": "^3.8.0",
-    "@sentry/tracing": "^6.16.1",
+    "@sentry/tracing": "^6.18.1",
     "@sentry/vue": "^6.16.1",
     "@supabase/supabase-js": "^1.30.0",
     "ap-style-title-case": "^1.1.2",
