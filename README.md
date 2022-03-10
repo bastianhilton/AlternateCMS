@@ -1,0 +1,2 @@
+# alternatenuxt
+AlternateCMS Javascript Version
