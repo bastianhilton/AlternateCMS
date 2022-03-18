@@ -89,7 +89,32 @@ const _31b9c322 = () => interopDefault(import('..\\pages\\Admin\\System\\role-ma
 const _5ba22522 = () => interopDefault(import('..\\pages\\Admin\\System\\settings.vue' /* webpackChunkName: "pages/Admin/System/settings" */))
 const _0f36f970 = () => interopDefault(import('..\\pages\\Admin\\Customers\\customer\\newcustomer.vue' /* webpackChunkName: "pages/Admin/Customers/customer/newcustomer" */))
 const _3e76ee18 = () => interopDefault(import('..\\pages\\Admin\\Shop\\Product\\Edit\\_id.vue' /* webpackChunkName: "pages/Admin/Shop/Product/Edit/_id" */))
-const _3af41e4b = () => interopDefault(import('..\\pages\\Admin\\Edit\\Article\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/Article/_id" */))
+const _b0633852 = () => interopDefault(import('..\\pages\\Admin\\Edit\\agreement\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/agreement/_id" */))
+const _6d2fda2b = () => interopDefault(import('..\\pages\\Admin\\Edit\\article\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/article/_id" */))
+const _03b58f85 = () => interopDefault(import('..\\pages\\Admin\\Edit\\attribute\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/attribute/_id" */))
+const _27c6d7e5 = () => interopDefault(import('..\\pages\\Admin\\Edit\\category\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/category/_id" */))
+const _79a3f698 = () => interopDefault(import('..\\pages\\Admin\\Edit\\city\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/city/_id" */))
+const _60e02a05 = () => interopDefault(import('..\\pages\\Admin\\Edit\\collection\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/collection/_id" */))
+const _79d978ea = () => interopDefault(import('..\\pages\\Admin\\Edit\\country\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/country/_id" */))
+const _26ef69fd = () => interopDefault(import('..\\pages\\Admin\\Edit\\coupon\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/coupon/_id" */))
+const _c6295240 = () => interopDefault(import('..\\pages\\Admin\\Edit\\customergroup\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/customergroup/_id" */))
+const _6ba2a4c7 = () => interopDefault(import('..\\pages\\Admin\\Edit\\event\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/event/_id" */))
+const _75d0eae9 = () => interopDefault(import('..\\pages\\Admin\\Edit\\gift-certificate\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/gift-certificate/_id" */))
+const _76f80ec5 = () => interopDefault(import('..\\pages\\Admin\\Edit\\glossary\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/glossary/_id" */))
+const _5f3e71d4 = () => interopDefault(import('..\\pages\\Admin\\Edit\\invoice\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/invoice/_id" */))
+const _8d44fb6c = () => interopDefault(import('..\\pages\\Admin\\Edit\\newsletter\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/newsletter/_id" */))
+const _8a3d163c = () => interopDefault(import('..\\pages\\Admin\\Edit\\newslettersubscriber\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/newslettersubscriber/_id" */))
+const _99379418 = () => interopDefault(import('..\\pages\\Admin\\Edit\\page\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/page/_id" */))
+const _3198c252 = () => interopDefault(import('..\\pages\\Admin\\Edit\\product\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/product/_id" */))
+const _6046bcaf = () => interopDefault(import('..\\pages\\Admin\\Edit\\report\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/report/_id" */))
+const _e277df9a = () => interopDefault(import('..\\pages\\Admin\\Edit\\return\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/return/_id" */))
+const _166e430b = () => interopDefault(import('..\\pages\\Admin\\Edit\\review\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/review/_id" */))
+const _f6df86e4 = () => interopDefault(import('..\\pages\\Admin\\Edit\\segment\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/segment/_id" */))
+const _669b92c9 = () => interopDefault(import('..\\pages\\Admin\\Edit\\shipment\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/shipment/_id" */))
+const _11f4cea0 = () => interopDefault(import('..\\pages\\Admin\\Edit\\state\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/state/_id" */))
+const _d56980f2 = () => interopDefault(import('..\\pages\\Admin\\Edit\\tag\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/tag/_id" */))
+const _95742094 = () => interopDefault(import('..\\pages\\Admin\\Edit\\taxrate\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/taxrate/_id" */))
+const _affd75cc = () => interopDefault(import('..\\pages\\Admin\\Edit\\taxrule\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/taxrule/_id" */))
 const _2f2cdfd7 = () => interopDefault(import('..\\pages\\Admin\\Marketing\\Email\\_id.vue' /* webpackChunkName: "pages/Admin/Marketing/Email/_id" */))
 
 const emptyFn = () => {}
@@ -1120,25 +1145,325 @@ export const routerOptions = {
     component: _3e76ee18,
     name: "Admin-Shop-Product-Edit-id___en"
   }, {
-    path: "/es/Admin/Edit/Article/:id?",
-    component: _3af41e4b,
-    name: "Admin-Edit-Article-id___es"
+    path: "/es/Admin/Edit/agreement/:id?",
+    component: _b0633852,
+    name: "Admin-Edit-agreement-id___es"
+  }, {
+    path: "/es/Admin/Edit/article/:id?",
+    component: _6d2fda2b,
+    name: "Admin-Edit-article-id___es"
+  }, {
+    path: "/es/Admin/Edit/attribute/:id?",
+    component: _03b58f85,
+    name: "Admin-Edit-attribute-id___es"
+  }, {
+    path: "/es/Admin/Edit/category/:id?",
+    component: _27c6d7e5,
+    name: "Admin-Edit-category-id___es"
+  }, {
+    path: "/es/Admin/Edit/city/:id?",
+    component: _79a3f698,
+    name: "Admin-Edit-city-id___es"
+  }, {
+    path: "/es/Admin/Edit/collection/:id?",
+    component: _60e02a05,
+    name: "Admin-Edit-collection-id___es"
+  }, {
+    path: "/es/Admin/Edit/country/:id?",
+    component: _79d978ea,
+    name: "Admin-Edit-country-id___es"
+  }, {
+    path: "/es/Admin/Edit/coupon/:id?",
+    component: _26ef69fd,
+    name: "Admin-Edit-coupon-id___es"
+  }, {
+    path: "/es/Admin/Edit/customergroup/:id?",
+    component: _c6295240,
+    name: "Admin-Edit-customergroup-id___es"
+  }, {
+    path: "/es/Admin/Edit/event/:id?",
+    component: _6ba2a4c7,
+    name: "Admin-Edit-event-id___es"
+  }, {
+    path: "/es/Admin/Edit/gift-certificate/:id?",
+    component: _75d0eae9,
+    name: "Admin-Edit-gift-certificate-id___es"
+  }, {
+    path: "/es/Admin/Edit/glossary/:id?",
+    component: _76f80ec5,
+    name: "Admin-Edit-glossary-id___es"
+  }, {
+    path: "/es/Admin/Edit/invoice/:id?",
+    component: _5f3e71d4,
+    name: "Admin-Edit-invoice-id___es"
+  }, {
+    path: "/es/Admin/Edit/newsletter/:id?",
+    component: _8d44fb6c,
+    name: "Admin-Edit-newsletter-id___es"
+  }, {
+    path: "/es/Admin/Edit/newslettersubscriber/:id?",
+    component: _8a3d163c,
+    name: "Admin-Edit-newslettersubscriber-id___es"
+  }, {
+    path: "/es/Admin/Edit/page/:id?",
+    component: _99379418,
+    name: "Admin-Edit-page-id___es"
+  }, {
+    path: "/es/Admin/Edit/product/:id?",
+    component: _3198c252,
+    name: "Admin-Edit-product-id___es"
+  }, {
+    path: "/es/Admin/Edit/report/:id?",
+    component: _6046bcaf,
+    name: "Admin-Edit-report-id___es"
+  }, {
+    path: "/es/Admin/Edit/return/:id?",
+    component: _e277df9a,
+    name: "Admin-Edit-return-id___es"
+  }, {
+    path: "/es/Admin/Edit/review/:id?",
+    component: _166e430b,
+    name: "Admin-Edit-review-id___es"
+  }, {
+    path: "/es/Admin/Edit/segment/:id?",
+    component: _f6df86e4,
+    name: "Admin-Edit-segment-id___es"
+  }, {
+    path: "/es/Admin/Edit/shipment/:id?",
+    component: _669b92c9,
+    name: "Admin-Edit-shipment-id___es"
+  }, {
+    path: "/es/Admin/Edit/state/:id?",
+    component: _11f4cea0,
+    name: "Admin-Edit-state-id___es"
+  }, {
+    path: "/es/Admin/Edit/tag/:id?",
+    component: _d56980f2,
+    name: "Admin-Edit-tag-id___es"
+  }, {
+    path: "/es/Admin/Edit/taxrate/:id?",
+    component: _95742094,
+    name: "Admin-Edit-taxrate-id___es"
+  }, {
+    path: "/es/Admin/Edit/taxrule/:id?",
+    component: _affd75cc,
+    name: "Admin-Edit-taxrule-id___es"
   }, {
     path: "/es/Admin/Marketing/Email/:id?",
     component: _2f2cdfd7,
     name: "Admin-Marketing-Email-id___es"
   }, {
-    path: "/fr/Admin/Edit/Article/:id?",
-    component: _3af41e4b,
-    name: "Admin-Edit-Article-id___fr"
+    path: "/fr/Admin/Edit/agreement/:id?",
+    component: _b0633852,
+    name: "Admin-Edit-agreement-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/article/:id?",
+    component: _6d2fda2b,
+    name: "Admin-Edit-article-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/attribute/:id?",
+    component: _03b58f85,
+    name: "Admin-Edit-attribute-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/category/:id?",
+    component: _27c6d7e5,
+    name: "Admin-Edit-category-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/city/:id?",
+    component: _79a3f698,
+    name: "Admin-Edit-city-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/collection/:id?",
+    component: _60e02a05,
+    name: "Admin-Edit-collection-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/country/:id?",
+    component: _79d978ea,
+    name: "Admin-Edit-country-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/coupon/:id?",
+    component: _26ef69fd,
+    name: "Admin-Edit-coupon-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/customergroup/:id?",
+    component: _c6295240,
+    name: "Admin-Edit-customergroup-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/event/:id?",
+    component: _6ba2a4c7,
+    name: "Admin-Edit-event-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/gift-certificate/:id?",
+    component: _75d0eae9,
+    name: "Admin-Edit-gift-certificate-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/glossary/:id?",
+    component: _76f80ec5,
+    name: "Admin-Edit-glossary-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/invoice/:id?",
+    component: _5f3e71d4,
+    name: "Admin-Edit-invoice-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/newsletter/:id?",
+    component: _8d44fb6c,
+    name: "Admin-Edit-newsletter-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/newslettersubscriber/:id?",
+    component: _8a3d163c,
+    name: "Admin-Edit-newslettersubscriber-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/page/:id?",
+    component: _99379418,
+    name: "Admin-Edit-page-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/product/:id?",
+    component: _3198c252,
+    name: "Admin-Edit-product-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/report/:id?",
+    component: _6046bcaf,
+    name: "Admin-Edit-report-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/return/:id?",
+    component: _e277df9a,
+    name: "Admin-Edit-return-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/review/:id?",
+    component: _166e430b,
+    name: "Admin-Edit-review-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/segment/:id?",
+    component: _f6df86e4,
+    name: "Admin-Edit-segment-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/shipment/:id?",
+    component: _669b92c9,
+    name: "Admin-Edit-shipment-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/state/:id?",
+    component: _11f4cea0,
+    name: "Admin-Edit-state-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/tag/:id?",
+    component: _d56980f2,
+    name: "Admin-Edit-tag-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/taxrate/:id?",
+    component: _95742094,
+    name: "Admin-Edit-taxrate-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/taxrule/:id?",
+    component: _affd75cc,
+    name: "Admin-Edit-taxrule-id___fr"
   }, {
     path: "/fr/Admin/Marketing/Email/:id?",
     component: _2f2cdfd7,
     name: "Admin-Marketing-Email-id___fr"
   }, {
-    path: "/Admin/Edit/Article/:id?",
-    component: _3af41e4b,
-    name: "Admin-Edit-Article-id___en"
+    path: "/Admin/Edit/agreement/:id?",
+    component: _b0633852,
+    name: "Admin-Edit-agreement-id___en"
+  }, {
+    path: "/Admin/Edit/article/:id?",
+    component: _6d2fda2b,
+    name: "Admin-Edit-article-id___en"
+  }, {
+    path: "/Admin/Edit/attribute/:id?",
+    component: _03b58f85,
+    name: "Admin-Edit-attribute-id___en"
+  }, {
+    path: "/Admin/Edit/category/:id?",
+    component: _27c6d7e5,
+    name: "Admin-Edit-category-id___en"
+  }, {
+    path: "/Admin/Edit/city/:id?",
+    component: _79a3f698,
+    name: "Admin-Edit-city-id___en"
+  }, {
+    path: "/Admin/Edit/collection/:id?",
+    component: _60e02a05,
+    name: "Admin-Edit-collection-id___en"
+  }, {
+    path: "/Admin/Edit/country/:id?",
+    component: _79d978ea,
+    name: "Admin-Edit-country-id___en"
+  }, {
+    path: "/Admin/Edit/coupon/:id?",
+    component: _26ef69fd,
+    name: "Admin-Edit-coupon-id___en"
+  }, {
+    path: "/Admin/Edit/customergroup/:id?",
+    component: _c6295240,
+    name: "Admin-Edit-customergroup-id___en"
+  }, {
+    path: "/Admin/Edit/event/:id?",
+    component: _6ba2a4c7,
+    name: "Admin-Edit-event-id___en"
+  }, {
+    path: "/Admin/Edit/gift-certificate/:id?",
+    component: _75d0eae9,
+    name: "Admin-Edit-gift-certificate-id___en"
+  }, {
+    path: "/Admin/Edit/glossary/:id?",
+    component: _76f80ec5,
+    name: "Admin-Edit-glossary-id___en"
+  }, {
+    path: "/Admin/Edit/invoice/:id?",
+    component: _5f3e71d4,
+    name: "Admin-Edit-invoice-id___en"
+  }, {
+    path: "/Admin/Edit/newsletter/:id?",
+    component: _8d44fb6c,
+    name: "Admin-Edit-newsletter-id___en"
+  }, {
+    path: "/Admin/Edit/newslettersubscriber/:id?",
+    component: _8a3d163c,
+    name: "Admin-Edit-newslettersubscriber-id___en"
+  }, {
+    path: "/Admin/Edit/page/:id?",
+    component: _99379418,
+    name: "Admin-Edit-page-id___en"
+  }, {
+    path: "/Admin/Edit/product/:id?",
+    component: _3198c252,
+    name: "Admin-Edit-product-id___en"
+  }, {
+    path: "/Admin/Edit/report/:id?",
+    component: _6046bcaf,
+    name: "Admin-Edit-report-id___en"
+  }, {
+    path: "/Admin/Edit/return/:id?",
+    component: _e277df9a,
+    name: "Admin-Edit-return-id___en"
+  }, {
+    path: "/Admin/Edit/review/:id?",
+    component: _166e430b,
+    name: "Admin-Edit-review-id___en"
+  }, {
+    path: "/Admin/Edit/segment/:id?",
+    component: _f6df86e4,
+    name: "Admin-Edit-segment-id___en"
+  }, {
+    path: "/Admin/Edit/shipment/:id?",
+    component: _669b92c9,
+    name: "Admin-Edit-shipment-id___en"
+  }, {
+    path: "/Admin/Edit/state/:id?",
+    component: _11f4cea0,
+    name: "Admin-Edit-state-id___en"
+  }, {
+    path: "/Admin/Edit/tag/:id?",
+    component: _d56980f2,
+    name: "Admin-Edit-tag-id___en"
+  }, {
+    path: "/Admin/Edit/taxrate/:id?",
+    component: _95742094,
+    name: "Admin-Edit-taxrate-id___en"
+  }, {
+    path: "/Admin/Edit/taxrule/:id?",
+    component: _affd75cc,
+    name: "Admin-Edit-taxrule-id___en"
   }, {
     path: "/Admin/Marketing/Email/:id?",
     component: _2f2cdfd7,

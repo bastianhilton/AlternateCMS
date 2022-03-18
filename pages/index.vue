@@ -12,7 +12,7 @@
 
             <div class="table table-responsive table-bordered orderTable col">
                 <h4>Sales</h4>
-                <table class="table table">
+                <table class="table" >
                     <thead>
                         <tr>
                             <th>#</th>
@@ -46,7 +46,7 @@
             <!-- Latest Orders -->
             <div class="table table-responsive table-bordered orderTable col">
                 <h4>Last Orders</h4>
-                <table class="table table">
+                <table class="table" >
                     <thead>
                         <tr>
                             <th>Customer</th>
@@ -76,7 +76,7 @@
             <!-- Latest Search Terms -->
             <div class="table table-responsive table-bordered orderTable col">
                 <h4>Last Search Terms</h4>
-                <table class="table table">
+                <table class="table" >
                     <thead>
                         <tr>
                             <th>Search Term</th>
@@ -133,7 +133,7 @@
         <div id="ex2-content" class="tab-content">
             <div id="ex2-pills-1" class="tab-pane fade show active" role="tabpanel" aria-labelledby="ex2-tab-1">
                 <div class="table table-responsive table-bordered latestOrders col">
-                    <table class="table table">
+                    <table class="table" >
                         <thead>
                             <tr>
                                 <th>Product</th>
@@ -163,7 +163,7 @@
             </div>
             <div id="ex2-pills-2" class="tab-pane fade" role="tabpanel" aria-labelledby="ex2-tab-2">
                 <div class="table table-responsive table-bordered latestOrders col">
-                    <table class="table table">
+                    <table class="table" >
                         <thead>
                             <tr>
                                 <th>Product</th>

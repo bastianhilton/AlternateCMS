@@ -1,0 +1,8 @@
+query MyQuery ($id: Int){
+  product_attribute (where: {id: {_eq: $id}}){
+    default_label
+    id
+    default_value
+    attribute_code
+  }
+}

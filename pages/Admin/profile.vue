@@ -4,7 +4,7 @@
     <hr />
     This is your information:
     <br /><br />
-    <table class="table table">
+    <table class="table" >
       <thead>
         <tr>
           <th>ID</th>

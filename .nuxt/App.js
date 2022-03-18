@@ -12,9 +12,11 @@ import '..\\node_modules\\simplemde\\dist\\simplemde.min.css'
 
 import '..\\static\\styles\\snow.min.css'
 
-import '..\\static\\styles\\bootstrap-table.css'
+import '..\\static\\styles\\bootstrap-table.min.css'
 
 import '..\\node_modules\\leaflet\\dist\\leaflet.css'
+
+import '..\\node_modules\\vuetify\\dist\\vuetify.css'
 
 import _6f6c098b from '..\\layouts\\default.vue'
 import _2d27502e from '..\\layouts\\none.vue'

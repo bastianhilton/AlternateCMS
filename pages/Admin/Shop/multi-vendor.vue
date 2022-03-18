@@ -10,7 +10,7 @@
     
     <br>
     <div class="table table-responsive">
-      <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-export="true" data-show-toggle="true" data-click-to-select="true" data-show-multi-sort="true" data-show-print="true" >
+      <table class="table">
         <thead class="table table-dark">
           <tr>
             <th>Theme Title</th>
@@ -24,19 +24,19 @@
             <td>Sit</td>
             <td>Amet</td>
             <td>Consectetur</td>
-            <td><a href="/">Edit</a></td>
+            <td><a :href="`/admin/edit/multivendor/${sellers.id}`">Edit</a></td>
           </tr>
           <tr>
             <td>Adipisicing</td>
             <td>Elit</td>
             <td>Elit</td>
-            <td><a href="/">Edit</a></td>
+            <td><a :href="`/admin/edit/multivendor/${sellers.id}`">Edit</a></td>
           </tr>
           <tr>
             <td>Hic</td>
             <td>Fugiat</td>
             <td>Elit</td>
-            <td><a href="/">Edit</a></td>
+            <td><a :href="`/admin/edit/multivendor/${sellers.id}`">Edit</a></td>
           </tr>
         </tbody>
       </table>

@@ -1,4 +1,4 @@
-query MyQuery {
+query allAgreements {
   agreements {
     id
     name

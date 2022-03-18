@@ -9,7 +9,7 @@
     
     <br>
     <div class="table table-responsive">
-      <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-export="true" data-show-toggle="true" data-click-to-select="true" data-show-multi-sort="true" data-show-print="true" >
+      <table class="table">
         <thead class="table table-dark">
           <tr>
             <th>Name</th>
@@ -25,7 +25,7 @@
             <td>{{ coupons.discount }}</td>
             <td>{{ coupons.expiration }}</td>
             <td>{{ coupons.published }}</td>
-            <td><a href="/">View</a></td>
+            <td><a :href="`/admin/edit/coupon/${coupons.id}`">Edit</a></td>
           </tr>
         </tbody>
       </table>

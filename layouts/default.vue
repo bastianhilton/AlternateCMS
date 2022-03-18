@@ -1,5 +1,6 @@
 <template>
     <div>
+        <link rel="stylesheet" href="../static/styles/bootstrap-table.css">
         <Header />
         <div class="dashboard">
            <Breadcrumbs />

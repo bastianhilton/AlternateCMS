@@ -1,0 +1,10 @@
+query MyQuery ($id: Int){
+  emails (where: {id: {_eq: $id}}){
+    id
+    recipients
+    subject
+    title
+    created_at
+    content
+  }
+}

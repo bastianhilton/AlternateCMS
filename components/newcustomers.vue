@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="table table-responsive table-bordered latestOrders col">
-                    <table class="table table">
+                    <table class="table" >
                         <thead>
                             <tr>
                                 <th>Customer ID</th>

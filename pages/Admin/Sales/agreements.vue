@@ -9,7 +9,7 @@
     
     <br>
     <div class="table table-responsive">
-      <table data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-export="true" data-show-toggle="true" data-click-to-select="true" data-show-multi-sort="true" data-show-print="true" >
+      <table class="table" >
         <thead class="table table-dark">
           <tr>
             <th>Agreement ID</th>
@@ -29,7 +29,7 @@
             <td>{{ agreements.created }}</td>
             <td>{{ agreements.updated }}</td>
             <td>{{ agreements.type }}</td>
-            <td><a href="/">View</a></td>
+            <td><a :href="`/admin/edit/agreement/${agreements.id}`">View</a></td>
           </tr>
         </tbody>
       </table>
@@ -39,7 +39,6 @@
 </template>
 
 <script>
-// eslint-disable-next-line camelcase
 import agreements from '~/apollo/queries/sales/agreements'
 
 export default {

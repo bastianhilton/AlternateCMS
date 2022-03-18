@@ -23,7 +23,7 @@
           <div id="v-tabs-tabContent" class="tab-excerpt">
             <div id="v-tabs-home" class="tab-pane fade show active" role="tabpanel" aria-labelledby="v-tabs-home-tab">
               <div class="table table-responsive">
-                <table class="table table">
+                <table class="table" >
                   <tbody>
                     <tr>
                       <td style="text-align: right;">Coupon Name</td>

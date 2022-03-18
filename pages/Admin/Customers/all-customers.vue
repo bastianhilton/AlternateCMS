@@ -9,7 +9,7 @@
 
     <br>
     <div class="table table-responsive">
-      <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-export="true" data-show-toggle="true" data-click-to-select="true" data-show-multi-sort="true" data-show-print="true" >
+      <table class="table">
         <thead class="table table-dark">
           <tr>
             <th>Customer ID</th>
@@ -29,7 +29,7 @@
             <td>{{ customers.email }}</td>
             <td>{{ customers.customer_since }}</td>
             <td>{{ customers.customer_group }}</td>
-            <td><a href="/">View</a></td>
+            <td><a :href="`/admin/edit/customer/${customers.id}`">View</a></td>
           </tr>
         </tbody>
       </table>

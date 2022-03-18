@@ -1,0 +1,11 @@
+query MyQuery ($id: Int){
+  articles (where: {id: {_eq: $id}}) {
+    id
+    name
+    excerpt
+    content
+    categories
+    image
+    published
+  }
+}

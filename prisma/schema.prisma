@@ -19,17 +19,6 @@ model articles {
   published  DateTime? @default(now()) @db.Timestamptz(6)
 }
 
-model billing_agreements {
-  id           Int       @id @default(autoincrement())
-  reference_id Int       @default(autoincrement())
-  created      DateTime? @db.Timestamp(6)
-  first_name   String    @db.VarChar(255)
-  last_name    String    @db.VarChar(255)
-  status       String?
-  updated      DateTime? @db.Timestamp(6)
-  action       Boolean?
-}
-
 model cart_price_rules {
   id                                     Int       @id @default(autoincrement())
   rule                                   String?   @db.VarChar(255)
@@ -121,13 +110,13 @@ model countries {
 }
 
 model coupons {
-  id         Int       @id @default(autoincrement())
-  name       String    @db.VarChar(255)
-  excerpt    String?   @db.VarChar(255)
-  discount   Decimal?  @db.Money
+  id         BigInt    @id @default(autoincrement())
+  name       String
+  excerpt    String?
+  discount   String?
   image      String?
-  published  DateTime? @db.Timestamp(6)
-  expiration DateTime? @db.Date
+  published  DateTime? @default(now()) @db.Timestamp(6)
+  expiration String?
   categories String?
   articles   String?
   products   String?
@@ -136,13 +125,16 @@ model coupons {
 }
 
 model credit_memos {
-  credit_memo  Int       @id @default(autoincrement())
+  credit_memo  String
   order_number Int       @default(autoincrement())
-  created      DateTime? @db.Timestamp(6)
-  bill_to_name String    @db.VarChar(255)
+  created      DateTime? @default(now()) @db.Timestamp(6)
+  bill_to_name String
   status       String?
-  refunded     Int?
-  action       Boolean?
+  refunded     String?
+  action       String?
+  id           BigInt    @default(autoincrement())
+
+  @@id([credit_memo, id])
 }
 
 model currency_rates {
@@ -184,21 +176,22 @@ model customers {
 }
 
 model gift_certificates {
-  id             Int       @id @default(autoincrement())
-  name           String    @db.VarChar(255)
-  excerpt        String?   @db.VarChar(255)
-  discount       Decimal?  @db.Money
+  id             BigInt    @id @default(autoincrement())
+  name           String
+  excerpt        String?
+  discount       String?
   image          String?
-  published      DateTime? @db.Timestamp(6)
+  published      DateTime? @default(now()) @db.Timestamp(6)
   special_offers String?
   rewards        String?
   coupons        String?
-  expiration     DateTime? @db.Date
+  expiration     String?
   categories     String?
   articles       String?
   products       String?
   customers      String?
   users          String?
+  type           String?
 }
 
 model glossary {
@@ -210,46 +203,34 @@ model glossary {
 }
 
 model invoices {
-  invoice               Int       @id @default(autoincrement())
-  order_number          Int       @default(autoincrement())
-  invoice_date          DateTime? @db.Timestamp(6)
-  bill_to_name          String    @db.VarChar(255)
-  billing_address       String?   @db.VarChar(255)
-  grand_total_base      Int?
-  grand_total_purchased Int?
-  status                Boolean?
-  action                Boolean?
-  shipping_address      String?   @db.VarChar(255)
-  customer_name         String?   @db.VarChar(255)
-  email                 String?   @db.VarChar(255)
+  invoice               Int       @default(autoincrement())
+  order_number          BigInt    @default(autoincrement())
+  invoice_date          DateTime? @default(now()) @db.Timestamp(6)
+  bill_to_name          String
+  billing_address       String?
+  grand_total_base      String?
+  grand_total_purchased String?
+  status                String?
+  shipping_address      String?
+  customer_name         String?
+  email                 String?
   customer_group        String?
   payment_method        String?
   shipping_information  String?
-  subtotal              Int?
-  shipping_and_handling Int?
-}
-
-model newsletter_queue {
-  id          Int       @id @default(autoincrement())
-  queue_start DateTime? @db.Date
-  queue_end   DateTime? @db.Date
-  subject     String?   @db.VarChar(255)
-  status      Boolean?
-  processed   DateTime? @db.Date
-  recipients  DateTime? @db.Date
-  action      String?
+  subtotal              String?
+  shipping_and_handling String?
+  id                    BigInt    @id @default(autoincrement())
 }
 
 model newsletter_subscribers {
-  id                  Int     @id @default(autoincrement())
-  name                String  @db.VarChar(255)
-  email               String  @db.VarChar(255)
-  type                String?
-  customer_first_name String? @db.VarChar(255)
-  customer_last_name  String? @db.VarChar(255)
+  id                  Int       @id @default(autoincrement())
+  email               String    @unique
+  customer_first_name String?
+  customer_last_name  String?
   store               String?
   status              String?
   websites            String?
+  created_at          DateTime? @default(now()) @db.Timestamp(6)
 }
 
 model orders {
@@ -328,10 +309,10 @@ model products {
   id                  BigInt    @id @default(autoincrement())
   sku                 BigInt    @unique @default(autoincrement())
   thumbnail           String?
-  name                String    @db.VarChar(255)
+  name                String
   type                String?
   attribute_set       String?
-  price               Decimal?  @db.Money
+  price               String?
   quantity_per_source String?
   salable_quantity    String?
   visibility          String?
@@ -340,13 +321,13 @@ model products {
   product             String?
   tax_class           String?
   stock_status        String?
-  weight              Int?
+  weight              String?
   categories          String?
-  new_from            DateTime? @default(now()) @db.Timestamptz(6)
+  created_at          DateTime? @default(now()) @db.Timestamptz(6)
   country             String?
-  size                Int?
+  size                String?
   format              String?
-  height              BigInt?
+  height              String?
   content             String?
   short_description   String?
   image               String?
@@ -355,7 +336,6 @@ model products {
   meta_description    String?
   meta_url            String?
   file                String?
-  to_date             DateTime? @db.Date
   manufacture         String?
 }
 
@@ -395,13 +375,12 @@ model reports {
 }
 
 model reviews {
-  id       Int      @id @default(autoincrement())
-  name     String   @db.VarChar(255)
-  sku      Int      @default(autoincrement())
-  price    Decimal? @db.Decimal
-  quantity Decimal? @db.Decimal
-  status   Boolean?
-  websites String?
+  id         Int       @id @default(autoincrement())
+  first_name String?
+  last_name  String?
+  content    String?
+  websites   String?
+  created_at DateTime? @default(now()) @db.Timestamp(6)
 }
 
 model reward_points {
@@ -426,13 +405,14 @@ model role {
 }
 
 model shipments {
-  shipment       Int       @id @default(autoincrement())
-  order_number   Int       @default(autoincrement())
-  ship_date      DateTime? @db.Timestamp(6)
-  ship_to_name   String    @db.VarChar(255)
-  order_date     DateTime? @db.Timestamp(6)
-  total_quantity Int?
-  action         Boolean?
+  product      String
+  speed_grade  String
+  ship_date    DateTime? @default(now()) @db.Timestamp(6)
+  carrier_name String
+  transit_time String?
+  tracking_url String?
+  image        String?
+  id           BigInt    @id @default(autoincrement())
 }
 
 model shops {
@@ -548,12 +528,12 @@ model tags {
 
 model tax_rate {
   id                 Int      @id @default(autoincrement())
-  tax_identifier     Int      @default(autoincrement())
+  tax_identifier     String
   zip_post_is_range  Boolean?
-  postcode           Decimal? @db.Decimal
+  postcode           String?
   state              String?
   country            String?
-  rate_percent       Decimal? @db.Decimal
+  rate_percent       String?
   default_store_view String?
 }
 
@@ -576,8 +556,8 @@ model transactions {
   order_id              Int       @default(autoincrement())
   transaction_id        Int       @default(autoincrement())
   parent_transaction_id Int       @default(autoincrement())
-  created               DateTime? @db.Timestamp(6)
-  payment_method        String    @db.VarChar(255)
+  created               DateTime? @default(now()) @db.Timestamp(6)
+  payment_method        String
   closed                String?
 }
 
@@ -632,4 +612,89 @@ model users {
   active           Boolean?
   expiration_date  DateTime? @db.Date
   type_of_user     String?
+}
+
+model agreements {
+  id           Int       @id @default(autoincrement())
+  reference_id Int       @default(autoincrement())
+  created      DateTime? @default(now()) @db.Timestamp(6)
+  updated      DateTime? @default(now()) @db.Timestamp(6)
+  content      String?
+  name         String?
+  image        String?
+  excerpt      String?
+  type         String?
+  user_id      Int       @default(autoincrement())
+}
+
+model collections {
+  id               BigInt    @id @default(autoincrement())
+  created_at       DateTime? @default(now()) @db.Timestamptz(6)
+  name             String?
+  description      String?
+  image            String?
+  product          String?
+  meta_title       String?
+  meta_keywords    String?
+  meta_description String?
+}
+
+model customer_group {
+  id         BigInt    @id @default(autoincrement())
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  name       String?
+  tax_class  String?
+}
+
+model emails {
+  id         Int       @id @default(autoincrement())
+  title      DateTime? @db.Date
+  created_at DateTime? @default(now()) @db.Timestamp(6)
+  subject    String?   @db.VarChar(255)
+  content    String?
+  recipients String?
+}
+
+model events {
+  id         BigInt    @id @default(autoincrement())
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  name       String?
+  content    String?
+  tickets    String?
+  image      String?
+  start      String?
+  end        String?
+  category   String?
+  city       String?
+  state      String?
+  country    String?
+  postalcode String?
+}
+
+model returns {
+  id            BigInt    @id @default(autoincrement())
+  created_at    DateTime? @default(now()) @db.Timestamptz(6)
+  name          String?
+  validity      String?
+  return_prefix String?
+}
+
+model segments {
+  id          BigInt    @id @unique @default(autoincrement())
+  created_at  DateTime? @default(now()) @db.Timestamptz(6)
+  name        String?
+  description String?
+  website     String?
+  status      String?
+  apply_to    String?
+  customers   String?
+}
+
+model websites {
+  id         BigInt    @id @default(autoincrement())
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  name       String?
+  url        String?
+  shop       String?
+  store      String?
 }

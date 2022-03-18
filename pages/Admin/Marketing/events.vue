@@ -9,7 +9,7 @@
 
     <br>
     <div class="table table-responsive">
-      <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-export="true" data-show-toggle="true" data-click-to-select="true" data-show-multi-sort="true" data-show-print="true" >
+      <table class="table">
         <thead class="table table-dark">
           <tr>
             <th>Event ID</th>
@@ -29,7 +29,7 @@
             <td>{{ events.tickets }}</td>
             <td>{{ events.city }} {{ events.state }} {{ events.country }}</td>
             <td>{{ events.created_at }}</td>
-            <td><a href="/">View</a></td>
+            <td><a :href="`/admin/edit/event/${events.id}`">View</a></td>
           </tr>
         </tbody>
       </table>

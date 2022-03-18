@@ -2,7 +2,7 @@
     <div>
         <FormulateForm method="POST" @submit.prevent>
         <div class="table table-responsive">
-            <table class="table table">
+            <table class="table" >
                 <thead>
                     <tr>
                         <th>
@@ -39,7 +39,7 @@
                     data-mdb-parent="#accordionExample">
                     <div class="accordion-body">
                         <div class="table table-responsive">
-                            <table class="table table">
+                            <table class="table" >
                                 <tbody>
                                     <tr>
                                         <td style="text-align: right;">Excerpt</td>
@@ -76,7 +76,7 @@
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-mdb-parent="#accordionExample">
                     <div class="accordion-body">
-                        <td><td><FormulateInput v-model="image" type="image" upload-url="/media" name="headshot" label="Select an image to upload" help="Select a png, jpg or gif to upload." validation="mime:image/jpeg,image/png,image/gif"/></td>
+                        <td><FormulateInput v-model="image" type="image" upload-url="/media" name="headshot" label="Select an image to upload" help="Select a png, jpg or gif to upload." validation="mime:image/jpeg,image/png,image/gif"/></td>
                     </div>
                 </div>
             </div>

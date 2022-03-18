@@ -17,7 +17,7 @@
 </nav>
 <br>
     <div class="table table-responsive">
-        <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-export="true" data-show-toggle="true" data-click-to-select="true" data-show-multi-sort="true" data-show-print="true" >
+        <table class="table">
         <thead class="table table-dark">
           <tr>
             <th>ID</th>
@@ -33,7 +33,7 @@
             <td>{{ emails.email }}</td>
             <td>{{ emails.subject }}</td>
             <td>{{ emails.created_at }}</td>
-            <td><a href="/">View</a></td>
+            <td><a :href="`/admin/edit/email/${emails.id}`">View</a></td>
           </tr>
         </tbody>
       </table>

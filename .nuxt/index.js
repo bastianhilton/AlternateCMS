@@ -14,6 +14,7 @@ import { createStore } from './store.js'
 /* Plugins */
 
 import nuxt_plugin_plugin_6befc4d1 from 'nuxt_plugin_plugin_6befc4d1' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_plugin_1c3590c3 from 'nuxt_plugin_plugin_1c3590c3' // Source: .\\vuetify\\plugin.js (mode: 'all')
 import nuxt_plugin_sentryserver_b9859390 from 'nuxt_plugin_sentryserver_b9859390' // Source: .\\sentry.server.js (mode: 'server')
 import nuxt_plugin_sentryclient_3d83c4b0 from 'nuxt_plugin_sentryclient_3d83c4b0' // Source: .\\sentry.client.js (mode: 'client')
 import nuxt_plugin_adsbygoogle_dfc92b2c from 'nuxt_plugin_adsbygoogle_dfc92b2c' // Source: .\\adsbygoogle.js (mode: 'all')
@@ -36,6 +37,7 @@ import nuxt_plugin_moment_530494b8 from 'nuxt_plugin_moment_530494b8' // Source:
 import nuxt_plugin_simplemde_45e761dc from 'nuxt_plugin_simplemde_45e761dc' // Source: ..\\plugins\\simplemde.js (mode: 'client')
 import nuxt_plugin_main_101ad5e7 from 'nuxt_plugin_main_101ad5e7' // Source: ..\\plugins\\main.js (mode: 'client')
 import nuxt_plugin_vuescrollama_0e2d4026 from 'nuxt_plugin_vuescrollama_0e2d4026' // Source: ..\\plugins\\vue-scrollama.js (mode: 'client')
+import nuxt_plugin_client_035ad0d4 from 'nuxt_plugin_client_035ad0d4' // Source: ..\\plugins\\client.js (mode: 'all')
 import nuxt_plugin_auth_5ac7603c from 'nuxt_plugin_auth_5ac7603c' // Source: .\\auth.js (mode: 'all')
 
 // Component: <ClientOnly>
@@ -104,7 +106,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"AlternateCMS","meta":[{"name":"robots","content":"noindex,noarchive,nofollow"},{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Ffont-awesome\u002F5.15.1\u002Fcss\u002Fall.min.css"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:300,400,500,700&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Fmdb-ui-kit\u002F3.10.0\u002Fmdb.min.css"}],"script":[{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fchart.js","mode":"client"},{"src":"https:\u002F\u002Fpolyfill.io\u002Fv3\u002Fpolyfill.min.js?features=es2015","mode":"client"},{"hid":"adsbygoogle-script","defer":true,"crossorigin":"anonymous","src":"\u002F\u002Fpagead2.googlesyndication.com\u002Fpagead\u002Fjs\u002Fadsbygoogle.js?client=ca-google"},{"hid":"adsbygoogle","innerHTML":"if (!window.__abg_called){ (window.adsbygoogle = window.adsbygoogle || []); adsbygoogle.pauseAdRequests=0;\n          adsbygoogle.push({\n      google_ad_client: \"ca-google\",\n      overlays: {bottom: false},\n      \n    }); window.__abg_called = true;}"}],"style":[],"__dangerouslyDisableSanitizersByTagID":{"adsbygoogle":["innerHTML"]}},
+    head: {"title":"AlternateCMS","meta":[{"name":"robots","content":"noindex,noarchive,nofollow"},{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Ffont-awesome\u002F5.15.1\u002Fcss\u002Fall.min.css"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:300,400,500,700&display=swap"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Fmdb-ui-kit\u002F3.10.0\u002Fmdb.min.css"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"script":[{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fchart.js","mode":"client"},{"src":"https:\u002F\u002Fpolyfill.io\u002Fv3\u002Fpolyfill.min.js?features=es2015","mode":"client"},{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fjquery\u002Fdist\u002Fjquery.min.js","mode":"client"},{"hid":"adsbygoogle-script","defer":true,"crossorigin":"anonymous","src":"\u002F\u002Fpagead2.googlesyndication.com\u002Fpagead\u002Fjs\u002Fadsbygoogle.js?client=ca-google"},{"hid":"adsbygoogle","innerHTML":"if (!window.__abg_called){ (window.adsbygoogle = window.adsbygoogle || []); adsbygoogle.pauseAdRequests=0;\n          adsbygoogle.push({\n      google_ad_client: \"ca-google\",\n      overlays: {bottom: false},\n      \n    }); window.__abg_called = true;}"}],"style":[],"__dangerouslyDisableSanitizersByTagID":{"adsbygoogle":["innerHTML"]}},
 
     store,
     router,
@@ -237,6 +239,10 @@ async function createApp(ssrContext, config = {}) {
     await nuxt_plugin_plugin_6befc4d1(app.context, inject)
   }
 
+  if (typeof nuxt_plugin_plugin_1c3590c3 === 'function') {
+    await nuxt_plugin_plugin_1c3590c3(app.context, inject)
+  }
+
   if (process.server && typeof nuxt_plugin_sentryserver_b9859390 === 'function') {
     await nuxt_plugin_sentryserver_b9859390(app.context, inject)
   }
@@ -323,6 +329,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.client && typeof nuxt_plugin_vuescrollama_0e2d4026 === 'function') {
     await nuxt_plugin_vuescrollama_0e2d4026(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_client_035ad0d4 === 'function') {
+    await nuxt_plugin_client_035ad0d4(app.context, inject)
   }
 
   if (typeof nuxt_plugin_auth_5ac7603c === 'function') {

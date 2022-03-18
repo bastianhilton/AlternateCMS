@@ -8,7 +8,7 @@ export default function (ctx, inject) {
   const config = {
     dsn:"https:\u002F\u002Fb54ea5cfd2cc4c23b49c3d5c6fbbd351@o996770.ingest.sentry.io\u002F6140531",
     environment:"development",
-    release:"261f107a5a358fff65fa05f82b162ff990d623fb"
+    release:"57a34ac4c2257f11dadb55c3f7fae498fe237fd0"
   }
 
   const runtimeConfigKey = "sentry"

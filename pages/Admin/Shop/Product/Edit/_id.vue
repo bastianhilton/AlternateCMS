@@ -2,7 +2,7 @@
     <div>
         <FormulateForm method="POST" @submit.prevent>
         <div class="table table-responsive">
-            <table class="table table">
+            <table class="table" >
                 <thead>
                     <tr>
                         <th>
@@ -87,7 +87,7 @@
                     data-mdb-parent="#accordionExample">
                     <div class="accordion-body">
                         <div class="table table-responsive">
-                            <table class="table table">
+                            <table class="table" >
                                 <tbody>
                                     <tr>
                                         <td style="text-align: right;">Short Description</td>
@@ -135,7 +135,7 @@
                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                     data-mdb-parent="#accordionExample">
                     <div class="accordion-body">
-                        <table class="table table">
+                        <table class="table" >
                                 <tbody>
                                     <tr>
                                         <td></td>

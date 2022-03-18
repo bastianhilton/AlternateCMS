@@ -1,8 +1,8 @@
 <template>
     <div>
-        <FormulateForm method="POST" @submit.prevent>
+        <FormulateForm v-for="article in articles" :key="article.id"  method="POST" @submit.prevent>
         <div class="table table-responsive">
-            <table class="table table">
+            <table class="table" >
                 <thead>
                     <tr>
                         <th>
@@ -16,11 +16,11 @@
                 <tbody>
                     <tr>
                         <td style="text-align: right;">Article Name</td>
-                        <td><FormulateInput v-model="name" type="text" required /></td>
+                        <td><FormulateInput type="text" required />{{ article.name }}</td>
                     </tr>
                     <tr>
                         <td style="text-align: right;">Categories</td>
-                        <td><FormulateInput type="select" :options="categories.name" v-model="categories" name="Select">
+                        <td><FormulateInput type="select" name="Select">{{ article.categories.name }}
                             </FormulateInput></td>
                     </tr>
                 </tbody>
@@ -39,14 +39,14 @@
                     data-mdb-parent="#accordionExample">
                     <div class="accordion-body">
                         <div class="table table-responsive">
-                            <table class="table table">
+                            <table class="table" >
                                 <tbody>
                                     <tr>
                                         <td style="text-align: right;">Excerpt</td>
                                         <td>
                                             <div class="form-check form-switch">
                                                 <FormulateInput
-  id="excerpt" type="textarea" validation="required|max:50,length" :help="`Keep it under 50 characters. ${50 - value.length} left.`" cols="50" rows="10" label="Add a short Description"></FormulateInput>
+  id="excerpt" type="textarea" validation="required|max:50,length" :help="`Keep it under 50 characters. ${50 - value.length} left.`" cols="50" rows="10" label="Add a short Description">{{ article.excerpt }}</FormulateInput>
                                             </div>
                                         </td>
                                     </tr>
@@ -55,7 +55,7 @@
                                         <td>
                                             <div class="form-check form-switch">
                                                 <client-only>
-                                                    <vue-simplemde id="articleDescription" v-model="content" />
+                                                    <vue-simplemde id="articleDescription" />{{ article.content }}
                                                 </client-only>
                                             </div>
                                         </td>
@@ -76,7 +76,7 @@
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-mdb-parent="#accordionExample">
                     <div class="accordion-body">
-                        <td><td><FormulateInput v-model="image" type="image" upload-url="/media" name="headshot" label="Select an image to upload" help="Select a png, jpg or gif to upload." validation="mime:image/jpeg,image/png,image/gif"/></td>
+                        <td><FormulateInput type="image" upload-url="/media" name="headshot" label="Select an image to upload" help="Select a png, jpg or gif to upload." validation="mime:image/jpeg,image/png,image/gif"/>{{ article.image }}</td>
                     </div>
                 </div>
             </div>
@@ -100,85 +100,84 @@
 </template>
 
 <script>
-import gql from "graphql-tag";
-import { articles } from "~/apollo/queries/content/articles";
-import categories from '~/apollo/queries/shop/categories'
+// eslint-disable-next-line camelcase
+import gql from 'graphql-tag'
+import articles from '~/apollo/mutations/content/article'
+import allArticles from '~/apollo/queries/content/articles'
 
-const ADD_ARTICLES = gql`
-    mutation ($name:String!,$excerpt:String,$categories:String,$content:String,$image:String){
-    insert_articles(objects: {name: $name, excerpt: $excerpt, categories: $categories, content: $content, image: $image}) {
-        affected_rows
-        returning {
-            name
-            excerpt
-            categories
-            content
-            image
-    }
+const DELETE_ARTICLE = gql `
+  mutation delete_articles($id: Int!){
+  delete_articles(where: {id: {_eq: $id}}){
+    affected_rows
   }
-}`;
+}
+`;
+
+const UPDATE_ARTICLE = gql `
+  mutation update_articles($id: Int!){
+  update_articles(where: {id: {_eq: $id}}){
+    affected_rows
+  }
+}
+`;
 
 export default {
-    data() {
-    return {
-        categories: [],
-        name: " ",
-        excerpt: " ",
-        content: " ",
-        image: " ",
-        
+    head: {
+        name: 'Edit Article'
+    },
+ mounted(){
+      this.forceRerender();
+  },
+  // eslint-disable-next-line vue/order-in-components
+  data(){
+      return{
+          componentKey: 0
       }
   },
   methods: {
-      async addArticle() {
-            const name = this.name;
-            const content = this.content;
-            const excerpt = this.excerpt;
-            const categories = this.categories;
-            const image = this.image;
-            await this.$apollo.mutate({
-                mutation: ADD_ARTICLES,
-                variables: {
-                    name,
-                    excerpt,
-                    categories,
-                    content,
-                    image,
-                },
-        update: (cache, { data: { insertCategories }}) => {
-                        // Read data from cache for this query
-                        try {
-                            const insertedCategory = insertCategories.returning;
-                            console.log(insertedCategory)
-                            cache.writeQuery({
-                                query: articles
-                            })
-                        }
-                        catch (err) {
-                            console.error(err)
-                        }
-                    }
-                }).then(() => {
-                    this.$router.push({path: '../content/blog'})
-                }).catch(err => console.log(err));
-                this.name = ' ';
-                this.excerpt = ' ';
-                this.categories = ' ';
-                this.content = ' ';
-                this.image = ' ';
-            },
-            
+   async deleteArticle(article){
+    await this.$apollo.mutate({
+        mutation: DELETE_ARTICLE,
+        variables: {
+          id: article.id
         },
-    apollo: {
-        categories: {
-        prefetch: true,
-        query: categories
-        }
-    }, 
-    // eslint-disable-next-line vue/order-in-components
-    head: {
-        title: 'Add New Article'
+        refetchQueries: [
+          {
+            query: allArticles
+          }       
+          
+        ]
+      }).then(() => {
+            this.$router.push({path: '../admin/content/articles'})
+            }).catch(err => console.log(err));
+    },
+    async updateArticle(article){
+    await this.$apollo.mutate({
+        mutation: UPDATE_ARTICLE,
+        variables: {
+          id: article.id
+        },
+        refetchQueries: [
+          {
+            query: allArticles
+          }       
+          
+        ]
+      })
+    },
+    forceRerender() {
+      this.componentKey += 1;  
     }
+  },
+  apollo: {
+    articles: {
+      query: articles,
+      prefetch: ({ route }) => ({ id: route.params.id }),
+      variables() {
+        return { id: this.$route.params.id }
+      }
+    }
+  }
 }
 </script>
 

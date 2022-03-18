@@ -3,7 +3,7 @@
     <div>
         <FormulateForm method="POST" @submit.prevent>
         <div class="table table-responsive">
-            <table class="table table">
+            <table class="table" >
                 <thead>
                     <tr>
                         <th>

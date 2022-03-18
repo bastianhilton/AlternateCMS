@@ -28,8 +28,8 @@ export default {
     script: [
       { src: 'https://cdn.jsdelivr.net/npm/chart.js', mode: 'client' },
       { src: 'https://polyfill.io/v3/polyfill.min.js?features=es2015', mode: 'client' },
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.js', mode: 'client' },
-      // { src: 'https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js', mode: 'client' },
+      // { src: 'https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.js', mode: 'client' },
+      { src: 'https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js', mode: 'client' },
     ]
   },
 
@@ -37,18 +37,18 @@ export default {
     '~/static/styles/styles.css',
     'simplemde/dist/simplemde.min.css',
     '~/static/styles/snow.min.css',
-    '~/static/styles/bootstrap-table.css'
+    '~/static/styles/bootstrap-table.min.css'
   ],
 
   script: [
-    { src: '~/static/styles/bootstrap-table.js', mode: 'client' },
-    { src: '~/static/styles/bootstrap-table-locale-all.js', mode: 'client' }
+    { src: '~/static/styles/bootstrap-table.js', mode: 'client'},
   ],
 
   plugins: [
     { src: '~plugins/simplemde.js', mode: 'client' },
     { src: '~plugins/main.js', mode: 'client' },
     { src: '~plugins/vue-scrollama.js', mode: 'client' },
+    { src: '~/plugins/client.js'},
     // { src: '~plugins/vue-chart.js', mode: 'client' },
   ],
 
@@ -83,8 +83,17 @@ export default {
     '@nuxtjs/robots',
     '@nuxtjs/google-adsense',
     '@nuxtjs/sitemap',
+    '@nuxtjs/vuetify',
+    'nuxt-helmet',
   ],
 
+  helmet: {
+    /*
+    frameguard: false,
+    ...
+    */
+ },
+  // Modules Options
     'google-adsense': {
         id: 'ca-pub-#########'
     },
