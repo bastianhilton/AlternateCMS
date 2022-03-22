@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@braid/vue-formulate": "^2.5.3",
-    "@meilisearch/instant-meilisearch": "^0.6.0",
+    "@meilisearch/instant-meilisearch": "^0.6.2",
     "@nuxt/devalue": "^2.0.0",
     "@nuxtjs/apollo": "^4.0.1-rc.5",
     "@nuxtjs/auth-next": "^5.0.0-1641544397.1af946a",
