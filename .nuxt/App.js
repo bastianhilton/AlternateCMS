@@ -12,16 +12,14 @@ import '..\\node_modules\\simplemde\\dist\\simplemde.min.css'
 
 import '..\\static\\styles\\snow.min.css'
 
-import '..\\static\\styles\\bootstrap-table.min.css'
-
 import '..\\node_modules\\leaflet\\dist\\leaflet.css'
 
 import '..\\node_modules\\vuetify\\dist\\vuetify.css'
 
+import _5fa3735e from '..\\layouts\\dashboard.vue'
 import _6f6c098b from '..\\layouts\\default.vue'
-import _2d27502e from '..\\layouts\\none.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b),"_none": sanitizeComponent(_2d27502e) }
+const layouts = { "_dashboard": sanitizeComponent(_5fa3735e),"_default": sanitizeComponent(_6f6c098b) }
 
 export default {
   render (h, props) {

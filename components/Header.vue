@@ -89,9 +89,9 @@
                             <li>
                                 <a class="dropdown-item" href="/admin/marketing/newsletter">Newsletter</a>
                             </li>
-                            <li>
+                            <!--<li>
                                 <a class="dropdown-item" href="/admin/marketing/communications">Communications</a>
-                            </li>
+                            </li>-->
                             <li>
                                 <a class="dropdown-item" href="/admin/marketing/reviews">Reviews</a>
                             </li>

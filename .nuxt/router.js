@@ -88,6 +88,7 @@ const _0ea25e6b = () => interopDefault(import('..\\pages\\Admin\\System\\integra
 const _31b9c322 = () => interopDefault(import('..\\pages\\Admin\\System\\role-manager.vue' /* webpackChunkName: "pages/Admin/System/role-manager" */))
 const _5ba22522 = () => interopDefault(import('..\\pages\\Admin\\System\\settings.vue' /* webpackChunkName: "pages/Admin/System/settings" */))
 const _0f36f970 = () => interopDefault(import('..\\pages\\Admin\\Customers\\customer\\newcustomer.vue' /* webpackChunkName: "pages/Admin/Customers/customer/newcustomer" */))
+const _d2581622 = () => interopDefault(import('..\\pages\\Admin\\Marketing\\Email\\email-designer.vue' /* webpackChunkName: "pages/Admin/Marketing/Email/email-designer" */))
 const _3e76ee18 = () => interopDefault(import('..\\pages\\Admin\\Shop\\Product\\Edit\\_id.vue' /* webpackChunkName: "pages/Admin/Shop/Product/Edit/_id" */))
 const _b0633852 = () => interopDefault(import('..\\pages\\Admin\\Edit\\agreement\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/agreement/_id" */))
 const _6d2fda2b = () => interopDefault(import('..\\pages\\Admin\\Edit\\article\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/article/_id" */))
@@ -516,6 +517,10 @@ export const routerOptions = {
     path: "/Admin/Customers/customer/newcustomer",
     component: _0f36f970,
     name: "Admin-Customers-customer-newcustomer___en"
+  }, {
+    path: "/Admin/Marketing/Email/email-designer",
+    component: _d2581622,
+    name: "Admin-Marketing-Email-email-designer___en"
   }, {
     path: "/es/Admin/Add-New/add-new-agreement",
     component: _1bc74b8c,
@@ -1129,9 +1134,17 @@ export const routerOptions = {
     component: _0f36f970,
     name: "Admin-Customers-customer-newcustomer___es"
   }, {
+    path: "/es/Admin/Marketing/Email/email-designer",
+    component: _d2581622,
+    name: "Admin-Marketing-Email-email-designer___es"
+  }, {
     path: "/fr/Admin/Customers/customer/newcustomer",
     component: _0f36f970,
     name: "Admin-Customers-customer-newcustomer___fr"
+  }, {
+    path: "/fr/Admin/Marketing/Email/email-designer",
+    component: _d2581622,
+    name: "Admin-Marketing-Email-email-designer___fr"
   }, {
     path: "/es/Admin/Shop/Product/Edit/:id?",
     component: _3e76ee18,

@@ -17,6 +17,7 @@ model articles {
   customers  String?
   users      String?
   published  DateTime? @default(now()) @db.Timestamptz(6)
+  cust_id    Int       @default(autoincrement())
 }
 
 model cart_price_rules {
@@ -90,6 +91,8 @@ model comments {
   image         String?
   response      String?
   published     DateTime? @db.Timestamp(6)
+  cust_id       Int       @default(autoincrement())
+  customers     customers @relation(fields: [cust_id], references: [id])
 }
 
 model core_store {
@@ -110,18 +113,20 @@ model countries {
 }
 
 model coupons {
-  id         BigInt    @id @default(autoincrement())
-  name       String
-  excerpt    String?
-  discount   String?
-  image      String?
-  published  DateTime? @default(now()) @db.Timestamp(6)
-  expiration String?
-  categories String?
-  articles   String?
-  products   String?
-  customers  String?
-  users      String?
+  id                         BigInt    @id @default(autoincrement())
+  name                       String
+  excerpt                    String?
+  discount                   String?
+  image                      String?
+  published                  DateTime? @default(now()) @db.Timestamp(6)
+  expiration                 String?
+  categories                 String?
+  articles                   String?
+  products                   String?
+  customers                  String?
+  users                      String?
+  prod_id                    BigInt    @default(autoincrement())
+  products_couponsToproducts products  @relation(fields: [prod_id], references: [id])
 }
 
 model credit_memos {
@@ -133,6 +138,10 @@ model credit_memos {
   refunded     String?
   action       String?
   id           BigInt    @default(autoincrement())
+  cust_id      Int       @default(autoincrement())
+  prod_id      BigInt    @default(autoincrement())
+  customers    customers @relation(fields: [cust_id], references: [id])
+  products     products  @relation(fields: [prod_id], references: [id])
 
   @@id([credit_memo, id])
 }
@@ -148,31 +157,43 @@ model currency_symbols {
 }
 
 model customers {
-  id                Int       @id @default(autoincrement())
-  thumbnail         String?
-  name_prefix       String?
-  first_name        String
-  middle_name       String?
-  last_name         String
-  email             String
-  customer_group    String?
-  phone             String?
-  zipcode           String?
-  name_suffix       String?
-  websites          String?
-  product           String?
-  country           String?
-  state             String?
-  customer_since    DateTime? @default(now()) @db.Timestamptz(6)
-  confirmed_email   String?
-  date_of_birth     String?
-  tax_vat_number    String?
-  gender            String?
-  description       String?
-  short_description String?
-  image             String?
-  Address           String?
-  address_two       String?
+  id                                       Int                      @id @default(autoincrement())
+  thumbnail                                String?
+  name_prefix                              String?
+  first_name                               String
+  middle_name                              String?
+  last_name                                String
+  email                                    String
+  customer_group                           String?
+  phone                                    String?
+  zipcode                                  String?
+  name_suffix                              String?
+  websites                                 String?
+  product                                  String?
+  country                                  String?
+  state                                    String?
+  customer_since                           DateTime?                @default(now()) @db.Timestamptz(6)
+  confirmed_email                          String?
+  date_of_birth                            String?
+  tax_vat_number                           String?
+  gender                                   String?
+  description                              String?
+  short_description                        String?
+  image                                    String?
+  Address                                  String?
+  address_two                              String?
+  payment_type                             String?
+  username                                 String?
+  password                                 String?
+  comments                                 comments[]
+  credit_memos                             credit_memos[]
+  customer_group_customer_groupTocustomers customer_group[]
+  customer_payment                         customer_payment?
+  emails                                   emails[]
+  newsletter_subscribers                   newsletter_subscribers[]
+  orders                                   orders[]
+  quotes                                   quotes[]
+  returns                                  returns[]
 }
 
 model gift_certificates {
@@ -231,20 +252,28 @@ model newsletter_subscribers {
   status              String?
   websites            String?
   created_at          DateTime? @default(now()) @db.Timestamp(6)
+  cust_id             Int       @default(autoincrement())
+  customers           customers @relation(fields: [cust_id], references: [id])
 }
 
 model orders {
-  id                           Int       @id @default(autoincrement())
+  id                           Int            @id @default(autoincrement())
   purchase_point               Int?
-  purchase_date                DateTime? @db.Timestamp(6)
-  bill_to_name                 String    @db.VarChar(255)
-  ship_to_name                 String?   @db.VarChar(255)
+  purchase_date                DateTime?      @db.Timestamp(6)
+  bill_to_name                 String         @db.VarChar(255)
+  ship_to_name                 String?        @db.VarChar(255)
   grand_total_base             Int?
   grand_total_purchased        Int?
   status                       Boolean?
   action                       Boolean?
   allocated_sources            String?
   braintree_transaction_source String?
+  cust_id                      Int            @default(autoincrement())
+  prod_id                      BigInt         @default(autoincrement())
+  customers                    customers      @relation(fields: [cust_id], references: [id])
+  products                     products       @relation(fields: [prod_id], references: [id])
+  quotes                       quotes[]
+  transactions                 transactions[]
 }
 
 model pages {
@@ -276,7 +305,7 @@ model polls {
 }
 
 model product_attribute {
-  id                                Int      @id @default(autoincrement())
+  id                                Int                     @id @default(autoincrement())
   default_label                     String?
   catalog_input_type_store_owner    String?
   values_required                   Boolean?
@@ -297,17 +326,22 @@ model product_attribute {
   visible_catalog_pages_storefront  Boolean?
   used_product_listing              Boolean?
   used_sorting_product_listing      Boolean?
+  prod_id                           BigInt                  @default(autoincrement())
+  products                          products                @relation(fields: [prod_id], references: [id])
+  product_attribute_set             product_attribute_set[]
 }
 
 model product_attribute_set {
-  id       Int     @id @default(autoincrement())
-  name     String  @db.VarChar(255)
-  based_on String?
+  id                Int               @id @default(autoincrement())
+  name              String            @db.VarChar(255)
+  based_on          String?
+  attribute_id      Int               @default(autoincrement())
+  product_attribute product_attribute @relation(fields: [attribute_id], references: [id])
 }
 
 model products {
-  id                  BigInt    @id @default(autoincrement())
-  sku                 BigInt    @unique @default(autoincrement())
+  id                  BigInt              @id @default(autoincrement())
+  sku                 BigInt              @unique @default(autoincrement())
   thumbnail           String?
   name                String
   type                String?
@@ -323,7 +357,7 @@ model products {
   stock_status        String?
   weight              String?
   categories          String?
-  created_at          DateTime? @default(now()) @db.Timestamptz(6)
+  created_at          DateTime?           @default(now()) @db.Timestamptz(6)
   country             String?
   size                String?
   format              String?
@@ -337,19 +371,34 @@ model products {
   meta_url            String?
   file                String?
   manufacture         String?
+  coupons             coupons[]
+  credit_memos        credit_memos[]
+  orders              orders[]
+  product_attribute   product_attribute[]
+  quotes              quotes[]
+  rating              rating[]
+  returns             returns[]
+  tax_rate            tax_rate[]
+  tax_rule            tax_rule[]
 }
 
 model quotes {
-  id         Int       @id @default(autoincrement())
-  name       String    @db.VarChar(255)
-  excerpt    String?   @db.VarChar(255)
-  image      String?
-  published  DateTime? @db.Timestamp(6)
-  categories String?
-  articles   String?
-  products   String?
-  customers  String?
-  users      String?
+  id                          Int       @id @default(autoincrement())
+  name                        String    @db.VarChar(255)
+  excerpt                     String?   @db.VarChar(255)
+  image                       String?
+  published                   DateTime? @db.Timestamp(6)
+  categories                  String?
+  articles                    String?
+  products                    String?
+  customers                   String?
+  users                       String?
+  cust_id                     Int       @default(autoincrement())
+  prod_id                     BigInt    @default(autoincrement())
+  order_id                    Int       @default(autoincrement())
+  customers_customersToquotes customers @relation(fields: [cust_id], references: [id])
+  orders                      orders    @relation(fields: [order_id], references: [id])
+  products_productsToquotes   products  @relation(fields: [prod_id], references: [id])
 }
 
 model rating {
@@ -359,6 +408,8 @@ model rating {
   rating_visibility  String?
   active             Boolean?
   sort_order         Decimal? @db.Decimal
+  prod_id            BigInt   @default(autoincrement())
+  products           products @relation(fields: [prod_id], references: [id])
 }
 
 model reports {
@@ -381,6 +432,8 @@ model reviews {
   content    String?
   websites   String?
   created_at DateTime? @default(now()) @db.Timestamp(6)
+  shop_id    Int       @default(autoincrement())
+  comment_id Int       @default(autoincrement())
 }
 
 model reward_points {
@@ -535,30 +588,38 @@ model tax_rate {
   country            String?
   rate_percent       String?
   default_store_view String?
+  prod_id            BigInt   @default(autoincrement())
+  products           products @relation(fields: [prod_id], references: [id])
 }
 
 model tax_rule {
-  id       Int     @id @default(autoincrement())
-  name     String  @db.VarChar(255)
+  id       Int      @id @default(autoincrement())
+  name     String   @db.VarChar(255)
   tax_rate String?
+  prod_id  BigInt   @default(autoincrement())
+  products products @relation(fields: [prod_id], references: [id])
 }
 
 model themes {
-  id           Int     @id @default(autoincrement())
+  id           Int      @id @default(autoincrement())
   title        String?
   parent_theme String?
   theme_path   String?
   action       String?
+  website_id   BigInt   @default(autoincrement())
+  websites     websites @relation(fields: [website_id], references: [id])
 }
 
 model transactions {
-  id                    Int       @id @default(autoincrement())
-  order_id              Int       @default(autoincrement())
-  transaction_id        Int       @default(autoincrement())
-  parent_transaction_id Int       @default(autoincrement())
-  created               DateTime? @default(now()) @db.Timestamp(6)
-  payment_method        String
+  id                    Int              @id @default(autoincrement())
+  order_id              Int              @default(autoincrement())
+  transaction_id        Int              @default(autoincrement())
+  parent_transaction_id Int              @default(autoincrement())
+  created               DateTime?        @default(now()) @db.Timestamp(6)
+  payment_method        BigInt           @default(autoincrement())
   closed                String?
+  orders                orders           @relation(fields: [order_id], references: [id])
+  customer_payment      customer_payment @relation(fields: [payment_method], references: [id])
 }
 
 model upload_file {
@@ -625,6 +686,7 @@ model agreements {
   excerpt      String?
   type         String?
   user_id      Int       @default(autoincrement())
+  shop_id      Int       @default(autoincrement())
 }
 
 model collections {
@@ -644,6 +706,8 @@ model customer_group {
   created_at DateTime? @default(now()) @db.Timestamptz(6)
   name       String?
   tax_class  String?
+  cust_id    Int       @default(autoincrement())
+  customers  customers @relation(fields: [cust_id], references: [id])
 }
 
 model emails {
@@ -653,6 +717,8 @@ model emails {
   subject    String?   @db.VarChar(255)
   content    String?
   recipients String?
+  cust_id    Int       @default(autoincrement())
+  customers  customers @relation(fields: [cust_id], references: [id])
 }
 
 model events {
@@ -677,6 +743,10 @@ model returns {
   name          String?
   validity      String?
   return_prefix String?
+  prod_id       BigInt    @default(autoincrement())
+  cust_id       Int       @default(autoincrement())
+  customers     customers @relation(fields: [cust_id], references: [id])
+  products      products  @relation(fields: [prod_id], references: [id])
 }
 
 model segments {
@@ -697,4 +767,17 @@ model websites {
   url        String?
   shop       String?
   store      String?
+  themes     themes[]
+}
+
+model customer_payment {
+  id           BigInt         @id @default(autoincrement())
+  created_at   DateTime?      @default(now()) @db.Timestamptz(6)
+  cust_id      Int            @unique @default(autoincrement())
+  payment_info String?
+  provider     String?
+  account_no   BigInt         @unique @default(autoincrement())
+  expiry       BigInt?
+  customers    customers      @relation(fields: [cust_id], references: [id])
+  transactions transactions[]
 }

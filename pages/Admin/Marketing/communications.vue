@@ -2,18 +2,10 @@
   <div>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-          <div class="dropdown">
-            <FormulateInput id="dropdownMenuButton" class="btn btn-primary dropdown-toggle" type="button"
-              data-mdb-toggle="dropdown" aria-expanded="false">
-              Email
-            </FormulateInput>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li><a class="dropdown-item" href="/admin/add-new-email">Send An Email</a></li>
-              <li><a class="dropdown-item" href="#">Email Reminders</a></li>
-            </ul>
-          </div>
-          
-</div>
+        <a class="navbar-brand" href="/admin/add-new/email"><FormulateInput type="button" label="Send Email"></FormulateInput></a>
+        <a class="navbar-brand" href="/admin/marketing/email/email-designer"><FormulateInput type="button" style="float:right; right: 15px; position: absolute;" label="Email Designer"></FormulateInput></a>
+        
+      </div>
 </nav>
 <br>
     <div class="table table-responsive">

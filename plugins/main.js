@@ -1,9 +1,4 @@
-import Vue from 'vue';
-import InstantSearch from 'vue-instantsearch';
 import {DataTable} from 'simple-datatables'
-
-Vue.use(InstantSearch);
-
 
 // AlternateCMS Time Functionality
 

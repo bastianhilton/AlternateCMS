@@ -108,7 +108,7 @@ import { events } from "~/apollo/queries/marketing/events";
 // import attributes from "~/apollo/queries/shop/attributes"
 
 const ADD_EVENTS = gql`
-    mutation ($image: String!,$name: String!,$postalcode: String!,$start: String!,$end: String!,$tickets: String!,$content: String!,$country: String!,$city: String!,$state: String!,$category: String){
+    mutation ($image: Upload!,$name: String!,$postalcode: String!,$start: String!,$end: String!,$tickets: String!,$content: String!,$country: String!,$city: String!,$state: String!,$category: String){
     insert_events(objects: {image: $image,name: $name,postalcode: $postalcode,start: $start,end: $end,tickets: $tickets,country: $country,content: $content,category: $category,city: $city,state: $state}) {
         affected_rows
         returning {

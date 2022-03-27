@@ -776,6 +776,14 @@
     "_name": "_0f36f970"
   },
   {
+    "name": "Admin-Marketing-Email-email-designer___en",
+    "path": "/Admin/Marketing/Email/email-designer",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Marketing\\\\Email\\\\email-designer.vue",
+    "chunkName": "pages/Admin/Marketing/Email/email-designer",
+    "url": "/Admin/Marketing/Email/email-designer",
+    "_name": "_d2581622"
+  },
+  {
     "name": "Admin-Add-New-add-new-agreement___es",
     "path": "/es/Admin/Add-New/add-new-agreement",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Add-New\\\\add-new-agreement.vue",
@@ -2000,12 +2008,28 @@
     "_name": "_0f36f970"
   },
   {
+    "name": "Admin-Marketing-Email-email-designer___es",
+    "path": "/es/Admin/Marketing/Email/email-designer",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Marketing\\\\Email\\\\email-designer.vue",
+    "chunkName": "pages/Admin/Marketing/Email/email-designer",
+    "url": "/es/Admin/Marketing/Email/email-designer",
+    "_name": "_d2581622"
+  },
+  {
     "name": "Admin-Customers-customer-newcustomer___fr",
     "path": "/fr/Admin/Customers/customer/newcustomer",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Customers\\\\customer\\\\newcustomer.vue",
     "chunkName": "pages/Admin/Customers/customer/newcustomer",
     "url": "/fr/Admin/Customers/customer/newcustomer",
     "_name": "_0f36f970"
+  },
+  {
+    "name": "Admin-Marketing-Email-email-designer___fr",
+    "path": "/fr/Admin/Marketing/Email/email-designer",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Marketing\\\\Email\\\\email-designer.vue",
+    "chunkName": "pages/Admin/Marketing/Email/email-designer",
+    "url": "/fr/Admin/Marketing/Email/email-designer",
+    "_name": "_d2581622"
   },
   {
     "name": "Admin-Shop-Product-Edit-id___es",

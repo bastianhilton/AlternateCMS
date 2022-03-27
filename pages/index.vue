@@ -211,8 +211,9 @@ import Newcustomers from '~/components/newcustomers'
 import Reviewslimit from '~/components/reviewslimit'
 
 export default {
-
   components: { Newcustomers, Customerslimit, Reviewslimit},
+
+  layout: 'dashboard',
   head: {
       title: "AlternateCMS"
   }

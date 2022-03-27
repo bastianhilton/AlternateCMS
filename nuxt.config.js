@@ -23,6 +23,12 @@ export default {
     link: [{rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
       {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'},
       {rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap'},
+      {rel: 'stylesheet', href: '/assets/web/assets/mobirise-icons2/mobirise2.css' },
+      {rel: 'stylesheet', href: '/assets/tether/tether.min.css' },
+      {rel: 'stylesheet', href: '/assets/dropdown/css/style.css' },
+      {rel: 'stylesheet', href: '/assets/socicon/css/styles.css' },
+      {rel: 'stylesheet', href: '/assets/theme/css/style.css' },
+      {rel: 'stylesheet', href: '/assets/mobirise/css/mbr-additional.css' },
       {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.css'},
     ],
     script: [
@@ -30,6 +36,14 @@ export default {
       { src: 'https://polyfill.io/v3/polyfill.min.js?features=es2015', mode: 'client' },
       // { src: 'https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.js', mode: 'client' },
       { src: 'https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js', mode: 'client' },
+      { src: '/assets/popper/popper.min.js', mode: 'client' },
+      { src: '/assets/tether/tether.min.js', mode: 'client' },
+      { src: '/assets/smoothscroll/smooth-scroll.js', mode: 'client' },
+      { src: '/assets/dropdown/js/nav-dropdown.js', mode: 'client' },
+      { src: '/assets/dropdown/js/navbar-dropdown.js', mode: 'client' },
+      { src: '/assets/touchswipe/jquery.touch-swipe.min.js', mode: 'client' },
+      { src: '/assets/theme/js/script.js', mode: 'client' },
+      { src: 'https://editor.unlayer.com/embed.js', mode: 'client' },
     ]
   },
 
@@ -37,18 +51,16 @@ export default {
     '~/static/styles/styles.css',
     'simplemde/dist/simplemde.min.css',
     '~/static/styles/snow.min.css',
-    '~/static/styles/bootstrap-table.min.css'
   ],
 
   script: [
-    { src: '~/static/styles/bootstrap-table.js', mode: 'client'},
   ],
 
   plugins: [
     { src: '~plugins/simplemde.js', mode: 'client' },
     { src: '~plugins/main.js', mode: 'client' },
-    { src: '~plugins/vue-scrollama.js', mode: 'client' },
-    { src: '~/plugins/client.js'},
+    { src: '~plugins/paypal.js', ssr: false },
+    { src: '~plugins/client.js', ssr: false },
     // { src: '~plugins/vue-chart.js', mode: 'client' },
   ],
 
@@ -85,6 +97,7 @@ export default {
     '@nuxtjs/sitemap',
     '@nuxtjs/vuetify',
     'nuxt-helmet',
+    '@nuxtjs/lunr-module',
   ],
 
   helmet: {
