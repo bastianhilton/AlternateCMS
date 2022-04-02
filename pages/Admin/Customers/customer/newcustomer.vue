@@ -177,7 +177,7 @@ export default {
             short_description: " ",
             image: " ",
             dropzoneOptions: {
-                url: "../../static/media/",
+                url: "../../media/",
                 thumbnailWidth: 150,
                 maxFileAddress: 10,
                 createImageThumbnails: true,

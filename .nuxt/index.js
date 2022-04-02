@@ -38,6 +38,7 @@ import nuxt_plugin_simplemde_45e761dc from 'nuxt_plugin_simplemde_45e761dc' // S
 import nuxt_plugin_main_101ad5e7 from 'nuxt_plugin_main_101ad5e7' // Source: ..\\plugins\\main.js (mode: 'client')
 import nuxt_plugin_paypal_f3b367a6 from 'nuxt_plugin_paypal_f3b367a6' // Source: ..\\plugins\\paypal.js (mode: 'client')
 import nuxt_plugin_client_14eb6855 from 'nuxt_plugin_client_14eb6855' // Source: ..\\plugins\\client.js (mode: 'client')
+import nuxt_plugin_typegraphql_a4cbf882 from 'nuxt_plugin_typegraphql_a4cbf882' // Source: ..\\plugins\\typegraphql.js (mode: 'client')
 import nuxt_plugin_auth_5ac7603c from 'nuxt_plugin_auth_5ac7603c' // Source: .\\auth.js (mode: 'all')
 
 // Component: <ClientOnly>
@@ -333,6 +334,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.client && typeof nuxt_plugin_client_14eb6855 === 'function') {
     await nuxt_plugin_client_14eb6855(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_typegraphql_a4cbf882 === 'function') {
+    await nuxt_plugin_typegraphql_a4cbf882(app.context, inject)
   }
 
   if (typeof nuxt_plugin_auth_5ac7603c === 'function') {

@@ -109,7 +109,7 @@ export default {
             billing_address: " ",
             shipping_address: " ",
             dropzoneOptions: {
-                url: "../../static/media/",
+                url: "../../media/",
                 subtotalWidth: 150,
                 maxFilesize: 10,
                 createImageThumbnails: true,

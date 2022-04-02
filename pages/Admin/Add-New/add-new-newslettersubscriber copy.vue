@@ -120,6 +120,7 @@
 
 <script>
 import gql from "graphql-tag";
+
 import customers from "~/apollo/queries/customers/customers"
 
 const ADD_CUSTOMERS = gql`
@@ -153,7 +154,6 @@ const ADD_CUSTOMERS = gql`
 }`;
 
 export default {
-
     data() {
     return {
             first_name: " ",
@@ -178,7 +178,7 @@ export default {
             short_description: " ",
             image: " ",
             dropzoneOptions: {
-                url: "../../static/media/",
+                url: "../../media/",
                 thumbnailWidth: 150,
                 maxFileAddress: 10,
                 createImageThumbnails: true,
@@ -192,8 +192,17 @@ export default {
     head: {
         title: 'Add New Customer'
     }, 
+    dropzoneOptions: {
+                url: "../../media/",
+                thumbnailWidth: 150,
+                maxFileAddress: 10,
+                createImageThumbnails: true,
+                maxThumbnailFileSize: 4,
+                duplicateCheck: true,
+                includeStyling: true,
+                headers: { "My-Awesome-Header": "header value" }
+            },
 /* eslint-disable camelcase */
-   
   methods: {
       async addCustomer() {
             const first_name = this.first_name;

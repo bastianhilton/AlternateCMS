@@ -91,7 +91,7 @@
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-mdb-parent="#accordionExample">
                     <div class="accordion-body">
-                        <td><FormulateInput v-model="image" type="image" upload-url="/media" name="headshot" label="Select an image to upload" help="Select a png, jpg or gif to upload." validation="mime:image/jpeg,image/png,image/gif"/></td>
+                        <td><dropzone id="dropzone" ref="myDropzone" v-model="image" :options="dropzoneOptions" @vdropzone-file-added="onFileAdded" @vdropzone-error="onError" @vdropzone-success="onSuccess" @vdropzone-complete="onComplete" /></td>
                     </div>
                 </div>
             </div>
@@ -102,6 +102,7 @@
 
 <script>
 import gql from "graphql-tag";
+
 import { events } from "~/apollo/queries/marketing/events";
 // import category from "~/apollo/queries/shop/category"
 // import countries from "~/apollo/queries/shop/countries"
@@ -143,7 +144,7 @@ export default {
             city: " ",
             state: " ",
             dropzoneOptions: {
-                url: "../../static/media/",
+                url: "../../media/",
                 imageWidth: 150,
                 maxFilesize: 10,
                 createImageThumbnails: true,
@@ -157,7 +158,16 @@ export default {
     head: {
         title: 'Add New Event'
     }, 
-   
+   dropzoneOptions: {
+                url: "../../media/",
+                thumbnailWidth: 150,
+                maxFileAddress: 10,
+                createImageThumbnails: true,
+                maxThumbnailFileSize: 4,
+                duplicateCheck: true,
+                includeStyling: true,
+                headers: { "My-Awesome-Header": "header value" }
+            },
   methods: {
       async addEvent() {
             const image = this.image;

@@ -60,7 +60,7 @@
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-mdb-parent="#accordionExample">
                     <div class="accordion-body">
-                        <td><FormulateInput v-model="image" type="image" upload-url="/media" name="headshot" label="Select an image to upload" help="Select a png, jpg or gif to upload." validation="mime:image/jpeg,image/png,image/gif"/></td>
+                        <td><dropzone id="dropzone" ref="myDropzone" v-model="image" :options="dropzoneOptions" @vdropzone-file-added="onFileAdded" @vdropzone-error="onError" @vdropzone-success="onSuccess" @vdropzone-complete="onComplete" /></td>
                     </div>
                 </div>
             </div>
@@ -105,6 +105,7 @@
 
 <script>
 import gql from "graphql-tag";
+
 import { collections } from "~/apollo/queries/shop/collections";
 
 const ADD_COLLECTIONS = gql`
@@ -134,6 +135,16 @@ export default {
         
       }
   },
+  dropzoneOptions: {
+                url: "../../media/",
+                thumbnailWidth: 150,
+                maxFileAddress: 10,
+                createImageThumbnails: true,
+                maxThumbnailFileSize: 4,
+                duplicateCheck: true,
+                includeStyling: true,
+                headers: { "My-Awesome-Header": "header value" }
+            },
     head: {
         title: 'Add New Collection'
     }, 

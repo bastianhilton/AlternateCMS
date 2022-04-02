@@ -32,7 +32,7 @@
                     <tr>
                         <td style="text-align: right;">Logo</td>
                         <td>
-                            <td><FormulateInput v-model="image" type="image" upload-url="/media" name="headshot" label="Select an image to upload" help="Select a png, jpg or gif to upload." validation="mime:image/jpeg,image/png,image/gif"/></td>
+                            <td><dropzone id="dropzone" ref="myDropzone" v-model="image" :options="dropzoneOptions" @vdropzone-file-added="onFileAdded" @vdropzone-error="onError" @vdropzone-success="onSuccess" @vdropzone-complete="onComplete" /></td>
                     </tr>
                 </tbody>
             </table>

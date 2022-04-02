@@ -1,21 +1,27 @@
-const cors = require("cors");
-const express = require("express");
+const express = require('express');
 const app = express();
+const base64Img = require('base64-img');
+const bodyParser = require('body-parser');
+const cors = require('cors')
+const port = 3000;
 
-global.__basedir = __dirname;
+app.use(cors())
+app.use(express.static('./media'))
+app.use(bodyParser.json({ limit: '50mb' }));
 
-const corsOptions = {
-  origin: "http://localhost:3000"
-};
+app.post('/upload', (req, res) => {
+  const { image } = req.body;
+  base64Img.img(image, './media', Date.now(), function(_err, filepath) {
+    const pathArr = filepath.split('/')
+    const fileName = pathArr[pathArr.length - 1];
 
-app.use(cors(corsOptions));
-
-const initRoutes = require("./pages");
-
-app.use(express.urlencoded({ extended: true }));
-initRoutes(app);
-
-const port = 8080;
-app.listen(port, () => {
-  console.log(`Running at localhost:${port}`);
+    res.status(200).json({
+      success: true,
+      url: `http://127.0.0.1:${port}/${fileName}`
+    })
+  });
 });
+
+app.listen(port, () => {
+  console.info(`listening on port ${port}`);
+})
