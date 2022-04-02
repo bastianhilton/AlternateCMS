@@ -62,7 +62,7 @@ export default {
     { src: '~plugins/paypal.js', ssr: false },
     { src: '~plugins/client.js', ssr: false },
     { src: '~plugins/typegraphql.js', ssr: false },
-    { src: '~plugins/upload.js', mode: 'client' },
+    // { src: '~plugins/upload.js', mode: 'client' },
     // { src: '~plugins/vue-chart.js', mode: 'client' },
   ],
 
@@ -100,7 +100,6 @@ export default {
     '@nuxtjs/vuetify',
     'nuxt-helmet',
     '@nuxtjs/lunr-module',
-    'dropzone-nuxt',
   ],
 
   helmet: {

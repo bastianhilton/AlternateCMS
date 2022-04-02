@@ -60,7 +60,7 @@
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-mdb-parent="#accordionExample">
                     <div class="accordion-body">
-                        <td><dropzone id="dropzone" ref="myDropzone" v-model="image" :options="dropzoneOptions" @vdropzone-file-added="onFileAdded" @vdropzone-error="onError" @vdropzone-success="onSuccess" @vdropzone-complete="onComplete" /></td>
+                        <td><FormulateInput type="image" name="headshot" v-model="image" label="Select an image to upload" help="Select a png, jpg or gif to upload." validation="mime:image/jpeg,image/png,image/gif"/></td>
                     </div>
                 </div>
             </div>
@@ -95,16 +95,6 @@ export default {
         
       }
   },
-  dropzoneOptions: {
-                url: "../../media/",
-                thumbnailWidth: 150,
-                maxFileAddress: 10,
-                createImageThumbnails: true,
-                maxThumbnailFileSize: 4,
-                duplicateCheck: true,
-                includeStyling: true,
-                headers: { "My-Awesome-Header": "header value" }
-            }
   methods: {
       async addGlossary() {
             const name = this.name;

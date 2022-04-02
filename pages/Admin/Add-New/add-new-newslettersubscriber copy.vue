@@ -103,7 +103,7 @@
                     </tr>
                     <tr>
                       <td style="text-align: right;">Image</td>
-                      <td><dropzone id="dropzone" ref="myDropzone" v-model="image" :options="dropzoneOptions" @vdropzone-file-added="onFileAdded" @vdropzone-error="onError" @vdropzone-success="onSuccess" @vdropzone-complete="onComplete" />
+                      <td><FormulateInput type="image" name="headshot" v-model="image" label="Select an image to upload" help="Select a png, jpg or gif to upload." validation="mime:image/jpeg,image/png,image/gif"/>
                       </td>
                     </tr>
                   </tbody>
@@ -177,31 +177,17 @@ export default {
             address_two: " ",
             short_description: " ",
             image: " ",
-            dropzoneOptions: {
-                url: "../../media/",
-                thumbnailWidth: 150,
-                maxFileAddress: 10,
-                createImageThumbnails: true,
-                maxThumbnailFileSize: 4,
-                duplicateCheck: true,
-                includeStyling: true,
-                headers: { "My-Awesome-Header": "header value" }
-            }
+            
         }
   },
     head: {
         title: 'Add New Customer'
     }, 
-    dropzoneOptions: {
-                url: "../../media/",
-                thumbnailWidth: 150,
-                maxFileAddress: 10,
-                createImageThumbnails: true,
-                maxThumbnailFileSize: 4,
-                duplicateCheck: true,
-                includeStyling: true,
-                headers: { "My-Awesome-Header": "header value" }
-            },
+    ,
+    mounted() {
+    // eslint-disable-next-line no-unused-vars
+      const instance = this.$refs.el.dropzone
+    },
 /* eslint-disable camelcase */
   methods: {
       async addCustomer() {

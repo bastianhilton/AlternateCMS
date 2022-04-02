@@ -108,7 +108,7 @@ export default {
             email: " ",
             billing_address: " ",
             shipping_address: " ",
-            dropzoneOptions: {
+            options: {
                 url: "../../media/",
                 subtotalWidth: 150,
                 maxFilesize: 10,

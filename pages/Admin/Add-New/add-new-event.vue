@@ -91,7 +91,7 @@
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                     data-mdb-parent="#accordionExample">
                     <div class="accordion-body">
-                        <td><dropzone id="dropzone" ref="myDropzone" v-model="image" :options="dropzoneOptions" @vdropzone-file-added="onFileAdded" @vdropzone-error="onError" @vdropzone-success="onSuccess" @vdropzone-complete="onComplete" /></td>
+                        <td><FormulateInput type="image" name="headshot" v-model="image" label="Select an image to upload" help="Select a png, jpg or gif to upload." validation="mime:image/jpeg,image/png,image/gif"/></td>
                     </div>
                 </div>
             </div>
@@ -143,7 +143,7 @@ export default {
             content: " ",
             city: " ",
             state: " ",
-            dropzoneOptions: {
+            options: {
                 url: "../../media/",
                 imageWidth: 150,
                 maxFilesize: 10,
@@ -158,16 +158,11 @@ export default {
     head: {
         title: 'Add New Event'
     }, 
-   dropzoneOptions: {
-                url: "../../media/",
-                thumbnailWidth: 150,
-                maxFileAddress: 10,
-                createImageThumbnails: true,
-                maxThumbnailFileSize: 4,
-                duplicateCheck: true,
-                includeStyling: true,
-                headers: { "My-Awesome-Header": "header value" }
-            },
+   ,
+    mounted() {
+    // eslint-disable-next-line no-unused-vars
+      const instance = this.$refs.el.dropzone
+    },
   methods: {
       async addEvent() {
             const image = this.image;
