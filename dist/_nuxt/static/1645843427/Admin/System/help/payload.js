@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/admin/system/help", {data:[{}],fetch:{},mutations:[]});

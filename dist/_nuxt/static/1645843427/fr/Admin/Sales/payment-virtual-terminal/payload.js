@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/fr/Admin/Sales/payment-virtual-terminal", {data:[{}],fetch:{},mutations:[]});

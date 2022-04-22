@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/fr/Admin/Add-New/add-new-category", {data:[{}],fetch:{},mutations:[]});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/admin/add-new/add-new-city", {data:[{}],fetch:{},mutations:[]});

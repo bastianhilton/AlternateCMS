@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/fr/Admin/Shop/attributes", {data:[{}],fetch:{},mutations:[]});

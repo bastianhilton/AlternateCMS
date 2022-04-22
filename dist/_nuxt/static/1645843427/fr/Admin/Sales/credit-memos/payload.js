@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/fr/Admin/Sales/credit-memos", {data:[{}],fetch:{},mutations:[]});

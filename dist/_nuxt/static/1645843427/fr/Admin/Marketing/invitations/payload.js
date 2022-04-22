@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/fr/Admin/Marketing/invitations", {data:[{}],fetch:{},mutations:[]});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/admin/add-new/add-new-review", {data:[{}],fetch:{},mutations:[]});

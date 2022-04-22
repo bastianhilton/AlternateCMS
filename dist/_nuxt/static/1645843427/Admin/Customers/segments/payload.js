@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/Admin/Customers/segments", {data:[{}],fetch:{},mutations:[]});

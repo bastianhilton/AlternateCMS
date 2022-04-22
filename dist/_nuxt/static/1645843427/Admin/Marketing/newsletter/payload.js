@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/Admin/Marketing/newsletter", {data:[{}],fetch:{},mutations:[]});

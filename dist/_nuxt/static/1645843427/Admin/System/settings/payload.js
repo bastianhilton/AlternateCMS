@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/Admin/System/settings", {data:[{}],fetch:{},mutations:[]});

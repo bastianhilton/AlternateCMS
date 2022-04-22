@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/admin/sales/invoices", {data:[{}],fetch:{},mutations:[]});
