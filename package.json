@@ -17,7 +17,7 @@
     "@braid/vue-formulate": "^2.5.3",
     "@nuxt/devalue": "^2.0.0",
     "@nuxtjs/apollo": "^4.0.1-rc.5",
-    "@nuxtjs/auth-next": "^5.0.0-1641544397.1af946a",
+    "@nuxtjs/auth-next": "^5.0.0-1648802546.c9880dc",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/dotenv": "^1.4.1",
     "@nuxtjs/google-adsense": "^2.0.0",
