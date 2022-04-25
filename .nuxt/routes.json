@@ -16,6 +16,14 @@
     "_name": "_8c3791c0"
   },
   {
+    "name": "Profile___en",
+    "path": "/Profile",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Profile\\\\index.vue",
+    "chunkName": "pages/Profile/index",
+    "url": "/Profile",
+    "_name": "_46739dcb"
+  },
+  {
     "name": "search___en",
     "path": "/search",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\search.vue",
@@ -40,6 +48,30 @@
     "_name": "_65d4a508"
   },
   {
+    "name": "Auth-Login___en",
+    "path": "/Auth/Login",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Auth\\\\Login\\\\index.vue",
+    "chunkName": "pages/Auth/Login/index",
+    "url": "/Auth/Login",
+    "_name": "_74bb0e53"
+  },
+  {
+    "name": "Auth-Register___en",
+    "path": "/Auth/Register",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Auth\\\\Register\\\\index.vue",
+    "chunkName": "pages/Auth/Register/index",
+    "url": "/Auth/Register",
+    "_name": "_01a874b5"
+  },
+  {
+    "name": "Profile___es",
+    "path": "/es/Profile",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Profile\\\\index.vue",
+    "chunkName": "pages/Profile/index",
+    "url": "/es/Profile",
+    "_name": "_46739dcb"
+  },
+  {
     "name": "search___es",
     "path": "/es/search",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\search.vue",
@@ -54,6 +86,14 @@
     "chunkName": "pages/test",
     "url": "/es/test",
     "_name": "_708cdab4"
+  },
+  {
+    "name": "Profile___fr",
+    "path": "/fr/Profile",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Profile\\\\index.vue",
+    "chunkName": "pages/Profile/index",
+    "url": "/fr/Profile",
+    "_name": "_46739dcb"
   },
   {
     "name": "search___fr",
@@ -72,28 +112,12 @@
     "_name": "_708cdab4"
   },
   {
-    "name": "User-login___en",
-    "path": "/User/login",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\User\\\\login.vue",
-    "chunkName": "pages/User/login",
-    "url": "/User/login",
-    "_name": "_0e78ed6c"
-  },
-  {
     "name": "User-my-account___en",
     "path": "/User/my-account",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\User\\\\my-account.vue",
     "chunkName": "pages/User/my-account",
     "url": "/User/my-account",
     "_name": "_beb522ce"
-  },
-  {
-    "name": "User-register___en",
-    "path": "/User/register",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\User\\\\register.vue",
-    "chunkName": "pages/User/register",
-    "url": "/User/register",
-    "_name": "_2e73b820"
   },
   {
     "name": "Admin-Add-New-add-new-agreement___en",
@@ -272,6 +296,14 @@
     "_name": "_33dda99a"
   },
   {
+    "name": "Admin-Add-New-add-new-staffmembers___en",
+    "path": "/Admin/Add-New/add-new-staffmembers",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Add-New\\\\add-new-staffmembers.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-staffmembers",
+    "url": "/Admin/Add-New/add-new-staffmembers",
+    "_name": "_eec3328e"
+  },
+  {
     "name": "Admin-Add-New-add-new-state___en",
     "path": "/Admin/Add-New/add-new-state",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Add-New\\\\add-new-state.vue",
@@ -302,6 +334,14 @@
     "chunkName": "pages/Admin/Add-New/add-new-taxrule",
     "url": "/Admin/Add-New/add-new-taxrule",
     "_name": "_3de8fe52"
+  },
+  {
+    "name": "Admin-Add-New-add-new-warehouse___en",
+    "path": "/Admin/Add-New/add-new-warehouse",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Add-New\\\\add-new-warehouse.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-warehouse",
+    "url": "/Admin/Add-New/add-new-warehouse",
+    "_name": "_25dd3e73"
   },
   {
     "name": "Admin-Content-blog___en",
@@ -608,14 +648,6 @@
     "_name": "_7b2cafca"
   },
   {
-    "name": "Admin-Shop-fullfillment___en",
-    "path": "/Admin/Shop/fullfillment",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Shop\\\\fullfillment.vue",
-    "chunkName": "pages/Admin/Shop/fullfillment",
-    "url": "/Admin/Shop/fullfillment",
-    "_name": "_49029ffa"
-  },
-  {
     "name": "Admin-Shop-inventory___en",
     "path": "/Admin/Shop/inventory",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Shop\\\\inventory.vue",
@@ -662,6 +694,14 @@
     "chunkName": "pages/Admin/Shop/tax-rule",
     "url": "/Admin/Shop/tax-rule",
     "_name": "_0eeb551e"
+  },
+  {
+    "name": "Admin-Shop-warehouses___en",
+    "path": "/Admin/Shop/warehouses",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Shop\\\\warehouses.vue",
+    "chunkName": "pages/Admin/Shop/warehouses",
+    "url": "/Admin/Shop/warehouses",
+    "_name": "_254b283a"
   },
   {
     "name": "Admin-System-general-settings___en",
@@ -712,12 +752,20 @@
     "_name": "_65d4a508"
   },
   {
-    "name": "User-login___es",
-    "path": "/es/User/login",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\User\\\\login.vue",
-    "chunkName": "pages/User/login",
-    "url": "/es/User/login",
-    "_name": "_0e78ed6c"
+    "name": "Auth-Login___es",
+    "path": "/es/Auth/Login",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Auth\\\\Login\\\\index.vue",
+    "chunkName": "pages/Auth/Login/index",
+    "url": "/es/Auth/Login",
+    "_name": "_74bb0e53"
+  },
+  {
+    "name": "Auth-Register___es",
+    "path": "/es/Auth/Register",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Auth\\\\Register\\\\index.vue",
+    "chunkName": "pages/Auth/Register/index",
+    "url": "/es/Auth/Register",
+    "_name": "_01a874b5"
   },
   {
     "name": "User-my-account___es",
@@ -728,14 +776,6 @@
     "_name": "_beb522ce"
   },
   {
-    "name": "User-register___es",
-    "path": "/es/User/register",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\User\\\\register.vue",
-    "chunkName": "pages/User/register",
-    "url": "/es/User/register",
-    "_name": "_2e73b820"
-  },
-  {
     "name": "Admin-profile___fr",
     "path": "/fr/Admin/profile",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\profile.vue",
@@ -744,12 +784,20 @@
     "_name": "_65d4a508"
   },
   {
-    "name": "User-login___fr",
-    "path": "/fr/User/login",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\User\\\\login.vue",
-    "chunkName": "pages/User/login",
-    "url": "/fr/User/login",
-    "_name": "_0e78ed6c"
+    "name": "Auth-Login___fr",
+    "path": "/fr/Auth/Login",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Auth\\\\Login\\\\index.vue",
+    "chunkName": "pages/Auth/Login/index",
+    "url": "/fr/Auth/Login",
+    "_name": "_74bb0e53"
+  },
+  {
+    "name": "Auth-Register___fr",
+    "path": "/fr/Auth/Register",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Auth\\\\Register\\\\index.vue",
+    "chunkName": "pages/Auth/Register/index",
+    "url": "/fr/Auth/Register",
+    "_name": "_01a874b5"
   },
   {
     "name": "User-my-account___fr",
@@ -758,14 +806,6 @@
     "chunkName": "pages/User/my-account",
     "url": "/fr/User/my-account",
     "_name": "_beb522ce"
-  },
-  {
-    "name": "User-register___fr",
-    "path": "/fr/User/register",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\User\\\\register.vue",
-    "chunkName": "pages/User/register",
-    "url": "/fr/User/register",
-    "_name": "_2e73b820"
   },
   {
     "name": "Admin-Customers-customer-newcustomer___en",
@@ -960,6 +1000,14 @@
     "_name": "_33dda99a"
   },
   {
+    "name": "Admin-Add-New-add-new-staffmembers___es",
+    "path": "/es/Admin/Add-New/add-new-staffmembers",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Add-New\\\\add-new-staffmembers.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-staffmembers",
+    "url": "/es/Admin/Add-New/add-new-staffmembers",
+    "_name": "_eec3328e"
+  },
+  {
     "name": "Admin-Add-New-add-new-state___es",
     "path": "/es/Admin/Add-New/add-new-state",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Add-New\\\\add-new-state.vue",
@@ -990,6 +1038,14 @@
     "chunkName": "pages/Admin/Add-New/add-new-taxrule",
     "url": "/es/Admin/Add-New/add-new-taxrule",
     "_name": "_3de8fe52"
+  },
+  {
+    "name": "Admin-Add-New-add-new-warehouse___es",
+    "path": "/es/Admin/Add-New/add-new-warehouse",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Add-New\\\\add-new-warehouse.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-warehouse",
+    "url": "/es/Admin/Add-New/add-new-warehouse",
+    "_name": "_25dd3e73"
   },
   {
     "name": "Admin-Content-blog___es",
@@ -1296,14 +1352,6 @@
     "_name": "_7b2cafca"
   },
   {
-    "name": "Admin-Shop-fullfillment___es",
-    "path": "/es/Admin/Shop/fullfillment",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Shop\\\\fullfillment.vue",
-    "chunkName": "pages/Admin/Shop/fullfillment",
-    "url": "/es/Admin/Shop/fullfillment",
-    "_name": "_49029ffa"
-  },
-  {
     "name": "Admin-Shop-inventory___es",
     "path": "/es/Admin/Shop/inventory",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Shop\\\\inventory.vue",
@@ -1350,6 +1398,14 @@
     "chunkName": "pages/Admin/Shop/tax-rule",
     "url": "/es/Admin/Shop/tax-rule",
     "_name": "_0eeb551e"
+  },
+  {
+    "name": "Admin-Shop-warehouses___es",
+    "path": "/es/Admin/Shop/warehouses",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Shop\\\\warehouses.vue",
+    "chunkName": "pages/Admin/Shop/warehouses",
+    "url": "/es/Admin/Shop/warehouses",
+    "_name": "_254b283a"
   },
   {
     "name": "Admin-System-general-settings___es",
@@ -1568,6 +1624,14 @@
     "_name": "_33dda99a"
   },
   {
+    "name": "Admin-Add-New-add-new-staffmembers___fr",
+    "path": "/fr/Admin/Add-New/add-new-staffmembers",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Add-New\\\\add-new-staffmembers.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-staffmembers",
+    "url": "/fr/Admin/Add-New/add-new-staffmembers",
+    "_name": "_eec3328e"
+  },
+  {
     "name": "Admin-Add-New-add-new-state___fr",
     "path": "/fr/Admin/Add-New/add-new-state",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Add-New\\\\add-new-state.vue",
@@ -1598,6 +1662,14 @@
     "chunkName": "pages/Admin/Add-New/add-new-taxrule",
     "url": "/fr/Admin/Add-New/add-new-taxrule",
     "_name": "_3de8fe52"
+  },
+  {
+    "name": "Admin-Add-New-add-new-warehouse___fr",
+    "path": "/fr/Admin/Add-New/add-new-warehouse",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Add-New\\\\add-new-warehouse.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-warehouse",
+    "url": "/fr/Admin/Add-New/add-new-warehouse",
+    "_name": "_25dd3e73"
   },
   {
     "name": "Admin-Content-blog___fr",
@@ -1904,14 +1976,6 @@
     "_name": "_7b2cafca"
   },
   {
-    "name": "Admin-Shop-fullfillment___fr",
-    "path": "/fr/Admin/Shop/fullfillment",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Shop\\\\fullfillment.vue",
-    "chunkName": "pages/Admin/Shop/fullfillment",
-    "url": "/fr/Admin/Shop/fullfillment",
-    "_name": "_49029ffa"
-  },
-  {
     "name": "Admin-Shop-inventory___fr",
     "path": "/fr/Admin/Shop/inventory",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Shop\\\\inventory.vue",
@@ -1958,6 +2022,14 @@
     "chunkName": "pages/Admin/Shop/tax-rule",
     "url": "/fr/Admin/Shop/tax-rule",
     "_name": "_0eeb551e"
+  },
+  {
+    "name": "Admin-Shop-warehouses___fr",
+    "path": "/fr/Admin/Shop/warehouses",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Shop\\\\warehouses.vue",
+    "chunkName": "pages/Admin/Shop/warehouses",
+    "url": "/fr/Admin/Shop/warehouses",
+    "_name": "_254b283a"
   },
   {
     "name": "Admin-System-general-settings___fr",

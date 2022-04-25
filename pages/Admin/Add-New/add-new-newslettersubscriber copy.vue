@@ -182,11 +182,6 @@ export default {
   },
     head: {
         title: 'Add New Customer'
-    }, 
-    ,
-    mounted() {
-    // eslint-disable-next-line no-unused-vars
-      const instance = this.$refs.el.dropzone
     },
 /* eslint-disable camelcase */
   methods: {

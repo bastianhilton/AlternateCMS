@@ -1,0 +1,19 @@
+query MyQuery {
+  general_settings {
+    access_restrictions
+    created_at
+    customer_support
+    email
+    http_response
+    id
+    landing_page
+    startup_page
+    restriction_mode
+    store_contact
+    store_contact_two
+    url
+    title
+    tagline
+    store_email
+  }
+}

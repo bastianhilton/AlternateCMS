@@ -20,46 +20,44 @@
           <a id="v-tabs-home-tab" class="nav-link active" data-mdb-toggle="tab" href="#v-tabs-home" role="tab"
             aria-controls="v-tabs-home" aria-selected="true">General</a>
           <a id="v-tabs-catalog-tab" class="nav-link" data-mdb-toggle="tab" href="#v-tabs-catalog" role="tab"
-            aria-controls="v-tabs-catalog" aria-selected="false">Catalog</a>
+            aria-controls="v-tabs-catalog" aria-selected="false">Sales</a>
           <a id="v-tabs-security-tab" class="nav-link" data-mdb-toggle="tab" href="#v-tabs-security" role="tab"
-            aria-controls="v-tabs-security" aria-selected="false">Security</a>
+            aria-controls="v-tabs-security" aria-selected="false">Customers</a>
             <a id="v-tabs-customers-tab" class="nav-link" data-mdb-toggle="tab" href="#v-tabs-customers" role="tab"
-            aria-controls="v-tabs-customers" aria-selected="false">Customers</a>
+            aria-controls="v-tabs-customers" aria-selected="false">Marketing</a>
             <a id="v-tabs-sales-tab" class="nav-link" data-mdb-toggle="tab" href="#v-tabs-sales" role="tab"
-            aria-controls="v-tabs-sales" aria-selected="false">Sales</a>
+            aria-controls="v-tabs-sales" aria-selected="false">Reports</a>
             <a id="v-tabs-payments-tab" class="nav-link" data-mdb-toggle="tab" href="#v-tabs-payments" role="tab"
-            aria-controls="v-tabs-payments" aria-selected="false">Payments</a>
+            aria-controls="v-tabs-payments" aria-selected="false">Shop</a>
             <a id="v-tabs-other-tab" class="nav-link" data-mdb-toggle="tab" href="#v-tabs-other" role="tab"
-            aria-controls="v-tabs-other" aria-selected="false">Other Settings</a>
+            aria-controls="v-tabs-other" aria-selected="false">User Settings</a>
         </div>
       </div>
 
       <div class="col-9">
-        <!-- Tab content -->
         <div id="v-tabs-tabContent" class="tab-content">
           <div id="v-tabs-home" class="tab-pane fade show active" role="tabpanel" aria-labelledby="v-tabs-home-tab">
-            Home content
+            <Generalsettings />
           </div>
           <div id="v-tabs-catalog" class="tab-pane fade" role="tabpanel" aria-labelledby="v-tabs-catalog-tab">
-            Catalog content
+            <Salesettings />
           </div>
           <div id="v-tabs-security" class="tab-pane fade" role="tabpanel" aria-labelledby="v-tabs-security-tab">
-            Security content
+            <Customersettings />
           </div>
           <div id="v-tabs-customers" class="tab-pane fade" role="tabpanel" aria-labelledby="v-tabs-customers-tab">
-            Customers content
+            <Marketingsettings />
           </div>
           <div id="v-tabs-sales" class="tab-pane fade" role="tabpanel" aria-labelledby="v-tabs-sales-tab">
-            Sales content
+            <Reportsettings />
           </div>
           <div id="v-tabs-payments" class="tab-pane fade" role="tabpanel" aria-labelledby="v-tabs-payments-tab">
-            Payments content
+            <Shopsettings />
           </div>
           <div id="v-tabs-other" class="tab-pane fade" role="tabpanel" aria-labelledby="v-tabs-other-tab">
-            Other content
+            <Usersettings />
           </div>
         </div>
-        <!-- Tab content -->
       </div>
     </div>
 
@@ -67,8 +65,25 @@
 </template>
 
 <script>
+import Generalsettings from '~/components/generalsettings'
+import Salesettings from '~/components/salesettings'
+import Marketingsettings from '~/components/marketingsettings'
+import Customersettings from '~/components/customersettings'
+import Reportsettings from '~/components/reportsettings'
+import Shopsettings from '~/components/shopsettings'
+import Usersettings from '~/components/usersettings'
+
   export default {
 
+    components: {
+        Generalsettings,
+        Salesettings,
+        Marketingsettings,
+        Customersettings,
+        Reportsettings,
+        Shopsettings,
+        Usersettings
+    },
     head: {
       title: 'General Settings'
     }

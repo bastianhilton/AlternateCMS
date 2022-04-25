@@ -157,11 +157,6 @@ export default {
   },
     head: {
         title: 'Add New Event'
-    }, 
-   ,
-    mounted() {
-    // eslint-disable-next-line no-unused-vars
-      const instance = this.$refs.el.dropzone
     },
   methods: {
       async addEvent() {

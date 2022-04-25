@@ -5,12 +5,13 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _8c3791c0 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _46739dcb = () => interopDefault(import('..\\pages\\Profile\\index.vue' /* webpackChunkName: "pages/Profile/index" */))
 const _2e61864a = () => interopDefault(import('..\\pages\\search.vue' /* webpackChunkName: "pages/search" */))
 const _708cdab4 = () => interopDefault(import('..\\pages\\test.vue' /* webpackChunkName: "pages/test" */))
 const _65d4a508 = () => interopDefault(import('..\\pages\\Admin\\profile.vue' /* webpackChunkName: "pages/Admin/profile" */))
-const _0e78ed6c = () => interopDefault(import('..\\pages\\User\\login.vue' /* webpackChunkName: "pages/User/login" */))
+const _74bb0e53 = () => interopDefault(import('..\\pages\\Auth\\Login\\index.vue' /* webpackChunkName: "pages/Auth/Login/index" */))
+const _01a874b5 = () => interopDefault(import('..\\pages\\Auth\\Register\\index.vue' /* webpackChunkName: "pages/Auth/Register/index" */))
 const _beb522ce = () => interopDefault(import('..\\pages\\User\\my-account.vue' /* webpackChunkName: "pages/User/my-account" */))
-const _2e73b820 = () => interopDefault(import('..\\pages\\User\\register.vue' /* webpackChunkName: "pages/User/register" */))
 const _1bc74b8c = () => interopDefault(import('..\\pages\\Admin\\Add-New\\add-new-agreement.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-agreement" */))
 const _5cc64526 = () => interopDefault(import('..\\pages\\Admin\\Add-New\\add-new-article.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-article" */))
 const _19d819cc = () => interopDefault(import('..\\pages\\Admin\\Add-New\\add-new-attribute.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-attribute" */))
@@ -33,10 +34,12 @@ const _06bc3430 = () => interopDefault(import('..\\pages\\Admin\\Add-New\\add-ne
 const _46039a58 = () => interopDefault(import('..\\pages\\Admin\\Add-New\\add-new-review.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-review" */))
 const _19969e3a = () => interopDefault(import('..\\pages\\Admin\\Add-New\\add-new-segment.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-segment" */))
 const _33dda99a = () => interopDefault(import('..\\pages\\Admin\\Add-New\\add-new-shipment.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-shipment" */))
+const _eec3328e = () => interopDefault(import('..\\pages\\Admin\\Add-New\\add-new-staffmembers.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-staffmembers" */))
 const _3f303d41 = () => interopDefault(import('..\\pages\\Admin\\Add-New\\add-new-state.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-state" */))
 const _62cd51ca = () => interopDefault(import('..\\pages\\Admin\\Add-New\\add-new-tag.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-tag" */))
 const _6694b68a = () => interopDefault(import('..\\pages\\Admin\\Add-New\\add-new-taxrate.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-taxrate" */))
 const _3de8fe52 = () => interopDefault(import('..\\pages\\Admin\\Add-New\\add-new-taxrule.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-taxrule" */))
+const _25dd3e73 = () => interopDefault(import('..\\pages\\Admin\\Add-New\\add-new-warehouse.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-warehouse" */))
 const _9d529964 = () => interopDefault(import('..\\pages\\Admin\\Content\\blog.vue' /* webpackChunkName: "pages/Admin/Content/blog" */))
 const _98c3f46c = () => interopDefault(import('..\\pages\\Admin\\Content\\glossary.vue' /* webpackChunkName: "pages/Admin/Content/glossary" */))
 const _52b993c8 = () => interopDefault(import('..\\pages\\Admin\\Content\\media-manager.vue' /* webpackChunkName: "pages/Admin/Content/media-manager" */))
@@ -75,13 +78,13 @@ const _a064cbc8 = () => interopDefault(import('..\\pages\\Admin\\Shop\\cities.vu
 const _2ea96c5c = () => interopDefault(import('..\\pages\\Admin\\Shop\\collections.vue' /* webpackChunkName: "pages/Admin/Shop/collections" */))
 const _4b99dcb1 = () => interopDefault(import('..\\pages\\Admin\\Shop\\countries.vue' /* webpackChunkName: "pages/Admin/Shop/countries" */))
 const _7b2cafca = () => interopDefault(import('..\\pages\\Admin\\Shop\\coupons.vue' /* webpackChunkName: "pages/Admin/Shop/coupons" */))
-const _49029ffa = () => interopDefault(import('..\\pages\\Admin\\Shop\\fullfillment.vue' /* webpackChunkName: "pages/Admin/Shop/fullfillment" */))
 const _f94a714e = () => interopDefault(import('..\\pages\\Admin\\Shop\\inventory.vue' /* webpackChunkName: "pages/Admin/Shop/inventory" */))
 const _5da1fd6f = () => interopDefault(import('..\\pages\\Admin\\Shop\\multi-vendor.vue' /* webpackChunkName: "pages/Admin/Shop/multi-vendor" */))
 const _e21c3012 = () => interopDefault(import('..\\pages\\Admin\\Shop\\products.vue' /* webpackChunkName: "pages/Admin/Shop/products" */))
 const _38f8af56 = () => interopDefault(import('..\\pages\\Admin\\Shop\\states.vue' /* webpackChunkName: "pages/Admin/Shop/states" */))
 const _37970d56 = () => interopDefault(import('..\\pages\\Admin\\Shop\\tax-rate.vue' /* webpackChunkName: "pages/Admin/Shop/tax-rate" */))
 const _0eeb551e = () => interopDefault(import('..\\pages\\Admin\\Shop\\tax-rule.vue' /* webpackChunkName: "pages/Admin/Shop/tax-rule" */))
+const _254b283a = () => interopDefault(import('..\\pages\\Admin\\Shop\\warehouses.vue' /* webpackChunkName: "pages/Admin/Shop/warehouses" */))
 const _81ef6398 = () => interopDefault(import('..\\pages\\Admin\\System\\general-settings.vue' /* webpackChunkName: "pages/Admin/System/general-settings" */))
 const _35767b8d = () => interopDefault(import('..\\pages\\Admin\\System\\help.vue' /* webpackChunkName: "pages/Admin/System/help" */))
 const _0ea25e6b = () => interopDefault(import('..\\pages\\Admin\\System\\integrations.vue' /* webpackChunkName: "pages/Admin/System/integrations" */))
@@ -138,6 +141,10 @@ export const routerOptions = {
     component: _8c3791c0,
     name: "index___fr"
   }, {
+    path: "/Profile",
+    component: _46739dcb,
+    name: "Profile___en"
+  }, {
     path: "/search",
     component: _2e61864a,
     name: "search___en"
@@ -150,6 +157,18 @@ export const routerOptions = {
     component: _65d4a508,
     name: "Admin-profile___en"
   }, {
+    path: "/Auth/Login",
+    component: _74bb0e53,
+    name: "Auth-Login___en"
+  }, {
+    path: "/Auth/Register",
+    component: _01a874b5,
+    name: "Auth-Register___en"
+  }, {
+    path: "/es/Profile",
+    component: _46739dcb,
+    name: "Profile___es"
+  }, {
     path: "/es/search",
     component: _2e61864a,
     name: "search___es"
@@ -157,6 +176,10 @@ export const routerOptions = {
     path: "/es/test",
     component: _708cdab4,
     name: "test___es"
+  }, {
+    path: "/fr/Profile",
+    component: _46739dcb,
+    name: "Profile___fr"
   }, {
     path: "/fr/search",
     component: _2e61864a,
@@ -166,17 +189,9 @@ export const routerOptions = {
     component: _708cdab4,
     name: "test___fr"
   }, {
-    path: "/User/login",
-    component: _0e78ed6c,
-    name: "User-login___en"
-  }, {
     path: "/User/my-account",
     component: _beb522ce,
     name: "User-my-account___en"
-  }, {
-    path: "/User/register",
-    component: _2e73b820,
-    name: "User-register___en"
   }, {
     path: "/Admin/Add-New/add-new-agreement",
     component: _1bc74b8c,
@@ -266,6 +281,10 @@ export const routerOptions = {
     component: _33dda99a,
     name: "Admin-Add-New-add-new-shipment___en"
   }, {
+    path: "/Admin/Add-New/add-new-staffmembers",
+    component: _eec3328e,
+    name: "Admin-Add-New-add-new-staffmembers___en"
+  }, {
     path: "/Admin/Add-New/add-new-state",
     component: _3f303d41,
     name: "Admin-Add-New-add-new-state___en"
@@ -281,6 +300,10 @@ export const routerOptions = {
     path: "/Admin/Add-New/add-new-taxrule",
     component: _3de8fe52,
     name: "Admin-Add-New-add-new-taxrule___en"
+  }, {
+    path: "/Admin/Add-New/add-new-warehouse",
+    component: _25dd3e73,
+    name: "Admin-Add-New-add-new-warehouse___en"
   }, {
     path: "/Admin/Content/blog",
     component: _9d529964,
@@ -434,10 +457,6 @@ export const routerOptions = {
     component: _7b2cafca,
     name: "Admin-Shop-coupons___en"
   }, {
-    path: "/Admin/Shop/fullfillment",
-    component: _49029ffa,
-    name: "Admin-Shop-fullfillment___en"
-  }, {
     path: "/Admin/Shop/inventory",
     component: _f94a714e,
     name: "Admin-Shop-inventory___en"
@@ -461,6 +480,10 @@ export const routerOptions = {
     path: "/Admin/Shop/tax-rule",
     component: _0eeb551e,
     name: "Admin-Shop-tax-rule___en"
+  }, {
+    path: "/Admin/Shop/warehouses",
+    component: _254b283a,
+    name: "Admin-Shop-warehouses___en"
   }, {
     path: "/Admin/System/general-settings",
     component: _81ef6398,
@@ -486,33 +509,33 @@ export const routerOptions = {
     component: _65d4a508,
     name: "Admin-profile___es"
   }, {
-    path: "/es/User/login",
-    component: _0e78ed6c,
-    name: "User-login___es"
+    path: "/es/Auth/Login",
+    component: _74bb0e53,
+    name: "Auth-Login___es"
+  }, {
+    path: "/es/Auth/Register",
+    component: _01a874b5,
+    name: "Auth-Register___es"
   }, {
     path: "/es/User/my-account",
     component: _beb522ce,
     name: "User-my-account___es"
   }, {
-    path: "/es/User/register",
-    component: _2e73b820,
-    name: "User-register___es"
-  }, {
     path: "/fr/Admin/profile",
     component: _65d4a508,
     name: "Admin-profile___fr"
   }, {
-    path: "/fr/User/login",
-    component: _0e78ed6c,
-    name: "User-login___fr"
+    path: "/fr/Auth/Login",
+    component: _74bb0e53,
+    name: "Auth-Login___fr"
+  }, {
+    path: "/fr/Auth/Register",
+    component: _01a874b5,
+    name: "Auth-Register___fr"
   }, {
     path: "/fr/User/my-account",
     component: _beb522ce,
     name: "User-my-account___fr"
-  }, {
-    path: "/fr/User/register",
-    component: _2e73b820,
-    name: "User-register___fr"
   }, {
     path: "/Admin/Customers/customer/newcustomer",
     component: _0f36f970,
@@ -610,6 +633,10 @@ export const routerOptions = {
     component: _33dda99a,
     name: "Admin-Add-New-add-new-shipment___es"
   }, {
+    path: "/es/Admin/Add-New/add-new-staffmembers",
+    component: _eec3328e,
+    name: "Admin-Add-New-add-new-staffmembers___es"
+  }, {
     path: "/es/Admin/Add-New/add-new-state",
     component: _3f303d41,
     name: "Admin-Add-New-add-new-state___es"
@@ -625,6 +652,10 @@ export const routerOptions = {
     path: "/es/Admin/Add-New/add-new-taxrule",
     component: _3de8fe52,
     name: "Admin-Add-New-add-new-taxrule___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-warehouse",
+    component: _25dd3e73,
+    name: "Admin-Add-New-add-new-warehouse___es"
   }, {
     path: "/es/Admin/Content/blog",
     component: _9d529964,
@@ -778,10 +809,6 @@ export const routerOptions = {
     component: _7b2cafca,
     name: "Admin-Shop-coupons___es"
   }, {
-    path: "/es/Admin/Shop/fullfillment",
-    component: _49029ffa,
-    name: "Admin-Shop-fullfillment___es"
-  }, {
     path: "/es/Admin/Shop/inventory",
     component: _f94a714e,
     name: "Admin-Shop-inventory___es"
@@ -805,6 +832,10 @@ export const routerOptions = {
     path: "/es/Admin/Shop/tax-rule",
     component: _0eeb551e,
     name: "Admin-Shop-tax-rule___es"
+  }, {
+    path: "/es/Admin/Shop/warehouses",
+    component: _254b283a,
+    name: "Admin-Shop-warehouses___es"
   }, {
     path: "/es/Admin/System/general-settings",
     component: _81ef6398,
@@ -914,6 +945,10 @@ export const routerOptions = {
     component: _33dda99a,
     name: "Admin-Add-New-add-new-shipment___fr"
   }, {
+    path: "/fr/Admin/Add-New/add-new-staffmembers",
+    component: _eec3328e,
+    name: "Admin-Add-New-add-new-staffmembers___fr"
+  }, {
     path: "/fr/Admin/Add-New/add-new-state",
     component: _3f303d41,
     name: "Admin-Add-New-add-new-state___fr"
@@ -929,6 +964,10 @@ export const routerOptions = {
     path: "/fr/Admin/Add-New/add-new-taxrule",
     component: _3de8fe52,
     name: "Admin-Add-New-add-new-taxrule___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-warehouse",
+    component: _25dd3e73,
+    name: "Admin-Add-New-add-new-warehouse___fr"
   }, {
     path: "/fr/Admin/Content/blog",
     component: _9d529964,
@@ -1082,10 +1121,6 @@ export const routerOptions = {
     component: _7b2cafca,
     name: "Admin-Shop-coupons___fr"
   }, {
-    path: "/fr/Admin/Shop/fullfillment",
-    component: _49029ffa,
-    name: "Admin-Shop-fullfillment___fr"
-  }, {
     path: "/fr/Admin/Shop/inventory",
     component: _f94a714e,
     name: "Admin-Shop-inventory___fr"
@@ -1109,6 +1144,10 @@ export const routerOptions = {
     path: "/fr/Admin/Shop/tax-rule",
     component: _0eeb551e,
     name: "Admin-Shop-tax-rule___fr"
+  }, {
+    path: "/fr/Admin/Shop/warehouses",
+    component: _254b283a,
+    name: "Admin-Shop-warehouses___fr"
   }, {
     path: "/fr/Admin/System/general-settings",
     component: _81ef6398,

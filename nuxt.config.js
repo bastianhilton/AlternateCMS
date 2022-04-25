@@ -72,14 +72,9 @@ export default {
   buildModules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/dotenv',
-    '@aceforth/nuxt-optimized-images',
     '@nuxtjs/moment',
     '@braid/vue-formulate/nuxt',
   ],
-
-  optimizedImages: {
-    optimizeImages: true
-  },
 
   modules: [
     '@nuxtjs/axios',
@@ -100,7 +95,16 @@ export default {
     '@nuxtjs/vuetify',
     'nuxt-helmet',
     '@nuxtjs/lunr-module',
+    '@nuxt/image',
   ],
+
+  router: {
+    middleware: ['auth']
+  },
+
+  image: {
+    // Options
+  },
 
   helmet: {
     /*
@@ -171,7 +175,31 @@ export default {
   },
 
   auth: {
-    
+    strategies: {
+      local: {
+//      scheme: "refresh",
+        token: {
+          property: "token", // property name that the Back-end sends for you as a access token for saving on localStorage and cookie of user browser
+          global: true,
+          required: true,
+          type: "Bearer"
+        },
+        user: {
+          property: "user",
+          autoFetch: true
+        },
+//      refreshToken: {  // it sends request automatically when the access token expires, and its expire time has set on the Back-end and does not need to we set it here, because is useless
+//        property: "refresh_token", // property name that the Back-end sends for you as a refresh token for saving on localStorage and cookie of user browser
+//        data: "refresh_token", // data can be used to set the name of the property you want to send in the request.
+//      },
+        endpoints: {
+          login: { url: "/api/auth/login", method: "post" },
+//        refresh: { url: "/api/auth/refresh-token", method: "post" },
+          logout: false, //  we don't have an endpoint for our logout in our API and we just remove the token from localstorage
+          user: { url: "/api/auth/user", method: "get" }
+        }
+      }
+    }
   },
 
   axios: {

@@ -1,7 +1,7 @@
 generator typegraphql {
-  provider = "typegraphql-prisma"
-  output   = "../prisma/generated/type-graphql"
-  emitTranspiledCode = true
+  provider           = "typegraphql-prisma"
+  output             = "../prisma/generated/type-graphql"
+  emitTranspiledCode = "true"
 }
 
 generator gen {
@@ -670,15 +670,15 @@ model url_rewrites {
 
 model users {
   id               Int       @id @default(autoincrement())
-  username         String    @db.VarChar(255)
-  first_name       String    @db.VarChar(255)
-  last_name        String?   @db.VarChar(255)
-  email            String    @db.VarChar(255)
-  password         Decimal   @db.Decimal
+  username         String
+  first_name       String
+  last_name        String?
+  email            String
+  password         String
   interface_locale String?
-  active           Boolean?
-  expiration_date  DateTime? @db.Date
-  type_of_user     String?
+  value            String?
+  permissions      String?
+  created_at       DateTime? @default(now()) @db.Timestamptz(6)
 }
 
 model agreements {
@@ -756,7 +756,7 @@ model returns {
 }
 
 model segments {
-  id          BigInt    @id @default(autoincrement())
+  id          BigInt    @id @unique @default(autoincrement())
   created_at  DateTime? @default(now()) @db.Timestamptz(6)
   name        String?
   description String?
@@ -786,4 +786,85 @@ model customer_payment {
   expiry       BigInt?
   customers    customers      @relation(fields: [cust_id], references: [id])
   transactions transactions[]
+}
+
+model general_settings {
+  id                  BigInt    @id @default(autoincrement())
+  created_at          DateTime? @default(now()) @db.Timestamptz(6)
+  title               String?
+  tagline             String?
+  url                 String?
+  email               String?
+  access_restrictions String?
+  restriction_mode    String?
+  startup_page        String?
+  landing_page        String?
+  http_response       String?
+  store_email         String?
+  store_contact       String?
+  store_contact_two   String?
+  customer_support    String?
+}
+
+model sales_settings {
+  id                         BigInt    @id @default(autoincrement())
+  created_at                 DateTime? @default(now()) @db.Timestamptz(6)
+  sales_email                String?
+  hide_customer_ip           String?
+  checkout_subtotal          String?
+  checkout_discount          String?
+  checkout_shipping          String?
+  checkout_tax               String?
+  checkout_fixed_product_tax String?
+  checkout_grand_total       String?
+  checkout_gift_cards        String?
+  checkout_store_credit      String?
+  allow_reorder              String?
+  allow_zero_grandtotal      String?
+  invoice_logo               String?
+  invoice_html_print         String?
+  invoice_address            String?
+}
+
+model shop_settings {
+  id                       BigInt    @id @default(autoincrement())
+  created_at               DateTime? @default(now()) @db.Timestamptz(6)
+  store_name               String?
+  store_phone              String?
+  store_hours              String?
+  country                  String?
+  region                   String?
+  zipcode                  String?
+  city                     String?
+  address                  String?
+  address_two              String?
+  vat_number               String?
+  allow_state              String?
+  state_required_for       String?
+  allow_countries          String?
+  default_country          String?
+  optional_zip             String?
+  european_union_countries String?
+  top_destinations         String?
+  base_currency            String?
+  default_currency         String?
+  allowed_currency         String?
+}
+
+model fullfillments {
+  id             BigInt    @id @default(autoincrement())
+  created_at     DateTime? @default(now()) @db.Timestamptz(6)
+  name           String?
+  shipping_zones String?
+  company        String?
+  address        String?
+  address_two    String?
+  city           String?
+  state          String?
+  zipcode        String?
+  country        String?
+  country_area   String?   @map("country area")
+  phone          String?
+  pickup         String?
+  stock          String?
 }

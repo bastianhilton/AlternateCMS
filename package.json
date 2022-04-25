@@ -32,6 +32,7 @@
     "@nuxtjs/sentry": "^5.1.6",
     "@nuxtjs/sitemap": "^2.4.0",
     "@nuxtjs/universal-storage": "^0.5.9",
+    "@ory/client": "^0.0.1-alpha.169",
     "@paypal/paypal-js": "^5.0.2",
     "@prisma/client": "^2.20.1",
     "@sentry/tracing": "^6.16.1",
@@ -89,8 +90,8 @@
     "vuex": "^3.6.2"
   },
   "devDependencies": {
-    "@aceforth/nuxt-optimized-images": "^1.4.0",
     "@babel/eslint-parser": "^7.17.0",
+    "@nuxt/image": "^0.6.2",
     "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/vuetify": "^1.12.3",

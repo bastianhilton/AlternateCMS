@@ -186,6 +186,9 @@
                                 <a class="dropdown-item" href="/admin/shop/coupons">Coupons</a>
                             </li>
                             <li>
+                                <a class="dropdown-item" href="/admin/shop/warehouses">Warehouses</a>
+                            </li>
+                            <li>
                                 <a class="dropdown-item" href="/admin/shop/tax-rule">Tax Rule</a>
                             </li>
                             <li>
@@ -193,7 +196,6 @@
                             </li>
                         </ul>
                     </li>
-                    <!--System Dropdown-->
                     <li class="nav-item dropdown">
                         <a id="navbarDropdownMenuLink" class="nav-link dropdown-toggle" href="#" role="button"
                             data-mdb-toggle="dropdown" aria-expanded="false">
@@ -249,12 +251,12 @@
 
                 <a id="navbarDropdownMenuLink" class="dropdown-toggle d-flex align-items-center hidden-arrow" href="#"
                     role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-                    <img src="https://mdbootstrap.com/img/new/avatars/2.jpg" class="rounded-circle" height="25" alt=""
+                    <nuxt-img src="https://mdbootstrap.com/img/new/avatars/2.jpg" class="rounded-circle" height="25" alt=""
                         loading="lazy" />
                 </a>
                 <ul v-if="!isAuthenticated" class="dropdown-menu dropdown-menu-end"  aria-labelledby="navbarDropdownMenuLink">
                     <li>
-                        <a class="dropdown-item" href="/admin/profile">My Account</a>
+                        <a class="dropdown-item" href="/user/my-account">My Profile</a>
                     </li>
                     <li>
                         <a class="dropdown-item" href="/admin/">Customer View</a>

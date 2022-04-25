@@ -1,12 +1,12 @@
-const Filesaver = require( 'filesaver' );
- 
-const folders = {
-    images: './media'
-}
- 
-const filesaver = new Filesaver({ folders, safenames: true });
- 
-filesaver.add( 'images', './media/file.jpg', 'photo_1.jpg', function (_err, data) {
-    console.log( data );
-    // => {filename: 'photo_2.jpg', filepath: './images/photo_2.jpg'}
-});
+import Vue from 'vue'
+import VueFormulate from 'vue-formulate'
+import axios from 'axios'
+
+const axiosInstance = axios.create({
+  baseURL: 'http://www.your-upload-server.com'
+})
+
+Vue.use(VueFormulate, {
+  uploader: axiosInstance,
+  uploadUrl: '../media'
+})
