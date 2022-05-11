@@ -1,6 +1,6 @@
 {
   "IoSocketStatus": {
-    "description": "Auto imported from node_modules/nuxt-socket-io/lib/components/SocketStatus.js"
+    "description": "Auto imported from ../node_modules/nuxt-socket-io/lib/components/SocketStatus.js"
   },
   "Breadcrumbs": {
     "description": "Auto imported from components/Breadcrumbs.vue"
@@ -26,6 +26,9 @@
   "Newcustomers": {
     "description": "Auto imported from components/newcustomers.vue"
   },
+  "Notification": {
+    "description": "Auto imported from components/Notification.vue"
+  },
   "Reportsettings": {
     "description": "Auto imported from components/reportsettings.vue"
   },
@@ -40,11 +43,5 @@
   },
   "Usersettings": {
     "description": "Auto imported from components/usersettings.vue"
-  },
-  "AuthLogin": {
-    "description": "Auto imported from components/Auth/Login/index.vue"
-  },
-  "AuthRegister": {
-    "description": "Auto imported from components/Auth/Register/index.vue"
   }
 }

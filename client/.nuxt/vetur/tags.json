@@ -1,0 +1,47 @@
+{
+  "IoSocketStatus": {
+    "description": "Auto imported from node_modules/nuxt-socket-io/lib/components/SocketStatus.js"
+  },
+  "Breadcrumbs": {
+    "description": "Auto imported from components/Breadcrumbs.vue"
+  },
+  "Customersettings": {
+    "description": "Auto imported from components/customersettings.vue"
+  },
+  "Customerslimit": {
+    "description": "Auto imported from components/customerslimit.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Generalsettings": {
+    "description": "Auto imported from components/generalsettings.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "Marketingsettings": {
+    "description": "Auto imported from components/marketingsettings.vue"
+  },
+  "Newcustomers": {
+    "description": "Auto imported from components/newcustomers.vue"
+  },
+  "Notification": {
+    "description": "Auto imported from components/Notification.vue"
+  },
+  "Reportsettings": {
+    "description": "Auto imported from components/reportsettings.vue"
+  },
+  "Reviewslimit": {
+    "description": "Auto imported from components/reviewslimit.vue"
+  },
+  "Salesettings": {
+    "description": "Auto imported from components/salesettings.vue"
+  },
+  "Shopsettings": {
+    "description": "Auto imported from components/shopsettings.vue"
+  },
+  "Usersettings": {
+    "description": "Auto imported from components/usersettings.vue"
+  }
+}

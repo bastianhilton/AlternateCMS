@@ -1,6 +1,9 @@
 
 export default {
   target: 'static',
+  server: {
+    port: 8000 // default: 8000
+  },
   head: {
     title: 'AlternateCMS',
     meta: [{
@@ -62,12 +65,14 @@ export default {
     { src: '~plugins/paypal.js', ssr: false },
     { src: '~plugins/client.js', ssr: false },
     { src: '~plugins/typegraphql.js', ssr: false },
+    { src: '~plugins/vue-kindergarten.js', ssr: false },
+    // { src: '~plugins/email.js', ssr: false },
     // { src: '~plugins/upload.js', mode: 'client' },
     // { src: '~plugins/vue-chart.js', mode: 'client' },
   ],
 
   components: true,
-  middleware: [],
+  // middleware: ['feathers'],
 
   buildModules: [
     '@nuxtjs/eslint-module',
@@ -96,23 +101,49 @@ export default {
     'nuxt-helmet',
     '@nuxtjs/lunr-module',
     '@nuxt/image',
+    'nuxt-client-init-module',
   ],
 
+// Modules Options -----------------------------------------------------------------------------------------------
+
   router: {
-    middleware: ['auth']
+    middleware: ['auth', 'vue-kindergarten']
+  },
+
+  auth: {
+    strategies: {
+      local: {
+//      scheme: "refresh",
+        token: {
+          property: "token", 
+          global: true,
+          required: true,
+          type: "Bearer"
+        },
+        user: {
+          property: "user",
+          autoFetch: true
+        },
+//      refreshToken: {  // it sends request automatically when the access token expires, and its expire time has set on the Back-end and does not need to we set it here, because is useless
+//        property: "refresh_token", // property name that the Back-end sends for you as a refresh token for saving on localStorage and cookie of user browser
+//        data: "refresh_token", // data can be used to set the name of the property you want to send in the request.
+//      },
+        endpoints: {
+          login: { url: "/auth/login", method: "post" },
+//        refresh: { url: "/auth/refresh-token", method: "post" },
+          logout: false, 
+          user: { url: "/auth/user", method: "get" }
+        }
+      }
+    }
   },
 
   image: {
     // Options
   },
 
-  helmet: {
-    /*
-    frameguard: false,
-    ...
-    */
- },
-  // Modules Options
+  helmet: {},
+  
     'google-adsense': {
         id: 'ca-pub-#########'
     },
@@ -145,7 +176,7 @@ export default {
     sockets: [ // Required
       { // At least one entry is required
         name: 'home',
-        url: 'http://localhost:3000',
+        url: 'http://localhost:8000',
         default: true,
       },
     ]
@@ -174,48 +205,18 @@ export default {
     }
   },
 
-  auth: {
-    strategies: {
-      local: {
-//      scheme: "refresh",
-        token: {
-          property: "token", // property name that the Back-end sends for you as a access token for saving on localStorage and cookie of user browser
-          global: true,
-          required: true,
-          type: "Bearer"
-        },
-        user: {
-          property: "user",
-          autoFetch: true
-        },
-//      refreshToken: {  // it sends request automatically when the access token expires, and its expire time has set on the Back-end and does not need to we set it here, because is useless
-//        property: "refresh_token", // property name that the Back-end sends for you as a refresh token for saving on localStorage and cookie of user browser
-//        data: "refresh_token", // data can be used to set the name of the property you want to send in the request.
-//      },
-        endpoints: {
-          login: { url: "/api/auth/login", method: "post" },
-//        refresh: { url: "/api/auth/refresh-token", method: "post" },
-          logout: false, //  we don't have an endpoint for our logout in our API and we just remove the token from localstorage
-          user: { url: "/api/auth/user", method: "get" }
-        }
-      }
-    }
-  },
-
   axios: {
-    baseURL: 'http://localhost:3000',
-    browserBaseURL: 'http://localhost:3000',
+    baseURL: 'http://localhost:8000',
+    browserBaseURL: 'http://localhost:8000',
   },
   
   apollo: {
     cookieAttributes: {
-      expires: 7, // optional, default: 7 (days)
+      expires: 7, 
     },
-    includeNodeModules: true, // optional, default: false (this includes graphql-tag for node_modules folder)
-    authenticationType: 'Bearer', // optional, default: 'Bearer'
-    // optional
+    includeNodeModules: true, 
+    authenticationType: 'Bearer', 
     errorHandler: '~/plugins/apollo-error-handler.js',
-    // required
     clientConfigs: {
       default: '~/apollo/clientConfig.js'
     }
@@ -241,11 +242,22 @@ export default {
 
   publicRuntimeConfig: {
     recaptcha: {
-      siteKey: process.env.RECAPTCHA_SITE_KEY, // for example
+      siteKey: process.env.RECAPTCHA_SITE_KEY,
       version: 3
     }
   },
 
+  render: {
+      gzip: {
+        threshold: 9 // 9 is the "best" compression.
+      },
+      http2: {
+        push: true
+      }
+    },
+  
+    srcDir: 'client/',
+  
   build: {
     extend(config, ctx) {},
   },

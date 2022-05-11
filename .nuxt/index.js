@@ -35,12 +35,14 @@ import nuxt_plugin_iconplugin_6d61dc84 from 'nuxt_plugin_iconplugin_6d61dc84' //
 import nuxt_plugin_axios_ead9ab18 from 'nuxt_plugin_axios_ead9ab18' // Source: .\\axios.js (mode: 'all')
 import nuxt_plugin_nuxtplugin1ea8e8dd_e37afa94 from 'nuxt_plugin_nuxtplugin1ea8e8dd_e37afa94' // Source: .\\nuxt.plugin.1ea8e8dd.js (mode: 'all')
 import nuxt_plugin_moment_530494b8 from 'nuxt_plugin_moment_530494b8' // Source: .\\moment.js (mode: 'all')
-import nuxt_plugin_simplemde_45e761dc from 'nuxt_plugin_simplemde_45e761dc' // Source: ..\\plugins\\simplemde.js (mode: 'client')
-import nuxt_plugin_main_101ad5e7 from 'nuxt_plugin_main_101ad5e7' // Source: ..\\plugins\\main.js (mode: 'client')
-import nuxt_plugin_paypal_f3b367a6 from 'nuxt_plugin_paypal_f3b367a6' // Source: ..\\plugins\\paypal.js (mode: 'client')
-import nuxt_plugin_client_14eb6855 from 'nuxt_plugin_client_14eb6855' // Source: ..\\plugins\\client.js (mode: 'client')
-import nuxt_plugin_typegraphql_a4cbf882 from 'nuxt_plugin_typegraphql_a4cbf882' // Source: ..\\plugins\\typegraphql.js (mode: 'client')
+import nuxt_plugin_simplemde_45e761dc from 'nuxt_plugin_simplemde_45e761dc' // Source: ..\\client\\plugins\\simplemde.js (mode: 'client')
+import nuxt_plugin_main_101ad5e7 from 'nuxt_plugin_main_101ad5e7' // Source: ..\\client\\plugins\\main.js (mode: 'client')
+import nuxt_plugin_paypal_f3b367a6 from 'nuxt_plugin_paypal_f3b367a6' // Source: ..\\client\\plugins\\paypal.js (mode: 'client')
+import nuxt_plugin_client_14eb6855 from 'nuxt_plugin_client_14eb6855' // Source: ..\\client\\plugins\\client.js (mode: 'client')
+import nuxt_plugin_typegraphql_a4cbf882 from 'nuxt_plugin_typegraphql_a4cbf882' // Source: ..\\client\\plugins\\typegraphql.js (mode: 'client')
+import nuxt_plugin_vuekindergarten_6e96c81a from 'nuxt_plugin_vuekindergarten_6e96c81a' // Source: ..\\client\\plugins\\vue-kindergarten.js (mode: 'client')
 import nuxt_plugin_auth_5ac7603c from 'nuxt_plugin_auth_5ac7603c' // Source: .\\auth.js (mode: 'all')
+import nuxt_plugin_libnuxtclientinitpluginclient931b7b2a_01299480 from 'nuxt_plugin_libnuxtclientinitpluginclient931b7b2a_01299480' // Source: .\\lib.nuxt-client-init.plugin.client.931b7b2a.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -345,8 +347,16 @@ async function createApp(ssrContext, config = {}) {
     await nuxt_plugin_typegraphql_a4cbf882(app.context, inject)
   }
 
+  if (process.client && typeof nuxt_plugin_vuekindergarten_6e96c81a === 'function') {
+    await nuxt_plugin_vuekindergarten_6e96c81a(app.context, inject)
+  }
+
   if (typeof nuxt_plugin_auth_5ac7603c === 'function') {
     await nuxt_plugin_auth_5ac7603c(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_libnuxtclientinitpluginclient931b7b2a_01299480 === 'function') {
+    await nuxt_plugin_libnuxtclientinitpluginclient931b7b2a_01299480(app.context, inject)
   }
 
   // Lock enablePreview in context

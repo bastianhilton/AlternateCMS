@@ -163,7 +163,7 @@ export default async (ssrContext) => {
   /*
   ** Call global middleware (nuxt.config.js)
   */
-  let midd = ["auth","nuxti18n"]
+  let midd = ["auth","vue-kindergarten","nuxti18n"]
   midd = midd.map((name) => {
     if (typeof name === 'function') {
       return name

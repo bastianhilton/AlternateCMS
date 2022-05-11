@@ -230,7 +230,7 @@ function resolveComponents (route) {
 }
 
 function callMiddleware (Components, context, layout) {
-  let midd = ["auth","nuxti18n"]
+  let midd = ["auth","vue-kindergarten","nuxti18n"]
   let unknownMiddleware = false
 
   // If layout is undefined, only call global middleware

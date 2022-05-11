@@ -6,20 +6,21 @@ import NuxtError from './components/nuxt-error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
-import '..\\static\\styles\\styles.css'
+import '..\\client\\static\\styles\\styles.css'
 
 import '..\\node_modules\\simplemde\\dist\\simplemde.min.css'
 
-import '..\\static\\styles\\snow.min.css'
+import '..\\client\\static\\styles\\snow.min.css'
 
 import '..\\node_modules\\leaflet\\dist\\leaflet.css'
 
 import '..\\node_modules\\vuetify\\dist\\vuetify.css'
 
-import _5fa3735e from '..\\layouts\\dashboard.vue'
-import _6f6c098b from '..\\layouts\\default.vue'
+import _5fa3735e from '..\\client\\layouts\\dashboard.vue'
+import _6f6c098b from '..\\client\\layouts\\default.vue'
+import _dc54f4dc from '..\\client\\layouts\\nologin.vue'
 
-const layouts = { "_dashboard": sanitizeComponent(_5fa3735e),"_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_dashboard": sanitizeComponent(_5fa3735e),"_default": sanitizeComponent(_6f6c098b),"_nologin": sanitizeComponent(_dc54f4dc) }
 
 export default {
   render (h, props) {
