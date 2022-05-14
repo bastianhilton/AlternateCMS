@@ -1,9 +1,9 @@
 # AlternateCMS
 AlternateCMS
 
-A powerful, consisten, and flexible content management framework. Built using the Nuxtjs framework, AlternateCMS provides traditional and headless content management system capabilities for sites of all types. 
+A powerful, consistent, and flexible content management framework. Built using the Nuxtjs framework, AlternateCMS provides traditional and headless content management system capabilities for sites of all types. 
 
-Features include:
+## Features include:
 
 Since AlternateCMS is powered by Nuxtjs it support all of Nuxtjs and Vuejs features and hundreds of modules.
 
@@ -43,6 +43,7 @@ Steps to install:
 You will need:
 
 Git = https://git-scm.com/
+
 Nodejs = https://nodejs.org/en/
 
 We recommend postgres as the database 
