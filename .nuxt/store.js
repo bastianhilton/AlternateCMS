@@ -8,8 +8,6 @@ const VUEX_PROPERTIES = ['state', 'getters', 'actions', 'mutations']
 let store = {};
 
 (function updateModules () {
-  store = normalizeRoot(require('..\\client\\store\\index.js'), 'store/index.js')
-
   // If store is an exported method = classic mode (deprecated)
 
   if (typeof store === 'function') {
@@ -26,7 +24,6 @@ let store = {};
   if (process.client && module.hot) {
     // Whenever any Vuex module is updated...
     module.hot.accept([
-      '..\\client\\store\\index.js',
       '..\\client\\store\\services\\index.js',
     ], () => {
       // Update `root.modules` with the latest definitions.

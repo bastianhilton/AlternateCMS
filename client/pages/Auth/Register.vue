@@ -34,7 +34,7 @@
                     <FormulateInput id="password" v-model="registerData.password" type="password"
                       class="form-control" />
                   </div>
-
+                  <!--<recaptcha />-->
                   <FormulateInput type="submit" style="width:100%">Register</FormulateInput>
                 </FormulateForm>
                 <div class="has-text-centered" style="margin-top: 20px;text-align:center;">
@@ -73,6 +73,13 @@
     head: {
       title: 'Register'
     },
+    /* async mounted() {
+    try {
+      await this.$recaptcha.init()
+    } catch (e) {
+      console.log(e);
+    }
+  }, */
     methods: {
       async register() {
         try {
@@ -93,7 +100,15 @@
           this.error = e.response.data.message;
         }
       },
-    },
+      /* async onSubmit() {
+      try {
+        const token = await this.$recaptcha.execute('login')
+        console.log('ReCaptcha token:', token)
+      } catch (error) {
+        console.log('Login error:', error)
+      }
+    }, */
+    }
   };
 
 </script>

@@ -2,7 +2,7 @@
 export default {
   target: 'static',
   server: {
-    port: 8000 // default: 8000
+    port: 8000
   },
   head: {
     title: 'AlternateCMS',
@@ -64,7 +64,6 @@ export default {
     { src: '~plugins/main.js', mode: 'client' },
     { src: '~plugins/paypal.js', ssr: false },
     { src: '~plugins/client.js', ssr: false },
-    { src: '~plugins/typegraphql.js', ssr: false },
     { src: '~plugins/vue-kindergarten.js', ssr: false },
     // { src: '~plugins/email.js', ssr: false },
     // { src: '~plugins/upload.js', mode: 'client' },
@@ -72,13 +71,13 @@ export default {
   ],
 
   components: true,
-  // middleware: ['feathers'],
 
   buildModules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/dotenv',
     '@nuxtjs/moment',
     '@braid/vue-formulate/nuxt',
+    'nuxt-webpack-optimisations',
   ],
 
   modules: [
@@ -92,7 +91,7 @@ export default {
     '@nuxtjs/gtm',
     'nuxt-socket-io',
     '@nuxtjs/universal-storage',
-    '@nuxtjs/recaptcha',
+    // '@nuxtjs/recaptcha',
     '@nuxtjs/google-analytics',
     '@nuxtjs/robots',
     '@nuxtjs/google-adsense',
@@ -102,6 +101,7 @@ export default {
     '@nuxtjs/lunr-module',
     '@nuxt/image',
     'nuxt-client-init-module',
+    'nuxtjs-darkmode-js-module',
   ],
 
 // Modules Options -----------------------------------------------------------------------------------------------
@@ -240,23 +240,16 @@ export default {
     configPath: '~/formulate.config.js'
   },
 
-  publicRuntimeConfig: {
-    recaptcha: {
-      siteKey: process.env.RECAPTCHA_SITE_KEY,
-      version: 3
-    }
-  },
+  /* recaptcha: {
+        siteKey: process.env.RECAPTCHA_SITE_KEY,
+        version: 3
+      }, */
 
-  render: {
-      gzip: {
-        threshold: 9 // 9 is the "best" compression.
-      },
-      http2: {
-        push: true
-      }
-    },
+  publicRuntimeConfig: {
+    
+  },
   
-    srcDir: 'client/',
+  srcDir: 'client/',
   
   build: {
     extend(config, ctx) {},

@@ -17,10 +17,10 @@ import nuxt_plugin_plugin_6befc4d1 from 'nuxt_plugin_plugin_6befc4d1' // Source:
 import nuxt_plugin_plugin_1c3590c3 from 'nuxt_plugin_plugin_1c3590c3' // Source: .\\vuetify\\plugin.js (mode: 'all')
 import nuxt_plugin_sentryserver_b9859390 from 'nuxt_plugin_sentryserver_b9859390' // Source: .\\sentry.server.js (mode: 'server')
 import nuxt_plugin_sentryclient_3d83c4b0 from 'nuxt_plugin_sentryclient_3d83c4b0' // Source: .\\sentry.client.js (mode: 'client')
+import nuxt_plugin_nuxtjsdarkmodejsmodule_5c29a96d from 'nuxt_plugin_nuxtjsdarkmodejsmodule_5c29a96d' // Source: .\\nuxtjs-darkmode-js-module.js (mode: 'all')
 import nuxt_plugin_image_759a276f from 'nuxt_plugin_image_759a276f' // Source: .\\image.js (mode: 'all')
 import nuxt_plugin_adsbygoogle_dfc92b2c from 'nuxt_plugin_adsbygoogle_dfc92b2c' // Source: .\\adsbygoogle.js (mode: 'all')
 import nuxt_plugin_googleanalytics_20f4dd32 from 'nuxt_plugin_googleanalytics_20f4dd32' // Source: .\\google-analytics.js (mode: 'client')
-import nuxt_plugin_recaptcha_329d5ee3 from 'nuxt_plugin_recaptcha_329d5ee3' // Source: .\\recaptcha.js (mode: 'all')
 import nuxt_plugin_storage_00ed198f from 'nuxt_plugin_storage_00ed198f' // Source: .\\storage.js (mode: 'all')
 import nuxt_plugin_nuxtsocketio_48353f6e from 'nuxt_plugin_nuxtsocketio_48353f6e' // Source: .\\nuxt-socket-io.js (mode: 'all')
 import nuxt_plugin_gtm_8af8036c from 'nuxt_plugin_gtm_8af8036c' // Source: .\\gtm.js (mode: 'all')
@@ -39,7 +39,6 @@ import nuxt_plugin_simplemde_45e761dc from 'nuxt_plugin_simplemde_45e761dc' // S
 import nuxt_plugin_main_101ad5e7 from 'nuxt_plugin_main_101ad5e7' // Source: ..\\client\\plugins\\main.js (mode: 'client')
 import nuxt_plugin_paypal_f3b367a6 from 'nuxt_plugin_paypal_f3b367a6' // Source: ..\\client\\plugins\\paypal.js (mode: 'client')
 import nuxt_plugin_client_14eb6855 from 'nuxt_plugin_client_14eb6855' // Source: ..\\client\\plugins\\client.js (mode: 'client')
-import nuxt_plugin_typegraphql_a4cbf882 from 'nuxt_plugin_typegraphql_a4cbf882' // Source: ..\\client\\plugins\\typegraphql.js (mode: 'client')
 import nuxt_plugin_vuekindergarten_6e96c81a from 'nuxt_plugin_vuekindergarten_6e96c81a' // Source: ..\\client\\plugins\\vue-kindergarten.js (mode: 'client')
 import nuxt_plugin_auth_5ac7603c from 'nuxt_plugin_auth_5ac7603c' // Source: .\\auth.js (mode: 'all')
 import nuxt_plugin_libnuxtclientinitpluginclient931b7b2a_01299480 from 'nuxt_plugin_libnuxtclientinitpluginclient931b7b2a_01299480' // Source: .\\lib.nuxt-client-init.plugin.client.931b7b2a.js (mode: 'client')
@@ -255,6 +254,10 @@ async function createApp(ssrContext, config = {}) {
     await nuxt_plugin_sentryclient_3d83c4b0(app.context, inject)
   }
 
+  if (typeof nuxt_plugin_nuxtjsdarkmodejsmodule_5c29a96d === 'function') {
+    await nuxt_plugin_nuxtjsdarkmodejsmodule_5c29a96d(app.context, inject)
+  }
+
   if (typeof nuxt_plugin_image_759a276f === 'function') {
     await nuxt_plugin_image_759a276f(app.context, inject)
   }
@@ -265,10 +268,6 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.client && typeof nuxt_plugin_googleanalytics_20f4dd32 === 'function') {
     await nuxt_plugin_googleanalytics_20f4dd32(app.context, inject)
-  }
-
-  if (typeof nuxt_plugin_recaptcha_329d5ee3 === 'function') {
-    await nuxt_plugin_recaptcha_329d5ee3(app.context, inject)
   }
 
   if (typeof nuxt_plugin_storage_00ed198f === 'function') {
@@ -341,10 +340,6 @@ async function createApp(ssrContext, config = {}) {
 
   if (process.client && typeof nuxt_plugin_client_14eb6855 === 'function') {
     await nuxt_plugin_client_14eb6855(app.context, inject)
-  }
-
-  if (process.client && typeof nuxt_plugin_typegraphql_a4cbf882 === 'function') {
-    await nuxt_plugin_typegraphql_a4cbf882(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_vuekindergarten_6e96c81a === 'function') {
