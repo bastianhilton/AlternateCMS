@@ -868,3 +868,40 @@ model fullfillments {
   pickup         String?
   stock          String?
 }
+
+model customer {
+  id         BigInt    @id @unique @default(autoincrement())
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  firstname  String?
+  lastname   String?
+  username   String?
+  email      String?
+  city       String?
+  state      String?
+  country    String?
+  postal     String?
+  active     String?
+}
+
+model permissions {
+  id         BigInt    @id @unique @default(autoincrement())
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  name       String?
+  content    String?
+}
+
+model warehouse {
+  id          BigInt    @id @unique @default(autoincrement())
+  created_at  DateTime? @default(now()) @db.Timestamptz(6)
+  name        String?
+  description String?
+  city        String?
+  state       String?
+  country     String?
+  postal      String?
+  status      String?
+  image       String?
+  public      String?
+  products    String?
+  category    String?
+}

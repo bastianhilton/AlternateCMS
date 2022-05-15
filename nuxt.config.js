@@ -19,6 +19,10 @@ export default {
         content: ''
       },
       {
+        name: 'csrf-token',
+        content: '{{csrfToken}}'
+      },
+      {
         name: 'format-detection',
         content: 'telephone=no'
       }
@@ -250,6 +254,10 @@ export default {
   },
   
   srcDir: 'client/',
+
+  serverMiddleware: {
+    '/server': '../server'
+  },
   
   build: {
     extend(config, ctx) {},

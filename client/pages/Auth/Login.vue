@@ -19,7 +19,7 @@
                     <label for="password" style="color:white;">Password</label>
                     <FormulateInput id="password" v-model="form.password" type="password" class="form-control" />
                   </div>
-
+                  <input type="hidden" name="_csrf" :value="csrfToken">
                   <FormulateInput type="submit">Login</FormulateInput>
                 </FormulateForm>
                 <div class="has-text-centered" style="margin-top: 20px">

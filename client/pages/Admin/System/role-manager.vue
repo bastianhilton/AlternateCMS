@@ -2,8 +2,7 @@
   <div>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand"><FormulateInput type="button">Report</FormulateInput></a>
-        <a class="navbar-brand" href="/admin/add-new/add-new-permissions"><FormulateInput type="button" style="float:left; left: 25%; position: absolute;">Create Permission Group</FormulateInput></a>
+        <a class="navbar-brand" href="/admin/add-new/add-new-permissions"><FormulateInput type="button">Create Permission Group</FormulateInput></a>
         
 </div>
 </nav>
@@ -12,26 +11,18 @@
         <table class="table">
         <thead class="table table-dark">
           <tr>
-            <th>Permissions Group Name</th>
-            <th>Members</th>
-            <th>Actions</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Users</th>
+            <th>Edit</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <td>Sit</td>
             <td>Amet</td>
-            <td><a :href="`/admin/edit/role/${roles.id}`"><span class="fas fa-trash-can"></span></a></td>
-          </tr>
-          <tr>
-            <td>Adipisicing</td>
-            <td>Elit</td>
-            <td><a :href="`/admin/edit/role/${roles.id}`"><span class="fas fa-trash-can"></span></a></td>
-          </tr>
-          <tr>
-            <td>Hic</td>
-            <td>Fugiat</td>
-            <td><a :href="`/admin/edit/role/${roles.id}`"><span class="fas fa-trash-can"></span></a></td>
+            <td>Amet</td>
+            <td><a :href="`/admin/edit/role/${roles.id}`"><span class="fas fa-pencil"></span></a></td>
           </tr>
         </tbody>
       </table>

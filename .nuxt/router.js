@@ -18,6 +18,7 @@ const _820c4000 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New
 const _70195c1a = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-collection.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-collection" */))
 const _5fcc4091 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-country.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-country" */))
 const _5bbfddfb = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-coupon.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-coupon" */))
+const _79b74e73 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-customer.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-customer" */))
 const _26c7e69c = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-customergroup.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-customergroup" */))
 const _66b13655 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-event.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-event" */))
 const _34b55af4 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-gift-certificates.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-gift-certificates" */))
@@ -26,6 +27,7 @@ const _f724eeb0 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New
 const _c451bae4 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-newsletter.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-newsletter" */))
 const _b1f9e4e2 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-newslettersubscriber copy.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-newslettersubscriber copy" */))
 const _46ee7724 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-page.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-page" */))
+const _cb736602 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-permissions.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-permissions" */))
 const _5ee6616a = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-product.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-product" */))
 const _aaefb7ee = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-report.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-report" */))
 const _f1c4a3f6 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-return.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-return" */))
@@ -207,6 +209,10 @@ export const routerOptions = {
     component: _5bbfddfb,
     name: "Admin-Add-New-add-new-coupon___en"
   }, {
+    path: "/Admin/Add-New/add-new-customer",
+    component: _79b74e73,
+    name: "Admin-Add-New-add-new-customer___en"
+  }, {
     path: "/Admin/Add-New/add-new-customergroup",
     component: _26c7e69c,
     name: "Admin-Add-New-add-new-customergroup___en"
@@ -238,6 +244,10 @@ export const routerOptions = {
     path: "/Admin/Add-New/add-new-page",
     component: _46ee7724,
     name: "Admin-Add-New-add-new-page___en"
+  }, {
+    path: "/Admin/Add-New/add-new-permissions",
+    component: _cb736602,
+    name: "Admin-Add-New-add-new-permissions___en"
   }, {
     path: "/Admin/Add-New/add-new-product",
     component: _5ee6616a,
@@ -551,6 +561,10 @@ export const routerOptions = {
     component: _5bbfddfb,
     name: "Admin-Add-New-add-new-coupon___es"
   }, {
+    path: "/es/Admin/Add-New/add-new-customer",
+    component: _79b74e73,
+    name: "Admin-Add-New-add-new-customer___es"
+  }, {
     path: "/es/Admin/Add-New/add-new-customergroup",
     component: _26c7e69c,
     name: "Admin-Add-New-add-new-customergroup___es"
@@ -582,6 +596,10 @@ export const routerOptions = {
     path: "/es/Admin/Add-New/add-new-page",
     component: _46ee7724,
     name: "Admin-Add-New-add-new-page___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-permissions",
+    component: _cb736602,
+    name: "Admin-Add-New-add-new-permissions___es"
   }, {
     path: "/es/Admin/Add-New/add-new-product",
     component: _5ee6616a,
@@ -863,6 +881,10 @@ export const routerOptions = {
     component: _5bbfddfb,
     name: "Admin-Add-New-add-new-coupon___fr"
   }, {
+    path: "/fr/Admin/Add-New/add-new-customer",
+    component: _79b74e73,
+    name: "Admin-Add-New-add-new-customer___fr"
+  }, {
     path: "/fr/Admin/Add-New/add-new-customergroup",
     component: _26c7e69c,
     name: "Admin-Add-New-add-new-customergroup___fr"
@@ -894,6 +916,10 @@ export const routerOptions = {
     path: "/fr/Admin/Add-New/add-new-page",
     component: _46ee7724,
     name: "Admin-Add-New-add-new-page___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-permissions",
+    component: _cb736602,
+    name: "Admin-Add-New-add-new-permissions___fr"
   }, {
     path: "/fr/Admin/Add-New/add-new-product",
     component: _5ee6616a,

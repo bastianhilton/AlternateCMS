@@ -1,6 +1,6 @@
 <template>
   <div>
-    <FormulateForm method="POST" @submit.prevent>
+    <FormulateForm method="POST" @submit.prevent  enctype="multipart/form-data">
       <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand"><FormulateInput type="reset" class="btn btn-warning" label="Reset" /></a>

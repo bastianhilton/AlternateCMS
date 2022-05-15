@@ -225,8 +225,7 @@
             <div class="d-flex align-items-center">
                 <!-- Search -->
                 <form class="d-flex input-group w-auto">
-                    <input type="search" class="form-control rounded" label="Search" aria-label="Search"
-                        aria-describedby="search-addon" />
+                    <input id="search" v-model="query" type="search" class="form-control rounded" label="Search" aria-label="Search" aria-describedby="search-addon" autocomplete="on" @input="search" />
                     <span id="search-addon" class="input-group-text border-0">
                         <i class="fas fa-search"></i>
                     </span>
@@ -276,6 +275,28 @@ import { mapGetters } from 'vuex'
 export default {
   computed: {
     ...mapGetters(['isAuthenticated', 'loggedInUser'])
+  },
+  // eslint-disable-next-line vue/order-in-components
+  data () {
+    return {
+      query: '',
+      articles: []
+    }
+  },
+  watch: {
+    async query (query) {
+      if (!query) {
+        this.articles = []
+        return
+      }
+
+      this.articles = await this.$content('articles')
+        .only(['title', 'slug'])
+        .sortBy('createdAt', 'asc')
+        .limit(12)
+        .search(query)
+        .fetch()
+    }
   }
 }
 </script>

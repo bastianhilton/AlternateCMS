@@ -1,6 +1,6 @@
 <template>
     <div>
-        <FormulateForm method="POST" @submit.prevent>
+        <FormulateForm method="POST" @submit.prevent  enctype="multipart/form-data">
         <div class="table table-responsive">
             <table class="table" >
                 <thead>
@@ -31,7 +31,6 @@
                     </tr>
                     <tr>
                         <td style="text-align: right;">Logo</td>
-                        <td>
                             <td><FormulateInput type="image" name="headshot" v-model="image" label="Select an image to upload" help="Select a png, jpg or gif to upload." validation="mime:image/jpeg,image/png,image/gif"/></td>
                     </tr>
                 </tbody>

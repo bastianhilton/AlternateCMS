@@ -4,2651 +4,2351 @@
     "path": "/es",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "url": "/es",
-    "_name": "_1b6fdfab"
+    "url": "/es"
   },
   {
     "name": "index___fr",
     "path": "/fr",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "url": "/fr",
-    "_name": "_1b6fdfab"
+    "url": "/fr"
   },
   {
     "name": "search___en",
     "path": "/search",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\search.vue",
     "chunkName": "pages/search",
-    "url": "/search",
-    "_name": "_036a21c2"
+    "url": "/search"
   },
   {
     "name": "test___en",
     "path": "/test",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\test.vue",
     "chunkName": "pages/test",
-    "url": "/test",
-    "_name": "_7bf474c9"
+    "url": "/test"
   },
   {
     "name": "Auth-Login___en",
     "path": "/Auth/Login",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Auth\\\\Login.vue",
     "chunkName": "pages/Auth/Login",
-    "url": "/Auth/Login",
-    "_name": "_e321d8cc"
+    "url": "/Auth/Login"
   },
   {
     "name": "Auth-Register___en",
     "path": "/Auth/Register",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Auth\\\\Register.vue",
     "chunkName": "pages/Auth/Register",
-    "url": "/Auth/Register",
-    "_name": "_2329b1fc"
+    "url": "/Auth/Register"
   },
   {
     "name": "search___es",
     "path": "/es/search",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\search.vue",
     "chunkName": "pages/search",
-    "url": "/es/search",
-    "_name": "_036a21c2"
+    "url": "/es/search"
   },
   {
     "name": "test___es",
     "path": "/es/test",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\test.vue",
     "chunkName": "pages/test",
-    "url": "/es/test",
-    "_name": "_7bf474c9"
+    "url": "/es/test"
   },
   {
     "name": "search___fr",
     "path": "/fr/search",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\search.vue",
     "chunkName": "pages/search",
-    "url": "/fr/search",
-    "_name": "_036a21c2"
+    "url": "/fr/search"
   },
   {
     "name": "test___fr",
     "path": "/fr/test",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\test.vue",
     "chunkName": "pages/test",
-    "url": "/fr/test",
-    "_name": "_7bf474c9"
+    "url": "/fr/test"
   },
   {
     "name": "User-my-account___en",
     "path": "/User/my-account",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\User\\\\my-account.vue",
     "chunkName": "pages/User/my-account",
-    "url": "/User/my-account",
-    "_name": "_2c35912e"
+    "url": "/User/my-account"
   },
   {
     "name": "Admin-Add-New-add-new-agreement___en",
     "path": "/Admin/Add-New/add-new-agreement",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-agreement.vue",
     "chunkName": "pages/Admin/Add-New/add-new-agreement",
-    "url": "/Admin/Add-New/add-new-agreement",
-    "_name": "_7d05d776"
+    "url": "/Admin/Add-New/add-new-agreement"
   },
   {
     "name": "Admin-Add-New-add-new-article___en",
     "path": "/Admin/Add-New/add-new-article",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-article.vue",
     "chunkName": "pages/Admin/Add-New/add-new-article",
-    "url": "/Admin/Add-New/add-new-article",
-    "_name": "_2ed7f41e"
+    "url": "/Admin/Add-New/add-new-article"
   },
   {
     "name": "Admin-Add-New-add-new-attribute___en",
     "path": "/Admin/Add-New/add-new-attribute",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-attribute.vue",
     "chunkName": "pages/Admin/Add-New/add-new-attribute",
-    "url": "/Admin/Add-New/add-new-attribute",
-    "_name": "_2d8e5852"
+    "url": "/Admin/Add-New/add-new-attribute"
   },
   {
     "name": "Admin-Add-New-add-new-category___en",
     "path": "/Admin/Add-New/add-new-category",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-category.vue",
     "chunkName": "pages/Admin/Add-New/add-new-category",
-    "url": "/Admin/Add-New/add-new-category",
-    "_name": "_5d74fb93"
+    "url": "/Admin/Add-New/add-new-category"
   },
   {
     "name": "Admin-Add-New-add-new-city___en",
     "path": "/Admin/Add-New/add-new-city",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-city.vue",
     "chunkName": "pages/Admin/Add-New/add-new-city",
-    "url": "/Admin/Add-New/add-new-city",
-    "_name": "_820c4000"
+    "url": "/Admin/Add-New/add-new-city"
   },
   {
     "name": "Admin-Add-New-add-new-collection___en",
     "path": "/Admin/Add-New/add-new-collection",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-collection.vue",
     "chunkName": "pages/Admin/Add-New/add-new-collection",
-    "url": "/Admin/Add-New/add-new-collection",
-    "_name": "_70195c1a"
+    "url": "/Admin/Add-New/add-new-collection"
   },
   {
     "name": "Admin-Add-New-add-new-country___en",
     "path": "/Admin/Add-New/add-new-country",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-country.vue",
     "chunkName": "pages/Admin/Add-New/add-new-country",
-    "url": "/Admin/Add-New/add-new-country",
-    "_name": "_5fcc4091"
+    "url": "/Admin/Add-New/add-new-country"
   },
   {
     "name": "Admin-Add-New-add-new-coupon___en",
     "path": "/Admin/Add-New/add-new-coupon",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-coupon.vue",
     "chunkName": "pages/Admin/Add-New/add-new-coupon",
-    "url": "/Admin/Add-New/add-new-coupon",
-    "_name": "_5bbfddfb"
+    "url": "/Admin/Add-New/add-new-coupon"
+  },
+  {
+    "name": "Admin-Add-New-add-new-customer___en",
+    "path": "/Admin/Add-New/add-new-customer",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-customer.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-customer",
+    "url": "/Admin/Add-New/add-new-customer"
   },
   {
     "name": "Admin-Add-New-add-new-customergroup___en",
     "path": "/Admin/Add-New/add-new-customergroup",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-customergroup.vue",
     "chunkName": "pages/Admin/Add-New/add-new-customergroup",
-    "url": "/Admin/Add-New/add-new-customergroup",
-    "_name": "_26c7e69c"
+    "url": "/Admin/Add-New/add-new-customergroup"
   },
   {
     "name": "Admin-Add-New-add-new-event___en",
     "path": "/Admin/Add-New/add-new-event",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-event.vue",
     "chunkName": "pages/Admin/Add-New/add-new-event",
-    "url": "/Admin/Add-New/add-new-event",
-    "_name": "_66b13655"
+    "url": "/Admin/Add-New/add-new-event"
   },
   {
     "name": "Admin-Add-New-add-new-gift-certificates___en",
     "path": "/Admin/Add-New/add-new-gift-certificates",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-gift-certificates.vue",
     "chunkName": "pages/Admin/Add-New/add-new-gift-certificates",
-    "url": "/Admin/Add-New/add-new-gift-certificates",
-    "_name": "_34b55af4"
+    "url": "/Admin/Add-New/add-new-gift-certificates"
   },
   {
     "name": "Admin-Add-New-add-new-glossary___en",
     "path": "/Admin/Add-New/add-new-glossary",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-glossary.vue",
     "chunkName": "pages/Admin/Add-New/add-new-glossary",
-    "url": "/Admin/Add-New/add-new-glossary",
-    "_name": "_3254f8b3"
+    "url": "/Admin/Add-New/add-new-glossary"
   },
   {
     "name": "Admin-Add-New-add-new-invoice___en",
     "path": "/Admin/Add-New/add-new-invoice",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-invoice.vue",
     "chunkName": "pages/Admin/Add-New/add-new-invoice",
-    "url": "/Admin/Add-New/add-new-invoice",
-    "_name": "_f724eeb0"
+    "url": "/Admin/Add-New/add-new-invoice"
   },
   {
     "name": "Admin-Add-New-add-new-newsletter___en",
     "path": "/Admin/Add-New/add-new-newsletter",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-newsletter.vue",
     "chunkName": "pages/Admin/Add-New/add-new-newsletter",
-    "url": "/Admin/Add-New/add-new-newsletter",
-    "_name": "_c451bae4"
+    "url": "/Admin/Add-New/add-new-newsletter"
   },
   {
     "name": "Admin-Add-New-add-new-newslettersubscriber copy___en",
     "path": "/Admin/Add-New/add-new-newslettersubscriber%20copy",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-newslettersubscriber copy.vue",
     "chunkName": "pages/Admin/Add-New/add-new-newslettersubscriber copy",
-    "url": "/Admin/Add-New/add-new-newslettersubscriber%20copy",
-    "_name": "_b1f9e4e2"
+    "url": "/Admin/Add-New/add-new-newslettersubscriber%20copy"
   },
   {
     "name": "Admin-Add-New-add-new-page___en",
     "path": "/Admin/Add-New/add-new-page",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-page.vue",
     "chunkName": "pages/Admin/Add-New/add-new-page",
-    "url": "/Admin/Add-New/add-new-page",
-    "_name": "_46ee7724"
+    "url": "/Admin/Add-New/add-new-page"
+  },
+  {
+    "name": "Admin-Add-New-add-new-permissions___en",
+    "path": "/Admin/Add-New/add-new-permissions",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-permissions.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-permissions",
+    "url": "/Admin/Add-New/add-new-permissions"
   },
   {
     "name": "Admin-Add-New-add-new-product___en",
     "path": "/Admin/Add-New/add-new-product",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-product.vue",
     "chunkName": "pages/Admin/Add-New/add-new-product",
-    "url": "/Admin/Add-New/add-new-product",
-    "_name": "_5ee6616a"
+    "url": "/Admin/Add-New/add-new-product"
   },
   {
     "name": "Admin-Add-New-add-new-report___en",
     "path": "/Admin/Add-New/add-new-report",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-report.vue",
     "chunkName": "pages/Admin/Add-New/add-new-report",
-    "url": "/Admin/Add-New/add-new-report",
-    "_name": "_aaefb7ee"
+    "url": "/Admin/Add-New/add-new-report"
   },
   {
     "name": "Admin-Add-New-add-new-return___en",
     "path": "/Admin/Add-New/add-new-return",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-return.vue",
     "chunkName": "pages/Admin/Add-New/add-new-return",
-    "url": "/Admin/Add-New/add-new-return",
-    "_name": "_f1c4a3f6"
+    "url": "/Admin/Add-New/add-new-return"
   },
   {
     "name": "Admin-Add-New-add-new-review___en",
     "path": "/Admin/Add-New/add-new-review",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-review.vue",
     "chunkName": "pages/Admin/Add-New/add-new-review",
-    "url": "/Admin/Add-New/add-new-review",
-    "_name": "_7335d7a6"
+    "url": "/Admin/Add-New/add-new-review"
   },
   {
     "name": "Admin-Add-New-add-new-segment___en",
     "path": "/Admin/Add-New/add-new-segment",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-segment.vue",
     "chunkName": "pages/Admin/Add-New/add-new-segment",
-    "url": "/Admin/Add-New/add-new-segment",
-    "_name": "_7f0271ae"
+    "url": "/Admin/Add-New/add-new-segment"
   },
   {
     "name": "Admin-Add-New-add-new-shipment___en",
     "path": "/Admin/Add-New/add-new-shipment",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-shipment.vue",
     "chunkName": "pages/Admin/Add-New/add-new-shipment",
-    "url": "/Admin/Add-New/add-new-shipment",
-    "_name": "_21c8022f"
+    "url": "/Admin/Add-New/add-new-shipment"
   },
   {
     "name": "Admin-Add-New-add-new-staffmembers___en",
     "path": "/Admin/Add-New/add-new-staffmembers",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-staffmembers.vue",
     "chunkName": "pages/Admin/Add-New/add-new-staffmembers",
-    "url": "/Admin/Add-New/add-new-staffmembers",
-    "_name": "_51d06cce"
+    "url": "/Admin/Add-New/add-new-staffmembers"
   },
   {
     "name": "Admin-Add-New-add-new-state___en",
     "path": "/Admin/Add-New/add-new-state",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-state.vue",
     "chunkName": "pages/Admin/Add-New/add-new-state",
-    "url": "/Admin/Add-New/add-new-state",
-    "_name": "_2f049668"
+    "url": "/Admin/Add-New/add-new-state"
   },
   {
     "name": "Admin-Add-New-add-new-tag___en",
     "path": "/Admin/Add-New/add-new-tag",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-tag.vue",
     "chunkName": "pages/Admin/Add-New/add-new-tag",
-    "url": "/Admin/Add-New/add-new-tag",
-    "_name": "_0f993015"
+    "url": "/Admin/Add-New/add-new-tag"
   },
   {
     "name": "Admin-Add-New-add-new-taxrate___en",
     "path": "/Admin/Add-New/add-new-taxrate",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-taxrate.vue",
     "chunkName": "pages/Admin/Add-New/add-new-taxrate",
-    "url": "/Admin/Add-New/add-new-taxrate",
-    "_name": "_58836586"
+    "url": "/Admin/Add-New/add-new-taxrate"
   },
   {
     "name": "Admin-Add-New-add-new-taxrule___en",
     "path": "/Admin/Add-New/add-new-taxrule",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-taxrule.vue",
     "chunkName": "pages/Admin/Add-New/add-new-taxrule",
-    "url": "/Admin/Add-New/add-new-taxrule",
-    "_name": "_6cd941a2"
+    "url": "/Admin/Add-New/add-new-taxrule"
   },
   {
     "name": "Admin-Add-New-add-new-warehouse___en",
     "path": "/Admin/Add-New/add-new-warehouse",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-warehouse.vue",
     "chunkName": "pages/Admin/Add-New/add-new-warehouse",
-    "url": "/Admin/Add-New/add-new-warehouse",
-    "_name": "_15840f04"
+    "url": "/Admin/Add-New/add-new-warehouse"
   },
   {
     "name": "Admin-Content-blog___en",
     "path": "/Admin/Content/blog",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\blog.vue",
     "chunkName": "pages/Admin/Content/blog",
-    "url": "/Admin/Content/blog",
-    "_name": "_478cf93a"
+    "url": "/Admin/Content/blog"
   },
   {
     "name": "Admin-Content-glossary___en",
     "path": "/Admin/Content/glossary",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\glossary.vue",
     "chunkName": "pages/Admin/Content/glossary",
-    "url": "/Admin/Content/glossary",
-    "_name": "_11c0c35f"
+    "url": "/Admin/Content/glossary"
   },
   {
     "name": "Admin-Content-media-manager___en",
     "path": "/Admin/Content/media-manager",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\media-manager.vue",
     "chunkName": "pages/Admin/Content/media-manager",
-    "url": "/Admin/Content/media-manager",
-    "_name": "_07f1e95a"
+    "url": "/Admin/Content/media-manager"
   },
   {
     "name": "Admin-Content-pages___en",
     "path": "/Admin/Content/pages",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\pages.vue",
     "chunkName": "pages/Admin/Content/pages",
-    "url": "/Admin/Content/pages",
-    "_name": "_adcfb95a"
+    "url": "/Admin/Content/pages"
   },
   {
     "name": "Admin-Content-tags___en",
     "path": "/Admin/Content/tags",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\tags.vue",
     "chunkName": "pages/Admin/Content/tags",
-    "url": "/Admin/Content/tags",
-    "_name": "_51a7174c"
+    "url": "/Admin/Content/tags"
   },
   {
     "name": "Admin-Customers-all-customers___en",
     "path": "/Admin/Customers/all-customers",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\all-customers.vue",
     "chunkName": "pages/Admin/Customers/all-customers",
-    "url": "/Admin/Customers/all-customers",
-    "_name": "_042a7848"
+    "url": "/Admin/Customers/all-customers"
   },
   {
     "name": "Admin-Customers-customer-groups___en",
     "path": "/Admin/Customers/customer-groups",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\customer-groups.vue",
     "chunkName": "pages/Admin/Customers/customer-groups",
-    "url": "/Admin/Customers/customer-groups",
-    "_name": "_de21f0d4"
+    "url": "/Admin/Customers/customer-groups"
   },
   {
     "name": "Admin-Customers-online-customers___en",
     "path": "/Admin/Customers/online-customers",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\online-customers.vue",
     "chunkName": "pages/Admin/Customers/online-customers",
-    "url": "/Admin/Customers/online-customers",
-    "_name": "_694181f8"
+    "url": "/Admin/Customers/online-customers"
   },
   {
     "name": "Admin-Customers-segments___en",
     "path": "/Admin/Customers/segments",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\segments.vue",
     "chunkName": "pages/Admin/Customers/segments",
-    "url": "/Admin/Customers/segments",
-    "_name": "_5b782a86"
+    "url": "/Admin/Customers/segments"
   },
   {
     "name": "Admin-Marketing-communications___en",
     "path": "/Admin/Marketing/communications",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\communications.vue",
     "chunkName": "pages/Admin/Marketing/communications",
-    "url": "/Admin/Marketing/communications",
-    "_name": "_212fab8b"
+    "url": "/Admin/Marketing/communications"
   },
   {
     "name": "Admin-Marketing-events___en",
     "path": "/Admin/Marketing/events",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\events.vue",
     "chunkName": "pages/Admin/Marketing/events",
-    "url": "/Admin/Marketing/events",
-    "_name": "_54179947"
+    "url": "/Admin/Marketing/events"
   },
   {
     "name": "Admin-Marketing-invitations___en",
     "path": "/Admin/Marketing/invitations",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\invitations.vue",
     "chunkName": "pages/Admin/Marketing/invitations",
-    "url": "/Admin/Marketing/invitations",
-    "_name": "_2921453c"
+    "url": "/Admin/Marketing/invitations"
   },
   {
     "name": "Admin-Marketing-newsletter___en",
     "path": "/Admin/Marketing/newsletter",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\newsletter.vue",
     "chunkName": "pages/Admin/Marketing/newsletter",
-    "url": "/Admin/Marketing/newsletter",
-    "_name": "_da541c32"
+    "url": "/Admin/Marketing/newsletter"
   },
   {
     "name": "Admin-Marketing-reviews___en",
     "path": "/Admin/Marketing/reviews",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\reviews.vue",
     "chunkName": "pages/Admin/Marketing/reviews",
-    "url": "/Admin/Marketing/reviews",
-    "_name": "_47bf29dd"
+    "url": "/Admin/Marketing/reviews"
   },
   {
     "name": "Admin-Marketing-seo___en",
     "path": "/Admin/Marketing/seo",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\seo.vue",
     "chunkName": "pages/Admin/Marketing/seo",
-    "url": "/Admin/Marketing/seo",
-    "_name": "_6291e61f"
+    "url": "/Admin/Marketing/seo"
   },
   {
     "name": "Admin-Reports-business-intelligence___en",
     "path": "/Admin/Reports/business-intelligence",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\business-intelligence.vue",
     "chunkName": "pages/Admin/Reports/business-intelligence",
-    "url": "/Admin/Reports/business-intelligence",
-    "_name": "_14b97435"
+    "url": "/Admin/Reports/business-intelligence"
   },
   {
     "name": "Admin-Reports-customer-engagement___en",
     "path": "/Admin/Reports/customer-engagement",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\customer-engagement.vue",
     "chunkName": "pages/Admin/Reports/customer-engagement",
-    "url": "/Admin/Reports/customer-engagement",
-    "_name": "_1726cd57"
+    "url": "/Admin/Reports/customer-engagement"
   },
   {
     "name": "Admin-Reports-customers-reports___en",
     "path": "/Admin/Reports/customers-reports",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\customers-reports.vue",
     "chunkName": "pages/Admin/Reports/customers-reports",
-    "url": "/Admin/Reports/customers-reports",
-    "_name": "_00d45fd0"
+    "url": "/Admin/Reports/customers-reports"
   },
   {
     "name": "Admin-Reports-marketing-reports___en",
     "path": "/Admin/Reports/marketing-reports",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\marketing-reports.vue",
     "chunkName": "pages/Admin/Reports/marketing-reports",
-    "url": "/Admin/Reports/marketing-reports",
-    "_name": "_658a7c21"
+    "url": "/Admin/Reports/marketing-reports"
   },
   {
     "name": "Admin-Reports-products-reports___en",
     "path": "/Admin/Reports/products-reports",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\products-reports.vue",
     "chunkName": "pages/Admin/Reports/products-reports",
-    "url": "/Admin/Reports/products-reports",
-    "_name": "_3dc08b5d"
+    "url": "/Admin/Reports/products-reports"
   },
   {
     "name": "Admin-Reports-reviews___en",
     "path": "/Admin/Reports/reviews",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\reviews.vue",
     "chunkName": "pages/Admin/Reports/reviews",
-    "url": "/Admin/Reports/reviews",
-    "_name": "_59cf3238"
+    "url": "/Admin/Reports/reviews"
   },
   {
     "name": "Admin-Reports-sales-reports___en",
     "path": "/Admin/Reports/sales-reports",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\sales-reports.vue",
     "chunkName": "pages/Admin/Reports/sales-reports",
-    "url": "/Admin/Reports/sales-reports",
-    "_name": "_05f9b287"
+    "url": "/Admin/Reports/sales-reports"
   },
   {
     "name": "Admin-Reports-statistics___en",
     "path": "/Admin/Reports/statistics",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\statistics.vue",
     "chunkName": "pages/Admin/Reports/statistics",
-    "url": "/Admin/Reports/statistics",
-    "_name": "_0641aa2c"
+    "url": "/Admin/Reports/statistics"
   },
   {
     "name": "Admin-Sales-agreements___en",
     "path": "/Admin/Sales/agreements",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\agreements.vue",
     "chunkName": "pages/Admin/Sales/agreements",
-    "url": "/Admin/Sales/agreements",
-    "_name": "_1c600fbd"
+    "url": "/Admin/Sales/agreements"
   },
   {
     "name": "Admin-Sales-certificates___en",
     "path": "/Admin/Sales/certificates",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\certificates.vue",
     "chunkName": "pages/Admin/Sales/certificates",
-    "url": "/Admin/Sales/certificates",
-    "_name": "_2d9f7d60"
+    "url": "/Admin/Sales/certificates"
   },
   {
     "name": "Admin-Sales-credit-memos___en",
     "path": "/Admin/Sales/credit-memos",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\credit-memos.vue",
     "chunkName": "pages/Admin/Sales/credit-memos",
-    "url": "/Admin/Sales/credit-memos",
-    "_name": "_052225b9"
+    "url": "/Admin/Sales/credit-memos"
   },
   {
     "name": "Admin-Sales-invoices___en",
     "path": "/Admin/Sales/invoices",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\invoices.vue",
     "chunkName": "pages/Admin/Sales/invoices",
-    "url": "/Admin/Sales/invoices",
-    "_name": "_6b25ab7a"
+    "url": "/Admin/Sales/invoices"
   },
   {
     "name": "Admin-Sales-orders___en",
     "path": "/Admin/Sales/orders",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\orders.vue",
     "chunkName": "pages/Admin/Sales/orders",
-    "url": "/Admin/Sales/orders",
-    "_name": "_6ef6e2f9"
+    "url": "/Admin/Sales/orders"
   },
   {
     "name": "Admin-Sales-payment-virtual-terminal___en",
     "path": "/Admin/Sales/payment-virtual-terminal",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\payment-virtual-terminal.vue",
     "chunkName": "pages/Admin/Sales/payment-virtual-terminal",
-    "url": "/Admin/Sales/payment-virtual-terminal",
-    "_name": "_64318cf9"
+    "url": "/Admin/Sales/payment-virtual-terminal"
   },
   {
     "name": "Admin-Sales-returns___en",
     "path": "/Admin/Sales/returns",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\returns.vue",
     "chunkName": "pages/Admin/Sales/returns",
-    "url": "/Admin/Sales/returns",
-    "_name": "_f7540c42"
+    "url": "/Admin/Sales/returns"
   },
   {
     "name": "Admin-Sales-shipments___en",
     "path": "/Admin/Sales/shipments",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\shipments.vue",
     "chunkName": "pages/Admin/Sales/shipments",
-    "url": "/Admin/Sales/shipments",
-    "_name": "_f905b296"
+    "url": "/Admin/Sales/shipments"
   },
   {
     "name": "Admin-Sales-transactions___en",
     "path": "/Admin/Sales/transactions",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\transactions.vue",
     "chunkName": "pages/Admin/Sales/transactions",
-    "url": "/Admin/Sales/transactions",
-    "_name": "_b32d372e"
+    "url": "/Admin/Sales/transactions"
   },
   {
     "name": "Admin-Shop-attributes___en",
     "path": "/Admin/Shop/attributes",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\attributes.vue",
     "chunkName": "pages/Admin/Shop/attributes",
-    "url": "/Admin/Shop/attributes",
-    "_name": "_292fb775"
+    "url": "/Admin/Shop/attributes"
   },
   {
     "name": "Admin-Shop-categories___en",
     "path": "/Admin/Shop/categories",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\categories.vue",
     "chunkName": "pages/Admin/Shop/categories",
-    "url": "/Admin/Shop/categories",
-    "_name": "_6a192c8c"
+    "url": "/Admin/Shop/categories"
   },
   {
     "name": "Admin-Shop-cities___en",
     "path": "/Admin/Shop/cities",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\cities.vue",
     "chunkName": "pages/Admin/Shop/cities",
-    "url": "/Admin/Shop/cities",
-    "_name": "_6c141932"
+    "url": "/Admin/Shop/cities"
   },
   {
     "name": "Admin-Shop-collections___en",
     "path": "/Admin/Shop/collections",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\collections.vue",
     "chunkName": "pages/Admin/Shop/collections",
-    "url": "/Admin/Shop/collections",
-    "_name": "_46ce0767"
+    "url": "/Admin/Shop/collections"
   },
   {
     "name": "Admin-Shop-countries___en",
     "path": "/Admin/Shop/countries",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\countries.vue",
     "chunkName": "pages/Admin/Shop/countries",
-    "url": "/Admin/Shop/countries",
-    "_name": "_4908fb86"
+    "url": "/Admin/Shop/countries"
   },
   {
     "name": "Admin-Shop-coupons___en",
     "path": "/Admin/Shop/coupons",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\coupons.vue",
     "chunkName": "pages/Admin/Shop/coupons",
-    "url": "/Admin/Shop/coupons",
-    "_name": "_b3e10042"
+    "url": "/Admin/Shop/coupons"
   },
   {
     "name": "Admin-Shop-inventory___en",
     "path": "/Admin/Shop/inventory",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\inventory.vue",
     "chunkName": "pages/Admin/Shop/inventory",
-    "url": "/Admin/Shop/inventory",
-    "_name": "_fe6c33a4"
+    "url": "/Admin/Shop/inventory"
   },
   {
     "name": "Admin-Shop-multi-vendor___en",
     "path": "/Admin/Shop/multi-vendor",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\multi-vendor.vue",
     "chunkName": "pages/Admin/Shop/multi-vendor",
-    "url": "/Admin/Shop/multi-vendor",
-    "_name": "_78521b0c"
+    "url": "/Admin/Shop/multi-vendor"
   },
   {
     "name": "Admin-Shop-products___en",
     "path": "/Admin/Shop/products",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\products.vue",
     "chunkName": "pages/Admin/Shop/products",
-    "url": "/Admin/Shop/products",
-    "_name": "_7f2dcafc"
+    "url": "/Admin/Shop/products"
   },
   {
     "name": "Admin-Shop-states___en",
     "path": "/Admin/Shop/states",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\states.vue",
     "chunkName": "pages/Admin/Shop/states",
-    "url": "/Admin/Shop/states",
-    "_name": "_04a7fcc0"
+    "url": "/Admin/Shop/states"
   },
   {
     "name": "Admin-Shop-tax-rate___en",
     "path": "/Admin/Shop/tax-rate",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\tax-rate.vue",
     "chunkName": "pages/Admin/Shop/tax-rate",
-    "url": "/Admin/Shop/tax-rate",
-    "_name": "_15ababe0"
+    "url": "/Admin/Shop/tax-rate"
   },
   {
     "name": "Admin-Shop-tax-rule___en",
     "path": "/Admin/Shop/tax-rule",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\tax-rule.vue",
     "chunkName": "pages/Admin/Shop/tax-rule",
-    "url": "/Admin/Shop/tax-rule",
-    "_name": "_2a0187fc"
+    "url": "/Admin/Shop/tax-rule"
   },
   {
     "name": "Admin-Shop-warehouses___en",
     "path": "/Admin/Shop/warehouses",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\warehouses.vue",
     "chunkName": "pages/Admin/Shop/warehouses",
-    "url": "/Admin/Shop/warehouses",
-    "_name": "_c461b0a4"
+    "url": "/Admin/Shop/warehouses"
   },
   {
     "name": "Admin-System-general-settings___en",
     "path": "/Admin/System/general-settings",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\System\\\\general-settings.vue",
     "chunkName": "pages/Admin/System/general-settings",
-    "url": "/Admin/System/general-settings",
-    "_name": "_4ad60eff"
+    "url": "/Admin/System/general-settings"
   },
   {
     "name": "Admin-System-help___en",
     "path": "/Admin/System/help",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\System\\\\help.vue",
     "chunkName": "pages/Admin/System/help",
-    "url": "/Admin/System/help",
-    "_name": "_4f9ed4d8"
+    "url": "/Admin/System/help"
   },
   {
     "name": "Admin-System-integrations___en",
     "path": "/Admin/System/integrations",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\System\\\\integrations.vue",
     "chunkName": "pages/Admin/System/integrations",
-    "url": "/Admin/System/integrations",
-    "_name": "_89238694"
+    "url": "/Admin/System/integrations"
   },
   {
     "name": "Admin-System-role-manager___en",
     "path": "/Admin/System/role-manager",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\System\\\\role-manager.vue",
     "chunkName": "pages/Admin/System/role-manager",
-    "url": "/Admin/System/role-manager",
-    "_name": "_42f4bd26"
+    "url": "/Admin/System/role-manager"
   },
   {
     "name": "Admin-System-settings___en",
     "path": "/Admin/System/settings",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\System\\\\settings.vue",
     "chunkName": "pages/Admin/System/settings",
-    "url": "/Admin/System/settings",
-    "_name": "_fab8ad8c"
+    "url": "/Admin/System/settings"
   },
   {
     "name": "Auth-Login___es",
     "path": "/es/Auth/Login",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Auth\\\\Login.vue",
     "chunkName": "pages/Auth/Login",
-    "url": "/es/Auth/Login",
-    "_name": "_e321d8cc"
+    "url": "/es/Auth/Login"
   },
   {
     "name": "Auth-Register___es",
     "path": "/es/Auth/Register",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Auth\\\\Register.vue",
     "chunkName": "pages/Auth/Register",
-    "url": "/es/Auth/Register",
-    "_name": "_2329b1fc"
+    "url": "/es/Auth/Register"
   },
   {
     "name": "User-my-account___es",
     "path": "/es/User/my-account",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\User\\\\my-account.vue",
     "chunkName": "pages/User/my-account",
-    "url": "/es/User/my-account",
-    "_name": "_2c35912e"
+    "url": "/es/User/my-account"
   },
   {
     "name": "Auth-Login___fr",
     "path": "/fr/Auth/Login",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Auth\\\\Login.vue",
     "chunkName": "pages/Auth/Login",
-    "url": "/fr/Auth/Login",
-    "_name": "_e321d8cc"
+    "url": "/fr/Auth/Login"
   },
   {
     "name": "Auth-Register___fr",
     "path": "/fr/Auth/Register",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Auth\\\\Register.vue",
     "chunkName": "pages/Auth/Register",
-    "url": "/fr/Auth/Register",
-    "_name": "_2329b1fc"
+    "url": "/fr/Auth/Register"
   },
   {
     "name": "User-my-account___fr",
     "path": "/fr/User/my-account",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\User\\\\my-account.vue",
     "chunkName": "pages/User/my-account",
-    "url": "/fr/User/my-account",
-    "_name": "_2c35912e"
+    "url": "/fr/User/my-account"
   },
   {
     "name": "Admin-Customers-customer-newcustomer___en",
     "path": "/Admin/Customers/customer/newcustomer",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\customer\\\\newcustomer.vue",
     "chunkName": "pages/Admin/Customers/customer/newcustomer",
-    "url": "/Admin/Customers/customer/newcustomer",
-    "_name": "_4cb64913"
+    "url": "/Admin/Customers/customer/newcustomer"
   },
   {
     "name": "Admin-Marketing-Email-email-designer___en",
     "path": "/Admin/Marketing/Email/email-designer",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\Email\\\\email-designer.vue",
     "chunkName": "pages/Admin/Marketing/Email/email-designer",
-    "url": "/Admin/Marketing/Email/email-designer",
-    "_name": "_29b48a8c"
+    "url": "/Admin/Marketing/Email/email-designer"
   },
   {
     "name": "Admin-Add-New-add-new-agreement___es",
     "path": "/es/Admin/Add-New/add-new-agreement",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-agreement.vue",
     "chunkName": "pages/Admin/Add-New/add-new-agreement",
-    "url": "/es/Admin/Add-New/add-new-agreement",
-    "_name": "_7d05d776"
+    "url": "/es/Admin/Add-New/add-new-agreement"
   },
   {
     "name": "Admin-Add-New-add-new-article___es",
     "path": "/es/Admin/Add-New/add-new-article",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-article.vue",
     "chunkName": "pages/Admin/Add-New/add-new-article",
-    "url": "/es/Admin/Add-New/add-new-article",
-    "_name": "_2ed7f41e"
+    "url": "/es/Admin/Add-New/add-new-article"
   },
   {
     "name": "Admin-Add-New-add-new-attribute___es",
     "path": "/es/Admin/Add-New/add-new-attribute",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-attribute.vue",
     "chunkName": "pages/Admin/Add-New/add-new-attribute",
-    "url": "/es/Admin/Add-New/add-new-attribute",
-    "_name": "_2d8e5852"
+    "url": "/es/Admin/Add-New/add-new-attribute"
   },
   {
     "name": "Admin-Add-New-add-new-category___es",
     "path": "/es/Admin/Add-New/add-new-category",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-category.vue",
     "chunkName": "pages/Admin/Add-New/add-new-category",
-    "url": "/es/Admin/Add-New/add-new-category",
-    "_name": "_5d74fb93"
+    "url": "/es/Admin/Add-New/add-new-category"
   },
   {
     "name": "Admin-Add-New-add-new-city___es",
     "path": "/es/Admin/Add-New/add-new-city",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-city.vue",
     "chunkName": "pages/Admin/Add-New/add-new-city",
-    "url": "/es/Admin/Add-New/add-new-city",
-    "_name": "_820c4000"
+    "url": "/es/Admin/Add-New/add-new-city"
   },
   {
     "name": "Admin-Add-New-add-new-collection___es",
     "path": "/es/Admin/Add-New/add-new-collection",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-collection.vue",
     "chunkName": "pages/Admin/Add-New/add-new-collection",
-    "url": "/es/Admin/Add-New/add-new-collection",
-    "_name": "_70195c1a"
+    "url": "/es/Admin/Add-New/add-new-collection"
   },
   {
     "name": "Admin-Add-New-add-new-country___es",
     "path": "/es/Admin/Add-New/add-new-country",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-country.vue",
     "chunkName": "pages/Admin/Add-New/add-new-country",
-    "url": "/es/Admin/Add-New/add-new-country",
-    "_name": "_5fcc4091"
+    "url": "/es/Admin/Add-New/add-new-country"
   },
   {
     "name": "Admin-Add-New-add-new-coupon___es",
     "path": "/es/Admin/Add-New/add-new-coupon",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-coupon.vue",
     "chunkName": "pages/Admin/Add-New/add-new-coupon",
-    "url": "/es/Admin/Add-New/add-new-coupon",
-    "_name": "_5bbfddfb"
+    "url": "/es/Admin/Add-New/add-new-coupon"
+  },
+  {
+    "name": "Admin-Add-New-add-new-customer___es",
+    "path": "/es/Admin/Add-New/add-new-customer",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-customer.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-customer",
+    "url": "/es/Admin/Add-New/add-new-customer"
   },
   {
     "name": "Admin-Add-New-add-new-customergroup___es",
     "path": "/es/Admin/Add-New/add-new-customergroup",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-customergroup.vue",
     "chunkName": "pages/Admin/Add-New/add-new-customergroup",
-    "url": "/es/Admin/Add-New/add-new-customergroup",
-    "_name": "_26c7e69c"
+    "url": "/es/Admin/Add-New/add-new-customergroup"
   },
   {
     "name": "Admin-Add-New-add-new-event___es",
     "path": "/es/Admin/Add-New/add-new-event",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-event.vue",
     "chunkName": "pages/Admin/Add-New/add-new-event",
-    "url": "/es/Admin/Add-New/add-new-event",
-    "_name": "_66b13655"
+    "url": "/es/Admin/Add-New/add-new-event"
   },
   {
     "name": "Admin-Add-New-add-new-gift-certificates___es",
     "path": "/es/Admin/Add-New/add-new-gift-certificates",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-gift-certificates.vue",
     "chunkName": "pages/Admin/Add-New/add-new-gift-certificates",
-    "url": "/es/Admin/Add-New/add-new-gift-certificates",
-    "_name": "_34b55af4"
+    "url": "/es/Admin/Add-New/add-new-gift-certificates"
   },
   {
     "name": "Admin-Add-New-add-new-glossary___es",
     "path": "/es/Admin/Add-New/add-new-glossary",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-glossary.vue",
     "chunkName": "pages/Admin/Add-New/add-new-glossary",
-    "url": "/es/Admin/Add-New/add-new-glossary",
-    "_name": "_3254f8b3"
+    "url": "/es/Admin/Add-New/add-new-glossary"
   },
   {
     "name": "Admin-Add-New-add-new-invoice___es",
     "path": "/es/Admin/Add-New/add-new-invoice",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-invoice.vue",
     "chunkName": "pages/Admin/Add-New/add-new-invoice",
-    "url": "/es/Admin/Add-New/add-new-invoice",
-    "_name": "_f724eeb0"
+    "url": "/es/Admin/Add-New/add-new-invoice"
   },
   {
     "name": "Admin-Add-New-add-new-newsletter___es",
     "path": "/es/Admin/Add-New/add-new-newsletter",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-newsletter.vue",
     "chunkName": "pages/Admin/Add-New/add-new-newsletter",
-    "url": "/es/Admin/Add-New/add-new-newsletter",
-    "_name": "_c451bae4"
+    "url": "/es/Admin/Add-New/add-new-newsletter"
   },
   {
     "name": "Admin-Add-New-add-new-newslettersubscriber copy___es",
     "path": "/es/Admin/Add-New/add-new-newslettersubscriber%20copy",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-newslettersubscriber copy.vue",
     "chunkName": "pages/Admin/Add-New/add-new-newslettersubscriber copy",
-    "url": "/es/Admin/Add-New/add-new-newslettersubscriber%20copy",
-    "_name": "_b1f9e4e2"
+    "url": "/es/Admin/Add-New/add-new-newslettersubscriber%20copy"
   },
   {
     "name": "Admin-Add-New-add-new-page___es",
     "path": "/es/Admin/Add-New/add-new-page",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-page.vue",
     "chunkName": "pages/Admin/Add-New/add-new-page",
-    "url": "/es/Admin/Add-New/add-new-page",
-    "_name": "_46ee7724"
+    "url": "/es/Admin/Add-New/add-new-page"
+  },
+  {
+    "name": "Admin-Add-New-add-new-permissions___es",
+    "path": "/es/Admin/Add-New/add-new-permissions",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-permissions.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-permissions",
+    "url": "/es/Admin/Add-New/add-new-permissions"
   },
   {
     "name": "Admin-Add-New-add-new-product___es",
     "path": "/es/Admin/Add-New/add-new-product",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-product.vue",
     "chunkName": "pages/Admin/Add-New/add-new-product",
-    "url": "/es/Admin/Add-New/add-new-product",
-    "_name": "_5ee6616a"
+    "url": "/es/Admin/Add-New/add-new-product"
   },
   {
     "name": "Admin-Add-New-add-new-report___es",
     "path": "/es/Admin/Add-New/add-new-report",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-report.vue",
     "chunkName": "pages/Admin/Add-New/add-new-report",
-    "url": "/es/Admin/Add-New/add-new-report",
-    "_name": "_aaefb7ee"
+    "url": "/es/Admin/Add-New/add-new-report"
   },
   {
     "name": "Admin-Add-New-add-new-return___es",
     "path": "/es/Admin/Add-New/add-new-return",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-return.vue",
     "chunkName": "pages/Admin/Add-New/add-new-return",
-    "url": "/es/Admin/Add-New/add-new-return",
-    "_name": "_f1c4a3f6"
+    "url": "/es/Admin/Add-New/add-new-return"
   },
   {
     "name": "Admin-Add-New-add-new-review___es",
     "path": "/es/Admin/Add-New/add-new-review",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-review.vue",
     "chunkName": "pages/Admin/Add-New/add-new-review",
-    "url": "/es/Admin/Add-New/add-new-review",
-    "_name": "_7335d7a6"
+    "url": "/es/Admin/Add-New/add-new-review"
   },
   {
     "name": "Admin-Add-New-add-new-segment___es",
     "path": "/es/Admin/Add-New/add-new-segment",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-segment.vue",
     "chunkName": "pages/Admin/Add-New/add-new-segment",
-    "url": "/es/Admin/Add-New/add-new-segment",
-    "_name": "_7f0271ae"
+    "url": "/es/Admin/Add-New/add-new-segment"
   },
   {
     "name": "Admin-Add-New-add-new-shipment___es",
     "path": "/es/Admin/Add-New/add-new-shipment",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-shipment.vue",
     "chunkName": "pages/Admin/Add-New/add-new-shipment",
-    "url": "/es/Admin/Add-New/add-new-shipment",
-    "_name": "_21c8022f"
+    "url": "/es/Admin/Add-New/add-new-shipment"
   },
   {
     "name": "Admin-Add-New-add-new-staffmembers___es",
     "path": "/es/Admin/Add-New/add-new-staffmembers",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-staffmembers.vue",
     "chunkName": "pages/Admin/Add-New/add-new-staffmembers",
-    "url": "/es/Admin/Add-New/add-new-staffmembers",
-    "_name": "_51d06cce"
+    "url": "/es/Admin/Add-New/add-new-staffmembers"
   },
   {
     "name": "Admin-Add-New-add-new-state___es",
     "path": "/es/Admin/Add-New/add-new-state",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-state.vue",
     "chunkName": "pages/Admin/Add-New/add-new-state",
-    "url": "/es/Admin/Add-New/add-new-state",
-    "_name": "_2f049668"
+    "url": "/es/Admin/Add-New/add-new-state"
   },
   {
     "name": "Admin-Add-New-add-new-tag___es",
     "path": "/es/Admin/Add-New/add-new-tag",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-tag.vue",
     "chunkName": "pages/Admin/Add-New/add-new-tag",
-    "url": "/es/Admin/Add-New/add-new-tag",
-    "_name": "_0f993015"
+    "url": "/es/Admin/Add-New/add-new-tag"
   },
   {
     "name": "Admin-Add-New-add-new-taxrate___es",
     "path": "/es/Admin/Add-New/add-new-taxrate",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-taxrate.vue",
     "chunkName": "pages/Admin/Add-New/add-new-taxrate",
-    "url": "/es/Admin/Add-New/add-new-taxrate",
-    "_name": "_58836586"
+    "url": "/es/Admin/Add-New/add-new-taxrate"
   },
   {
     "name": "Admin-Add-New-add-new-taxrule___es",
     "path": "/es/Admin/Add-New/add-new-taxrule",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-taxrule.vue",
     "chunkName": "pages/Admin/Add-New/add-new-taxrule",
-    "url": "/es/Admin/Add-New/add-new-taxrule",
-    "_name": "_6cd941a2"
+    "url": "/es/Admin/Add-New/add-new-taxrule"
   },
   {
     "name": "Admin-Add-New-add-new-warehouse___es",
     "path": "/es/Admin/Add-New/add-new-warehouse",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-warehouse.vue",
     "chunkName": "pages/Admin/Add-New/add-new-warehouse",
-    "url": "/es/Admin/Add-New/add-new-warehouse",
-    "_name": "_15840f04"
+    "url": "/es/Admin/Add-New/add-new-warehouse"
   },
   {
     "name": "Admin-Content-blog___es",
     "path": "/es/Admin/Content/blog",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\blog.vue",
     "chunkName": "pages/Admin/Content/blog",
-    "url": "/es/Admin/Content/blog",
-    "_name": "_478cf93a"
+    "url": "/es/Admin/Content/blog"
   },
   {
     "name": "Admin-Content-glossary___es",
     "path": "/es/Admin/Content/glossary",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\glossary.vue",
     "chunkName": "pages/Admin/Content/glossary",
-    "url": "/es/Admin/Content/glossary",
-    "_name": "_11c0c35f"
+    "url": "/es/Admin/Content/glossary"
   },
   {
     "name": "Admin-Content-media-manager___es",
     "path": "/es/Admin/Content/media-manager",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\media-manager.vue",
     "chunkName": "pages/Admin/Content/media-manager",
-    "url": "/es/Admin/Content/media-manager",
-    "_name": "_07f1e95a"
+    "url": "/es/Admin/Content/media-manager"
   },
   {
     "name": "Admin-Content-pages___es",
     "path": "/es/Admin/Content/pages",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\pages.vue",
     "chunkName": "pages/Admin/Content/pages",
-    "url": "/es/Admin/Content/pages",
-    "_name": "_adcfb95a"
+    "url": "/es/Admin/Content/pages"
   },
   {
     "name": "Admin-Content-tags___es",
     "path": "/es/Admin/Content/tags",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\tags.vue",
     "chunkName": "pages/Admin/Content/tags",
-    "url": "/es/Admin/Content/tags",
-    "_name": "_51a7174c"
+    "url": "/es/Admin/Content/tags"
   },
   {
     "name": "Admin-Customers-all-customers___es",
     "path": "/es/Admin/Customers/all-customers",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\all-customers.vue",
     "chunkName": "pages/Admin/Customers/all-customers",
-    "url": "/es/Admin/Customers/all-customers",
-    "_name": "_042a7848"
+    "url": "/es/Admin/Customers/all-customers"
   },
   {
     "name": "Admin-Customers-customer-groups___es",
     "path": "/es/Admin/Customers/customer-groups",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\customer-groups.vue",
     "chunkName": "pages/Admin/Customers/customer-groups",
-    "url": "/es/Admin/Customers/customer-groups",
-    "_name": "_de21f0d4"
+    "url": "/es/Admin/Customers/customer-groups"
   },
   {
     "name": "Admin-Customers-online-customers___es",
     "path": "/es/Admin/Customers/online-customers",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\online-customers.vue",
     "chunkName": "pages/Admin/Customers/online-customers",
-    "url": "/es/Admin/Customers/online-customers",
-    "_name": "_694181f8"
+    "url": "/es/Admin/Customers/online-customers"
   },
   {
     "name": "Admin-Customers-segments___es",
     "path": "/es/Admin/Customers/segments",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\segments.vue",
     "chunkName": "pages/Admin/Customers/segments",
-    "url": "/es/Admin/Customers/segments",
-    "_name": "_5b782a86"
+    "url": "/es/Admin/Customers/segments"
   },
   {
     "name": "Admin-Marketing-communications___es",
     "path": "/es/Admin/Marketing/communications",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\communications.vue",
     "chunkName": "pages/Admin/Marketing/communications",
-    "url": "/es/Admin/Marketing/communications",
-    "_name": "_212fab8b"
+    "url": "/es/Admin/Marketing/communications"
   },
   {
     "name": "Admin-Marketing-events___es",
     "path": "/es/Admin/Marketing/events",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\events.vue",
     "chunkName": "pages/Admin/Marketing/events",
-    "url": "/es/Admin/Marketing/events",
-    "_name": "_54179947"
+    "url": "/es/Admin/Marketing/events"
   },
   {
     "name": "Admin-Marketing-invitations___es",
     "path": "/es/Admin/Marketing/invitations",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\invitations.vue",
     "chunkName": "pages/Admin/Marketing/invitations",
-    "url": "/es/Admin/Marketing/invitations",
-    "_name": "_2921453c"
+    "url": "/es/Admin/Marketing/invitations"
   },
   {
     "name": "Admin-Marketing-newsletter___es",
     "path": "/es/Admin/Marketing/newsletter",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\newsletter.vue",
     "chunkName": "pages/Admin/Marketing/newsletter",
-    "url": "/es/Admin/Marketing/newsletter",
-    "_name": "_da541c32"
+    "url": "/es/Admin/Marketing/newsletter"
   },
   {
     "name": "Admin-Marketing-reviews___es",
     "path": "/es/Admin/Marketing/reviews",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\reviews.vue",
     "chunkName": "pages/Admin/Marketing/reviews",
-    "url": "/es/Admin/Marketing/reviews",
-    "_name": "_47bf29dd"
+    "url": "/es/Admin/Marketing/reviews"
   },
   {
     "name": "Admin-Marketing-seo___es",
     "path": "/es/Admin/Marketing/seo",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\seo.vue",
     "chunkName": "pages/Admin/Marketing/seo",
-    "url": "/es/Admin/Marketing/seo",
-    "_name": "_6291e61f"
+    "url": "/es/Admin/Marketing/seo"
   },
   {
     "name": "Admin-Reports-business-intelligence___es",
     "path": "/es/Admin/Reports/business-intelligence",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\business-intelligence.vue",
     "chunkName": "pages/Admin/Reports/business-intelligence",
-    "url": "/es/Admin/Reports/business-intelligence",
-    "_name": "_14b97435"
+    "url": "/es/Admin/Reports/business-intelligence"
   },
   {
     "name": "Admin-Reports-customer-engagement___es",
     "path": "/es/Admin/Reports/customer-engagement",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\customer-engagement.vue",
     "chunkName": "pages/Admin/Reports/customer-engagement",
-    "url": "/es/Admin/Reports/customer-engagement",
-    "_name": "_1726cd57"
+    "url": "/es/Admin/Reports/customer-engagement"
   },
   {
     "name": "Admin-Reports-customers-reports___es",
     "path": "/es/Admin/Reports/customers-reports",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\customers-reports.vue",
     "chunkName": "pages/Admin/Reports/customers-reports",
-    "url": "/es/Admin/Reports/customers-reports",
-    "_name": "_00d45fd0"
+    "url": "/es/Admin/Reports/customers-reports"
   },
   {
     "name": "Admin-Reports-marketing-reports___es",
     "path": "/es/Admin/Reports/marketing-reports",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\marketing-reports.vue",
     "chunkName": "pages/Admin/Reports/marketing-reports",
-    "url": "/es/Admin/Reports/marketing-reports",
-    "_name": "_658a7c21"
+    "url": "/es/Admin/Reports/marketing-reports"
   },
   {
     "name": "Admin-Reports-products-reports___es",
     "path": "/es/Admin/Reports/products-reports",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\products-reports.vue",
     "chunkName": "pages/Admin/Reports/products-reports",
-    "url": "/es/Admin/Reports/products-reports",
-    "_name": "_3dc08b5d"
+    "url": "/es/Admin/Reports/products-reports"
   },
   {
     "name": "Admin-Reports-reviews___es",
     "path": "/es/Admin/Reports/reviews",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\reviews.vue",
     "chunkName": "pages/Admin/Reports/reviews",
-    "url": "/es/Admin/Reports/reviews",
-    "_name": "_59cf3238"
+    "url": "/es/Admin/Reports/reviews"
   },
   {
     "name": "Admin-Reports-sales-reports___es",
     "path": "/es/Admin/Reports/sales-reports",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\sales-reports.vue",
     "chunkName": "pages/Admin/Reports/sales-reports",
-    "url": "/es/Admin/Reports/sales-reports",
-    "_name": "_05f9b287"
+    "url": "/es/Admin/Reports/sales-reports"
   },
   {
     "name": "Admin-Reports-statistics___es",
     "path": "/es/Admin/Reports/statistics",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\statistics.vue",
     "chunkName": "pages/Admin/Reports/statistics",
-    "url": "/es/Admin/Reports/statistics",
-    "_name": "_0641aa2c"
+    "url": "/es/Admin/Reports/statistics"
   },
   {
     "name": "Admin-Sales-agreements___es",
     "path": "/es/Admin/Sales/agreements",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\agreements.vue",
     "chunkName": "pages/Admin/Sales/agreements",
-    "url": "/es/Admin/Sales/agreements",
-    "_name": "_1c600fbd"
+    "url": "/es/Admin/Sales/agreements"
   },
   {
     "name": "Admin-Sales-certificates___es",
     "path": "/es/Admin/Sales/certificates",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\certificates.vue",
     "chunkName": "pages/Admin/Sales/certificates",
-    "url": "/es/Admin/Sales/certificates",
-    "_name": "_2d9f7d60"
+    "url": "/es/Admin/Sales/certificates"
   },
   {
     "name": "Admin-Sales-credit-memos___es",
     "path": "/es/Admin/Sales/credit-memos",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\credit-memos.vue",
     "chunkName": "pages/Admin/Sales/credit-memos",
-    "url": "/es/Admin/Sales/credit-memos",
-    "_name": "_052225b9"
+    "url": "/es/Admin/Sales/credit-memos"
   },
   {
     "name": "Admin-Sales-invoices___es",
     "path": "/es/Admin/Sales/invoices",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\invoices.vue",
     "chunkName": "pages/Admin/Sales/invoices",
-    "url": "/es/Admin/Sales/invoices",
-    "_name": "_6b25ab7a"
+    "url": "/es/Admin/Sales/invoices"
   },
   {
     "name": "Admin-Sales-orders___es",
     "path": "/es/Admin/Sales/orders",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\orders.vue",
     "chunkName": "pages/Admin/Sales/orders",
-    "url": "/es/Admin/Sales/orders",
-    "_name": "_6ef6e2f9"
+    "url": "/es/Admin/Sales/orders"
   },
   {
     "name": "Admin-Sales-payment-virtual-terminal___es",
     "path": "/es/Admin/Sales/payment-virtual-terminal",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\payment-virtual-terminal.vue",
     "chunkName": "pages/Admin/Sales/payment-virtual-terminal",
-    "url": "/es/Admin/Sales/payment-virtual-terminal",
-    "_name": "_64318cf9"
+    "url": "/es/Admin/Sales/payment-virtual-terminal"
   },
   {
     "name": "Admin-Sales-returns___es",
     "path": "/es/Admin/Sales/returns",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\returns.vue",
     "chunkName": "pages/Admin/Sales/returns",
-    "url": "/es/Admin/Sales/returns",
-    "_name": "_f7540c42"
+    "url": "/es/Admin/Sales/returns"
   },
   {
     "name": "Admin-Sales-shipments___es",
     "path": "/es/Admin/Sales/shipments",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\shipments.vue",
     "chunkName": "pages/Admin/Sales/shipments",
-    "url": "/es/Admin/Sales/shipments",
-    "_name": "_f905b296"
+    "url": "/es/Admin/Sales/shipments"
   },
   {
     "name": "Admin-Sales-transactions___es",
     "path": "/es/Admin/Sales/transactions",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\transactions.vue",
     "chunkName": "pages/Admin/Sales/transactions",
-    "url": "/es/Admin/Sales/transactions",
-    "_name": "_b32d372e"
+    "url": "/es/Admin/Sales/transactions"
   },
   {
     "name": "Admin-Shop-attributes___es",
     "path": "/es/Admin/Shop/attributes",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\attributes.vue",
     "chunkName": "pages/Admin/Shop/attributes",
-    "url": "/es/Admin/Shop/attributes",
-    "_name": "_292fb775"
+    "url": "/es/Admin/Shop/attributes"
   },
   {
     "name": "Admin-Shop-categories___es",
     "path": "/es/Admin/Shop/categories",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\categories.vue",
     "chunkName": "pages/Admin/Shop/categories",
-    "url": "/es/Admin/Shop/categories",
-    "_name": "_6a192c8c"
+    "url": "/es/Admin/Shop/categories"
   },
   {
     "name": "Admin-Shop-cities___es",
     "path": "/es/Admin/Shop/cities",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\cities.vue",
     "chunkName": "pages/Admin/Shop/cities",
-    "url": "/es/Admin/Shop/cities",
-    "_name": "_6c141932"
+    "url": "/es/Admin/Shop/cities"
   },
   {
     "name": "Admin-Shop-collections___es",
     "path": "/es/Admin/Shop/collections",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\collections.vue",
     "chunkName": "pages/Admin/Shop/collections",
-    "url": "/es/Admin/Shop/collections",
-    "_name": "_46ce0767"
+    "url": "/es/Admin/Shop/collections"
   },
   {
     "name": "Admin-Shop-countries___es",
     "path": "/es/Admin/Shop/countries",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\countries.vue",
     "chunkName": "pages/Admin/Shop/countries",
-    "url": "/es/Admin/Shop/countries",
-    "_name": "_4908fb86"
+    "url": "/es/Admin/Shop/countries"
   },
   {
     "name": "Admin-Shop-coupons___es",
     "path": "/es/Admin/Shop/coupons",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\coupons.vue",
     "chunkName": "pages/Admin/Shop/coupons",
-    "url": "/es/Admin/Shop/coupons",
-    "_name": "_b3e10042"
+    "url": "/es/Admin/Shop/coupons"
   },
   {
     "name": "Admin-Shop-inventory___es",
     "path": "/es/Admin/Shop/inventory",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\inventory.vue",
     "chunkName": "pages/Admin/Shop/inventory",
-    "url": "/es/Admin/Shop/inventory",
-    "_name": "_fe6c33a4"
+    "url": "/es/Admin/Shop/inventory"
   },
   {
     "name": "Admin-Shop-multi-vendor___es",
     "path": "/es/Admin/Shop/multi-vendor",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\multi-vendor.vue",
     "chunkName": "pages/Admin/Shop/multi-vendor",
-    "url": "/es/Admin/Shop/multi-vendor",
-    "_name": "_78521b0c"
+    "url": "/es/Admin/Shop/multi-vendor"
   },
   {
     "name": "Admin-Shop-products___es",
     "path": "/es/Admin/Shop/products",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\products.vue",
     "chunkName": "pages/Admin/Shop/products",
-    "url": "/es/Admin/Shop/products",
-    "_name": "_7f2dcafc"
+    "url": "/es/Admin/Shop/products"
   },
   {
     "name": "Admin-Shop-states___es",
     "path": "/es/Admin/Shop/states",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\states.vue",
     "chunkName": "pages/Admin/Shop/states",
-    "url": "/es/Admin/Shop/states",
-    "_name": "_04a7fcc0"
+    "url": "/es/Admin/Shop/states"
   },
   {
     "name": "Admin-Shop-tax-rate___es",
     "path": "/es/Admin/Shop/tax-rate",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\tax-rate.vue",
     "chunkName": "pages/Admin/Shop/tax-rate",
-    "url": "/es/Admin/Shop/tax-rate",
-    "_name": "_15ababe0"
+    "url": "/es/Admin/Shop/tax-rate"
   },
   {
     "name": "Admin-Shop-tax-rule___es",
     "path": "/es/Admin/Shop/tax-rule",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\tax-rule.vue",
     "chunkName": "pages/Admin/Shop/tax-rule",
-    "url": "/es/Admin/Shop/tax-rule",
-    "_name": "_2a0187fc"
+    "url": "/es/Admin/Shop/tax-rule"
   },
   {
     "name": "Admin-Shop-warehouses___es",
     "path": "/es/Admin/Shop/warehouses",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\warehouses.vue",
     "chunkName": "pages/Admin/Shop/warehouses",
-    "url": "/es/Admin/Shop/warehouses",
-    "_name": "_c461b0a4"
+    "url": "/es/Admin/Shop/warehouses"
   },
   {
     "name": "Admin-System-general-settings___es",
     "path": "/es/Admin/System/general-settings",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\System\\\\general-settings.vue",
     "chunkName": "pages/Admin/System/general-settings",
-    "url": "/es/Admin/System/general-settings",
-    "_name": "_4ad60eff"
+    "url": "/es/Admin/System/general-settings"
   },
   {
     "name": "Admin-System-help___es",
     "path": "/es/Admin/System/help",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\System\\\\help.vue",
     "chunkName": "pages/Admin/System/help",
-    "url": "/es/Admin/System/help",
-    "_name": "_4f9ed4d8"
+    "url": "/es/Admin/System/help"
   },
   {
     "name": "Admin-System-integrations___es",
     "path": "/es/Admin/System/integrations",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\System\\\\integrations.vue",
     "chunkName": "pages/Admin/System/integrations",
-    "url": "/es/Admin/System/integrations",
-    "_name": "_89238694"
+    "url": "/es/Admin/System/integrations"
   },
   {
     "name": "Admin-System-role-manager___es",
     "path": "/es/Admin/System/role-manager",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\System\\\\role-manager.vue",
     "chunkName": "pages/Admin/System/role-manager",
-    "url": "/es/Admin/System/role-manager",
-    "_name": "_42f4bd26"
+    "url": "/es/Admin/System/role-manager"
   },
   {
     "name": "Admin-System-settings___es",
     "path": "/es/Admin/System/settings",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\System\\\\settings.vue",
     "chunkName": "pages/Admin/System/settings",
-    "url": "/es/Admin/System/settings",
-    "_name": "_fab8ad8c"
+    "url": "/es/Admin/System/settings"
   },
   {
     "name": "Admin-Add-New-add-new-agreement___fr",
     "path": "/fr/Admin/Add-New/add-new-agreement",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-agreement.vue",
     "chunkName": "pages/Admin/Add-New/add-new-agreement",
-    "url": "/fr/Admin/Add-New/add-new-agreement",
-    "_name": "_7d05d776"
+    "url": "/fr/Admin/Add-New/add-new-agreement"
   },
   {
     "name": "Admin-Add-New-add-new-article___fr",
     "path": "/fr/Admin/Add-New/add-new-article",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-article.vue",
     "chunkName": "pages/Admin/Add-New/add-new-article",
-    "url": "/fr/Admin/Add-New/add-new-article",
-    "_name": "_2ed7f41e"
+    "url": "/fr/Admin/Add-New/add-new-article"
   },
   {
     "name": "Admin-Add-New-add-new-attribute___fr",
     "path": "/fr/Admin/Add-New/add-new-attribute",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-attribute.vue",
     "chunkName": "pages/Admin/Add-New/add-new-attribute",
-    "url": "/fr/Admin/Add-New/add-new-attribute",
-    "_name": "_2d8e5852"
+    "url": "/fr/Admin/Add-New/add-new-attribute"
   },
   {
     "name": "Admin-Add-New-add-new-category___fr",
     "path": "/fr/Admin/Add-New/add-new-category",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-category.vue",
     "chunkName": "pages/Admin/Add-New/add-new-category",
-    "url": "/fr/Admin/Add-New/add-new-category",
-    "_name": "_5d74fb93"
+    "url": "/fr/Admin/Add-New/add-new-category"
   },
   {
     "name": "Admin-Add-New-add-new-city___fr",
     "path": "/fr/Admin/Add-New/add-new-city",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-city.vue",
     "chunkName": "pages/Admin/Add-New/add-new-city",
-    "url": "/fr/Admin/Add-New/add-new-city",
-    "_name": "_820c4000"
+    "url": "/fr/Admin/Add-New/add-new-city"
   },
   {
     "name": "Admin-Add-New-add-new-collection___fr",
     "path": "/fr/Admin/Add-New/add-new-collection",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-collection.vue",
     "chunkName": "pages/Admin/Add-New/add-new-collection",
-    "url": "/fr/Admin/Add-New/add-new-collection",
-    "_name": "_70195c1a"
+    "url": "/fr/Admin/Add-New/add-new-collection"
   },
   {
     "name": "Admin-Add-New-add-new-country___fr",
     "path": "/fr/Admin/Add-New/add-new-country",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-country.vue",
     "chunkName": "pages/Admin/Add-New/add-new-country",
-    "url": "/fr/Admin/Add-New/add-new-country",
-    "_name": "_5fcc4091"
+    "url": "/fr/Admin/Add-New/add-new-country"
   },
   {
     "name": "Admin-Add-New-add-new-coupon___fr",
     "path": "/fr/Admin/Add-New/add-new-coupon",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-coupon.vue",
     "chunkName": "pages/Admin/Add-New/add-new-coupon",
-    "url": "/fr/Admin/Add-New/add-new-coupon",
-    "_name": "_5bbfddfb"
+    "url": "/fr/Admin/Add-New/add-new-coupon"
+  },
+  {
+    "name": "Admin-Add-New-add-new-customer___fr",
+    "path": "/fr/Admin/Add-New/add-new-customer",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-customer.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-customer",
+    "url": "/fr/Admin/Add-New/add-new-customer"
   },
   {
     "name": "Admin-Add-New-add-new-customergroup___fr",
     "path": "/fr/Admin/Add-New/add-new-customergroup",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-customergroup.vue",
     "chunkName": "pages/Admin/Add-New/add-new-customergroup",
-    "url": "/fr/Admin/Add-New/add-new-customergroup",
-    "_name": "_26c7e69c"
+    "url": "/fr/Admin/Add-New/add-new-customergroup"
   },
   {
     "name": "Admin-Add-New-add-new-event___fr",
     "path": "/fr/Admin/Add-New/add-new-event",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-event.vue",
     "chunkName": "pages/Admin/Add-New/add-new-event",
-    "url": "/fr/Admin/Add-New/add-new-event",
-    "_name": "_66b13655"
+    "url": "/fr/Admin/Add-New/add-new-event"
   },
   {
     "name": "Admin-Add-New-add-new-gift-certificates___fr",
     "path": "/fr/Admin/Add-New/add-new-gift-certificates",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-gift-certificates.vue",
     "chunkName": "pages/Admin/Add-New/add-new-gift-certificates",
-    "url": "/fr/Admin/Add-New/add-new-gift-certificates",
-    "_name": "_34b55af4"
+    "url": "/fr/Admin/Add-New/add-new-gift-certificates"
   },
   {
     "name": "Admin-Add-New-add-new-glossary___fr",
     "path": "/fr/Admin/Add-New/add-new-glossary",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-glossary.vue",
     "chunkName": "pages/Admin/Add-New/add-new-glossary",
-    "url": "/fr/Admin/Add-New/add-new-glossary",
-    "_name": "_3254f8b3"
+    "url": "/fr/Admin/Add-New/add-new-glossary"
   },
   {
     "name": "Admin-Add-New-add-new-invoice___fr",
     "path": "/fr/Admin/Add-New/add-new-invoice",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-invoice.vue",
     "chunkName": "pages/Admin/Add-New/add-new-invoice",
-    "url": "/fr/Admin/Add-New/add-new-invoice",
-    "_name": "_f724eeb0"
+    "url": "/fr/Admin/Add-New/add-new-invoice"
   },
   {
     "name": "Admin-Add-New-add-new-newsletter___fr",
     "path": "/fr/Admin/Add-New/add-new-newsletter",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-newsletter.vue",
     "chunkName": "pages/Admin/Add-New/add-new-newsletter",
-    "url": "/fr/Admin/Add-New/add-new-newsletter",
-    "_name": "_c451bae4"
+    "url": "/fr/Admin/Add-New/add-new-newsletter"
   },
   {
     "name": "Admin-Add-New-add-new-newslettersubscriber copy___fr",
     "path": "/fr/Admin/Add-New/add-new-newslettersubscriber%20copy",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-newslettersubscriber copy.vue",
     "chunkName": "pages/Admin/Add-New/add-new-newslettersubscriber copy",
-    "url": "/fr/Admin/Add-New/add-new-newslettersubscriber%20copy",
-    "_name": "_b1f9e4e2"
+    "url": "/fr/Admin/Add-New/add-new-newslettersubscriber%20copy"
   },
   {
     "name": "Admin-Add-New-add-new-page___fr",
     "path": "/fr/Admin/Add-New/add-new-page",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-page.vue",
     "chunkName": "pages/Admin/Add-New/add-new-page",
-    "url": "/fr/Admin/Add-New/add-new-page",
-    "_name": "_46ee7724"
+    "url": "/fr/Admin/Add-New/add-new-page"
+  },
+  {
+    "name": "Admin-Add-New-add-new-permissions___fr",
+    "path": "/fr/Admin/Add-New/add-new-permissions",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-permissions.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-permissions",
+    "url": "/fr/Admin/Add-New/add-new-permissions"
   },
   {
     "name": "Admin-Add-New-add-new-product___fr",
     "path": "/fr/Admin/Add-New/add-new-product",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-product.vue",
     "chunkName": "pages/Admin/Add-New/add-new-product",
-    "url": "/fr/Admin/Add-New/add-new-product",
-    "_name": "_5ee6616a"
+    "url": "/fr/Admin/Add-New/add-new-product"
   },
   {
     "name": "Admin-Add-New-add-new-report___fr",
     "path": "/fr/Admin/Add-New/add-new-report",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-report.vue",
     "chunkName": "pages/Admin/Add-New/add-new-report",
-    "url": "/fr/Admin/Add-New/add-new-report",
-    "_name": "_aaefb7ee"
+    "url": "/fr/Admin/Add-New/add-new-report"
   },
   {
     "name": "Admin-Add-New-add-new-return___fr",
     "path": "/fr/Admin/Add-New/add-new-return",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-return.vue",
     "chunkName": "pages/Admin/Add-New/add-new-return",
-    "url": "/fr/Admin/Add-New/add-new-return",
-    "_name": "_f1c4a3f6"
+    "url": "/fr/Admin/Add-New/add-new-return"
   },
   {
     "name": "Admin-Add-New-add-new-review___fr",
     "path": "/fr/Admin/Add-New/add-new-review",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-review.vue",
     "chunkName": "pages/Admin/Add-New/add-new-review",
-    "url": "/fr/Admin/Add-New/add-new-review",
-    "_name": "_7335d7a6"
+    "url": "/fr/Admin/Add-New/add-new-review"
   },
   {
     "name": "Admin-Add-New-add-new-segment___fr",
     "path": "/fr/Admin/Add-New/add-new-segment",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-segment.vue",
     "chunkName": "pages/Admin/Add-New/add-new-segment",
-    "url": "/fr/Admin/Add-New/add-new-segment",
-    "_name": "_7f0271ae"
+    "url": "/fr/Admin/Add-New/add-new-segment"
   },
   {
     "name": "Admin-Add-New-add-new-shipment___fr",
     "path": "/fr/Admin/Add-New/add-new-shipment",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-shipment.vue",
     "chunkName": "pages/Admin/Add-New/add-new-shipment",
-    "url": "/fr/Admin/Add-New/add-new-shipment",
-    "_name": "_21c8022f"
+    "url": "/fr/Admin/Add-New/add-new-shipment"
   },
   {
     "name": "Admin-Add-New-add-new-staffmembers___fr",
     "path": "/fr/Admin/Add-New/add-new-staffmembers",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-staffmembers.vue",
     "chunkName": "pages/Admin/Add-New/add-new-staffmembers",
-    "url": "/fr/Admin/Add-New/add-new-staffmembers",
-    "_name": "_51d06cce"
+    "url": "/fr/Admin/Add-New/add-new-staffmembers"
   },
   {
     "name": "Admin-Add-New-add-new-state___fr",
     "path": "/fr/Admin/Add-New/add-new-state",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-state.vue",
     "chunkName": "pages/Admin/Add-New/add-new-state",
-    "url": "/fr/Admin/Add-New/add-new-state",
-    "_name": "_2f049668"
+    "url": "/fr/Admin/Add-New/add-new-state"
   },
   {
     "name": "Admin-Add-New-add-new-tag___fr",
     "path": "/fr/Admin/Add-New/add-new-tag",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-tag.vue",
     "chunkName": "pages/Admin/Add-New/add-new-tag",
-    "url": "/fr/Admin/Add-New/add-new-tag",
-    "_name": "_0f993015"
+    "url": "/fr/Admin/Add-New/add-new-tag"
   },
   {
     "name": "Admin-Add-New-add-new-taxrate___fr",
     "path": "/fr/Admin/Add-New/add-new-taxrate",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-taxrate.vue",
     "chunkName": "pages/Admin/Add-New/add-new-taxrate",
-    "url": "/fr/Admin/Add-New/add-new-taxrate",
-    "_name": "_58836586"
+    "url": "/fr/Admin/Add-New/add-new-taxrate"
   },
   {
     "name": "Admin-Add-New-add-new-taxrule___fr",
     "path": "/fr/Admin/Add-New/add-new-taxrule",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-taxrule.vue",
     "chunkName": "pages/Admin/Add-New/add-new-taxrule",
-    "url": "/fr/Admin/Add-New/add-new-taxrule",
-    "_name": "_6cd941a2"
+    "url": "/fr/Admin/Add-New/add-new-taxrule"
   },
   {
     "name": "Admin-Add-New-add-new-warehouse___fr",
     "path": "/fr/Admin/Add-New/add-new-warehouse",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-warehouse.vue",
     "chunkName": "pages/Admin/Add-New/add-new-warehouse",
-    "url": "/fr/Admin/Add-New/add-new-warehouse",
-    "_name": "_15840f04"
+    "url": "/fr/Admin/Add-New/add-new-warehouse"
   },
   {
     "name": "Admin-Content-blog___fr",
     "path": "/fr/Admin/Content/blog",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\blog.vue",
     "chunkName": "pages/Admin/Content/blog",
-    "url": "/fr/Admin/Content/blog",
-    "_name": "_478cf93a"
+    "url": "/fr/Admin/Content/blog"
   },
   {
     "name": "Admin-Content-glossary___fr",
     "path": "/fr/Admin/Content/glossary",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\glossary.vue",
     "chunkName": "pages/Admin/Content/glossary",
-    "url": "/fr/Admin/Content/glossary",
-    "_name": "_11c0c35f"
+    "url": "/fr/Admin/Content/glossary"
   },
   {
     "name": "Admin-Content-media-manager___fr",
     "path": "/fr/Admin/Content/media-manager",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\media-manager.vue",
     "chunkName": "pages/Admin/Content/media-manager",
-    "url": "/fr/Admin/Content/media-manager",
-    "_name": "_07f1e95a"
+    "url": "/fr/Admin/Content/media-manager"
   },
   {
     "name": "Admin-Content-pages___fr",
     "path": "/fr/Admin/Content/pages",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\pages.vue",
     "chunkName": "pages/Admin/Content/pages",
-    "url": "/fr/Admin/Content/pages",
-    "_name": "_adcfb95a"
+    "url": "/fr/Admin/Content/pages"
   },
   {
     "name": "Admin-Content-tags___fr",
     "path": "/fr/Admin/Content/tags",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\tags.vue",
     "chunkName": "pages/Admin/Content/tags",
-    "url": "/fr/Admin/Content/tags",
-    "_name": "_51a7174c"
+    "url": "/fr/Admin/Content/tags"
   },
   {
     "name": "Admin-Customers-all-customers___fr",
     "path": "/fr/Admin/Customers/all-customers",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\all-customers.vue",
     "chunkName": "pages/Admin/Customers/all-customers",
-    "url": "/fr/Admin/Customers/all-customers",
-    "_name": "_042a7848"
+    "url": "/fr/Admin/Customers/all-customers"
   },
   {
     "name": "Admin-Customers-customer-groups___fr",
     "path": "/fr/Admin/Customers/customer-groups",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\customer-groups.vue",
     "chunkName": "pages/Admin/Customers/customer-groups",
-    "url": "/fr/Admin/Customers/customer-groups",
-    "_name": "_de21f0d4"
+    "url": "/fr/Admin/Customers/customer-groups"
   },
   {
     "name": "Admin-Customers-online-customers___fr",
     "path": "/fr/Admin/Customers/online-customers",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\online-customers.vue",
     "chunkName": "pages/Admin/Customers/online-customers",
-    "url": "/fr/Admin/Customers/online-customers",
-    "_name": "_694181f8"
+    "url": "/fr/Admin/Customers/online-customers"
   },
   {
     "name": "Admin-Customers-segments___fr",
     "path": "/fr/Admin/Customers/segments",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\segments.vue",
     "chunkName": "pages/Admin/Customers/segments",
-    "url": "/fr/Admin/Customers/segments",
-    "_name": "_5b782a86"
+    "url": "/fr/Admin/Customers/segments"
   },
   {
     "name": "Admin-Marketing-communications___fr",
     "path": "/fr/Admin/Marketing/communications",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\communications.vue",
     "chunkName": "pages/Admin/Marketing/communications",
-    "url": "/fr/Admin/Marketing/communications",
-    "_name": "_212fab8b"
+    "url": "/fr/Admin/Marketing/communications"
   },
   {
     "name": "Admin-Marketing-events___fr",
     "path": "/fr/Admin/Marketing/events",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\events.vue",
     "chunkName": "pages/Admin/Marketing/events",
-    "url": "/fr/Admin/Marketing/events",
-    "_name": "_54179947"
+    "url": "/fr/Admin/Marketing/events"
   },
   {
     "name": "Admin-Marketing-invitations___fr",
     "path": "/fr/Admin/Marketing/invitations",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\invitations.vue",
     "chunkName": "pages/Admin/Marketing/invitations",
-    "url": "/fr/Admin/Marketing/invitations",
-    "_name": "_2921453c"
+    "url": "/fr/Admin/Marketing/invitations"
   },
   {
     "name": "Admin-Marketing-newsletter___fr",
     "path": "/fr/Admin/Marketing/newsletter",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\newsletter.vue",
     "chunkName": "pages/Admin/Marketing/newsletter",
-    "url": "/fr/Admin/Marketing/newsletter",
-    "_name": "_da541c32"
+    "url": "/fr/Admin/Marketing/newsletter"
   },
   {
     "name": "Admin-Marketing-reviews___fr",
     "path": "/fr/Admin/Marketing/reviews",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\reviews.vue",
     "chunkName": "pages/Admin/Marketing/reviews",
-    "url": "/fr/Admin/Marketing/reviews",
-    "_name": "_47bf29dd"
+    "url": "/fr/Admin/Marketing/reviews"
   },
   {
     "name": "Admin-Marketing-seo___fr",
     "path": "/fr/Admin/Marketing/seo",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\seo.vue",
     "chunkName": "pages/Admin/Marketing/seo",
-    "url": "/fr/Admin/Marketing/seo",
-    "_name": "_6291e61f"
+    "url": "/fr/Admin/Marketing/seo"
   },
   {
     "name": "Admin-Reports-business-intelligence___fr",
     "path": "/fr/Admin/Reports/business-intelligence",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\business-intelligence.vue",
     "chunkName": "pages/Admin/Reports/business-intelligence",
-    "url": "/fr/Admin/Reports/business-intelligence",
-    "_name": "_14b97435"
+    "url": "/fr/Admin/Reports/business-intelligence"
   },
   {
     "name": "Admin-Reports-customer-engagement___fr",
     "path": "/fr/Admin/Reports/customer-engagement",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\customer-engagement.vue",
     "chunkName": "pages/Admin/Reports/customer-engagement",
-    "url": "/fr/Admin/Reports/customer-engagement",
-    "_name": "_1726cd57"
+    "url": "/fr/Admin/Reports/customer-engagement"
   },
   {
     "name": "Admin-Reports-customers-reports___fr",
     "path": "/fr/Admin/Reports/customers-reports",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\customers-reports.vue",
     "chunkName": "pages/Admin/Reports/customers-reports",
-    "url": "/fr/Admin/Reports/customers-reports",
-    "_name": "_00d45fd0"
+    "url": "/fr/Admin/Reports/customers-reports"
   },
   {
     "name": "Admin-Reports-marketing-reports___fr",
     "path": "/fr/Admin/Reports/marketing-reports",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\marketing-reports.vue",
     "chunkName": "pages/Admin/Reports/marketing-reports",
-    "url": "/fr/Admin/Reports/marketing-reports",
-    "_name": "_658a7c21"
+    "url": "/fr/Admin/Reports/marketing-reports"
   },
   {
     "name": "Admin-Reports-products-reports___fr",
     "path": "/fr/Admin/Reports/products-reports",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\products-reports.vue",
     "chunkName": "pages/Admin/Reports/products-reports",
-    "url": "/fr/Admin/Reports/products-reports",
-    "_name": "_3dc08b5d"
+    "url": "/fr/Admin/Reports/products-reports"
   },
   {
     "name": "Admin-Reports-reviews___fr",
     "path": "/fr/Admin/Reports/reviews",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\reviews.vue",
     "chunkName": "pages/Admin/Reports/reviews",
-    "url": "/fr/Admin/Reports/reviews",
-    "_name": "_59cf3238"
+    "url": "/fr/Admin/Reports/reviews"
   },
   {
     "name": "Admin-Reports-sales-reports___fr",
     "path": "/fr/Admin/Reports/sales-reports",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\sales-reports.vue",
     "chunkName": "pages/Admin/Reports/sales-reports",
-    "url": "/fr/Admin/Reports/sales-reports",
-    "_name": "_05f9b287"
+    "url": "/fr/Admin/Reports/sales-reports"
   },
   {
     "name": "Admin-Reports-statistics___fr",
     "path": "/fr/Admin/Reports/statistics",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\statistics.vue",
     "chunkName": "pages/Admin/Reports/statistics",
-    "url": "/fr/Admin/Reports/statistics",
-    "_name": "_0641aa2c"
+    "url": "/fr/Admin/Reports/statistics"
   },
   {
     "name": "Admin-Sales-agreements___fr",
     "path": "/fr/Admin/Sales/agreements",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\agreements.vue",
     "chunkName": "pages/Admin/Sales/agreements",
-    "url": "/fr/Admin/Sales/agreements",
-    "_name": "_1c600fbd"
+    "url": "/fr/Admin/Sales/agreements"
   },
   {
     "name": "Admin-Sales-certificates___fr",
     "path": "/fr/Admin/Sales/certificates",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\certificates.vue",
     "chunkName": "pages/Admin/Sales/certificates",
-    "url": "/fr/Admin/Sales/certificates",
-    "_name": "_2d9f7d60"
+    "url": "/fr/Admin/Sales/certificates"
   },
   {
     "name": "Admin-Sales-credit-memos___fr",
     "path": "/fr/Admin/Sales/credit-memos",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\credit-memos.vue",
     "chunkName": "pages/Admin/Sales/credit-memos",
-    "url": "/fr/Admin/Sales/credit-memos",
-    "_name": "_052225b9"
+    "url": "/fr/Admin/Sales/credit-memos"
   },
   {
     "name": "Admin-Sales-invoices___fr",
     "path": "/fr/Admin/Sales/invoices",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\invoices.vue",
     "chunkName": "pages/Admin/Sales/invoices",
-    "url": "/fr/Admin/Sales/invoices",
-    "_name": "_6b25ab7a"
+    "url": "/fr/Admin/Sales/invoices"
   },
   {
     "name": "Admin-Sales-orders___fr",
     "path": "/fr/Admin/Sales/orders",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\orders.vue",
     "chunkName": "pages/Admin/Sales/orders",
-    "url": "/fr/Admin/Sales/orders",
-    "_name": "_6ef6e2f9"
+    "url": "/fr/Admin/Sales/orders"
   },
   {
     "name": "Admin-Sales-payment-virtual-terminal___fr",
     "path": "/fr/Admin/Sales/payment-virtual-terminal",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\payment-virtual-terminal.vue",
     "chunkName": "pages/Admin/Sales/payment-virtual-terminal",
-    "url": "/fr/Admin/Sales/payment-virtual-terminal",
-    "_name": "_64318cf9"
+    "url": "/fr/Admin/Sales/payment-virtual-terminal"
   },
   {
     "name": "Admin-Sales-returns___fr",
     "path": "/fr/Admin/Sales/returns",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\returns.vue",
     "chunkName": "pages/Admin/Sales/returns",
-    "url": "/fr/Admin/Sales/returns",
-    "_name": "_f7540c42"
+    "url": "/fr/Admin/Sales/returns"
   },
   {
     "name": "Admin-Sales-shipments___fr",
     "path": "/fr/Admin/Sales/shipments",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\shipments.vue",
     "chunkName": "pages/Admin/Sales/shipments",
-    "url": "/fr/Admin/Sales/shipments",
-    "_name": "_f905b296"
+    "url": "/fr/Admin/Sales/shipments"
   },
   {
     "name": "Admin-Sales-transactions___fr",
     "path": "/fr/Admin/Sales/transactions",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\transactions.vue",
     "chunkName": "pages/Admin/Sales/transactions",
-    "url": "/fr/Admin/Sales/transactions",
-    "_name": "_b32d372e"
+    "url": "/fr/Admin/Sales/transactions"
   },
   {
     "name": "Admin-Shop-attributes___fr",
     "path": "/fr/Admin/Shop/attributes",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\attributes.vue",
     "chunkName": "pages/Admin/Shop/attributes",
-    "url": "/fr/Admin/Shop/attributes",
-    "_name": "_292fb775"
+    "url": "/fr/Admin/Shop/attributes"
   },
   {
     "name": "Admin-Shop-categories___fr",
     "path": "/fr/Admin/Shop/categories",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\categories.vue",
     "chunkName": "pages/Admin/Shop/categories",
-    "url": "/fr/Admin/Shop/categories",
-    "_name": "_6a192c8c"
+    "url": "/fr/Admin/Shop/categories"
   },
   {
     "name": "Admin-Shop-cities___fr",
     "path": "/fr/Admin/Shop/cities",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\cities.vue",
     "chunkName": "pages/Admin/Shop/cities",
-    "url": "/fr/Admin/Shop/cities",
-    "_name": "_6c141932"
+    "url": "/fr/Admin/Shop/cities"
   },
   {
     "name": "Admin-Shop-collections___fr",
     "path": "/fr/Admin/Shop/collections",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\collections.vue",
     "chunkName": "pages/Admin/Shop/collections",
-    "url": "/fr/Admin/Shop/collections",
-    "_name": "_46ce0767"
+    "url": "/fr/Admin/Shop/collections"
   },
   {
     "name": "Admin-Shop-countries___fr",
     "path": "/fr/Admin/Shop/countries",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\countries.vue",
     "chunkName": "pages/Admin/Shop/countries",
-    "url": "/fr/Admin/Shop/countries",
-    "_name": "_4908fb86"
+    "url": "/fr/Admin/Shop/countries"
   },
   {
     "name": "Admin-Shop-coupons___fr",
     "path": "/fr/Admin/Shop/coupons",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\coupons.vue",
     "chunkName": "pages/Admin/Shop/coupons",
-    "url": "/fr/Admin/Shop/coupons",
-    "_name": "_b3e10042"
+    "url": "/fr/Admin/Shop/coupons"
   },
   {
     "name": "Admin-Shop-inventory___fr",
     "path": "/fr/Admin/Shop/inventory",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\inventory.vue",
     "chunkName": "pages/Admin/Shop/inventory",
-    "url": "/fr/Admin/Shop/inventory",
-    "_name": "_fe6c33a4"
+    "url": "/fr/Admin/Shop/inventory"
   },
   {
     "name": "Admin-Shop-multi-vendor___fr",
     "path": "/fr/Admin/Shop/multi-vendor",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\multi-vendor.vue",
     "chunkName": "pages/Admin/Shop/multi-vendor",
-    "url": "/fr/Admin/Shop/multi-vendor",
-    "_name": "_78521b0c"
+    "url": "/fr/Admin/Shop/multi-vendor"
   },
   {
     "name": "Admin-Shop-products___fr",
     "path": "/fr/Admin/Shop/products",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\products.vue",
     "chunkName": "pages/Admin/Shop/products",
-    "url": "/fr/Admin/Shop/products",
-    "_name": "_7f2dcafc"
+    "url": "/fr/Admin/Shop/products"
   },
   {
     "name": "Admin-Shop-states___fr",
     "path": "/fr/Admin/Shop/states",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\states.vue",
     "chunkName": "pages/Admin/Shop/states",
-    "url": "/fr/Admin/Shop/states",
-    "_name": "_04a7fcc0"
+    "url": "/fr/Admin/Shop/states"
   },
   {
     "name": "Admin-Shop-tax-rate___fr",
     "path": "/fr/Admin/Shop/tax-rate",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\tax-rate.vue",
     "chunkName": "pages/Admin/Shop/tax-rate",
-    "url": "/fr/Admin/Shop/tax-rate",
-    "_name": "_15ababe0"
+    "url": "/fr/Admin/Shop/tax-rate"
   },
   {
     "name": "Admin-Shop-tax-rule___fr",
     "path": "/fr/Admin/Shop/tax-rule",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\tax-rule.vue",
     "chunkName": "pages/Admin/Shop/tax-rule",
-    "url": "/fr/Admin/Shop/tax-rule",
-    "_name": "_2a0187fc"
+    "url": "/fr/Admin/Shop/tax-rule"
   },
   {
     "name": "Admin-Shop-warehouses___fr",
     "path": "/fr/Admin/Shop/warehouses",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\warehouses.vue",
     "chunkName": "pages/Admin/Shop/warehouses",
-    "url": "/fr/Admin/Shop/warehouses",
-    "_name": "_c461b0a4"
+    "url": "/fr/Admin/Shop/warehouses"
   },
   {
     "name": "Admin-System-general-settings___fr",
     "path": "/fr/Admin/System/general-settings",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\System\\\\general-settings.vue",
     "chunkName": "pages/Admin/System/general-settings",
-    "url": "/fr/Admin/System/general-settings",
-    "_name": "_4ad60eff"
+    "url": "/fr/Admin/System/general-settings"
   },
   {
     "name": "Admin-System-help___fr",
     "path": "/fr/Admin/System/help",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\System\\\\help.vue",
     "chunkName": "pages/Admin/System/help",
-    "url": "/fr/Admin/System/help",
-    "_name": "_4f9ed4d8"
+    "url": "/fr/Admin/System/help"
   },
   {
     "name": "Admin-System-integrations___fr",
     "path": "/fr/Admin/System/integrations",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\System\\\\integrations.vue",
     "chunkName": "pages/Admin/System/integrations",
-    "url": "/fr/Admin/System/integrations",
-    "_name": "_89238694"
+    "url": "/fr/Admin/System/integrations"
   },
   {
     "name": "Admin-System-role-manager___fr",
     "path": "/fr/Admin/System/role-manager",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\System\\\\role-manager.vue",
     "chunkName": "pages/Admin/System/role-manager",
-    "url": "/fr/Admin/System/role-manager",
-    "_name": "_42f4bd26"
+    "url": "/fr/Admin/System/role-manager"
   },
   {
     "name": "Admin-System-settings___fr",
     "path": "/fr/Admin/System/settings",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\System\\\\settings.vue",
     "chunkName": "pages/Admin/System/settings",
-    "url": "/fr/Admin/System/settings",
-    "_name": "_fab8ad8c"
+    "url": "/fr/Admin/System/settings"
   },
   {
     "name": "Admin-Customers-customer-newcustomer___es",
     "path": "/es/Admin/Customers/customer/newcustomer",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\customer\\\\newcustomer.vue",
     "chunkName": "pages/Admin/Customers/customer/newcustomer",
-    "url": "/es/Admin/Customers/customer/newcustomer",
-    "_name": "_4cb64913"
+    "url": "/es/Admin/Customers/customer/newcustomer"
   },
   {
     "name": "Admin-Marketing-Email-email-designer___es",
     "path": "/es/Admin/Marketing/Email/email-designer",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\Email\\\\email-designer.vue",
     "chunkName": "pages/Admin/Marketing/Email/email-designer",
-    "url": "/es/Admin/Marketing/Email/email-designer",
-    "_name": "_29b48a8c"
+    "url": "/es/Admin/Marketing/Email/email-designer"
   },
   {
     "name": "Admin-Customers-customer-newcustomer___fr",
     "path": "/fr/Admin/Customers/customer/newcustomer",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\customer\\\\newcustomer.vue",
     "chunkName": "pages/Admin/Customers/customer/newcustomer",
-    "url": "/fr/Admin/Customers/customer/newcustomer",
-    "_name": "_4cb64913"
+    "url": "/fr/Admin/Customers/customer/newcustomer"
   },
   {
     "name": "Admin-Marketing-Email-email-designer___fr",
     "path": "/fr/Admin/Marketing/Email/email-designer",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\Email\\\\email-designer.vue",
     "chunkName": "pages/Admin/Marketing/Email/email-designer",
-    "url": "/fr/Admin/Marketing/Email/email-designer",
-    "_name": "_29b48a8c"
+    "url": "/fr/Admin/Marketing/Email/email-designer"
   },
   {
     "name": "Admin-Shop-Product-Edit-id___es",
     "path": "/es/Admin/Shop/Product/Edit/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\Product\\\\Edit\\\\_id.vue",
-    "chunkName": "pages/Admin/Shop/Product/Edit/_id",
-    "_name": "_6c9249bf"
+    "chunkName": "pages/Admin/Shop/Product/Edit/_id"
   },
   {
     "name": "Admin-Shop-Product-Edit-id___fr",
     "path": "/fr/Admin/Shop/Product/Edit/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\Product\\\\Edit\\\\_id.vue",
-    "chunkName": "pages/Admin/Shop/Product/Edit/_id",
-    "_name": "_6c9249bf"
+    "chunkName": "pages/Admin/Shop/Product/Edit/_id"
   },
   {
     "name": "Admin-Shop-Product-Edit-id___en",
     "path": "/Admin/Shop/Product/Edit/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Shop\\\\Product\\\\Edit\\\\_id.vue",
-    "chunkName": "pages/Admin/Shop/Product/Edit/_id",
-    "_name": "_6c9249bf"
+    "chunkName": "pages/Admin/Shop/Product/Edit/_id"
   },
   {
     "name": "Admin-Edit-agreement-id___es",
     "path": "/es/Admin/Edit/agreement/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\agreement\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/agreement/_id",
-    "_name": "_549a4222"
+    "chunkName": "pages/Admin/Edit/agreement/_id"
   },
   {
     "name": "Admin-Edit-article-id___es",
     "path": "/es/Admin/Edit/article/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\article\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/article/_id",
-    "_name": "_59366194"
+    "chunkName": "pages/Admin/Edit/article/_id"
   },
   {
     "name": "Admin-Edit-attribute-id___es",
     "path": "/es/Admin/Edit/attribute/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\attribute\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/attribute/_id",
-    "_name": "_9efd2460"
+    "chunkName": "pages/Admin/Edit/attribute/_id"
   },
   {
     "name": "Admin-Edit-category-id___es",
     "path": "/es/Admin/Edit/category/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\category\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/category/_id",
-    "_name": "_ef9ef78c"
+    "chunkName": "pages/Admin/Edit/category/_id"
   },
   {
     "name": "Admin-Edit-city-id___es",
     "path": "/es/Admin/Edit/city/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\city\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/city/_id",
-    "_name": "_7713156d"
+    "chunkName": "pages/Admin/Edit/city/_id"
   },
   {
     "name": "Admin-Edit-collection-id___es",
     "path": "/es/Admin/Edit/collection/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\collection\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/collection/_id",
-    "_name": "_4d90151a"
+    "chunkName": "pages/Admin/Edit/collection/_id"
   },
   {
     "name": "Admin-Edit-country-id___es",
     "path": "/es/Admin/Edit/country/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\country\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/country/_id",
-    "_name": "_29483896"
+    "chunkName": "pages/Admin/Edit/country/_id"
   },
   {
     "name": "Admin-Edit-coupon-id___es",
     "path": "/es/Admin/Edit/coupon/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\coupon\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/coupon/_id",
-    "_name": "_f5dbb0dc"
+    "chunkName": "pages/Admin/Edit/coupon/_id"
   },
   {
     "name": "Admin-Edit-customergroup-id___es",
     "path": "/es/Admin/Edit/customergroup/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\customergroup\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/customergroup/_id",
-    "_name": "_28b917ab"
+    "chunkName": "pages/Admin/Edit/customergroup/_id"
   },
   {
     "name": "Admin-Edit-event-id___es",
     "path": "/es/Admin/Edit/event/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\event\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/event/_id",
-    "_name": "_1c176092"
+    "chunkName": "pages/Admin/Edit/event/_id"
   },
   {
     "name": "Admin-Edit-gift-certificate-id___es",
     "path": "/es/Admin/Edit/gift-certificate/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\gift-certificate\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/gift-certificate/_id",
-    "_name": "_daf11b84"
+    "chunkName": "pages/Admin/Edit/gift-certificate/_id"
   },
   {
     "name": "Admin-Edit-glossary-id___es",
     "path": "/es/Admin/Edit/glossary/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\glossary\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/glossary/_id",
-    "_name": "_513c89cc"
+    "chunkName": "pages/Admin/Edit/glossary/_id"
   },
   {
     "name": "Admin-Edit-invoice-id___es",
     "path": "/es/Admin/Edit/invoice/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\invoice\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/invoice/_id",
-    "_name": "_75193242"
+    "chunkName": "pages/Admin/Edit/invoice/_id"
   },
   {
     "name": "Admin-Edit-newsletter-id___es",
     "path": "/es/Admin/Edit/newsletter/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\newsletter\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/newsletter/_id",
-    "_name": "_b3e52542"
+    "chunkName": "pages/Admin/Edit/newsletter/_id"
   },
   {
     "name": "Admin-Edit-newslettersubscriber-id___es",
     "path": "/es/Admin/Edit/newslettersubscriber/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\newslettersubscriber\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/newslettersubscriber/_id",
-    "_name": "_00ab6c92"
+    "chunkName": "pages/Admin/Edit/newslettersubscriber/_id"
   },
   {
     "name": "Admin-Edit-page-id___es",
     "path": "/es/Admin/Edit/page/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\page\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/page/_id",
-    "_name": "_9e59566e"
+    "chunkName": "pages/Admin/Edit/page/_id"
   },
   {
     "name": "Admin-Edit-product-id___es",
     "path": "/es/Admin/Edit/product/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\product\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/product/_id",
-    "_name": "_d0649146"
+    "chunkName": "pages/Admin/Edit/product/_id"
   },
   {
     "name": "Admin-Edit-report-id___es",
     "path": "/es/Admin/Edit/report/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\report\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/report/_id",
-    "_name": "_832d0b78"
+    "chunkName": "pages/Admin/Edit/report/_id"
   },
   {
     "name": "Admin-Edit-return-id___es",
     "path": "/es/Admin/Edit/return/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\return\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/return/_id",
-    "_name": "_26326470"
+    "chunkName": "pages/Admin/Edit/return/_id"
   },
   {
     "name": "Admin-Edit-review-id___es",
     "path": "/es/Admin/Edit/review/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\review\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/review/_id",
-    "_name": "_749100a0"
+    "chunkName": "pages/Admin/Edit/review/_id"
   },
   {
     "name": "Admin-Edit-segment-id___es",
     "path": "/es/Admin/Edit/segment/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\segment\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/segment/_id",
-    "_name": "_2a759cce"
+    "chunkName": "pages/Admin/Edit/segment/_id"
   },
   {
     "name": "Admin-Edit-shipment-id___es",
     "path": "/es/Admin/Edit/shipment/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\shipment\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/shipment/_id",
-    "_name": "_71f581c4"
+    "chunkName": "pages/Admin/Edit/shipment/_id"
   },
   {
     "name": "Admin-Edit-state-id___es",
     "path": "/es/Admin/Edit/state/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\state\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/state/_id",
-    "_name": "_b10b570a"
+    "chunkName": "pages/Admin/Edit/state/_id"
   },
   {
     "name": "Admin-Edit-tag-id___es",
     "path": "/es/Admin/Edit/tag/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\tag\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/tag/_id",
-    "_name": "_727b1bdc"
+    "chunkName": "pages/Admin/Edit/tag/_id"
   },
   {
     "name": "Admin-Edit-taxrate-id___es",
     "path": "/es/Admin/Edit/taxrate/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\taxrate\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/taxrate/_id",
-    "_name": "_1b7ae4c1"
+    "chunkName": "pages/Admin/Edit/taxrate/_id"
   },
   {
     "name": "Admin-Edit-taxrule-id___es",
     "path": "/es/Admin/Edit/taxrule/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\taxrule\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/taxrule/_id",
-    "_name": "_0e363a25"
+    "chunkName": "pages/Admin/Edit/taxrule/_id"
   },
   {
     "name": "Admin-Marketing-Email-id___es",
     "path": "/es/Admin/Marketing/Email/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\Email\\\\_id.vue",
-    "chunkName": "pages/Admin/Marketing/Email/_id",
-    "_name": "_1bdccaec"
+    "chunkName": "pages/Admin/Marketing/Email/_id"
   },
   {
     "name": "Admin-Edit-agreement-id___fr",
     "path": "/fr/Admin/Edit/agreement/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\agreement\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/agreement/_id",
-    "_name": "_549a4222"
+    "chunkName": "pages/Admin/Edit/agreement/_id"
   },
   {
     "name": "Admin-Edit-article-id___fr",
     "path": "/fr/Admin/Edit/article/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\article\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/article/_id",
-    "_name": "_59366194"
+    "chunkName": "pages/Admin/Edit/article/_id"
   },
   {
     "name": "Admin-Edit-attribute-id___fr",
     "path": "/fr/Admin/Edit/attribute/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\attribute\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/attribute/_id",
-    "_name": "_9efd2460"
+    "chunkName": "pages/Admin/Edit/attribute/_id"
   },
   {
     "name": "Admin-Edit-category-id___fr",
     "path": "/fr/Admin/Edit/category/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\category\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/category/_id",
-    "_name": "_ef9ef78c"
+    "chunkName": "pages/Admin/Edit/category/_id"
   },
   {
     "name": "Admin-Edit-city-id___fr",
     "path": "/fr/Admin/Edit/city/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\city\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/city/_id",
-    "_name": "_7713156d"
+    "chunkName": "pages/Admin/Edit/city/_id"
   },
   {
     "name": "Admin-Edit-collection-id___fr",
     "path": "/fr/Admin/Edit/collection/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\collection\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/collection/_id",
-    "_name": "_4d90151a"
+    "chunkName": "pages/Admin/Edit/collection/_id"
   },
   {
     "name": "Admin-Edit-country-id___fr",
     "path": "/fr/Admin/Edit/country/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\country\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/country/_id",
-    "_name": "_29483896"
+    "chunkName": "pages/Admin/Edit/country/_id"
   },
   {
     "name": "Admin-Edit-coupon-id___fr",
     "path": "/fr/Admin/Edit/coupon/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\coupon\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/coupon/_id",
-    "_name": "_f5dbb0dc"
+    "chunkName": "pages/Admin/Edit/coupon/_id"
   },
   {
     "name": "Admin-Edit-customergroup-id___fr",
     "path": "/fr/Admin/Edit/customergroup/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\customergroup\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/customergroup/_id",
-    "_name": "_28b917ab"
+    "chunkName": "pages/Admin/Edit/customergroup/_id"
   },
   {
     "name": "Admin-Edit-event-id___fr",
     "path": "/fr/Admin/Edit/event/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\event\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/event/_id",
-    "_name": "_1c176092"
+    "chunkName": "pages/Admin/Edit/event/_id"
   },
   {
     "name": "Admin-Edit-gift-certificate-id___fr",
     "path": "/fr/Admin/Edit/gift-certificate/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\gift-certificate\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/gift-certificate/_id",
-    "_name": "_daf11b84"
+    "chunkName": "pages/Admin/Edit/gift-certificate/_id"
   },
   {
     "name": "Admin-Edit-glossary-id___fr",
     "path": "/fr/Admin/Edit/glossary/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\glossary\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/glossary/_id",
-    "_name": "_513c89cc"
+    "chunkName": "pages/Admin/Edit/glossary/_id"
   },
   {
     "name": "Admin-Edit-invoice-id___fr",
     "path": "/fr/Admin/Edit/invoice/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\invoice\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/invoice/_id",
-    "_name": "_75193242"
+    "chunkName": "pages/Admin/Edit/invoice/_id"
   },
   {
     "name": "Admin-Edit-newsletter-id___fr",
     "path": "/fr/Admin/Edit/newsletter/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\newsletter\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/newsletter/_id",
-    "_name": "_b3e52542"
+    "chunkName": "pages/Admin/Edit/newsletter/_id"
   },
   {
     "name": "Admin-Edit-newslettersubscriber-id___fr",
     "path": "/fr/Admin/Edit/newslettersubscriber/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\newslettersubscriber\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/newslettersubscriber/_id",
-    "_name": "_00ab6c92"
+    "chunkName": "pages/Admin/Edit/newslettersubscriber/_id"
   },
   {
     "name": "Admin-Edit-page-id___fr",
     "path": "/fr/Admin/Edit/page/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\page\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/page/_id",
-    "_name": "_9e59566e"
+    "chunkName": "pages/Admin/Edit/page/_id"
   },
   {
     "name": "Admin-Edit-product-id___fr",
     "path": "/fr/Admin/Edit/product/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\product\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/product/_id",
-    "_name": "_d0649146"
+    "chunkName": "pages/Admin/Edit/product/_id"
   },
   {
     "name": "Admin-Edit-report-id___fr",
     "path": "/fr/Admin/Edit/report/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\report\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/report/_id",
-    "_name": "_832d0b78"
+    "chunkName": "pages/Admin/Edit/report/_id"
   },
   {
     "name": "Admin-Edit-return-id___fr",
     "path": "/fr/Admin/Edit/return/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\return\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/return/_id",
-    "_name": "_26326470"
+    "chunkName": "pages/Admin/Edit/return/_id"
   },
   {
     "name": "Admin-Edit-review-id___fr",
     "path": "/fr/Admin/Edit/review/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\review\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/review/_id",
-    "_name": "_749100a0"
+    "chunkName": "pages/Admin/Edit/review/_id"
   },
   {
     "name": "Admin-Edit-segment-id___fr",
     "path": "/fr/Admin/Edit/segment/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\segment\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/segment/_id",
-    "_name": "_2a759cce"
+    "chunkName": "pages/Admin/Edit/segment/_id"
   },
   {
     "name": "Admin-Edit-shipment-id___fr",
     "path": "/fr/Admin/Edit/shipment/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\shipment\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/shipment/_id",
-    "_name": "_71f581c4"
+    "chunkName": "pages/Admin/Edit/shipment/_id"
   },
   {
     "name": "Admin-Edit-state-id___fr",
     "path": "/fr/Admin/Edit/state/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\state\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/state/_id",
-    "_name": "_b10b570a"
+    "chunkName": "pages/Admin/Edit/state/_id"
   },
   {
     "name": "Admin-Edit-tag-id___fr",
     "path": "/fr/Admin/Edit/tag/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\tag\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/tag/_id",
-    "_name": "_727b1bdc"
+    "chunkName": "pages/Admin/Edit/tag/_id"
   },
   {
     "name": "Admin-Edit-taxrate-id___fr",
     "path": "/fr/Admin/Edit/taxrate/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\taxrate\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/taxrate/_id",
-    "_name": "_1b7ae4c1"
+    "chunkName": "pages/Admin/Edit/taxrate/_id"
   },
   {
     "name": "Admin-Edit-taxrule-id___fr",
     "path": "/fr/Admin/Edit/taxrule/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\taxrule\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/taxrule/_id",
-    "_name": "_0e363a25"
+    "chunkName": "pages/Admin/Edit/taxrule/_id"
   },
   {
     "name": "Admin-Marketing-Email-id___fr",
     "path": "/fr/Admin/Marketing/Email/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\Email\\\\_id.vue",
-    "chunkName": "pages/Admin/Marketing/Email/_id",
-    "_name": "_1bdccaec"
+    "chunkName": "pages/Admin/Marketing/Email/_id"
   },
   {
     "name": "Admin-Edit-agreement-id___en",
     "path": "/Admin/Edit/agreement/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\agreement\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/agreement/_id",
-    "_name": "_549a4222"
+    "chunkName": "pages/Admin/Edit/agreement/_id"
   },
   {
     "name": "Admin-Edit-article-id___en",
     "path": "/Admin/Edit/article/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\article\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/article/_id",
-    "_name": "_59366194"
+    "chunkName": "pages/Admin/Edit/article/_id"
   },
   {
     "name": "Admin-Edit-attribute-id___en",
     "path": "/Admin/Edit/attribute/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\attribute\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/attribute/_id",
-    "_name": "_9efd2460"
+    "chunkName": "pages/Admin/Edit/attribute/_id"
   },
   {
     "name": "Admin-Edit-category-id___en",
     "path": "/Admin/Edit/category/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\category\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/category/_id",
-    "_name": "_ef9ef78c"
+    "chunkName": "pages/Admin/Edit/category/_id"
   },
   {
     "name": "Admin-Edit-city-id___en",
     "path": "/Admin/Edit/city/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\city\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/city/_id",
-    "_name": "_7713156d"
+    "chunkName": "pages/Admin/Edit/city/_id"
   },
   {
     "name": "Admin-Edit-collection-id___en",
     "path": "/Admin/Edit/collection/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\collection\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/collection/_id",
-    "_name": "_4d90151a"
+    "chunkName": "pages/Admin/Edit/collection/_id"
   },
   {
     "name": "Admin-Edit-country-id___en",
     "path": "/Admin/Edit/country/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\country\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/country/_id",
-    "_name": "_29483896"
+    "chunkName": "pages/Admin/Edit/country/_id"
   },
   {
     "name": "Admin-Edit-coupon-id___en",
     "path": "/Admin/Edit/coupon/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\coupon\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/coupon/_id",
-    "_name": "_f5dbb0dc"
+    "chunkName": "pages/Admin/Edit/coupon/_id"
   },
   {
     "name": "Admin-Edit-customergroup-id___en",
     "path": "/Admin/Edit/customergroup/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\customergroup\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/customergroup/_id",
-    "_name": "_28b917ab"
+    "chunkName": "pages/Admin/Edit/customergroup/_id"
   },
   {
     "name": "Admin-Edit-event-id___en",
     "path": "/Admin/Edit/event/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\event\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/event/_id",
-    "_name": "_1c176092"
+    "chunkName": "pages/Admin/Edit/event/_id"
   },
   {
     "name": "Admin-Edit-gift-certificate-id___en",
     "path": "/Admin/Edit/gift-certificate/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\gift-certificate\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/gift-certificate/_id",
-    "_name": "_daf11b84"
+    "chunkName": "pages/Admin/Edit/gift-certificate/_id"
   },
   {
     "name": "Admin-Edit-glossary-id___en",
     "path": "/Admin/Edit/glossary/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\glossary\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/glossary/_id",
-    "_name": "_513c89cc"
+    "chunkName": "pages/Admin/Edit/glossary/_id"
   },
   {
     "name": "Admin-Edit-invoice-id___en",
     "path": "/Admin/Edit/invoice/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\invoice\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/invoice/_id",
-    "_name": "_75193242"
+    "chunkName": "pages/Admin/Edit/invoice/_id"
   },
   {
     "name": "Admin-Edit-newsletter-id___en",
     "path": "/Admin/Edit/newsletter/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\newsletter\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/newsletter/_id",
-    "_name": "_b3e52542"
+    "chunkName": "pages/Admin/Edit/newsletter/_id"
   },
   {
     "name": "Admin-Edit-newslettersubscriber-id___en",
     "path": "/Admin/Edit/newslettersubscriber/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\newslettersubscriber\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/newslettersubscriber/_id",
-    "_name": "_00ab6c92"
+    "chunkName": "pages/Admin/Edit/newslettersubscriber/_id"
   },
   {
     "name": "Admin-Edit-page-id___en",
     "path": "/Admin/Edit/page/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\page\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/page/_id",
-    "_name": "_9e59566e"
+    "chunkName": "pages/Admin/Edit/page/_id"
   },
   {
     "name": "Admin-Edit-product-id___en",
     "path": "/Admin/Edit/product/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\product\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/product/_id",
-    "_name": "_d0649146"
+    "chunkName": "pages/Admin/Edit/product/_id"
   },
   {
     "name": "Admin-Edit-report-id___en",
     "path": "/Admin/Edit/report/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\report\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/report/_id",
-    "_name": "_832d0b78"
+    "chunkName": "pages/Admin/Edit/report/_id"
   },
   {
     "name": "Admin-Edit-return-id___en",
     "path": "/Admin/Edit/return/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\return\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/return/_id",
-    "_name": "_26326470"
+    "chunkName": "pages/Admin/Edit/return/_id"
   },
   {
     "name": "Admin-Edit-review-id___en",
     "path": "/Admin/Edit/review/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\review\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/review/_id",
-    "_name": "_749100a0"
+    "chunkName": "pages/Admin/Edit/review/_id"
   },
   {
     "name": "Admin-Edit-segment-id___en",
     "path": "/Admin/Edit/segment/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\segment\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/segment/_id",
-    "_name": "_2a759cce"
+    "chunkName": "pages/Admin/Edit/segment/_id"
   },
   {
     "name": "Admin-Edit-shipment-id___en",
     "path": "/Admin/Edit/shipment/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\shipment\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/shipment/_id",
-    "_name": "_71f581c4"
+    "chunkName": "pages/Admin/Edit/shipment/_id"
   },
   {
     "name": "Admin-Edit-state-id___en",
     "path": "/Admin/Edit/state/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\state\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/state/_id",
-    "_name": "_b10b570a"
+    "chunkName": "pages/Admin/Edit/state/_id"
   },
   {
     "name": "Admin-Edit-tag-id___en",
     "path": "/Admin/Edit/tag/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\tag\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/tag/_id",
-    "_name": "_727b1bdc"
+    "chunkName": "pages/Admin/Edit/tag/_id"
   },
   {
     "name": "Admin-Edit-taxrate-id___en",
     "path": "/Admin/Edit/taxrate/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\taxrate\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/taxrate/_id",
-    "_name": "_1b7ae4c1"
+    "chunkName": "pages/Admin/Edit/taxrate/_id"
   },
   {
     "name": "Admin-Edit-taxrule-id___en",
     "path": "/Admin/Edit/taxrule/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\taxrule\\\\_id.vue",
-    "chunkName": "pages/Admin/Edit/taxrule/_id",
-    "_name": "_0e363a25"
+    "chunkName": "pages/Admin/Edit/taxrule/_id"
   },
   {
     "name": "Admin-Marketing-Email-id___en",
     "path": "/Admin/Marketing/Email/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\Email\\\\_id.vue",
-    "chunkName": "pages/Admin/Marketing/Email/_id",
-    "_name": "_1bdccaec"
+    "chunkName": "pages/Admin/Marketing/Email/_id"
   },
   {
     "name": "index___en",
     "path": "/",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "url": "/",
-    "_name": "_1b6fdfab"
+    "url": "/"
   }
 ]

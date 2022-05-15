@@ -34,7 +34,7 @@
                     <FormulateInput id="password" v-model="registerData.password" type="password"
                       class="form-control" />
                   </div>
-                  <!--<recaptcha />-->
+                  <input type="hidden" name="_csrf" :value="csrfToken">
                   <FormulateInput type="submit" style="width:100%">Register</FormulateInput>
                 </FormulateForm>
                 <div class="has-text-centered" style="margin-top: 20px;text-align:center;">
