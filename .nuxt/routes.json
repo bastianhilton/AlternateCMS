@@ -196,13 +196,6 @@
     "url": "/Admin/Add-New/add-new-page"
   },
   {
-    "name": "Admin-Add-New-add-new-permissions___en",
-    "path": "/Admin/Add-New/add-new-permissions",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-permissions.vue",
-    "chunkName": "pages/Admin/Add-New/add-new-permissions",
-    "url": "/Admin/Add-New/add-new-permissions"
-  },
-  {
     "name": "Admin-Add-New-add-new-product___en",
     "path": "/Admin/Add-New/add-new-product",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-product.vue",
@@ -229,6 +222,13 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-review.vue",
     "chunkName": "pages/Admin/Add-New/add-new-review",
     "url": "/Admin/Add-New/add-new-review"
+  },
+  {
+    "name": "Admin-Add-New-add-new-role___en",
+    "path": "/Admin/Add-New/add-new-role",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-role.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-role",
+    "url": "/Admin/Add-New/add-new-role"
   },
   {
     "name": "Admin-Add-New-add-new-segment___en",
@@ -686,6 +686,13 @@
     "url": "/Admin/Customers/customer/newcustomer"
   },
   {
+    "name": "Admin-Edit-providers-id___en",
+    "path": "/Admin/Edit/providers/id",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\providers\\\\id.vue",
+    "chunkName": "pages/Admin/Edit/providers/id",
+    "url": "/Admin/Edit/providers/id"
+  },
+  {
     "name": "Admin-Marketing-Email-email-designer___en",
     "path": "/Admin/Marketing/Email/email-designer",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\Email\\\\email-designer.vue",
@@ -812,13 +819,6 @@
     "url": "/es/Admin/Add-New/add-new-page"
   },
   {
-    "name": "Admin-Add-New-add-new-permissions___es",
-    "path": "/es/Admin/Add-New/add-new-permissions",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-permissions.vue",
-    "chunkName": "pages/Admin/Add-New/add-new-permissions",
-    "url": "/es/Admin/Add-New/add-new-permissions"
-  },
-  {
     "name": "Admin-Add-New-add-new-product___es",
     "path": "/es/Admin/Add-New/add-new-product",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-product.vue",
@@ -845,6 +845,13 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-review.vue",
     "chunkName": "pages/Admin/Add-New/add-new-review",
     "url": "/es/Admin/Add-New/add-new-review"
+  },
+  {
+    "name": "Admin-Add-New-add-new-role___es",
+    "path": "/es/Admin/Add-New/add-new-role",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-role.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-role",
+    "url": "/es/Admin/Add-New/add-new-role"
   },
   {
     "name": "Admin-Add-New-add-new-segment___es",
@@ -1372,13 +1379,6 @@
     "url": "/fr/Admin/Add-New/add-new-page"
   },
   {
-    "name": "Admin-Add-New-add-new-permissions___fr",
-    "path": "/fr/Admin/Add-New/add-new-permissions",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-permissions.vue",
-    "chunkName": "pages/Admin/Add-New/add-new-permissions",
-    "url": "/fr/Admin/Add-New/add-new-permissions"
-  },
-  {
     "name": "Admin-Add-New-add-new-product___fr",
     "path": "/fr/Admin/Add-New/add-new-product",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-product.vue",
@@ -1405,6 +1405,13 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-review.vue",
     "chunkName": "pages/Admin/Add-New/add-new-review",
     "url": "/fr/Admin/Add-New/add-new-review"
+  },
+  {
+    "name": "Admin-Add-New-add-new-role___fr",
+    "path": "/fr/Admin/Add-New/add-new-role",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-role.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-role",
+    "url": "/fr/Admin/Add-New/add-new-role"
   },
   {
     "name": "Admin-Add-New-add-new-segment___fr",
@@ -1820,6 +1827,13 @@
     "url": "/es/Admin/Customers/customer/newcustomer"
   },
   {
+    "name": "Admin-Edit-providers-id___es",
+    "path": "/es/Admin/Edit/providers/id",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\providers\\\\id.vue",
+    "chunkName": "pages/Admin/Edit/providers/id",
+    "url": "/es/Admin/Edit/providers/id"
+  },
+  {
     "name": "Admin-Marketing-Email-email-designer___es",
     "path": "/es/Admin/Marketing/Email/email-designer",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\Email\\\\email-designer.vue",
@@ -1832,6 +1846,13 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\customer\\\\newcustomer.vue",
     "chunkName": "pages/Admin/Customers/customer/newcustomer",
     "url": "/fr/Admin/Customers/customer/newcustomer"
+  },
+  {
+    "name": "Admin-Edit-providers-id___fr",
+    "path": "/fr/Admin/Edit/providers/id",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\providers\\\\id.vue",
+    "chunkName": "pages/Admin/Edit/providers/id",
+    "url": "/fr/Admin/Edit/providers/id"
   },
   {
     "name": "Admin-Marketing-Email-email-designer___fr",

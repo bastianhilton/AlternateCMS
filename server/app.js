@@ -1,111 +1,67 @@
-const path = require('path');
-const protect = require('@risingstack/protect')
-const redis = require('redis')
-const createError = require('http-errors');
-const cookieParser = require('cookie-parser')
-const csrf = require('csurf')
-const express = require('express')
+/* eslint-disable no-unused-vars */
+/* eslint-disable require-await */
+'use strict'
 
-const bodyParser = require('body-parser')
-const multer  = require('multer')
-const upload = multer({ dest: '../client/media/' })
-const cors = require('cors')
-const logger = require('morgan');
-
-const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
-
+const path = require('path')
+const AutoLoad = require('@fastify/autoload')
+const express = require("express");
 const app = express();
-const csrfProtection = csrf({ cookie: true })
-const parseForm = bodyParser.urlencoded({ extended: false })
-const client = redis.createClient()
+const cors = require("cors");
+const bodyParser = require("body-parser");
+const sdk = require("vuetify-file-browser-server/sdk");
+const fastify = require('fastify')({ logger: true })
 
-app.use(cookieParser())
+module.exports = async function (fastify, opts) {
+  // Place here your custom code!
 
-app.get('/form', csrfProtection, function (req, res) {
-  res.render('send', { csrfToken: req.csrfToken() })
-})
+  // Do not touch the following lines
 
-app.post('/process', parseForm, csrfProtection, function (req, res) {
-  res.send('data is being processed')
-})
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
-
-app.use(logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
-
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
-app.use(bodyParser.urlencoded({ extended: false }))
-
-app.use(bodyParser.json())
-
-app.use(function (req, res) {
-  res.setHeader('Content-Type', 'text/plain')
-  res.write('you posted:\n')
-  res.end(JSON.stringify(req.body, null, 2))
-})
-
-app.use(function(req, res, next) {
-  next(createError(404));
-});
-
-app.use(function(err, req, res, next) {
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
-
-app.use(cors())
-
-app.get('/products/:id', function (req, res, next) {
-    res.json({msg: 'This is CORS-enabled for all origins!'})
+  // This loads all plugins defined in plugins
+  // those should be support plugins that are reused
+  // through your application
+  fastify.register(AutoLoad, {
+    dir: path.join(__dirname, 'plugins'),
+    options: Object.assign({}, opts)
   })
+
+  // This loads all plugins defined in routes
+  // define your routes in one of these
+  fastify.register(AutoLoad, {
+    dir: path.join(__dirname, 'routes'),
+    options: Object.assign({}, opts)
+  })
+
+  app.use(cors());
+ 
+// parse incoming request body
+  app.use(bodyParser.urlencoded({ extended: true }));
+  app.use(bodyParser.json());
   
-app.listen(80, function () {
-    console.log('CORS-enabled web server listening on port 80')
-  })
+  // get AWS configuration from process.env
+  const { AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_REGION, AWS_S3_BUCKET, FILEBROWSER_AWS_ROOT_PATH } = process.env;
+  
+  // setup routes
+  app.use("/storage", sdk.Router([
+      new sdk.LocalStorage(path.resolve(__dirname, "./files")),
+      new sdk.S3Storage(AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_REGION, AWS_S3_BUCKET, FILEBROWSER_AWS_ROOT_PATH)
+  ], {
+      uploadPath: path.resolve(__dirname, "./upload")
+  }));
 
-app.post('../client/media/', upload.array('files', 12), function (req, res, next) {
-  })
+  app.listen(process.env.PORT || 8081);
 
-  res.status(err.status || 500);
-  res.render('error');
-});
-
-app.use(bodyParser.json({
-  extended: false
-}))
-
-app.use(protect.express.sqlInjection({
-  body: true,
-  loggerFunction: console.error
-}))
-
-app.use(protect.express.xss({
-  body: true,
-  loggerFunction: console.error
-}))
-
-app.use(protect.express.rateLimiter({
-  db: client,
-  id: (request) => request.connection.remoteAddress
-}))
-
-app.get('/', (request, response) => {
-  response.send('hello protect!')
-})
-
-app.post('/login', protect.express.rateLimiter({
-  db: client,
-  id: (request) => request.body.email,
-  // max 10 tries per 2 minutes
-  max: 10,
-  duration: 120000
-}), (request, response) => {
-  response.send('wuut logged in')
-})
-
-module.exports = app;
+  // eslint-disable-next-line require-await
+  fastify.get('/', async (request, reply) => {
+      return { hello: 'world' }
+    })
+    
+  const start = async () => {
+      try {
+        await fastify.listen(3000)
+      } catch (err) {
+        fastify.log.error(err)
+        process.exit(1)
+      }
+    }
+    start() 
+}

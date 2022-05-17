@@ -68,7 +68,6 @@ export default {
     { src: '~plugins/main.js', mode: 'client' },
     { src: '~plugins/paypal.js', ssr: false },
     { src: '~plugins/client.js', ssr: false },
-    { src: '~plugins/vue-kindergarten.js', ssr: false },
     // { src: '~plugins/email.js', ssr: false },
     // { src: '~plugins/upload.js', mode: 'client' },
     // { src: '~plugins/vue-chart.js', mode: 'client' },
@@ -89,7 +88,7 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/sentry',
     '@nuxtjs/apollo',
-    '@nuxtjs/auth-next',
+    // '@nuxtjs/auth-next',
     'nuxt-leaflet',
     '@nuxtjs/i18n',
     '@nuxtjs/gtm',
@@ -111,10 +110,10 @@ export default {
 // Modules Options -----------------------------------------------------------------------------------------------
 
   router: {
-    middleware: ['auth', 'vue-kindergarten']
+    middleware: []
   },
 
-  auth: {
+  /* auth: {
     strategies: {
       local: {
 //      scheme: "refresh",
@@ -140,7 +139,7 @@ export default {
         }
       }
     }
-  },
+  }, */
 
   image: {
     // Options

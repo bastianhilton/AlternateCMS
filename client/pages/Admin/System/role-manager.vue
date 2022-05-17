@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/admin/add-new/add-new-permissions"><FormulateInput type="button">Create Permission Group</FormulateInput></a>
+        <a class="navbar-brand" href="/admin/add-new/add-new-role"><FormulateInput type="button">Create New Role</FormulateInput></a>
         
 </div>
 </nav>
@@ -19,10 +19,10 @@
         </thead>
         <tbody>
           <tr>
-            <td>Sit</td>
-            <td>Amet</td>
-            <td>Amet</td>
-            <td><a :href="`/admin/edit/role/${roles.id}`"><span class="fas fa-pencil"></span></a></td>
+            <td>{{ permissions.name }}</td>
+            <td>{{ permissions.content }}</td>
+            <td>{{ permissions.created_at }}</td>
+            <td><a :href="`/admin/edit/permissions/${permissions.id}`"><span class="fas fa-pencil"></span></a></td>
           </tr>
         </tbody>
       </table>
@@ -32,11 +32,22 @@
 </template>
 
 <script>
+ import permissions from '~/apollo/queries/system/permissions.gql'
 
-  export default {
-
+export default {
+  data() {
+    return {
+      permissions: [],
+    }
+  },
+  apollo: {
+    permissions: {
+      prefetch: true,
+      query: permissions
+    }
+  }, 
     head: {
-      title: 'Action Logs'
+      title: 'Role Manager'
     }
   }
 

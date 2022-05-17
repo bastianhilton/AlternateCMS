@@ -97,3 +97,17 @@ body {
     width: 50%;
     padding: 10px;
 }
+
+#btn-back-to-top {
+    left: 32px !important;
+    float: left !important;
+    right: 0px !important;
+}
+
+.darkmode-toggle {
+    z-index: 99999 !important;
+}
+
+body.darkmode--activated {
+    color: white !important;
+}

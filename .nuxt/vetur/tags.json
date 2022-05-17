@@ -2,6 +2,9 @@
   "IoSocketStatus": {
     "description": "Auto imported from ../node_modules/nuxt-socket-io/lib/components/SocketStatus.js"
   },
+  "Apitokensettings": {
+    "description": "Auto imported from components/apitokensettings.vue"
+  },
   "Breadcrumbs": {
     "description": "Auto imported from components/Breadcrumbs.vue"
   },
@@ -29,6 +32,9 @@
   "Notification": {
     "description": "Auto imported from components/Notification.vue"
   },
+  "Providersettings": {
+    "description": "Auto imported from components/providersettings.vue"
+  },
   "Reportsettings": {
     "description": "Auto imported from components/reportsettings.vue"
   },
@@ -43,5 +49,8 @@
   },
   "Usersettings": {
     "description": "Auto imported from components/usersettings.vue"
+  },
+  "Webhooks": {
+    "description": "Auto imported from components/webhooks.vue"
   }
 }

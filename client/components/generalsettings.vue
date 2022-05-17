@@ -200,65 +200,19 @@
           </div>
         </div>
       </div>
-      <div class="accordion-item">
-        <h2 id="flush-headingFour" class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
-            data-mdb-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-            Providers
-          </button>
-        </h2>
-        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
-          data-mdb-parent="#accordionFlushExample">
-          <div class="accordion-body">
-            <div class="table table-responsive">
-              <table class="table">
-                <thead class="table table-dark">
-                  <tr>
-                    <th>NAME</th>
-                    <th>STATUS</th>
-                    <th>ACTION</th>
-                    <th>Image</th>
-                  </tr>
-                </thead>
-                <tbody v-for="article in articles" :key="article.id">
-                  <tr>
-                    <td>{{ article.id }}</td>
-                    <td>{{ article.name }}</td>
-                    <td>{{ article.excerpt }}</td>
-                    <td><button type="button" class="btn btn-primary fas fa-pencil" data-mdb-toggle="modal"
-                        data-mdb-target="#exampleModal"></button></td>
-                    <div id="exampleModal" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel"
-                      aria-hidden="true">
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 id="exampleModalLabel" class="modal-title">Edit Provider</h5>
-                            <button type="button" class="btn-close" data-mdb-dismiss="modal"
-                              aria-label="Close"></button>
-                          </div>
-                          <div class="modal-body">...</div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Cancel</button>
-                            <button type="button" class="btn btn-primary">Save</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
+      <providersettings />
+      <apitokensettings />
+      <webhooks />
     </div>
   </div>
 </template>
 
 <script>
-  import gql from "graphql-tag";
-
-  import {
+import gql from "graphql-tag";
+import providersettings from '~/components/providersettings';
+import apitokensettings from '~/components/apitokensettings';
+import webhooks from '~/components/webhooks'
+import {
     generalSettings
   } from "~/apollo/queries/system/generalsettings";
 
@@ -287,6 +241,9 @@
         value: " ",
         languages: " ",
       }
+    },
+    head: {
+      title: 'General Settings'
     },
     methods: {
       async addGeneralSettings() {
@@ -337,9 +294,7 @@
 
     },
     // eslint-disable-next-line vue/order-in-components
-    head: {
-      title: 'General Settings'
-    }
+    components: {providersettings, apitokensettings, webhooks}
   }
 
 </script>

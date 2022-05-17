@@ -27,11 +27,11 @@ const _f724eeb0 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New
 const _c451bae4 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-newsletter.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-newsletter" */))
 const _b1f9e4e2 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-newslettersubscriber copy.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-newslettersubscriber copy" */))
 const _46ee7724 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-page.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-page" */))
-const _cb736602 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-permissions.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-permissions" */))
 const _5ee6616a = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-product.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-product" */))
 const _aaefb7ee = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-report.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-report" */))
 const _f1c4a3f6 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-return.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-return" */))
 const _7335d7a6 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-review.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-review" */))
+const _03d0498b = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-role.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-role" */))
 const _7f0271ae = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-segment.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-segment" */))
 const _21c8022f = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-shipment.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-shipment" */))
 const _51d06cce = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-staffmembers.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-staffmembers" */))
@@ -91,6 +91,7 @@ const _89238694 = () => interopDefault(import('..\\client\\pages\\Admin\\System\
 const _42f4bd26 = () => interopDefault(import('..\\client\\pages\\Admin\\System\\role-manager.vue' /* webpackChunkName: "pages/Admin/System/role-manager" */))
 const _fab8ad8c = () => interopDefault(import('..\\client\\pages\\Admin\\System\\settings.vue' /* webpackChunkName: "pages/Admin/System/settings" */))
 const _4cb64913 = () => interopDefault(import('..\\client\\pages\\Admin\\Customers\\customer\\newcustomer.vue' /* webpackChunkName: "pages/Admin/Customers/customer/newcustomer" */))
+const _4fac380a = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\providers\\id.vue' /* webpackChunkName: "pages/Admin/Edit/providers/id" */))
 const _29b48a8c = () => interopDefault(import('..\\client\\pages\\Admin\\Marketing\\Email\\email-designer.vue' /* webpackChunkName: "pages/Admin/Marketing/Email/email-designer" */))
 const _6c9249bf = () => interopDefault(import('..\\client\\pages\\Admin\\Shop\\Product\\Edit\\_id.vue' /* webpackChunkName: "pages/Admin/Shop/Product/Edit/_id" */))
 const _549a4222 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\agreement\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/agreement/_id" */))
@@ -245,10 +246,6 @@ export const routerOptions = {
     component: _46ee7724,
     name: "Admin-Add-New-add-new-page___en"
   }, {
-    path: "/Admin/Add-New/add-new-permissions",
-    component: _cb736602,
-    name: "Admin-Add-New-add-new-permissions___en"
-  }, {
     path: "/Admin/Add-New/add-new-product",
     component: _5ee6616a,
     name: "Admin-Add-New-add-new-product___en"
@@ -264,6 +261,10 @@ export const routerOptions = {
     path: "/Admin/Add-New/add-new-review",
     component: _7335d7a6,
     name: "Admin-Add-New-add-new-review___en"
+  }, {
+    path: "/Admin/Add-New/add-new-role",
+    component: _03d0498b,
+    name: "Admin-Add-New-add-new-role___en"
   }, {
     path: "/Admin/Add-New/add-new-segment",
     component: _7f0271ae,
@@ -525,6 +526,10 @@ export const routerOptions = {
     component: _4cb64913,
     name: "Admin-Customers-customer-newcustomer___en"
   }, {
+    path: "/Admin/Edit/providers/id",
+    component: _4fac380a,
+    name: "Admin-Edit-providers-id___en"
+  }, {
     path: "/Admin/Marketing/Email/email-designer",
     component: _29b48a8c,
     name: "Admin-Marketing-Email-email-designer___en"
@@ -597,10 +602,6 @@ export const routerOptions = {
     component: _46ee7724,
     name: "Admin-Add-New-add-new-page___es"
   }, {
-    path: "/es/Admin/Add-New/add-new-permissions",
-    component: _cb736602,
-    name: "Admin-Add-New-add-new-permissions___es"
-  }, {
     path: "/es/Admin/Add-New/add-new-product",
     component: _5ee6616a,
     name: "Admin-Add-New-add-new-product___es"
@@ -616,6 +617,10 @@ export const routerOptions = {
     path: "/es/Admin/Add-New/add-new-review",
     component: _7335d7a6,
     name: "Admin-Add-New-add-new-review___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-role",
+    component: _03d0498b,
+    name: "Admin-Add-New-add-new-role___es"
   }, {
     path: "/es/Admin/Add-New/add-new-segment",
     component: _7f0271ae,
@@ -917,10 +922,6 @@ export const routerOptions = {
     component: _46ee7724,
     name: "Admin-Add-New-add-new-page___fr"
   }, {
-    path: "/fr/Admin/Add-New/add-new-permissions",
-    component: _cb736602,
-    name: "Admin-Add-New-add-new-permissions___fr"
-  }, {
     path: "/fr/Admin/Add-New/add-new-product",
     component: _5ee6616a,
     name: "Admin-Add-New-add-new-product___fr"
@@ -936,6 +937,10 @@ export const routerOptions = {
     path: "/fr/Admin/Add-New/add-new-review",
     component: _7335d7a6,
     name: "Admin-Add-New-add-new-review___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-role",
+    component: _03d0498b,
+    name: "Admin-Add-New-add-new-role___fr"
   }, {
     path: "/fr/Admin/Add-New/add-new-segment",
     component: _7f0271ae,
@@ -1173,6 +1178,10 @@ export const routerOptions = {
     component: _4cb64913,
     name: "Admin-Customers-customer-newcustomer___es"
   }, {
+    path: "/es/Admin/Edit/providers/id",
+    component: _4fac380a,
+    name: "Admin-Edit-providers-id___es"
+  }, {
     path: "/es/Admin/Marketing/Email/email-designer",
     component: _29b48a8c,
     name: "Admin-Marketing-Email-email-designer___es"
@@ -1180,6 +1189,10 @@ export const routerOptions = {
     path: "/fr/Admin/Customers/customer/newcustomer",
     component: _4cb64913,
     name: "Admin-Customers-customer-newcustomer___fr"
+  }, {
+    path: "/fr/Admin/Edit/providers/id",
+    component: _4fac380a,
+    name: "Admin-Edit-providers-id___fr"
   }, {
     path: "/fr/Admin/Marketing/Email/email-designer",
     component: _29b48a8c,
