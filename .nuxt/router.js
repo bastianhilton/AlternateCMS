@@ -44,6 +44,7 @@ const _478cf93a = () => interopDefault(import('..\\client\\pages\\Admin\\Content
 const _11c0c35f = () => interopDefault(import('..\\client\\pages\\Admin\\Content\\glossary.vue' /* webpackChunkName: "pages/Admin/Content/glossary" */))
 const _07f1e95a = () => interopDefault(import('..\\client\\pages\\Admin\\Content\\media-manager.vue' /* webpackChunkName: "pages/Admin/Content/media-manager" */))
 const _adcfb95a = () => interopDefault(import('..\\client\\pages\\Admin\\Content\\pages.vue' /* webpackChunkName: "pages/Admin/Content/pages" */))
+const _5c8503bb = () => interopDefault(import('..\\client\\pages\\Admin\\Content\\projects.vue' /* webpackChunkName: "pages/Admin/Content/projects" */))
 const _51a7174c = () => interopDefault(import('..\\client\\pages\\Admin\\Content\\tags.vue' /* webpackChunkName: "pages/Admin/Content/tags" */))
 const _042a7848 = () => interopDefault(import('..\\client\\pages\\Admin\\Customers\\all-customers.vue' /* webpackChunkName: "pages/Admin/Customers/all-customers" */))
 const _de21f0d4 = () => interopDefault(import('..\\client\\pages\\Admin\\Customers\\customer-groups.vue' /* webpackChunkName: "pages/Admin/Customers/customer-groups" */))
@@ -55,14 +56,14 @@ const _2921453c = () => interopDefault(import('..\\client\\pages\\Admin\\Marketi
 const _da541c32 = () => interopDefault(import('..\\client\\pages\\Admin\\Marketing\\newsletter.vue' /* webpackChunkName: "pages/Admin/Marketing/newsletter" */))
 const _47bf29dd = () => interopDefault(import('..\\client\\pages\\Admin\\Marketing\\reviews.vue' /* webpackChunkName: "pages/Admin/Marketing/reviews" */))
 const _6291e61f = () => interopDefault(import('..\\client\\pages\\Admin\\Marketing\\seo.vue' /* webpackChunkName: "pages/Admin/Marketing/seo" */))
-const _14b97435 = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\business-intelligence.vue' /* webpackChunkName: "pages/Admin/Reports/business-intelligence" */))
+const _03d1424c = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\cases.vue' /* webpackChunkName: "pages/Admin/Reports/cases" */))
 const _1726cd57 = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\customer-engagement.vue' /* webpackChunkName: "pages/Admin/Reports/customer-engagement" */))
-const _00d45fd0 = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\customers-reports.vue' /* webpackChunkName: "pages/Admin/Reports/customers-reports" */))
 const _658a7c21 = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\marketing-reports.vue' /* webpackChunkName: "pages/Admin/Reports/marketing-reports" */))
 const _3dc08b5d = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\products-reports.vue' /* webpackChunkName: "pages/Admin/Reports/products-reports" */))
 const _59cf3238 = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\reviews.vue' /* webpackChunkName: "pages/Admin/Reports/reviews" */))
 const _05f9b287 = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\sales-reports.vue' /* webpackChunkName: "pages/Admin/Reports/sales-reports" */))
 const _0641aa2c = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\statistics.vue' /* webpackChunkName: "pages/Admin/Reports/statistics" */))
+const _b5492fbc = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\surveys.vue' /* webpackChunkName: "pages/Admin/Reports/surveys" */))
 const _1c600fbd = () => interopDefault(import('..\\client\\pages\\Admin\\Sales\\agreements.vue' /* webpackChunkName: "pages/Admin/Sales/agreements" */))
 const _2d9f7d60 = () => interopDefault(import('..\\client\\pages\\Admin\\Sales\\certificates.vue' /* webpackChunkName: "pages/Admin/Sales/certificates" */))
 const _052225b9 = () => interopDefault(import('..\\client\\pages\\Admin\\Sales\\credit-memos.vue' /* webpackChunkName: "pages/Admin/Sales/credit-memos" */))
@@ -314,6 +315,10 @@ export const routerOptions = {
     component: _adcfb95a,
     name: "Admin-Content-pages___en"
   }, {
+    path: "/Admin/Content/projects",
+    component: _5c8503bb,
+    name: "Admin-Content-projects___en"
+  }, {
     path: "/Admin/Content/tags",
     component: _51a7174c,
     name: "Admin-Content-tags___en"
@@ -358,17 +363,13 @@ export const routerOptions = {
     component: _6291e61f,
     name: "Admin-Marketing-seo___en"
   }, {
-    path: "/Admin/Reports/business-intelligence",
-    component: _14b97435,
-    name: "Admin-Reports-business-intelligence___en"
+    path: "/Admin/Reports/cases",
+    component: _03d1424c,
+    name: "Admin-Reports-cases___en"
   }, {
     path: "/Admin/Reports/customer-engagement",
     component: _1726cd57,
     name: "Admin-Reports-customer-engagement___en"
-  }, {
-    path: "/Admin/Reports/customers-reports",
-    component: _00d45fd0,
-    name: "Admin-Reports-customers-reports___en"
   }, {
     path: "/Admin/Reports/marketing-reports",
     component: _658a7c21,
@@ -389,6 +390,10 @@ export const routerOptions = {
     path: "/Admin/Reports/statistics",
     component: _0641aa2c,
     name: "Admin-Reports-statistics___en"
+  }, {
+    path: "/Admin/Reports/surveys",
+    component: _b5492fbc,
+    name: "Admin-Reports-surveys___en"
   }, {
     path: "/Admin/Sales/agreements",
     component: _1c600fbd,
@@ -670,6 +675,10 @@ export const routerOptions = {
     component: _adcfb95a,
     name: "Admin-Content-pages___es"
   }, {
+    path: "/es/Admin/Content/projects",
+    component: _5c8503bb,
+    name: "Admin-Content-projects___es"
+  }, {
     path: "/es/Admin/Content/tags",
     component: _51a7174c,
     name: "Admin-Content-tags___es"
@@ -714,17 +723,13 @@ export const routerOptions = {
     component: _6291e61f,
     name: "Admin-Marketing-seo___es"
   }, {
-    path: "/es/Admin/Reports/business-intelligence",
-    component: _14b97435,
-    name: "Admin-Reports-business-intelligence___es"
+    path: "/es/Admin/Reports/cases",
+    component: _03d1424c,
+    name: "Admin-Reports-cases___es"
   }, {
     path: "/es/Admin/Reports/customer-engagement",
     component: _1726cd57,
     name: "Admin-Reports-customer-engagement___es"
-  }, {
-    path: "/es/Admin/Reports/customers-reports",
-    component: _00d45fd0,
-    name: "Admin-Reports-customers-reports___es"
   }, {
     path: "/es/Admin/Reports/marketing-reports",
     component: _658a7c21,
@@ -745,6 +750,10 @@ export const routerOptions = {
     path: "/es/Admin/Reports/statistics",
     component: _0641aa2c,
     name: "Admin-Reports-statistics___es"
+  }, {
+    path: "/es/Admin/Reports/surveys",
+    component: _b5492fbc,
+    name: "Admin-Reports-surveys___es"
   }, {
     path: "/es/Admin/Sales/agreements",
     component: _1c600fbd,
@@ -990,6 +999,10 @@ export const routerOptions = {
     component: _adcfb95a,
     name: "Admin-Content-pages___fr"
   }, {
+    path: "/fr/Admin/Content/projects",
+    component: _5c8503bb,
+    name: "Admin-Content-projects___fr"
+  }, {
     path: "/fr/Admin/Content/tags",
     component: _51a7174c,
     name: "Admin-Content-tags___fr"
@@ -1034,17 +1047,13 @@ export const routerOptions = {
     component: _6291e61f,
     name: "Admin-Marketing-seo___fr"
   }, {
-    path: "/fr/Admin/Reports/business-intelligence",
-    component: _14b97435,
-    name: "Admin-Reports-business-intelligence___fr"
+    path: "/fr/Admin/Reports/cases",
+    component: _03d1424c,
+    name: "Admin-Reports-cases___fr"
   }, {
     path: "/fr/Admin/Reports/customer-engagement",
     component: _1726cd57,
     name: "Admin-Reports-customer-engagement___fr"
-  }, {
-    path: "/fr/Admin/Reports/customers-reports",
-    component: _00d45fd0,
-    name: "Admin-Reports-customers-reports___fr"
   }, {
     path: "/fr/Admin/Reports/marketing-reports",
     component: _658a7c21,
@@ -1065,6 +1074,10 @@ export const routerOptions = {
     path: "/fr/Admin/Reports/statistics",
     component: _0641aa2c,
     name: "Admin-Reports-statistics___fr"
+  }, {
+    path: "/fr/Admin/Reports/surveys",
+    component: _b5492fbc,
+    name: "Admin-Reports-surveys___fr"
   }, {
     path: "/fr/Admin/Sales/agreements",
     component: _1c600fbd,

@@ -68,6 +68,18 @@
                             <li>
                                 <a class="dropdown-item" href="/admin/customers/customer-groups">Customer Groups</a>
                             </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/customers/opportunities">Opportunities</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/customers/lead">Lead</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/customers/tasks">Tasks</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/customers/meetings">Meetings</a>
+                            </li>
                         </ul>
                     </li>
                     <!--Marketing Dropdown-->
@@ -95,6 +107,9 @@
                             <li>
                                 <a class="dropdown-item" href="/admin/marketing/reviews">Reviews</a>
                             </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/marketing/contracts">Contracts</a>
+                            </li>
                         </ul>
                     </li>
                     <!--Content Dropdown-->
@@ -119,6 +134,9 @@
                             <li>
                                 <a class="dropdown-item" href="/admin/content/glossary">Glossary</a>
                             </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/content/projects">Projects</a>
+                            </li>
                         </ul>
                     </li>
                     <!--Reports Dropdown-->
@@ -135,10 +153,10 @@
                                 <a class="dropdown-item" href="/admin/reports/sales-reports">Sales Reports</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/reports/customers-reports">Customers Reports</a>
+                                <a class="dropdown-item" href="/admin/reports/surveys">Surveys</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/reports/business-intelligence">Business Intelligence</a>
+                                <a class="dropdown-item" href="/admin/reports/cases">Cases</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/reports/reviews">Reviews</a>
@@ -276,7 +294,6 @@ export default {
   computed: {
     ...mapGetters(['isAuthenticated', 'loggedInUser'])
   },
-  // eslint-disable-next-line vue/order-in-components
   data () {
     return {
       query: '',

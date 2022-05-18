@@ -2,9 +2,9 @@
   <div>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand"><FormulateInput type="button">Advance Reporting</FormulateInput></a>
-        <a class="navbar-brand"><FormulateInput type="button" style="float:left; left: 12%; position: absolute;">AI Intelligence</FormulateInput></a>
-        <a class="navbar-brand"><FormulateInput type="button" style="float:left; left: 22%; position: absolute;">Meeovi Analytics</FormulateInput></a>
+        <a class="navbar-brand"><FormulateInput type="button">Wish Lists</FormulateInput></a>
+        <a class="navbar-brand"><FormulateInput type="button" style="float:left; left: 10%; position: absolute;">Order Count</FormulateInput></a>
+        <a class="navbar-brand"><FormulateInput type="button" style="float:left; left: 20%; position: absolute;">Order Total</FormulateInput></a>
         
 </div>
 </nav>
@@ -29,11 +29,13 @@
           <tr>
             <td>Adipisicing</td>
             <td>Elit</td>
+            <td>Elit</td>
             <td><a :href="`/admin/edit/agreement/${agreements.id}`">View</a></td>
           </tr>
           <tr>
             <td>Hic</td>
             <td>Fugiat</td>
+            <td>Elit</td>
             <td><a :href="`/admin/edit/agreement/${agreements.id}`">View</a></td>
           </tr>
         </tbody>
@@ -48,7 +50,7 @@
   export default {
 
     head: {
-      title: 'Business Intelligence'
+      title: 'Surveys'
     }
   }
 

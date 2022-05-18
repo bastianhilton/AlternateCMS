@@ -315,6 +315,13 @@
     "url": "/Admin/Content/pages"
   },
   {
+    "name": "Admin-Content-projects___en",
+    "path": "/Admin/Content/projects",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\projects.vue",
+    "chunkName": "pages/Admin/Content/projects",
+    "url": "/Admin/Content/projects"
+  },
+  {
     "name": "Admin-Content-tags___en",
     "path": "/Admin/Content/tags",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\tags.vue",
@@ -392,11 +399,11 @@
     "url": "/Admin/Marketing/seo"
   },
   {
-    "name": "Admin-Reports-business-intelligence___en",
-    "path": "/Admin/Reports/business-intelligence",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\business-intelligence.vue",
-    "chunkName": "pages/Admin/Reports/business-intelligence",
-    "url": "/Admin/Reports/business-intelligence"
+    "name": "Admin-Reports-cases___en",
+    "path": "/Admin/Reports/cases",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\cases.vue",
+    "chunkName": "pages/Admin/Reports/cases",
+    "url": "/Admin/Reports/cases"
   },
   {
     "name": "Admin-Reports-customer-engagement___en",
@@ -404,13 +411,6 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\customer-engagement.vue",
     "chunkName": "pages/Admin/Reports/customer-engagement",
     "url": "/Admin/Reports/customer-engagement"
-  },
-  {
-    "name": "Admin-Reports-customers-reports___en",
-    "path": "/Admin/Reports/customers-reports",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\customers-reports.vue",
-    "chunkName": "pages/Admin/Reports/customers-reports",
-    "url": "/Admin/Reports/customers-reports"
   },
   {
     "name": "Admin-Reports-marketing-reports___en",
@@ -446,6 +446,13 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\statistics.vue",
     "chunkName": "pages/Admin/Reports/statistics",
     "url": "/Admin/Reports/statistics"
+  },
+  {
+    "name": "Admin-Reports-surveys___en",
+    "path": "/Admin/Reports/surveys",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\surveys.vue",
+    "chunkName": "pages/Admin/Reports/surveys",
+    "url": "/Admin/Reports/surveys"
   },
   {
     "name": "Admin-Sales-agreements___en",
@@ -938,6 +945,13 @@
     "url": "/es/Admin/Content/pages"
   },
   {
+    "name": "Admin-Content-projects___es",
+    "path": "/es/Admin/Content/projects",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\projects.vue",
+    "chunkName": "pages/Admin/Content/projects",
+    "url": "/es/Admin/Content/projects"
+  },
+  {
     "name": "Admin-Content-tags___es",
     "path": "/es/Admin/Content/tags",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\tags.vue",
@@ -1015,11 +1029,11 @@
     "url": "/es/Admin/Marketing/seo"
   },
   {
-    "name": "Admin-Reports-business-intelligence___es",
-    "path": "/es/Admin/Reports/business-intelligence",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\business-intelligence.vue",
-    "chunkName": "pages/Admin/Reports/business-intelligence",
-    "url": "/es/Admin/Reports/business-intelligence"
+    "name": "Admin-Reports-cases___es",
+    "path": "/es/Admin/Reports/cases",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\cases.vue",
+    "chunkName": "pages/Admin/Reports/cases",
+    "url": "/es/Admin/Reports/cases"
   },
   {
     "name": "Admin-Reports-customer-engagement___es",
@@ -1027,13 +1041,6 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\customer-engagement.vue",
     "chunkName": "pages/Admin/Reports/customer-engagement",
     "url": "/es/Admin/Reports/customer-engagement"
-  },
-  {
-    "name": "Admin-Reports-customers-reports___es",
-    "path": "/es/Admin/Reports/customers-reports",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\customers-reports.vue",
-    "chunkName": "pages/Admin/Reports/customers-reports",
-    "url": "/es/Admin/Reports/customers-reports"
   },
   {
     "name": "Admin-Reports-marketing-reports___es",
@@ -1069,6 +1076,13 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\statistics.vue",
     "chunkName": "pages/Admin/Reports/statistics",
     "url": "/es/Admin/Reports/statistics"
+  },
+  {
+    "name": "Admin-Reports-surveys___es",
+    "path": "/es/Admin/Reports/surveys",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\surveys.vue",
+    "chunkName": "pages/Admin/Reports/surveys",
+    "url": "/es/Admin/Reports/surveys"
   },
   {
     "name": "Admin-Sales-agreements___es",
@@ -1498,6 +1512,13 @@
     "url": "/fr/Admin/Content/pages"
   },
   {
+    "name": "Admin-Content-projects___fr",
+    "path": "/fr/Admin/Content/projects",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\projects.vue",
+    "chunkName": "pages/Admin/Content/projects",
+    "url": "/fr/Admin/Content/projects"
+  },
+  {
     "name": "Admin-Content-tags___fr",
     "path": "/fr/Admin/Content/tags",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Content\\\\tags.vue",
@@ -1575,11 +1596,11 @@
     "url": "/fr/Admin/Marketing/seo"
   },
   {
-    "name": "Admin-Reports-business-intelligence___fr",
-    "path": "/fr/Admin/Reports/business-intelligence",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\business-intelligence.vue",
-    "chunkName": "pages/Admin/Reports/business-intelligence",
-    "url": "/fr/Admin/Reports/business-intelligence"
+    "name": "Admin-Reports-cases___fr",
+    "path": "/fr/Admin/Reports/cases",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\cases.vue",
+    "chunkName": "pages/Admin/Reports/cases",
+    "url": "/fr/Admin/Reports/cases"
   },
   {
     "name": "Admin-Reports-customer-engagement___fr",
@@ -1587,13 +1608,6 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\customer-engagement.vue",
     "chunkName": "pages/Admin/Reports/customer-engagement",
     "url": "/fr/Admin/Reports/customer-engagement"
-  },
-  {
-    "name": "Admin-Reports-customers-reports___fr",
-    "path": "/fr/Admin/Reports/customers-reports",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\customers-reports.vue",
-    "chunkName": "pages/Admin/Reports/customers-reports",
-    "url": "/fr/Admin/Reports/customers-reports"
   },
   {
     "name": "Admin-Reports-marketing-reports___fr",
@@ -1629,6 +1643,13 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\statistics.vue",
     "chunkName": "pages/Admin/Reports/statistics",
     "url": "/fr/Admin/Reports/statistics"
+  },
+  {
+    "name": "Admin-Reports-surveys___fr",
+    "path": "/fr/Admin/Reports/surveys",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\surveys.vue",
+    "chunkName": "pages/Admin/Reports/surveys",
+    "url": "/fr/Admin/Reports/surveys"
   },
   {
     "name": "Admin-Sales-agreements___fr",

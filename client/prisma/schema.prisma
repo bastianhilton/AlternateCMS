@@ -905,3 +905,219 @@ model warehouse {
   products    String?
   category    String?
 }
+
+model apitoken {
+  id          BigInt    @id @default(autoincrement())
+  created_at  DateTime? @default(now()) @db.Timestamptz(6)
+  name        String    @unique
+  token_type  String?
+  description String?
+  token       BigInt    @unique
+}
+
+model cases {
+  id            BigInt    @id @default(autoincrement())
+  created_at    DateTime? @default(now()) @db.Timestamptz(6)
+  case_number   Int?      @db.SmallInt
+  state         String?
+  type          String?
+  subject       String?
+  description   String?
+  resolution    String?
+  priority      String?
+  status        String?
+  account_name  String?
+  assigned_to   String?
+  date_modified DateTime? @default(now()) @db.Timestamptz(6)
+}
+
+model contracts {
+  id                   BigInt    @id @default(autoincrement())
+  contract_title       String?
+  contract_value       String?
+  start_date           String?
+  end_date             String?
+  renewal_reminder     String?
+  customer_signed_date String?
+  company_signed_date  String?
+  status               String?
+  contract_manager     String?
+  account              String?
+  contact              String?
+  description          String?
+  opportunity          String?
+  contract_type        String?
+  currency             String?
+  line_items           String?
+  total                String?
+  discount             String?
+  subtotal             String?
+  shipping             String?
+  shipping_tax         String?
+  tax                  String?
+  grand_total          String?
+  created_at           DateTime? @default(now()) @db.Timestamptz(6)
+}
+
+model internalization {
+  id          BigInt    @id @default(autoincrement())
+  created_at  DateTime? @default(now()) @db.Timestamptz(6)
+  name        String?
+  region      String?
+  description String?
+  default     String?
+  website     String?
+}
+
+model leads {
+  id                      BigInt    @id @default(autoincrement())
+  created_at              DateTime? @default(now()) @db.Timestamptz(6)
+  Prefix                  String?
+  first_name              String?
+  last_name               String?
+  department              String?
+  account_name            String?
+  address                 String?
+  postalcode              String?
+  city                    String?
+  state                   String?
+  country                 String?
+  email                   String?
+  description             String?
+  fax                     String?
+  website                 String?
+  mobile                  String?
+  job_title               String?
+  alt_address             String?
+  alt_postalcode          String?
+  alt_city                String?
+  alt_state               String?
+  alt_country             String?
+  office_phone            String?
+  status                  String?
+  status_description      String?
+  opportunity_amount      String?
+  campaign                String?
+  lead_source             String?
+  lead_source_description String?
+  referred_by             String?
+  customer_name           String?
+}
+
+model opportunities {
+  id                  BigInt    @id @default(autoincrement())
+  created_at          DateTime? @default(now()) @db.Timestamptz(6)
+  name                String?
+  amount              String?
+  sales_stage         String?
+  currency            String?
+  probability         String?
+  next_step           String?
+  description         String?
+  assigned_to         String?
+  lead_source         String?
+  campaign            String?
+  type                String?
+  account_name        String?
+  expected_close_date String?
+}
+
+model projects {
+  id                  BigInt    @id @default(autoincrement())
+  name                String?
+  project_manager     String?
+  start_date          String?
+  end_date            String?
+  resource            String?
+  considerworkingdays String?
+  project_template    String?
+  status              String?
+  created_at          DateTime? @default(now()) @db.Timestamptz(6)
+}
+
+model providers {
+  id               BigInt    @id @unique @default(autoincrement())
+  created_at       DateTime? @default(now()) @db.Timestamptz(6)
+  client_id        String?
+  client_secret    String?
+  host_uri         String?
+  redirect_url     String?
+  redirect_url_app String?
+  icon             String?
+  name             String    @unique
+  active           String?
+}
+
+model surveys {
+  id                BigInt    @id @default(autoincrement())
+  created_at        DateTime? @default(now()) @db.Timestamptz(6)
+  name              String?
+  assigned_to       String?
+  status            String?
+  description       String?
+  question          String?
+  answer            String?
+  submit_text       String?
+  satisfied_text    String?
+  neither_text      String?
+  dissatisfied_text String?
+}
+
+model targets {
+  id             BigInt    @id @default(autoincrement())
+  created_at     DateTime? @default(now()) @db.Timestamptz(6)
+  Prefix         String?
+  first_name     String?
+  last_name      String?
+  department     String?
+  account_name   String?
+  address        String?
+  postalcode     String?
+  city           String?
+  state          String?
+  country        String?
+  email          String?
+  description    String?
+  fax            String?
+  website        String?
+  mobile         String?
+  job_title      String?
+  alt_address    String?
+  alt_postalcode String?
+  alt_city       String?
+  alt_state      String?
+  alt_country    String?
+  office_phone   String?
+  customer_name  String?
+  email_opt_out  String?
+  donotcall      String?
+}
+
+model tasks {
+  id            BigInt    @id @default(autoincrement())
+  created_at    DateTime? @default(now()) @db.Timestamptz(6)
+  subject       String?
+  start_date    String?
+  due_date      String?
+  priority      String?
+  description   String?
+  status        String?
+  related_to    String?
+  contact       String?
+  assigned_to   String?
+  date_modified DateTime? @default(now()) @db.Timestamptz(6)
+}
+
+model webhooks {
+  id         BigInt    @id @default(autoincrement())
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  name       String    @unique
+  url        String
+  headers    String?
+  create     String?
+  retrieve   String?
+  update     String?
+  delete     String?
+  publish    String?
+  unpublish  String?
+}
