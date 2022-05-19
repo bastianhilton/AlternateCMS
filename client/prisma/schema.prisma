@@ -390,15 +390,13 @@ model products {
 
 model quotes {
   id                          Int       @id @default(autoincrement())
-  name                        String    @db.VarChar(255)
-  excerpt                     String?   @db.VarChar(255)
-  image                       String?
-  published                   DateTime? @db.Timestamp(6)
+  name                        String
+  grand_total                 String?
+  created_at                  DateTime? @default(now()) @db.Timestamp(6)
   categories                  String?
-  articles                    String?
-  products                    String?
+  valid_until                 String?
+  quote_stage                 String?
   customers                   String?
-  users                       String?
   cust_id                     Int       @default(autoincrement())
   prod_id                     BigInt    @default(autoincrement())
   order_id                    Int       @default(autoincrement())
