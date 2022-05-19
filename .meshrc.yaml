@@ -6,8 +6,6 @@ sources:
       postgraphile:
         connectionString: DATABASE_URL
         appendPlugins:
-          - "@graphile/federation"
-          - "@graphile/postgis"
           - "@graphile-contrib/pg-many-to-many"
         # You can also use environment variables like below
         # connectionString: postgres://{env.POSTGRES_USER}:{env.POSTGRES_PASSWORD}@localhost/postgres

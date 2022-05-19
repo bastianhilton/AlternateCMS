@@ -52,5 +52,29 @@
   },
   "Webhooks": {
     "description": "Auto imported from components/webhooks.vue"
+  },
+  "IntegrationsContent": {
+    "description": "Auto imported from components/integrations/content.vue"
+  },
+  "IntegrationsCustomers": {
+    "description": "Auto imported from components/integrations/customers.vue"
+  },
+  "IntegrationsMarketing": {
+    "description": "Auto imported from components/integrations/marketing.vue"
+  },
+  "IntegrationsReports": {
+    "description": "Auto imported from components/integrations/reports.vue"
+  },
+  "IntegrationsSales": {
+    "description": "Auto imported from components/integrations/sales.vue"
+  },
+  "IntegrationsSettings": {
+    "description": "Auto imported from components/integrations/settings.vue"
+  },
+  "IntegrationsShop": {
+    "description": "Auto imported from components/integrations/shop.vue"
+  },
+  "IntegrationsToppicks": {
+    "description": "Auto imported from components/integrations/toppicks.vue"
   }
 }

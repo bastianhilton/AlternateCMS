@@ -2,8 +2,7 @@
   <div>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/admin/add-new/add-new-task"><FormulateInput type="button">Add Segment</FormulateInput></a>
-        
+        <a class="navbar-brand" href="/admin/add-new/add-new-task"><FormulateInput type="button">Add A Task</FormulateInput></a>
       </div>
     </nav>
     <br>
@@ -12,29 +11,26 @@
       <table id="table" data-toggle="table" class="table">
         <thead class="table table-dark">
           <tr>
-            <th>ID</th>
-            <th>Segment</th>
-            <th>Status</th>
-            <th>Website</th>
+            <th>Subject</th>
+            <th>Contact</th>
+            <th>Related to</th>
+            <th>Due Date</th>
+            <th>Priority</th>
+            <th>Assigned User</th>
+            <th>Date Created</th>
             <th>Action</th>
           </tr>
         </thead>
-        <tbody v-for="segments in segments" :key="segments.id">
+        <tbody v-for="tasks in tasks" :key="tasks.id">
           <tr>
-            <td><FormulateInput id="segmentID" type="text" name=" id" /></td>
-            <td><FormulateInput type="text" name="segment" /></td>
-            <td><FormulateInput type="text" name="status" /></td>
-            <td><FormulateInput type="select" :options="categories.name" id="segmentStatus" name="status">
-                </FormulateInput></td>
-            <td><FormulateInput type="select" :options="website.name" id="segmentWebsite" name="website">
-                </FormulateInput></td>
-          </tr>
-          <tr>
-            <td>{{ segments.id }}</td>
-            <td>{{ segments.name }}</td>
-            <td>{{ segments.status }}</td>
-            <td>{{ segments.website }}</td>
-            <td><a :href="`/admin/edit/segments/${segments.id}`">View</a></td>
+            <td>{{ tasks.subject }}</td>
+            <td>{{ tasks.contact }}</td>
+            <td>{{ tasks.related_to }}</td>
+            <td>{{ tasks.due_date }}</td>
+            <td>{{ tasks.priority }}</td>
+            <td>{{ tasks.assigned_to }}</td>
+            <td>{{ tasks.created_at }}</td>
+            <td><a :href="`/admin/edit/tasks/${tasks.id}`">View</a></td>
           </tr>
         </tbody>
       </table>
@@ -44,31 +40,21 @@
 </template>
 
 <script>
- import segments from '~/apollo/queries/customers/segments'
- import website from '~/apollo/queries/shop/website'
- import categories from '~/apollo/queries/shop/categories'
+ import tasks from '~/apollo/queries/customers/tasks'
 
 export default {
    data() {
     return {
-      segments: [],
+      tasks: [],
       website: [],
       categories: []
     }
   },
   apollo: {
-    segments: {
+    tasks: {
       prefetch: true,
-      query: segments
+      query: tasks
     },
-    website: {
-      prefetch: true,
-      query: website
-    },
-    categories: {
-      prefetch: true,
-      query: categories
-    }
   }, 
     head: {
       title: 'Tasks'

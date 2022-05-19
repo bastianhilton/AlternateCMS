@@ -1,5 +1,3 @@
-import {DataTable} from 'simple-datatables'
-
 // AlternateCMS Time Functionality
 
 const d = new Date();
@@ -33,22 +31,3 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-// DataTables Javascript
-
-document.addEventListener('DOMContentLoaded', function () {
-// eslint-disable-next-line no-unused-vars
-const table = new DataTable("table", {
-  searchable: true,
-  fixedHeight: true,
-  perPageSelect: 25,
-  header: true,
-  sortable: true,
-  labels: {
-    placeholder: "Search...",
-    perPage: "{select} entries per page",
-    noRows: "No entries to found",
-    info: "Showing {start} to {end} of {rows} entries",
-}
-})
-})

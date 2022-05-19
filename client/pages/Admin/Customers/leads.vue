@@ -12,29 +12,26 @@
       <table id="table" data-toggle="table" class="table">
         <thead class="table table-dark">
           <tr>
-            <th>ID</th>
-            <th>Segment</th>
+            <th>Name</th>
             <th>Status</th>
-            <th>Website</th>
+            <th>Account Name</th>
+            <th>Office Phone</th>
+            <th>Email</th>
+            <th>User</th>
+            <th>Date Created</th>
             <th>Action</th>
           </tr>
         </thead>
-        <tbody v-for="segments in segments" :key="segments.id">
+        <tbody v-for="leads in leads" :key="leads.id">
           <tr>
-            <td><FormulateInput id="segmentID" type="text" name=" id" /></td>
-            <td><FormulateInput type="text" name="segment" /></td>
-            <td><FormulateInput type="text" name="status" /></td>
-            <td><FormulateInput type="select" :options="categories.name" id="segmentStatus" name="status">
-                </FormulateInput></td>
-            <td><FormulateInput type="select" :options="website.name" id="segmentWebsite" name="website">
-                </FormulateInput></td>
-          </tr>
-          <tr>
-            <td>{{ segments.id }}</td>
-            <td>{{ segments.name }}</td>
-            <td>{{ segments.status }}</td>
-            <td>{{ segments.website }}</td>
-            <td><a :href="`/admin/edit/segments/${segments.id}`">View</a></td>
+            <td>{{ leads.customer_name }}</td>
+            <td>{{ leads.status }}</td>
+            <td>{{ leads.account_name }}</td>
+            <td>{{ leads.office_phone }}</td>
+            <td>{{ leads.email }}</td>
+            <td>{{ leads.referred_by }}</td>
+            <td>{{ leads.created_at }}</td>
+            <td><a :href="`/admin/edit/leads/${leads.id}`">View</a></td>
           </tr>
         </tbody>
       </table>
@@ -44,31 +41,19 @@
 </template>
 
 <script>
- import segments from '~/apollo/queries/customers/segments'
- import website from '~/apollo/queries/shop/website'
- import categories from '~/apollo/queries/shop/categories'
+ import leads from '~/apollo/queries/customers/leads'
 
 export default {
    data() {
     return {
-      segments: [],
-      website: [],
-      categories: []
+      leads: [],
     }
   },
   apollo: {
-    segments: {
+    leads: {
       prefetch: true,
-      query: segments
+      query: leads
     },
-    website: {
-      prefetch: true,
-      query: website
-    },
-    categories: {
-      prefetch: true,
-      query: categories
-    }
   }, 
     head: {
       title: 'Leads'

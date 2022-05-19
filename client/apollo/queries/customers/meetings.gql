@@ -1,0 +1,17 @@
+query MyQuery {
+  meetings {
+    id
+    subject
+    status
+    start_date
+    reminders
+    related_to
+    location
+    invitees
+    end_date
+    duration
+    description
+    created_at
+    assigned_to
+  }
+}

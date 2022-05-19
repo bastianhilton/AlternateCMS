@@ -16,6 +16,14 @@ export { default as Salesettings } from '../..\\client\\components\\salesettings
 export { default as Shopsettings } from '../..\\client\\components\\shopsettings.vue'
 export { default as Usersettings } from '../..\\client\\components\\usersettings.vue'
 export { default as Webhooks } from '../..\\client\\components\\webhooks.vue'
+export { default as IntegrationsContent } from '../..\\client\\components\\integrations\\content.vue'
+export { default as IntegrationsCustomers } from '../..\\client\\components\\integrations\\customers.vue'
+export { default as IntegrationsMarketing } from '../..\\client\\components\\integrations\\marketing.vue'
+export { default as IntegrationsReports } from '../..\\client\\components\\integrations\\reports.vue'
+export { default as IntegrationsSales } from '../..\\client\\components\\integrations\\sales.vue'
+export { default as IntegrationsSettings } from '../..\\client\\components\\integrations\\settings.vue'
+export { default as IntegrationsShop } from '../..\\client\\components\\integrations\\shop.vue'
+export { default as IntegrationsToppicks } from '../..\\client\\components\\integrations\\toppicks.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

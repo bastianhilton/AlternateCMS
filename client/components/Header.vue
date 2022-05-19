@@ -72,7 +72,7 @@
                                 <a class="dropdown-item" href="/admin/customers/opportunities">Opportunities</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/customers/lead">Lead</a>
+                                <a class="dropdown-item" href="/admin/customers/leads">Leads</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/customers/tasks">Tasks</a>

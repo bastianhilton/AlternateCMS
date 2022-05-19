@@ -1,9 +1,3 @@
-generator typegraphql {
-  provider           = "typegraphql-prisma"
-  output             = "../prisma/generated/type-graphql"
-  emitTranspiledCode = "true"
-}
-
 generator gen {
   provider = "prisma-client-js"
 }

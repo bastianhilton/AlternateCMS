@@ -12,29 +12,26 @@
       <table id="table" data-toggle="table" class="table">
         <thead class="table table-dark">
           <tr>
-            <th>ID</th>
-            <th>Segment</th>
+            <th>Contract Title</th>
             <th>Status</th>
-            <th>Website</th>
+            <th>Contract Manager</th>
+            <th>Account</th>
+            <th>Contract Value</th>
+            <th>Start Date</th>
+            <th>End Date</th>
             <th>Action</th>
           </tr>
         </thead>
-        <tbody v-for="segments in segments" :key="segments.id">
+        <tbody v-for="contracts in contracts" :key="contracts.id">
           <tr>
-            <td><FormulateInput id="segmentID" type="text" name=" id" /></td>
-            <td><FormulateInput type="text" name="segment" /></td>
-            <td><FormulateInput type="text" name="status" /></td>
-            <td><FormulateInput type="select" :options="categories.name" id="segmentStatus" name="status">
-                </FormulateInput></td>
-            <td><FormulateInput type="select" :options="website.name" id="segmentWebsite" name="website">
-                </FormulateInput></td>
-          </tr>
-          <tr>
-            <td>{{ segments.id }}</td>
-            <td>{{ segments.name }}</td>
-            <td>{{ segments.status }}</td>
-            <td>{{ segments.website }}</td>
-            <td><a :href="`/admin/edit/segments/${segments.id}`">View</a></td>
+            <td>{{ contracts.contract_title }}</td>
+            <td>{{ contracts.status }}</td>
+            <td>{{ contracts.contract_manager }}</td>
+            <td>{{ contracts.account }}</td>
+            <td>{{ contracts.contract_value }}</td>
+            <td>{{ contracts.start_date }}</td>
+            <td>{{ contracts.end_date }}</td>
+            <td><a :href="`/admin/edit/contracts/${contracts.id}`">View</a></td>
           </tr>
         </tbody>
       </table>
@@ -44,31 +41,19 @@
 </template>
 
 <script>
- import segments from '~/apollo/queries/customers/segments'
- import website from '~/apollo/queries/shop/website'
- import categories from '~/apollo/queries/shop/categories'
+ import contracts from '~/apollo/queries/marketing/contracts'
 
 export default {
    data() {
     return {
-      segments: [],
-      website: [],
-      categories: []
+      contracts: [],
     }
   },
   apollo: {
-    segments: {
+    contracts: {
       prefetch: true,
-      query: segments
+      query: contracts
     },
-    website: {
-      prefetch: true,
-      query: website
-    },
-    categories: {
-      prefetch: true,
-      query: categories
-    }
   }, 
     head: {
       title: 'Contracts'

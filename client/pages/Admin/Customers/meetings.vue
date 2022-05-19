@@ -12,29 +12,28 @@
       <table id="table" data-toggle="table" class="table">
         <thead class="table table-dark">
           <tr>
-            <th>ID</th>
-            <th>Segment</th>
-            <th>Status</th>
-            <th>Website</th>
+            <th>Subject</th>
+            <th>Contact</th>
+            <th>Related To</th>
+            <th>Start Date</th>
+            <th>Assigned User</th>
+            <th>Location</th>
+            <th>Reminders</th>
+            <th>Date Created</th>
             <th>Action</th>
           </tr>
         </thead>
-        <tbody v-for="segments in segments" :key="segments.id">
+        <tbody v-for="meetings in meetings" :key="meetings.id">
           <tr>
-            <td><FormulateInput id="segmentID" type="text" name=" id" /></td>
-            <td><FormulateInput type="text" name="segment" /></td>
-            <td><FormulateInput type="text" name="status" /></td>
-            <td><FormulateInput type="select" :options="categories.name" id="segmentStatus" name="status">
-                </FormulateInput></td>
-            <td><FormulateInput type="select" :options="website.name" id="segmentWebsite" name="website">
-                </FormulateInput></td>
-          </tr>
-          <tr>
-            <td>{{ segments.id }}</td>
-            <td>{{ segments.name }}</td>
-            <td>{{ segments.status }}</td>
-            <td>{{ segments.website }}</td>
-            <td><a :href="`/admin/edit/segments/${segments.id}`">View</a></td>
+            <td>{{ meetings.subject }}</td>
+            <td>{{ meetings.invitees }}</td>
+            <td>{{ meetings.related_to }}</td>
+            <td>{{ meetings.start_date }}</td>
+            <td>{{ meetings.assigned_to }}</td>
+            <td>{{ meetings.location }}</td>
+            <td>{{ meetings.reminders }}</td>
+            <td>{{ meetings.created_at }}</td>
+            <td><a :href="`/admin/edit/meetings/${meetings.id}`">View</a></td>
           </tr>
         </tbody>
       </table>
@@ -44,31 +43,19 @@
 </template>
 
 <script>
- import segments from '~/apollo/queries/customers/segments'
- import website from '~/apollo/queries/shop/website'
- import categories from '~/apollo/queries/shop/categories'
+ import meetings from '~/apollo/queries/customers/meetings'
 
 export default {
    data() {
     return {
-      segments: [],
-      website: [],
-      categories: []
+      meetings: [],
     }
   },
   apollo: {
-    segments: {
+    meetings: {
       prefetch: true,
-      query: segments
+      query: meetings
     },
-    website: {
-      prefetch: true,
-      query: website
-    },
-    categories: {
-      prefetch: true,
-      query: categories
-    }
   }, 
     head: {
       title: 'Meetings'
