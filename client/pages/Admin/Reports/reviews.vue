@@ -8,7 +8,7 @@
     
     <br>
     <div class="table table-responsive">
-      <table class="table">
+      <table id="table" data-toggle="table" class="table">
         <thead class="table table-dark">
           <tr>
             <th>Theme Title</th>

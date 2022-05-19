@@ -2,41 +2,32 @@
   <div>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand"><FormulateInput type="button">Wish Lists</FormulateInput></a>
-        <a class="navbar-brand"><FormulateInput type="button" style="float:left; left: 10%; position: absolute;">Order Count</FormulateInput></a>
-        <a class="navbar-brand"><FormulateInput type="button" style="float:left; left: 20%; position: absolute;">Order Total</FormulateInput></a>
-        
+        <a class="navbar-brand" href="/admin/add-new/add-new-survey"><FormulateInput type="button">Create A Survey</FormulateInput></a>        
 </div>
 </nav>
 <br>
     <div class="table table-responsive">
-        <table class="table">
+        <table data-toggle="table" id="table" class="table">
         <thead class="table table-dark">
           <tr>
-            <th>Theme Title</th>
-            <th>Parent Theme</th>
-            <th>Theme Path</th>
+            <th>Survey ID</th>
+            <th>Survey Name</th>
+            <th>Description</th>
+            <th>Status</th>
+            <th>Assigned to</th>
+            <th>Dated Created</th>
             <th>Action</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody v-for="surveys in surveys" :key="surveys.id">
           <tr>
-            <td>Sit</td>
-            <td>Amet</td>
-            <td>Consectetur</td>
-            <td><a :href="`/admin/edit/agreement/${agreements.id}`">View</a></td>
-          </tr>
-          <tr>
-            <td>Adipisicing</td>
-            <td>Elit</td>
-            <td>Elit</td>
-            <td><a :href="`/admin/edit/agreement/${agreements.id}`">View</a></td>
-          </tr>
-          <tr>
-            <td>Hic</td>
-            <td>Fugiat</td>
-            <td>Elit</td>
-            <td><a :href="`/admin/edit/agreement/${agreements.id}`">View</a></td>
+            <td>{{ surveys.id }}</td>
+            <td>{{ surveys.name }}</td>
+            <td>{{ surveys.description }}</td>
+            <td>{{ surveys.status }}</td>
+            <td>{{ surveys.assigned_to }}</td>
+            <td>{{ surveys.created_at }}</td>
+            <td><a :href="`/admin/edit/surveys/${surveys.id}`">View</a></td>
           </tr>
         </tbody>
       </table>
@@ -46,9 +37,20 @@
 </template>
 
 <script>
+ import surveys from '~/apollo/queries/reports/surveys'
 
-  export default {
-
+export default {
+  data() {
+    return {
+      surveys: [],
+    }
+  },
+  apollo: {
+    surveys: {
+      prefetch: true,
+      query: surveys
+    }
+  }, 
     head: {
       title: 'Surveys'
     }

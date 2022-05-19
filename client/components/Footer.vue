@@ -1,22 +1,40 @@
 <template>
-  <div>
-    <footer class="bg-light text-center text-lg-start">
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-        © <div id="currentYear" style="display:inline-block;"></div> Copyright:
-        <a class="text-dark" href="https://www.alternatecms.com/">Alternate CMS</a>
-      </div>
-    </footer>
-    <button id="btn-back-to-top" type="button" class="btn btn-danger btn-floating btn-lg">
-      <i class="fas fa-arrow-up"></i>
-    </button>
-  </div>
+  <v-footer
+    color="primary lighten-1"
+    padless
+  >
+    <v-row
+      justify="center"
+      no-gutters
+    >
+      <v-btn
+        v-for="link in links"
+        :key="link"
+        color="blue"
+        text
+        rounded
+        class="my-2"
+      >
+        {{ link }}
+      </v-btn>
+      <v-col
+        class="primary lighten-2 py-4 text-center white--text"
+        cols="12"
+      >
+        @ {{ new Date().getFullYear() }} — <strong>AlternateCMS</strong>
+      </v-col>
+    </v-row>
+  </v-footer>
 </template>
 
 <script>
-
-export default {
-  
-}
+  export default {
+    data: () => ({
+      links: [
+        
+      ],
+    }),
+  }
 </script>
 
 <style>

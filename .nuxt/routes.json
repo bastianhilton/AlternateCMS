@@ -98,6 +98,20 @@
     "url": "/Admin/Add-New/add-new-attribute"
   },
   {
+    "name": "Admin-Add-New-add-new-campaign___en",
+    "path": "/Admin/Add-New/add-new-campaign",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-campaign.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-campaign",
+    "url": "/Admin/Add-New/add-new-campaign"
+  },
+  {
+    "name": "Admin-Add-New-add-new-case___en",
+    "path": "/Admin/Add-New/add-new-case",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-case.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-case",
+    "url": "/Admin/Add-New/add-new-case"
+  },
+  {
     "name": "Admin-Add-New-add-new-category___en",
     "path": "/Admin/Add-New/add-new-category",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-category.vue",
@@ -117,6 +131,13 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-collection.vue",
     "chunkName": "pages/Admin/Add-New/add-new-collection",
     "url": "/Admin/Add-New/add-new-collection"
+  },
+  {
+    "name": "Admin-Add-New-add-new-contract___en",
+    "path": "/Admin/Add-New/add-new-contract",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-contract.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-contract",
+    "url": "/Admin/Add-New/add-new-contract"
   },
   {
     "name": "Admin-Add-New-add-new-country___en",
@@ -175,6 +196,13 @@
     "url": "/Admin/Add-New/add-new-invoice"
   },
   {
+    "name": "Admin-Add-New-add-new-lead___en",
+    "path": "/Admin/Add-New/add-new-lead",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-lead.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-lead",
+    "url": "/Admin/Add-New/add-new-lead"
+  },
+  {
     "name": "Admin-Add-New-add-new-newsletter___en",
     "path": "/Admin/Add-New/add-new-newsletter",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-newsletter.vue",
@@ -189,6 +217,13 @@
     "url": "/Admin/Add-New/add-new-newslettersubscriber%20copy"
   },
   {
+    "name": "Admin-Add-New-add-new-opportunity___en",
+    "path": "/Admin/Add-New/add-new-opportunity",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-opportunity.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-opportunity",
+    "url": "/Admin/Add-New/add-new-opportunity"
+  },
+  {
     "name": "Admin-Add-New-add-new-page___en",
     "path": "/Admin/Add-New/add-new-page",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-page.vue",
@@ -201,6 +236,20 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-product.vue",
     "chunkName": "pages/Admin/Add-New/add-new-product",
     "url": "/Admin/Add-New/add-new-product"
+  },
+  {
+    "name": "Admin-Add-New-add-new-project___en",
+    "path": "/Admin/Add-New/add-new-project",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-project.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-project",
+    "url": "/Admin/Add-New/add-new-project"
+  },
+  {
+    "name": "Admin-Add-New-add-new-quote___en",
+    "path": "/Admin/Add-New/add-new-quote",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-quote.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-quote",
+    "url": "/Admin/Add-New/add-new-quote"
   },
   {
     "name": "Admin-Add-New-add-new-report___en",
@@ -259,11 +308,32 @@
     "url": "/Admin/Add-New/add-new-state"
   },
   {
+    "name": "Admin-Add-New-add-new-survey___en",
+    "path": "/Admin/Add-New/add-new-survey",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-survey.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-survey",
+    "url": "/Admin/Add-New/add-new-survey"
+  },
+  {
     "name": "Admin-Add-New-add-new-tag___en",
     "path": "/Admin/Add-New/add-new-tag",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-tag.vue",
     "chunkName": "pages/Admin/Add-New/add-new-tag",
     "url": "/Admin/Add-New/add-new-tag"
+  },
+  {
+    "name": "Admin-Add-New-add-new-target___en",
+    "path": "/Admin/Add-New/add-new-target",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-target.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-target",
+    "url": "/Admin/Add-New/add-new-target"
+  },
+  {
+    "name": "Admin-Add-New-add-new-task___en",
+    "path": "/Admin/Add-New/add-new-task",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-task.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-task",
+    "url": "/Admin/Add-New/add-new-task"
   },
   {
     "name": "Admin-Add-New-add-new-taxrate___en",
@@ -278,6 +348,13 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-taxrule.vue",
     "chunkName": "pages/Admin/Add-New/add-new-taxrule",
     "url": "/Admin/Add-New/add-new-taxrule"
+  },
+  {
+    "name": "Admin-Add-New-add-new-visit___en",
+    "path": "/Admin/Add-New/add-new-visit",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-visit.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-visit",
+    "url": "/Admin/Add-New/add-new-visit"
   },
   {
     "name": "Admin-Add-New-add-new-warehouse___en",
@@ -343,11 +420,32 @@
     "url": "/Admin/Customers/customer-groups"
   },
   {
+    "name": "Admin-Customers-leads___en",
+    "path": "/Admin/Customers/leads",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\leads.vue",
+    "chunkName": "pages/Admin/Customers/leads",
+    "url": "/Admin/Customers/leads"
+  },
+  {
+    "name": "Admin-Customers-meetings___en",
+    "path": "/Admin/Customers/meetings",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\meetings.vue",
+    "chunkName": "pages/Admin/Customers/meetings",
+    "url": "/Admin/Customers/meetings"
+  },
+  {
     "name": "Admin-Customers-online-customers___en",
     "path": "/Admin/Customers/online-customers",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\online-customers.vue",
     "chunkName": "pages/Admin/Customers/online-customers",
     "url": "/Admin/Customers/online-customers"
+  },
+  {
+    "name": "Admin-Customers-opportunities___en",
+    "path": "/Admin/Customers/opportunities",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\opportunities.vue",
+    "chunkName": "pages/Admin/Customers/opportunities",
+    "url": "/Admin/Customers/opportunities"
   },
   {
     "name": "Admin-Customers-segments___en",
@@ -357,11 +455,25 @@
     "url": "/Admin/Customers/segments"
   },
   {
+    "name": "Admin-Customers-tasks___en",
+    "path": "/Admin/Customers/tasks",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\tasks.vue",
+    "chunkName": "pages/Admin/Customers/tasks",
+    "url": "/Admin/Customers/tasks"
+  },
+  {
     "name": "Admin-Marketing-communications___en",
     "path": "/Admin/Marketing/communications",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\communications.vue",
     "chunkName": "pages/Admin/Marketing/communications",
     "url": "/Admin/Marketing/communications"
+  },
+  {
+    "name": "Admin-Marketing-contracts___en",
+    "path": "/Admin/Marketing/contracts",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\contracts.vue",
+    "chunkName": "pages/Admin/Marketing/contracts",
+    "url": "/Admin/Marketing/contracts"
   },
   {
     "name": "Admin-Marketing-events___en",
@@ -399,18 +511,18 @@
     "url": "/Admin/Marketing/seo"
   },
   {
+    "name": "Admin-Reports-calendars___en",
+    "path": "/Admin/Reports/calendars",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\calendars.vue",
+    "chunkName": "pages/Admin/Reports/calendars",
+    "url": "/Admin/Reports/calendars"
+  },
+  {
     "name": "Admin-Reports-cases___en",
     "path": "/Admin/Reports/cases",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\cases.vue",
     "chunkName": "pages/Admin/Reports/cases",
     "url": "/Admin/Reports/cases"
-  },
-  {
-    "name": "Admin-Reports-customer-engagement___en",
-    "path": "/Admin/Reports/customer-engagement",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\customer-engagement.vue",
-    "chunkName": "pages/Admin/Reports/customer-engagement",
-    "url": "/Admin/Reports/customer-engagement"
   },
   {
     "name": "Admin-Reports-marketing-reports___en",
@@ -490,11 +602,11 @@
     "url": "/Admin/Sales/orders"
   },
   {
-    "name": "Admin-Sales-payment-virtual-terminal___en",
-    "path": "/Admin/Sales/payment-virtual-terminal",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\payment-virtual-terminal.vue",
-    "chunkName": "pages/Admin/Sales/payment-virtual-terminal",
-    "url": "/Admin/Sales/payment-virtual-terminal"
+    "name": "Admin-Sales-quotes___en",
+    "path": "/Admin/Sales/quotes",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\quotes.vue",
+    "chunkName": "pages/Admin/Sales/quotes",
+    "url": "/Admin/Sales/quotes"
   },
   {
     "name": "Admin-Sales-returns___en",
@@ -728,6 +840,20 @@
     "url": "/es/Admin/Add-New/add-new-attribute"
   },
   {
+    "name": "Admin-Add-New-add-new-campaign___es",
+    "path": "/es/Admin/Add-New/add-new-campaign",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-campaign.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-campaign",
+    "url": "/es/Admin/Add-New/add-new-campaign"
+  },
+  {
+    "name": "Admin-Add-New-add-new-case___es",
+    "path": "/es/Admin/Add-New/add-new-case",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-case.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-case",
+    "url": "/es/Admin/Add-New/add-new-case"
+  },
+  {
     "name": "Admin-Add-New-add-new-category___es",
     "path": "/es/Admin/Add-New/add-new-category",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-category.vue",
@@ -747,6 +873,13 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-collection.vue",
     "chunkName": "pages/Admin/Add-New/add-new-collection",
     "url": "/es/Admin/Add-New/add-new-collection"
+  },
+  {
+    "name": "Admin-Add-New-add-new-contract___es",
+    "path": "/es/Admin/Add-New/add-new-contract",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-contract.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-contract",
+    "url": "/es/Admin/Add-New/add-new-contract"
   },
   {
     "name": "Admin-Add-New-add-new-country___es",
@@ -805,6 +938,13 @@
     "url": "/es/Admin/Add-New/add-new-invoice"
   },
   {
+    "name": "Admin-Add-New-add-new-lead___es",
+    "path": "/es/Admin/Add-New/add-new-lead",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-lead.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-lead",
+    "url": "/es/Admin/Add-New/add-new-lead"
+  },
+  {
     "name": "Admin-Add-New-add-new-newsletter___es",
     "path": "/es/Admin/Add-New/add-new-newsletter",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-newsletter.vue",
@@ -819,6 +959,13 @@
     "url": "/es/Admin/Add-New/add-new-newslettersubscriber%20copy"
   },
   {
+    "name": "Admin-Add-New-add-new-opportunity___es",
+    "path": "/es/Admin/Add-New/add-new-opportunity",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-opportunity.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-opportunity",
+    "url": "/es/Admin/Add-New/add-new-opportunity"
+  },
+  {
     "name": "Admin-Add-New-add-new-page___es",
     "path": "/es/Admin/Add-New/add-new-page",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-page.vue",
@@ -831,6 +978,20 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-product.vue",
     "chunkName": "pages/Admin/Add-New/add-new-product",
     "url": "/es/Admin/Add-New/add-new-product"
+  },
+  {
+    "name": "Admin-Add-New-add-new-project___es",
+    "path": "/es/Admin/Add-New/add-new-project",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-project.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-project",
+    "url": "/es/Admin/Add-New/add-new-project"
+  },
+  {
+    "name": "Admin-Add-New-add-new-quote___es",
+    "path": "/es/Admin/Add-New/add-new-quote",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-quote.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-quote",
+    "url": "/es/Admin/Add-New/add-new-quote"
   },
   {
     "name": "Admin-Add-New-add-new-report___es",
@@ -889,11 +1050,32 @@
     "url": "/es/Admin/Add-New/add-new-state"
   },
   {
+    "name": "Admin-Add-New-add-new-survey___es",
+    "path": "/es/Admin/Add-New/add-new-survey",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-survey.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-survey",
+    "url": "/es/Admin/Add-New/add-new-survey"
+  },
+  {
     "name": "Admin-Add-New-add-new-tag___es",
     "path": "/es/Admin/Add-New/add-new-tag",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-tag.vue",
     "chunkName": "pages/Admin/Add-New/add-new-tag",
     "url": "/es/Admin/Add-New/add-new-tag"
+  },
+  {
+    "name": "Admin-Add-New-add-new-target___es",
+    "path": "/es/Admin/Add-New/add-new-target",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-target.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-target",
+    "url": "/es/Admin/Add-New/add-new-target"
+  },
+  {
+    "name": "Admin-Add-New-add-new-task___es",
+    "path": "/es/Admin/Add-New/add-new-task",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-task.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-task",
+    "url": "/es/Admin/Add-New/add-new-task"
   },
   {
     "name": "Admin-Add-New-add-new-taxrate___es",
@@ -908,6 +1090,13 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-taxrule.vue",
     "chunkName": "pages/Admin/Add-New/add-new-taxrule",
     "url": "/es/Admin/Add-New/add-new-taxrule"
+  },
+  {
+    "name": "Admin-Add-New-add-new-visit___es",
+    "path": "/es/Admin/Add-New/add-new-visit",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-visit.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-visit",
+    "url": "/es/Admin/Add-New/add-new-visit"
   },
   {
     "name": "Admin-Add-New-add-new-warehouse___es",
@@ -973,11 +1162,32 @@
     "url": "/es/Admin/Customers/customer-groups"
   },
   {
+    "name": "Admin-Customers-leads___es",
+    "path": "/es/Admin/Customers/leads",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\leads.vue",
+    "chunkName": "pages/Admin/Customers/leads",
+    "url": "/es/Admin/Customers/leads"
+  },
+  {
+    "name": "Admin-Customers-meetings___es",
+    "path": "/es/Admin/Customers/meetings",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\meetings.vue",
+    "chunkName": "pages/Admin/Customers/meetings",
+    "url": "/es/Admin/Customers/meetings"
+  },
+  {
     "name": "Admin-Customers-online-customers___es",
     "path": "/es/Admin/Customers/online-customers",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\online-customers.vue",
     "chunkName": "pages/Admin/Customers/online-customers",
     "url": "/es/Admin/Customers/online-customers"
+  },
+  {
+    "name": "Admin-Customers-opportunities___es",
+    "path": "/es/Admin/Customers/opportunities",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\opportunities.vue",
+    "chunkName": "pages/Admin/Customers/opportunities",
+    "url": "/es/Admin/Customers/opportunities"
   },
   {
     "name": "Admin-Customers-segments___es",
@@ -987,11 +1197,25 @@
     "url": "/es/Admin/Customers/segments"
   },
   {
+    "name": "Admin-Customers-tasks___es",
+    "path": "/es/Admin/Customers/tasks",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\tasks.vue",
+    "chunkName": "pages/Admin/Customers/tasks",
+    "url": "/es/Admin/Customers/tasks"
+  },
+  {
     "name": "Admin-Marketing-communications___es",
     "path": "/es/Admin/Marketing/communications",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\communications.vue",
     "chunkName": "pages/Admin/Marketing/communications",
     "url": "/es/Admin/Marketing/communications"
+  },
+  {
+    "name": "Admin-Marketing-contracts___es",
+    "path": "/es/Admin/Marketing/contracts",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\contracts.vue",
+    "chunkName": "pages/Admin/Marketing/contracts",
+    "url": "/es/Admin/Marketing/contracts"
   },
   {
     "name": "Admin-Marketing-events___es",
@@ -1029,18 +1253,18 @@
     "url": "/es/Admin/Marketing/seo"
   },
   {
+    "name": "Admin-Reports-calendars___es",
+    "path": "/es/Admin/Reports/calendars",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\calendars.vue",
+    "chunkName": "pages/Admin/Reports/calendars",
+    "url": "/es/Admin/Reports/calendars"
+  },
+  {
     "name": "Admin-Reports-cases___es",
     "path": "/es/Admin/Reports/cases",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\cases.vue",
     "chunkName": "pages/Admin/Reports/cases",
     "url": "/es/Admin/Reports/cases"
-  },
-  {
-    "name": "Admin-Reports-customer-engagement___es",
-    "path": "/es/Admin/Reports/customer-engagement",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\customer-engagement.vue",
-    "chunkName": "pages/Admin/Reports/customer-engagement",
-    "url": "/es/Admin/Reports/customer-engagement"
   },
   {
     "name": "Admin-Reports-marketing-reports___es",
@@ -1120,11 +1344,11 @@
     "url": "/es/Admin/Sales/orders"
   },
   {
-    "name": "Admin-Sales-payment-virtual-terminal___es",
-    "path": "/es/Admin/Sales/payment-virtual-terminal",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\payment-virtual-terminal.vue",
-    "chunkName": "pages/Admin/Sales/payment-virtual-terminal",
-    "url": "/es/Admin/Sales/payment-virtual-terminal"
+    "name": "Admin-Sales-quotes___es",
+    "path": "/es/Admin/Sales/quotes",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\quotes.vue",
+    "chunkName": "pages/Admin/Sales/quotes",
+    "url": "/es/Admin/Sales/quotes"
   },
   {
     "name": "Admin-Sales-returns___es",
@@ -1295,6 +1519,20 @@
     "url": "/fr/Admin/Add-New/add-new-attribute"
   },
   {
+    "name": "Admin-Add-New-add-new-campaign___fr",
+    "path": "/fr/Admin/Add-New/add-new-campaign",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-campaign.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-campaign",
+    "url": "/fr/Admin/Add-New/add-new-campaign"
+  },
+  {
+    "name": "Admin-Add-New-add-new-case___fr",
+    "path": "/fr/Admin/Add-New/add-new-case",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-case.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-case",
+    "url": "/fr/Admin/Add-New/add-new-case"
+  },
+  {
     "name": "Admin-Add-New-add-new-category___fr",
     "path": "/fr/Admin/Add-New/add-new-category",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-category.vue",
@@ -1314,6 +1552,13 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-collection.vue",
     "chunkName": "pages/Admin/Add-New/add-new-collection",
     "url": "/fr/Admin/Add-New/add-new-collection"
+  },
+  {
+    "name": "Admin-Add-New-add-new-contract___fr",
+    "path": "/fr/Admin/Add-New/add-new-contract",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-contract.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-contract",
+    "url": "/fr/Admin/Add-New/add-new-contract"
   },
   {
     "name": "Admin-Add-New-add-new-country___fr",
@@ -1372,6 +1617,13 @@
     "url": "/fr/Admin/Add-New/add-new-invoice"
   },
   {
+    "name": "Admin-Add-New-add-new-lead___fr",
+    "path": "/fr/Admin/Add-New/add-new-lead",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-lead.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-lead",
+    "url": "/fr/Admin/Add-New/add-new-lead"
+  },
+  {
     "name": "Admin-Add-New-add-new-newsletter___fr",
     "path": "/fr/Admin/Add-New/add-new-newsletter",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-newsletter.vue",
@@ -1386,6 +1638,13 @@
     "url": "/fr/Admin/Add-New/add-new-newslettersubscriber%20copy"
   },
   {
+    "name": "Admin-Add-New-add-new-opportunity___fr",
+    "path": "/fr/Admin/Add-New/add-new-opportunity",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-opportunity.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-opportunity",
+    "url": "/fr/Admin/Add-New/add-new-opportunity"
+  },
+  {
     "name": "Admin-Add-New-add-new-page___fr",
     "path": "/fr/Admin/Add-New/add-new-page",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-page.vue",
@@ -1398,6 +1657,20 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-product.vue",
     "chunkName": "pages/Admin/Add-New/add-new-product",
     "url": "/fr/Admin/Add-New/add-new-product"
+  },
+  {
+    "name": "Admin-Add-New-add-new-project___fr",
+    "path": "/fr/Admin/Add-New/add-new-project",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-project.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-project",
+    "url": "/fr/Admin/Add-New/add-new-project"
+  },
+  {
+    "name": "Admin-Add-New-add-new-quote___fr",
+    "path": "/fr/Admin/Add-New/add-new-quote",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-quote.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-quote",
+    "url": "/fr/Admin/Add-New/add-new-quote"
   },
   {
     "name": "Admin-Add-New-add-new-report___fr",
@@ -1456,11 +1729,32 @@
     "url": "/fr/Admin/Add-New/add-new-state"
   },
   {
+    "name": "Admin-Add-New-add-new-survey___fr",
+    "path": "/fr/Admin/Add-New/add-new-survey",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-survey.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-survey",
+    "url": "/fr/Admin/Add-New/add-new-survey"
+  },
+  {
     "name": "Admin-Add-New-add-new-tag___fr",
     "path": "/fr/Admin/Add-New/add-new-tag",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-tag.vue",
     "chunkName": "pages/Admin/Add-New/add-new-tag",
     "url": "/fr/Admin/Add-New/add-new-tag"
+  },
+  {
+    "name": "Admin-Add-New-add-new-target___fr",
+    "path": "/fr/Admin/Add-New/add-new-target",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-target.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-target",
+    "url": "/fr/Admin/Add-New/add-new-target"
+  },
+  {
+    "name": "Admin-Add-New-add-new-task___fr",
+    "path": "/fr/Admin/Add-New/add-new-task",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-task.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-task",
+    "url": "/fr/Admin/Add-New/add-new-task"
   },
   {
     "name": "Admin-Add-New-add-new-taxrate___fr",
@@ -1475,6 +1769,13 @@
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-taxrule.vue",
     "chunkName": "pages/Admin/Add-New/add-new-taxrule",
     "url": "/fr/Admin/Add-New/add-new-taxrule"
+  },
+  {
+    "name": "Admin-Add-New-add-new-visit___fr",
+    "path": "/fr/Admin/Add-New/add-new-visit",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-visit.vue",
+    "chunkName": "pages/Admin/Add-New/add-new-visit",
+    "url": "/fr/Admin/Add-New/add-new-visit"
   },
   {
     "name": "Admin-Add-New-add-new-warehouse___fr",
@@ -1540,11 +1841,32 @@
     "url": "/fr/Admin/Customers/customer-groups"
   },
   {
+    "name": "Admin-Customers-leads___fr",
+    "path": "/fr/Admin/Customers/leads",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\leads.vue",
+    "chunkName": "pages/Admin/Customers/leads",
+    "url": "/fr/Admin/Customers/leads"
+  },
+  {
+    "name": "Admin-Customers-meetings___fr",
+    "path": "/fr/Admin/Customers/meetings",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\meetings.vue",
+    "chunkName": "pages/Admin/Customers/meetings",
+    "url": "/fr/Admin/Customers/meetings"
+  },
+  {
     "name": "Admin-Customers-online-customers___fr",
     "path": "/fr/Admin/Customers/online-customers",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\online-customers.vue",
     "chunkName": "pages/Admin/Customers/online-customers",
     "url": "/fr/Admin/Customers/online-customers"
+  },
+  {
+    "name": "Admin-Customers-opportunities___fr",
+    "path": "/fr/Admin/Customers/opportunities",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\opportunities.vue",
+    "chunkName": "pages/Admin/Customers/opportunities",
+    "url": "/fr/Admin/Customers/opportunities"
   },
   {
     "name": "Admin-Customers-segments___fr",
@@ -1554,11 +1876,25 @@
     "url": "/fr/Admin/Customers/segments"
   },
   {
+    "name": "Admin-Customers-tasks___fr",
+    "path": "/fr/Admin/Customers/tasks",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Customers\\\\tasks.vue",
+    "chunkName": "pages/Admin/Customers/tasks",
+    "url": "/fr/Admin/Customers/tasks"
+  },
+  {
     "name": "Admin-Marketing-communications___fr",
     "path": "/fr/Admin/Marketing/communications",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\communications.vue",
     "chunkName": "pages/Admin/Marketing/communications",
     "url": "/fr/Admin/Marketing/communications"
+  },
+  {
+    "name": "Admin-Marketing-contracts___fr",
+    "path": "/fr/Admin/Marketing/contracts",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Marketing\\\\contracts.vue",
+    "chunkName": "pages/Admin/Marketing/contracts",
+    "url": "/fr/Admin/Marketing/contracts"
   },
   {
     "name": "Admin-Marketing-events___fr",
@@ -1596,18 +1932,18 @@
     "url": "/fr/Admin/Marketing/seo"
   },
   {
+    "name": "Admin-Reports-calendars___fr",
+    "path": "/fr/Admin/Reports/calendars",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\calendars.vue",
+    "chunkName": "pages/Admin/Reports/calendars",
+    "url": "/fr/Admin/Reports/calendars"
+  },
+  {
     "name": "Admin-Reports-cases___fr",
     "path": "/fr/Admin/Reports/cases",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\cases.vue",
     "chunkName": "pages/Admin/Reports/cases",
     "url": "/fr/Admin/Reports/cases"
-  },
-  {
-    "name": "Admin-Reports-customer-engagement___fr",
-    "path": "/fr/Admin/Reports/customer-engagement",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Reports\\\\customer-engagement.vue",
-    "chunkName": "pages/Admin/Reports/customer-engagement",
-    "url": "/fr/Admin/Reports/customer-engagement"
   },
   {
     "name": "Admin-Reports-marketing-reports___fr",
@@ -1687,11 +2023,11 @@
     "url": "/fr/Admin/Sales/orders"
   },
   {
-    "name": "Admin-Sales-payment-virtual-terminal___fr",
-    "path": "/fr/Admin/Sales/payment-virtual-terminal",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\payment-virtual-terminal.vue",
-    "chunkName": "pages/Admin/Sales/payment-virtual-terminal",
-    "url": "/fr/Admin/Sales/payment-virtual-terminal"
+    "name": "Admin-Sales-quotes___fr",
+    "path": "/fr/Admin/Sales/quotes",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Sales\\\\quotes.vue",
+    "chunkName": "pages/Admin/Sales/quotes",
+    "url": "/fr/Admin/Sales/quotes"
   },
   {
     "name": "Admin-Sales-returns___fr",
@@ -1919,6 +2255,12 @@
     "chunkName": "pages/Admin/Edit/attribute/_id"
   },
   {
+    "name": "Admin-Edit-cases-id___es",
+    "path": "/es/Admin/Edit/cases/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\cases\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/cases/_id"
+  },
+  {
     "name": "Admin-Edit-category-id___es",
     "path": "/es/Admin/Edit/category/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\category\\\\_id.vue",
@@ -1935,6 +2277,12 @@
     "path": "/es/Admin/Edit/collection/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\collection\\\\_id.vue",
     "chunkName": "pages/Admin/Edit/collection/_id"
+  },
+  {
+    "name": "Admin-Edit-contracts-id___es",
+    "path": "/es/Admin/Edit/contracts/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\contracts\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/contracts/_id"
   },
   {
     "name": "Admin-Edit-country-id___es",
@@ -1979,6 +2327,18 @@
     "chunkName": "pages/Admin/Edit/invoice/_id"
   },
   {
+    "name": "Admin-Edit-leads-id___es",
+    "path": "/es/Admin/Edit/leads/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\leads\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/leads/_id"
+  },
+  {
+    "name": "Admin-Edit-meetings-id___es",
+    "path": "/es/Admin/Edit/meetings/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\meetings\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/meetings/_id"
+  },
+  {
     "name": "Admin-Edit-newsletter-id___es",
     "path": "/es/Admin/Edit/newsletter/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\newsletter\\\\_id.vue",
@@ -1989,6 +2349,12 @@
     "path": "/es/Admin/Edit/newslettersubscriber/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\newslettersubscriber\\\\_id.vue",
     "chunkName": "pages/Admin/Edit/newslettersubscriber/_id"
+  },
+  {
+    "name": "Admin-Edit-opportunities-id___es",
+    "path": "/es/Admin/Edit/opportunities/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\opportunities\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/opportunities/_id"
   },
   {
     "name": "Admin-Edit-page-id___es",
@@ -2003,10 +2369,28 @@
     "chunkName": "pages/Admin/Edit/product/_id"
   },
   {
+    "name": "Admin-Edit-projects-id___es",
+    "path": "/es/Admin/Edit/projects/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\projects\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/projects/_id"
+  },
+  {
+    "name": "Admin-Edit-quotes-id___es",
+    "path": "/es/Admin/Edit/quotes/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\quotes\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/quotes/_id"
+  },
+  {
     "name": "Admin-Edit-report-id___es",
     "path": "/es/Admin/Edit/report/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\report\\\\_id.vue",
     "chunkName": "pages/Admin/Edit/report/_id"
+  },
+  {
+    "name": "Admin-Edit-reports-id___es",
+    "path": "/es/Admin/Edit/reports/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\reports\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/reports/_id"
   },
   {
     "name": "Admin-Edit-return-id___es",
@@ -2045,6 +2429,12 @@
     "chunkName": "pages/Admin/Edit/tag/_id"
   },
   {
+    "name": "Admin-Edit-tasks-id___es",
+    "path": "/es/Admin/Edit/tasks/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\tasks\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/tasks/_id"
+  },
+  {
     "name": "Admin-Edit-taxrate-id___es",
     "path": "/es/Admin/Edit/taxrate/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\taxrate\\\\_id.vue",
@@ -2055,6 +2445,12 @@
     "path": "/es/Admin/Edit/taxrule/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\taxrule\\\\_id.vue",
     "chunkName": "pages/Admin/Edit/taxrule/_id"
+  },
+  {
+    "name": "Admin-Edit-warehouse-id___es",
+    "path": "/es/Admin/Edit/warehouse/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\warehouse\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/warehouse/_id"
   },
   {
     "name": "Admin-Marketing-Email-id___es",
@@ -2081,6 +2477,12 @@
     "chunkName": "pages/Admin/Edit/attribute/_id"
   },
   {
+    "name": "Admin-Edit-cases-id___fr",
+    "path": "/fr/Admin/Edit/cases/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\cases\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/cases/_id"
+  },
+  {
     "name": "Admin-Edit-category-id___fr",
     "path": "/fr/Admin/Edit/category/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\category\\\\_id.vue",
@@ -2097,6 +2499,12 @@
     "path": "/fr/Admin/Edit/collection/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\collection\\\\_id.vue",
     "chunkName": "pages/Admin/Edit/collection/_id"
+  },
+  {
+    "name": "Admin-Edit-contracts-id___fr",
+    "path": "/fr/Admin/Edit/contracts/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\contracts\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/contracts/_id"
   },
   {
     "name": "Admin-Edit-country-id___fr",
@@ -2141,6 +2549,18 @@
     "chunkName": "pages/Admin/Edit/invoice/_id"
   },
   {
+    "name": "Admin-Edit-leads-id___fr",
+    "path": "/fr/Admin/Edit/leads/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\leads\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/leads/_id"
+  },
+  {
+    "name": "Admin-Edit-meetings-id___fr",
+    "path": "/fr/Admin/Edit/meetings/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\meetings\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/meetings/_id"
+  },
+  {
     "name": "Admin-Edit-newsletter-id___fr",
     "path": "/fr/Admin/Edit/newsletter/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\newsletter\\\\_id.vue",
@@ -2151,6 +2571,12 @@
     "path": "/fr/Admin/Edit/newslettersubscriber/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\newslettersubscriber\\\\_id.vue",
     "chunkName": "pages/Admin/Edit/newslettersubscriber/_id"
+  },
+  {
+    "name": "Admin-Edit-opportunities-id___fr",
+    "path": "/fr/Admin/Edit/opportunities/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\opportunities\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/opportunities/_id"
   },
   {
     "name": "Admin-Edit-page-id___fr",
@@ -2165,10 +2591,28 @@
     "chunkName": "pages/Admin/Edit/product/_id"
   },
   {
+    "name": "Admin-Edit-projects-id___fr",
+    "path": "/fr/Admin/Edit/projects/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\projects\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/projects/_id"
+  },
+  {
+    "name": "Admin-Edit-quotes-id___fr",
+    "path": "/fr/Admin/Edit/quotes/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\quotes\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/quotes/_id"
+  },
+  {
     "name": "Admin-Edit-report-id___fr",
     "path": "/fr/Admin/Edit/report/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\report\\\\_id.vue",
     "chunkName": "pages/Admin/Edit/report/_id"
+  },
+  {
+    "name": "Admin-Edit-reports-id___fr",
+    "path": "/fr/Admin/Edit/reports/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\reports\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/reports/_id"
   },
   {
     "name": "Admin-Edit-return-id___fr",
@@ -2207,6 +2651,12 @@
     "chunkName": "pages/Admin/Edit/tag/_id"
   },
   {
+    "name": "Admin-Edit-tasks-id___fr",
+    "path": "/fr/Admin/Edit/tasks/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\tasks\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/tasks/_id"
+  },
+  {
     "name": "Admin-Edit-taxrate-id___fr",
     "path": "/fr/Admin/Edit/taxrate/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\taxrate\\\\_id.vue",
@@ -2217,6 +2667,12 @@
     "path": "/fr/Admin/Edit/taxrule/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\taxrule\\\\_id.vue",
     "chunkName": "pages/Admin/Edit/taxrule/_id"
+  },
+  {
+    "name": "Admin-Edit-warehouse-id___fr",
+    "path": "/fr/Admin/Edit/warehouse/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\warehouse\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/warehouse/_id"
   },
   {
     "name": "Admin-Marketing-Email-id___fr",
@@ -2243,6 +2699,12 @@
     "chunkName": "pages/Admin/Edit/attribute/_id"
   },
   {
+    "name": "Admin-Edit-cases-id___en",
+    "path": "/Admin/Edit/cases/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\cases\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/cases/_id"
+  },
+  {
     "name": "Admin-Edit-category-id___en",
     "path": "/Admin/Edit/category/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\category\\\\_id.vue",
@@ -2259,6 +2721,12 @@
     "path": "/Admin/Edit/collection/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\collection\\\\_id.vue",
     "chunkName": "pages/Admin/Edit/collection/_id"
+  },
+  {
+    "name": "Admin-Edit-contracts-id___en",
+    "path": "/Admin/Edit/contracts/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\contracts\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/contracts/_id"
   },
   {
     "name": "Admin-Edit-country-id___en",
@@ -2303,6 +2771,18 @@
     "chunkName": "pages/Admin/Edit/invoice/_id"
   },
   {
+    "name": "Admin-Edit-leads-id___en",
+    "path": "/Admin/Edit/leads/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\leads\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/leads/_id"
+  },
+  {
+    "name": "Admin-Edit-meetings-id___en",
+    "path": "/Admin/Edit/meetings/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\meetings\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/meetings/_id"
+  },
+  {
     "name": "Admin-Edit-newsletter-id___en",
     "path": "/Admin/Edit/newsletter/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\newsletter\\\\_id.vue",
@@ -2313,6 +2793,12 @@
     "path": "/Admin/Edit/newslettersubscriber/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\newslettersubscriber\\\\_id.vue",
     "chunkName": "pages/Admin/Edit/newslettersubscriber/_id"
+  },
+  {
+    "name": "Admin-Edit-opportunities-id___en",
+    "path": "/Admin/Edit/opportunities/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\opportunities\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/opportunities/_id"
   },
   {
     "name": "Admin-Edit-page-id___en",
@@ -2327,10 +2813,28 @@
     "chunkName": "pages/Admin/Edit/product/_id"
   },
   {
+    "name": "Admin-Edit-projects-id___en",
+    "path": "/Admin/Edit/projects/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\projects\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/projects/_id"
+  },
+  {
+    "name": "Admin-Edit-quotes-id___en",
+    "path": "/Admin/Edit/quotes/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\quotes\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/quotes/_id"
+  },
+  {
     "name": "Admin-Edit-report-id___en",
     "path": "/Admin/Edit/report/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\report\\\\_id.vue",
     "chunkName": "pages/Admin/Edit/report/_id"
+  },
+  {
+    "name": "Admin-Edit-reports-id___en",
+    "path": "/Admin/Edit/reports/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\reports\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/reports/_id"
   },
   {
     "name": "Admin-Edit-return-id___en",
@@ -2369,6 +2873,12 @@
     "chunkName": "pages/Admin/Edit/tag/_id"
   },
   {
+    "name": "Admin-Edit-tasks-id___en",
+    "path": "/Admin/Edit/tasks/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\tasks\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/tasks/_id"
+  },
+  {
     "name": "Admin-Edit-taxrate-id___en",
     "path": "/Admin/Edit/taxrate/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\taxrate\\\\_id.vue",
@@ -2379,6 +2889,12 @@
     "path": "/Admin/Edit/taxrule/:id?",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\taxrule\\\\_id.vue",
     "chunkName": "pages/Admin/Edit/taxrule/_id"
+  },
+  {
+    "name": "Admin-Edit-warehouse-id___en",
+    "path": "/Admin/Edit/warehouse/:id?",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Edit\\\\warehouse\\\\_id.vue",
+    "chunkName": "pages/Admin/Edit/warehouse/_id"
   },
   {
     "name": "Admin-Marketing-Email-id___en",

@@ -1,7 +1,6 @@
-/* eslint-disable vue/no-unused-vars */
 <template>
   <lunr-search :lang="lang">
-    <template #default="{ result, index, maxScore, meta }">
+    <template #default="{ result, maxScore, meta }">
       <nuxt-link :to="meta.href">
         {{ meta.title }}
         <span>score: {{ Math.round(100 * result.score / maxScore) }}%</span>

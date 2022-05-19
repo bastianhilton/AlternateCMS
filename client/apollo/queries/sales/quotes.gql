@@ -1,0 +1,32 @@
+query MyQuery {
+  quotes {
+    id
+    name
+    grand_total
+    customers
+    cust_id
+    created_at
+    categories
+    customer {
+      id
+      first_name
+      last_name
+      middle_name
+    }
+    order {
+      id
+      cust_id
+      bill_to_name
+    }
+    order_id
+    prod_id
+    quote_stage
+    valid_until
+    product {
+      price
+      product
+      id
+      name
+    }
+  }
+}

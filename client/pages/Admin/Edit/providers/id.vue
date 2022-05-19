@@ -1,6 +1,6 @@
 <template>
   <div>
-    <table class="table">
+    <table id="table" data-toggle="table" class="table">
       <tbody>
         <tr>
           <td>Apple</td>

@@ -2,39 +2,34 @@
   <div>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand"><FormulateInput type="button">Advance Reporting</FormulateInput></a>
-        <a class="navbar-brand"><FormulateInput type="button" style="float:left; left: 12%; position: absolute;">AI Intelligence</FormulateInput></a>
-        <a class="navbar-brand"><FormulateInput type="button" style="float:left; left: 22%; position: absolute;">Meeovi Analytics</FormulateInput></a>
-        
+        <a class="navbar-brand" href="/admin/add-new/add-new-case"><FormulateInput type="button">Create A Case</FormulateInput></a>        
 </div>
 </nav>
 <br>
     <div class="table table-responsive">
-        <table class="table">
+        <table data-toggle="table" id="table" class="table">
         <thead class="table table-dark">
           <tr>
-            <th>Theme Title</th>
-            <th>Parent Theme</th>
-            <th>Theme Path</th>
+            <th>Case ID</th>
+            <th>Subject</th>
+            <th>Account Name</th>
+            <th>Priority</th>
+            <th>Status</th>
+            <th>Assigned to</th>
+            <th>Dated Created</th>
             <th>Action</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Sit</td>
-            <td>Amet</td>
-            <td>Consectetur</td>
-            <td><a :href="`/admin/edit/agreement/${agreements.id}`">View</a></td>
-          </tr>
-          <tr>
-            <td>Adipisicing</td>
-            <td>Elit</td>
-            <td><a :href="`/admin/edit/agreement/${agreements.id}`">View</a></td>
-          </tr>
-          <tr>
-            <td>Hic</td>
-            <td>Fugiat</td>
-            <td><a :href="`/admin/edit/agreement/${agreements.id}`">View</a></td>
+            <td>{{ cases.id }}</td>
+            <td>{{ cases.subject }}</td>
+            <td>{{ cases.account_name }}</td>
+            <td>{{ cases.priority }}</td>
+            <td>{{ cases.status }}</td>
+            <td>{{ cases.assigned_to }}</td>
+            <td>{{ cases.created_at }}</td>
+            <td><a :href="`/admin/edit/cases/${cases.id}`">View</a></td>
           </tr>
         </tbody>
       </table>
@@ -44,9 +39,20 @@
 </template>
 
 <script>
+ import cases from '~/apollo/queries/reports/cases'
 
-  export default {
-
+export default {
+  data() {
+    return {
+      cases: [],
+    }
+  },
+  apollo: {
+    cases: {
+      prefetch: true,
+      query: cases
+    }
+  }, 
     head: {
       title: 'Cases'
     }

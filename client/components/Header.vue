@@ -45,7 +45,7 @@
                                 <a class="dropdown-item" href="/admin/sales/certificates">Gift Certificates</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/sales/payment-virtual-terminal">Payment Virtual Terminal</a>
+                                <a class="dropdown-item" href="/admin/sales/quotes">Quotes</a>
                             </li>
                         </ul>
                     </li>
@@ -168,7 +168,7 @@
                                 <a class="dropdown-item" href="/admin/reports/statistics">Statistics</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/reports/customer-engagement">Customer Engagement</a>
+                                <a class="dropdown-item" href="/admin/reports/calendars">Calendars</a>
                             </li>
                         </ul>
                     </li>
