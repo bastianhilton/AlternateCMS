@@ -16637,6 +16637,11 @@
   "resolved" "https://registry.npmjs.org/p-try/-/p-try-2.2.0.tgz"
   "version" "2.2.0"
 
+"pa-dss-version@^1.0.4":
+  "integrity" "sha512-j/W34NbJD5quPF4Q3nUyfExv541Fut1hotLXNeIa1HZb7fvzUS+d+BzWQ0slUVSenLzhTp7NnHyikxy7oVNRlg=="
+  "resolved" "https://registry.npmjs.org/pa-dss-version/-/pa-dss-version-1.0.4.tgz"
+  "version" "1.0.4"
+
 "pac-proxy-agent@^5.0.0":
   "integrity" "sha512-CcFG3ZtnxO8McDigozwE3AqAw15zDvGH+OjXO4kzf7IkEKkQ4gxQ+3sdF50WmhQ4P/bVusXcqNE2S3XrNURwzQ=="
   "resolved" "https://registry.npmjs.org/pac-proxy-agent/-/pac-proxy-agent-5.0.0.tgz"

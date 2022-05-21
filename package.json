@@ -96,6 +96,7 @@
     "nuxt-socket-io": "^2.0.3",
     "nuxt-webpack-optimisations": "^2.2.0",
     "nuxtjs-darkmode-js-module": "^1.0.3",
+    "pa-dss-version": "^1.0.4",
     "passport": "^0.5.2",
     "passport-apple": "^2.0.1",
     "passport-auth0": "^1.4.2",

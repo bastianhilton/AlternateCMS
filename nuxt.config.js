@@ -66,7 +66,8 @@ export default {
   plugins: [
     { src: '~plugins/simplemde.js', mode: 'client' },
     { src: '~plugins/main.js', mode: 'client' },
-    { src: '~plugins/paypal.js', ssr: false },
+    { src: '~plugins/commerce/paypal.js', ssr: false },
+    { src: '~plugins/commerce/pa-dss.js', ssr: false },
     { src: '~plugins/client.js', ssr: false },
     // { src: '~plugins/email.js', ssr: false },
     // { src: '~plugins/upload.js', mode: 'client' },
