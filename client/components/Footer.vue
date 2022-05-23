@@ -21,7 +21,7 @@
         class="primary lighten-2 py-4 text-center white--text"
         cols="12"
       >
-        @ {{ new Date().getFullYear() }} — <strong>AlternateCMS</strong>
+        @ {{ new Date().getFullYear() }} — <strong><a href="https://www.alternatecms.com">Powered by AlternateCMS</a></strong>
       </v-col>
     </v-row>
   </v-footer>

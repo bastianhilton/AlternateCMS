@@ -1,5 +1,5 @@
-query MyQuery {
-  quotes {
+query  MyQuery ($id: Int){
+  quotes (where: {id: {_eq: $id}}) {
     account
     approval_issues
     approval_status

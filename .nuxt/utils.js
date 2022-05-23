@@ -200,7 +200,7 @@ export async function setContext (app, context) {
       payload: context.payload,
       error: context.error,
       base: app.router.options.base,
-      env: {"DATABASE_URL":"postgresql://postgres:Libraxus@1986@db.qwizzmwhcnagzjunguve.supabase.co:5432/postgres","RECAPTCHA_SITE_KEY":"","YOUR_SUPABASE_KEY":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF3aXp6bXdoY25hZ3pqdW5ndXZlIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NTI5Nzc5OTgsImV4cCI6MTk2ODU1Mzk5OH0._o3m3Vt1xq3Sce8RiUxcjvMsWlLNFPbAD5C4ZOKyuP0","YOUR_SUPABASE_URL":"https://qwizzmwhcnagzjunguve.supabase.co"}
+      env: {"DATABASE_URL":"postgresql://postgres:Whurashia1986@db.wyhrhklrokwbwfwkgyoi.supabase.co:5432/postgres","YOUR_SUPABASE_URL":"db.wyhrhklrokwbwfwkgyoi.supabase.co","YOUR_SUPABASE_KEY":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind5aHJoa2xyb2t3Yndmd2tneW9pIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDQ0NDY4ODgsImV4cCI6MTk2MDAyMjg4OH0.YkHlpppiybDFNr_Cv-mE6zfR04Xwmev4NR2a1xEnERs","RECAPTCHA_SITE_KEY":"6LfpcpceAAAAAIiNkvhIk9u-Y-vI6YCpixsJ2SgX"}
     }
     // Only set once
 
