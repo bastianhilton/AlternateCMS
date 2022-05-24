@@ -237,8 +237,8 @@
   } from "~/apollo/queries/customers/leads";
 /* eslint-disable camelcase */
   const ADD_LEADS = gql `
-    mutation ($prefix: String!, $account_name: String!, $address: String!, $address: String!, $city: String!, $country: String!, $postalcode: String!, $campaign: String!, $customer_name: String!, $description: String!, $department: String!, $email: String!, $fax: String!, $first_name: String!, $last_name: String!, $job_title: String!, $lead_source: String!, $lead_source_description: String!, $mobile: String!, $status: String!, $status_description: String!, $office_phone: String!, $opportunity_amount: String){
-    insert_leads(objects: {prefix: $prefix, account_name: $account_name, address: $address, address: $address, city: $city, country: $country, postalcode: $postalcode, campaign: $campaign, customer_name: $customer_name, description: $description, department: $department, email: $email, fax: $fax, first_name: $first_name, last_name: $last_name, job_title: $job_title, lead_source: $lead_source, lead_source_description: $lead_source_description, mobile: $mobile, status: $status, status_description: $status_description, office_phone: $office_phone, opportunity_amount: $opportunity_amount}) {
+    mutation ($prefix: String!, $account_name: String!, $address: String!, $address: String!, $city: String!, $country: String!, $postalcode: String!, $campaign: String!, $customer_name: String!, $description: String!, $department: String!, $email: String!, $fax: String!, $first_name: String!, $last_name: String!, $job_title: String!, $lead_source: String!, $lead_source_description: String!, $mobile: String!, $status: String!, $status_description: String!, $office_phone: String!, $opportunity_amount: String!, $state: String!, $website: String!, $assigned_to: String){
+    insert_leads(objects: {prefix: $prefix, account_name: $account_name, address: $address, address: $address, city: $city, country: $country, postalcode: $postalcode, campaign: $campaign, customer_name: $customer_name, description: $description, department: $department, email: $email, fax: $fax, first_name: $first_name, last_name: $last_name, job_title: $job_title, lead_source: $lead_source, lead_source_description: $lead_source_description, mobile: $mobile, status: $status, status_description: $status_description, office_phone: $office_phone, opportunity_amount: $opportunity_amount, state: $state, website: $website, assigned_to: $assigned_to}) {
         affected_rows
         returning {
             prefix
@@ -252,6 +252,7 @@
             description
             department
             email
+            state
             fax
             first_name
             last_name
@@ -269,6 +270,8 @@
             alt_country
             alt_postalcode
             alt_state
+            website
+            assigned_to
     }
   }
 }`;
@@ -294,6 +297,7 @@
         lead_source:" ",
         lead_source_description:" ",
         mobile:" ",
+        state: " ",
         status:" ",
         status_description:" ",
         office_phone:" ",
@@ -304,6 +308,8 @@
         alt_country:" ",
         alt_postalcode:" ",
         alt_state:" ",
+        assigned_to:" ",
+        website:" ",
       }
     },
     head: {
@@ -338,7 +344,10 @@
         const alt_city = this.alt_city;
         const alt_country = this.alt_country;
         const alt_postalcode = this.alt_postalcode;
+        const state = this.state;
         const alt_state = this.alt_state;
+        const website = this.website;
+        const assigned_to = this.assigned_to;
         await this.$apollo.mutate({
           mutation: ADD_LEADS,
           variables: {
@@ -353,6 +362,8 @@
             description,
             department,
             email,
+            website,
+            assigned_to,
             fax,
             first_name,
             last_name,
@@ -360,6 +371,7 @@
             lead_source,
             lead_source_description,
             mobile,
+            state,
             status,
             status_description,
             office_phone,
@@ -409,6 +421,7 @@
         this.lead_source = ' ';
         this.lead_source_description = ' ';
         this.mobile = ' ';
+        this.state = ' ';
         this.status = ' ';
         this.status_description = ' ';
         this.office_phone = ' ';
@@ -419,6 +432,8 @@
         this.alt_country = ' ';
         this.alt_postalcode = ' ';
         this.alt_state = ' ';
+        this.website = ' ';
+        this.assigned_to = ' ';
       },
 
     },

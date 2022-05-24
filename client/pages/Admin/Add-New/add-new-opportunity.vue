@@ -1,6 +1,6 @@
 <template>
     <div>
-        <FormulateForm method="POST" @submit.prevent  enctype="multipart/form-data">
+        <FormulateForm method="POST" enctype="multipart/form-data"  @submit.prevent>
         <div class="table table-responsive">
             <table class="table" >
                 <thead>
@@ -9,7 +9,7 @@
                         </th>
                         <th scope="col" class="opportunityAddOptions">
                             <li><a href="/admin/add-new/add-new-customer"><FormulateInput type="button">Add New Customer</FormulateInput></a></li>
-                            <li><FormulateInput type="submit" @click="addOpportunity" label="Save" /></li>
+                            <li><FormulateInput type="submit" label="Save" @click="addOpportunity" /></li>
                         </th>
                     </tr>
                 </thead>
@@ -127,7 +127,7 @@ const ADD_OPPORTUNITIES = gql `
       }
     },
     methods: {
-      async addOpportunities() {
+      async addOpportunity() {
         const name = this.name;
         const categories = this.categories;
         const lead_source = this.lead_source;

@@ -1,99 +1,56 @@
 <template>
     <div>
-        <FormulateForm method="POST" @submit.prevent  enctype="multipart/form-data">
+        <FormulateForm method="POST" enctype="multipart/form-data"  @submit.prevent>
         <div class="table table-responsive">
             <table class="table" >
                 <thead>
                     <tr>
                         <th>
                         </th>
-                        <th scope="col" class="articleAddOptions">
-                            <li><a href="/admin/add-new/add-new-tag"><FormulateInput type="button">Add New Tag</FormulateInput></a></li>
-                            <li><FormulateInput type="submit" @click="addArticle" label="Save" /></li>
+                        <th scope="col" class="taskAddOptions">
+                            <li><FormulateInput type="submit" label="Save" @click="addTask" /></li>
                         </th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td style="text-align: right;">Article Name</td>
-                        <td><FormulateInput v-model="name" type="text" required /></td>
+                        <td style="text-align: right;">Subject</td>
+                        <td><FormulateInput v-model="subject" type="text" required /></td>
                     </tr>
                     <tr>
-                        <td style="text-align: right;">Categories</td>
-                        <td><FormulateInput type="select" :options="categories.name" v-model="categories" name="Select">
-                            </FormulateInput></td>
+                        <td style="text-align: right;">Start Date</td>
+                        <td><FormulateInput v-model="start_date" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">End Date</td>
+                        <td><FormulateInput v-model="due_date" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">Priority</td>
+                        <td><FormulateInput v-model="priority" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">Status</td>
+                        <td><FormulateInput v-model="status" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">Related To</td>
+                        <td><FormulateInput v-model="related_to" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">Contact</td>
+                        <td><FormulateInput v-model="contact" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">Description</td>
+                        <td><FormulateInput v-model="description" type="textarea" /></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">Assigned To</td>
+                        <td><FormulateInput v-model="assigned_to" type="textarea" /></td>
                     </tr>
                 </tbody>
             </table>
-        </div>
-        <br><br>
-        <div id="accordionExample" class="accordion">
-            <div class="accordion-item">
-                <h2 id="headingOne" class="accordion-header">
-                    <FormulateInput class="accordion-button" type="button" data-mdb-toggle="collapse"
-                        data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Content
-                    </FormulateInput>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                    data-mdb-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <div class="table table-responsive">
-                            <table class="table" >
-                                <tbody>
-                                    <tr>
-                                        <td style="text-align: right;">Excerpt</td>
-                                        <td>
-                                            <div class="form-check form-switch">
-                                                <FormulateInput
-  id="excerpt" type="textarea" validation="required|max:50,length" :help="`Keep it under 50 characters. ${50 - value.length} left.`" cols="50" rows="10" label="Add a short Description"></FormulateInput>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="text-align: right;">Description</td>
-                                        <td>
-                                            <div class="form-check form-switch">
-                                                <client-only>
-                                                    <vue-simplemde id="articleDescription" v-model="content" />
-                                                </client-only>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 id="headingThree" class="accordion-header">
-                    <FormulateInput class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
-                        data-mdb-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Images and Videos
-                    </FormulateInput>
-                </h2>
-                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                    data-mdb-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <td><FormulateInput type="image" name="headshot" v-model="image" label="Select an image to upload" help="Select a png, jpg or gif to upload." validation="mime:image/jpeg,image/png,image/gif"/></td>
-                    </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 id="headingFive" class="accordion-header">
-                    <FormulateInput class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
-                        data-mdb-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                        Related Products, Up-Sells, and Cross-Sells
-                    </FormulateInput>
-                </h2>
-                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                    data-mdb-parent="#accordionExample">
-                    <div class="accordion-body">
-                        
-                    </div>
-                </div>
-            </div>
         </div>
     </FormulateForm>
     </div>
@@ -102,19 +59,23 @@
 <script>
 import gql from "graphql-tag";
 
-import { articles } from "~/apollo/queries/content/articles";
-import categories from '~/apollo/queries/shop/categories'
+import { tasks } from "~/apollo/queries/customers/tasks";
+/* eslint-disable camelcase */
 
-const ADD_ARTICLES = gql`
-    mutation ($name:String!,$excerpt:String,$categories:String,$content:String,$image:String){
-    insert_articles(objects: {name: $name, excerpt: $excerpt, categories: $categories, content: $content, image: $image}) {
+const ADD_TASKS = gql`
+    mutation ($subject:String!,$status:String!,$due_date:String!,$description:String!,$assigned_to:String!,$priority:String!,$contact:String!,$start_date:String!,$related_to:String!){
+    insert_tasks(objects: {subject: $subject, status: $status, due_date: $due_date, description: $description, assigned_to: $assigned_to, priority: $priority, contact: $contact, start_date: $start_date, related_to: $related_to}) {
         affected_rows
         returning {
-            name
-            excerpt
-            categories
-            content
-            image
+            subject
+            status
+            due_date
+            description
+            assigned_to
+            priority
+            contact
+            start_date
+            related_to
     }
   }
 }`;
@@ -122,37 +83,50 @@ const ADD_ARTICLES = gql`
 export default {
     data() {
     return {
-        categories: [],
-        name: " ",
-        excerpt: " ",
-        content: " ",
-        image: " ",
-        
+        subject: " ",
+        status: " ",
+        description: " ",
+        assigned_to: " ",
+        priority: " ",
+        contact: " ",
+        start_date: " ",
+        related_to: " ",
       }
   },
+    head: {
+        title: 'Add New Task'
+    },
   methods: {
-      async addArticle() {
-            const name = this.name;
-            const content = this.content;
-            const excerpt = this.excerpt;
-            const categories = this.categories;
-            const image = this.image;
+      async addTask() {
+            const subject = this.subject;
+            const description = this.description;
+            const status = this.status;
+            const due_date = this.due_date;
+            const assigned_to = this.assigned_to;
+            const priority = this.priority;
+            const contact = this.contact;
+            const start_date = this.start_date;
+            const related_to = this.related_to;
             await this.$apollo.mutate({
-                mutation: ADD_ARTICLES,
+                mutation: ADD_TASKS,
                 variables: {
-                    name,
-                    excerpt,
-                    categories,
-                    content,
-                    image,
+                    subject,
+                    status,
+                    due_date,
+                    description,
+                    assigned_to,
+                    priority,
+                    contact,
+                    start_date,
+                    related_to,
                 },
-        update: (cache, { data: { insertCategories }}) => {
+        update: (cache, { data: { insertTasks }}) => {
                         // Read data from cache for this query
                         try {
-                            const insertedCategory = insertCategories.returning;
-                            console.log(insertedCategory)
+                            const insertedTask = insertTasks.returning;
+                            console.log(insertedTask)
                             cache.writeQuery({
-                                query: articles
+                                query: tasks
                             })
                         }
                         catch (err) {
@@ -160,26 +134,20 @@ export default {
                         }
                     }
                 }).then(() => {
-                    this.$router.push({path: '../content/blog'})
+                    this.$router.push({path: '../customers/tasks'})
                 }).catch(err => console.log(err));
-                this.name = ' ';
-                this.excerpt = ' ';
-                this.categories = ' ';
-                this.content = ' ';
-                this.image = ' ';
+                this.subject = ' ';
+                this.status = ' ';
+                this.due_date = ' ';
+                this.description = ' ';
+                this.assigned_to = ' ';
+                this.priority = ' ';
+                this.contact = ' ';
+                this.start_date = ' ';
+                this.related_to = ' ';
             },
             
-        },
-    apollo: {
-        categories: {
-        prefetch: true,
-        query: categories
         }
-    }, 
-    // eslint-disable-next-line vue/order-in-components
-    head: {
-        title: 'Add New Task'
-    }
 }
 </script>
 
