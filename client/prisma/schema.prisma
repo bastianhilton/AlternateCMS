@@ -394,6 +394,36 @@ model quotes {
   cust_id                     Int       @default(autoincrement())
   prod_id                     BigInt    @default(autoincrement())
   order_id                    Int       @default(autoincrement())
+  invoice_status              String?
+  payment_terms               String?
+  assigned_to                 String?
+  approval_status             String?
+  approval_issues             String?
+  account                     String?
+  contact                     String?
+  billing_street              String?
+  billing_city                String?
+  billing_state               String?
+  billing_postal              String?
+  billing_country             String?
+  shipping_street             String?
+  shipping_city               String?
+  shipping_state              String?
+  shipping_postal             String?
+  shipping_country            String?
+  currency                    String?
+  total                       String?
+  subtotal                    String?
+  discount                    String?
+  shipping                    String?
+  shipping_tax                String?
+  tax                         String?
+  line_item_name              String?
+  line_item_total             String?
+  line_item_subtotal          String?
+  line_item_discount          String?
+  line_item_tax               String?
+  line_item_group_total       String?
   customers_customersToquotes customers @relation(fields: [cust_id], references: [id])
   orders                      orders    @relation(fields: [order_id], references: [id])
   products_productsToquotes   products  @relation(fields: [prod_id], references: [id])
@@ -1112,4 +1142,30 @@ model webhooks {
   delete     String?
   publish    String?
   unpublish  String?
+}
+
+model meeting {
+  id          BigInt    @id @default(autoincrement())
+  created_at  DateTime? @default(now()) @db.Timestamptz(6)
+  subject     String?
+  start_date  String?
+  end_date    String?
+  duration    String?
+  status      String?
+  related_to  String?
+  reminders   String?
+  content     String?
+  assigned_to String?
+  invitees    String?
+  scheduling  String?
+}
+
+model ooto {
+  id         BigInt    @id @default(autoincrement())
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  login      String?
+  start_date String?
+  end_date   String?
+  note       String?
+  using_time String?
 }
