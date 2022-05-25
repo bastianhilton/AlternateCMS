@@ -16,6 +16,7 @@ const _2d8e5852 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New
 const _4e56e6a5 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-campaign.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-campaign" */))
 const _14f95745 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-case.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-case" */))
 const _5d74fb93 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-category.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-category" */))
+const _1bdf65e1 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-checklist.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-checklist" */))
 const _820c4000 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-city.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-city" */))
 const _70195c1a = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-collection.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-collection" */))
 const _1f11b4b2 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-contract.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-contract" */))
@@ -23,22 +24,33 @@ const _5fcc4091 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New
 const _5bbfddfb = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-coupon.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-coupon" */))
 const _79b74e73 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-customer.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-customer" */))
 const _26c7e69c = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-customergroup.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-customergroup" */))
+const _580d3275 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-deepdive.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-deepdive" */))
+const _1f88ec72 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-emailtemplates.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-emailtemplates" */))
+const _6bebbfc4 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-eosr.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-eosr" */))
 const _66b13655 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-event.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-event" */))
+const _64143c1a = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-fullfilment.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-fullfilment" */))
 const _34b55af4 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-gift-certificates.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-gift-certificates" */))
 const _3254f8b3 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-glossary.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-glossary" */))
 const _f724eeb0 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-invoice.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-invoice" */))
+const _12eb0e8a = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-knowledgebase.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-knowledgebase" */))
 const _70b78571 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-lead.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-lead" */))
+const _f9b14e94 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-meeting.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-meeting" */))
 const _c451bae4 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-newsletter.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-newsletter" */))
 const _b1f9e4e2 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-newslettersubscriber copy.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-newslettersubscriber copy" */))
+const _4b3f1a20 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-ooto.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-ooto" */))
 const _54be7fce = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-opportunity.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-opportunity" */))
 const _46ee7724 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-page.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-page" */))
+const _5bfe6301 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-payment.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-payment" */))
+const _02828e1c = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-pdftemplates.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-pdftemplates" */))
 const _5ee6616a = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-product.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-product" */))
 const _7fc9ba94 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-project.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-project" */))
 const _0c6d4137 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-quote.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-quote" */))
 const _aaefb7ee = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-report.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-report" */))
 const _f1c4a3f6 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-return.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-return" */))
 const _7335d7a6 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-review.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-review" */))
+const _232dedc2 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-rewards.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-rewards" */))
 const _03d0498b = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-role.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-role" */))
+const _ed5b46a8 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-schedule.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-schedule" */))
 const _7f0271ae = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-segment.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-segment" */))
 const _21c8022f = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-shipment.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-shipment" */))
 const _51d06cce = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-staffmembers.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-staffmembers" */))
@@ -51,6 +63,7 @@ const _58836586 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New
 const _6cd941a2 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-taxrule.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-taxrule" */))
 const _56475ef4 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-visit.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-visit" */))
 const _15840f04 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-warehouse.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-warehouse" */))
+const _472a0cf2 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-warehouse copy.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-warehouse copy" */))
 const _478cf93a = () => interopDefault(import('..\\client\\pages\\Admin\\Content\\blog.vue' /* webpackChunkName: "pages/Admin/Content/blog" */))
 const _11c0c35f = () => interopDefault(import('..\\client\\pages\\Admin\\Content\\glossary.vue' /* webpackChunkName: "pages/Admin/Content/glossary" */))
 const _07f1e95a = () => interopDefault(import('..\\client\\pages\\Admin\\Content\\media-manager.vue' /* webpackChunkName: "pages/Admin/Content/media-manager" */))
@@ -72,14 +85,19 @@ const _2921453c = () => interopDefault(import('..\\client\\pages\\Admin\\Marketi
 const _da541c32 = () => interopDefault(import('..\\client\\pages\\Admin\\Marketing\\newsletter.vue' /* webpackChunkName: "pages/Admin/Marketing/newsletter" */))
 const _47bf29dd = () => interopDefault(import('..\\client\\pages\\Admin\\Marketing\\reviews.vue' /* webpackChunkName: "pages/Admin/Marketing/reviews" */))
 const _6291e61f = () => interopDefault(import('..\\client\\pages\\Admin\\Marketing\\seo.vue' /* webpackChunkName: "pages/Admin/Marketing/seo" */))
+const _4fa35f18 = () => interopDefault(import('..\\client\\pages\\Admin\\Marketing\\ticketing.vue' /* webpackChunkName: "pages/Admin/Marketing/ticketing" */))
+const _01edcb08 = () => interopDefault(import('..\\client\\pages\\Admin\\Marketing\\training.vue' /* webpackChunkName: "pages/Admin/Marketing/training" */))
 const _1f5b8b04 = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\calendars.vue' /* webpackChunkName: "pages/Admin/Reports/calendars" */))
 const _03d1424c = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\cases.vue' /* webpackChunkName: "pages/Admin/Reports/cases" */))
+const _726293be = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\deep-dive.vue' /* webpackChunkName: "pages/Admin/Reports/deep-dive" */))
+const _b6e442e0 = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\eosr.vue' /* webpackChunkName: "pages/Admin/Reports/eosr" */))
 const _658a7c21 = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\marketing-reports.vue' /* webpackChunkName: "pages/Admin/Reports/marketing-reports" */))
 const _3dc08b5d = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\products-reports.vue' /* webpackChunkName: "pages/Admin/Reports/products-reports" */))
 const _59cf3238 = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\reviews.vue' /* webpackChunkName: "pages/Admin/Reports/reviews" */))
 const _05f9b287 = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\sales-reports.vue' /* webpackChunkName: "pages/Admin/Reports/sales-reports" */))
 const _0641aa2c = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\statistics.vue' /* webpackChunkName: "pages/Admin/Reports/statistics" */))
 const _b5492fbc = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\surveys.vue' /* webpackChunkName: "pages/Admin/Reports/surveys" */))
+const _3c938b92 = () => interopDefault(import('..\\client\\pages\\Admin\\Reports\\team-scheduler.vue' /* webpackChunkName: "pages/Admin/Reports/team-scheduler" */))
 const _1c600fbd = () => interopDefault(import('..\\client\\pages\\Admin\\Sales\\agreements.vue' /* webpackChunkName: "pages/Admin/Sales/agreements" */))
 const _2d9f7d60 = () => interopDefault(import('..\\client\\pages\\Admin\\Sales\\certificates.vue' /* webpackChunkName: "pages/Admin/Sales/certificates" */))
 const _052225b9 = () => interopDefault(import('..\\client\\pages\\Admin\\Sales\\credit-memos.vue' /* webpackChunkName: "pages/Admin/Sales/credit-memos" */))
@@ -105,6 +123,7 @@ const _c461b0a4 = () => interopDefault(import('..\\client\\pages\\Admin\\Shop\\w
 const _4ad60eff = () => interopDefault(import('..\\client\\pages\\Admin\\System\\general-settings.vue' /* webpackChunkName: "pages/Admin/System/general-settings" */))
 const _4f9ed4d8 = () => interopDefault(import('..\\client\\pages\\Admin\\System\\help.vue' /* webpackChunkName: "pages/Admin/System/help" */))
 const _89238694 = () => interopDefault(import('..\\client\\pages\\Admin\\System\\integrations.vue' /* webpackChunkName: "pages/Admin/System/integrations" */))
+const _455e0cf2 = () => interopDefault(import('..\\client\\pages\\Admin\\System\\ooto.vue' /* webpackChunkName: "pages/Admin/System/ooto" */))
 const _42f4bd26 = () => interopDefault(import('..\\client\\pages\\Admin\\System\\role-manager.vue' /* webpackChunkName: "pages/Admin/System/role-manager" */))
 const _fab8ad8c = () => interopDefault(import('..\\client\\pages\\Admin\\System\\settings.vue' /* webpackChunkName: "pages/Admin/System/settings" */))
 const _4cb64913 = () => interopDefault(import('..\\client\\pages\\Admin\\Customers\\customer\\newcustomer.vue' /* webpackChunkName: "pages/Admin/Customers/customer/newcustomer" */))
@@ -122,14 +141,17 @@ const _3721c72a = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\c
 const _29483896 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\country\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/country/_id" */))
 const _f5dbb0dc = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\coupon\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/coupon/_id" */))
 const _28b917ab = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\customergroup\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/customergroup/_id" */))
+const _1380ae57 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\deep-dive\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/deep-dive/_id" */))
 const _1c176092 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\event\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/event/_id" */))
 const _daf11b84 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\gift-certificate\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/gift-certificate/_id" */))
 const _513c89cc = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\glossary\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/glossary/_id" */))
 const _75193242 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\invoice\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/invoice/_id" */))
 const _e3151996 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\leads\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/leads/_id" */))
+const _1a3f6f91 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\meeting\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/meeting/_id" */))
 const _39f35e40 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\meetings\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/meetings/_id" */))
 const _b3e52542 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\newsletter\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/newsletter/_id" */))
 const _00ab6c92 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\newslettersubscriber\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/newslettersubscriber/_id" */))
+const _4882d87d = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\ooto\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/ooto/_id" */))
 const _9c09174a = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\opportunities\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/opportunities/_id" */))
 const _9e59566e = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\page\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/page/_id" */))
 const _d0649146 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\product\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/product/_id" */))
@@ -143,6 +165,7 @@ const _2a759cce = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\s
 const _71f581c4 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\shipment\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/shipment/_id" */))
 const _b10b570a = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\state\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/state/_id" */))
 const _727b1bdc = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\tag\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/tag/_id" */))
+const _0af612f2 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\target\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/target/_id" */))
 const _ffd3abc4 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\tasks\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/tasks/_id" */))
 const _1b7ae4c1 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\taxrate\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/taxrate/_id" */))
 const _0e363a25 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\taxrule\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/taxrule/_id" */))
@@ -229,6 +252,10 @@ export const routerOptions = {
     component: _5d74fb93,
     name: "Admin-Add-New-add-new-category___en"
   }, {
+    path: "/Admin/Add-New/add-new-checklist",
+    component: _1bdf65e1,
+    name: "Admin-Add-New-add-new-checklist___en"
+  }, {
     path: "/Admin/Add-New/add-new-city",
     component: _820c4000,
     name: "Admin-Add-New-add-new-city___en"
@@ -257,9 +284,25 @@ export const routerOptions = {
     component: _26c7e69c,
     name: "Admin-Add-New-add-new-customergroup___en"
   }, {
+    path: "/Admin/Add-New/add-new-deepdive",
+    component: _580d3275,
+    name: "Admin-Add-New-add-new-deepdive___en"
+  }, {
+    path: "/Admin/Add-New/add-new-emailtemplates",
+    component: _1f88ec72,
+    name: "Admin-Add-New-add-new-emailtemplates___en"
+  }, {
+    path: "/Admin/Add-New/add-new-eosr",
+    component: _6bebbfc4,
+    name: "Admin-Add-New-add-new-eosr___en"
+  }, {
     path: "/Admin/Add-New/add-new-event",
     component: _66b13655,
     name: "Admin-Add-New-add-new-event___en"
+  }, {
+    path: "/Admin/Add-New/add-new-fullfilment",
+    component: _64143c1a,
+    name: "Admin-Add-New-add-new-fullfilment___en"
   }, {
     path: "/Admin/Add-New/add-new-gift-certificates",
     component: _34b55af4,
@@ -273,9 +316,17 @@ export const routerOptions = {
     component: _f724eeb0,
     name: "Admin-Add-New-add-new-invoice___en"
   }, {
+    path: "/Admin/Add-New/add-new-knowledgebase",
+    component: _12eb0e8a,
+    name: "Admin-Add-New-add-new-knowledgebase___en"
+  }, {
     path: "/Admin/Add-New/add-new-lead",
     component: _70b78571,
     name: "Admin-Add-New-add-new-lead___en"
+  }, {
+    path: "/Admin/Add-New/add-new-meeting",
+    component: _f9b14e94,
+    name: "Admin-Add-New-add-new-meeting___en"
   }, {
     path: "/Admin/Add-New/add-new-newsletter",
     component: _c451bae4,
@@ -285,6 +336,10 @@ export const routerOptions = {
     component: _b1f9e4e2,
     name: "Admin-Add-New-add-new-newslettersubscriber copy___en"
   }, {
+    path: "/Admin/Add-New/add-new-ooto",
+    component: _4b3f1a20,
+    name: "Admin-Add-New-add-new-ooto___en"
+  }, {
     path: "/Admin/Add-New/add-new-opportunity",
     component: _54be7fce,
     name: "Admin-Add-New-add-new-opportunity___en"
@@ -292,6 +347,14 @@ export const routerOptions = {
     path: "/Admin/Add-New/add-new-page",
     component: _46ee7724,
     name: "Admin-Add-New-add-new-page___en"
+  }, {
+    path: "/Admin/Add-New/add-new-payment",
+    component: _5bfe6301,
+    name: "Admin-Add-New-add-new-payment___en"
+  }, {
+    path: "/Admin/Add-New/add-new-pdftemplates",
+    component: _02828e1c,
+    name: "Admin-Add-New-add-new-pdftemplates___en"
   }, {
     path: "/Admin/Add-New/add-new-product",
     component: _5ee6616a,
@@ -317,9 +380,17 @@ export const routerOptions = {
     component: _7335d7a6,
     name: "Admin-Add-New-add-new-review___en"
   }, {
+    path: "/Admin/Add-New/add-new-rewards",
+    component: _232dedc2,
+    name: "Admin-Add-New-add-new-rewards___en"
+  }, {
     path: "/Admin/Add-New/add-new-role",
     component: _03d0498b,
     name: "Admin-Add-New-add-new-role___en"
+  }, {
+    path: "/Admin/Add-New/add-new-schedule",
+    component: _ed5b46a8,
+    name: "Admin-Add-New-add-new-schedule___en"
   }, {
     path: "/Admin/Add-New/add-new-segment",
     component: _7f0271ae,
@@ -368,6 +439,10 @@ export const routerOptions = {
     path: "/Admin/Add-New/add-new-warehouse",
     component: _15840f04,
     name: "Admin-Add-New-add-new-warehouse___en"
+  }, {
+    path: "/Admin/Add-New/add-new-warehouse%20copy",
+    component: _472a0cf2,
+    name: "Admin-Add-New-add-new-warehouse copy___en"
   }, {
     path: "/Admin/Content/blog",
     component: _478cf93a,
@@ -453,6 +528,14 @@ export const routerOptions = {
     component: _6291e61f,
     name: "Admin-Marketing-seo___en"
   }, {
+    path: "/Admin/Marketing/ticketing",
+    component: _4fa35f18,
+    name: "Admin-Marketing-ticketing___en"
+  }, {
+    path: "/Admin/Marketing/training",
+    component: _01edcb08,
+    name: "Admin-Marketing-training___en"
+  }, {
     path: "/Admin/Reports/calendars",
     component: _1f5b8b04,
     name: "Admin-Reports-calendars___en"
@@ -460,6 +543,14 @@ export const routerOptions = {
     path: "/Admin/Reports/cases",
     component: _03d1424c,
     name: "Admin-Reports-cases___en"
+  }, {
+    path: "/Admin/Reports/deep-dive",
+    component: _726293be,
+    name: "Admin-Reports-deep-dive___en"
+  }, {
+    path: "/Admin/Reports/eosr",
+    component: _b6e442e0,
+    name: "Admin-Reports-eosr___en"
   }, {
     path: "/Admin/Reports/marketing-reports",
     component: _658a7c21,
@@ -484,6 +575,10 @@ export const routerOptions = {
     path: "/Admin/Reports/surveys",
     component: _b5492fbc,
     name: "Admin-Reports-surveys___en"
+  }, {
+    path: "/Admin/Reports/team-scheduler",
+    component: _3c938b92,
+    name: "Admin-Reports-team-scheduler___en"
   }, {
     path: "/Admin/Sales/agreements",
     component: _1c600fbd,
@@ -585,6 +680,10 @@ export const routerOptions = {
     component: _89238694,
     name: "Admin-System-integrations___en"
   }, {
+    path: "/Admin/System/ooto",
+    component: _455e0cf2,
+    name: "Admin-System-ooto___en"
+  }, {
     path: "/Admin/System/role-manager",
     component: _42f4bd26,
     name: "Admin-System-role-manager___en"
@@ -653,6 +752,10 @@ export const routerOptions = {
     component: _5d74fb93,
     name: "Admin-Add-New-add-new-category___es"
   }, {
+    path: "/es/Admin/Add-New/add-new-checklist",
+    component: _1bdf65e1,
+    name: "Admin-Add-New-add-new-checklist___es"
+  }, {
     path: "/es/Admin/Add-New/add-new-city",
     component: _820c4000,
     name: "Admin-Add-New-add-new-city___es"
@@ -681,9 +784,25 @@ export const routerOptions = {
     component: _26c7e69c,
     name: "Admin-Add-New-add-new-customergroup___es"
   }, {
+    path: "/es/Admin/Add-New/add-new-deepdive",
+    component: _580d3275,
+    name: "Admin-Add-New-add-new-deepdive___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-emailtemplates",
+    component: _1f88ec72,
+    name: "Admin-Add-New-add-new-emailtemplates___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-eosr",
+    component: _6bebbfc4,
+    name: "Admin-Add-New-add-new-eosr___es"
+  }, {
     path: "/es/Admin/Add-New/add-new-event",
     component: _66b13655,
     name: "Admin-Add-New-add-new-event___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-fullfilment",
+    component: _64143c1a,
+    name: "Admin-Add-New-add-new-fullfilment___es"
   }, {
     path: "/es/Admin/Add-New/add-new-gift-certificates",
     component: _34b55af4,
@@ -697,9 +816,17 @@ export const routerOptions = {
     component: _f724eeb0,
     name: "Admin-Add-New-add-new-invoice___es"
   }, {
+    path: "/es/Admin/Add-New/add-new-knowledgebase",
+    component: _12eb0e8a,
+    name: "Admin-Add-New-add-new-knowledgebase___es"
+  }, {
     path: "/es/Admin/Add-New/add-new-lead",
     component: _70b78571,
     name: "Admin-Add-New-add-new-lead___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-meeting",
+    component: _f9b14e94,
+    name: "Admin-Add-New-add-new-meeting___es"
   }, {
     path: "/es/Admin/Add-New/add-new-newsletter",
     component: _c451bae4,
@@ -709,6 +836,10 @@ export const routerOptions = {
     component: _b1f9e4e2,
     name: "Admin-Add-New-add-new-newslettersubscriber copy___es"
   }, {
+    path: "/es/Admin/Add-New/add-new-ooto",
+    component: _4b3f1a20,
+    name: "Admin-Add-New-add-new-ooto___es"
+  }, {
     path: "/es/Admin/Add-New/add-new-opportunity",
     component: _54be7fce,
     name: "Admin-Add-New-add-new-opportunity___es"
@@ -716,6 +847,14 @@ export const routerOptions = {
     path: "/es/Admin/Add-New/add-new-page",
     component: _46ee7724,
     name: "Admin-Add-New-add-new-page___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-payment",
+    component: _5bfe6301,
+    name: "Admin-Add-New-add-new-payment___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-pdftemplates",
+    component: _02828e1c,
+    name: "Admin-Add-New-add-new-pdftemplates___es"
   }, {
     path: "/es/Admin/Add-New/add-new-product",
     component: _5ee6616a,
@@ -741,9 +880,17 @@ export const routerOptions = {
     component: _7335d7a6,
     name: "Admin-Add-New-add-new-review___es"
   }, {
+    path: "/es/Admin/Add-New/add-new-rewards",
+    component: _232dedc2,
+    name: "Admin-Add-New-add-new-rewards___es"
+  }, {
     path: "/es/Admin/Add-New/add-new-role",
     component: _03d0498b,
     name: "Admin-Add-New-add-new-role___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-schedule",
+    component: _ed5b46a8,
+    name: "Admin-Add-New-add-new-schedule___es"
   }, {
     path: "/es/Admin/Add-New/add-new-segment",
     component: _7f0271ae,
@@ -792,6 +939,10 @@ export const routerOptions = {
     path: "/es/Admin/Add-New/add-new-warehouse",
     component: _15840f04,
     name: "Admin-Add-New-add-new-warehouse___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-warehouse%20copy",
+    component: _472a0cf2,
+    name: "Admin-Add-New-add-new-warehouse copy___es"
   }, {
     path: "/es/Admin/Content/blog",
     component: _478cf93a,
@@ -877,6 +1028,14 @@ export const routerOptions = {
     component: _6291e61f,
     name: "Admin-Marketing-seo___es"
   }, {
+    path: "/es/Admin/Marketing/ticketing",
+    component: _4fa35f18,
+    name: "Admin-Marketing-ticketing___es"
+  }, {
+    path: "/es/Admin/Marketing/training",
+    component: _01edcb08,
+    name: "Admin-Marketing-training___es"
+  }, {
     path: "/es/Admin/Reports/calendars",
     component: _1f5b8b04,
     name: "Admin-Reports-calendars___es"
@@ -884,6 +1043,14 @@ export const routerOptions = {
     path: "/es/Admin/Reports/cases",
     component: _03d1424c,
     name: "Admin-Reports-cases___es"
+  }, {
+    path: "/es/Admin/Reports/deep-dive",
+    component: _726293be,
+    name: "Admin-Reports-deep-dive___es"
+  }, {
+    path: "/es/Admin/Reports/eosr",
+    component: _b6e442e0,
+    name: "Admin-Reports-eosr___es"
   }, {
     path: "/es/Admin/Reports/marketing-reports",
     component: _658a7c21,
@@ -908,6 +1075,10 @@ export const routerOptions = {
     path: "/es/Admin/Reports/surveys",
     component: _b5492fbc,
     name: "Admin-Reports-surveys___es"
+  }, {
+    path: "/es/Admin/Reports/team-scheduler",
+    component: _3c938b92,
+    name: "Admin-Reports-team-scheduler___es"
   }, {
     path: "/es/Admin/Sales/agreements",
     component: _1c600fbd,
@@ -1009,6 +1180,10 @@ export const routerOptions = {
     component: _89238694,
     name: "Admin-System-integrations___es"
   }, {
+    path: "/es/Admin/System/ooto",
+    component: _455e0cf2,
+    name: "Admin-System-ooto___es"
+  }, {
     path: "/es/Admin/System/role-manager",
     component: _42f4bd26,
     name: "Admin-System-role-manager___es"
@@ -1041,6 +1216,10 @@ export const routerOptions = {
     component: _5d74fb93,
     name: "Admin-Add-New-add-new-category___fr"
   }, {
+    path: "/fr/Admin/Add-New/add-new-checklist",
+    component: _1bdf65e1,
+    name: "Admin-Add-New-add-new-checklist___fr"
+  }, {
     path: "/fr/Admin/Add-New/add-new-city",
     component: _820c4000,
     name: "Admin-Add-New-add-new-city___fr"
@@ -1069,9 +1248,25 @@ export const routerOptions = {
     component: _26c7e69c,
     name: "Admin-Add-New-add-new-customergroup___fr"
   }, {
+    path: "/fr/Admin/Add-New/add-new-deepdive",
+    component: _580d3275,
+    name: "Admin-Add-New-add-new-deepdive___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-emailtemplates",
+    component: _1f88ec72,
+    name: "Admin-Add-New-add-new-emailtemplates___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-eosr",
+    component: _6bebbfc4,
+    name: "Admin-Add-New-add-new-eosr___fr"
+  }, {
     path: "/fr/Admin/Add-New/add-new-event",
     component: _66b13655,
     name: "Admin-Add-New-add-new-event___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-fullfilment",
+    component: _64143c1a,
+    name: "Admin-Add-New-add-new-fullfilment___fr"
   }, {
     path: "/fr/Admin/Add-New/add-new-gift-certificates",
     component: _34b55af4,
@@ -1085,9 +1280,17 @@ export const routerOptions = {
     component: _f724eeb0,
     name: "Admin-Add-New-add-new-invoice___fr"
   }, {
+    path: "/fr/Admin/Add-New/add-new-knowledgebase",
+    component: _12eb0e8a,
+    name: "Admin-Add-New-add-new-knowledgebase___fr"
+  }, {
     path: "/fr/Admin/Add-New/add-new-lead",
     component: _70b78571,
     name: "Admin-Add-New-add-new-lead___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-meeting",
+    component: _f9b14e94,
+    name: "Admin-Add-New-add-new-meeting___fr"
   }, {
     path: "/fr/Admin/Add-New/add-new-newsletter",
     component: _c451bae4,
@@ -1097,6 +1300,10 @@ export const routerOptions = {
     component: _b1f9e4e2,
     name: "Admin-Add-New-add-new-newslettersubscriber copy___fr"
   }, {
+    path: "/fr/Admin/Add-New/add-new-ooto",
+    component: _4b3f1a20,
+    name: "Admin-Add-New-add-new-ooto___fr"
+  }, {
     path: "/fr/Admin/Add-New/add-new-opportunity",
     component: _54be7fce,
     name: "Admin-Add-New-add-new-opportunity___fr"
@@ -1104,6 +1311,14 @@ export const routerOptions = {
     path: "/fr/Admin/Add-New/add-new-page",
     component: _46ee7724,
     name: "Admin-Add-New-add-new-page___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-payment",
+    component: _5bfe6301,
+    name: "Admin-Add-New-add-new-payment___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-pdftemplates",
+    component: _02828e1c,
+    name: "Admin-Add-New-add-new-pdftemplates___fr"
   }, {
     path: "/fr/Admin/Add-New/add-new-product",
     component: _5ee6616a,
@@ -1129,9 +1344,17 @@ export const routerOptions = {
     component: _7335d7a6,
     name: "Admin-Add-New-add-new-review___fr"
   }, {
+    path: "/fr/Admin/Add-New/add-new-rewards",
+    component: _232dedc2,
+    name: "Admin-Add-New-add-new-rewards___fr"
+  }, {
     path: "/fr/Admin/Add-New/add-new-role",
     component: _03d0498b,
     name: "Admin-Add-New-add-new-role___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-schedule",
+    component: _ed5b46a8,
+    name: "Admin-Add-New-add-new-schedule___fr"
   }, {
     path: "/fr/Admin/Add-New/add-new-segment",
     component: _7f0271ae,
@@ -1180,6 +1403,10 @@ export const routerOptions = {
     path: "/fr/Admin/Add-New/add-new-warehouse",
     component: _15840f04,
     name: "Admin-Add-New-add-new-warehouse___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-warehouse%20copy",
+    component: _472a0cf2,
+    name: "Admin-Add-New-add-new-warehouse copy___fr"
   }, {
     path: "/fr/Admin/Content/blog",
     component: _478cf93a,
@@ -1265,6 +1492,14 @@ export const routerOptions = {
     component: _6291e61f,
     name: "Admin-Marketing-seo___fr"
   }, {
+    path: "/fr/Admin/Marketing/ticketing",
+    component: _4fa35f18,
+    name: "Admin-Marketing-ticketing___fr"
+  }, {
+    path: "/fr/Admin/Marketing/training",
+    component: _01edcb08,
+    name: "Admin-Marketing-training___fr"
+  }, {
     path: "/fr/Admin/Reports/calendars",
     component: _1f5b8b04,
     name: "Admin-Reports-calendars___fr"
@@ -1272,6 +1507,14 @@ export const routerOptions = {
     path: "/fr/Admin/Reports/cases",
     component: _03d1424c,
     name: "Admin-Reports-cases___fr"
+  }, {
+    path: "/fr/Admin/Reports/deep-dive",
+    component: _726293be,
+    name: "Admin-Reports-deep-dive___fr"
+  }, {
+    path: "/fr/Admin/Reports/eosr",
+    component: _b6e442e0,
+    name: "Admin-Reports-eosr___fr"
   }, {
     path: "/fr/Admin/Reports/marketing-reports",
     component: _658a7c21,
@@ -1296,6 +1539,10 @@ export const routerOptions = {
     path: "/fr/Admin/Reports/surveys",
     component: _b5492fbc,
     name: "Admin-Reports-surveys___fr"
+  }, {
+    path: "/fr/Admin/Reports/team-scheduler",
+    component: _3c938b92,
+    name: "Admin-Reports-team-scheduler___fr"
   }, {
     path: "/fr/Admin/Sales/agreements",
     component: _1c600fbd,
@@ -1397,6 +1644,10 @@ export const routerOptions = {
     component: _89238694,
     name: "Admin-System-integrations___fr"
   }, {
+    path: "/fr/Admin/System/ooto",
+    component: _455e0cf2,
+    name: "Admin-System-ooto___fr"
+  }, {
     path: "/fr/Admin/System/role-manager",
     component: _42f4bd26,
     name: "Admin-System-role-manager___fr"
@@ -1485,6 +1736,10 @@ export const routerOptions = {
     component: _28b917ab,
     name: "Admin-Edit-customergroup-id___es"
   }, {
+    path: "/es/Admin/Edit/deep-dive/:id?",
+    component: _1380ae57,
+    name: "Admin-Edit-deep-dive-id___es"
+  }, {
     path: "/es/Admin/Edit/event/:id?",
     component: _1c176092,
     name: "Admin-Edit-event-id___es"
@@ -1505,6 +1760,10 @@ export const routerOptions = {
     component: _e3151996,
     name: "Admin-Edit-leads-id___es"
   }, {
+    path: "/es/Admin/Edit/meeting/:id?",
+    component: _1a3f6f91,
+    name: "Admin-Edit-meeting-id___es"
+  }, {
     path: "/es/Admin/Edit/meetings/:id?",
     component: _39f35e40,
     name: "Admin-Edit-meetings-id___es"
@@ -1516,6 +1775,10 @@ export const routerOptions = {
     path: "/es/Admin/Edit/newslettersubscriber/:id?",
     component: _00ab6c92,
     name: "Admin-Edit-newslettersubscriber-id___es"
+  }, {
+    path: "/es/Admin/Edit/ooto/:id?",
+    component: _4882d87d,
+    name: "Admin-Edit-ooto-id___es"
   }, {
     path: "/es/Admin/Edit/opportunities/:id?",
     component: _9c09174a,
@@ -1568,6 +1831,10 @@ export const routerOptions = {
     path: "/es/Admin/Edit/tag/:id?",
     component: _727b1bdc,
     name: "Admin-Edit-tag-id___es"
+  }, {
+    path: "/es/Admin/Edit/target/:id?",
+    component: _0af612f2,
+    name: "Admin-Edit-target-id___es"
   }, {
     path: "/es/Admin/Edit/tasks/:id?",
     component: _ffd3abc4,
@@ -1633,6 +1900,10 @@ export const routerOptions = {
     component: _28b917ab,
     name: "Admin-Edit-customergroup-id___fr"
   }, {
+    path: "/fr/Admin/Edit/deep-dive/:id?",
+    component: _1380ae57,
+    name: "Admin-Edit-deep-dive-id___fr"
+  }, {
     path: "/fr/Admin/Edit/event/:id?",
     component: _1c176092,
     name: "Admin-Edit-event-id___fr"
@@ -1653,6 +1924,10 @@ export const routerOptions = {
     component: _e3151996,
     name: "Admin-Edit-leads-id___fr"
   }, {
+    path: "/fr/Admin/Edit/meeting/:id?",
+    component: _1a3f6f91,
+    name: "Admin-Edit-meeting-id___fr"
+  }, {
     path: "/fr/Admin/Edit/meetings/:id?",
     component: _39f35e40,
     name: "Admin-Edit-meetings-id___fr"
@@ -1664,6 +1939,10 @@ export const routerOptions = {
     path: "/fr/Admin/Edit/newslettersubscriber/:id?",
     component: _00ab6c92,
     name: "Admin-Edit-newslettersubscriber-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/ooto/:id?",
+    component: _4882d87d,
+    name: "Admin-Edit-ooto-id___fr"
   }, {
     path: "/fr/Admin/Edit/opportunities/:id?",
     component: _9c09174a,
@@ -1716,6 +1995,10 @@ export const routerOptions = {
     path: "/fr/Admin/Edit/tag/:id?",
     component: _727b1bdc,
     name: "Admin-Edit-tag-id___fr"
+  }, {
+    path: "/fr/Admin/Edit/target/:id?",
+    component: _0af612f2,
+    name: "Admin-Edit-target-id___fr"
   }, {
     path: "/fr/Admin/Edit/tasks/:id?",
     component: _ffd3abc4,
@@ -1781,6 +2064,10 @@ export const routerOptions = {
     component: _28b917ab,
     name: "Admin-Edit-customergroup-id___en"
   }, {
+    path: "/Admin/Edit/deep-dive/:id?",
+    component: _1380ae57,
+    name: "Admin-Edit-deep-dive-id___en"
+  }, {
     path: "/Admin/Edit/event/:id?",
     component: _1c176092,
     name: "Admin-Edit-event-id___en"
@@ -1801,6 +2088,10 @@ export const routerOptions = {
     component: _e3151996,
     name: "Admin-Edit-leads-id___en"
   }, {
+    path: "/Admin/Edit/meeting/:id?",
+    component: _1a3f6f91,
+    name: "Admin-Edit-meeting-id___en"
+  }, {
     path: "/Admin/Edit/meetings/:id?",
     component: _39f35e40,
     name: "Admin-Edit-meetings-id___en"
@@ -1812,6 +2103,10 @@ export const routerOptions = {
     path: "/Admin/Edit/newslettersubscriber/:id?",
     component: _00ab6c92,
     name: "Admin-Edit-newslettersubscriber-id___en"
+  }, {
+    path: "/Admin/Edit/ooto/:id?",
+    component: _4882d87d,
+    name: "Admin-Edit-ooto-id___en"
   }, {
     path: "/Admin/Edit/opportunities/:id?",
     component: _9c09174a,
@@ -1864,6 +2159,10 @@ export const routerOptions = {
     path: "/Admin/Edit/tag/:id?",
     component: _727b1bdc,
     name: "Admin-Edit-tag-id___en"
+  }, {
+    path: "/Admin/Edit/target/:id?",
+    component: _0af612f2,
+    name: "Admin-Edit-target-id___en"
   }, {
     path: "/Admin/Edit/tasks/:id?",
     component: _ffd3abc4,

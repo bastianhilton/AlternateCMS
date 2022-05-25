@@ -1,0 +1,11 @@
+query MyQuery {
+  ooto {
+    id
+    end_date
+    description
+    created_at
+    login
+    start_date
+    whid
+  }
+}

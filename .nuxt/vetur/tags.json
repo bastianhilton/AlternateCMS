@@ -8,6 +8,9 @@
   "Breadcrumbs": {
     "description": "Auto imported from components/Breadcrumbs.vue"
   },
+  "Colormode": {
+    "description": "Auto imported from components/colormode.vue"
+  },
   "Customersettings": {
     "description": "Auto imported from components/customersettings.vue"
   },
@@ -32,6 +35,9 @@
   "Notification": {
     "description": "Auto imported from components/Notification.vue"
   },
+  "Ottotracker": {
+    "description": "Auto imported from components/ottotracker.vue"
+  },
   "Providersettings": {
     "description": "Auto imported from components/providersettings.vue"
   },
@@ -47,8 +53,14 @@
   "Shopsettings": {
     "description": "Auto imported from components/shopsettings.vue"
   },
+  "Ticketdisplay": {
+    "description": "Auto imported from components/ticketdisplay.vue"
+  },
   "Usersettings": {
     "description": "Auto imported from components/usersettings.vue"
+  },
+  "Visitsdisplay": {
+    "description": "Auto imported from components/visitsdisplay.vue"
   },
   "Webhooks": {
     "description": "Auto imported from components/webhooks.vue"

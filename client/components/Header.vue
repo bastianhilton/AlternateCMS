@@ -10,7 +10,7 @@
 
             <div id="navbarSupportedContent" class="collapse navbar-collapse">
                 <a class="navbar-brand mt-2 mt-lg-0" href="/">
-                    AlternateCMS
+                    <div class="metroname" style="color:red;">ALTERNATE</div> <div class="metroname" style="color:powderblue;">CMS</div>
                 </a>
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <!--Sales Dropdown-->
@@ -110,6 +110,21 @@
                             <li>
                                 <a class="dropdown-item" href="/admin/marketing/contracts">Contracts</a>
                             </li>
+                             <li>
+                                <a class="dropdown-item" href="/admin/marketing/ticketing">Ticketing</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/marketing/equipment">Equipment</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/marketing/training">Training</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/marketing/checklists">Checklists</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/marketing/visits">Visits</a>
+                            </li>
                         </ul>
                     </li>
                     <!--Content Dropdown-->
@@ -153,6 +168,12 @@
                                 <a class="dropdown-item" href="/admin/reports/sales-reports">Sales Reports</a>
                             </li>
                             <li>
+                                <a class="dropdown-item" href="/admin/reports/deep-dive">Deep Dive</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/reports/eosr">End of Shift Reports</a>
+                            </li>
+                            <li>
                                 <a class="dropdown-item" href="/admin/reports/surveys">Surveys</a>
                             </li>
                             <li>
@@ -160,6 +181,9 @@
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/reports/reviews">Reviews</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/reports/team-scheduler">Team Scheduler</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/reports/products-reports">Products Reports</a>
@@ -222,6 +246,9 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li>
                                 <a class="dropdown-item" href="/admin/system/general-settings">General Settings</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/system/ooto">Out of the Office Tracker</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/system/integrations">Integrations</a>

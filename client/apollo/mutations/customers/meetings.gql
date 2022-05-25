@@ -1,5 +1,5 @@
-query MyQuery {
-  meeting {
+query MyQuery ($id: Int){
+  meeting (where: {id: {_eq: $id}}){
     id
     assigned_to
     content
