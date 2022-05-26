@@ -328,14 +328,6 @@
     "_name": "_46ee7724"
   },
   {
-    "name": "Admin-Add-New-add-new-payment___en",
-    "path": "/Admin/Add-New/add-new-payment",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-payment.vue",
-    "chunkName": "pages/Admin/Add-New/add-new-payment",
-    "url": "/Admin/Add-New/add-new-payment",
-    "_name": "_5bfe6301"
-  },
-  {
     "name": "Admin-Add-New-add-new-pdftemplates___en",
     "path": "/Admin/Add-New/add-new-pdftemplates",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-pdftemplates.vue",
@@ -1328,14 +1320,6 @@
     "_name": "_46ee7724"
   },
   {
-    "name": "Admin-Add-New-add-new-payment___es",
-    "path": "/es/Admin/Add-New/add-new-payment",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-payment.vue",
-    "chunkName": "pages/Admin/Add-New/add-new-payment",
-    "url": "/es/Admin/Add-New/add-new-payment",
-    "_name": "_5bfe6301"
-  },
-  {
     "name": "Admin-Add-New-add-new-pdftemplates___es",
     "path": "/es/Admin/Add-New/add-new-pdftemplates",
     "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-pdftemplates.vue",
@@ -2254,14 +2238,6 @@
     "chunkName": "pages/Admin/Add-New/add-new-page",
     "url": "/fr/Admin/Add-New/add-new-page",
     "_name": "_46ee7724"
-  },
-  {
-    "name": "Admin-Add-New-add-new-payment___fr",
-    "path": "/fr/Admin/Add-New/add-new-payment",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\client\\\\pages\\\\Admin\\\\Add-New\\\\add-new-payment.vue",
-    "chunkName": "pages/Admin/Add-New/add-new-payment",
-    "url": "/fr/Admin/Add-New/add-new-payment",
-    "_name": "_5bfe6301"
   },
   {
     "name": "Admin-Add-New-add-new-pdftemplates___fr",

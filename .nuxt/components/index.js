@@ -1,5 +1,4 @@
 export { default as IoSocketStatus } from '../..\\node_modules\\nuxt-socket-io\\lib\\components\\SocketStatus.js'
-export { default as Apitokensettings } from '../..\\client\\components\\apitokensettings.vue'
 export { default as Breadcrumbs } from '../..\\client\\components\\Breadcrumbs.vue'
 export { default as Colormode } from '../..\\client\\components\\colormode.vue'
 export { default as Customersettings } from '../..\\client\\components\\customersettings.vue'
@@ -11,7 +10,6 @@ export { default as Marketingsettings } from '../..\\client\\components\\marketi
 export { default as Newcustomers } from '../..\\client\\components\\newcustomers.vue'
 export { default as Notification } from '../..\\client\\components\\Notification.vue'
 export { default as Ottotracker } from '../..\\client\\components\\ottotracker.vue'
-export { default as Providersettings } from '../..\\client\\components\\providersettings.vue'
 export { default as Reportsettings } from '../..\\client\\components\\reportsettings.vue'
 export { default as Reviewslimit } from '../..\\client\\components\\reviewslimit.vue'
 export { default as Salesettings } from '../..\\client\\components\\salesettings.vue'
@@ -19,7 +17,6 @@ export { default as Shopsettings } from '../..\\client\\components\\shopsettings
 export { default as Ticketdisplay } from '../..\\client\\components\\ticketdisplay.vue'
 export { default as Usersettings } from '../..\\client\\components\\usersettings.vue'
 export { default as Visitsdisplay } from '../..\\client\\components\\visitsdisplay.vue'
-export { default as Webhooks } from '../..\\client\\components\\webhooks.vue'
 export { default as IntegrationsContent } from '../..\\client\\components\\integrations\\content.vue'
 export { default as IntegrationsCustomers } from '../..\\client\\components\\integrations\\customers.vue'
 export { default as IntegrationsMarketing } from '../..\\client\\components\\integrations\\marketing.vue'
@@ -28,6 +25,10 @@ export { default as IntegrationsSales } from '../..\\client\\components\\integra
 export { default as IntegrationsSettings } from '../..\\client\\components\\integrations\\settings.vue'
 export { default as IntegrationsShop } from '../..\\client\\components\\integrations\\shop.vue'
 export { default as IntegrationsToppicks } from '../..\\client\\components\\integrations\\toppicks.vue'
+export { default as SettingsApitokensettings } from '../..\\client\\components\\settings\\apitokensettings.vue'
+export { default as SettingsPaymentsettings } from '../..\\client\\components\\settings\\paymentsettings.vue'
+export { default as SettingsProvidersettings } from '../..\\client\\components\\settings\\providersettings.vue'
+export { default as SettingsWebhooks } from '../..\\client\\components\\settings\\webhooks.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

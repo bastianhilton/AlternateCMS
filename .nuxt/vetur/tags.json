@@ -2,9 +2,6 @@
   "IoSocketStatus": {
     "description": "Auto imported from ../node_modules/nuxt-socket-io/lib/components/SocketStatus.js"
   },
-  "Apitokensettings": {
-    "description": "Auto imported from components/apitokensettings.vue"
-  },
   "Breadcrumbs": {
     "description": "Auto imported from components/Breadcrumbs.vue"
   },
@@ -38,9 +35,6 @@
   "Ottotracker": {
     "description": "Auto imported from components/ottotracker.vue"
   },
-  "Providersettings": {
-    "description": "Auto imported from components/providersettings.vue"
-  },
   "Reportsettings": {
     "description": "Auto imported from components/reportsettings.vue"
   },
@@ -61,9 +55,6 @@
   },
   "Visitsdisplay": {
     "description": "Auto imported from components/visitsdisplay.vue"
-  },
-  "Webhooks": {
-    "description": "Auto imported from components/webhooks.vue"
   },
   "IntegrationsContent": {
     "description": "Auto imported from components/integrations/content.vue"
@@ -88,5 +79,17 @@
   },
   "IntegrationsToppicks": {
     "description": "Auto imported from components/integrations/toppicks.vue"
+  },
+  "SettingsApitokensettings": {
+    "description": "Auto imported from components/settings/apitokensettings.vue"
+  },
+  "SettingsPaymentsettings": {
+    "description": "Auto imported from components/settings/paymentsettings.vue"
+  },
+  "SettingsProvidersettings": {
+    "description": "Auto imported from components/settings/providersettings.vue"
+  },
+  "SettingsWebhooks": {
+    "description": "Auto imported from components/settings/webhooks.vue"
   }
 }

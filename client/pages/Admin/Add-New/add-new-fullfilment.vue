@@ -1,6 +1,6 @@
 <template>
   <div>
-    <FormulateForm method="POST" @submit.prevent  enctype="multipart/form-data">
+    <FormulateForm method="POST" enctype="multipart/form-data"  @submit.prevent>
       <div class="table table-responsive">
         <table class="table" >
           <thead>
@@ -8,10 +8,10 @@
               <th>
               </th>
               <th scope="col" class="fullfillmentAddOptions">
-                <li><a href="/admin/add-new/add-new-company">
-                    <FormulateInput type="button" label="Add Attribute" /></a></li>
+                <li><a href="/admin/add-new/add-new-warehouse">
+                    <FormulateInput type="button" label="Add A Warehouse" /></a></li>
                 <li>
-                  <FormulateInput type="submit" @click="addFullfillment" label="Save" />
+                  <FormulateInput type="submit" label="Save" @click="addFullfillment" />
                 </li>
               </th>
             </tr>

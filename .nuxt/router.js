@@ -40,7 +40,6 @@ const _b1f9e4e2 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New
 const _4b3f1a20 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-ooto.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-ooto" */))
 const _54be7fce = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-opportunity.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-opportunity" */))
 const _46ee7724 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-page.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-page" */))
-const _5bfe6301 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-payment.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-payment" */))
 const _02828e1c = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-pdftemplates.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-pdftemplates" */))
 const _5ee6616a = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-product.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-product" */))
 const _7fc9ba94 = () => interopDefault(import('..\\client\\pages\\Admin\\Add-New\\add-new-project.vue' /* webpackChunkName: "pages/Admin/Add-New/add-new-project" */))
@@ -347,10 +346,6 @@ export const routerOptions = {
     path: "/Admin/Add-New/add-new-page",
     component: _46ee7724,
     name: "Admin-Add-New-add-new-page___en"
-  }, {
-    path: "/Admin/Add-New/add-new-payment",
-    component: _5bfe6301,
-    name: "Admin-Add-New-add-new-payment___en"
   }, {
     path: "/Admin/Add-New/add-new-pdftemplates",
     component: _02828e1c,
@@ -848,10 +843,6 @@ export const routerOptions = {
     component: _46ee7724,
     name: "Admin-Add-New-add-new-page___es"
   }, {
-    path: "/es/Admin/Add-New/add-new-payment",
-    component: _5bfe6301,
-    name: "Admin-Add-New-add-new-payment___es"
-  }, {
     path: "/es/Admin/Add-New/add-new-pdftemplates",
     component: _02828e1c,
     name: "Admin-Add-New-add-new-pdftemplates___es"
@@ -1311,10 +1302,6 @@ export const routerOptions = {
     path: "/fr/Admin/Add-New/add-new-page",
     component: _46ee7724,
     name: "Admin-Add-New-add-new-page___fr"
-  }, {
-    path: "/fr/Admin/Add-New/add-new-payment",
-    component: _5bfe6301,
-    name: "Admin-Add-New-add-new-payment___fr"
   }, {
     path: "/fr/Admin/Add-New/add-new-pdftemplates",
     component: _02828e1c,

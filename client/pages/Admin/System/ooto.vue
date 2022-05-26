@@ -19,7 +19,7 @@
             <th>Start Date</th>
             <th>End Date</th>
             <th>Description</th>
-            <th>WHID</th>
+            <th>Location</th>
           </tr>
         </thead>
         <tbody>
@@ -28,8 +28,8 @@
             <td>{{ ooto.login }}</td>
             <td>{{ ooto.start_date }}</td>
             <td>{{ ooto.end_date }}</td>
-            <td>{{ ooto.description }}</td>
-            <td>{{ ooto.whid }}</td>
+            <td>{{ ooto.note }}</td>
+            <td>{{ ooto.location }}</td>
           </tr>
         </tbody>
       </table>

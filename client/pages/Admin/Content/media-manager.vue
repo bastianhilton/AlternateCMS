@@ -1,13 +1,12 @@
 <template>
-    <file-browser :axios-config="{baseURL: 'http://localhost:8081'}" />
+    <div></div>
 </template>
 
 <script>
-import FileBrowser from "vuetify-file-browser";
 
 export default {
-    components: {
-        FileBrowser
+    head: {
+        title: 'Media Manager'
     }
 };
 </script>

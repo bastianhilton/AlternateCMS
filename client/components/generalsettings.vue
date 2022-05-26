@@ -201,6 +201,7 @@
         </div>
       </div>
       <providersettings />
+      <paymentsettings />
       <apitokensettings />
       <webhooks />
     </div>
@@ -209,14 +210,13 @@
 
 <script>
 import gql from "graphql-tag";
-import providersettings from '~/components/providersettings';
-import apitokensettings from '~/components/apitokensettings';
-import webhooks from '~/components/webhooks'
-import {
-    generalSettings
-  } from "~/apollo/queries/system/generalsettings";
+import providersettings from '~/components/settings/providersettings';
+import paymentsettings from '~/components/settings/paymentsettings';
+import apitokensettings from '~/components/settings/apitokensettings';
+import webhooks from '~/components/settings/webhooks'
+import { generalSettings } from "~/apollo/queries/system/generalsettings";
 
-  const ADD_GENERAL_SETTINGS = gql `
+const ADD_GENERAL_SETTINGS = gql `
     mutation ($siteTitle:String!,$tagline:String,$siteUrl:String,$siteAdminEmail:String,$languages:String,$value:String){
     insert_generalSettings(objects: {siteTitle: $siteTitle, tagline: $tagline, siteUrl: $siteUrl, siteAdminEmail: $siteAdminEmail, languages: $languages, value: $value}) {
         affected_rows
@@ -231,7 +231,7 @@ import {
   }
 }`;
 
-  export default {
+export default {
     data() {
       return {
         siteUrl: [],
@@ -294,7 +294,7 @@ import {
 
     },
     // eslint-disable-next-line vue/order-in-components
-    components: {providersettings, apitokensettings, webhooks}
+    components: {providersettings, apitokensettings, webhooks, paymentsettings}
   }
 
 </script>

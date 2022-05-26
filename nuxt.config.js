@@ -1,4 +1,6 @@
 
+import "reflect-metadata";
+
 export default {
   target: 'static',
   server: {
@@ -102,7 +104,6 @@ export default {
     '@nuxtjs/sitemap',
     '@nuxtjs/vuetify',
     'nuxt-helmet',
-    '@nuxtjs/lunr-module',
     '@nuxt/image',
     'nuxt-client-init-module',
     'nuxtjs-darkmode-js-module',

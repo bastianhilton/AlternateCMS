@@ -8,8 +8,6 @@
               <th>
               </th>
               <th scope="col" class="fullfillmentAddOptions">
-                <li><a href="/admin/add-new/add-new-company">
-                    <FormulateInput type="button" label="Add Attribute" /></a></li>
                 <li>
                   <FormulateInput type="submit" @click="addFullfillment" label="Save" />
                 </li>
