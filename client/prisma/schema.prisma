@@ -3,9 +3,9 @@ generator gen {
 }
 
 generator typegraphql {
-  provider = "typegraphql-prisma"
-  output   = "../prisma/generated/type-graphql"
-  emitTranspiledCode = true
+  provider           = "typegraphql-prisma"
+  output             = "../prisma/generated/type-graphql"
+  emitTranspiledCode = "true"
 }
 
 datasource db {
@@ -470,36 +470,24 @@ model reviews {
   comment_id Int       @default(autoincrement())
 }
 
-model reward_points {
-  id         Int       @id @default(autoincrement())
-  name       String    @db.VarChar(255)
-  excerpt    String?   @db.VarChar(255)
-  discount   Decimal?  @db.Money
-  image      String?
-  published  DateTime? @db.Timestamp(6)
-  coupons    String?
-  expiration DateTime? @db.Date
-  categories String?
-  articles   String?
-  products   String?
-  customers  String?
-  users      String?
-}
-
 model role {
   id        Int    @id @default(autoincrement())
   role_name String @db.VarChar(255)
 }
 
 model shipments {
-  product      String
-  speed_grade  String
-  ship_date    DateTime? @default(now()) @db.Timestamp(6)
-  carrier_name String
-  transit_time String?
-  tracking_url String?
-  image        String?
-  id           BigInt    @id @default(autoincrement())
+  product       String?
+  speed_grade   String?
+  ship_date     DateTime? @default(now()) @db.Timestamp(6)
+  carrier_name  String
+  transit_time  String?
+  tracking_url  String?
+  image         String?
+  id            BigInt    @id @default(autoincrement())
+  country       String?
+  client_id     String?
+  client_secret String?
+  website       String?
 }
 
 model shops {
@@ -929,7 +917,7 @@ model warehouse {
   postal      String?
   status      String?
   image       String?
-  public      String?
+  isPublic    String?
   products    String?
   category    String?
 }
@@ -1174,4 +1162,142 @@ model ooto {
   end_date   String?
   note       String?
   using_time String?
+  location   String?
+}
+
+model accounts {
+  id             BigInt    @id @default(autoincrement())
+  created_at     DateTime? @default(now()) @db.Timestamptz(6)
+  name           String?
+  website        String?
+  office_phone   String?
+  fax            String?
+  email          String?
+  address        String?
+  postalcode     String?
+  city           String?
+  state          String?
+  country        String?
+  assigned_to    String?
+  alt_address    String?
+  alt_postalcode String?
+  alt_city       String?
+  alt_state      String?
+  alt_country    String?
+  type           String?
+  industry       String?
+  employees      String?
+  annual_revenue String?
+  member_of      String?
+  campaign       String?
+}
+
+model email_templates {
+  id              BigInt    @id @default(autoincrement())
+  created_at      DateTime? @default(now()) @db.Timestamptz(6)
+  name            String?
+  assigned_to     String?
+  type            String?
+  active          String?
+  insert_variable String?
+  subject         String?
+  content         String?
+  header          String?
+  footer          String?
+  width           String?
+  height          String?
+  media           String?
+}
+
+model importm {
+  id          BigInt    @id @default(autoincrement())
+  created_at  DateTime? @default(now()) @db.Timestamptz(6)
+  name        String?
+  description String?
+  file        String?
+  url         String?
+  image       String?
+}
+
+model integrations {
+  id         BigInt    @id @default(autoincrement())
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  name       String?
+  content    String?
+  media      String?
+  location   String?
+  category   String?
+}
+
+model knowledgebase {
+  id            BigInt    @id @default(autoincrement())
+  created_at    DateTime? @default(now()) @db.Timestamptz(6)
+  name          String?
+  status        String?
+  revision      String?
+  content       String?
+  resolution    String?
+  author        String?
+  approver      String?
+  date_modified DateTime? @default(now()) @db.Timestamptz(6)
+}
+
+model payments {
+  id               BigInt    @id @unique @default(autoincrement())
+  created_at       DateTime? @default(now()) @db.Timestamptz(6)
+  client_id        String?
+  client_secret    String?
+  host_uri         String?
+  redirect_url     String?
+  redirect_url_app String?
+  icon             String?
+  name             String    @unique
+  active           String?
+  country          String?
+}
+
+model pdf_templates {
+  id            BigInt    @id @default(autoincrement())
+  created_at    DateTime? @default(now()) @db.Timestamptz(6)
+  name          String?
+  assigned_to   String?
+  type          String?
+  active        String?
+  page_size     String?
+  orientation   String?
+  content       String?
+  header        String?
+  footer        String?
+  margin_left   String?
+  margin_right  String?
+  margin_top    String?
+  margin_bottom String?
+  margin_header String?
+  margin_footer String?
+}
+
+model project_templates {
+  id                    BigInt  @id @default(autoincrement())
+  name                  String?
+  status                String?
+  consider_working_days String?
+  priority              String?
+  project_manager       String?
+  resource              String?
+  content               String?
+}
+
+model rewards {
+  id         Int       @id @default(autoincrement())
+  name       String
+  slug       String?
+  level      String?
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  coupons    String?
+  expiration DateTime? @db.Date
+  categories String?
+  articles   String?
+  products   String?
+  customers  String?
+  users      String?
 }
