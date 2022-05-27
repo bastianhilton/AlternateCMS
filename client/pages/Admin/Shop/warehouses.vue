@@ -17,11 +17,11 @@
             <th>Actions</th>
           </tr>
         </thead>
-        <tbody v-for="fullfillment in fullfillment" :key="fullfillment.id">
+        <tbody v-for="warehouse in warehouse" :key="warehouse.id">
           <tr>
-            <td>{{ fullfillment.name }}</td>
-            <td>{{ fullfillment.shipping_zones }}</td>
-            <td><a :href="`/admin/edit/fullfillment/${fullfillment.id}`">Edit</a></td>
+            <td>{{ warehouse.name }}</td>
+            <td>{{ warehouse.shipping_zones }}</td>
+            <td><a :href="`/admin/edit/warehouse/${warehouse.id}`">Edit</a></td>
           </tr>
         </tbody>
       </table>
@@ -31,18 +31,18 @@
 </template>
 
 <script>
- import fullfillment from '~/apollo/queries/shop/fullfillment.gql'
+ import warehouse from '~/apollo/queries/shop/warehouses.gql'
 
 export default {
   data() {
     return {
-      fullfillment: [],
+      warehouse: [],
     }
   },
   apollo: {
-    fullfillment: {
+    warehouse: {
       prefetch: true,
-      query: fullfillment
+      query: warehouse
     }
   }, 
     head: {

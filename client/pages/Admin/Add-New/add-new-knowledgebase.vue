@@ -1,93 +1,60 @@
 <template>
   <div>
-    <FormulateForm method="POST" @submit.prevent  enctype="multipart/form-data">
+    <FormulateForm method="POST" enctype="multipart/form-data"  @submit.prevent>
       <div class="table table-responsive">
         <table class="table" >
           <thead>
             <tr>
               <th>
               </th>
-              <th scope="col" class="fullfillmentAddOptions">
-                <li><a href="/admin/add-new/add-new-company">
-                    <FormulateInput type="button" label="Add Attribute" /></a></li>
+              <th scope="col" class="knowledgebaseAddOptions">
                 <li>
-                  <FormulateInput type="submit" @click="addFullfillment" label="Save" />
+                  <FormulateInput type="submit" label="Save" @click="addKnowledgebase" />
                 </li>
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td style="text-align: right;">Stock</td>
-              <td>
-                <FormulateInput v-model="value" :options="{first: 'Private Stock', second: 'Public Stock'}" type="checkbox"
-  label="If private, warehouse won't be shown. If public, warehouse will be shown" />
-              </td>
-            </tr>
-            <tr>
-              <td style="text-align: right;">Company Name</td>
-              <td>
-                <FormulateInput v-model="company" name="fullfillmentCompanyName" type="text" />
-              </td>
-            </tr>
-            <tr>
-              <td style="text-align: right;">Warehouse Name</td>
+              <td style="text-align: right;">Knowledgebase Name</td>
               <td>
                 <FormulateInput v-model="name" type="text" required />
               </td>
             </tr>
             <tr>
-              <td style="text-align: right;">Phone Number</td>
+              <td style="text-align: right;">Content</td>
               <td>
-                <FormulateInput v-model="phone" type="text" placeholder="#" required />
+                <vue-simplemde id="longDescription" v-model="content" required />
               </td>
             </tr>
             <tr>
-              <td style="text-align: right;">Shipping Zones</td>
+              <td style="text-align: right;">Resolution</td>
               <td>
-                <FormulateInput v-model="shipping_zones" name="fullfillmentShippingZones" type="text" />
+                <FormulateInput v-model="resolution" type="textarea" />
               </td>
             </tr>
             <tr>
-              <td style="text-align: right;">Address</td>
+              <td style="text-align: right;">Author</td>
               <td>
-                <FormulateInput v-model="address" type="text" />
+                <FormulateInput v-model="author" type="text" />
               </td>
             </tr>
             <tr>
-              <td style="text-align: right;">Address Line 2</td>
+              <td style="text-align: right;">Approver</td>
               <td>
-                <FormulateInput v-model="address_two" type="text" name="addressTwo" />
+                <FormulateInput v-model="approver" type="text" />
               </td>
             </tr>
             <tr>
-              <td style="text-align: right;">City</td>
+              <td style="text-align: right;">Revision</td>
               <td>
-                <FormulateInput v-model="city" type="text" />
+                <FormulateInput v-model="revision" type="text" />
               </td>
             </tr>
             <tr>
-              <td style="text-align: right;">State</td>
+              <td style="text-align: right;">Status</td>
               <td>
-                <FormulateInput v-model="state" type="text" />
-              </td>
-            </tr>
-            <tr>
-              <td style="text-align: right;">Country Area</td>
-              <td>
-                <FormulateInput v-model="country_area" name="fullfillmentCountryArea" type="text" />
-              </td>
-            </tr>
-            <tr>
-              <td style="text-align: right;">Country</td>
-              <td>
-                <FormulateInput v-model="country" name="fullfillmentCountry" type="text" />
-              </td>
-            </tr>
-            <tr>
-              <td style="text-align: right;">Zipcode</td>
-              <td>
-                <FormulateInput v-model="zipcode" name="fullfillmentZipcode" type="text" />
+                <FormulateInput v-model="status" type="text" />
               </td>
             </tr>
           </tbody>
@@ -100,35 +67,20 @@
 <script>
 import gql from "graphql-tag";
 
-import {
-    fullfillments
-  } from "~/apollo/queries/shop/fullfillment";
-  import country from "~/apollo/queries/shop/countries"
-  // import countries from "~/apollo/queries/shop/countries"
-  // import companys from "~/apollo/queries/shop/companys"
+import {knowledgebases} from "~/apollo/queries/system/knowledgebase";
 
-  const ADD_PRODUCTS = gql `
-    mutation ($name: String!,$company: String!,$phone: String!,$address: String!,$country_area: String!,$fullfillment: String!,$shipping_zones: String!,$address_two: String!,$state: String!,$zipcode: String!,$country: String!,$value: String!,$city: String){
-    insert_fullfillments(objects: {name: $name,company: $company,phone: $phone,address: $address,country_area: $country_area,zipcode: $zipcode,country: $country,fullfillment: $fullfillment,shipping_zones: $shipping_zones,address_two: $address_two,state: $state,country: $country,city: $city,value: $value}) {
+  const ADD_KNOWLEDGEBASES = gql `
+    mutation ($name: String!,$status: String!,$revision: String!,$resolution: String!,$approver: String!,$author: String!,$content: String!){
+    insert_knowledgebases(objects: {name: $name,status: $status,revision: $revision,resolution: $resolution,approver: $approver,author: $author,content: $content}) {
         affected_rows
         returning {
             name
-            company
-            phone
-            address
-            salable_quantity
-            country_area
-            zipcode
-            country
-            websites
-            fullfillment
-            shipping_zones
-            address_two
-            state
-            country
-            size
-            city
-            value
+            status
+            revision
+            resolution
+            approver
+            author
+            content
     }
   }
 }`;
@@ -137,79 +89,54 @@ import {
   export default {
     data() {
       return {
-        country: [],
+        content: [],
         countries: [],
         thumbnail: " ",
         name: " ",
-        company: " ",
-        phone: " ",
-        address: " ",
-        country_area: " ",
-        websites: " ",
-        fullfillment: " ",
-        shipping_zones: " ",
-        zipcode: " ",
-        address_two: " ",
-        state: " ",
-        size: " ",
-        city: " ",
-        value: " ",
+        status: " ",
+        revision: " ",
+        resolution: " ",
+        approver: " ",
+        author: " ",
         show: true
       }
     },
     head: {
-      title: 'Add New Warehouse'
+      title: 'Add New Knowledgebase'
     },
 
     methods: {
-      async addFullfillment({ target }) {
+      async addKnowledgebase({ target }) {
         const name = this.name;
-        const company = this.company;
-        const phone = this.phone;
-        const address = this.address;
-        // eslint-disable-next-line camelcase
-        const country_area = this.country_area;
-        const zipcode = this.zipcode;
-        const country = this.country;
-        const fullfillment = this.fullfillment;
-        // eslint-disable-next-line camelcase
-        const shipping_zones = this.shipping_zones;
-        // eslint-disable-next-line camelcase
-        const address_two = this.address_two;
-        const state = this.state;
-        const city = this.city;
-        const value = this.value;
+        const status = this.status;
+        const revision = this.revision;
+        const resolution = this.resolution;
+        const approver = this.approver;
+        const author = this.author;
+        const content = this.content;
         
         await this.$apollo.mutate({
-          mutation: ADD_PRODUCTS,
+          mutation: ADD_KNOWLEDGEBASES,
           variables: {
             name,
-            company,
-            phone,
-            address,
-            country_area,
-            zipcode,
-            country,
-            fullfillment,
-            shipping_zones,
-            address_two,
-            state,
-            city,
-            value,
+            status,
+            revision,
+            resolution,
+            approver,
+            author,
+            content,
           },
           update: (cache, {
             data: {
-              insertCategories,
-              insertCountries
+              insertKnowledgebases,
             }
           }) => {
             // Read data from cache for this query
             try {
-              const insertedCategory = insertCategories.returning;
-              const insertedCountries = insertCountries.returning;
-              console.log(insertedCategory, insertedCountries)
+              const insertedKnowledgebase = insertKnowledgebases.returning;
+              console.log(insertedKnowledgebase)
               cache.writeQuery({
-                query: fullfillments
+                query: knowledgebases
               })
             } catch (err) {
               console.error(err)
@@ -217,39 +144,18 @@ import {
           }
         }).then(() => {
           this.$router.push({
-            path: '../shop/fullfillments'
+            path: '../system/knowledgebases'
           })
         }).catch(err => console.log(err));
         this.name = ' ';
-        this.company = ' ';
-        this.phone = ' ';
-        this.address = ' ';
-        this.country_area = ' ';
-        this.zipcode = ' ';
-        this.country = ' ';
-        this.fullfillment = ' ';
-        this.shipping_zones = ' ';
-        this.address_two = ' ';
-        this.state = ' ';
-        this.country = ' ';
-        this.city = ' ';
-        this.value = ' ';
+        this.status = ' ';
+        this.revision = ' ';
+        this.resolution = ' ';
+        this.approver = ' ';
+        this.author = ' ';
+        this.content = ' ';
       },
     },
-    apollo: {
-      country: {
-        prefetch: true,
-        query: country
-      },
-      /* countries: {
-          prefetch: true,
-          query: countries
-          },
-          companys: {
-          prefetch: true,
-          query: companys
-          } */
-    }
 }
 </script>
 

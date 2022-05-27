@@ -7,27 +7,18 @@
             <tr>
               <th>
               </th>
-              <th scope="col" class="fullfillmentAddOptions">
-                <li><a href="/admin/add-new/add-new-company">
-                    <FormulateInput type="button" label="Add Attribute" /></a></li>
+              <th scope="col" class="warehouseAddOptions">
                 <li>
-                  <FormulateInput type="submit" @click="addFullfillment" label="Save" />
+                  <FormulateInput type="submit" @click="addWarehouse" label="Save" />
                 </li>
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td style="text-align: right;">Stock</td>
+              <td style="text-align: right;">Status</td>
               <td>
-                <FormulateInput v-model="value" :options="{first: 'Private Stock', second: 'Public Stock'}" type="checkbox"
-  label="If private, warehouse won't be shown. If public, warehouse will be shown" />
-              </td>
-            </tr>
-            <tr>
-              <td style="text-align: right;">Company Name</td>
-              <td>
-                <FormulateInput v-model="company" name="fullfillmentCompanyName" type="text" />
+                <FormulateInput v-model="status" type="text" />
               </td>
             </tr>
             <tr>
@@ -37,35 +28,24 @@
               </td>
             </tr>
             <tr>
-              <td style="text-align: right;">Phone Number</td>
+              <td style="text-align: right;">Description</td>
               <td>
-                <FormulateInput v-model="phone" type="text" placeholder="#" required />
+                <FormulateInput v-model="description" type="textarea" />
               </td>
             </tr>
             <tr>
-              <td style="text-align: right;">Shipping Zones</td>
+              <td style="text-align: right;">Category</td>
               <td>
-                <FormulateInput v-model="shipping_zones" name="fullfillmentShippingZones" type="text" />
-              </td>
-            </tr>
-            <tr>
-              <td style="text-align: right;">Address</td>
-              <td>
-                <FormulateInput v-model="address" type="text" />
-              </td>
-            </tr>
-            <tr>
-              <td style="text-align: right;">Address Line 2</td>
-              <td>
-                <FormulateInput v-model="address_two" type="text" name="addressTwo" />
+                <FormulateInput v-model="category" type="text" />
               </td>
             </tr>
             <tr>
               <td style="text-align: right;">City</td>
               <td>
-                <FormulateInput v-model="city" type="text" />
+                <FormulateInput v-model="city" type="text" placeholder="#" />
               </td>
             </tr>
+            
             <tr>
               <td style="text-align: right;">State</td>
               <td>
@@ -73,21 +53,33 @@
               </td>
             </tr>
             <tr>
-              <td style="text-align: right;">Country Area</td>
-              <td>
-                <FormulateInput v-model="country_area" name="fullfillmentCountryArea" type="text" />
-              </td>
-            </tr>
-            <tr>
               <td style="text-align: right;">Country</td>
               <td>
-                <FormulateInput v-model="country" name="fullfillmentCountry" type="text" />
+                <FormulateInput v-model="country" type="text" />
               </td>
             </tr>
             <tr>
-              <td style="text-align: right;">Zipcode</td>
+              <td style="text-align: right;">Postal Code</td>
               <td>
-                <FormulateInput v-model="zipcode" name="fullfillmentZipcode" type="text" />
+                <FormulateInput v-model="postal" type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: right;">Products</td>
+              <td>
+                <FormulateInput v-model="products" type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: right;">Image</td>
+              <td>
+                <FormulateInput v-model="image" type="image" label="Select an image for the warehouse" help="Select a png, jpg or gif to upload." validation="mime:image/jpeg,image/png,image/gif" />
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: right;">Public</td>
+              <td>
+                <FormulateInput v-model="isPublic" type="checkbox" />
               </td>
             </tr>
           </tbody>
@@ -101,34 +93,27 @@
 import gql from "graphql-tag";
 
 import {
-    fullfillments
-  } from "~/apollo/queries/shop/fullfillment";
+    warehouses
+  } from "~/apollo/queries/shop/warehouses";
   import country from "~/apollo/queries/shop/countries"
-  // import countries from "~/apollo/queries/shop/countries"
-  // import companys from "~/apollo/queries/shop/companys"
 
-  const ADD_PRODUCTS = gql `
-    mutation ($name: String!,$company: String!,$phone: String!,$address: String!,$country_area: String!,$fullfillment: String!,$shipping_zones: String!,$address_two: String!,$state: String!,$zipcode: String!,$country: String!,$value: String!,$city: String){
-    insert_fullfillments(objects: {name: $name,company: $company,phone: $phone,address: $address,country_area: $country_area,zipcode: $zipcode,country: $country,fullfillment: $fullfillment,shipping_zones: $shipping_zones,address_two: $address_two,state: $state,country: $country,city: $city,value: $value}) {
+  const ADD_WAREHOUSES = gql `
+    mutation ($name: String!,$description: String!,$image: String!,$products: String!,$status: String!,$state: String!,$postal: String!,$country: String!,$isPublic: String!,$city: String){
+    insert_warehouses(objects: {name: $name,description: $description,image: $image,postal: $postal,country: $country,products: $products,status: $status,state: $state,country: $country,city: $city,isPublic: $isPublic}) {
         affected_rows
         returning {
             name
-            company
-            phone
-            address
-            salable_quantity
-            country_area
-            zipcode
+            description
+            image
+            postal
             country
             websites
-            fullfillment
-            shipping_zones
-            address_two
+            products
+            status
             state
             country
-            size
             city
-            value
+            isPublic
     }
   }
 }`;
@@ -141,19 +126,15 @@ import {
         countries: [],
         thumbnail: " ",
         name: " ",
-        company: " ",
-        phone: " ",
-        address: " ",
-        country_area: " ",
+        description: " ",
+        image: " ",
         websites: " ",
-        fullfillment: " ",
-        shipping_zones: " ",
-        zipcode: " ",
-        address_two: " ",
+        products: [],
+        postal: " ",
+        status: " ",
         state: " ",
-        size: " ",
         city: " ",
-        value: " ",
+        isPublic: " ",
         show: true
       }
     },
@@ -162,40 +143,31 @@ import {
     },
 
     methods: {
-      async addFullfillment({ target }) {
+      async addWarehouse({ target }) {
         const name = this.name;
-        const company = this.company;
-        const phone = this.phone;
-        const address = this.address;
-        // eslint-disable-next-line camelcase
-        const country_area = this.country_area;
-        const zipcode = this.zipcode;
+        const description = this.description;
+        const image = this.image;
+        const postal = this.postal;
         const country = this.country;
-        const fullfillment = this.fullfillment;
-        // eslint-disable-next-line camelcase
-        const shipping_zones = this.shipping_zones;
-        // eslint-disable-next-line camelcase
-        const address_two = this.address_two;
+        const products = this.products;
+        const status = this.status;
         const state = this.state;
         const city = this.city;
-        const value = this.value;
+        const isPublic = this.isPublic;
         
         await this.$apollo.mutate({
-          mutation: ADD_PRODUCTS,
+          mutation: ADD_WAREHOUSES,
           variables: {
             name,
-            company,
-            phone,
-            address,
-            country_area,
-            zipcode,
+            description,
+            image,
+            postal,
             country,
-            fullfillment,
-            shipping_zones,
-            address_two,
+            products,
+            status,
             state,
             city,
-            value,
+            isPublic,
           },
           update: (cache, {
             data: {
@@ -209,7 +181,7 @@ import {
               const insertedCountries = insertCountries.returning;
               console.log(insertedCategory, insertedCountries)
               cache.writeQuery({
-                query: fullfillments
+                query: warehouses
               })
             } catch (err) {
               console.error(err)
@@ -217,23 +189,20 @@ import {
           }
         }).then(() => {
           this.$router.push({
-            path: '../shop/fullfillments'
+            path: '../shop/warehouses'
           })
         }).catch(err => console.log(err));
         this.name = ' ';
-        this.company = ' ';
-        this.phone = ' ';
-        this.address = ' ';
-        this.country_area = ' ';
-        this.zipcode = ' ';
+        this.description = ' ';
+        this.image = ' ';
+        this.postal = ' ';
         this.country = ' ';
-        this.fullfillment = ' ';
-        this.shipping_zones = ' ';
-        this.address_two = ' ';
+        this.products = ' ';
+        this.status = ' ';
         this.state = ' ';
         this.country = ' ';
         this.city = ' ';
-        this.value = ' ';
+        this.isPublic = ' ';
       },
     },
     apollo: {
@@ -245,9 +214,9 @@ import {
           prefetch: true,
           query: countries
           },
-          companys: {
+          descriptions: {
           prefetch: true,
-          query: companys
+          query: descriptions
           } */
     }
 }

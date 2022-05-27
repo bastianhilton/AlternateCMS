@@ -12,6 +12,8 @@ import '..\\node_modules\\simplemde\\dist\\simplemde.min.css'
 
 import '..\\client\\static\\styles\\snow.min.css'
 
+import '..\\client\\static\\extensions\\DataTables\\datatables.min.css'
+
 import '..\\node_modules\\leaflet\\dist\\leaflet.css'
 
 import '..\\node_modules\\vuetify\\dist\\vuetify.css'

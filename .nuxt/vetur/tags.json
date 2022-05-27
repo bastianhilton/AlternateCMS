@@ -8,23 +8,14 @@
   "Colormode": {
     "description": "Auto imported from components/colormode.vue"
   },
-  "Customersettings": {
-    "description": "Auto imported from components/customersettings.vue"
-  },
   "Customerslimit": {
     "description": "Auto imported from components/customerslimit.vue"
   },
   "Footer": {
     "description": "Auto imported from components/Footer.vue"
   },
-  "Generalsettings": {
-    "description": "Auto imported from components/generalsettings.vue"
-  },
   "Header": {
     "description": "Auto imported from components/Header.vue"
-  },
-  "Marketingsettings": {
-    "description": "Auto imported from components/marketingsettings.vue"
   },
   "Newcustomers": {
     "description": "Auto imported from components/newcustomers.vue"
@@ -35,26 +26,17 @@
   "Ottotracker": {
     "description": "Auto imported from components/ottotracker.vue"
   },
-  "Reportsettings": {
-    "description": "Auto imported from components/reportsettings.vue"
-  },
   "Reviewslimit": {
     "description": "Auto imported from components/reviewslimit.vue"
   },
-  "Salesettings": {
-    "description": "Auto imported from components/salesettings.vue"
-  },
-  "Shopsettings": {
-    "description": "Auto imported from components/shopsettings.vue"
-  },
-  "Ticketdisplay": {
-    "description": "Auto imported from components/ticketdisplay.vue"
-  },
-  "Usersettings": {
-    "description": "Auto imported from components/usersettings.vue"
-  },
   "Visitsdisplay": {
     "description": "Auto imported from components/visitsdisplay.vue"
+  },
+  "ImportProducts": {
+    "description": "Auto imported from components/import/import-products.vue"
+  },
+  "ImportId": {
+    "description": "Auto imported from components/import/_id.vue"
   },
   "IntegrationsContent": {
     "description": "Auto imported from components/integrations/content.vue"
@@ -83,11 +65,35 @@
   "SettingsApitokensettings": {
     "description": "Auto imported from components/settings/apitokensettings.vue"
   },
+  "SettingsCustomersettings": {
+    "description": "Auto imported from components/settings/customersettings.vue"
+  },
+  "SettingsGeneralsettings": {
+    "description": "Auto imported from components/settings/generalsettings.vue"
+  },
+  "SettingsMarketingsettings": {
+    "description": "Auto imported from components/settings/marketingsettings.vue"
+  },
   "SettingsPaymentsettings": {
     "description": "Auto imported from components/settings/paymentsettings.vue"
   },
   "SettingsProvidersettings": {
     "description": "Auto imported from components/settings/providersettings.vue"
+  },
+  "SettingsReportsettings": {
+    "description": "Auto imported from components/settings/reportsettings.vue"
+  },
+  "SettingsSalesettings": {
+    "description": "Auto imported from components/settings/salesettings.vue"
+  },
+  "SettingsShopsettings": {
+    "description": "Auto imported from components/settings/shopsettings.vue"
+  },
+  "SettingsTicketdisplay": {
+    "description": "Auto imported from components/settings/ticketdisplay.vue"
+  },
+  "SettingsUsersettings": {
+    "description": "Auto imported from components/settings/usersettings.vue"
   },
   "SettingsWebhooks": {
     "description": "Auto imported from components/settings/webhooks.vue"

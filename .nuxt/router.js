@@ -83,6 +83,7 @@ const _54179947 = () => interopDefault(import('..\\client\\pages\\Admin\\Marketi
 const _2921453c = () => interopDefault(import('..\\client\\pages\\Admin\\Marketing\\invitations.vue' /* webpackChunkName: "pages/Admin/Marketing/invitations" */))
 const _da541c32 = () => interopDefault(import('..\\client\\pages\\Admin\\Marketing\\newsletter.vue' /* webpackChunkName: "pages/Admin/Marketing/newsletter" */))
 const _47bf29dd = () => interopDefault(import('..\\client\\pages\\Admin\\Marketing\\reviews.vue' /* webpackChunkName: "pages/Admin/Marketing/reviews" */))
+const _2c3f2066 = () => interopDefault(import('..\\client\\pages\\Admin\\Marketing\\rewards.vue' /* webpackChunkName: "pages/Admin/Marketing/rewards" */))
 const _6291e61f = () => interopDefault(import('..\\client\\pages\\Admin\\Marketing\\seo.vue' /* webpackChunkName: "pages/Admin/Marketing/seo" */))
 const _4fa35f18 = () => interopDefault(import('..\\client\\pages\\Admin\\Marketing\\ticketing.vue' /* webpackChunkName: "pages/Admin/Marketing/ticketing" */))
 const _01edcb08 = () => interopDefault(import('..\\client\\pages\\Admin\\Marketing\\training.vue' /* webpackChunkName: "pages/Admin/Marketing/training" */))
@@ -119,9 +120,12 @@ const _04a7fcc0 = () => interopDefault(import('..\\client\\pages\\Admin\\Shop\\s
 const _15ababe0 = () => interopDefault(import('..\\client\\pages\\Admin\\Shop\\tax-rate.vue' /* webpackChunkName: "pages/Admin/Shop/tax-rate" */))
 const _2a0187fc = () => interopDefault(import('..\\client\\pages\\Admin\\Shop\\tax-rule.vue' /* webpackChunkName: "pages/Admin/Shop/tax-rule" */))
 const _c461b0a4 = () => interopDefault(import('..\\client\\pages\\Admin\\Shop\\warehouses.vue' /* webpackChunkName: "pages/Admin/Shop/warehouses" */))
+const _6cd19775 = () => interopDefault(import('..\\client\\pages\\Admin\\System\\export-management.vue' /* webpackChunkName: "pages/Admin/System/export-management" */))
 const _4ad60eff = () => interopDefault(import('..\\client\\pages\\Admin\\System\\general-settings.vue' /* webpackChunkName: "pages/Admin/System/general-settings" */))
 const _4f9ed4d8 = () => interopDefault(import('..\\client\\pages\\Admin\\System\\help.vue' /* webpackChunkName: "pages/Admin/System/help" */))
+const _a97d9138 = () => interopDefault(import('..\\client\\pages\\Admin\\System\\import-management.vue' /* webpackChunkName: "pages/Admin/System/import-management" */))
 const _89238694 = () => interopDefault(import('..\\client\\pages\\Admin\\System\\integrations.vue' /* webpackChunkName: "pages/Admin/System/integrations" */))
+const _69a4d270 = () => interopDefault(import('..\\client\\pages\\Admin\\System\\knowledgebase.vue' /* webpackChunkName: "pages/Admin/System/knowledgebase" */))
 const _455e0cf2 = () => interopDefault(import('..\\client\\pages\\Admin\\System\\ooto.vue' /* webpackChunkName: "pages/Admin/System/ooto" */))
 const _42f4bd26 = () => interopDefault(import('..\\client\\pages\\Admin\\System\\role-manager.vue' /* webpackChunkName: "pages/Admin/System/role-manager" */))
 const _fab8ad8c = () => interopDefault(import('..\\client\\pages\\Admin\\System\\settings.vue' /* webpackChunkName: "pages/Admin/System/settings" */))
@@ -141,25 +145,28 @@ const _29483896 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\c
 const _f5dbb0dc = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\coupon\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/coupon/_id" */))
 const _28b917ab = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\customergroup\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/customergroup/_id" */))
 const _1380ae57 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\deep-dive\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/deep-dive/_id" */))
+const _336151db = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\email_template\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/email_template/_id" */))
 const _1c176092 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\event\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/event/_id" */))
+const _7a61ccf0 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\fullfillment\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/fullfillment/_id" */))
 const _daf11b84 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\gift-certificate\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/gift-certificate/_id" */))
 const _513c89cc = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\glossary\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/glossary/_id" */))
 const _75193242 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\invoice\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/invoice/_id" */))
+const _7d97b47d = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\knowledgebase\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/knowledgebase/_id" */))
 const _e3151996 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\leads\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/leads/_id" */))
 const _1a3f6f91 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\meeting\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/meeting/_id" */))
-const _39f35e40 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\meetings\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/meetings/_id" */))
 const _b3e52542 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\newsletter\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/newsletter/_id" */))
 const _00ab6c92 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\newslettersubscriber\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/newslettersubscriber/_id" */))
 const _4882d87d = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\ooto\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/ooto/_id" */))
 const _9c09174a = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\opportunities\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/opportunities/_id" */))
 const _9e59566e = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\page\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/page/_id" */))
+const _1486419e = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\pdf_template\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/pdf_template/_id" */))
 const _d0649146 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\product\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/product/_id" */))
 const _7a43543e = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\projects\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/projects/_id" */))
 const _36795961 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\quotes\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/quotes/_id" */))
 const _832d0b78 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\report\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/report/_id" */))
-const _77c4c6e6 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\reports\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/reports/_id" */))
 const _26326470 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\return\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/return/_id" */))
 const _749100a0 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\review\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/review/_id" */))
+const _d89eeaae = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\reward\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/reward/_id" */))
 const _2a759cce = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\segment\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/segment/_id" */))
 const _71f581c4 = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\shipment\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/shipment/_id" */))
 const _b10b570a = () => interopDefault(import('..\\client\\pages\\Admin\\Edit\\state\\_id.vue' /* webpackChunkName: "pages/Admin/Edit/state/_id" */))
@@ -185,1995 +192,6231 @@ export const routerOptions = {
   routes: [{
     path: "/es",
     component: _1b6fdfab,
-    name: "index___es"
+    name: "index___es___en"
+  }, {
+    path: "/es",
+    component: _1b6fdfab,
+    name: "index___en___es"
   }, {
     path: "/fr",
     component: _1b6fdfab,
-    name: "index___fr"
+    name: "index___fr___en"
+  }, {
+    path: "/fr",
+    component: _1b6fdfab,
+    name: "index___en___fr"
   }, {
     path: "/search",
     component: _036a21c2,
-    name: "search___en"
+    name: "search___en___en"
   }, {
     path: "/test",
     component: _7bf474c9,
-    name: "test___en"
+    name: "test___en___en"
   }, {
     path: "/Auth/Login",
     component: _e321d8cc,
-    name: "Auth-Login___en"
+    name: "Auth-Login___en___en"
   }, {
     path: "/Auth/Register",
     component: _2329b1fc,
-    name: "Auth-Register___en"
+    name: "Auth-Register___en___en"
+  }, {
+    path: "/es/es",
+    component: _1b6fdfab,
+    name: "index___es___es"
+  }, {
+    path: "/es/fr",
+    component: _1b6fdfab,
+    name: "index___fr___es"
   }, {
     path: "/es/search",
     component: _036a21c2,
-    name: "search___es"
+    name: "search___en___es"
+  }, {
+    path: "/es/search",
+    component: _036a21c2,
+    name: "search___es___en"
   }, {
     path: "/es/test",
     component: _7bf474c9,
-    name: "test___es"
+    name: "test___en___es"
+  }, {
+    path: "/es/test",
+    component: _7bf474c9,
+    name: "test___es___en"
+  }, {
+    path: "/fr/es",
+    component: _1b6fdfab,
+    name: "index___es___fr"
+  }, {
+    path: "/fr/fr",
+    component: _1b6fdfab,
+    name: "index___fr___fr"
   }, {
     path: "/fr/search",
     component: _036a21c2,
-    name: "search___fr"
+    name: "search___en___fr"
+  }, {
+    path: "/fr/search",
+    component: _036a21c2,
+    name: "search___fr___en"
   }, {
     path: "/fr/test",
     component: _7bf474c9,
-    name: "test___fr"
+    name: "test___en___fr"
+  }, {
+    path: "/fr/test",
+    component: _7bf474c9,
+    name: "test___fr___en"
   }, {
     path: "/User/my-account",
     component: _2c35912e,
-    name: "User-my-account___en"
+    name: "User-my-account___en___en"
   }, {
     path: "/Admin/Add-New/add-new-agreement",
     component: _7d05d776,
-    name: "Admin-Add-New-add-new-agreement___en"
+    name: "Admin-Add-New-add-new-agreement___en___en"
   }, {
     path: "/Admin/Add-New/add-new-article",
     component: _2ed7f41e,
-    name: "Admin-Add-New-add-new-article___en"
+    name: "Admin-Add-New-add-new-article___en___en"
   }, {
     path: "/Admin/Add-New/add-new-attribute",
     component: _2d8e5852,
-    name: "Admin-Add-New-add-new-attribute___en"
+    name: "Admin-Add-New-add-new-attribute___en___en"
   }, {
     path: "/Admin/Add-New/add-new-campaign",
     component: _4e56e6a5,
-    name: "Admin-Add-New-add-new-campaign___en"
+    name: "Admin-Add-New-add-new-campaign___en___en"
   }, {
     path: "/Admin/Add-New/add-new-case",
     component: _14f95745,
-    name: "Admin-Add-New-add-new-case___en"
+    name: "Admin-Add-New-add-new-case___en___en"
   }, {
     path: "/Admin/Add-New/add-new-category",
     component: _5d74fb93,
-    name: "Admin-Add-New-add-new-category___en"
+    name: "Admin-Add-New-add-new-category___en___en"
   }, {
     path: "/Admin/Add-New/add-new-checklist",
     component: _1bdf65e1,
-    name: "Admin-Add-New-add-new-checklist___en"
+    name: "Admin-Add-New-add-new-checklist___en___en"
   }, {
     path: "/Admin/Add-New/add-new-city",
     component: _820c4000,
-    name: "Admin-Add-New-add-new-city___en"
+    name: "Admin-Add-New-add-new-city___en___en"
   }, {
     path: "/Admin/Add-New/add-new-collection",
     component: _70195c1a,
-    name: "Admin-Add-New-add-new-collection___en"
+    name: "Admin-Add-New-add-new-collection___en___en"
   }, {
     path: "/Admin/Add-New/add-new-contract",
     component: _1f11b4b2,
-    name: "Admin-Add-New-add-new-contract___en"
+    name: "Admin-Add-New-add-new-contract___en___en"
   }, {
     path: "/Admin/Add-New/add-new-country",
     component: _5fcc4091,
-    name: "Admin-Add-New-add-new-country___en"
+    name: "Admin-Add-New-add-new-country___en___en"
   }, {
     path: "/Admin/Add-New/add-new-coupon",
     component: _5bbfddfb,
-    name: "Admin-Add-New-add-new-coupon___en"
+    name: "Admin-Add-New-add-new-coupon___en___en"
   }, {
     path: "/Admin/Add-New/add-new-customer",
     component: _79b74e73,
-    name: "Admin-Add-New-add-new-customer___en"
+    name: "Admin-Add-New-add-new-customer___en___en"
   }, {
     path: "/Admin/Add-New/add-new-customergroup",
     component: _26c7e69c,
-    name: "Admin-Add-New-add-new-customergroup___en"
+    name: "Admin-Add-New-add-new-customergroup___en___en"
   }, {
     path: "/Admin/Add-New/add-new-deepdive",
     component: _580d3275,
-    name: "Admin-Add-New-add-new-deepdive___en"
+    name: "Admin-Add-New-add-new-deepdive___en___en"
   }, {
     path: "/Admin/Add-New/add-new-emailtemplates",
     component: _1f88ec72,
-    name: "Admin-Add-New-add-new-emailtemplates___en"
+    name: "Admin-Add-New-add-new-emailtemplates___en___en"
   }, {
     path: "/Admin/Add-New/add-new-eosr",
     component: _6bebbfc4,
-    name: "Admin-Add-New-add-new-eosr___en"
+    name: "Admin-Add-New-add-new-eosr___en___en"
   }, {
     path: "/Admin/Add-New/add-new-event",
     component: _66b13655,
-    name: "Admin-Add-New-add-new-event___en"
+    name: "Admin-Add-New-add-new-event___en___en"
   }, {
     path: "/Admin/Add-New/add-new-fullfilment",
     component: _64143c1a,
-    name: "Admin-Add-New-add-new-fullfilment___en"
+    name: "Admin-Add-New-add-new-fullfilment___en___en"
   }, {
     path: "/Admin/Add-New/add-new-gift-certificates",
     component: _34b55af4,
-    name: "Admin-Add-New-add-new-gift-certificates___en"
+    name: "Admin-Add-New-add-new-gift-certificates___en___en"
   }, {
     path: "/Admin/Add-New/add-new-glossary",
     component: _3254f8b3,
-    name: "Admin-Add-New-add-new-glossary___en"
+    name: "Admin-Add-New-add-new-glossary___en___en"
   }, {
     path: "/Admin/Add-New/add-new-invoice",
     component: _f724eeb0,
-    name: "Admin-Add-New-add-new-invoice___en"
+    name: "Admin-Add-New-add-new-invoice___en___en"
   }, {
     path: "/Admin/Add-New/add-new-knowledgebase",
     component: _12eb0e8a,
-    name: "Admin-Add-New-add-new-knowledgebase___en"
+    name: "Admin-Add-New-add-new-knowledgebase___en___en"
   }, {
     path: "/Admin/Add-New/add-new-lead",
     component: _70b78571,
-    name: "Admin-Add-New-add-new-lead___en"
+    name: "Admin-Add-New-add-new-lead___en___en"
   }, {
     path: "/Admin/Add-New/add-new-meeting",
     component: _f9b14e94,
-    name: "Admin-Add-New-add-new-meeting___en"
+    name: "Admin-Add-New-add-new-meeting___en___en"
   }, {
     path: "/Admin/Add-New/add-new-newsletter",
     component: _c451bae4,
-    name: "Admin-Add-New-add-new-newsletter___en"
+    name: "Admin-Add-New-add-new-newsletter___en___en"
   }, {
     path: "/Admin/Add-New/add-new-newslettersubscriber%20copy",
     component: _b1f9e4e2,
-    name: "Admin-Add-New-add-new-newslettersubscriber copy___en"
+    name: "Admin-Add-New-add-new-newslettersubscriber copy___en___en"
   }, {
     path: "/Admin/Add-New/add-new-ooto",
     component: _4b3f1a20,
-    name: "Admin-Add-New-add-new-ooto___en"
+    name: "Admin-Add-New-add-new-ooto___en___en"
   }, {
     path: "/Admin/Add-New/add-new-opportunity",
     component: _54be7fce,
-    name: "Admin-Add-New-add-new-opportunity___en"
+    name: "Admin-Add-New-add-new-opportunity___en___en"
   }, {
     path: "/Admin/Add-New/add-new-page",
     component: _46ee7724,
-    name: "Admin-Add-New-add-new-page___en"
+    name: "Admin-Add-New-add-new-page___en___en"
   }, {
     path: "/Admin/Add-New/add-new-pdftemplates",
     component: _02828e1c,
-    name: "Admin-Add-New-add-new-pdftemplates___en"
+    name: "Admin-Add-New-add-new-pdftemplates___en___en"
   }, {
     path: "/Admin/Add-New/add-new-product",
     component: _5ee6616a,
-    name: "Admin-Add-New-add-new-product___en"
+    name: "Admin-Add-New-add-new-product___en___en"
   }, {
     path: "/Admin/Add-New/add-new-project",
     component: _7fc9ba94,
-    name: "Admin-Add-New-add-new-project___en"
+    name: "Admin-Add-New-add-new-project___en___en"
   }, {
     path: "/Admin/Add-New/add-new-quote",
     component: _0c6d4137,
-    name: "Admin-Add-New-add-new-quote___en"
+    name: "Admin-Add-New-add-new-quote___en___en"
   }, {
     path: "/Admin/Add-New/add-new-report",
     component: _aaefb7ee,
-    name: "Admin-Add-New-add-new-report___en"
+    name: "Admin-Add-New-add-new-report___en___en"
   }, {
     path: "/Admin/Add-New/add-new-return",
     component: _f1c4a3f6,
-    name: "Admin-Add-New-add-new-return___en"
+    name: "Admin-Add-New-add-new-return___en___en"
   }, {
     path: "/Admin/Add-New/add-new-review",
     component: _7335d7a6,
-    name: "Admin-Add-New-add-new-review___en"
+    name: "Admin-Add-New-add-new-review___en___en"
   }, {
     path: "/Admin/Add-New/add-new-rewards",
     component: _232dedc2,
-    name: "Admin-Add-New-add-new-rewards___en"
+    name: "Admin-Add-New-add-new-rewards___en___en"
   }, {
     path: "/Admin/Add-New/add-new-role",
     component: _03d0498b,
-    name: "Admin-Add-New-add-new-role___en"
+    name: "Admin-Add-New-add-new-role___en___en"
   }, {
     path: "/Admin/Add-New/add-new-schedule",
     component: _ed5b46a8,
-    name: "Admin-Add-New-add-new-schedule___en"
+    name: "Admin-Add-New-add-new-schedule___en___en"
   }, {
     path: "/Admin/Add-New/add-new-segment",
     component: _7f0271ae,
-    name: "Admin-Add-New-add-new-segment___en"
+    name: "Admin-Add-New-add-new-segment___en___en"
   }, {
     path: "/Admin/Add-New/add-new-shipment",
     component: _21c8022f,
-    name: "Admin-Add-New-add-new-shipment___en"
+    name: "Admin-Add-New-add-new-shipment___en___en"
   }, {
     path: "/Admin/Add-New/add-new-staffmembers",
     component: _51d06cce,
-    name: "Admin-Add-New-add-new-staffmembers___en"
+    name: "Admin-Add-New-add-new-staffmembers___en___en"
   }, {
     path: "/Admin/Add-New/add-new-state",
     component: _2f049668,
-    name: "Admin-Add-New-add-new-state___en"
+    name: "Admin-Add-New-add-new-state___en___en"
   }, {
     path: "/Admin/Add-New/add-new-survey",
     component: _0f3df32f,
-    name: "Admin-Add-New-add-new-survey___en"
+    name: "Admin-Add-New-add-new-survey___en___en"
   }, {
     path: "/Admin/Add-New/add-new-tag",
     component: _0f993015,
-    name: "Admin-Add-New-add-new-tag___en"
+    name: "Admin-Add-New-add-new-tag___en___en"
   }, {
     path: "/Admin/Add-New/add-new-target",
     component: _546ac9e6,
-    name: "Admin-Add-New-add-new-target___en"
+    name: "Admin-Add-New-add-new-target___en___en"
   }, {
     path: "/Admin/Add-New/add-new-task",
     component: _097c41cc,
-    name: "Admin-Add-New-add-new-task___en"
+    name: "Admin-Add-New-add-new-task___en___en"
   }, {
     path: "/Admin/Add-New/add-new-taxrate",
     component: _58836586,
-    name: "Admin-Add-New-add-new-taxrate___en"
+    name: "Admin-Add-New-add-new-taxrate___en___en"
   }, {
     path: "/Admin/Add-New/add-new-taxrule",
     component: _6cd941a2,
-    name: "Admin-Add-New-add-new-taxrule___en"
+    name: "Admin-Add-New-add-new-taxrule___en___en"
   }, {
     path: "/Admin/Add-New/add-new-visit",
     component: _56475ef4,
-    name: "Admin-Add-New-add-new-visit___en"
+    name: "Admin-Add-New-add-new-visit___en___en"
   }, {
     path: "/Admin/Add-New/add-new-warehouse",
     component: _15840f04,
-    name: "Admin-Add-New-add-new-warehouse___en"
+    name: "Admin-Add-New-add-new-warehouse___en___en"
   }, {
     path: "/Admin/Add-New/add-new-warehouse%20copy",
     component: _472a0cf2,
-    name: "Admin-Add-New-add-new-warehouse copy___en"
+    name: "Admin-Add-New-add-new-warehouse copy___en___en"
   }, {
     path: "/Admin/Content/blog",
     component: _478cf93a,
-    name: "Admin-Content-blog___en"
+    name: "Admin-Content-blog___en___en"
   }, {
     path: "/Admin/Content/glossary",
     component: _11c0c35f,
-    name: "Admin-Content-glossary___en"
+    name: "Admin-Content-glossary___en___en"
   }, {
     path: "/Admin/Content/media-manager",
     component: _07f1e95a,
-    name: "Admin-Content-media-manager___en"
+    name: "Admin-Content-media-manager___en___en"
   }, {
     path: "/Admin/Content/pages",
     component: _adcfb95a,
-    name: "Admin-Content-pages___en"
+    name: "Admin-Content-pages___en___en"
   }, {
     path: "/Admin/Content/projects",
     component: _5c8503bb,
-    name: "Admin-Content-projects___en"
+    name: "Admin-Content-projects___en___en"
   }, {
     path: "/Admin/Content/tags",
     component: _51a7174c,
-    name: "Admin-Content-tags___en"
+    name: "Admin-Content-tags___en___en"
   }, {
     path: "/Admin/Customers/all-customers",
     component: _042a7848,
-    name: "Admin-Customers-all-customers___en"
+    name: "Admin-Customers-all-customers___en___en"
   }, {
     path: "/Admin/Customers/customer-groups",
     component: _de21f0d4,
-    name: "Admin-Customers-customer-groups___en"
+    name: "Admin-Customers-customer-groups___en___en"
   }, {
     path: "/Admin/Customers/leads",
     component: _0f8d1d6c,
-    name: "Admin-Customers-leads___en"
+    name: "Admin-Customers-leads___en___en"
   }, {
     path: "/Admin/Customers/meetings",
     component: _52bbe4b5,
-    name: "Admin-Customers-meetings___en"
+    name: "Admin-Customers-meetings___en___en"
   }, {
     path: "/Admin/Customers/online-customers",
     component: _694181f8,
-    name: "Admin-Customers-online-customers___en"
+    name: "Admin-Customers-online-customers___en___en"
   }, {
     path: "/Admin/Customers/opportunities",
     component: _0d1c0b64,
-    name: "Admin-Customers-opportunities___en"
+    name: "Admin-Customers-opportunities___en___en"
   }, {
     path: "/Admin/Customers/segments",
     component: _5b782a86,
-    name: "Admin-Customers-segments___en"
+    name: "Admin-Customers-segments___en___en"
   }, {
     path: "/Admin/Customers/tasks",
     component: _820b667e,
-    name: "Admin-Customers-tasks___en"
+    name: "Admin-Customers-tasks___en___en"
   }, {
     path: "/Admin/Marketing/communications",
     component: _212fab8b,
-    name: "Admin-Marketing-communications___en"
+    name: "Admin-Marketing-communications___en___en"
   }, {
     path: "/Admin/Marketing/contracts",
     component: _42c691e3,
-    name: "Admin-Marketing-contracts___en"
+    name: "Admin-Marketing-contracts___en___en"
   }, {
     path: "/Admin/Marketing/events",
     component: _54179947,
-    name: "Admin-Marketing-events___en"
+    name: "Admin-Marketing-events___en___en"
   }, {
     path: "/Admin/Marketing/invitations",
     component: _2921453c,
-    name: "Admin-Marketing-invitations___en"
+    name: "Admin-Marketing-invitations___en___en"
   }, {
     path: "/Admin/Marketing/newsletter",
     component: _da541c32,
-    name: "Admin-Marketing-newsletter___en"
+    name: "Admin-Marketing-newsletter___en___en"
   }, {
     path: "/Admin/Marketing/reviews",
     component: _47bf29dd,
-    name: "Admin-Marketing-reviews___en"
+    name: "Admin-Marketing-reviews___en___en"
+  }, {
+    path: "/Admin/Marketing/rewards",
+    component: _2c3f2066,
+    name: "Admin-Marketing-rewards___en___en"
   }, {
     path: "/Admin/Marketing/seo",
     component: _6291e61f,
-    name: "Admin-Marketing-seo___en"
+    name: "Admin-Marketing-seo___en___en"
   }, {
     path: "/Admin/Marketing/ticketing",
     component: _4fa35f18,
-    name: "Admin-Marketing-ticketing___en"
+    name: "Admin-Marketing-ticketing___en___en"
   }, {
     path: "/Admin/Marketing/training",
     component: _01edcb08,
-    name: "Admin-Marketing-training___en"
+    name: "Admin-Marketing-training___en___en"
   }, {
     path: "/Admin/Reports/calendars",
     component: _1f5b8b04,
-    name: "Admin-Reports-calendars___en"
+    name: "Admin-Reports-calendars___en___en"
   }, {
     path: "/Admin/Reports/cases",
     component: _03d1424c,
-    name: "Admin-Reports-cases___en"
+    name: "Admin-Reports-cases___en___en"
   }, {
     path: "/Admin/Reports/deep-dive",
     component: _726293be,
-    name: "Admin-Reports-deep-dive___en"
+    name: "Admin-Reports-deep-dive___en___en"
   }, {
     path: "/Admin/Reports/eosr",
     component: _b6e442e0,
-    name: "Admin-Reports-eosr___en"
+    name: "Admin-Reports-eosr___en___en"
   }, {
     path: "/Admin/Reports/marketing-reports",
     component: _658a7c21,
-    name: "Admin-Reports-marketing-reports___en"
+    name: "Admin-Reports-marketing-reports___en___en"
   }, {
     path: "/Admin/Reports/products-reports",
     component: _3dc08b5d,
-    name: "Admin-Reports-products-reports___en"
+    name: "Admin-Reports-products-reports___en___en"
   }, {
     path: "/Admin/Reports/reviews",
     component: _59cf3238,
-    name: "Admin-Reports-reviews___en"
+    name: "Admin-Reports-reviews___en___en"
   }, {
     path: "/Admin/Reports/sales-reports",
     component: _05f9b287,
-    name: "Admin-Reports-sales-reports___en"
+    name: "Admin-Reports-sales-reports___en___en"
   }, {
     path: "/Admin/Reports/statistics",
     component: _0641aa2c,
-    name: "Admin-Reports-statistics___en"
+    name: "Admin-Reports-statistics___en___en"
   }, {
     path: "/Admin/Reports/surveys",
     component: _b5492fbc,
-    name: "Admin-Reports-surveys___en"
+    name: "Admin-Reports-surveys___en___en"
   }, {
     path: "/Admin/Reports/team-scheduler",
     component: _3c938b92,
-    name: "Admin-Reports-team-scheduler___en"
+    name: "Admin-Reports-team-scheduler___en___en"
   }, {
     path: "/Admin/Sales/agreements",
     component: _1c600fbd,
-    name: "Admin-Sales-agreements___en"
+    name: "Admin-Sales-agreements___en___en"
   }, {
     path: "/Admin/Sales/certificates",
     component: _2d9f7d60,
-    name: "Admin-Sales-certificates___en"
+    name: "Admin-Sales-certificates___en___en"
   }, {
     path: "/Admin/Sales/credit-memos",
     component: _052225b9,
-    name: "Admin-Sales-credit-memos___en"
+    name: "Admin-Sales-credit-memos___en___en"
   }, {
     path: "/Admin/Sales/invoices",
     component: _6b25ab7a,
-    name: "Admin-Sales-invoices___en"
+    name: "Admin-Sales-invoices___en___en"
   }, {
     path: "/Admin/Sales/orders",
     component: _6ef6e2f9,
-    name: "Admin-Sales-orders___en"
+    name: "Admin-Sales-orders___en___en"
   }, {
     path: "/Admin/Sales/quotes",
     component: _e35b0eea,
-    name: "Admin-Sales-quotes___en"
+    name: "Admin-Sales-quotes___en___en"
   }, {
     path: "/Admin/Sales/returns",
     component: _f7540c42,
-    name: "Admin-Sales-returns___en"
+    name: "Admin-Sales-returns___en___en"
   }, {
     path: "/Admin/Sales/shipments",
     component: _f905b296,
-    name: "Admin-Sales-shipments___en"
+    name: "Admin-Sales-shipments___en___en"
   }, {
     path: "/Admin/Sales/transactions",
     component: _b32d372e,
-    name: "Admin-Sales-transactions___en"
+    name: "Admin-Sales-transactions___en___en"
   }, {
     path: "/Admin/Shop/attributes",
     component: _292fb775,
-    name: "Admin-Shop-attributes___en"
+    name: "Admin-Shop-attributes___en___en"
   }, {
     path: "/Admin/Shop/categories",
     component: _6a192c8c,
-    name: "Admin-Shop-categories___en"
+    name: "Admin-Shop-categories___en___en"
   }, {
     path: "/Admin/Shop/cities",
     component: _6c141932,
-    name: "Admin-Shop-cities___en"
+    name: "Admin-Shop-cities___en___en"
   }, {
     path: "/Admin/Shop/collections",
     component: _46ce0767,
-    name: "Admin-Shop-collections___en"
+    name: "Admin-Shop-collections___en___en"
   }, {
     path: "/Admin/Shop/countries",
     component: _4908fb86,
-    name: "Admin-Shop-countries___en"
+    name: "Admin-Shop-countries___en___en"
   }, {
     path: "/Admin/Shop/coupons",
     component: _b3e10042,
-    name: "Admin-Shop-coupons___en"
+    name: "Admin-Shop-coupons___en___en"
   }, {
     path: "/Admin/Shop/inventory",
     component: _fe6c33a4,
-    name: "Admin-Shop-inventory___en"
+    name: "Admin-Shop-inventory___en___en"
   }, {
     path: "/Admin/Shop/multi-vendor",
     component: _78521b0c,
-    name: "Admin-Shop-multi-vendor___en"
+    name: "Admin-Shop-multi-vendor___en___en"
   }, {
     path: "/Admin/Shop/products",
     component: _7f2dcafc,
-    name: "Admin-Shop-products___en"
+    name: "Admin-Shop-products___en___en"
   }, {
     path: "/Admin/Shop/states",
     component: _04a7fcc0,
-    name: "Admin-Shop-states___en"
+    name: "Admin-Shop-states___en___en"
   }, {
     path: "/Admin/Shop/tax-rate",
     component: _15ababe0,
-    name: "Admin-Shop-tax-rate___en"
+    name: "Admin-Shop-tax-rate___en___en"
   }, {
     path: "/Admin/Shop/tax-rule",
     component: _2a0187fc,
-    name: "Admin-Shop-tax-rule___en"
+    name: "Admin-Shop-tax-rule___en___en"
   }, {
     path: "/Admin/Shop/warehouses",
     component: _c461b0a4,
-    name: "Admin-Shop-warehouses___en"
+    name: "Admin-Shop-warehouses___en___en"
+  }, {
+    path: "/Admin/System/export-management",
+    component: _6cd19775,
+    name: "Admin-System-export-management___en___en"
   }, {
     path: "/Admin/System/general-settings",
     component: _4ad60eff,
-    name: "Admin-System-general-settings___en"
+    name: "Admin-System-general-settings___en___en"
   }, {
     path: "/Admin/System/help",
     component: _4f9ed4d8,
-    name: "Admin-System-help___en"
+    name: "Admin-System-help___en___en"
+  }, {
+    path: "/Admin/System/import-management",
+    component: _a97d9138,
+    name: "Admin-System-import-management___en___en"
   }, {
     path: "/Admin/System/integrations",
     component: _89238694,
-    name: "Admin-System-integrations___en"
+    name: "Admin-System-integrations___en___en"
+  }, {
+    path: "/Admin/System/knowledgebase",
+    component: _69a4d270,
+    name: "Admin-System-knowledgebase___en___en"
   }, {
     path: "/Admin/System/ooto",
     component: _455e0cf2,
-    name: "Admin-System-ooto___en"
+    name: "Admin-System-ooto___en___en"
   }, {
     path: "/Admin/System/role-manager",
     component: _42f4bd26,
-    name: "Admin-System-role-manager___en"
+    name: "Admin-System-role-manager___en___en"
   }, {
     path: "/Admin/System/settings",
     component: _fab8ad8c,
-    name: "Admin-System-settings___en"
+    name: "Admin-System-settings___en___en"
   }, {
     path: "/es/Auth/Login",
     component: _e321d8cc,
-    name: "Auth-Login___es"
+    name: "Auth-Login___en___es"
+  }, {
+    path: "/es/Auth/Login",
+    component: _e321d8cc,
+    name: "Auth-Login___es___en"
   }, {
     path: "/es/Auth/Register",
     component: _2329b1fc,
-    name: "Auth-Register___es"
+    name: "Auth-Register___en___es"
+  }, {
+    path: "/es/Auth/Register",
+    component: _2329b1fc,
+    name: "Auth-Register___es___en"
+  }, {
+    path: "/es/es/search",
+    component: _036a21c2,
+    name: "search___es___es"
+  }, {
+    path: "/es/es/test",
+    component: _7bf474c9,
+    name: "test___es___es"
+  }, {
+    path: "/es/fr/search",
+    component: _036a21c2,
+    name: "search___fr___es"
+  }, {
+    path: "/es/fr/test",
+    component: _7bf474c9,
+    name: "test___fr___es"
   }, {
     path: "/es/User/my-account",
     component: _2c35912e,
-    name: "User-my-account___es"
+    name: "User-my-account___en___es"
+  }, {
+    path: "/es/User/my-account",
+    component: _2c35912e,
+    name: "User-my-account___es___en"
   }, {
     path: "/fr/Auth/Login",
     component: _e321d8cc,
-    name: "Auth-Login___fr"
+    name: "Auth-Login___en___fr"
+  }, {
+    path: "/fr/Auth/Login",
+    component: _e321d8cc,
+    name: "Auth-Login___fr___en"
   }, {
     path: "/fr/Auth/Register",
     component: _2329b1fc,
-    name: "Auth-Register___fr"
+    name: "Auth-Register___en___fr"
+  }, {
+    path: "/fr/Auth/Register",
+    component: _2329b1fc,
+    name: "Auth-Register___fr___en"
+  }, {
+    path: "/fr/es/search",
+    component: _036a21c2,
+    name: "search___es___fr"
+  }, {
+    path: "/fr/es/test",
+    component: _7bf474c9,
+    name: "test___es___fr"
+  }, {
+    path: "/fr/fr/search",
+    component: _036a21c2,
+    name: "search___fr___fr"
+  }, {
+    path: "/fr/fr/test",
+    component: _7bf474c9,
+    name: "test___fr___fr"
   }, {
     path: "/fr/User/my-account",
     component: _2c35912e,
-    name: "User-my-account___fr"
+    name: "User-my-account___en___fr"
+  }, {
+    path: "/fr/User/my-account",
+    component: _2c35912e,
+    name: "User-my-account___fr___en"
   }, {
     path: "/Admin/Customers/customer/newcustomer",
     component: _4cb64913,
-    name: "Admin-Customers-customer-newcustomer___en"
+    name: "Admin-Customers-customer-newcustomer___en___en"
   }, {
     path: "/Admin/Edit/providers/id",
     component: _4fac380a,
-    name: "Admin-Edit-providers-id___en"
+    name: "Admin-Edit-providers-id___en___en"
   }, {
     path: "/Admin/Marketing/Email/email-designer",
     component: _29b48a8c,
-    name: "Admin-Marketing-Email-email-designer___en"
+    name: "Admin-Marketing-Email-email-designer___en___en"
   }, {
     path: "/es/Admin/Add-New/add-new-agreement",
     component: _7d05d776,
-    name: "Admin-Add-New-add-new-agreement___es"
+    name: "Admin-Add-New-add-new-agreement___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-agreement",
+    component: _7d05d776,
+    name: "Admin-Add-New-add-new-agreement___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-article",
     component: _2ed7f41e,
-    name: "Admin-Add-New-add-new-article___es"
+    name: "Admin-Add-New-add-new-article___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-article",
+    component: _2ed7f41e,
+    name: "Admin-Add-New-add-new-article___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-attribute",
     component: _2d8e5852,
-    name: "Admin-Add-New-add-new-attribute___es"
+    name: "Admin-Add-New-add-new-attribute___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-attribute",
+    component: _2d8e5852,
+    name: "Admin-Add-New-add-new-attribute___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-campaign",
     component: _4e56e6a5,
-    name: "Admin-Add-New-add-new-campaign___es"
+    name: "Admin-Add-New-add-new-campaign___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-campaign",
+    component: _4e56e6a5,
+    name: "Admin-Add-New-add-new-campaign___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-case",
     component: _14f95745,
-    name: "Admin-Add-New-add-new-case___es"
+    name: "Admin-Add-New-add-new-case___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-case",
+    component: _14f95745,
+    name: "Admin-Add-New-add-new-case___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-category",
     component: _5d74fb93,
-    name: "Admin-Add-New-add-new-category___es"
+    name: "Admin-Add-New-add-new-category___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-category",
+    component: _5d74fb93,
+    name: "Admin-Add-New-add-new-category___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-checklist",
     component: _1bdf65e1,
-    name: "Admin-Add-New-add-new-checklist___es"
+    name: "Admin-Add-New-add-new-checklist___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-checklist",
+    component: _1bdf65e1,
+    name: "Admin-Add-New-add-new-checklist___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-city",
     component: _820c4000,
-    name: "Admin-Add-New-add-new-city___es"
+    name: "Admin-Add-New-add-new-city___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-city",
+    component: _820c4000,
+    name: "Admin-Add-New-add-new-city___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-collection",
     component: _70195c1a,
-    name: "Admin-Add-New-add-new-collection___es"
+    name: "Admin-Add-New-add-new-collection___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-collection",
+    component: _70195c1a,
+    name: "Admin-Add-New-add-new-collection___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-contract",
     component: _1f11b4b2,
-    name: "Admin-Add-New-add-new-contract___es"
+    name: "Admin-Add-New-add-new-contract___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-contract",
+    component: _1f11b4b2,
+    name: "Admin-Add-New-add-new-contract___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-country",
     component: _5fcc4091,
-    name: "Admin-Add-New-add-new-country___es"
+    name: "Admin-Add-New-add-new-country___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-country",
+    component: _5fcc4091,
+    name: "Admin-Add-New-add-new-country___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-coupon",
     component: _5bbfddfb,
-    name: "Admin-Add-New-add-new-coupon___es"
+    name: "Admin-Add-New-add-new-coupon___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-coupon",
+    component: _5bbfddfb,
+    name: "Admin-Add-New-add-new-coupon___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-customer",
     component: _79b74e73,
-    name: "Admin-Add-New-add-new-customer___es"
+    name: "Admin-Add-New-add-new-customer___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-customer",
+    component: _79b74e73,
+    name: "Admin-Add-New-add-new-customer___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-customergroup",
     component: _26c7e69c,
-    name: "Admin-Add-New-add-new-customergroup___es"
+    name: "Admin-Add-New-add-new-customergroup___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-customergroup",
+    component: _26c7e69c,
+    name: "Admin-Add-New-add-new-customergroup___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-deepdive",
     component: _580d3275,
-    name: "Admin-Add-New-add-new-deepdive___es"
+    name: "Admin-Add-New-add-new-deepdive___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-deepdive",
+    component: _580d3275,
+    name: "Admin-Add-New-add-new-deepdive___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-emailtemplates",
     component: _1f88ec72,
-    name: "Admin-Add-New-add-new-emailtemplates___es"
+    name: "Admin-Add-New-add-new-emailtemplates___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-emailtemplates",
+    component: _1f88ec72,
+    name: "Admin-Add-New-add-new-emailtemplates___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-eosr",
     component: _6bebbfc4,
-    name: "Admin-Add-New-add-new-eosr___es"
+    name: "Admin-Add-New-add-new-eosr___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-eosr",
+    component: _6bebbfc4,
+    name: "Admin-Add-New-add-new-eosr___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-event",
     component: _66b13655,
-    name: "Admin-Add-New-add-new-event___es"
+    name: "Admin-Add-New-add-new-event___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-event",
+    component: _66b13655,
+    name: "Admin-Add-New-add-new-event___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-fullfilment",
     component: _64143c1a,
-    name: "Admin-Add-New-add-new-fullfilment___es"
+    name: "Admin-Add-New-add-new-fullfilment___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-fullfilment",
+    component: _64143c1a,
+    name: "Admin-Add-New-add-new-fullfilment___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-gift-certificates",
     component: _34b55af4,
-    name: "Admin-Add-New-add-new-gift-certificates___es"
+    name: "Admin-Add-New-add-new-gift-certificates___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-gift-certificates",
+    component: _34b55af4,
+    name: "Admin-Add-New-add-new-gift-certificates___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-glossary",
     component: _3254f8b3,
-    name: "Admin-Add-New-add-new-glossary___es"
+    name: "Admin-Add-New-add-new-glossary___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-glossary",
+    component: _3254f8b3,
+    name: "Admin-Add-New-add-new-glossary___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-invoice",
     component: _f724eeb0,
-    name: "Admin-Add-New-add-new-invoice___es"
+    name: "Admin-Add-New-add-new-invoice___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-invoice",
+    component: _f724eeb0,
+    name: "Admin-Add-New-add-new-invoice___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-knowledgebase",
     component: _12eb0e8a,
-    name: "Admin-Add-New-add-new-knowledgebase___es"
+    name: "Admin-Add-New-add-new-knowledgebase___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-knowledgebase",
+    component: _12eb0e8a,
+    name: "Admin-Add-New-add-new-knowledgebase___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-lead",
     component: _70b78571,
-    name: "Admin-Add-New-add-new-lead___es"
+    name: "Admin-Add-New-add-new-lead___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-lead",
+    component: _70b78571,
+    name: "Admin-Add-New-add-new-lead___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-meeting",
     component: _f9b14e94,
-    name: "Admin-Add-New-add-new-meeting___es"
+    name: "Admin-Add-New-add-new-meeting___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-meeting",
+    component: _f9b14e94,
+    name: "Admin-Add-New-add-new-meeting___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-newsletter",
     component: _c451bae4,
-    name: "Admin-Add-New-add-new-newsletter___es"
+    name: "Admin-Add-New-add-new-newsletter___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-newsletter",
+    component: _c451bae4,
+    name: "Admin-Add-New-add-new-newsletter___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-newslettersubscriber%20copy",
     component: _b1f9e4e2,
-    name: "Admin-Add-New-add-new-newslettersubscriber copy___es"
+    name: "Admin-Add-New-add-new-newslettersubscriber copy___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-newslettersubscriber%20copy",
+    component: _b1f9e4e2,
+    name: "Admin-Add-New-add-new-newslettersubscriber copy___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-ooto",
     component: _4b3f1a20,
-    name: "Admin-Add-New-add-new-ooto___es"
+    name: "Admin-Add-New-add-new-ooto___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-ooto",
+    component: _4b3f1a20,
+    name: "Admin-Add-New-add-new-ooto___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-opportunity",
     component: _54be7fce,
-    name: "Admin-Add-New-add-new-opportunity___es"
+    name: "Admin-Add-New-add-new-opportunity___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-opportunity",
+    component: _54be7fce,
+    name: "Admin-Add-New-add-new-opportunity___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-page",
     component: _46ee7724,
-    name: "Admin-Add-New-add-new-page___es"
+    name: "Admin-Add-New-add-new-page___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-page",
+    component: _46ee7724,
+    name: "Admin-Add-New-add-new-page___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-pdftemplates",
     component: _02828e1c,
-    name: "Admin-Add-New-add-new-pdftemplates___es"
+    name: "Admin-Add-New-add-new-pdftemplates___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-pdftemplates",
+    component: _02828e1c,
+    name: "Admin-Add-New-add-new-pdftemplates___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-product",
     component: _5ee6616a,
-    name: "Admin-Add-New-add-new-product___es"
+    name: "Admin-Add-New-add-new-product___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-product",
+    component: _5ee6616a,
+    name: "Admin-Add-New-add-new-product___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-project",
     component: _7fc9ba94,
-    name: "Admin-Add-New-add-new-project___es"
+    name: "Admin-Add-New-add-new-project___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-project",
+    component: _7fc9ba94,
+    name: "Admin-Add-New-add-new-project___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-quote",
     component: _0c6d4137,
-    name: "Admin-Add-New-add-new-quote___es"
+    name: "Admin-Add-New-add-new-quote___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-quote",
+    component: _0c6d4137,
+    name: "Admin-Add-New-add-new-quote___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-report",
     component: _aaefb7ee,
-    name: "Admin-Add-New-add-new-report___es"
+    name: "Admin-Add-New-add-new-report___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-report",
+    component: _aaefb7ee,
+    name: "Admin-Add-New-add-new-report___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-return",
     component: _f1c4a3f6,
-    name: "Admin-Add-New-add-new-return___es"
+    name: "Admin-Add-New-add-new-return___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-return",
+    component: _f1c4a3f6,
+    name: "Admin-Add-New-add-new-return___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-review",
     component: _7335d7a6,
-    name: "Admin-Add-New-add-new-review___es"
+    name: "Admin-Add-New-add-new-review___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-review",
+    component: _7335d7a6,
+    name: "Admin-Add-New-add-new-review___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-rewards",
     component: _232dedc2,
-    name: "Admin-Add-New-add-new-rewards___es"
+    name: "Admin-Add-New-add-new-rewards___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-rewards",
+    component: _232dedc2,
+    name: "Admin-Add-New-add-new-rewards___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-role",
     component: _03d0498b,
-    name: "Admin-Add-New-add-new-role___es"
+    name: "Admin-Add-New-add-new-role___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-role",
+    component: _03d0498b,
+    name: "Admin-Add-New-add-new-role___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-schedule",
     component: _ed5b46a8,
-    name: "Admin-Add-New-add-new-schedule___es"
+    name: "Admin-Add-New-add-new-schedule___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-schedule",
+    component: _ed5b46a8,
+    name: "Admin-Add-New-add-new-schedule___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-segment",
     component: _7f0271ae,
-    name: "Admin-Add-New-add-new-segment___es"
+    name: "Admin-Add-New-add-new-segment___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-segment",
+    component: _7f0271ae,
+    name: "Admin-Add-New-add-new-segment___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-shipment",
     component: _21c8022f,
-    name: "Admin-Add-New-add-new-shipment___es"
+    name: "Admin-Add-New-add-new-shipment___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-shipment",
+    component: _21c8022f,
+    name: "Admin-Add-New-add-new-shipment___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-staffmembers",
     component: _51d06cce,
-    name: "Admin-Add-New-add-new-staffmembers___es"
+    name: "Admin-Add-New-add-new-staffmembers___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-staffmembers",
+    component: _51d06cce,
+    name: "Admin-Add-New-add-new-staffmembers___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-state",
     component: _2f049668,
-    name: "Admin-Add-New-add-new-state___es"
+    name: "Admin-Add-New-add-new-state___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-state",
+    component: _2f049668,
+    name: "Admin-Add-New-add-new-state___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-survey",
     component: _0f3df32f,
-    name: "Admin-Add-New-add-new-survey___es"
+    name: "Admin-Add-New-add-new-survey___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-survey",
+    component: _0f3df32f,
+    name: "Admin-Add-New-add-new-survey___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-tag",
     component: _0f993015,
-    name: "Admin-Add-New-add-new-tag___es"
+    name: "Admin-Add-New-add-new-tag___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-tag",
+    component: _0f993015,
+    name: "Admin-Add-New-add-new-tag___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-target",
     component: _546ac9e6,
-    name: "Admin-Add-New-add-new-target___es"
+    name: "Admin-Add-New-add-new-target___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-target",
+    component: _546ac9e6,
+    name: "Admin-Add-New-add-new-target___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-task",
     component: _097c41cc,
-    name: "Admin-Add-New-add-new-task___es"
+    name: "Admin-Add-New-add-new-task___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-task",
+    component: _097c41cc,
+    name: "Admin-Add-New-add-new-task___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-taxrate",
     component: _58836586,
-    name: "Admin-Add-New-add-new-taxrate___es"
+    name: "Admin-Add-New-add-new-taxrate___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-taxrate",
+    component: _58836586,
+    name: "Admin-Add-New-add-new-taxrate___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-taxrule",
     component: _6cd941a2,
-    name: "Admin-Add-New-add-new-taxrule___es"
+    name: "Admin-Add-New-add-new-taxrule___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-taxrule",
+    component: _6cd941a2,
+    name: "Admin-Add-New-add-new-taxrule___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-visit",
     component: _56475ef4,
-    name: "Admin-Add-New-add-new-visit___es"
+    name: "Admin-Add-New-add-new-visit___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-visit",
+    component: _56475ef4,
+    name: "Admin-Add-New-add-new-visit___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-warehouse",
     component: _15840f04,
-    name: "Admin-Add-New-add-new-warehouse___es"
+    name: "Admin-Add-New-add-new-warehouse___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-warehouse",
+    component: _15840f04,
+    name: "Admin-Add-New-add-new-warehouse___es___en"
   }, {
     path: "/es/Admin/Add-New/add-new-warehouse%20copy",
     component: _472a0cf2,
-    name: "Admin-Add-New-add-new-warehouse copy___es"
+    name: "Admin-Add-New-add-new-warehouse copy___en___es"
+  }, {
+    path: "/es/Admin/Add-New/add-new-warehouse%20copy",
+    component: _472a0cf2,
+    name: "Admin-Add-New-add-new-warehouse copy___es___en"
   }, {
     path: "/es/Admin/Content/blog",
     component: _478cf93a,
-    name: "Admin-Content-blog___es"
+    name: "Admin-Content-blog___en___es"
+  }, {
+    path: "/es/Admin/Content/blog",
+    component: _478cf93a,
+    name: "Admin-Content-blog___es___en"
   }, {
     path: "/es/Admin/Content/glossary",
     component: _11c0c35f,
-    name: "Admin-Content-glossary___es"
+    name: "Admin-Content-glossary___en___es"
+  }, {
+    path: "/es/Admin/Content/glossary",
+    component: _11c0c35f,
+    name: "Admin-Content-glossary___es___en"
   }, {
     path: "/es/Admin/Content/media-manager",
     component: _07f1e95a,
-    name: "Admin-Content-media-manager___es"
+    name: "Admin-Content-media-manager___en___es"
+  }, {
+    path: "/es/Admin/Content/media-manager",
+    component: _07f1e95a,
+    name: "Admin-Content-media-manager___es___en"
   }, {
     path: "/es/Admin/Content/pages",
     component: _adcfb95a,
-    name: "Admin-Content-pages___es"
+    name: "Admin-Content-pages___en___es"
+  }, {
+    path: "/es/Admin/Content/pages",
+    component: _adcfb95a,
+    name: "Admin-Content-pages___es___en"
   }, {
     path: "/es/Admin/Content/projects",
     component: _5c8503bb,
-    name: "Admin-Content-projects___es"
+    name: "Admin-Content-projects___en___es"
+  }, {
+    path: "/es/Admin/Content/projects",
+    component: _5c8503bb,
+    name: "Admin-Content-projects___es___en"
   }, {
     path: "/es/Admin/Content/tags",
     component: _51a7174c,
-    name: "Admin-Content-tags___es"
+    name: "Admin-Content-tags___en___es"
+  }, {
+    path: "/es/Admin/Content/tags",
+    component: _51a7174c,
+    name: "Admin-Content-tags___es___en"
   }, {
     path: "/es/Admin/Customers/all-customers",
     component: _042a7848,
-    name: "Admin-Customers-all-customers___es"
+    name: "Admin-Customers-all-customers___en___es"
+  }, {
+    path: "/es/Admin/Customers/all-customers",
+    component: _042a7848,
+    name: "Admin-Customers-all-customers___es___en"
   }, {
     path: "/es/Admin/Customers/customer-groups",
     component: _de21f0d4,
-    name: "Admin-Customers-customer-groups___es"
+    name: "Admin-Customers-customer-groups___en___es"
+  }, {
+    path: "/es/Admin/Customers/customer-groups",
+    component: _de21f0d4,
+    name: "Admin-Customers-customer-groups___es___en"
   }, {
     path: "/es/Admin/Customers/leads",
     component: _0f8d1d6c,
-    name: "Admin-Customers-leads___es"
+    name: "Admin-Customers-leads___en___es"
+  }, {
+    path: "/es/Admin/Customers/leads",
+    component: _0f8d1d6c,
+    name: "Admin-Customers-leads___es___en"
   }, {
     path: "/es/Admin/Customers/meetings",
     component: _52bbe4b5,
-    name: "Admin-Customers-meetings___es"
+    name: "Admin-Customers-meetings___en___es"
+  }, {
+    path: "/es/Admin/Customers/meetings",
+    component: _52bbe4b5,
+    name: "Admin-Customers-meetings___es___en"
   }, {
     path: "/es/Admin/Customers/online-customers",
     component: _694181f8,
-    name: "Admin-Customers-online-customers___es"
+    name: "Admin-Customers-online-customers___en___es"
+  }, {
+    path: "/es/Admin/Customers/online-customers",
+    component: _694181f8,
+    name: "Admin-Customers-online-customers___es___en"
   }, {
     path: "/es/Admin/Customers/opportunities",
     component: _0d1c0b64,
-    name: "Admin-Customers-opportunities___es"
+    name: "Admin-Customers-opportunities___en___es"
+  }, {
+    path: "/es/Admin/Customers/opportunities",
+    component: _0d1c0b64,
+    name: "Admin-Customers-opportunities___es___en"
   }, {
     path: "/es/Admin/Customers/segments",
     component: _5b782a86,
-    name: "Admin-Customers-segments___es"
+    name: "Admin-Customers-segments___en___es"
+  }, {
+    path: "/es/Admin/Customers/segments",
+    component: _5b782a86,
+    name: "Admin-Customers-segments___es___en"
   }, {
     path: "/es/Admin/Customers/tasks",
     component: _820b667e,
-    name: "Admin-Customers-tasks___es"
+    name: "Admin-Customers-tasks___en___es"
+  }, {
+    path: "/es/Admin/Customers/tasks",
+    component: _820b667e,
+    name: "Admin-Customers-tasks___es___en"
   }, {
     path: "/es/Admin/Marketing/communications",
     component: _212fab8b,
-    name: "Admin-Marketing-communications___es"
+    name: "Admin-Marketing-communications___en___es"
+  }, {
+    path: "/es/Admin/Marketing/communications",
+    component: _212fab8b,
+    name: "Admin-Marketing-communications___es___en"
   }, {
     path: "/es/Admin/Marketing/contracts",
     component: _42c691e3,
-    name: "Admin-Marketing-contracts___es"
+    name: "Admin-Marketing-contracts___en___es"
+  }, {
+    path: "/es/Admin/Marketing/contracts",
+    component: _42c691e3,
+    name: "Admin-Marketing-contracts___es___en"
   }, {
     path: "/es/Admin/Marketing/events",
     component: _54179947,
-    name: "Admin-Marketing-events___es"
+    name: "Admin-Marketing-events___en___es"
+  }, {
+    path: "/es/Admin/Marketing/events",
+    component: _54179947,
+    name: "Admin-Marketing-events___es___en"
   }, {
     path: "/es/Admin/Marketing/invitations",
     component: _2921453c,
-    name: "Admin-Marketing-invitations___es"
+    name: "Admin-Marketing-invitations___en___es"
+  }, {
+    path: "/es/Admin/Marketing/invitations",
+    component: _2921453c,
+    name: "Admin-Marketing-invitations___es___en"
   }, {
     path: "/es/Admin/Marketing/newsletter",
     component: _da541c32,
-    name: "Admin-Marketing-newsletter___es"
+    name: "Admin-Marketing-newsletter___en___es"
+  }, {
+    path: "/es/Admin/Marketing/newsletter",
+    component: _da541c32,
+    name: "Admin-Marketing-newsletter___es___en"
   }, {
     path: "/es/Admin/Marketing/reviews",
     component: _47bf29dd,
-    name: "Admin-Marketing-reviews___es"
+    name: "Admin-Marketing-reviews___en___es"
+  }, {
+    path: "/es/Admin/Marketing/reviews",
+    component: _47bf29dd,
+    name: "Admin-Marketing-reviews___es___en"
+  }, {
+    path: "/es/Admin/Marketing/rewards",
+    component: _2c3f2066,
+    name: "Admin-Marketing-rewards___en___es"
+  }, {
+    path: "/es/Admin/Marketing/rewards",
+    component: _2c3f2066,
+    name: "Admin-Marketing-rewards___es___en"
   }, {
     path: "/es/Admin/Marketing/seo",
     component: _6291e61f,
-    name: "Admin-Marketing-seo___es"
+    name: "Admin-Marketing-seo___en___es"
+  }, {
+    path: "/es/Admin/Marketing/seo",
+    component: _6291e61f,
+    name: "Admin-Marketing-seo___es___en"
   }, {
     path: "/es/Admin/Marketing/ticketing",
     component: _4fa35f18,
-    name: "Admin-Marketing-ticketing___es"
+    name: "Admin-Marketing-ticketing___en___es"
+  }, {
+    path: "/es/Admin/Marketing/ticketing",
+    component: _4fa35f18,
+    name: "Admin-Marketing-ticketing___es___en"
   }, {
     path: "/es/Admin/Marketing/training",
     component: _01edcb08,
-    name: "Admin-Marketing-training___es"
+    name: "Admin-Marketing-training___en___es"
+  }, {
+    path: "/es/Admin/Marketing/training",
+    component: _01edcb08,
+    name: "Admin-Marketing-training___es___en"
   }, {
     path: "/es/Admin/Reports/calendars",
     component: _1f5b8b04,
-    name: "Admin-Reports-calendars___es"
+    name: "Admin-Reports-calendars___en___es"
+  }, {
+    path: "/es/Admin/Reports/calendars",
+    component: _1f5b8b04,
+    name: "Admin-Reports-calendars___es___en"
   }, {
     path: "/es/Admin/Reports/cases",
     component: _03d1424c,
-    name: "Admin-Reports-cases___es"
+    name: "Admin-Reports-cases___en___es"
+  }, {
+    path: "/es/Admin/Reports/cases",
+    component: _03d1424c,
+    name: "Admin-Reports-cases___es___en"
   }, {
     path: "/es/Admin/Reports/deep-dive",
     component: _726293be,
-    name: "Admin-Reports-deep-dive___es"
+    name: "Admin-Reports-deep-dive___en___es"
+  }, {
+    path: "/es/Admin/Reports/deep-dive",
+    component: _726293be,
+    name: "Admin-Reports-deep-dive___es___en"
   }, {
     path: "/es/Admin/Reports/eosr",
     component: _b6e442e0,
-    name: "Admin-Reports-eosr___es"
+    name: "Admin-Reports-eosr___en___es"
+  }, {
+    path: "/es/Admin/Reports/eosr",
+    component: _b6e442e0,
+    name: "Admin-Reports-eosr___es___en"
   }, {
     path: "/es/Admin/Reports/marketing-reports",
     component: _658a7c21,
-    name: "Admin-Reports-marketing-reports___es"
+    name: "Admin-Reports-marketing-reports___en___es"
+  }, {
+    path: "/es/Admin/Reports/marketing-reports",
+    component: _658a7c21,
+    name: "Admin-Reports-marketing-reports___es___en"
   }, {
     path: "/es/Admin/Reports/products-reports",
     component: _3dc08b5d,
-    name: "Admin-Reports-products-reports___es"
+    name: "Admin-Reports-products-reports___en___es"
+  }, {
+    path: "/es/Admin/Reports/products-reports",
+    component: _3dc08b5d,
+    name: "Admin-Reports-products-reports___es___en"
   }, {
     path: "/es/Admin/Reports/reviews",
     component: _59cf3238,
-    name: "Admin-Reports-reviews___es"
+    name: "Admin-Reports-reviews___en___es"
+  }, {
+    path: "/es/Admin/Reports/reviews",
+    component: _59cf3238,
+    name: "Admin-Reports-reviews___es___en"
   }, {
     path: "/es/Admin/Reports/sales-reports",
     component: _05f9b287,
-    name: "Admin-Reports-sales-reports___es"
+    name: "Admin-Reports-sales-reports___en___es"
+  }, {
+    path: "/es/Admin/Reports/sales-reports",
+    component: _05f9b287,
+    name: "Admin-Reports-sales-reports___es___en"
   }, {
     path: "/es/Admin/Reports/statistics",
     component: _0641aa2c,
-    name: "Admin-Reports-statistics___es"
+    name: "Admin-Reports-statistics___en___es"
+  }, {
+    path: "/es/Admin/Reports/statistics",
+    component: _0641aa2c,
+    name: "Admin-Reports-statistics___es___en"
   }, {
     path: "/es/Admin/Reports/surveys",
     component: _b5492fbc,
-    name: "Admin-Reports-surveys___es"
+    name: "Admin-Reports-surveys___en___es"
+  }, {
+    path: "/es/Admin/Reports/surveys",
+    component: _b5492fbc,
+    name: "Admin-Reports-surveys___es___en"
   }, {
     path: "/es/Admin/Reports/team-scheduler",
     component: _3c938b92,
-    name: "Admin-Reports-team-scheduler___es"
+    name: "Admin-Reports-team-scheduler___en___es"
+  }, {
+    path: "/es/Admin/Reports/team-scheduler",
+    component: _3c938b92,
+    name: "Admin-Reports-team-scheduler___es___en"
   }, {
     path: "/es/Admin/Sales/agreements",
     component: _1c600fbd,
-    name: "Admin-Sales-agreements___es"
+    name: "Admin-Sales-agreements___en___es"
+  }, {
+    path: "/es/Admin/Sales/agreements",
+    component: _1c600fbd,
+    name: "Admin-Sales-agreements___es___en"
   }, {
     path: "/es/Admin/Sales/certificates",
     component: _2d9f7d60,
-    name: "Admin-Sales-certificates___es"
+    name: "Admin-Sales-certificates___en___es"
+  }, {
+    path: "/es/Admin/Sales/certificates",
+    component: _2d9f7d60,
+    name: "Admin-Sales-certificates___es___en"
   }, {
     path: "/es/Admin/Sales/credit-memos",
     component: _052225b9,
-    name: "Admin-Sales-credit-memos___es"
+    name: "Admin-Sales-credit-memos___en___es"
+  }, {
+    path: "/es/Admin/Sales/credit-memos",
+    component: _052225b9,
+    name: "Admin-Sales-credit-memos___es___en"
   }, {
     path: "/es/Admin/Sales/invoices",
     component: _6b25ab7a,
-    name: "Admin-Sales-invoices___es"
+    name: "Admin-Sales-invoices___en___es"
+  }, {
+    path: "/es/Admin/Sales/invoices",
+    component: _6b25ab7a,
+    name: "Admin-Sales-invoices___es___en"
   }, {
     path: "/es/Admin/Sales/orders",
     component: _6ef6e2f9,
-    name: "Admin-Sales-orders___es"
+    name: "Admin-Sales-orders___en___es"
+  }, {
+    path: "/es/Admin/Sales/orders",
+    component: _6ef6e2f9,
+    name: "Admin-Sales-orders___es___en"
   }, {
     path: "/es/Admin/Sales/quotes",
     component: _e35b0eea,
-    name: "Admin-Sales-quotes___es"
+    name: "Admin-Sales-quotes___en___es"
+  }, {
+    path: "/es/Admin/Sales/quotes",
+    component: _e35b0eea,
+    name: "Admin-Sales-quotes___es___en"
   }, {
     path: "/es/Admin/Sales/returns",
     component: _f7540c42,
-    name: "Admin-Sales-returns___es"
+    name: "Admin-Sales-returns___en___es"
+  }, {
+    path: "/es/Admin/Sales/returns",
+    component: _f7540c42,
+    name: "Admin-Sales-returns___es___en"
   }, {
     path: "/es/Admin/Sales/shipments",
     component: _f905b296,
-    name: "Admin-Sales-shipments___es"
+    name: "Admin-Sales-shipments___en___es"
+  }, {
+    path: "/es/Admin/Sales/shipments",
+    component: _f905b296,
+    name: "Admin-Sales-shipments___es___en"
   }, {
     path: "/es/Admin/Sales/transactions",
     component: _b32d372e,
-    name: "Admin-Sales-transactions___es"
+    name: "Admin-Sales-transactions___en___es"
+  }, {
+    path: "/es/Admin/Sales/transactions",
+    component: _b32d372e,
+    name: "Admin-Sales-transactions___es___en"
   }, {
     path: "/es/Admin/Shop/attributes",
     component: _292fb775,
-    name: "Admin-Shop-attributes___es"
+    name: "Admin-Shop-attributes___en___es"
+  }, {
+    path: "/es/Admin/Shop/attributes",
+    component: _292fb775,
+    name: "Admin-Shop-attributes___es___en"
   }, {
     path: "/es/Admin/Shop/categories",
     component: _6a192c8c,
-    name: "Admin-Shop-categories___es"
+    name: "Admin-Shop-categories___en___es"
+  }, {
+    path: "/es/Admin/Shop/categories",
+    component: _6a192c8c,
+    name: "Admin-Shop-categories___es___en"
   }, {
     path: "/es/Admin/Shop/cities",
     component: _6c141932,
-    name: "Admin-Shop-cities___es"
+    name: "Admin-Shop-cities___en___es"
+  }, {
+    path: "/es/Admin/Shop/cities",
+    component: _6c141932,
+    name: "Admin-Shop-cities___es___en"
   }, {
     path: "/es/Admin/Shop/collections",
     component: _46ce0767,
-    name: "Admin-Shop-collections___es"
+    name: "Admin-Shop-collections___en___es"
+  }, {
+    path: "/es/Admin/Shop/collections",
+    component: _46ce0767,
+    name: "Admin-Shop-collections___es___en"
   }, {
     path: "/es/Admin/Shop/countries",
     component: _4908fb86,
-    name: "Admin-Shop-countries___es"
+    name: "Admin-Shop-countries___en___es"
+  }, {
+    path: "/es/Admin/Shop/countries",
+    component: _4908fb86,
+    name: "Admin-Shop-countries___es___en"
   }, {
     path: "/es/Admin/Shop/coupons",
     component: _b3e10042,
-    name: "Admin-Shop-coupons___es"
+    name: "Admin-Shop-coupons___en___es"
+  }, {
+    path: "/es/Admin/Shop/coupons",
+    component: _b3e10042,
+    name: "Admin-Shop-coupons___es___en"
   }, {
     path: "/es/Admin/Shop/inventory",
     component: _fe6c33a4,
-    name: "Admin-Shop-inventory___es"
+    name: "Admin-Shop-inventory___en___es"
+  }, {
+    path: "/es/Admin/Shop/inventory",
+    component: _fe6c33a4,
+    name: "Admin-Shop-inventory___es___en"
   }, {
     path: "/es/Admin/Shop/multi-vendor",
     component: _78521b0c,
-    name: "Admin-Shop-multi-vendor___es"
+    name: "Admin-Shop-multi-vendor___en___es"
+  }, {
+    path: "/es/Admin/Shop/multi-vendor",
+    component: _78521b0c,
+    name: "Admin-Shop-multi-vendor___es___en"
   }, {
     path: "/es/Admin/Shop/products",
     component: _7f2dcafc,
-    name: "Admin-Shop-products___es"
+    name: "Admin-Shop-products___en___es"
+  }, {
+    path: "/es/Admin/Shop/products",
+    component: _7f2dcafc,
+    name: "Admin-Shop-products___es___en"
   }, {
     path: "/es/Admin/Shop/states",
     component: _04a7fcc0,
-    name: "Admin-Shop-states___es"
+    name: "Admin-Shop-states___en___es"
+  }, {
+    path: "/es/Admin/Shop/states",
+    component: _04a7fcc0,
+    name: "Admin-Shop-states___es___en"
   }, {
     path: "/es/Admin/Shop/tax-rate",
     component: _15ababe0,
-    name: "Admin-Shop-tax-rate___es"
+    name: "Admin-Shop-tax-rate___en___es"
+  }, {
+    path: "/es/Admin/Shop/tax-rate",
+    component: _15ababe0,
+    name: "Admin-Shop-tax-rate___es___en"
   }, {
     path: "/es/Admin/Shop/tax-rule",
     component: _2a0187fc,
-    name: "Admin-Shop-tax-rule___es"
+    name: "Admin-Shop-tax-rule___en___es"
+  }, {
+    path: "/es/Admin/Shop/tax-rule",
+    component: _2a0187fc,
+    name: "Admin-Shop-tax-rule___es___en"
   }, {
     path: "/es/Admin/Shop/warehouses",
     component: _c461b0a4,
-    name: "Admin-Shop-warehouses___es"
+    name: "Admin-Shop-warehouses___en___es"
+  }, {
+    path: "/es/Admin/Shop/warehouses",
+    component: _c461b0a4,
+    name: "Admin-Shop-warehouses___es___en"
+  }, {
+    path: "/es/Admin/System/export-management",
+    component: _6cd19775,
+    name: "Admin-System-export-management___en___es"
+  }, {
+    path: "/es/Admin/System/export-management",
+    component: _6cd19775,
+    name: "Admin-System-export-management___es___en"
   }, {
     path: "/es/Admin/System/general-settings",
     component: _4ad60eff,
-    name: "Admin-System-general-settings___es"
+    name: "Admin-System-general-settings___en___es"
+  }, {
+    path: "/es/Admin/System/general-settings",
+    component: _4ad60eff,
+    name: "Admin-System-general-settings___es___en"
   }, {
     path: "/es/Admin/System/help",
     component: _4f9ed4d8,
-    name: "Admin-System-help___es"
+    name: "Admin-System-help___en___es"
+  }, {
+    path: "/es/Admin/System/help",
+    component: _4f9ed4d8,
+    name: "Admin-System-help___es___en"
+  }, {
+    path: "/es/Admin/System/import-management",
+    component: _a97d9138,
+    name: "Admin-System-import-management___en___es"
+  }, {
+    path: "/es/Admin/System/import-management",
+    component: _a97d9138,
+    name: "Admin-System-import-management___es___en"
   }, {
     path: "/es/Admin/System/integrations",
     component: _89238694,
-    name: "Admin-System-integrations___es"
+    name: "Admin-System-integrations___en___es"
+  }, {
+    path: "/es/Admin/System/integrations",
+    component: _89238694,
+    name: "Admin-System-integrations___es___en"
+  }, {
+    path: "/es/Admin/System/knowledgebase",
+    component: _69a4d270,
+    name: "Admin-System-knowledgebase___en___es"
+  }, {
+    path: "/es/Admin/System/knowledgebase",
+    component: _69a4d270,
+    name: "Admin-System-knowledgebase___es___en"
   }, {
     path: "/es/Admin/System/ooto",
     component: _455e0cf2,
-    name: "Admin-System-ooto___es"
+    name: "Admin-System-ooto___en___es"
+  }, {
+    path: "/es/Admin/System/ooto",
+    component: _455e0cf2,
+    name: "Admin-System-ooto___es___en"
   }, {
     path: "/es/Admin/System/role-manager",
     component: _42f4bd26,
-    name: "Admin-System-role-manager___es"
+    name: "Admin-System-role-manager___en___es"
+  }, {
+    path: "/es/Admin/System/role-manager",
+    component: _42f4bd26,
+    name: "Admin-System-role-manager___es___en"
   }, {
     path: "/es/Admin/System/settings",
     component: _fab8ad8c,
-    name: "Admin-System-settings___es"
+    name: "Admin-System-settings___en___es"
+  }, {
+    path: "/es/Admin/System/settings",
+    component: _fab8ad8c,
+    name: "Admin-System-settings___es___en"
+  }, {
+    path: "/es/es/Auth/Login",
+    component: _e321d8cc,
+    name: "Auth-Login___es___es"
+  }, {
+    path: "/es/es/Auth/Register",
+    component: _2329b1fc,
+    name: "Auth-Register___es___es"
+  }, {
+    path: "/es/es/User/my-account",
+    component: _2c35912e,
+    name: "User-my-account___es___es"
+  }, {
+    path: "/es/fr/Auth/Login",
+    component: _e321d8cc,
+    name: "Auth-Login___fr___es"
+  }, {
+    path: "/es/fr/Auth/Register",
+    component: _2329b1fc,
+    name: "Auth-Register___fr___es"
+  }, {
+    path: "/es/fr/User/my-account",
+    component: _2c35912e,
+    name: "User-my-account___fr___es"
   }, {
     path: "/fr/Admin/Add-New/add-new-agreement",
     component: _7d05d776,
-    name: "Admin-Add-New-add-new-agreement___fr"
+    name: "Admin-Add-New-add-new-agreement___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-agreement",
+    component: _7d05d776,
+    name: "Admin-Add-New-add-new-agreement___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-article",
     component: _2ed7f41e,
-    name: "Admin-Add-New-add-new-article___fr"
+    name: "Admin-Add-New-add-new-article___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-article",
+    component: _2ed7f41e,
+    name: "Admin-Add-New-add-new-article___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-attribute",
     component: _2d8e5852,
-    name: "Admin-Add-New-add-new-attribute___fr"
+    name: "Admin-Add-New-add-new-attribute___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-attribute",
+    component: _2d8e5852,
+    name: "Admin-Add-New-add-new-attribute___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-campaign",
     component: _4e56e6a5,
-    name: "Admin-Add-New-add-new-campaign___fr"
+    name: "Admin-Add-New-add-new-campaign___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-campaign",
+    component: _4e56e6a5,
+    name: "Admin-Add-New-add-new-campaign___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-case",
     component: _14f95745,
-    name: "Admin-Add-New-add-new-case___fr"
+    name: "Admin-Add-New-add-new-case___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-case",
+    component: _14f95745,
+    name: "Admin-Add-New-add-new-case___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-category",
     component: _5d74fb93,
-    name: "Admin-Add-New-add-new-category___fr"
+    name: "Admin-Add-New-add-new-category___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-category",
+    component: _5d74fb93,
+    name: "Admin-Add-New-add-new-category___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-checklist",
     component: _1bdf65e1,
-    name: "Admin-Add-New-add-new-checklist___fr"
+    name: "Admin-Add-New-add-new-checklist___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-checklist",
+    component: _1bdf65e1,
+    name: "Admin-Add-New-add-new-checklist___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-city",
     component: _820c4000,
-    name: "Admin-Add-New-add-new-city___fr"
+    name: "Admin-Add-New-add-new-city___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-city",
+    component: _820c4000,
+    name: "Admin-Add-New-add-new-city___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-collection",
     component: _70195c1a,
-    name: "Admin-Add-New-add-new-collection___fr"
+    name: "Admin-Add-New-add-new-collection___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-collection",
+    component: _70195c1a,
+    name: "Admin-Add-New-add-new-collection___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-contract",
     component: _1f11b4b2,
-    name: "Admin-Add-New-add-new-contract___fr"
+    name: "Admin-Add-New-add-new-contract___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-contract",
+    component: _1f11b4b2,
+    name: "Admin-Add-New-add-new-contract___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-country",
     component: _5fcc4091,
-    name: "Admin-Add-New-add-new-country___fr"
+    name: "Admin-Add-New-add-new-country___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-country",
+    component: _5fcc4091,
+    name: "Admin-Add-New-add-new-country___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-coupon",
     component: _5bbfddfb,
-    name: "Admin-Add-New-add-new-coupon___fr"
+    name: "Admin-Add-New-add-new-coupon___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-coupon",
+    component: _5bbfddfb,
+    name: "Admin-Add-New-add-new-coupon___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-customer",
     component: _79b74e73,
-    name: "Admin-Add-New-add-new-customer___fr"
+    name: "Admin-Add-New-add-new-customer___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-customer",
+    component: _79b74e73,
+    name: "Admin-Add-New-add-new-customer___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-customergroup",
     component: _26c7e69c,
-    name: "Admin-Add-New-add-new-customergroup___fr"
+    name: "Admin-Add-New-add-new-customergroup___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-customergroup",
+    component: _26c7e69c,
+    name: "Admin-Add-New-add-new-customergroup___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-deepdive",
     component: _580d3275,
-    name: "Admin-Add-New-add-new-deepdive___fr"
+    name: "Admin-Add-New-add-new-deepdive___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-deepdive",
+    component: _580d3275,
+    name: "Admin-Add-New-add-new-deepdive___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-emailtemplates",
     component: _1f88ec72,
-    name: "Admin-Add-New-add-new-emailtemplates___fr"
+    name: "Admin-Add-New-add-new-emailtemplates___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-emailtemplates",
+    component: _1f88ec72,
+    name: "Admin-Add-New-add-new-emailtemplates___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-eosr",
     component: _6bebbfc4,
-    name: "Admin-Add-New-add-new-eosr___fr"
+    name: "Admin-Add-New-add-new-eosr___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-eosr",
+    component: _6bebbfc4,
+    name: "Admin-Add-New-add-new-eosr___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-event",
     component: _66b13655,
-    name: "Admin-Add-New-add-new-event___fr"
+    name: "Admin-Add-New-add-new-event___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-event",
+    component: _66b13655,
+    name: "Admin-Add-New-add-new-event___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-fullfilment",
     component: _64143c1a,
-    name: "Admin-Add-New-add-new-fullfilment___fr"
+    name: "Admin-Add-New-add-new-fullfilment___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-fullfilment",
+    component: _64143c1a,
+    name: "Admin-Add-New-add-new-fullfilment___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-gift-certificates",
     component: _34b55af4,
-    name: "Admin-Add-New-add-new-gift-certificates___fr"
+    name: "Admin-Add-New-add-new-gift-certificates___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-gift-certificates",
+    component: _34b55af4,
+    name: "Admin-Add-New-add-new-gift-certificates___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-glossary",
     component: _3254f8b3,
-    name: "Admin-Add-New-add-new-glossary___fr"
+    name: "Admin-Add-New-add-new-glossary___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-glossary",
+    component: _3254f8b3,
+    name: "Admin-Add-New-add-new-glossary___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-invoice",
     component: _f724eeb0,
-    name: "Admin-Add-New-add-new-invoice___fr"
+    name: "Admin-Add-New-add-new-invoice___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-invoice",
+    component: _f724eeb0,
+    name: "Admin-Add-New-add-new-invoice___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-knowledgebase",
     component: _12eb0e8a,
-    name: "Admin-Add-New-add-new-knowledgebase___fr"
+    name: "Admin-Add-New-add-new-knowledgebase___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-knowledgebase",
+    component: _12eb0e8a,
+    name: "Admin-Add-New-add-new-knowledgebase___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-lead",
     component: _70b78571,
-    name: "Admin-Add-New-add-new-lead___fr"
+    name: "Admin-Add-New-add-new-lead___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-lead",
+    component: _70b78571,
+    name: "Admin-Add-New-add-new-lead___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-meeting",
     component: _f9b14e94,
-    name: "Admin-Add-New-add-new-meeting___fr"
+    name: "Admin-Add-New-add-new-meeting___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-meeting",
+    component: _f9b14e94,
+    name: "Admin-Add-New-add-new-meeting___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-newsletter",
     component: _c451bae4,
-    name: "Admin-Add-New-add-new-newsletter___fr"
+    name: "Admin-Add-New-add-new-newsletter___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-newsletter",
+    component: _c451bae4,
+    name: "Admin-Add-New-add-new-newsletter___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-newslettersubscriber%20copy",
     component: _b1f9e4e2,
-    name: "Admin-Add-New-add-new-newslettersubscriber copy___fr"
+    name: "Admin-Add-New-add-new-newslettersubscriber copy___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-newslettersubscriber%20copy",
+    component: _b1f9e4e2,
+    name: "Admin-Add-New-add-new-newslettersubscriber copy___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-ooto",
     component: _4b3f1a20,
-    name: "Admin-Add-New-add-new-ooto___fr"
+    name: "Admin-Add-New-add-new-ooto___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-ooto",
+    component: _4b3f1a20,
+    name: "Admin-Add-New-add-new-ooto___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-opportunity",
     component: _54be7fce,
-    name: "Admin-Add-New-add-new-opportunity___fr"
+    name: "Admin-Add-New-add-new-opportunity___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-opportunity",
+    component: _54be7fce,
+    name: "Admin-Add-New-add-new-opportunity___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-page",
     component: _46ee7724,
-    name: "Admin-Add-New-add-new-page___fr"
+    name: "Admin-Add-New-add-new-page___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-page",
+    component: _46ee7724,
+    name: "Admin-Add-New-add-new-page___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-pdftemplates",
     component: _02828e1c,
-    name: "Admin-Add-New-add-new-pdftemplates___fr"
+    name: "Admin-Add-New-add-new-pdftemplates___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-pdftemplates",
+    component: _02828e1c,
+    name: "Admin-Add-New-add-new-pdftemplates___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-product",
     component: _5ee6616a,
-    name: "Admin-Add-New-add-new-product___fr"
+    name: "Admin-Add-New-add-new-product___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-product",
+    component: _5ee6616a,
+    name: "Admin-Add-New-add-new-product___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-project",
     component: _7fc9ba94,
-    name: "Admin-Add-New-add-new-project___fr"
+    name: "Admin-Add-New-add-new-project___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-project",
+    component: _7fc9ba94,
+    name: "Admin-Add-New-add-new-project___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-quote",
     component: _0c6d4137,
-    name: "Admin-Add-New-add-new-quote___fr"
+    name: "Admin-Add-New-add-new-quote___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-quote",
+    component: _0c6d4137,
+    name: "Admin-Add-New-add-new-quote___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-report",
     component: _aaefb7ee,
-    name: "Admin-Add-New-add-new-report___fr"
+    name: "Admin-Add-New-add-new-report___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-report",
+    component: _aaefb7ee,
+    name: "Admin-Add-New-add-new-report___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-return",
     component: _f1c4a3f6,
-    name: "Admin-Add-New-add-new-return___fr"
+    name: "Admin-Add-New-add-new-return___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-return",
+    component: _f1c4a3f6,
+    name: "Admin-Add-New-add-new-return___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-review",
     component: _7335d7a6,
-    name: "Admin-Add-New-add-new-review___fr"
+    name: "Admin-Add-New-add-new-review___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-review",
+    component: _7335d7a6,
+    name: "Admin-Add-New-add-new-review___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-rewards",
     component: _232dedc2,
-    name: "Admin-Add-New-add-new-rewards___fr"
+    name: "Admin-Add-New-add-new-rewards___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-rewards",
+    component: _232dedc2,
+    name: "Admin-Add-New-add-new-rewards___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-role",
     component: _03d0498b,
-    name: "Admin-Add-New-add-new-role___fr"
+    name: "Admin-Add-New-add-new-role___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-role",
+    component: _03d0498b,
+    name: "Admin-Add-New-add-new-role___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-schedule",
     component: _ed5b46a8,
-    name: "Admin-Add-New-add-new-schedule___fr"
+    name: "Admin-Add-New-add-new-schedule___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-schedule",
+    component: _ed5b46a8,
+    name: "Admin-Add-New-add-new-schedule___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-segment",
     component: _7f0271ae,
-    name: "Admin-Add-New-add-new-segment___fr"
+    name: "Admin-Add-New-add-new-segment___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-segment",
+    component: _7f0271ae,
+    name: "Admin-Add-New-add-new-segment___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-shipment",
     component: _21c8022f,
-    name: "Admin-Add-New-add-new-shipment___fr"
+    name: "Admin-Add-New-add-new-shipment___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-shipment",
+    component: _21c8022f,
+    name: "Admin-Add-New-add-new-shipment___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-staffmembers",
     component: _51d06cce,
-    name: "Admin-Add-New-add-new-staffmembers___fr"
+    name: "Admin-Add-New-add-new-staffmembers___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-staffmembers",
+    component: _51d06cce,
+    name: "Admin-Add-New-add-new-staffmembers___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-state",
     component: _2f049668,
-    name: "Admin-Add-New-add-new-state___fr"
+    name: "Admin-Add-New-add-new-state___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-state",
+    component: _2f049668,
+    name: "Admin-Add-New-add-new-state___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-survey",
     component: _0f3df32f,
-    name: "Admin-Add-New-add-new-survey___fr"
+    name: "Admin-Add-New-add-new-survey___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-survey",
+    component: _0f3df32f,
+    name: "Admin-Add-New-add-new-survey___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-tag",
     component: _0f993015,
-    name: "Admin-Add-New-add-new-tag___fr"
+    name: "Admin-Add-New-add-new-tag___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-tag",
+    component: _0f993015,
+    name: "Admin-Add-New-add-new-tag___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-target",
     component: _546ac9e6,
-    name: "Admin-Add-New-add-new-target___fr"
+    name: "Admin-Add-New-add-new-target___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-target",
+    component: _546ac9e6,
+    name: "Admin-Add-New-add-new-target___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-task",
     component: _097c41cc,
-    name: "Admin-Add-New-add-new-task___fr"
+    name: "Admin-Add-New-add-new-task___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-task",
+    component: _097c41cc,
+    name: "Admin-Add-New-add-new-task___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-taxrate",
     component: _58836586,
-    name: "Admin-Add-New-add-new-taxrate___fr"
+    name: "Admin-Add-New-add-new-taxrate___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-taxrate",
+    component: _58836586,
+    name: "Admin-Add-New-add-new-taxrate___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-taxrule",
     component: _6cd941a2,
-    name: "Admin-Add-New-add-new-taxrule___fr"
+    name: "Admin-Add-New-add-new-taxrule___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-taxrule",
+    component: _6cd941a2,
+    name: "Admin-Add-New-add-new-taxrule___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-visit",
     component: _56475ef4,
-    name: "Admin-Add-New-add-new-visit___fr"
+    name: "Admin-Add-New-add-new-visit___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-visit",
+    component: _56475ef4,
+    name: "Admin-Add-New-add-new-visit___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-warehouse",
     component: _15840f04,
-    name: "Admin-Add-New-add-new-warehouse___fr"
+    name: "Admin-Add-New-add-new-warehouse___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-warehouse",
+    component: _15840f04,
+    name: "Admin-Add-New-add-new-warehouse___fr___en"
   }, {
     path: "/fr/Admin/Add-New/add-new-warehouse%20copy",
     component: _472a0cf2,
-    name: "Admin-Add-New-add-new-warehouse copy___fr"
+    name: "Admin-Add-New-add-new-warehouse copy___en___fr"
+  }, {
+    path: "/fr/Admin/Add-New/add-new-warehouse%20copy",
+    component: _472a0cf2,
+    name: "Admin-Add-New-add-new-warehouse copy___fr___en"
   }, {
     path: "/fr/Admin/Content/blog",
     component: _478cf93a,
-    name: "Admin-Content-blog___fr"
+    name: "Admin-Content-blog___en___fr"
+  }, {
+    path: "/fr/Admin/Content/blog",
+    component: _478cf93a,
+    name: "Admin-Content-blog___fr___en"
   }, {
     path: "/fr/Admin/Content/glossary",
     component: _11c0c35f,
-    name: "Admin-Content-glossary___fr"
+    name: "Admin-Content-glossary___en___fr"
+  }, {
+    path: "/fr/Admin/Content/glossary",
+    component: _11c0c35f,
+    name: "Admin-Content-glossary___fr___en"
   }, {
     path: "/fr/Admin/Content/media-manager",
     component: _07f1e95a,
-    name: "Admin-Content-media-manager___fr"
+    name: "Admin-Content-media-manager___en___fr"
+  }, {
+    path: "/fr/Admin/Content/media-manager",
+    component: _07f1e95a,
+    name: "Admin-Content-media-manager___fr___en"
   }, {
     path: "/fr/Admin/Content/pages",
     component: _adcfb95a,
-    name: "Admin-Content-pages___fr"
+    name: "Admin-Content-pages___en___fr"
+  }, {
+    path: "/fr/Admin/Content/pages",
+    component: _adcfb95a,
+    name: "Admin-Content-pages___fr___en"
   }, {
     path: "/fr/Admin/Content/projects",
     component: _5c8503bb,
-    name: "Admin-Content-projects___fr"
+    name: "Admin-Content-projects___en___fr"
+  }, {
+    path: "/fr/Admin/Content/projects",
+    component: _5c8503bb,
+    name: "Admin-Content-projects___fr___en"
   }, {
     path: "/fr/Admin/Content/tags",
     component: _51a7174c,
-    name: "Admin-Content-tags___fr"
+    name: "Admin-Content-tags___en___fr"
+  }, {
+    path: "/fr/Admin/Content/tags",
+    component: _51a7174c,
+    name: "Admin-Content-tags___fr___en"
   }, {
     path: "/fr/Admin/Customers/all-customers",
     component: _042a7848,
-    name: "Admin-Customers-all-customers___fr"
+    name: "Admin-Customers-all-customers___en___fr"
+  }, {
+    path: "/fr/Admin/Customers/all-customers",
+    component: _042a7848,
+    name: "Admin-Customers-all-customers___fr___en"
   }, {
     path: "/fr/Admin/Customers/customer-groups",
     component: _de21f0d4,
-    name: "Admin-Customers-customer-groups___fr"
+    name: "Admin-Customers-customer-groups___en___fr"
+  }, {
+    path: "/fr/Admin/Customers/customer-groups",
+    component: _de21f0d4,
+    name: "Admin-Customers-customer-groups___fr___en"
   }, {
     path: "/fr/Admin/Customers/leads",
     component: _0f8d1d6c,
-    name: "Admin-Customers-leads___fr"
+    name: "Admin-Customers-leads___en___fr"
+  }, {
+    path: "/fr/Admin/Customers/leads",
+    component: _0f8d1d6c,
+    name: "Admin-Customers-leads___fr___en"
   }, {
     path: "/fr/Admin/Customers/meetings",
     component: _52bbe4b5,
-    name: "Admin-Customers-meetings___fr"
+    name: "Admin-Customers-meetings___en___fr"
+  }, {
+    path: "/fr/Admin/Customers/meetings",
+    component: _52bbe4b5,
+    name: "Admin-Customers-meetings___fr___en"
   }, {
     path: "/fr/Admin/Customers/online-customers",
     component: _694181f8,
-    name: "Admin-Customers-online-customers___fr"
+    name: "Admin-Customers-online-customers___en___fr"
+  }, {
+    path: "/fr/Admin/Customers/online-customers",
+    component: _694181f8,
+    name: "Admin-Customers-online-customers___fr___en"
   }, {
     path: "/fr/Admin/Customers/opportunities",
     component: _0d1c0b64,
-    name: "Admin-Customers-opportunities___fr"
+    name: "Admin-Customers-opportunities___en___fr"
+  }, {
+    path: "/fr/Admin/Customers/opportunities",
+    component: _0d1c0b64,
+    name: "Admin-Customers-opportunities___fr___en"
   }, {
     path: "/fr/Admin/Customers/segments",
     component: _5b782a86,
-    name: "Admin-Customers-segments___fr"
+    name: "Admin-Customers-segments___en___fr"
+  }, {
+    path: "/fr/Admin/Customers/segments",
+    component: _5b782a86,
+    name: "Admin-Customers-segments___fr___en"
   }, {
     path: "/fr/Admin/Customers/tasks",
     component: _820b667e,
-    name: "Admin-Customers-tasks___fr"
+    name: "Admin-Customers-tasks___en___fr"
+  }, {
+    path: "/fr/Admin/Customers/tasks",
+    component: _820b667e,
+    name: "Admin-Customers-tasks___fr___en"
   }, {
     path: "/fr/Admin/Marketing/communications",
     component: _212fab8b,
-    name: "Admin-Marketing-communications___fr"
+    name: "Admin-Marketing-communications___en___fr"
+  }, {
+    path: "/fr/Admin/Marketing/communications",
+    component: _212fab8b,
+    name: "Admin-Marketing-communications___fr___en"
   }, {
     path: "/fr/Admin/Marketing/contracts",
     component: _42c691e3,
-    name: "Admin-Marketing-contracts___fr"
+    name: "Admin-Marketing-contracts___en___fr"
+  }, {
+    path: "/fr/Admin/Marketing/contracts",
+    component: _42c691e3,
+    name: "Admin-Marketing-contracts___fr___en"
   }, {
     path: "/fr/Admin/Marketing/events",
     component: _54179947,
-    name: "Admin-Marketing-events___fr"
+    name: "Admin-Marketing-events___en___fr"
+  }, {
+    path: "/fr/Admin/Marketing/events",
+    component: _54179947,
+    name: "Admin-Marketing-events___fr___en"
   }, {
     path: "/fr/Admin/Marketing/invitations",
     component: _2921453c,
-    name: "Admin-Marketing-invitations___fr"
+    name: "Admin-Marketing-invitations___en___fr"
+  }, {
+    path: "/fr/Admin/Marketing/invitations",
+    component: _2921453c,
+    name: "Admin-Marketing-invitations___fr___en"
   }, {
     path: "/fr/Admin/Marketing/newsletter",
     component: _da541c32,
-    name: "Admin-Marketing-newsletter___fr"
+    name: "Admin-Marketing-newsletter___en___fr"
+  }, {
+    path: "/fr/Admin/Marketing/newsletter",
+    component: _da541c32,
+    name: "Admin-Marketing-newsletter___fr___en"
   }, {
     path: "/fr/Admin/Marketing/reviews",
     component: _47bf29dd,
-    name: "Admin-Marketing-reviews___fr"
+    name: "Admin-Marketing-reviews___en___fr"
+  }, {
+    path: "/fr/Admin/Marketing/reviews",
+    component: _47bf29dd,
+    name: "Admin-Marketing-reviews___fr___en"
+  }, {
+    path: "/fr/Admin/Marketing/rewards",
+    component: _2c3f2066,
+    name: "Admin-Marketing-rewards___en___fr"
+  }, {
+    path: "/fr/Admin/Marketing/rewards",
+    component: _2c3f2066,
+    name: "Admin-Marketing-rewards___fr___en"
   }, {
     path: "/fr/Admin/Marketing/seo",
     component: _6291e61f,
-    name: "Admin-Marketing-seo___fr"
+    name: "Admin-Marketing-seo___en___fr"
+  }, {
+    path: "/fr/Admin/Marketing/seo",
+    component: _6291e61f,
+    name: "Admin-Marketing-seo___fr___en"
   }, {
     path: "/fr/Admin/Marketing/ticketing",
     component: _4fa35f18,
-    name: "Admin-Marketing-ticketing___fr"
+    name: "Admin-Marketing-ticketing___en___fr"
+  }, {
+    path: "/fr/Admin/Marketing/ticketing",
+    component: _4fa35f18,
+    name: "Admin-Marketing-ticketing___fr___en"
   }, {
     path: "/fr/Admin/Marketing/training",
     component: _01edcb08,
-    name: "Admin-Marketing-training___fr"
+    name: "Admin-Marketing-training___en___fr"
+  }, {
+    path: "/fr/Admin/Marketing/training",
+    component: _01edcb08,
+    name: "Admin-Marketing-training___fr___en"
   }, {
     path: "/fr/Admin/Reports/calendars",
     component: _1f5b8b04,
-    name: "Admin-Reports-calendars___fr"
+    name: "Admin-Reports-calendars___en___fr"
+  }, {
+    path: "/fr/Admin/Reports/calendars",
+    component: _1f5b8b04,
+    name: "Admin-Reports-calendars___fr___en"
   }, {
     path: "/fr/Admin/Reports/cases",
     component: _03d1424c,
-    name: "Admin-Reports-cases___fr"
+    name: "Admin-Reports-cases___en___fr"
+  }, {
+    path: "/fr/Admin/Reports/cases",
+    component: _03d1424c,
+    name: "Admin-Reports-cases___fr___en"
   }, {
     path: "/fr/Admin/Reports/deep-dive",
     component: _726293be,
-    name: "Admin-Reports-deep-dive___fr"
+    name: "Admin-Reports-deep-dive___en___fr"
+  }, {
+    path: "/fr/Admin/Reports/deep-dive",
+    component: _726293be,
+    name: "Admin-Reports-deep-dive___fr___en"
   }, {
     path: "/fr/Admin/Reports/eosr",
     component: _b6e442e0,
-    name: "Admin-Reports-eosr___fr"
+    name: "Admin-Reports-eosr___en___fr"
+  }, {
+    path: "/fr/Admin/Reports/eosr",
+    component: _b6e442e0,
+    name: "Admin-Reports-eosr___fr___en"
   }, {
     path: "/fr/Admin/Reports/marketing-reports",
     component: _658a7c21,
-    name: "Admin-Reports-marketing-reports___fr"
+    name: "Admin-Reports-marketing-reports___en___fr"
+  }, {
+    path: "/fr/Admin/Reports/marketing-reports",
+    component: _658a7c21,
+    name: "Admin-Reports-marketing-reports___fr___en"
   }, {
     path: "/fr/Admin/Reports/products-reports",
     component: _3dc08b5d,
-    name: "Admin-Reports-products-reports___fr"
+    name: "Admin-Reports-products-reports___en___fr"
+  }, {
+    path: "/fr/Admin/Reports/products-reports",
+    component: _3dc08b5d,
+    name: "Admin-Reports-products-reports___fr___en"
   }, {
     path: "/fr/Admin/Reports/reviews",
     component: _59cf3238,
-    name: "Admin-Reports-reviews___fr"
+    name: "Admin-Reports-reviews___en___fr"
+  }, {
+    path: "/fr/Admin/Reports/reviews",
+    component: _59cf3238,
+    name: "Admin-Reports-reviews___fr___en"
   }, {
     path: "/fr/Admin/Reports/sales-reports",
     component: _05f9b287,
-    name: "Admin-Reports-sales-reports___fr"
+    name: "Admin-Reports-sales-reports___en___fr"
+  }, {
+    path: "/fr/Admin/Reports/sales-reports",
+    component: _05f9b287,
+    name: "Admin-Reports-sales-reports___fr___en"
   }, {
     path: "/fr/Admin/Reports/statistics",
     component: _0641aa2c,
-    name: "Admin-Reports-statistics___fr"
+    name: "Admin-Reports-statistics___en___fr"
+  }, {
+    path: "/fr/Admin/Reports/statistics",
+    component: _0641aa2c,
+    name: "Admin-Reports-statistics___fr___en"
   }, {
     path: "/fr/Admin/Reports/surveys",
     component: _b5492fbc,
-    name: "Admin-Reports-surveys___fr"
+    name: "Admin-Reports-surveys___en___fr"
+  }, {
+    path: "/fr/Admin/Reports/surveys",
+    component: _b5492fbc,
+    name: "Admin-Reports-surveys___fr___en"
   }, {
     path: "/fr/Admin/Reports/team-scheduler",
     component: _3c938b92,
-    name: "Admin-Reports-team-scheduler___fr"
+    name: "Admin-Reports-team-scheduler___en___fr"
+  }, {
+    path: "/fr/Admin/Reports/team-scheduler",
+    component: _3c938b92,
+    name: "Admin-Reports-team-scheduler___fr___en"
   }, {
     path: "/fr/Admin/Sales/agreements",
     component: _1c600fbd,
-    name: "Admin-Sales-agreements___fr"
+    name: "Admin-Sales-agreements___en___fr"
+  }, {
+    path: "/fr/Admin/Sales/agreements",
+    component: _1c600fbd,
+    name: "Admin-Sales-agreements___fr___en"
   }, {
     path: "/fr/Admin/Sales/certificates",
     component: _2d9f7d60,
-    name: "Admin-Sales-certificates___fr"
+    name: "Admin-Sales-certificates___en___fr"
+  }, {
+    path: "/fr/Admin/Sales/certificates",
+    component: _2d9f7d60,
+    name: "Admin-Sales-certificates___fr___en"
   }, {
     path: "/fr/Admin/Sales/credit-memos",
     component: _052225b9,
-    name: "Admin-Sales-credit-memos___fr"
+    name: "Admin-Sales-credit-memos___en___fr"
+  }, {
+    path: "/fr/Admin/Sales/credit-memos",
+    component: _052225b9,
+    name: "Admin-Sales-credit-memos___fr___en"
   }, {
     path: "/fr/Admin/Sales/invoices",
     component: _6b25ab7a,
-    name: "Admin-Sales-invoices___fr"
+    name: "Admin-Sales-invoices___en___fr"
+  }, {
+    path: "/fr/Admin/Sales/invoices",
+    component: _6b25ab7a,
+    name: "Admin-Sales-invoices___fr___en"
   }, {
     path: "/fr/Admin/Sales/orders",
     component: _6ef6e2f9,
-    name: "Admin-Sales-orders___fr"
+    name: "Admin-Sales-orders___en___fr"
+  }, {
+    path: "/fr/Admin/Sales/orders",
+    component: _6ef6e2f9,
+    name: "Admin-Sales-orders___fr___en"
   }, {
     path: "/fr/Admin/Sales/quotes",
     component: _e35b0eea,
-    name: "Admin-Sales-quotes___fr"
+    name: "Admin-Sales-quotes___en___fr"
+  }, {
+    path: "/fr/Admin/Sales/quotes",
+    component: _e35b0eea,
+    name: "Admin-Sales-quotes___fr___en"
   }, {
     path: "/fr/Admin/Sales/returns",
     component: _f7540c42,
-    name: "Admin-Sales-returns___fr"
+    name: "Admin-Sales-returns___en___fr"
+  }, {
+    path: "/fr/Admin/Sales/returns",
+    component: _f7540c42,
+    name: "Admin-Sales-returns___fr___en"
   }, {
     path: "/fr/Admin/Sales/shipments",
     component: _f905b296,
-    name: "Admin-Sales-shipments___fr"
+    name: "Admin-Sales-shipments___en___fr"
+  }, {
+    path: "/fr/Admin/Sales/shipments",
+    component: _f905b296,
+    name: "Admin-Sales-shipments___fr___en"
   }, {
     path: "/fr/Admin/Sales/transactions",
     component: _b32d372e,
-    name: "Admin-Sales-transactions___fr"
+    name: "Admin-Sales-transactions___en___fr"
+  }, {
+    path: "/fr/Admin/Sales/transactions",
+    component: _b32d372e,
+    name: "Admin-Sales-transactions___fr___en"
   }, {
     path: "/fr/Admin/Shop/attributes",
     component: _292fb775,
-    name: "Admin-Shop-attributes___fr"
+    name: "Admin-Shop-attributes___en___fr"
+  }, {
+    path: "/fr/Admin/Shop/attributes",
+    component: _292fb775,
+    name: "Admin-Shop-attributes___fr___en"
   }, {
     path: "/fr/Admin/Shop/categories",
     component: _6a192c8c,
-    name: "Admin-Shop-categories___fr"
+    name: "Admin-Shop-categories___en___fr"
+  }, {
+    path: "/fr/Admin/Shop/categories",
+    component: _6a192c8c,
+    name: "Admin-Shop-categories___fr___en"
   }, {
     path: "/fr/Admin/Shop/cities",
     component: _6c141932,
-    name: "Admin-Shop-cities___fr"
+    name: "Admin-Shop-cities___en___fr"
+  }, {
+    path: "/fr/Admin/Shop/cities",
+    component: _6c141932,
+    name: "Admin-Shop-cities___fr___en"
   }, {
     path: "/fr/Admin/Shop/collections",
     component: _46ce0767,
-    name: "Admin-Shop-collections___fr"
+    name: "Admin-Shop-collections___en___fr"
+  }, {
+    path: "/fr/Admin/Shop/collections",
+    component: _46ce0767,
+    name: "Admin-Shop-collections___fr___en"
   }, {
     path: "/fr/Admin/Shop/countries",
     component: _4908fb86,
-    name: "Admin-Shop-countries___fr"
+    name: "Admin-Shop-countries___en___fr"
+  }, {
+    path: "/fr/Admin/Shop/countries",
+    component: _4908fb86,
+    name: "Admin-Shop-countries___fr___en"
   }, {
     path: "/fr/Admin/Shop/coupons",
     component: _b3e10042,
-    name: "Admin-Shop-coupons___fr"
+    name: "Admin-Shop-coupons___en___fr"
+  }, {
+    path: "/fr/Admin/Shop/coupons",
+    component: _b3e10042,
+    name: "Admin-Shop-coupons___fr___en"
   }, {
     path: "/fr/Admin/Shop/inventory",
     component: _fe6c33a4,
-    name: "Admin-Shop-inventory___fr"
+    name: "Admin-Shop-inventory___en___fr"
+  }, {
+    path: "/fr/Admin/Shop/inventory",
+    component: _fe6c33a4,
+    name: "Admin-Shop-inventory___fr___en"
   }, {
     path: "/fr/Admin/Shop/multi-vendor",
     component: _78521b0c,
-    name: "Admin-Shop-multi-vendor___fr"
+    name: "Admin-Shop-multi-vendor___en___fr"
+  }, {
+    path: "/fr/Admin/Shop/multi-vendor",
+    component: _78521b0c,
+    name: "Admin-Shop-multi-vendor___fr___en"
   }, {
     path: "/fr/Admin/Shop/products",
     component: _7f2dcafc,
-    name: "Admin-Shop-products___fr"
+    name: "Admin-Shop-products___en___fr"
+  }, {
+    path: "/fr/Admin/Shop/products",
+    component: _7f2dcafc,
+    name: "Admin-Shop-products___fr___en"
   }, {
     path: "/fr/Admin/Shop/states",
     component: _04a7fcc0,
-    name: "Admin-Shop-states___fr"
+    name: "Admin-Shop-states___en___fr"
+  }, {
+    path: "/fr/Admin/Shop/states",
+    component: _04a7fcc0,
+    name: "Admin-Shop-states___fr___en"
   }, {
     path: "/fr/Admin/Shop/tax-rate",
     component: _15ababe0,
-    name: "Admin-Shop-tax-rate___fr"
+    name: "Admin-Shop-tax-rate___en___fr"
+  }, {
+    path: "/fr/Admin/Shop/tax-rate",
+    component: _15ababe0,
+    name: "Admin-Shop-tax-rate___fr___en"
   }, {
     path: "/fr/Admin/Shop/tax-rule",
     component: _2a0187fc,
-    name: "Admin-Shop-tax-rule___fr"
+    name: "Admin-Shop-tax-rule___en___fr"
+  }, {
+    path: "/fr/Admin/Shop/tax-rule",
+    component: _2a0187fc,
+    name: "Admin-Shop-tax-rule___fr___en"
   }, {
     path: "/fr/Admin/Shop/warehouses",
     component: _c461b0a4,
-    name: "Admin-Shop-warehouses___fr"
+    name: "Admin-Shop-warehouses___en___fr"
+  }, {
+    path: "/fr/Admin/Shop/warehouses",
+    component: _c461b0a4,
+    name: "Admin-Shop-warehouses___fr___en"
+  }, {
+    path: "/fr/Admin/System/export-management",
+    component: _6cd19775,
+    name: "Admin-System-export-management___en___fr"
+  }, {
+    path: "/fr/Admin/System/export-management",
+    component: _6cd19775,
+    name: "Admin-System-export-management___fr___en"
   }, {
     path: "/fr/Admin/System/general-settings",
     component: _4ad60eff,
-    name: "Admin-System-general-settings___fr"
+    name: "Admin-System-general-settings___en___fr"
+  }, {
+    path: "/fr/Admin/System/general-settings",
+    component: _4ad60eff,
+    name: "Admin-System-general-settings___fr___en"
   }, {
     path: "/fr/Admin/System/help",
     component: _4f9ed4d8,
-    name: "Admin-System-help___fr"
+    name: "Admin-System-help___en___fr"
+  }, {
+    path: "/fr/Admin/System/help",
+    component: _4f9ed4d8,
+    name: "Admin-System-help___fr___en"
+  }, {
+    path: "/fr/Admin/System/import-management",
+    component: _a97d9138,
+    name: "Admin-System-import-management___en___fr"
+  }, {
+    path: "/fr/Admin/System/import-management",
+    component: _a97d9138,
+    name: "Admin-System-import-management___fr___en"
   }, {
     path: "/fr/Admin/System/integrations",
     component: _89238694,
-    name: "Admin-System-integrations___fr"
+    name: "Admin-System-integrations___en___fr"
+  }, {
+    path: "/fr/Admin/System/integrations",
+    component: _89238694,
+    name: "Admin-System-integrations___fr___en"
+  }, {
+    path: "/fr/Admin/System/knowledgebase",
+    component: _69a4d270,
+    name: "Admin-System-knowledgebase___en___fr"
+  }, {
+    path: "/fr/Admin/System/knowledgebase",
+    component: _69a4d270,
+    name: "Admin-System-knowledgebase___fr___en"
   }, {
     path: "/fr/Admin/System/ooto",
     component: _455e0cf2,
-    name: "Admin-System-ooto___fr"
+    name: "Admin-System-ooto___en___fr"
+  }, {
+    path: "/fr/Admin/System/ooto",
+    component: _455e0cf2,
+    name: "Admin-System-ooto___fr___en"
   }, {
     path: "/fr/Admin/System/role-manager",
     component: _42f4bd26,
-    name: "Admin-System-role-manager___fr"
+    name: "Admin-System-role-manager___en___fr"
+  }, {
+    path: "/fr/Admin/System/role-manager",
+    component: _42f4bd26,
+    name: "Admin-System-role-manager___fr___en"
   }, {
     path: "/fr/Admin/System/settings",
     component: _fab8ad8c,
-    name: "Admin-System-settings___fr"
+    name: "Admin-System-settings___en___fr"
+  }, {
+    path: "/fr/Admin/System/settings",
+    component: _fab8ad8c,
+    name: "Admin-System-settings___fr___en"
+  }, {
+    path: "/fr/es/Auth/Login",
+    component: _e321d8cc,
+    name: "Auth-Login___es___fr"
+  }, {
+    path: "/fr/es/Auth/Register",
+    component: _2329b1fc,
+    name: "Auth-Register___es___fr"
+  }, {
+    path: "/fr/es/User/my-account",
+    component: _2c35912e,
+    name: "User-my-account___es___fr"
+  }, {
+    path: "/fr/fr/Auth/Login",
+    component: _e321d8cc,
+    name: "Auth-Login___fr___fr"
+  }, {
+    path: "/fr/fr/Auth/Register",
+    component: _2329b1fc,
+    name: "Auth-Register___fr___fr"
+  }, {
+    path: "/fr/fr/User/my-account",
+    component: _2c35912e,
+    name: "User-my-account___fr___fr"
   }, {
     path: "/es/Admin/Customers/customer/newcustomer",
     component: _4cb64913,
-    name: "Admin-Customers-customer-newcustomer___es"
+    name: "Admin-Customers-customer-newcustomer___en___es"
+  }, {
+    path: "/es/Admin/Customers/customer/newcustomer",
+    component: _4cb64913,
+    name: "Admin-Customers-customer-newcustomer___es___en"
   }, {
     path: "/es/Admin/Edit/providers/id",
     component: _4fac380a,
-    name: "Admin-Edit-providers-id___es"
+    name: "Admin-Edit-providers-id___en___es"
+  }, {
+    path: "/es/Admin/Edit/providers/id",
+    component: _4fac380a,
+    name: "Admin-Edit-providers-id___es___en"
   }, {
     path: "/es/Admin/Marketing/Email/email-designer",
     component: _29b48a8c,
-    name: "Admin-Marketing-Email-email-designer___es"
+    name: "Admin-Marketing-Email-email-designer___en___es"
+  }, {
+    path: "/es/Admin/Marketing/Email/email-designer",
+    component: _29b48a8c,
+    name: "Admin-Marketing-Email-email-designer___es___en"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-agreement",
+    component: _7d05d776,
+    name: "Admin-Add-New-add-new-agreement___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-article",
+    component: _2ed7f41e,
+    name: "Admin-Add-New-add-new-article___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-attribute",
+    component: _2d8e5852,
+    name: "Admin-Add-New-add-new-attribute___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-campaign",
+    component: _4e56e6a5,
+    name: "Admin-Add-New-add-new-campaign___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-case",
+    component: _14f95745,
+    name: "Admin-Add-New-add-new-case___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-category",
+    component: _5d74fb93,
+    name: "Admin-Add-New-add-new-category___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-checklist",
+    component: _1bdf65e1,
+    name: "Admin-Add-New-add-new-checklist___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-city",
+    component: _820c4000,
+    name: "Admin-Add-New-add-new-city___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-collection",
+    component: _70195c1a,
+    name: "Admin-Add-New-add-new-collection___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-contract",
+    component: _1f11b4b2,
+    name: "Admin-Add-New-add-new-contract___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-country",
+    component: _5fcc4091,
+    name: "Admin-Add-New-add-new-country___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-coupon",
+    component: _5bbfddfb,
+    name: "Admin-Add-New-add-new-coupon___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-customer",
+    component: _79b74e73,
+    name: "Admin-Add-New-add-new-customer___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-customergroup",
+    component: _26c7e69c,
+    name: "Admin-Add-New-add-new-customergroup___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-deepdive",
+    component: _580d3275,
+    name: "Admin-Add-New-add-new-deepdive___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-emailtemplates",
+    component: _1f88ec72,
+    name: "Admin-Add-New-add-new-emailtemplates___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-eosr",
+    component: _6bebbfc4,
+    name: "Admin-Add-New-add-new-eosr___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-event",
+    component: _66b13655,
+    name: "Admin-Add-New-add-new-event___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-fullfilment",
+    component: _64143c1a,
+    name: "Admin-Add-New-add-new-fullfilment___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-gift-certificates",
+    component: _34b55af4,
+    name: "Admin-Add-New-add-new-gift-certificates___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-glossary",
+    component: _3254f8b3,
+    name: "Admin-Add-New-add-new-glossary___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-invoice",
+    component: _f724eeb0,
+    name: "Admin-Add-New-add-new-invoice___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-knowledgebase",
+    component: _12eb0e8a,
+    name: "Admin-Add-New-add-new-knowledgebase___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-lead",
+    component: _70b78571,
+    name: "Admin-Add-New-add-new-lead___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-meeting",
+    component: _f9b14e94,
+    name: "Admin-Add-New-add-new-meeting___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-newsletter",
+    component: _c451bae4,
+    name: "Admin-Add-New-add-new-newsletter___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-newslettersubscriber%20copy",
+    component: _b1f9e4e2,
+    name: "Admin-Add-New-add-new-newslettersubscriber copy___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-ooto",
+    component: _4b3f1a20,
+    name: "Admin-Add-New-add-new-ooto___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-opportunity",
+    component: _54be7fce,
+    name: "Admin-Add-New-add-new-opportunity___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-page",
+    component: _46ee7724,
+    name: "Admin-Add-New-add-new-page___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-pdftemplates",
+    component: _02828e1c,
+    name: "Admin-Add-New-add-new-pdftemplates___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-product",
+    component: _5ee6616a,
+    name: "Admin-Add-New-add-new-product___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-project",
+    component: _7fc9ba94,
+    name: "Admin-Add-New-add-new-project___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-quote",
+    component: _0c6d4137,
+    name: "Admin-Add-New-add-new-quote___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-report",
+    component: _aaefb7ee,
+    name: "Admin-Add-New-add-new-report___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-return",
+    component: _f1c4a3f6,
+    name: "Admin-Add-New-add-new-return___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-review",
+    component: _7335d7a6,
+    name: "Admin-Add-New-add-new-review___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-rewards",
+    component: _232dedc2,
+    name: "Admin-Add-New-add-new-rewards___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-role",
+    component: _03d0498b,
+    name: "Admin-Add-New-add-new-role___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-schedule",
+    component: _ed5b46a8,
+    name: "Admin-Add-New-add-new-schedule___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-segment",
+    component: _7f0271ae,
+    name: "Admin-Add-New-add-new-segment___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-shipment",
+    component: _21c8022f,
+    name: "Admin-Add-New-add-new-shipment___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-staffmembers",
+    component: _51d06cce,
+    name: "Admin-Add-New-add-new-staffmembers___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-state",
+    component: _2f049668,
+    name: "Admin-Add-New-add-new-state___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-survey",
+    component: _0f3df32f,
+    name: "Admin-Add-New-add-new-survey___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-tag",
+    component: _0f993015,
+    name: "Admin-Add-New-add-new-tag___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-target",
+    component: _546ac9e6,
+    name: "Admin-Add-New-add-new-target___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-task",
+    component: _097c41cc,
+    name: "Admin-Add-New-add-new-task___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-taxrate",
+    component: _58836586,
+    name: "Admin-Add-New-add-new-taxrate___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-taxrule",
+    component: _6cd941a2,
+    name: "Admin-Add-New-add-new-taxrule___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-visit",
+    component: _56475ef4,
+    name: "Admin-Add-New-add-new-visit___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-warehouse",
+    component: _15840f04,
+    name: "Admin-Add-New-add-new-warehouse___es___es"
+  }, {
+    path: "/es/es/Admin/Add-New/add-new-warehouse%20copy",
+    component: _472a0cf2,
+    name: "Admin-Add-New-add-new-warehouse copy___es___es"
+  }, {
+    path: "/es/es/Admin/Content/blog",
+    component: _478cf93a,
+    name: "Admin-Content-blog___es___es"
+  }, {
+    path: "/es/es/Admin/Content/glossary",
+    component: _11c0c35f,
+    name: "Admin-Content-glossary___es___es"
+  }, {
+    path: "/es/es/Admin/Content/media-manager",
+    component: _07f1e95a,
+    name: "Admin-Content-media-manager___es___es"
+  }, {
+    path: "/es/es/Admin/Content/pages",
+    component: _adcfb95a,
+    name: "Admin-Content-pages___es___es"
+  }, {
+    path: "/es/es/Admin/Content/projects",
+    component: _5c8503bb,
+    name: "Admin-Content-projects___es___es"
+  }, {
+    path: "/es/es/Admin/Content/tags",
+    component: _51a7174c,
+    name: "Admin-Content-tags___es___es"
+  }, {
+    path: "/es/es/Admin/Customers/all-customers",
+    component: _042a7848,
+    name: "Admin-Customers-all-customers___es___es"
+  }, {
+    path: "/es/es/Admin/Customers/customer-groups",
+    component: _de21f0d4,
+    name: "Admin-Customers-customer-groups___es___es"
+  }, {
+    path: "/es/es/Admin/Customers/leads",
+    component: _0f8d1d6c,
+    name: "Admin-Customers-leads___es___es"
+  }, {
+    path: "/es/es/Admin/Customers/meetings",
+    component: _52bbe4b5,
+    name: "Admin-Customers-meetings___es___es"
+  }, {
+    path: "/es/es/Admin/Customers/online-customers",
+    component: _694181f8,
+    name: "Admin-Customers-online-customers___es___es"
+  }, {
+    path: "/es/es/Admin/Customers/opportunities",
+    component: _0d1c0b64,
+    name: "Admin-Customers-opportunities___es___es"
+  }, {
+    path: "/es/es/Admin/Customers/segments",
+    component: _5b782a86,
+    name: "Admin-Customers-segments___es___es"
+  }, {
+    path: "/es/es/Admin/Customers/tasks",
+    component: _820b667e,
+    name: "Admin-Customers-tasks___es___es"
+  }, {
+    path: "/es/es/Admin/Marketing/communications",
+    component: _212fab8b,
+    name: "Admin-Marketing-communications___es___es"
+  }, {
+    path: "/es/es/Admin/Marketing/contracts",
+    component: _42c691e3,
+    name: "Admin-Marketing-contracts___es___es"
+  }, {
+    path: "/es/es/Admin/Marketing/events",
+    component: _54179947,
+    name: "Admin-Marketing-events___es___es"
+  }, {
+    path: "/es/es/Admin/Marketing/invitations",
+    component: _2921453c,
+    name: "Admin-Marketing-invitations___es___es"
+  }, {
+    path: "/es/es/Admin/Marketing/newsletter",
+    component: _da541c32,
+    name: "Admin-Marketing-newsletter___es___es"
+  }, {
+    path: "/es/es/Admin/Marketing/reviews",
+    component: _47bf29dd,
+    name: "Admin-Marketing-reviews___es___es"
+  }, {
+    path: "/es/es/Admin/Marketing/rewards",
+    component: _2c3f2066,
+    name: "Admin-Marketing-rewards___es___es"
+  }, {
+    path: "/es/es/Admin/Marketing/seo",
+    component: _6291e61f,
+    name: "Admin-Marketing-seo___es___es"
+  }, {
+    path: "/es/es/Admin/Marketing/ticketing",
+    component: _4fa35f18,
+    name: "Admin-Marketing-ticketing___es___es"
+  }, {
+    path: "/es/es/Admin/Marketing/training",
+    component: _01edcb08,
+    name: "Admin-Marketing-training___es___es"
+  }, {
+    path: "/es/es/Admin/Reports/calendars",
+    component: _1f5b8b04,
+    name: "Admin-Reports-calendars___es___es"
+  }, {
+    path: "/es/es/Admin/Reports/cases",
+    component: _03d1424c,
+    name: "Admin-Reports-cases___es___es"
+  }, {
+    path: "/es/es/Admin/Reports/deep-dive",
+    component: _726293be,
+    name: "Admin-Reports-deep-dive___es___es"
+  }, {
+    path: "/es/es/Admin/Reports/eosr",
+    component: _b6e442e0,
+    name: "Admin-Reports-eosr___es___es"
+  }, {
+    path: "/es/es/Admin/Reports/marketing-reports",
+    component: _658a7c21,
+    name: "Admin-Reports-marketing-reports___es___es"
+  }, {
+    path: "/es/es/Admin/Reports/products-reports",
+    component: _3dc08b5d,
+    name: "Admin-Reports-products-reports___es___es"
+  }, {
+    path: "/es/es/Admin/Reports/reviews",
+    component: _59cf3238,
+    name: "Admin-Reports-reviews___es___es"
+  }, {
+    path: "/es/es/Admin/Reports/sales-reports",
+    component: _05f9b287,
+    name: "Admin-Reports-sales-reports___es___es"
+  }, {
+    path: "/es/es/Admin/Reports/statistics",
+    component: _0641aa2c,
+    name: "Admin-Reports-statistics___es___es"
+  }, {
+    path: "/es/es/Admin/Reports/surveys",
+    component: _b5492fbc,
+    name: "Admin-Reports-surveys___es___es"
+  }, {
+    path: "/es/es/Admin/Reports/team-scheduler",
+    component: _3c938b92,
+    name: "Admin-Reports-team-scheduler___es___es"
+  }, {
+    path: "/es/es/Admin/Sales/agreements",
+    component: _1c600fbd,
+    name: "Admin-Sales-agreements___es___es"
+  }, {
+    path: "/es/es/Admin/Sales/certificates",
+    component: _2d9f7d60,
+    name: "Admin-Sales-certificates___es___es"
+  }, {
+    path: "/es/es/Admin/Sales/credit-memos",
+    component: _052225b9,
+    name: "Admin-Sales-credit-memos___es___es"
+  }, {
+    path: "/es/es/Admin/Sales/invoices",
+    component: _6b25ab7a,
+    name: "Admin-Sales-invoices___es___es"
+  }, {
+    path: "/es/es/Admin/Sales/orders",
+    component: _6ef6e2f9,
+    name: "Admin-Sales-orders___es___es"
+  }, {
+    path: "/es/es/Admin/Sales/quotes",
+    component: _e35b0eea,
+    name: "Admin-Sales-quotes___es___es"
+  }, {
+    path: "/es/es/Admin/Sales/returns",
+    component: _f7540c42,
+    name: "Admin-Sales-returns___es___es"
+  }, {
+    path: "/es/es/Admin/Sales/shipments",
+    component: _f905b296,
+    name: "Admin-Sales-shipments___es___es"
+  }, {
+    path: "/es/es/Admin/Sales/transactions",
+    component: _b32d372e,
+    name: "Admin-Sales-transactions___es___es"
+  }, {
+    path: "/es/es/Admin/Shop/attributes",
+    component: _292fb775,
+    name: "Admin-Shop-attributes___es___es"
+  }, {
+    path: "/es/es/Admin/Shop/categories",
+    component: _6a192c8c,
+    name: "Admin-Shop-categories___es___es"
+  }, {
+    path: "/es/es/Admin/Shop/cities",
+    component: _6c141932,
+    name: "Admin-Shop-cities___es___es"
+  }, {
+    path: "/es/es/Admin/Shop/collections",
+    component: _46ce0767,
+    name: "Admin-Shop-collections___es___es"
+  }, {
+    path: "/es/es/Admin/Shop/countries",
+    component: _4908fb86,
+    name: "Admin-Shop-countries___es___es"
+  }, {
+    path: "/es/es/Admin/Shop/coupons",
+    component: _b3e10042,
+    name: "Admin-Shop-coupons___es___es"
+  }, {
+    path: "/es/es/Admin/Shop/inventory",
+    component: _fe6c33a4,
+    name: "Admin-Shop-inventory___es___es"
+  }, {
+    path: "/es/es/Admin/Shop/multi-vendor",
+    component: _78521b0c,
+    name: "Admin-Shop-multi-vendor___es___es"
+  }, {
+    path: "/es/es/Admin/Shop/products",
+    component: _7f2dcafc,
+    name: "Admin-Shop-products___es___es"
+  }, {
+    path: "/es/es/Admin/Shop/states",
+    component: _04a7fcc0,
+    name: "Admin-Shop-states___es___es"
+  }, {
+    path: "/es/es/Admin/Shop/tax-rate",
+    component: _15ababe0,
+    name: "Admin-Shop-tax-rate___es___es"
+  }, {
+    path: "/es/es/Admin/Shop/tax-rule",
+    component: _2a0187fc,
+    name: "Admin-Shop-tax-rule___es___es"
+  }, {
+    path: "/es/es/Admin/Shop/warehouses",
+    component: _c461b0a4,
+    name: "Admin-Shop-warehouses___es___es"
+  }, {
+    path: "/es/es/Admin/System/export-management",
+    component: _6cd19775,
+    name: "Admin-System-export-management___es___es"
+  }, {
+    path: "/es/es/Admin/System/general-settings",
+    component: _4ad60eff,
+    name: "Admin-System-general-settings___es___es"
+  }, {
+    path: "/es/es/Admin/System/help",
+    component: _4f9ed4d8,
+    name: "Admin-System-help___es___es"
+  }, {
+    path: "/es/es/Admin/System/import-management",
+    component: _a97d9138,
+    name: "Admin-System-import-management___es___es"
+  }, {
+    path: "/es/es/Admin/System/integrations",
+    component: _89238694,
+    name: "Admin-System-integrations___es___es"
+  }, {
+    path: "/es/es/Admin/System/knowledgebase",
+    component: _69a4d270,
+    name: "Admin-System-knowledgebase___es___es"
+  }, {
+    path: "/es/es/Admin/System/ooto",
+    component: _455e0cf2,
+    name: "Admin-System-ooto___es___es"
+  }, {
+    path: "/es/es/Admin/System/role-manager",
+    component: _42f4bd26,
+    name: "Admin-System-role-manager___es___es"
+  }, {
+    path: "/es/es/Admin/System/settings",
+    component: _fab8ad8c,
+    name: "Admin-System-settings___es___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-agreement",
+    component: _7d05d776,
+    name: "Admin-Add-New-add-new-agreement___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-article",
+    component: _2ed7f41e,
+    name: "Admin-Add-New-add-new-article___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-attribute",
+    component: _2d8e5852,
+    name: "Admin-Add-New-add-new-attribute___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-campaign",
+    component: _4e56e6a5,
+    name: "Admin-Add-New-add-new-campaign___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-case",
+    component: _14f95745,
+    name: "Admin-Add-New-add-new-case___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-category",
+    component: _5d74fb93,
+    name: "Admin-Add-New-add-new-category___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-checklist",
+    component: _1bdf65e1,
+    name: "Admin-Add-New-add-new-checklist___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-city",
+    component: _820c4000,
+    name: "Admin-Add-New-add-new-city___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-collection",
+    component: _70195c1a,
+    name: "Admin-Add-New-add-new-collection___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-contract",
+    component: _1f11b4b2,
+    name: "Admin-Add-New-add-new-contract___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-country",
+    component: _5fcc4091,
+    name: "Admin-Add-New-add-new-country___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-coupon",
+    component: _5bbfddfb,
+    name: "Admin-Add-New-add-new-coupon___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-customer",
+    component: _79b74e73,
+    name: "Admin-Add-New-add-new-customer___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-customergroup",
+    component: _26c7e69c,
+    name: "Admin-Add-New-add-new-customergroup___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-deepdive",
+    component: _580d3275,
+    name: "Admin-Add-New-add-new-deepdive___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-emailtemplates",
+    component: _1f88ec72,
+    name: "Admin-Add-New-add-new-emailtemplates___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-eosr",
+    component: _6bebbfc4,
+    name: "Admin-Add-New-add-new-eosr___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-event",
+    component: _66b13655,
+    name: "Admin-Add-New-add-new-event___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-fullfilment",
+    component: _64143c1a,
+    name: "Admin-Add-New-add-new-fullfilment___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-gift-certificates",
+    component: _34b55af4,
+    name: "Admin-Add-New-add-new-gift-certificates___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-glossary",
+    component: _3254f8b3,
+    name: "Admin-Add-New-add-new-glossary___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-invoice",
+    component: _f724eeb0,
+    name: "Admin-Add-New-add-new-invoice___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-knowledgebase",
+    component: _12eb0e8a,
+    name: "Admin-Add-New-add-new-knowledgebase___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-lead",
+    component: _70b78571,
+    name: "Admin-Add-New-add-new-lead___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-meeting",
+    component: _f9b14e94,
+    name: "Admin-Add-New-add-new-meeting___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-newsletter",
+    component: _c451bae4,
+    name: "Admin-Add-New-add-new-newsletter___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-newslettersubscriber%20copy",
+    component: _b1f9e4e2,
+    name: "Admin-Add-New-add-new-newslettersubscriber copy___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-ooto",
+    component: _4b3f1a20,
+    name: "Admin-Add-New-add-new-ooto___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-opportunity",
+    component: _54be7fce,
+    name: "Admin-Add-New-add-new-opportunity___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-page",
+    component: _46ee7724,
+    name: "Admin-Add-New-add-new-page___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-pdftemplates",
+    component: _02828e1c,
+    name: "Admin-Add-New-add-new-pdftemplates___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-product",
+    component: _5ee6616a,
+    name: "Admin-Add-New-add-new-product___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-project",
+    component: _7fc9ba94,
+    name: "Admin-Add-New-add-new-project___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-quote",
+    component: _0c6d4137,
+    name: "Admin-Add-New-add-new-quote___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-report",
+    component: _aaefb7ee,
+    name: "Admin-Add-New-add-new-report___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-return",
+    component: _f1c4a3f6,
+    name: "Admin-Add-New-add-new-return___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-review",
+    component: _7335d7a6,
+    name: "Admin-Add-New-add-new-review___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-rewards",
+    component: _232dedc2,
+    name: "Admin-Add-New-add-new-rewards___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-role",
+    component: _03d0498b,
+    name: "Admin-Add-New-add-new-role___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-schedule",
+    component: _ed5b46a8,
+    name: "Admin-Add-New-add-new-schedule___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-segment",
+    component: _7f0271ae,
+    name: "Admin-Add-New-add-new-segment___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-shipment",
+    component: _21c8022f,
+    name: "Admin-Add-New-add-new-shipment___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-staffmembers",
+    component: _51d06cce,
+    name: "Admin-Add-New-add-new-staffmembers___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-state",
+    component: _2f049668,
+    name: "Admin-Add-New-add-new-state___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-survey",
+    component: _0f3df32f,
+    name: "Admin-Add-New-add-new-survey___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-tag",
+    component: _0f993015,
+    name: "Admin-Add-New-add-new-tag___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-target",
+    component: _546ac9e6,
+    name: "Admin-Add-New-add-new-target___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-task",
+    component: _097c41cc,
+    name: "Admin-Add-New-add-new-task___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-taxrate",
+    component: _58836586,
+    name: "Admin-Add-New-add-new-taxrate___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-taxrule",
+    component: _6cd941a2,
+    name: "Admin-Add-New-add-new-taxrule___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-visit",
+    component: _56475ef4,
+    name: "Admin-Add-New-add-new-visit___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-warehouse",
+    component: _15840f04,
+    name: "Admin-Add-New-add-new-warehouse___fr___es"
+  }, {
+    path: "/es/fr/Admin/Add-New/add-new-warehouse%20copy",
+    component: _472a0cf2,
+    name: "Admin-Add-New-add-new-warehouse copy___fr___es"
+  }, {
+    path: "/es/fr/Admin/Content/blog",
+    component: _478cf93a,
+    name: "Admin-Content-blog___fr___es"
+  }, {
+    path: "/es/fr/Admin/Content/glossary",
+    component: _11c0c35f,
+    name: "Admin-Content-glossary___fr___es"
+  }, {
+    path: "/es/fr/Admin/Content/media-manager",
+    component: _07f1e95a,
+    name: "Admin-Content-media-manager___fr___es"
+  }, {
+    path: "/es/fr/Admin/Content/pages",
+    component: _adcfb95a,
+    name: "Admin-Content-pages___fr___es"
+  }, {
+    path: "/es/fr/Admin/Content/projects",
+    component: _5c8503bb,
+    name: "Admin-Content-projects___fr___es"
+  }, {
+    path: "/es/fr/Admin/Content/tags",
+    component: _51a7174c,
+    name: "Admin-Content-tags___fr___es"
+  }, {
+    path: "/es/fr/Admin/Customers/all-customers",
+    component: _042a7848,
+    name: "Admin-Customers-all-customers___fr___es"
+  }, {
+    path: "/es/fr/Admin/Customers/customer-groups",
+    component: _de21f0d4,
+    name: "Admin-Customers-customer-groups___fr___es"
+  }, {
+    path: "/es/fr/Admin/Customers/leads",
+    component: _0f8d1d6c,
+    name: "Admin-Customers-leads___fr___es"
+  }, {
+    path: "/es/fr/Admin/Customers/meetings",
+    component: _52bbe4b5,
+    name: "Admin-Customers-meetings___fr___es"
+  }, {
+    path: "/es/fr/Admin/Customers/online-customers",
+    component: _694181f8,
+    name: "Admin-Customers-online-customers___fr___es"
+  }, {
+    path: "/es/fr/Admin/Customers/opportunities",
+    component: _0d1c0b64,
+    name: "Admin-Customers-opportunities___fr___es"
+  }, {
+    path: "/es/fr/Admin/Customers/segments",
+    component: _5b782a86,
+    name: "Admin-Customers-segments___fr___es"
+  }, {
+    path: "/es/fr/Admin/Customers/tasks",
+    component: _820b667e,
+    name: "Admin-Customers-tasks___fr___es"
+  }, {
+    path: "/es/fr/Admin/Marketing/communications",
+    component: _212fab8b,
+    name: "Admin-Marketing-communications___fr___es"
+  }, {
+    path: "/es/fr/Admin/Marketing/contracts",
+    component: _42c691e3,
+    name: "Admin-Marketing-contracts___fr___es"
+  }, {
+    path: "/es/fr/Admin/Marketing/events",
+    component: _54179947,
+    name: "Admin-Marketing-events___fr___es"
+  }, {
+    path: "/es/fr/Admin/Marketing/invitations",
+    component: _2921453c,
+    name: "Admin-Marketing-invitations___fr___es"
+  }, {
+    path: "/es/fr/Admin/Marketing/newsletter",
+    component: _da541c32,
+    name: "Admin-Marketing-newsletter___fr___es"
+  }, {
+    path: "/es/fr/Admin/Marketing/reviews",
+    component: _47bf29dd,
+    name: "Admin-Marketing-reviews___fr___es"
+  }, {
+    path: "/es/fr/Admin/Marketing/rewards",
+    component: _2c3f2066,
+    name: "Admin-Marketing-rewards___fr___es"
+  }, {
+    path: "/es/fr/Admin/Marketing/seo",
+    component: _6291e61f,
+    name: "Admin-Marketing-seo___fr___es"
+  }, {
+    path: "/es/fr/Admin/Marketing/ticketing",
+    component: _4fa35f18,
+    name: "Admin-Marketing-ticketing___fr___es"
+  }, {
+    path: "/es/fr/Admin/Marketing/training",
+    component: _01edcb08,
+    name: "Admin-Marketing-training___fr___es"
+  }, {
+    path: "/es/fr/Admin/Reports/calendars",
+    component: _1f5b8b04,
+    name: "Admin-Reports-calendars___fr___es"
+  }, {
+    path: "/es/fr/Admin/Reports/cases",
+    component: _03d1424c,
+    name: "Admin-Reports-cases___fr___es"
+  }, {
+    path: "/es/fr/Admin/Reports/deep-dive",
+    component: _726293be,
+    name: "Admin-Reports-deep-dive___fr___es"
+  }, {
+    path: "/es/fr/Admin/Reports/eosr",
+    component: _b6e442e0,
+    name: "Admin-Reports-eosr___fr___es"
+  }, {
+    path: "/es/fr/Admin/Reports/marketing-reports",
+    component: _658a7c21,
+    name: "Admin-Reports-marketing-reports___fr___es"
+  }, {
+    path: "/es/fr/Admin/Reports/products-reports",
+    component: _3dc08b5d,
+    name: "Admin-Reports-products-reports___fr___es"
+  }, {
+    path: "/es/fr/Admin/Reports/reviews",
+    component: _59cf3238,
+    name: "Admin-Reports-reviews___fr___es"
+  }, {
+    path: "/es/fr/Admin/Reports/sales-reports",
+    component: _05f9b287,
+    name: "Admin-Reports-sales-reports___fr___es"
+  }, {
+    path: "/es/fr/Admin/Reports/statistics",
+    component: _0641aa2c,
+    name: "Admin-Reports-statistics___fr___es"
+  }, {
+    path: "/es/fr/Admin/Reports/surveys",
+    component: _b5492fbc,
+    name: "Admin-Reports-surveys___fr___es"
+  }, {
+    path: "/es/fr/Admin/Reports/team-scheduler",
+    component: _3c938b92,
+    name: "Admin-Reports-team-scheduler___fr___es"
+  }, {
+    path: "/es/fr/Admin/Sales/agreements",
+    component: _1c600fbd,
+    name: "Admin-Sales-agreements___fr___es"
+  }, {
+    path: "/es/fr/Admin/Sales/certificates",
+    component: _2d9f7d60,
+    name: "Admin-Sales-certificates___fr___es"
+  }, {
+    path: "/es/fr/Admin/Sales/credit-memos",
+    component: _052225b9,
+    name: "Admin-Sales-credit-memos___fr___es"
+  }, {
+    path: "/es/fr/Admin/Sales/invoices",
+    component: _6b25ab7a,
+    name: "Admin-Sales-invoices___fr___es"
+  }, {
+    path: "/es/fr/Admin/Sales/orders",
+    component: _6ef6e2f9,
+    name: "Admin-Sales-orders___fr___es"
+  }, {
+    path: "/es/fr/Admin/Sales/quotes",
+    component: _e35b0eea,
+    name: "Admin-Sales-quotes___fr___es"
+  }, {
+    path: "/es/fr/Admin/Sales/returns",
+    component: _f7540c42,
+    name: "Admin-Sales-returns___fr___es"
+  }, {
+    path: "/es/fr/Admin/Sales/shipments",
+    component: _f905b296,
+    name: "Admin-Sales-shipments___fr___es"
+  }, {
+    path: "/es/fr/Admin/Sales/transactions",
+    component: _b32d372e,
+    name: "Admin-Sales-transactions___fr___es"
+  }, {
+    path: "/es/fr/Admin/Shop/attributes",
+    component: _292fb775,
+    name: "Admin-Shop-attributes___fr___es"
+  }, {
+    path: "/es/fr/Admin/Shop/categories",
+    component: _6a192c8c,
+    name: "Admin-Shop-categories___fr___es"
+  }, {
+    path: "/es/fr/Admin/Shop/cities",
+    component: _6c141932,
+    name: "Admin-Shop-cities___fr___es"
+  }, {
+    path: "/es/fr/Admin/Shop/collections",
+    component: _46ce0767,
+    name: "Admin-Shop-collections___fr___es"
+  }, {
+    path: "/es/fr/Admin/Shop/countries",
+    component: _4908fb86,
+    name: "Admin-Shop-countries___fr___es"
+  }, {
+    path: "/es/fr/Admin/Shop/coupons",
+    component: _b3e10042,
+    name: "Admin-Shop-coupons___fr___es"
+  }, {
+    path: "/es/fr/Admin/Shop/inventory",
+    component: _fe6c33a4,
+    name: "Admin-Shop-inventory___fr___es"
+  }, {
+    path: "/es/fr/Admin/Shop/multi-vendor",
+    component: _78521b0c,
+    name: "Admin-Shop-multi-vendor___fr___es"
+  }, {
+    path: "/es/fr/Admin/Shop/products",
+    component: _7f2dcafc,
+    name: "Admin-Shop-products___fr___es"
+  }, {
+    path: "/es/fr/Admin/Shop/states",
+    component: _04a7fcc0,
+    name: "Admin-Shop-states___fr___es"
+  }, {
+    path: "/es/fr/Admin/Shop/tax-rate",
+    component: _15ababe0,
+    name: "Admin-Shop-tax-rate___fr___es"
+  }, {
+    path: "/es/fr/Admin/Shop/tax-rule",
+    component: _2a0187fc,
+    name: "Admin-Shop-tax-rule___fr___es"
+  }, {
+    path: "/es/fr/Admin/Shop/warehouses",
+    component: _c461b0a4,
+    name: "Admin-Shop-warehouses___fr___es"
+  }, {
+    path: "/es/fr/Admin/System/export-management",
+    component: _6cd19775,
+    name: "Admin-System-export-management___fr___es"
+  }, {
+    path: "/es/fr/Admin/System/general-settings",
+    component: _4ad60eff,
+    name: "Admin-System-general-settings___fr___es"
+  }, {
+    path: "/es/fr/Admin/System/help",
+    component: _4f9ed4d8,
+    name: "Admin-System-help___fr___es"
+  }, {
+    path: "/es/fr/Admin/System/import-management",
+    component: _a97d9138,
+    name: "Admin-System-import-management___fr___es"
+  }, {
+    path: "/es/fr/Admin/System/integrations",
+    component: _89238694,
+    name: "Admin-System-integrations___fr___es"
+  }, {
+    path: "/es/fr/Admin/System/knowledgebase",
+    component: _69a4d270,
+    name: "Admin-System-knowledgebase___fr___es"
+  }, {
+    path: "/es/fr/Admin/System/ooto",
+    component: _455e0cf2,
+    name: "Admin-System-ooto___fr___es"
+  }, {
+    path: "/es/fr/Admin/System/role-manager",
+    component: _42f4bd26,
+    name: "Admin-System-role-manager___fr___es"
+  }, {
+    path: "/es/fr/Admin/System/settings",
+    component: _fab8ad8c,
+    name: "Admin-System-settings___fr___es"
   }, {
     path: "/fr/Admin/Customers/customer/newcustomer",
     component: _4cb64913,
-    name: "Admin-Customers-customer-newcustomer___fr"
+    name: "Admin-Customers-customer-newcustomer___en___fr"
+  }, {
+    path: "/fr/Admin/Customers/customer/newcustomer",
+    component: _4cb64913,
+    name: "Admin-Customers-customer-newcustomer___fr___en"
   }, {
     path: "/fr/Admin/Edit/providers/id",
     component: _4fac380a,
-    name: "Admin-Edit-providers-id___fr"
+    name: "Admin-Edit-providers-id___en___fr"
+  }, {
+    path: "/fr/Admin/Edit/providers/id",
+    component: _4fac380a,
+    name: "Admin-Edit-providers-id___fr___en"
   }, {
     path: "/fr/Admin/Marketing/Email/email-designer",
     component: _29b48a8c,
-    name: "Admin-Marketing-Email-email-designer___fr"
+    name: "Admin-Marketing-Email-email-designer___en___fr"
+  }, {
+    path: "/fr/Admin/Marketing/Email/email-designer",
+    component: _29b48a8c,
+    name: "Admin-Marketing-Email-email-designer___fr___en"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-agreement",
+    component: _7d05d776,
+    name: "Admin-Add-New-add-new-agreement___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-article",
+    component: _2ed7f41e,
+    name: "Admin-Add-New-add-new-article___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-attribute",
+    component: _2d8e5852,
+    name: "Admin-Add-New-add-new-attribute___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-campaign",
+    component: _4e56e6a5,
+    name: "Admin-Add-New-add-new-campaign___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-case",
+    component: _14f95745,
+    name: "Admin-Add-New-add-new-case___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-category",
+    component: _5d74fb93,
+    name: "Admin-Add-New-add-new-category___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-checklist",
+    component: _1bdf65e1,
+    name: "Admin-Add-New-add-new-checklist___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-city",
+    component: _820c4000,
+    name: "Admin-Add-New-add-new-city___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-collection",
+    component: _70195c1a,
+    name: "Admin-Add-New-add-new-collection___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-contract",
+    component: _1f11b4b2,
+    name: "Admin-Add-New-add-new-contract___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-country",
+    component: _5fcc4091,
+    name: "Admin-Add-New-add-new-country___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-coupon",
+    component: _5bbfddfb,
+    name: "Admin-Add-New-add-new-coupon___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-customer",
+    component: _79b74e73,
+    name: "Admin-Add-New-add-new-customer___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-customergroup",
+    component: _26c7e69c,
+    name: "Admin-Add-New-add-new-customergroup___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-deepdive",
+    component: _580d3275,
+    name: "Admin-Add-New-add-new-deepdive___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-emailtemplates",
+    component: _1f88ec72,
+    name: "Admin-Add-New-add-new-emailtemplates___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-eosr",
+    component: _6bebbfc4,
+    name: "Admin-Add-New-add-new-eosr___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-event",
+    component: _66b13655,
+    name: "Admin-Add-New-add-new-event___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-fullfilment",
+    component: _64143c1a,
+    name: "Admin-Add-New-add-new-fullfilment___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-gift-certificates",
+    component: _34b55af4,
+    name: "Admin-Add-New-add-new-gift-certificates___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-glossary",
+    component: _3254f8b3,
+    name: "Admin-Add-New-add-new-glossary___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-invoice",
+    component: _f724eeb0,
+    name: "Admin-Add-New-add-new-invoice___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-knowledgebase",
+    component: _12eb0e8a,
+    name: "Admin-Add-New-add-new-knowledgebase___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-lead",
+    component: _70b78571,
+    name: "Admin-Add-New-add-new-lead___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-meeting",
+    component: _f9b14e94,
+    name: "Admin-Add-New-add-new-meeting___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-newsletter",
+    component: _c451bae4,
+    name: "Admin-Add-New-add-new-newsletter___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-newslettersubscriber%20copy",
+    component: _b1f9e4e2,
+    name: "Admin-Add-New-add-new-newslettersubscriber copy___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-ooto",
+    component: _4b3f1a20,
+    name: "Admin-Add-New-add-new-ooto___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-opportunity",
+    component: _54be7fce,
+    name: "Admin-Add-New-add-new-opportunity___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-page",
+    component: _46ee7724,
+    name: "Admin-Add-New-add-new-page___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-pdftemplates",
+    component: _02828e1c,
+    name: "Admin-Add-New-add-new-pdftemplates___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-product",
+    component: _5ee6616a,
+    name: "Admin-Add-New-add-new-product___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-project",
+    component: _7fc9ba94,
+    name: "Admin-Add-New-add-new-project___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-quote",
+    component: _0c6d4137,
+    name: "Admin-Add-New-add-new-quote___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-report",
+    component: _aaefb7ee,
+    name: "Admin-Add-New-add-new-report___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-return",
+    component: _f1c4a3f6,
+    name: "Admin-Add-New-add-new-return___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-review",
+    component: _7335d7a6,
+    name: "Admin-Add-New-add-new-review___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-rewards",
+    component: _232dedc2,
+    name: "Admin-Add-New-add-new-rewards___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-role",
+    component: _03d0498b,
+    name: "Admin-Add-New-add-new-role___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-schedule",
+    component: _ed5b46a8,
+    name: "Admin-Add-New-add-new-schedule___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-segment",
+    component: _7f0271ae,
+    name: "Admin-Add-New-add-new-segment___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-shipment",
+    component: _21c8022f,
+    name: "Admin-Add-New-add-new-shipment___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-staffmembers",
+    component: _51d06cce,
+    name: "Admin-Add-New-add-new-staffmembers___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-state",
+    component: _2f049668,
+    name: "Admin-Add-New-add-new-state___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-survey",
+    component: _0f3df32f,
+    name: "Admin-Add-New-add-new-survey___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-tag",
+    component: _0f993015,
+    name: "Admin-Add-New-add-new-tag___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-target",
+    component: _546ac9e6,
+    name: "Admin-Add-New-add-new-target___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-task",
+    component: _097c41cc,
+    name: "Admin-Add-New-add-new-task___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-taxrate",
+    component: _58836586,
+    name: "Admin-Add-New-add-new-taxrate___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-taxrule",
+    component: _6cd941a2,
+    name: "Admin-Add-New-add-new-taxrule___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-visit",
+    component: _56475ef4,
+    name: "Admin-Add-New-add-new-visit___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-warehouse",
+    component: _15840f04,
+    name: "Admin-Add-New-add-new-warehouse___es___fr"
+  }, {
+    path: "/fr/es/Admin/Add-New/add-new-warehouse%20copy",
+    component: _472a0cf2,
+    name: "Admin-Add-New-add-new-warehouse copy___es___fr"
+  }, {
+    path: "/fr/es/Admin/Content/blog",
+    component: _478cf93a,
+    name: "Admin-Content-blog___es___fr"
+  }, {
+    path: "/fr/es/Admin/Content/glossary",
+    component: _11c0c35f,
+    name: "Admin-Content-glossary___es___fr"
+  }, {
+    path: "/fr/es/Admin/Content/media-manager",
+    component: _07f1e95a,
+    name: "Admin-Content-media-manager___es___fr"
+  }, {
+    path: "/fr/es/Admin/Content/pages",
+    component: _adcfb95a,
+    name: "Admin-Content-pages___es___fr"
+  }, {
+    path: "/fr/es/Admin/Content/projects",
+    component: _5c8503bb,
+    name: "Admin-Content-projects___es___fr"
+  }, {
+    path: "/fr/es/Admin/Content/tags",
+    component: _51a7174c,
+    name: "Admin-Content-tags___es___fr"
+  }, {
+    path: "/fr/es/Admin/Customers/all-customers",
+    component: _042a7848,
+    name: "Admin-Customers-all-customers___es___fr"
+  }, {
+    path: "/fr/es/Admin/Customers/customer-groups",
+    component: _de21f0d4,
+    name: "Admin-Customers-customer-groups___es___fr"
+  }, {
+    path: "/fr/es/Admin/Customers/leads",
+    component: _0f8d1d6c,
+    name: "Admin-Customers-leads___es___fr"
+  }, {
+    path: "/fr/es/Admin/Customers/meetings",
+    component: _52bbe4b5,
+    name: "Admin-Customers-meetings___es___fr"
+  }, {
+    path: "/fr/es/Admin/Customers/online-customers",
+    component: _694181f8,
+    name: "Admin-Customers-online-customers___es___fr"
+  }, {
+    path: "/fr/es/Admin/Customers/opportunities",
+    component: _0d1c0b64,
+    name: "Admin-Customers-opportunities___es___fr"
+  }, {
+    path: "/fr/es/Admin/Customers/segments",
+    component: _5b782a86,
+    name: "Admin-Customers-segments___es___fr"
+  }, {
+    path: "/fr/es/Admin/Customers/tasks",
+    component: _820b667e,
+    name: "Admin-Customers-tasks___es___fr"
+  }, {
+    path: "/fr/es/Admin/Marketing/communications",
+    component: _212fab8b,
+    name: "Admin-Marketing-communications___es___fr"
+  }, {
+    path: "/fr/es/Admin/Marketing/contracts",
+    component: _42c691e3,
+    name: "Admin-Marketing-contracts___es___fr"
+  }, {
+    path: "/fr/es/Admin/Marketing/events",
+    component: _54179947,
+    name: "Admin-Marketing-events___es___fr"
+  }, {
+    path: "/fr/es/Admin/Marketing/invitations",
+    component: _2921453c,
+    name: "Admin-Marketing-invitations___es___fr"
+  }, {
+    path: "/fr/es/Admin/Marketing/newsletter",
+    component: _da541c32,
+    name: "Admin-Marketing-newsletter___es___fr"
+  }, {
+    path: "/fr/es/Admin/Marketing/reviews",
+    component: _47bf29dd,
+    name: "Admin-Marketing-reviews___es___fr"
+  }, {
+    path: "/fr/es/Admin/Marketing/rewards",
+    component: _2c3f2066,
+    name: "Admin-Marketing-rewards___es___fr"
+  }, {
+    path: "/fr/es/Admin/Marketing/seo",
+    component: _6291e61f,
+    name: "Admin-Marketing-seo___es___fr"
+  }, {
+    path: "/fr/es/Admin/Marketing/ticketing",
+    component: _4fa35f18,
+    name: "Admin-Marketing-ticketing___es___fr"
+  }, {
+    path: "/fr/es/Admin/Marketing/training",
+    component: _01edcb08,
+    name: "Admin-Marketing-training___es___fr"
+  }, {
+    path: "/fr/es/Admin/Reports/calendars",
+    component: _1f5b8b04,
+    name: "Admin-Reports-calendars___es___fr"
+  }, {
+    path: "/fr/es/Admin/Reports/cases",
+    component: _03d1424c,
+    name: "Admin-Reports-cases___es___fr"
+  }, {
+    path: "/fr/es/Admin/Reports/deep-dive",
+    component: _726293be,
+    name: "Admin-Reports-deep-dive___es___fr"
+  }, {
+    path: "/fr/es/Admin/Reports/eosr",
+    component: _b6e442e0,
+    name: "Admin-Reports-eosr___es___fr"
+  }, {
+    path: "/fr/es/Admin/Reports/marketing-reports",
+    component: _658a7c21,
+    name: "Admin-Reports-marketing-reports___es___fr"
+  }, {
+    path: "/fr/es/Admin/Reports/products-reports",
+    component: _3dc08b5d,
+    name: "Admin-Reports-products-reports___es___fr"
+  }, {
+    path: "/fr/es/Admin/Reports/reviews",
+    component: _59cf3238,
+    name: "Admin-Reports-reviews___es___fr"
+  }, {
+    path: "/fr/es/Admin/Reports/sales-reports",
+    component: _05f9b287,
+    name: "Admin-Reports-sales-reports___es___fr"
+  }, {
+    path: "/fr/es/Admin/Reports/statistics",
+    component: _0641aa2c,
+    name: "Admin-Reports-statistics___es___fr"
+  }, {
+    path: "/fr/es/Admin/Reports/surveys",
+    component: _b5492fbc,
+    name: "Admin-Reports-surveys___es___fr"
+  }, {
+    path: "/fr/es/Admin/Reports/team-scheduler",
+    component: _3c938b92,
+    name: "Admin-Reports-team-scheduler___es___fr"
+  }, {
+    path: "/fr/es/Admin/Sales/agreements",
+    component: _1c600fbd,
+    name: "Admin-Sales-agreements___es___fr"
+  }, {
+    path: "/fr/es/Admin/Sales/certificates",
+    component: _2d9f7d60,
+    name: "Admin-Sales-certificates___es___fr"
+  }, {
+    path: "/fr/es/Admin/Sales/credit-memos",
+    component: _052225b9,
+    name: "Admin-Sales-credit-memos___es___fr"
+  }, {
+    path: "/fr/es/Admin/Sales/invoices",
+    component: _6b25ab7a,
+    name: "Admin-Sales-invoices___es___fr"
+  }, {
+    path: "/fr/es/Admin/Sales/orders",
+    component: _6ef6e2f9,
+    name: "Admin-Sales-orders___es___fr"
+  }, {
+    path: "/fr/es/Admin/Sales/quotes",
+    component: _e35b0eea,
+    name: "Admin-Sales-quotes___es___fr"
+  }, {
+    path: "/fr/es/Admin/Sales/returns",
+    component: _f7540c42,
+    name: "Admin-Sales-returns___es___fr"
+  }, {
+    path: "/fr/es/Admin/Sales/shipments",
+    component: _f905b296,
+    name: "Admin-Sales-shipments___es___fr"
+  }, {
+    path: "/fr/es/Admin/Sales/transactions",
+    component: _b32d372e,
+    name: "Admin-Sales-transactions___es___fr"
+  }, {
+    path: "/fr/es/Admin/Shop/attributes",
+    component: _292fb775,
+    name: "Admin-Shop-attributes___es___fr"
+  }, {
+    path: "/fr/es/Admin/Shop/categories",
+    component: _6a192c8c,
+    name: "Admin-Shop-categories___es___fr"
+  }, {
+    path: "/fr/es/Admin/Shop/cities",
+    component: _6c141932,
+    name: "Admin-Shop-cities___es___fr"
+  }, {
+    path: "/fr/es/Admin/Shop/collections",
+    component: _46ce0767,
+    name: "Admin-Shop-collections___es___fr"
+  }, {
+    path: "/fr/es/Admin/Shop/countries",
+    component: _4908fb86,
+    name: "Admin-Shop-countries___es___fr"
+  }, {
+    path: "/fr/es/Admin/Shop/coupons",
+    component: _b3e10042,
+    name: "Admin-Shop-coupons___es___fr"
+  }, {
+    path: "/fr/es/Admin/Shop/inventory",
+    component: _fe6c33a4,
+    name: "Admin-Shop-inventory___es___fr"
+  }, {
+    path: "/fr/es/Admin/Shop/multi-vendor",
+    component: _78521b0c,
+    name: "Admin-Shop-multi-vendor___es___fr"
+  }, {
+    path: "/fr/es/Admin/Shop/products",
+    component: _7f2dcafc,
+    name: "Admin-Shop-products___es___fr"
+  }, {
+    path: "/fr/es/Admin/Shop/states",
+    component: _04a7fcc0,
+    name: "Admin-Shop-states___es___fr"
+  }, {
+    path: "/fr/es/Admin/Shop/tax-rate",
+    component: _15ababe0,
+    name: "Admin-Shop-tax-rate___es___fr"
+  }, {
+    path: "/fr/es/Admin/Shop/tax-rule",
+    component: _2a0187fc,
+    name: "Admin-Shop-tax-rule___es___fr"
+  }, {
+    path: "/fr/es/Admin/Shop/warehouses",
+    component: _c461b0a4,
+    name: "Admin-Shop-warehouses___es___fr"
+  }, {
+    path: "/fr/es/Admin/System/export-management",
+    component: _6cd19775,
+    name: "Admin-System-export-management___es___fr"
+  }, {
+    path: "/fr/es/Admin/System/general-settings",
+    component: _4ad60eff,
+    name: "Admin-System-general-settings___es___fr"
+  }, {
+    path: "/fr/es/Admin/System/help",
+    component: _4f9ed4d8,
+    name: "Admin-System-help___es___fr"
+  }, {
+    path: "/fr/es/Admin/System/import-management",
+    component: _a97d9138,
+    name: "Admin-System-import-management___es___fr"
+  }, {
+    path: "/fr/es/Admin/System/integrations",
+    component: _89238694,
+    name: "Admin-System-integrations___es___fr"
+  }, {
+    path: "/fr/es/Admin/System/knowledgebase",
+    component: _69a4d270,
+    name: "Admin-System-knowledgebase___es___fr"
+  }, {
+    path: "/fr/es/Admin/System/ooto",
+    component: _455e0cf2,
+    name: "Admin-System-ooto___es___fr"
+  }, {
+    path: "/fr/es/Admin/System/role-manager",
+    component: _42f4bd26,
+    name: "Admin-System-role-manager___es___fr"
+  }, {
+    path: "/fr/es/Admin/System/settings",
+    component: _fab8ad8c,
+    name: "Admin-System-settings___es___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-agreement",
+    component: _7d05d776,
+    name: "Admin-Add-New-add-new-agreement___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-article",
+    component: _2ed7f41e,
+    name: "Admin-Add-New-add-new-article___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-attribute",
+    component: _2d8e5852,
+    name: "Admin-Add-New-add-new-attribute___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-campaign",
+    component: _4e56e6a5,
+    name: "Admin-Add-New-add-new-campaign___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-case",
+    component: _14f95745,
+    name: "Admin-Add-New-add-new-case___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-category",
+    component: _5d74fb93,
+    name: "Admin-Add-New-add-new-category___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-checklist",
+    component: _1bdf65e1,
+    name: "Admin-Add-New-add-new-checklist___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-city",
+    component: _820c4000,
+    name: "Admin-Add-New-add-new-city___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-collection",
+    component: _70195c1a,
+    name: "Admin-Add-New-add-new-collection___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-contract",
+    component: _1f11b4b2,
+    name: "Admin-Add-New-add-new-contract___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-country",
+    component: _5fcc4091,
+    name: "Admin-Add-New-add-new-country___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-coupon",
+    component: _5bbfddfb,
+    name: "Admin-Add-New-add-new-coupon___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-customer",
+    component: _79b74e73,
+    name: "Admin-Add-New-add-new-customer___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-customergroup",
+    component: _26c7e69c,
+    name: "Admin-Add-New-add-new-customergroup___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-deepdive",
+    component: _580d3275,
+    name: "Admin-Add-New-add-new-deepdive___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-emailtemplates",
+    component: _1f88ec72,
+    name: "Admin-Add-New-add-new-emailtemplates___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-eosr",
+    component: _6bebbfc4,
+    name: "Admin-Add-New-add-new-eosr___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-event",
+    component: _66b13655,
+    name: "Admin-Add-New-add-new-event___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-fullfilment",
+    component: _64143c1a,
+    name: "Admin-Add-New-add-new-fullfilment___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-gift-certificates",
+    component: _34b55af4,
+    name: "Admin-Add-New-add-new-gift-certificates___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-glossary",
+    component: _3254f8b3,
+    name: "Admin-Add-New-add-new-glossary___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-invoice",
+    component: _f724eeb0,
+    name: "Admin-Add-New-add-new-invoice___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-knowledgebase",
+    component: _12eb0e8a,
+    name: "Admin-Add-New-add-new-knowledgebase___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-lead",
+    component: _70b78571,
+    name: "Admin-Add-New-add-new-lead___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-meeting",
+    component: _f9b14e94,
+    name: "Admin-Add-New-add-new-meeting___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-newsletter",
+    component: _c451bae4,
+    name: "Admin-Add-New-add-new-newsletter___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-newslettersubscriber%20copy",
+    component: _b1f9e4e2,
+    name: "Admin-Add-New-add-new-newslettersubscriber copy___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-ooto",
+    component: _4b3f1a20,
+    name: "Admin-Add-New-add-new-ooto___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-opportunity",
+    component: _54be7fce,
+    name: "Admin-Add-New-add-new-opportunity___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-page",
+    component: _46ee7724,
+    name: "Admin-Add-New-add-new-page___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-pdftemplates",
+    component: _02828e1c,
+    name: "Admin-Add-New-add-new-pdftemplates___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-product",
+    component: _5ee6616a,
+    name: "Admin-Add-New-add-new-product___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-project",
+    component: _7fc9ba94,
+    name: "Admin-Add-New-add-new-project___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-quote",
+    component: _0c6d4137,
+    name: "Admin-Add-New-add-new-quote___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-report",
+    component: _aaefb7ee,
+    name: "Admin-Add-New-add-new-report___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-return",
+    component: _f1c4a3f6,
+    name: "Admin-Add-New-add-new-return___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-review",
+    component: _7335d7a6,
+    name: "Admin-Add-New-add-new-review___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-rewards",
+    component: _232dedc2,
+    name: "Admin-Add-New-add-new-rewards___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-role",
+    component: _03d0498b,
+    name: "Admin-Add-New-add-new-role___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-schedule",
+    component: _ed5b46a8,
+    name: "Admin-Add-New-add-new-schedule___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-segment",
+    component: _7f0271ae,
+    name: "Admin-Add-New-add-new-segment___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-shipment",
+    component: _21c8022f,
+    name: "Admin-Add-New-add-new-shipment___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-staffmembers",
+    component: _51d06cce,
+    name: "Admin-Add-New-add-new-staffmembers___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-state",
+    component: _2f049668,
+    name: "Admin-Add-New-add-new-state___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-survey",
+    component: _0f3df32f,
+    name: "Admin-Add-New-add-new-survey___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-tag",
+    component: _0f993015,
+    name: "Admin-Add-New-add-new-tag___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-target",
+    component: _546ac9e6,
+    name: "Admin-Add-New-add-new-target___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-task",
+    component: _097c41cc,
+    name: "Admin-Add-New-add-new-task___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-taxrate",
+    component: _58836586,
+    name: "Admin-Add-New-add-new-taxrate___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-taxrule",
+    component: _6cd941a2,
+    name: "Admin-Add-New-add-new-taxrule___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-visit",
+    component: _56475ef4,
+    name: "Admin-Add-New-add-new-visit___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-warehouse",
+    component: _15840f04,
+    name: "Admin-Add-New-add-new-warehouse___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Add-New/add-new-warehouse%20copy",
+    component: _472a0cf2,
+    name: "Admin-Add-New-add-new-warehouse copy___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Content/blog",
+    component: _478cf93a,
+    name: "Admin-Content-blog___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Content/glossary",
+    component: _11c0c35f,
+    name: "Admin-Content-glossary___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Content/media-manager",
+    component: _07f1e95a,
+    name: "Admin-Content-media-manager___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Content/pages",
+    component: _adcfb95a,
+    name: "Admin-Content-pages___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Content/projects",
+    component: _5c8503bb,
+    name: "Admin-Content-projects___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Content/tags",
+    component: _51a7174c,
+    name: "Admin-Content-tags___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Customers/all-customers",
+    component: _042a7848,
+    name: "Admin-Customers-all-customers___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Customers/customer-groups",
+    component: _de21f0d4,
+    name: "Admin-Customers-customer-groups___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Customers/leads",
+    component: _0f8d1d6c,
+    name: "Admin-Customers-leads___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Customers/meetings",
+    component: _52bbe4b5,
+    name: "Admin-Customers-meetings___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Customers/online-customers",
+    component: _694181f8,
+    name: "Admin-Customers-online-customers___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Customers/opportunities",
+    component: _0d1c0b64,
+    name: "Admin-Customers-opportunities___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Customers/segments",
+    component: _5b782a86,
+    name: "Admin-Customers-segments___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Customers/tasks",
+    component: _820b667e,
+    name: "Admin-Customers-tasks___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Marketing/communications",
+    component: _212fab8b,
+    name: "Admin-Marketing-communications___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Marketing/contracts",
+    component: _42c691e3,
+    name: "Admin-Marketing-contracts___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Marketing/events",
+    component: _54179947,
+    name: "Admin-Marketing-events___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Marketing/invitations",
+    component: _2921453c,
+    name: "Admin-Marketing-invitations___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Marketing/newsletter",
+    component: _da541c32,
+    name: "Admin-Marketing-newsletter___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Marketing/reviews",
+    component: _47bf29dd,
+    name: "Admin-Marketing-reviews___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Marketing/rewards",
+    component: _2c3f2066,
+    name: "Admin-Marketing-rewards___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Marketing/seo",
+    component: _6291e61f,
+    name: "Admin-Marketing-seo___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Marketing/ticketing",
+    component: _4fa35f18,
+    name: "Admin-Marketing-ticketing___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Marketing/training",
+    component: _01edcb08,
+    name: "Admin-Marketing-training___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Reports/calendars",
+    component: _1f5b8b04,
+    name: "Admin-Reports-calendars___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Reports/cases",
+    component: _03d1424c,
+    name: "Admin-Reports-cases___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Reports/deep-dive",
+    component: _726293be,
+    name: "Admin-Reports-deep-dive___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Reports/eosr",
+    component: _b6e442e0,
+    name: "Admin-Reports-eosr___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Reports/marketing-reports",
+    component: _658a7c21,
+    name: "Admin-Reports-marketing-reports___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Reports/products-reports",
+    component: _3dc08b5d,
+    name: "Admin-Reports-products-reports___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Reports/reviews",
+    component: _59cf3238,
+    name: "Admin-Reports-reviews___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Reports/sales-reports",
+    component: _05f9b287,
+    name: "Admin-Reports-sales-reports___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Reports/statistics",
+    component: _0641aa2c,
+    name: "Admin-Reports-statistics___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Reports/surveys",
+    component: _b5492fbc,
+    name: "Admin-Reports-surveys___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Reports/team-scheduler",
+    component: _3c938b92,
+    name: "Admin-Reports-team-scheduler___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Sales/agreements",
+    component: _1c600fbd,
+    name: "Admin-Sales-agreements___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Sales/certificates",
+    component: _2d9f7d60,
+    name: "Admin-Sales-certificates___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Sales/credit-memos",
+    component: _052225b9,
+    name: "Admin-Sales-credit-memos___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Sales/invoices",
+    component: _6b25ab7a,
+    name: "Admin-Sales-invoices___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Sales/orders",
+    component: _6ef6e2f9,
+    name: "Admin-Sales-orders___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Sales/quotes",
+    component: _e35b0eea,
+    name: "Admin-Sales-quotes___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Sales/returns",
+    component: _f7540c42,
+    name: "Admin-Sales-returns___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Sales/shipments",
+    component: _f905b296,
+    name: "Admin-Sales-shipments___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Sales/transactions",
+    component: _b32d372e,
+    name: "Admin-Sales-transactions___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Shop/attributes",
+    component: _292fb775,
+    name: "Admin-Shop-attributes___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Shop/categories",
+    component: _6a192c8c,
+    name: "Admin-Shop-categories___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Shop/cities",
+    component: _6c141932,
+    name: "Admin-Shop-cities___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Shop/collections",
+    component: _46ce0767,
+    name: "Admin-Shop-collections___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Shop/countries",
+    component: _4908fb86,
+    name: "Admin-Shop-countries___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Shop/coupons",
+    component: _b3e10042,
+    name: "Admin-Shop-coupons___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Shop/inventory",
+    component: _fe6c33a4,
+    name: "Admin-Shop-inventory___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Shop/multi-vendor",
+    component: _78521b0c,
+    name: "Admin-Shop-multi-vendor___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Shop/products",
+    component: _7f2dcafc,
+    name: "Admin-Shop-products___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Shop/states",
+    component: _04a7fcc0,
+    name: "Admin-Shop-states___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Shop/tax-rate",
+    component: _15ababe0,
+    name: "Admin-Shop-tax-rate___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Shop/tax-rule",
+    component: _2a0187fc,
+    name: "Admin-Shop-tax-rule___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Shop/warehouses",
+    component: _c461b0a4,
+    name: "Admin-Shop-warehouses___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/System/export-management",
+    component: _6cd19775,
+    name: "Admin-System-export-management___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/System/general-settings",
+    component: _4ad60eff,
+    name: "Admin-System-general-settings___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/System/help",
+    component: _4f9ed4d8,
+    name: "Admin-System-help___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/System/import-management",
+    component: _a97d9138,
+    name: "Admin-System-import-management___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/System/integrations",
+    component: _89238694,
+    name: "Admin-System-integrations___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/System/knowledgebase",
+    component: _69a4d270,
+    name: "Admin-System-knowledgebase___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/System/ooto",
+    component: _455e0cf2,
+    name: "Admin-System-ooto___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/System/role-manager",
+    component: _42f4bd26,
+    name: "Admin-System-role-manager___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/System/settings",
+    component: _fab8ad8c,
+    name: "Admin-System-settings___fr___fr"
+  }, {
+    path: "/es/es/Admin/Customers/customer/newcustomer",
+    component: _4cb64913,
+    name: "Admin-Customers-customer-newcustomer___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/providers/id",
+    component: _4fac380a,
+    name: "Admin-Edit-providers-id___es___es"
+  }, {
+    path: "/es/es/Admin/Marketing/Email/email-designer",
+    component: _29b48a8c,
+    name: "Admin-Marketing-Email-email-designer___es___es"
+  }, {
+    path: "/es/fr/Admin/Customers/customer/newcustomer",
+    component: _4cb64913,
+    name: "Admin-Customers-customer-newcustomer___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/providers/id",
+    component: _4fac380a,
+    name: "Admin-Edit-providers-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Marketing/Email/email-designer",
+    component: _29b48a8c,
+    name: "Admin-Marketing-Email-email-designer___fr___es"
+  }, {
+    path: "/fr/es/Admin/Customers/customer/newcustomer",
+    component: _4cb64913,
+    name: "Admin-Customers-customer-newcustomer___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/providers/id",
+    component: _4fac380a,
+    name: "Admin-Edit-providers-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Marketing/Email/email-designer",
+    component: _29b48a8c,
+    name: "Admin-Marketing-Email-email-designer___es___fr"
+  }, {
+    path: "/fr/fr/Admin/Customers/customer/newcustomer",
+    component: _4cb64913,
+    name: "Admin-Customers-customer-newcustomer___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/providers/id",
+    component: _4fac380a,
+    name: "Admin-Edit-providers-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Marketing/Email/email-designer",
+    component: _29b48a8c,
+    name: "Admin-Marketing-Email-email-designer___fr___fr"
+  }, {
+    path: "/es/es/Admin/Shop/Product/Edit/:id?",
+    component: _6c9249bf,
+    name: "Admin-Shop-Product-Edit-id___es___es"
+  }, {
+    path: "/es/fr/Admin/Shop/Product/Edit/:id?",
+    component: _6c9249bf,
+    name: "Admin-Shop-Product-Edit-id___fr___es"
+  }, {
+    path: "/fr/es/Admin/Shop/Product/Edit/:id?",
+    component: _6c9249bf,
+    name: "Admin-Shop-Product-Edit-id___es___fr"
+  }, {
+    path: "/fr/fr/Admin/Shop/Product/Edit/:id?",
+    component: _6c9249bf,
+    name: "Admin-Shop-Product-Edit-id___fr___fr"
   }, {
     path: "/es/Admin/Shop/Product/Edit/:id?",
     component: _6c9249bf,
-    name: "Admin-Shop-Product-Edit-id___es"
+    name: "Admin-Shop-Product-Edit-id___es___en"
+  }, {
+    path: "/es/Admin/Shop/Product/Edit/:id?",
+    component: _6c9249bf,
+    name: "Admin-Shop-Product-Edit-id___en___es"
+  }, {
+    path: "/es/es/Admin/Edit/agreement/:id?",
+    component: _549a4222,
+    name: "Admin-Edit-agreement-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/article/:id?",
+    component: _59366194,
+    name: "Admin-Edit-article-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/attribute/:id?",
+    component: _9efd2460,
+    name: "Admin-Edit-attribute-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/cases/:id?",
+    component: _02ff9609,
+    name: "Admin-Edit-cases-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/category/:id?",
+    component: _ef9ef78c,
+    name: "Admin-Edit-category-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/city/:id?",
+    component: _7713156d,
+    name: "Admin-Edit-city-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/collection/:id?",
+    component: _4d90151a,
+    name: "Admin-Edit-collection-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/contracts/:id?",
+    component: _3721c72a,
+    name: "Admin-Edit-contracts-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/country/:id?",
+    component: _29483896,
+    name: "Admin-Edit-country-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/coupon/:id?",
+    component: _f5dbb0dc,
+    name: "Admin-Edit-coupon-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/customergroup/:id?",
+    component: _28b917ab,
+    name: "Admin-Edit-customergroup-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/deep-dive/:id?",
+    component: _1380ae57,
+    name: "Admin-Edit-deep-dive-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/email_template/:id?",
+    component: _336151db,
+    name: "Admin-Edit-email_template-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/event/:id?",
+    component: _1c176092,
+    name: "Admin-Edit-event-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/fullfillment/:id?",
+    component: _7a61ccf0,
+    name: "Admin-Edit-fullfillment-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/gift-certificate/:id?",
+    component: _daf11b84,
+    name: "Admin-Edit-gift-certificate-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/glossary/:id?",
+    component: _513c89cc,
+    name: "Admin-Edit-glossary-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/invoice/:id?",
+    component: _75193242,
+    name: "Admin-Edit-invoice-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/knowledgebase/:id?",
+    component: _7d97b47d,
+    name: "Admin-Edit-knowledgebase-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/leads/:id?",
+    component: _e3151996,
+    name: "Admin-Edit-leads-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/meeting/:id?",
+    component: _1a3f6f91,
+    name: "Admin-Edit-meeting-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/newsletter/:id?",
+    component: _b3e52542,
+    name: "Admin-Edit-newsletter-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/newslettersubscriber/:id?",
+    component: _00ab6c92,
+    name: "Admin-Edit-newslettersubscriber-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/ooto/:id?",
+    component: _4882d87d,
+    name: "Admin-Edit-ooto-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/opportunities/:id?",
+    component: _9c09174a,
+    name: "Admin-Edit-opportunities-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/page/:id?",
+    component: _9e59566e,
+    name: "Admin-Edit-page-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/pdf_template/:id?",
+    component: _1486419e,
+    name: "Admin-Edit-pdf_template-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/product/:id?",
+    component: _d0649146,
+    name: "Admin-Edit-product-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/projects/:id?",
+    component: _7a43543e,
+    name: "Admin-Edit-projects-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/quotes/:id?",
+    component: _36795961,
+    name: "Admin-Edit-quotes-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/report/:id?",
+    component: _832d0b78,
+    name: "Admin-Edit-report-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/return/:id?",
+    component: _26326470,
+    name: "Admin-Edit-return-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/review/:id?",
+    component: _749100a0,
+    name: "Admin-Edit-review-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/reward/:id?",
+    component: _d89eeaae,
+    name: "Admin-Edit-reward-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/segment/:id?",
+    component: _2a759cce,
+    name: "Admin-Edit-segment-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/shipment/:id?",
+    component: _71f581c4,
+    name: "Admin-Edit-shipment-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/state/:id?",
+    component: _b10b570a,
+    name: "Admin-Edit-state-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/tag/:id?",
+    component: _727b1bdc,
+    name: "Admin-Edit-tag-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/target/:id?",
+    component: _0af612f2,
+    name: "Admin-Edit-target-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/tasks/:id?",
+    component: _ffd3abc4,
+    name: "Admin-Edit-tasks-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/taxrate/:id?",
+    component: _1b7ae4c1,
+    name: "Admin-Edit-taxrate-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/taxrule/:id?",
+    component: _0e363a25,
+    name: "Admin-Edit-taxrule-id___es___es"
+  }, {
+    path: "/es/es/Admin/Edit/warehouse/:id?",
+    component: _29e7ccee,
+    name: "Admin-Edit-warehouse-id___es___es"
+  }, {
+    path: "/es/es/Admin/Marketing/Email/:id?",
+    component: _1bdccaec,
+    name: "Admin-Marketing-Email-id___es___es"
+  }, {
+    path: "/es/fr/Admin/Edit/agreement/:id?",
+    component: _549a4222,
+    name: "Admin-Edit-agreement-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/article/:id?",
+    component: _59366194,
+    name: "Admin-Edit-article-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/attribute/:id?",
+    component: _9efd2460,
+    name: "Admin-Edit-attribute-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/cases/:id?",
+    component: _02ff9609,
+    name: "Admin-Edit-cases-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/category/:id?",
+    component: _ef9ef78c,
+    name: "Admin-Edit-category-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/city/:id?",
+    component: _7713156d,
+    name: "Admin-Edit-city-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/collection/:id?",
+    component: _4d90151a,
+    name: "Admin-Edit-collection-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/contracts/:id?",
+    component: _3721c72a,
+    name: "Admin-Edit-contracts-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/country/:id?",
+    component: _29483896,
+    name: "Admin-Edit-country-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/coupon/:id?",
+    component: _f5dbb0dc,
+    name: "Admin-Edit-coupon-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/customergroup/:id?",
+    component: _28b917ab,
+    name: "Admin-Edit-customergroup-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/deep-dive/:id?",
+    component: _1380ae57,
+    name: "Admin-Edit-deep-dive-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/email_template/:id?",
+    component: _336151db,
+    name: "Admin-Edit-email_template-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/event/:id?",
+    component: _1c176092,
+    name: "Admin-Edit-event-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/fullfillment/:id?",
+    component: _7a61ccf0,
+    name: "Admin-Edit-fullfillment-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/gift-certificate/:id?",
+    component: _daf11b84,
+    name: "Admin-Edit-gift-certificate-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/glossary/:id?",
+    component: _513c89cc,
+    name: "Admin-Edit-glossary-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/invoice/:id?",
+    component: _75193242,
+    name: "Admin-Edit-invoice-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/knowledgebase/:id?",
+    component: _7d97b47d,
+    name: "Admin-Edit-knowledgebase-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/leads/:id?",
+    component: _e3151996,
+    name: "Admin-Edit-leads-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/meeting/:id?",
+    component: _1a3f6f91,
+    name: "Admin-Edit-meeting-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/newsletter/:id?",
+    component: _b3e52542,
+    name: "Admin-Edit-newsletter-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/newslettersubscriber/:id?",
+    component: _00ab6c92,
+    name: "Admin-Edit-newslettersubscriber-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/ooto/:id?",
+    component: _4882d87d,
+    name: "Admin-Edit-ooto-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/opportunities/:id?",
+    component: _9c09174a,
+    name: "Admin-Edit-opportunities-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/page/:id?",
+    component: _9e59566e,
+    name: "Admin-Edit-page-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/pdf_template/:id?",
+    component: _1486419e,
+    name: "Admin-Edit-pdf_template-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/product/:id?",
+    component: _d0649146,
+    name: "Admin-Edit-product-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/projects/:id?",
+    component: _7a43543e,
+    name: "Admin-Edit-projects-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/quotes/:id?",
+    component: _36795961,
+    name: "Admin-Edit-quotes-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/report/:id?",
+    component: _832d0b78,
+    name: "Admin-Edit-report-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/return/:id?",
+    component: _26326470,
+    name: "Admin-Edit-return-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/review/:id?",
+    component: _749100a0,
+    name: "Admin-Edit-review-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/reward/:id?",
+    component: _d89eeaae,
+    name: "Admin-Edit-reward-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/segment/:id?",
+    component: _2a759cce,
+    name: "Admin-Edit-segment-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/shipment/:id?",
+    component: _71f581c4,
+    name: "Admin-Edit-shipment-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/state/:id?",
+    component: _b10b570a,
+    name: "Admin-Edit-state-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/tag/:id?",
+    component: _727b1bdc,
+    name: "Admin-Edit-tag-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/target/:id?",
+    component: _0af612f2,
+    name: "Admin-Edit-target-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/tasks/:id?",
+    component: _ffd3abc4,
+    name: "Admin-Edit-tasks-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/taxrate/:id?",
+    component: _1b7ae4c1,
+    name: "Admin-Edit-taxrate-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/taxrule/:id?",
+    component: _0e363a25,
+    name: "Admin-Edit-taxrule-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Edit/warehouse/:id?",
+    component: _29e7ccee,
+    name: "Admin-Edit-warehouse-id___fr___es"
+  }, {
+    path: "/es/fr/Admin/Marketing/Email/:id?",
+    component: _1bdccaec,
+    name: "Admin-Marketing-Email-id___fr___es"
   }, {
     path: "/fr/Admin/Shop/Product/Edit/:id?",
     component: _6c9249bf,
-    name: "Admin-Shop-Product-Edit-id___fr"
+    name: "Admin-Shop-Product-Edit-id___fr___en"
+  }, {
+    path: "/fr/Admin/Shop/Product/Edit/:id?",
+    component: _6c9249bf,
+    name: "Admin-Shop-Product-Edit-id___en___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/agreement/:id?",
+    component: _549a4222,
+    name: "Admin-Edit-agreement-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/article/:id?",
+    component: _59366194,
+    name: "Admin-Edit-article-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/attribute/:id?",
+    component: _9efd2460,
+    name: "Admin-Edit-attribute-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/cases/:id?",
+    component: _02ff9609,
+    name: "Admin-Edit-cases-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/category/:id?",
+    component: _ef9ef78c,
+    name: "Admin-Edit-category-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/city/:id?",
+    component: _7713156d,
+    name: "Admin-Edit-city-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/collection/:id?",
+    component: _4d90151a,
+    name: "Admin-Edit-collection-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/contracts/:id?",
+    component: _3721c72a,
+    name: "Admin-Edit-contracts-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/country/:id?",
+    component: _29483896,
+    name: "Admin-Edit-country-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/coupon/:id?",
+    component: _f5dbb0dc,
+    name: "Admin-Edit-coupon-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/customergroup/:id?",
+    component: _28b917ab,
+    name: "Admin-Edit-customergroup-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/deep-dive/:id?",
+    component: _1380ae57,
+    name: "Admin-Edit-deep-dive-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/email_template/:id?",
+    component: _336151db,
+    name: "Admin-Edit-email_template-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/event/:id?",
+    component: _1c176092,
+    name: "Admin-Edit-event-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/fullfillment/:id?",
+    component: _7a61ccf0,
+    name: "Admin-Edit-fullfillment-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/gift-certificate/:id?",
+    component: _daf11b84,
+    name: "Admin-Edit-gift-certificate-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/glossary/:id?",
+    component: _513c89cc,
+    name: "Admin-Edit-glossary-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/invoice/:id?",
+    component: _75193242,
+    name: "Admin-Edit-invoice-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/knowledgebase/:id?",
+    component: _7d97b47d,
+    name: "Admin-Edit-knowledgebase-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/leads/:id?",
+    component: _e3151996,
+    name: "Admin-Edit-leads-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/meeting/:id?",
+    component: _1a3f6f91,
+    name: "Admin-Edit-meeting-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/newsletter/:id?",
+    component: _b3e52542,
+    name: "Admin-Edit-newsletter-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/newslettersubscriber/:id?",
+    component: _00ab6c92,
+    name: "Admin-Edit-newslettersubscriber-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/ooto/:id?",
+    component: _4882d87d,
+    name: "Admin-Edit-ooto-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/opportunities/:id?",
+    component: _9c09174a,
+    name: "Admin-Edit-opportunities-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/page/:id?",
+    component: _9e59566e,
+    name: "Admin-Edit-page-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/pdf_template/:id?",
+    component: _1486419e,
+    name: "Admin-Edit-pdf_template-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/product/:id?",
+    component: _d0649146,
+    name: "Admin-Edit-product-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/projects/:id?",
+    component: _7a43543e,
+    name: "Admin-Edit-projects-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/quotes/:id?",
+    component: _36795961,
+    name: "Admin-Edit-quotes-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/report/:id?",
+    component: _832d0b78,
+    name: "Admin-Edit-report-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/return/:id?",
+    component: _26326470,
+    name: "Admin-Edit-return-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/review/:id?",
+    component: _749100a0,
+    name: "Admin-Edit-review-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/reward/:id?",
+    component: _d89eeaae,
+    name: "Admin-Edit-reward-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/segment/:id?",
+    component: _2a759cce,
+    name: "Admin-Edit-segment-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/shipment/:id?",
+    component: _71f581c4,
+    name: "Admin-Edit-shipment-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/state/:id?",
+    component: _b10b570a,
+    name: "Admin-Edit-state-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/tag/:id?",
+    component: _727b1bdc,
+    name: "Admin-Edit-tag-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/target/:id?",
+    component: _0af612f2,
+    name: "Admin-Edit-target-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/tasks/:id?",
+    component: _ffd3abc4,
+    name: "Admin-Edit-tasks-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/taxrate/:id?",
+    component: _1b7ae4c1,
+    name: "Admin-Edit-taxrate-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/taxrule/:id?",
+    component: _0e363a25,
+    name: "Admin-Edit-taxrule-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Edit/warehouse/:id?",
+    component: _29e7ccee,
+    name: "Admin-Edit-warehouse-id___es___fr"
+  }, {
+    path: "/fr/es/Admin/Marketing/Email/:id?",
+    component: _1bdccaec,
+    name: "Admin-Marketing-Email-id___es___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/agreement/:id?",
+    component: _549a4222,
+    name: "Admin-Edit-agreement-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/article/:id?",
+    component: _59366194,
+    name: "Admin-Edit-article-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/attribute/:id?",
+    component: _9efd2460,
+    name: "Admin-Edit-attribute-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/cases/:id?",
+    component: _02ff9609,
+    name: "Admin-Edit-cases-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/category/:id?",
+    component: _ef9ef78c,
+    name: "Admin-Edit-category-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/city/:id?",
+    component: _7713156d,
+    name: "Admin-Edit-city-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/collection/:id?",
+    component: _4d90151a,
+    name: "Admin-Edit-collection-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/contracts/:id?",
+    component: _3721c72a,
+    name: "Admin-Edit-contracts-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/country/:id?",
+    component: _29483896,
+    name: "Admin-Edit-country-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/coupon/:id?",
+    component: _f5dbb0dc,
+    name: "Admin-Edit-coupon-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/customergroup/:id?",
+    component: _28b917ab,
+    name: "Admin-Edit-customergroup-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/deep-dive/:id?",
+    component: _1380ae57,
+    name: "Admin-Edit-deep-dive-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/email_template/:id?",
+    component: _336151db,
+    name: "Admin-Edit-email_template-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/event/:id?",
+    component: _1c176092,
+    name: "Admin-Edit-event-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/fullfillment/:id?",
+    component: _7a61ccf0,
+    name: "Admin-Edit-fullfillment-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/gift-certificate/:id?",
+    component: _daf11b84,
+    name: "Admin-Edit-gift-certificate-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/glossary/:id?",
+    component: _513c89cc,
+    name: "Admin-Edit-glossary-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/invoice/:id?",
+    component: _75193242,
+    name: "Admin-Edit-invoice-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/knowledgebase/:id?",
+    component: _7d97b47d,
+    name: "Admin-Edit-knowledgebase-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/leads/:id?",
+    component: _e3151996,
+    name: "Admin-Edit-leads-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/meeting/:id?",
+    component: _1a3f6f91,
+    name: "Admin-Edit-meeting-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/newsletter/:id?",
+    component: _b3e52542,
+    name: "Admin-Edit-newsletter-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/newslettersubscriber/:id?",
+    component: _00ab6c92,
+    name: "Admin-Edit-newslettersubscriber-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/ooto/:id?",
+    component: _4882d87d,
+    name: "Admin-Edit-ooto-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/opportunities/:id?",
+    component: _9c09174a,
+    name: "Admin-Edit-opportunities-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/page/:id?",
+    component: _9e59566e,
+    name: "Admin-Edit-page-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/pdf_template/:id?",
+    component: _1486419e,
+    name: "Admin-Edit-pdf_template-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/product/:id?",
+    component: _d0649146,
+    name: "Admin-Edit-product-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/projects/:id?",
+    component: _7a43543e,
+    name: "Admin-Edit-projects-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/quotes/:id?",
+    component: _36795961,
+    name: "Admin-Edit-quotes-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/report/:id?",
+    component: _832d0b78,
+    name: "Admin-Edit-report-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/return/:id?",
+    component: _26326470,
+    name: "Admin-Edit-return-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/review/:id?",
+    component: _749100a0,
+    name: "Admin-Edit-review-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/reward/:id?",
+    component: _d89eeaae,
+    name: "Admin-Edit-reward-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/segment/:id?",
+    component: _2a759cce,
+    name: "Admin-Edit-segment-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/shipment/:id?",
+    component: _71f581c4,
+    name: "Admin-Edit-shipment-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/state/:id?",
+    component: _b10b570a,
+    name: "Admin-Edit-state-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/tag/:id?",
+    component: _727b1bdc,
+    name: "Admin-Edit-tag-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/target/:id?",
+    component: _0af612f2,
+    name: "Admin-Edit-target-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/tasks/:id?",
+    component: _ffd3abc4,
+    name: "Admin-Edit-tasks-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/taxrate/:id?",
+    component: _1b7ae4c1,
+    name: "Admin-Edit-taxrate-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/taxrule/:id?",
+    component: _0e363a25,
+    name: "Admin-Edit-taxrule-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Edit/warehouse/:id?",
+    component: _29e7ccee,
+    name: "Admin-Edit-warehouse-id___fr___fr"
+  }, {
+    path: "/fr/fr/Admin/Marketing/Email/:id?",
+    component: _1bdccaec,
+    name: "Admin-Marketing-Email-id___fr___fr"
   }, {
     path: "/Admin/Shop/Product/Edit/:id?",
     component: _6c9249bf,
-    name: "Admin-Shop-Product-Edit-id___en"
+    name: "Admin-Shop-Product-Edit-id___en___en"
   }, {
     path: "/es/Admin/Edit/agreement/:id?",
     component: _549a4222,
-    name: "Admin-Edit-agreement-id___es"
+    name: "Admin-Edit-agreement-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/agreement/:id?",
+    component: _549a4222,
+    name: "Admin-Edit-agreement-id___en___es"
   }, {
     path: "/es/Admin/Edit/article/:id?",
     component: _59366194,
-    name: "Admin-Edit-article-id___es"
+    name: "Admin-Edit-article-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/article/:id?",
+    component: _59366194,
+    name: "Admin-Edit-article-id___en___es"
   }, {
     path: "/es/Admin/Edit/attribute/:id?",
     component: _9efd2460,
-    name: "Admin-Edit-attribute-id___es"
+    name: "Admin-Edit-attribute-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/attribute/:id?",
+    component: _9efd2460,
+    name: "Admin-Edit-attribute-id___en___es"
   }, {
     path: "/es/Admin/Edit/cases/:id?",
     component: _02ff9609,
-    name: "Admin-Edit-cases-id___es"
+    name: "Admin-Edit-cases-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/cases/:id?",
+    component: _02ff9609,
+    name: "Admin-Edit-cases-id___en___es"
   }, {
     path: "/es/Admin/Edit/category/:id?",
     component: _ef9ef78c,
-    name: "Admin-Edit-category-id___es"
+    name: "Admin-Edit-category-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/category/:id?",
+    component: _ef9ef78c,
+    name: "Admin-Edit-category-id___en___es"
   }, {
     path: "/es/Admin/Edit/city/:id?",
     component: _7713156d,
-    name: "Admin-Edit-city-id___es"
+    name: "Admin-Edit-city-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/city/:id?",
+    component: _7713156d,
+    name: "Admin-Edit-city-id___en___es"
   }, {
     path: "/es/Admin/Edit/collection/:id?",
     component: _4d90151a,
-    name: "Admin-Edit-collection-id___es"
+    name: "Admin-Edit-collection-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/collection/:id?",
+    component: _4d90151a,
+    name: "Admin-Edit-collection-id___en___es"
   }, {
     path: "/es/Admin/Edit/contracts/:id?",
     component: _3721c72a,
-    name: "Admin-Edit-contracts-id___es"
+    name: "Admin-Edit-contracts-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/contracts/:id?",
+    component: _3721c72a,
+    name: "Admin-Edit-contracts-id___en___es"
   }, {
     path: "/es/Admin/Edit/country/:id?",
     component: _29483896,
-    name: "Admin-Edit-country-id___es"
+    name: "Admin-Edit-country-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/country/:id?",
+    component: _29483896,
+    name: "Admin-Edit-country-id___en___es"
   }, {
     path: "/es/Admin/Edit/coupon/:id?",
     component: _f5dbb0dc,
-    name: "Admin-Edit-coupon-id___es"
+    name: "Admin-Edit-coupon-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/coupon/:id?",
+    component: _f5dbb0dc,
+    name: "Admin-Edit-coupon-id___en___es"
   }, {
     path: "/es/Admin/Edit/customergroup/:id?",
     component: _28b917ab,
-    name: "Admin-Edit-customergroup-id___es"
+    name: "Admin-Edit-customergroup-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/customergroup/:id?",
+    component: _28b917ab,
+    name: "Admin-Edit-customergroup-id___en___es"
   }, {
     path: "/es/Admin/Edit/deep-dive/:id?",
     component: _1380ae57,
-    name: "Admin-Edit-deep-dive-id___es"
+    name: "Admin-Edit-deep-dive-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/deep-dive/:id?",
+    component: _1380ae57,
+    name: "Admin-Edit-deep-dive-id___en___es"
+  }, {
+    path: "/es/Admin/Edit/email_template/:id?",
+    component: _336151db,
+    name: "Admin-Edit-email_template-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/email_template/:id?",
+    component: _336151db,
+    name: "Admin-Edit-email_template-id___en___es"
   }, {
     path: "/es/Admin/Edit/event/:id?",
     component: _1c176092,
-    name: "Admin-Edit-event-id___es"
+    name: "Admin-Edit-event-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/event/:id?",
+    component: _1c176092,
+    name: "Admin-Edit-event-id___en___es"
+  }, {
+    path: "/es/Admin/Edit/fullfillment/:id?",
+    component: _7a61ccf0,
+    name: "Admin-Edit-fullfillment-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/fullfillment/:id?",
+    component: _7a61ccf0,
+    name: "Admin-Edit-fullfillment-id___en___es"
   }, {
     path: "/es/Admin/Edit/gift-certificate/:id?",
     component: _daf11b84,
-    name: "Admin-Edit-gift-certificate-id___es"
+    name: "Admin-Edit-gift-certificate-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/gift-certificate/:id?",
+    component: _daf11b84,
+    name: "Admin-Edit-gift-certificate-id___en___es"
   }, {
     path: "/es/Admin/Edit/glossary/:id?",
     component: _513c89cc,
-    name: "Admin-Edit-glossary-id___es"
+    name: "Admin-Edit-glossary-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/glossary/:id?",
+    component: _513c89cc,
+    name: "Admin-Edit-glossary-id___en___es"
   }, {
     path: "/es/Admin/Edit/invoice/:id?",
     component: _75193242,
-    name: "Admin-Edit-invoice-id___es"
+    name: "Admin-Edit-invoice-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/invoice/:id?",
+    component: _75193242,
+    name: "Admin-Edit-invoice-id___en___es"
+  }, {
+    path: "/es/Admin/Edit/knowledgebase/:id?",
+    component: _7d97b47d,
+    name: "Admin-Edit-knowledgebase-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/knowledgebase/:id?",
+    component: _7d97b47d,
+    name: "Admin-Edit-knowledgebase-id___en___es"
   }, {
     path: "/es/Admin/Edit/leads/:id?",
     component: _e3151996,
-    name: "Admin-Edit-leads-id___es"
+    name: "Admin-Edit-leads-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/leads/:id?",
+    component: _e3151996,
+    name: "Admin-Edit-leads-id___en___es"
   }, {
     path: "/es/Admin/Edit/meeting/:id?",
     component: _1a3f6f91,
-    name: "Admin-Edit-meeting-id___es"
+    name: "Admin-Edit-meeting-id___es___en"
   }, {
-    path: "/es/Admin/Edit/meetings/:id?",
-    component: _39f35e40,
-    name: "Admin-Edit-meetings-id___es"
+    path: "/es/Admin/Edit/meeting/:id?",
+    component: _1a3f6f91,
+    name: "Admin-Edit-meeting-id___en___es"
   }, {
     path: "/es/Admin/Edit/newsletter/:id?",
     component: _b3e52542,
-    name: "Admin-Edit-newsletter-id___es"
+    name: "Admin-Edit-newsletter-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/newsletter/:id?",
+    component: _b3e52542,
+    name: "Admin-Edit-newsletter-id___en___es"
   }, {
     path: "/es/Admin/Edit/newslettersubscriber/:id?",
     component: _00ab6c92,
-    name: "Admin-Edit-newslettersubscriber-id___es"
+    name: "Admin-Edit-newslettersubscriber-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/newslettersubscriber/:id?",
+    component: _00ab6c92,
+    name: "Admin-Edit-newslettersubscriber-id___en___es"
   }, {
     path: "/es/Admin/Edit/ooto/:id?",
     component: _4882d87d,
-    name: "Admin-Edit-ooto-id___es"
+    name: "Admin-Edit-ooto-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/ooto/:id?",
+    component: _4882d87d,
+    name: "Admin-Edit-ooto-id___en___es"
   }, {
     path: "/es/Admin/Edit/opportunities/:id?",
     component: _9c09174a,
-    name: "Admin-Edit-opportunities-id___es"
+    name: "Admin-Edit-opportunities-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/opportunities/:id?",
+    component: _9c09174a,
+    name: "Admin-Edit-opportunities-id___en___es"
   }, {
     path: "/es/Admin/Edit/page/:id?",
     component: _9e59566e,
-    name: "Admin-Edit-page-id___es"
+    name: "Admin-Edit-page-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/page/:id?",
+    component: _9e59566e,
+    name: "Admin-Edit-page-id___en___es"
+  }, {
+    path: "/es/Admin/Edit/pdf_template/:id?",
+    component: _1486419e,
+    name: "Admin-Edit-pdf_template-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/pdf_template/:id?",
+    component: _1486419e,
+    name: "Admin-Edit-pdf_template-id___en___es"
   }, {
     path: "/es/Admin/Edit/product/:id?",
     component: _d0649146,
-    name: "Admin-Edit-product-id___es"
+    name: "Admin-Edit-product-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/product/:id?",
+    component: _d0649146,
+    name: "Admin-Edit-product-id___en___es"
   }, {
     path: "/es/Admin/Edit/projects/:id?",
     component: _7a43543e,
-    name: "Admin-Edit-projects-id___es"
+    name: "Admin-Edit-projects-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/projects/:id?",
+    component: _7a43543e,
+    name: "Admin-Edit-projects-id___en___es"
   }, {
     path: "/es/Admin/Edit/quotes/:id?",
     component: _36795961,
-    name: "Admin-Edit-quotes-id___es"
+    name: "Admin-Edit-quotes-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/quotes/:id?",
+    component: _36795961,
+    name: "Admin-Edit-quotes-id___en___es"
   }, {
     path: "/es/Admin/Edit/report/:id?",
     component: _832d0b78,
-    name: "Admin-Edit-report-id___es"
+    name: "Admin-Edit-report-id___es___en"
   }, {
-    path: "/es/Admin/Edit/reports/:id?",
-    component: _77c4c6e6,
-    name: "Admin-Edit-reports-id___es"
+    path: "/es/Admin/Edit/report/:id?",
+    component: _832d0b78,
+    name: "Admin-Edit-report-id___en___es"
   }, {
     path: "/es/Admin/Edit/return/:id?",
     component: _26326470,
-    name: "Admin-Edit-return-id___es"
+    name: "Admin-Edit-return-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/return/:id?",
+    component: _26326470,
+    name: "Admin-Edit-return-id___en___es"
   }, {
     path: "/es/Admin/Edit/review/:id?",
     component: _749100a0,
-    name: "Admin-Edit-review-id___es"
+    name: "Admin-Edit-review-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/review/:id?",
+    component: _749100a0,
+    name: "Admin-Edit-review-id___en___es"
+  }, {
+    path: "/es/Admin/Edit/reward/:id?",
+    component: _d89eeaae,
+    name: "Admin-Edit-reward-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/reward/:id?",
+    component: _d89eeaae,
+    name: "Admin-Edit-reward-id___en___es"
   }, {
     path: "/es/Admin/Edit/segment/:id?",
     component: _2a759cce,
-    name: "Admin-Edit-segment-id___es"
+    name: "Admin-Edit-segment-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/segment/:id?",
+    component: _2a759cce,
+    name: "Admin-Edit-segment-id___en___es"
   }, {
     path: "/es/Admin/Edit/shipment/:id?",
     component: _71f581c4,
-    name: "Admin-Edit-shipment-id___es"
+    name: "Admin-Edit-shipment-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/shipment/:id?",
+    component: _71f581c4,
+    name: "Admin-Edit-shipment-id___en___es"
   }, {
     path: "/es/Admin/Edit/state/:id?",
     component: _b10b570a,
-    name: "Admin-Edit-state-id___es"
+    name: "Admin-Edit-state-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/state/:id?",
+    component: _b10b570a,
+    name: "Admin-Edit-state-id___en___es"
   }, {
     path: "/es/Admin/Edit/tag/:id?",
     component: _727b1bdc,
-    name: "Admin-Edit-tag-id___es"
+    name: "Admin-Edit-tag-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/tag/:id?",
+    component: _727b1bdc,
+    name: "Admin-Edit-tag-id___en___es"
   }, {
     path: "/es/Admin/Edit/target/:id?",
     component: _0af612f2,
-    name: "Admin-Edit-target-id___es"
+    name: "Admin-Edit-target-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/target/:id?",
+    component: _0af612f2,
+    name: "Admin-Edit-target-id___en___es"
   }, {
     path: "/es/Admin/Edit/tasks/:id?",
     component: _ffd3abc4,
-    name: "Admin-Edit-tasks-id___es"
+    name: "Admin-Edit-tasks-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/tasks/:id?",
+    component: _ffd3abc4,
+    name: "Admin-Edit-tasks-id___en___es"
   }, {
     path: "/es/Admin/Edit/taxrate/:id?",
     component: _1b7ae4c1,
-    name: "Admin-Edit-taxrate-id___es"
+    name: "Admin-Edit-taxrate-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/taxrate/:id?",
+    component: _1b7ae4c1,
+    name: "Admin-Edit-taxrate-id___en___es"
   }, {
     path: "/es/Admin/Edit/taxrule/:id?",
     component: _0e363a25,
-    name: "Admin-Edit-taxrule-id___es"
+    name: "Admin-Edit-taxrule-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/taxrule/:id?",
+    component: _0e363a25,
+    name: "Admin-Edit-taxrule-id___en___es"
   }, {
     path: "/es/Admin/Edit/warehouse/:id?",
     component: _29e7ccee,
-    name: "Admin-Edit-warehouse-id___es"
+    name: "Admin-Edit-warehouse-id___es___en"
+  }, {
+    path: "/es/Admin/Edit/warehouse/:id?",
+    component: _29e7ccee,
+    name: "Admin-Edit-warehouse-id___en___es"
   }, {
     path: "/es/Admin/Marketing/Email/:id?",
     component: _1bdccaec,
-    name: "Admin-Marketing-Email-id___es"
+    name: "Admin-Marketing-Email-id___es___en"
+  }, {
+    path: "/es/Admin/Marketing/Email/:id?",
+    component: _1bdccaec,
+    name: "Admin-Marketing-Email-id___en___es"
   }, {
     path: "/fr/Admin/Edit/agreement/:id?",
     component: _549a4222,
-    name: "Admin-Edit-agreement-id___fr"
+    name: "Admin-Edit-agreement-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/agreement/:id?",
+    component: _549a4222,
+    name: "Admin-Edit-agreement-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/article/:id?",
     component: _59366194,
-    name: "Admin-Edit-article-id___fr"
+    name: "Admin-Edit-article-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/article/:id?",
+    component: _59366194,
+    name: "Admin-Edit-article-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/attribute/:id?",
     component: _9efd2460,
-    name: "Admin-Edit-attribute-id___fr"
+    name: "Admin-Edit-attribute-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/attribute/:id?",
+    component: _9efd2460,
+    name: "Admin-Edit-attribute-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/cases/:id?",
     component: _02ff9609,
-    name: "Admin-Edit-cases-id___fr"
+    name: "Admin-Edit-cases-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/cases/:id?",
+    component: _02ff9609,
+    name: "Admin-Edit-cases-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/category/:id?",
     component: _ef9ef78c,
-    name: "Admin-Edit-category-id___fr"
+    name: "Admin-Edit-category-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/category/:id?",
+    component: _ef9ef78c,
+    name: "Admin-Edit-category-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/city/:id?",
     component: _7713156d,
-    name: "Admin-Edit-city-id___fr"
+    name: "Admin-Edit-city-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/city/:id?",
+    component: _7713156d,
+    name: "Admin-Edit-city-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/collection/:id?",
     component: _4d90151a,
-    name: "Admin-Edit-collection-id___fr"
+    name: "Admin-Edit-collection-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/collection/:id?",
+    component: _4d90151a,
+    name: "Admin-Edit-collection-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/contracts/:id?",
     component: _3721c72a,
-    name: "Admin-Edit-contracts-id___fr"
+    name: "Admin-Edit-contracts-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/contracts/:id?",
+    component: _3721c72a,
+    name: "Admin-Edit-contracts-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/country/:id?",
     component: _29483896,
-    name: "Admin-Edit-country-id___fr"
+    name: "Admin-Edit-country-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/country/:id?",
+    component: _29483896,
+    name: "Admin-Edit-country-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/coupon/:id?",
     component: _f5dbb0dc,
-    name: "Admin-Edit-coupon-id___fr"
+    name: "Admin-Edit-coupon-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/coupon/:id?",
+    component: _f5dbb0dc,
+    name: "Admin-Edit-coupon-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/customergroup/:id?",
     component: _28b917ab,
-    name: "Admin-Edit-customergroup-id___fr"
+    name: "Admin-Edit-customergroup-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/customergroup/:id?",
+    component: _28b917ab,
+    name: "Admin-Edit-customergroup-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/deep-dive/:id?",
     component: _1380ae57,
-    name: "Admin-Edit-deep-dive-id___fr"
+    name: "Admin-Edit-deep-dive-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/deep-dive/:id?",
+    component: _1380ae57,
+    name: "Admin-Edit-deep-dive-id___en___fr"
+  }, {
+    path: "/fr/Admin/Edit/email_template/:id?",
+    component: _336151db,
+    name: "Admin-Edit-email_template-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/email_template/:id?",
+    component: _336151db,
+    name: "Admin-Edit-email_template-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/event/:id?",
     component: _1c176092,
-    name: "Admin-Edit-event-id___fr"
+    name: "Admin-Edit-event-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/event/:id?",
+    component: _1c176092,
+    name: "Admin-Edit-event-id___en___fr"
+  }, {
+    path: "/fr/Admin/Edit/fullfillment/:id?",
+    component: _7a61ccf0,
+    name: "Admin-Edit-fullfillment-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/fullfillment/:id?",
+    component: _7a61ccf0,
+    name: "Admin-Edit-fullfillment-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/gift-certificate/:id?",
     component: _daf11b84,
-    name: "Admin-Edit-gift-certificate-id___fr"
+    name: "Admin-Edit-gift-certificate-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/gift-certificate/:id?",
+    component: _daf11b84,
+    name: "Admin-Edit-gift-certificate-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/glossary/:id?",
     component: _513c89cc,
-    name: "Admin-Edit-glossary-id___fr"
+    name: "Admin-Edit-glossary-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/glossary/:id?",
+    component: _513c89cc,
+    name: "Admin-Edit-glossary-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/invoice/:id?",
     component: _75193242,
-    name: "Admin-Edit-invoice-id___fr"
+    name: "Admin-Edit-invoice-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/invoice/:id?",
+    component: _75193242,
+    name: "Admin-Edit-invoice-id___en___fr"
+  }, {
+    path: "/fr/Admin/Edit/knowledgebase/:id?",
+    component: _7d97b47d,
+    name: "Admin-Edit-knowledgebase-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/knowledgebase/:id?",
+    component: _7d97b47d,
+    name: "Admin-Edit-knowledgebase-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/leads/:id?",
     component: _e3151996,
-    name: "Admin-Edit-leads-id___fr"
+    name: "Admin-Edit-leads-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/leads/:id?",
+    component: _e3151996,
+    name: "Admin-Edit-leads-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/meeting/:id?",
     component: _1a3f6f91,
-    name: "Admin-Edit-meeting-id___fr"
+    name: "Admin-Edit-meeting-id___fr___en"
   }, {
-    path: "/fr/Admin/Edit/meetings/:id?",
-    component: _39f35e40,
-    name: "Admin-Edit-meetings-id___fr"
+    path: "/fr/Admin/Edit/meeting/:id?",
+    component: _1a3f6f91,
+    name: "Admin-Edit-meeting-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/newsletter/:id?",
     component: _b3e52542,
-    name: "Admin-Edit-newsletter-id___fr"
+    name: "Admin-Edit-newsletter-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/newsletter/:id?",
+    component: _b3e52542,
+    name: "Admin-Edit-newsletter-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/newslettersubscriber/:id?",
     component: _00ab6c92,
-    name: "Admin-Edit-newslettersubscriber-id___fr"
+    name: "Admin-Edit-newslettersubscriber-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/newslettersubscriber/:id?",
+    component: _00ab6c92,
+    name: "Admin-Edit-newslettersubscriber-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/ooto/:id?",
     component: _4882d87d,
-    name: "Admin-Edit-ooto-id___fr"
+    name: "Admin-Edit-ooto-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/ooto/:id?",
+    component: _4882d87d,
+    name: "Admin-Edit-ooto-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/opportunities/:id?",
     component: _9c09174a,
-    name: "Admin-Edit-opportunities-id___fr"
+    name: "Admin-Edit-opportunities-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/opportunities/:id?",
+    component: _9c09174a,
+    name: "Admin-Edit-opportunities-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/page/:id?",
     component: _9e59566e,
-    name: "Admin-Edit-page-id___fr"
+    name: "Admin-Edit-page-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/page/:id?",
+    component: _9e59566e,
+    name: "Admin-Edit-page-id___en___fr"
+  }, {
+    path: "/fr/Admin/Edit/pdf_template/:id?",
+    component: _1486419e,
+    name: "Admin-Edit-pdf_template-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/pdf_template/:id?",
+    component: _1486419e,
+    name: "Admin-Edit-pdf_template-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/product/:id?",
     component: _d0649146,
-    name: "Admin-Edit-product-id___fr"
+    name: "Admin-Edit-product-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/product/:id?",
+    component: _d0649146,
+    name: "Admin-Edit-product-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/projects/:id?",
     component: _7a43543e,
-    name: "Admin-Edit-projects-id___fr"
+    name: "Admin-Edit-projects-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/projects/:id?",
+    component: _7a43543e,
+    name: "Admin-Edit-projects-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/quotes/:id?",
     component: _36795961,
-    name: "Admin-Edit-quotes-id___fr"
+    name: "Admin-Edit-quotes-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/quotes/:id?",
+    component: _36795961,
+    name: "Admin-Edit-quotes-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/report/:id?",
     component: _832d0b78,
-    name: "Admin-Edit-report-id___fr"
+    name: "Admin-Edit-report-id___fr___en"
   }, {
-    path: "/fr/Admin/Edit/reports/:id?",
-    component: _77c4c6e6,
-    name: "Admin-Edit-reports-id___fr"
+    path: "/fr/Admin/Edit/report/:id?",
+    component: _832d0b78,
+    name: "Admin-Edit-report-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/return/:id?",
     component: _26326470,
-    name: "Admin-Edit-return-id___fr"
+    name: "Admin-Edit-return-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/return/:id?",
+    component: _26326470,
+    name: "Admin-Edit-return-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/review/:id?",
     component: _749100a0,
-    name: "Admin-Edit-review-id___fr"
+    name: "Admin-Edit-review-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/review/:id?",
+    component: _749100a0,
+    name: "Admin-Edit-review-id___en___fr"
+  }, {
+    path: "/fr/Admin/Edit/reward/:id?",
+    component: _d89eeaae,
+    name: "Admin-Edit-reward-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/reward/:id?",
+    component: _d89eeaae,
+    name: "Admin-Edit-reward-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/segment/:id?",
     component: _2a759cce,
-    name: "Admin-Edit-segment-id___fr"
+    name: "Admin-Edit-segment-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/segment/:id?",
+    component: _2a759cce,
+    name: "Admin-Edit-segment-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/shipment/:id?",
     component: _71f581c4,
-    name: "Admin-Edit-shipment-id___fr"
+    name: "Admin-Edit-shipment-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/shipment/:id?",
+    component: _71f581c4,
+    name: "Admin-Edit-shipment-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/state/:id?",
     component: _b10b570a,
-    name: "Admin-Edit-state-id___fr"
+    name: "Admin-Edit-state-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/state/:id?",
+    component: _b10b570a,
+    name: "Admin-Edit-state-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/tag/:id?",
     component: _727b1bdc,
-    name: "Admin-Edit-tag-id___fr"
+    name: "Admin-Edit-tag-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/tag/:id?",
+    component: _727b1bdc,
+    name: "Admin-Edit-tag-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/target/:id?",
     component: _0af612f2,
-    name: "Admin-Edit-target-id___fr"
+    name: "Admin-Edit-target-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/target/:id?",
+    component: _0af612f2,
+    name: "Admin-Edit-target-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/tasks/:id?",
     component: _ffd3abc4,
-    name: "Admin-Edit-tasks-id___fr"
+    name: "Admin-Edit-tasks-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/tasks/:id?",
+    component: _ffd3abc4,
+    name: "Admin-Edit-tasks-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/taxrate/:id?",
     component: _1b7ae4c1,
-    name: "Admin-Edit-taxrate-id___fr"
+    name: "Admin-Edit-taxrate-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/taxrate/:id?",
+    component: _1b7ae4c1,
+    name: "Admin-Edit-taxrate-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/taxrule/:id?",
     component: _0e363a25,
-    name: "Admin-Edit-taxrule-id___fr"
+    name: "Admin-Edit-taxrule-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/taxrule/:id?",
+    component: _0e363a25,
+    name: "Admin-Edit-taxrule-id___en___fr"
   }, {
     path: "/fr/Admin/Edit/warehouse/:id?",
     component: _29e7ccee,
-    name: "Admin-Edit-warehouse-id___fr"
+    name: "Admin-Edit-warehouse-id___fr___en"
+  }, {
+    path: "/fr/Admin/Edit/warehouse/:id?",
+    component: _29e7ccee,
+    name: "Admin-Edit-warehouse-id___en___fr"
   }, {
     path: "/fr/Admin/Marketing/Email/:id?",
     component: _1bdccaec,
-    name: "Admin-Marketing-Email-id___fr"
+    name: "Admin-Marketing-Email-id___fr___en"
+  }, {
+    path: "/fr/Admin/Marketing/Email/:id?",
+    component: _1bdccaec,
+    name: "Admin-Marketing-Email-id___en___fr"
   }, {
     path: "/Admin/Edit/agreement/:id?",
     component: _549a4222,
-    name: "Admin-Edit-agreement-id___en"
+    name: "Admin-Edit-agreement-id___en___en"
   }, {
     path: "/Admin/Edit/article/:id?",
     component: _59366194,
-    name: "Admin-Edit-article-id___en"
+    name: "Admin-Edit-article-id___en___en"
   }, {
     path: "/Admin/Edit/attribute/:id?",
     component: _9efd2460,
-    name: "Admin-Edit-attribute-id___en"
+    name: "Admin-Edit-attribute-id___en___en"
   }, {
     path: "/Admin/Edit/cases/:id?",
     component: _02ff9609,
-    name: "Admin-Edit-cases-id___en"
+    name: "Admin-Edit-cases-id___en___en"
   }, {
     path: "/Admin/Edit/category/:id?",
     component: _ef9ef78c,
-    name: "Admin-Edit-category-id___en"
+    name: "Admin-Edit-category-id___en___en"
   }, {
     path: "/Admin/Edit/city/:id?",
     component: _7713156d,
-    name: "Admin-Edit-city-id___en"
+    name: "Admin-Edit-city-id___en___en"
   }, {
     path: "/Admin/Edit/collection/:id?",
     component: _4d90151a,
-    name: "Admin-Edit-collection-id___en"
+    name: "Admin-Edit-collection-id___en___en"
   }, {
     path: "/Admin/Edit/contracts/:id?",
     component: _3721c72a,
-    name: "Admin-Edit-contracts-id___en"
+    name: "Admin-Edit-contracts-id___en___en"
   }, {
     path: "/Admin/Edit/country/:id?",
     component: _29483896,
-    name: "Admin-Edit-country-id___en"
+    name: "Admin-Edit-country-id___en___en"
   }, {
     path: "/Admin/Edit/coupon/:id?",
     component: _f5dbb0dc,
-    name: "Admin-Edit-coupon-id___en"
+    name: "Admin-Edit-coupon-id___en___en"
   }, {
     path: "/Admin/Edit/customergroup/:id?",
     component: _28b917ab,
-    name: "Admin-Edit-customergroup-id___en"
+    name: "Admin-Edit-customergroup-id___en___en"
   }, {
     path: "/Admin/Edit/deep-dive/:id?",
     component: _1380ae57,
-    name: "Admin-Edit-deep-dive-id___en"
+    name: "Admin-Edit-deep-dive-id___en___en"
+  }, {
+    path: "/Admin/Edit/email_template/:id?",
+    component: _336151db,
+    name: "Admin-Edit-email_template-id___en___en"
   }, {
     path: "/Admin/Edit/event/:id?",
     component: _1c176092,
-    name: "Admin-Edit-event-id___en"
+    name: "Admin-Edit-event-id___en___en"
+  }, {
+    path: "/Admin/Edit/fullfillment/:id?",
+    component: _7a61ccf0,
+    name: "Admin-Edit-fullfillment-id___en___en"
   }, {
     path: "/Admin/Edit/gift-certificate/:id?",
     component: _daf11b84,
-    name: "Admin-Edit-gift-certificate-id___en"
+    name: "Admin-Edit-gift-certificate-id___en___en"
   }, {
     path: "/Admin/Edit/glossary/:id?",
     component: _513c89cc,
-    name: "Admin-Edit-glossary-id___en"
+    name: "Admin-Edit-glossary-id___en___en"
   }, {
     path: "/Admin/Edit/invoice/:id?",
     component: _75193242,
-    name: "Admin-Edit-invoice-id___en"
+    name: "Admin-Edit-invoice-id___en___en"
+  }, {
+    path: "/Admin/Edit/knowledgebase/:id?",
+    component: _7d97b47d,
+    name: "Admin-Edit-knowledgebase-id___en___en"
   }, {
     path: "/Admin/Edit/leads/:id?",
     component: _e3151996,
-    name: "Admin-Edit-leads-id___en"
+    name: "Admin-Edit-leads-id___en___en"
   }, {
     path: "/Admin/Edit/meeting/:id?",
     component: _1a3f6f91,
-    name: "Admin-Edit-meeting-id___en"
-  }, {
-    path: "/Admin/Edit/meetings/:id?",
-    component: _39f35e40,
-    name: "Admin-Edit-meetings-id___en"
+    name: "Admin-Edit-meeting-id___en___en"
   }, {
     path: "/Admin/Edit/newsletter/:id?",
     component: _b3e52542,
-    name: "Admin-Edit-newsletter-id___en"
+    name: "Admin-Edit-newsletter-id___en___en"
   }, {
     path: "/Admin/Edit/newslettersubscriber/:id?",
     component: _00ab6c92,
-    name: "Admin-Edit-newslettersubscriber-id___en"
+    name: "Admin-Edit-newslettersubscriber-id___en___en"
   }, {
     path: "/Admin/Edit/ooto/:id?",
     component: _4882d87d,
-    name: "Admin-Edit-ooto-id___en"
+    name: "Admin-Edit-ooto-id___en___en"
   }, {
     path: "/Admin/Edit/opportunities/:id?",
     component: _9c09174a,
-    name: "Admin-Edit-opportunities-id___en"
+    name: "Admin-Edit-opportunities-id___en___en"
   }, {
     path: "/Admin/Edit/page/:id?",
     component: _9e59566e,
-    name: "Admin-Edit-page-id___en"
+    name: "Admin-Edit-page-id___en___en"
+  }, {
+    path: "/Admin/Edit/pdf_template/:id?",
+    component: _1486419e,
+    name: "Admin-Edit-pdf_template-id___en___en"
   }, {
     path: "/Admin/Edit/product/:id?",
     component: _d0649146,
-    name: "Admin-Edit-product-id___en"
+    name: "Admin-Edit-product-id___en___en"
   }, {
     path: "/Admin/Edit/projects/:id?",
     component: _7a43543e,
-    name: "Admin-Edit-projects-id___en"
+    name: "Admin-Edit-projects-id___en___en"
   }, {
     path: "/Admin/Edit/quotes/:id?",
     component: _36795961,
-    name: "Admin-Edit-quotes-id___en"
+    name: "Admin-Edit-quotes-id___en___en"
   }, {
     path: "/Admin/Edit/report/:id?",
     component: _832d0b78,
-    name: "Admin-Edit-report-id___en"
-  }, {
-    path: "/Admin/Edit/reports/:id?",
-    component: _77c4c6e6,
-    name: "Admin-Edit-reports-id___en"
+    name: "Admin-Edit-report-id___en___en"
   }, {
     path: "/Admin/Edit/return/:id?",
     component: _26326470,
-    name: "Admin-Edit-return-id___en"
+    name: "Admin-Edit-return-id___en___en"
   }, {
     path: "/Admin/Edit/review/:id?",
     component: _749100a0,
-    name: "Admin-Edit-review-id___en"
+    name: "Admin-Edit-review-id___en___en"
+  }, {
+    path: "/Admin/Edit/reward/:id?",
+    component: _d89eeaae,
+    name: "Admin-Edit-reward-id___en___en"
   }, {
     path: "/Admin/Edit/segment/:id?",
     component: _2a759cce,
-    name: "Admin-Edit-segment-id___en"
+    name: "Admin-Edit-segment-id___en___en"
   }, {
     path: "/Admin/Edit/shipment/:id?",
     component: _71f581c4,
-    name: "Admin-Edit-shipment-id___en"
+    name: "Admin-Edit-shipment-id___en___en"
   }, {
     path: "/Admin/Edit/state/:id?",
     component: _b10b570a,
-    name: "Admin-Edit-state-id___en"
+    name: "Admin-Edit-state-id___en___en"
   }, {
     path: "/Admin/Edit/tag/:id?",
     component: _727b1bdc,
-    name: "Admin-Edit-tag-id___en"
+    name: "Admin-Edit-tag-id___en___en"
   }, {
     path: "/Admin/Edit/target/:id?",
     component: _0af612f2,
-    name: "Admin-Edit-target-id___en"
+    name: "Admin-Edit-target-id___en___en"
   }, {
     path: "/Admin/Edit/tasks/:id?",
     component: _ffd3abc4,
-    name: "Admin-Edit-tasks-id___en"
+    name: "Admin-Edit-tasks-id___en___en"
   }, {
     path: "/Admin/Edit/taxrate/:id?",
     component: _1b7ae4c1,
-    name: "Admin-Edit-taxrate-id___en"
+    name: "Admin-Edit-taxrate-id___en___en"
   }, {
     path: "/Admin/Edit/taxrule/:id?",
     component: _0e363a25,
-    name: "Admin-Edit-taxrule-id___en"
+    name: "Admin-Edit-taxrule-id___en___en"
   }, {
     path: "/Admin/Edit/warehouse/:id?",
     component: _29e7ccee,
-    name: "Admin-Edit-warehouse-id___en"
+    name: "Admin-Edit-warehouse-id___en___en"
   }, {
     path: "/Admin/Marketing/Email/:id?",
     component: _1bdccaec,
-    name: "Admin-Marketing-Email-id___en"
+    name: "Admin-Marketing-Email-id___en___en"
   }, {
     path: "/",
     component: _1b6fdfab,
-    name: "index___en"
+    name: "index___en___en"
   }],
 
   fallback: false

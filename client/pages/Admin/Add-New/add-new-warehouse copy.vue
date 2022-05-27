@@ -102,7 +102,7 @@ import gql from "graphql-tag";
 
 import {
     fullfillments
-  } from "~/apollo/queries/shop/fullfillment";
+  } from "~/apollo/queries/shop/fullfillments";
   import country from "~/apollo/queries/shop/countries"
   // import countries from "~/apollo/queries/shop/countries"
   // import companys from "~/apollo/queries/shop/companys"

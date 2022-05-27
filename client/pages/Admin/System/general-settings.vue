@@ -2,10 +2,10 @@
   <div>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand">
+        <a class="navbar-brand" href="/admin/system/import-management">
           <FormulateInput type="button">Import Data</FormulateInput>
         </a>
-        <a class="navbar-brand">
+        <a class="navbar-brand" href="/admin/system/export-management">
           <FormulateInput type="button" style="float:right; right: 15px; position: absolute;">Export Data
           </FormulateInput>
         </a>
@@ -65,13 +65,13 @@
 </template>
 
 <script>
-import Generalsettings from '~/components/generalsettings'
-import Salesettings from '~/components/salesettings'
-import Marketingsettings from '~/components/marketingsettings'
-import Customersettings from '~/components/customersettings'
-import Reportsettings from '~/components/reportsettings'
-import Shopsettings from '~/components/shopsettings'
-import Usersettings from '~/components/usersettings'
+import Generalsettings from '~/components/settings/generalsettings'
+import Salesettings from '~/components/settings/salesettings'
+import Marketingsettings from '~/components/settings/marketingsettings'
+import Customersettings from '~/components/settings/customersettings'
+import Reportsettings from '~/components/settings/reportsettings'
+import Shopsettings from '~/components/settings/shopsettings'
+import Usersettings from '~/components/settings/usersettings'
 
   export default {
 

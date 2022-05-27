@@ -1,6 +1,6 @@
 <template>
   <div>
-    <FormulateForm method="POST" @submit.prevent enctype="multipart/form-data">
+    <FormulateForm v-for="deepdive in deepdives" :key="deepdive.id" method="POST" @submit.prevent enctype="multipart/form-data">
       <div class="table table-responsive">
         <table class="table">
           <thead>

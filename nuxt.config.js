@@ -60,20 +60,23 @@ export default {
     '~/static/styles/styles.css',
     'simplemde/dist/simplemde.min.css',
     '~/static/styles/snow.min.css',
+    '~/static/extensions/DataTables/datatables.min.css',
   ],
 
   script: [
+    '~/static/extensions/DataTables/datatables.min.js',
   ],
 
   plugins: [
-    { src: '~plugins/simplemde.js', mode: 'client' },
-    { src: '~plugins/main.js', mode: 'client' },
-    { src: '~plugins/ecommerce/paypal.js', ssr: false },
-    { src: '~plugins/ecommerce/pa-dss.js', ssr: false },
-    { src: '~plugins/client.js', ssr: false },
-    // { src: '~plugins/email.js', ssr: false },
-    // { src: '~plugins/upload.js', mode: 'client' },
-    // { src: '~plugins/vue-chart.js', mode: 'client' },
+    { src: '~/plugins/extensions/simplemde.js', mode: 'client' },
+    { src: '~/plugins/main.js', mode: 'client' },
+    { src: '~/plugins/ecommerce/paypal.js', ssr: false },
+    { src: '~/plugins/ecommerce/pa-dss.js', ssr: false },
+    { src: '~/plugins/client.js', ssr: false },
+    { src: '~/plugins/extensions/datatables.js', ssr: false },
+    // { src: '~/plugins/email.js', ssr: false },
+    { src: '~/plugins/upload.js', mode: 'client' },
+    // { src: '~/plugins/vue-chart.js', mode: 'client' },
   ],
 
   components: true,

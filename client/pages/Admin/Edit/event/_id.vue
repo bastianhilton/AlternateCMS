@@ -8,7 +8,7 @@
                         <th>
                         </th>
                         <th scope="col" class="eventAddOptions">
-                            <li><FormulateInput type="submit" @click="addEvent" label="Save" /></li>
+                            <li><FormulateInput type="submit" label="Save" @click="addEvent" /></li>
                         </th>
                     </tr>
                 </thead>

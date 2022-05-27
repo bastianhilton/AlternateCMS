@@ -18,10 +18,15 @@
           </thead>
           <tbody>
             <tr>
+              <td style="text-align: right;">Pickup</td>
+              <td>
+                <FormulateInput v-model="pickup" name="fullfillmentPickup" type="checkbox" label="Check this box if this fullfillment allows pickups" />
+              </td>
+            </tr>
+            <tr>
               <td style="text-align: right;">Stock</td>
               <td>
-                <FormulateInput v-model="value" :options="{first: 'Private Stock', second: 'Public Stock'}" type="checkbox"
-  label="If private, warehouse won't be shown. If public, warehouse will be shown" />
+                <FormulateInput v-model="stock" name="fullfillmentStock" type="text" />
               </td>
             </tr>
             <tr>
@@ -39,7 +44,7 @@
             <tr>
               <td style="text-align: right;">Phone Number</td>
               <td>
-                <FormulateInput v-model="phone" type="text" placeholder="#" required />
+                <FormulateInput v-model="phone" type="text" placeholder="#" />
               </td>
             </tr>
             <tr>
@@ -102,33 +107,30 @@ import gql from "graphql-tag";
 
 import {
     fullfillments
-  } from "~/apollo/queries/shop/fullfillment";
+  } from "~/apollo/queries/shop/fullfillments";
   import country from "~/apollo/queries/shop/countries"
   // import countries from "~/apollo/queries/shop/countries"
   // import companys from "~/apollo/queries/shop/companys"
 
-  const ADD_PRODUCTS = gql `
-    mutation ($name: String!,$company: String!,$phone: String!,$address: String!,$country_area: String!,$fullfillment: String!,$shipping_zones: String!,$address_two: String!,$state: String!,$zipcode: String!,$country: String!,$value: String!,$city: String){
-    insert_fullfillments(objects: {name: $name,company: $company,phone: $phone,address: $address,country_area: $country_area,zipcode: $zipcode,country: $country,fullfillment: $fullfillment,shipping_zones: $shipping_zones,address_two: $address_two,state: $state,country: $country,city: $city,value: $value}) {
+  const ADD_FULLFILLMENTS = gql `
+    mutation ($name: String!,$company: String!,$phone: String!,$address: String!,$country_area: String!,$stock: String!,$shipping_zones: String!,$address_two: String!,$state: String!,$zipcode: String!,$country: String!,$pickup: String!,$city: String!,$pickup: String!){
+    insert_fullfillments(objects: {name: $name,company: $company,phone: $phone,address: $address,country_area: $country_area,zipcode: $zipcode,country: $country,stock: $stock,shipping_zones: $shipping_zones,address_two: $address_two,state: $state,country: $country,city: $city,pickup: $pickup,pickup: $pickup}) {
         affected_rows
         returning {
             name
             company
             phone
             address
-            salable_quantity
             country_area
             zipcode
             country
-            websites
-            fullfillment
+            stock
             shipping_zones
             address_two
             state
             country
-            size
             city
-            value
+            pickup
     }
   }
 }`;
@@ -145,20 +147,18 @@ import {
         phone: " ",
         address: " ",
         country_area: " ",
-        websites: " ",
-        fullfillment: " ",
+        stock: " ",
         shipping_zones: " ",
         zipcode: " ",
         address_two: " ",
         state: " ",
-        size: " ",
         city: " ",
-        value: " ",
+        pickup: " ",
         show: true
       }
     },
     head: {
-      title: 'Add New Warehouse'
+      title: 'Add New FullFillment'
     },
 
     methods: {
@@ -171,17 +171,17 @@ import {
         const country_area = this.country_area;
         const zipcode = this.zipcode;
         const country = this.country;
-        const fullfillment = this.fullfillment;
+        const stock = this.stock;
         // eslint-disable-next-line camelcase
         const shipping_zones = this.shipping_zones;
         // eslint-disable-next-line camelcase
         const address_two = this.address_two;
         const state = this.state;
         const city = this.city;
-        const value = this.value;
+        const pickup = this.pickup;
         
         await this.$apollo.mutate({
-          mutation: ADD_PRODUCTS,
+          mutation: ADD_FULLFILLMENTS,
           variables: {
             name,
             company,
@@ -190,24 +190,24 @@ import {
             country_area,
             zipcode,
             country,
-            fullfillment,
+            stock,
             shipping_zones,
             address_two,
             state,
             city,
-            value,
+            pickup,
           },
           update: (cache, {
             data: {
-              insertCategories,
+              insertFullfillments,
               insertCountries
             }
           }) => {
             // Read data from cache for this query
             try {
-              const insertedCategory = insertCategories.returning;
+              const insertedFullfillment = insertFullfillments.returning;
               const insertedCountries = insertCountries.returning;
-              console.log(insertedCategory, insertedCountries)
+              console.log(insertedFullfillment, insertedCountries)
               cache.writeQuery({
                 query: fullfillments
               })
@@ -227,13 +227,13 @@ import {
         this.country_area = ' ';
         this.zipcode = ' ';
         this.country = ' ';
-        this.fullfillment = ' ';
+        this.stock = ' ';
         this.shipping_zones = ' ';
         this.address_two = ' ';
         this.state = ' ';
         this.country = ' ';
         this.city = ' ';
-        this.value = ' ';
+        this.pickup = ' ';
       },
     },
     apollo: {
@@ -241,14 +241,6 @@ import {
         prefetch: true,
         query: country
       },
-      /* countries: {
-          prefetch: true,
-          query: countries
-          },
-          companys: {
-          prefetch: true,
-          query: companys
-          } */
     }
 }
 </script>

@@ -105,6 +105,9 @@
                                 <a class="dropdown-item" href="/admin/marketing/communications">Communications</a>
                             </li>-->
                             <li>
+                                <a class="dropdown-item" href="/admin/marketing/rewards">Rewards</a>
+                            </li>
+                            <li>
                                 <a class="dropdown-item" href="/admin/marketing/reviews">Reviews</a>
                             </li>
                             <li>
@@ -257,11 +260,11 @@
                                 <a class="dropdown-item" href="/admin/system/role-manager">Role Manager</a>
                             </li>
                             <li>
+                                <a class="dropdown-item" href="/admin/system/knowledgebase">Knowledgebase</a>
+                            </li>
+                            <li>
                                 <a class="dropdown-item" href="/admin/system/help">Help Center</a>
                             </li>
-                            <!--<li>
-                                <a class="dropdown-item" href="/admin/system/settings">Profile Settings</a>
-                            </li>-->
                         </ul>
                     </li>
                 </ul>

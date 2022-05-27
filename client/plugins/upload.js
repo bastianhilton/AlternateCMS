@@ -3,7 +3,7 @@ import VueFormulate from 'vue-formulate'
 import axios from 'axios'
 
 const axiosInstance = axios.create({
-  baseURL: 'http://www.your-upload-server.com'
+  baseURL: 'http://127.0.0.1'
 })
 
 Vue.use(VueFormulate, {
