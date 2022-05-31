@@ -312,18 +312,17 @@ model polls {
 
 model product_attribute {
   id                                Int                     @id @default(autoincrement())
-  default_label                     String?
-  catalog_input_type_store_owner    String?
-  values_required                   Boolean?
+  attribute_class                   String?
+  isPublic                          String?
+  faceted_navigation                Boolean?
   attribute_code                    String?
-  scope                             String?
-  default_value                     String?
-  unique_value                      Boolean?
-  input_validation_store_owner      String?
-  add_column_options                Boolean?
-  filter_options                    Boolean?
-  use_search                        Boolean?
-  comparable_storefront             Boolean?
+  column_options                    String?
+  meta_name                         Boolean?
+  meta_url                          String?
+  meta_description                  String?
+  filter_options                    String?
+  use_search                        String?
+  attribute_value                   String?
   layered_navigation                Boolean?
   search_results_layered_navigation Boolean?
   position                          String?
@@ -333,6 +332,7 @@ model product_attribute {
   used_product_listing              Boolean?
   used_sorting_product_listing      Boolean?
   prod_id                           BigInt                  @default(autoincrement())
+  default_label                     String?
   products                          products                @relation(fields: [prod_id], references: [id])
   product_attribute_set             product_attribute_set[]
 }
@@ -381,6 +381,7 @@ model products {
   credit_memos        credit_memos[]
   orders              orders[]
   product_attribute   product_attribute[]
+  product_types       product_types[]
   quotes              quotes[]
   rating              rating[]
   returns             returns[]
@@ -1300,4 +1301,107 @@ model rewards {
   products   String?
   customers  String?
   users      String?
+}
+
+model checklist {
+  id               BigInt    @id @default(autoincrement())
+  created_at       DateTime? @default(now()) @db.Timestamptz(6)
+  username         String?
+  location         String?
+  regional_manager String?
+  manager          String?
+  description      String?
+  ticket           String?
+  project          String?
+  region           String?
+  country          String?
+  media            String?
+  prod_id          String?
+}
+
+model content_type {
+  id            BigInt    @id @default(autoincrement())
+  created_at    DateTime? @default(now()) @db.Timestamptz(6)
+  text          String?
+  number        Decimal?  @db.Decimal
+  json          Json?     @db.Json
+  link          String?
+  email         String?
+  uid           String?   @db.Uuid
+  date          DateTime? @db.Date
+  time          DateTime? @db.Time(6)
+  timestamp     DateTime? @db.Timestamptz(6)
+  boolean       Boolean?
+  rich_text     String?
+  password      String?
+  media         String?
+  database_name String?
+}
+
+model plugins {
+  id              BigInt    @id @default(autoincrement())
+  created_at      DateTime? @default(now()) @db.Timestamptz(6)
+  name            String?
+  url             String?
+  github_link     String?
+  description     String?
+  logo            String?
+  screenshots     String?
+  last_updated    DateTime? @default(now()) @db.Timestamptz(6)
+  publisher_name  String?
+  agree_terms     Boolean?
+  publisher_email String?
+}
+
+model product_types {
+  id               Int      @id @default(autoincrement())
+  type_name        String?
+  taxes            String?
+  isShippable      String?
+  meta_url         String?
+  meta_description String?
+  filter_options   String?
+  product_type     String?
+  prod_id          BigInt   @default(autoincrement())
+  products         products @relation(fields: [prod_id], references: [id])
+}
+
+model ticketing {
+  id              BigInt    @id @default(autoincrement())
+  created_at      DateTime? @default(now()) @db.Timestamptz(6)
+  name            String?
+  location        String?
+  date            String?
+  severity        String?
+  team            String?
+  requester       String?
+  requester_email String?
+  content         String?
+  department      String?
+  media           String?
+  projects        String?
+  ticket_type     String?
+  comment         String?
+  products        String?
+  priority        String?
+  status          String?
+  resolution      String?
+  assigned_to     String?
+  date_modified   DateTime? @default(now()) @db.Timestamptz(6)
+  account_name    String?
+  level           String?
+}
+
+model visits {
+  id         BigInt    @id @default(autoincrement())
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  location   String?
+  username   String?
+  reason     String?
+  content    String?
+  emergency  String?
+  start_date String?
+  end_date   String?
+  task       String?
+  meeting    String?
 }
