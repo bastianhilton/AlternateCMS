@@ -210,6 +210,9 @@
                                 <a class="dropdown-item" href="/admin/shop/products">Products</a>
                             </li>
                             <li>
+                                <a class="dropdown-item" href="/admin/shop/product-types">Product Types</a>
+                            </li>
+                            <li>
                                 <a class="dropdown-item" href="/admin/shop/categories">Categories</a>
                             </li>
                             <li>
@@ -300,7 +303,7 @@
                     role="button" data-mdb-toggle="dropdown" aria-expanded="false">
                     <span class="fas fa-user-circle"></span>
                 </a>
-                <ul v-if="!isAuthenticated" class="dropdown-menu dropdown-menu-end"  aria-labelledby="navbarDropdownMenuLink">
+                <ul class="dropdown-menu dropdown-menu-end"  aria-labelledby="navbarDropdownMenuLink">
                     <li>
                         <a class="dropdown-item" href="/user/my-account">My Profile</a>
                     </li>
@@ -308,7 +311,7 @@
                         <a class="dropdown-item" href="/admin/">Customer View</a>
                     </li>
                     <li>
-                        <a class="dropdown-item" aria-current="page" to="#" @click="logout">Logout</a>
+                        <a class="dropdown-item" aria-current="page" href="/logout">Logout</a>
                     </li>
                 </ul>
             </div>
@@ -318,34 +321,17 @@
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
-
-export default {
-  computed: {
-    ...mapGetters(['isAuthenticated', 'loggedInUser'])
-  },
-  data () {
-    return {
-      query: '',
-      articles: []
-    }
-  },
-  watch: {
-    async query (query) {
-      if (!query) {
-        this.articles = []
-        return
-      }
-
-      this.articles = await this.$content('articles')
-        .only(['title', 'slug'])
-        .sortBy('createdAt', 'asc')
-        .limit(12)
-        .search(query)
-        .fetch()
-    }
-  }
-}
+/* import { mapGetters } from 'vuex'
+    export default {
+      computed: {
+        ...mapGetters(['isAuthenticated']),
+      },
+      methods: {
+        async userLogout() {
+          await this.$auth.logout()
+        },
+      },
+    } */
 </script>
 <style>
 

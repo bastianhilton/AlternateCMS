@@ -10,7 +10,7 @@ query MyQuery {
     name
     postal
     products
-    public
+    isPublic
     state
     status
   }

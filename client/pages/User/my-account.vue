@@ -39,14 +39,13 @@
 
 <script>
 import { mapGetters } from 'vuex'
-
-export default {
-    layout: 'dashboard',
-    head: {
-        title: 'My Account'
-    },
-    computed: {
-    ...mapGetters(['loggedInUser'])
-  },
-}
+    export default {
+      middleware: 'auth',
+      head: {
+          title: 'My Account'
+      },
+      computed: {
+        ...mapGetters(['loggedInUser']),
+      },
+    }
 </script>

@@ -1,55 +1,31 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable require-await */
-'use strict'
+const { Nuxt, Builder } = require('nuxt')
+const express = require('express')
+const { PrismaClient } = require('@prisma/client')
 
-const path = require('path')
-const AutoLoad = require('@fastify/autoload')
-const express = require("express");
-const app = express();
-const cors = require("cors");
-const bodyParser = require("body-parser");
-const fastify = require('fastify')({ logger: true })
+const app = express()
+const prisma = new PrismaClient()
 
-module.exports = async function (fastify, opts) {
-  // Place here your custom code!
+// Body parser, to access `req.body`
+app.use(express.json())
+app.use("/api/auth", require("./routes"));
 
-  // Do not touch the following lines
-
-  // This loads all plugins defined in plugins
-  // those should be support plugins that are reused
-  // through your application
-  fastify.register(AutoLoad, {
-    dir: path.join(__dirname, 'plugins'),
-    options: Object.assign({}, opts)
+app.post(`/api/user`, async (req, res) => {
+  const result = await prisma.user.create({
+    data: {
+      ...req.body,
+    },
   })
+  res.json(result)
+})
 
-  // This loads all plugins defined in routes
-  // define your routes in one of these
-  fastify.register(AutoLoad, {
-    dir: path.join(__dirname, 'routes'),
-    options: Object.assign({}, opts)
-  })
-
-  app.use(cors());
- 
-// parse incoming request body
-  app.use(bodyParser.urlencoded({ extended: true }));
-  app.use(bodyParser.json());
-
-  app.listen(process.env.PORT || 8081);
-
-  // eslint-disable-next-line require-await
-  fastify.get('/', async (request, reply) => {
-      return { hello: 'world' }
-    })
-    
-  const start = async () => {
-      try {
-        await fastify.listen(3000)
-      } catch (err) {
-        fastify.log.error(err)
-        process.exit(1)
-      }
-    }
-    start() 
+// We instantiate Nuxt.js with the options
+const isProd = process.env.NODE_ENV === 'production'
+const nuxt = new Nuxt({ dev: !isProd })
+// No build in production
+if (!isProd) {
+  const builder = new Builder(nuxt)
+  builder.build()
 }
+app.use(nuxt.render)
+app.listen(3000)
+console.log('Server is listening on http://localhost:8000')

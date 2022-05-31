@@ -1,5 +1,5 @@
 {
-  "title": "alternatenuxt",
+  "title": "alternatecms",
   "meta": [
     {
       "hid": "charset",
@@ -18,7 +18,7 @@
     {
       "hid": "apple-mobile-web-app-title",
       "name": "apple-mobile-web-app-title",
-      "content": "alternatenuxt"
+      "content": "alternatecms"
     },
     {
       "hid": "og:type",
@@ -30,13 +30,13 @@
       "hid": "og:title",
       "name": "og:title",
       "property": "og:title",
-      "content": "alternatenuxt"
+      "content": "alternatecms"
     },
     {
       "hid": "og:site_name",
       "name": "og:site_name",
       "property": "og:site_name",
-      "content": "alternatenuxt"
+      "content": "alternatecms"
     }
   ],
   "link": [
@@ -53,7 +53,7 @@
     },
     {
       "rel": "manifest",
-      "href": "/_nuxt/manifest.12b2966c.json",
+      "href": "/_nuxt/manifest.a755d3e1.json",
       "hid": "manifest"
     }
   ],

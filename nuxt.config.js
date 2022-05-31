@@ -74,6 +74,8 @@ export default {
     { src: '~/plugins/ecommerce/pa-dss.js', ssr: false },
     { src: '~/plugins/client.js', ssr: false },
     { src: '~/plugins/extensions/datatables.js', ssr: false },
+    { src: '~/plugins/extensions/vue-formulate.js', ssr: false },
+    { src: '~plugins/axios'},
     // { src: '~/plugins/email.js', ssr: false },
     { src: '~/plugins/upload.js', mode: 'client' },
     // { src: '~/plugins/vue-chart.js', mode: 'client' },
@@ -82,7 +84,6 @@ export default {
   components: true,
 
   buildModules: [
-    '@nuxtjs/eslint-module',
     '@nuxtjs/dotenv',
     '@nuxtjs/moment',
     '@braid/vue-formulate/nuxt',
@@ -119,31 +120,28 @@ export default {
   },
 
   /* auth: {
+    // Options
     strategies: {
       local: {
-//      scheme: "refresh",
         token: {
-          property: "token", 
-          global: true,
-          required: true,
-          type: "Bearer"
+          property: 'jwt',
         },
         user: {
-          property: "user",
-          autoFetch: true
+          property: false,
         },
-//      refreshToken: {  // it sends request automatically when the access token expires, and its expire time has set on the Back-end and does not need to we set it here, because is useless
-//        property: "refresh_token", // property name that the Back-end sends for you as a refresh token for saving on localStorage and cookie of user browser
-//        data: "refresh_token", // data can be used to set the name of the property you want to send in the request.
-//      },
         endpoints: {
-          login: { url: "/auth/login", method: "post" },
-//        refresh: { url: "/auth/refresh-token", method: "post" },
-          logout: false, 
-          user: { url: "/auth/user", method: "get" }
-        }
-      }
-    }
+          login: {
+            url: 'auth/local',
+            method: 'post',
+          },
+          user: {
+            url: 'user/my-account',
+            method: 'get',
+          },
+          logout: false,
+        },
+      },
+    },
   }, */
 
   image: {
@@ -256,12 +254,8 @@ export default {
   publicRuntimeConfig: {
     
   },
-  
-  srcDir: 'client/',
 
-  serverMiddleware: {
-    '/server': '../server'
-  },
+  srcDir: 'client/',
   
   build: {
     extend(config, ctx) {},

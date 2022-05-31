@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 // AlternateCMS Time Functionality
 
 const d = new Date();

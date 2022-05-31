@@ -1,30 +1,42 @@
 <template>
   <div>
-    <FormulateForm method="POST" @submit.prevent enctype="multipart/form-data">
+    <FormulateForm method="POST" enctype="multipart/form-data" @submit.prevent>
       <div class="table table-responsive">
         <table class="table">
           <thead>
             <tr>
               <th>
               </th>
-              <th scope="col" class="deepdiveAddOptions">
+              <th scope="col" class="checklistsAddOptions">
                 <li>
-                  <FormulateInput type="submit" label="Save" @click="addDeepdive" />
+                  <FormulateInput type="submit" label="Save" @click="addChecklist" />
                 </li>
               </th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td style="text-align: right;">Login</td>
+              <td style="text-align: right;">Username</td>
               <td>
-                <FormulateInput v-model="login" type="text" required />
+                <FormulateInput v-model="username" type="textarea" />
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: right;">Regional Manager</td>
+              <td>
+                <FormulateInput v-model="regional_manager" type="text" required />
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: right;">Manager</td>
+              <td>
+                <FormulateInput v-model="manager" type="text" />
               </td>
             </tr>
             <tr>
               <td style="text-align: right;">Start Date</td>
               <td>
-                <FormulateInput v-model="start_date" type="text" required />
+                <FormulateInput v-model="start_date" type="text" />
               </td>
             </tr>
             <tr>
@@ -34,19 +46,42 @@
               </td>
             </tr>
             <tr>
-              <td style="text-align: right;">Attendees</td>
+              <td style="text-align: right;">Region</td>
               <td>
-                <FormulateInput v-model="attendees" type="text" />
+                <FormulateInput v-model="region" type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: right;">Location</td>
+              <td>
+                <FormulateInput v-model="location" type="text" />
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: right;">Country</td>
+              <td>
+                <FormulateInput v-model="country" type="text" />
               </td>
             </tr>
             <tr>
               <td style="text-align: right;">Description</td>
               <td>
-                <div class="form-check form-switch">
-                  <client-only>
-                    <vue-simplemde id="longDescription" v-model="content" />
-                  </client-only>
+                <div class="form-wrapper">
+                  <FormulateForm>
+                    <FormulateInput type="group" name="description" :repeatable="true" label="Add Notes"
+                      add-label="+ Add Description">
+                      <div class="description">
+                        <FormulateInput v-model="description" name="name" type="text" label="Description" />
+                      </div>
+                    </FormulateInput>
+                  </FormulateForm>
                 </div>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: right;">Media</td>
+              <td>
+                <FormulateInput v-model="media" type="file" label="Upload image, video, document, etc" />
               </td>
             </tr>
           </tbody>
@@ -60,20 +95,27 @@
   import gql from "graphql-tag";
 
   import {
-    deepdive
-  } from "~/apollo/queries/reports/deepdive";
+    checklists
+  } from "~/apollo/queries/marketing/checklists";
+  /* eslint-disable camelcase */
 
-  const ADD_DEEPDIVE = gql `
-    mutation ($login:String!,$whid:String!,$start_date:String!,$content:String!,$end_date:String!,$attendees:String){
-    deepdive(objects: {login: $login, whid: $whid, start_date: $start_date, content: $content, end_date: $end_date, attendees: $attendees}) {
+  const ADD_CHECKLISTS = gql `
+    mutation ($username:String!, $ticket:String!, $regional_manager:String!, $region:String!, $project:String!, $prod_id:String!, $media:String!, $manager:String!, $location:String!, $description:String!, $created_at:String!, $country:String!, $meta_url:String!, $position:String!, $prod_id:String!,){
+    insert_checklists(objects: {username: $username, ticket: $ticket, regional_manager: $regional_manager, region: $region, project: $project, prod_id: $prod_id, media: $media, manager: $manager, location: $location, description: $description, created_at: $created_at, country: $country, meta_url: $meta_url, position: $position, prod_id: $prod_id,}) {
         affected_rows
         returning {
-            login
-            whid
-            start_date
-            content
-            end_date
-            attendees
+            username
+            ticket
+            regional_manager
+            region
+            project
+            prod_id
+            media
+            manager
+            location
+            description
+            created_at
+            country
     }
   }
 }`;
@@ -81,45 +123,79 @@
   export default {
     data() {
       return {
-        attendees: [],
-        login: " ",
-        whid: " ",
-        content: " ",
-        end_date: " ",
+        region: " ",
+        location: " ",
+        description: " ",
+        username: " ",
+        regional_manager: " ",
+        manager: " ",
         start_date: " ",
+        end_date: " ",
+        media: " ",
+        ticket: " ",
+        project: " ",
+        prod_id: " ",
+        created_at: " ",
+        country: " ",
+      }
+    },
+    head: {
+      title: 'Create A Checklist'
+    },
+    computed: {
+      total() {
+        const count = Array.isArray(this.formData.checklists) ? this.formData.checklists.length : 1
+        return new Intl.NumberFormat('en-US', {
+          style: 'currency',
+          currency: 'USD'
+        }).format(count * 100)
       }
     },
     methods: {
-      async addDeepdive() {
-        const login = this.login;
-        const content = this.content;
-        const whid = this.whid;
-        // eslint-disable-next-line camelcase
-        const start_date = this.start_date;
-        // eslint-disable-next-line camelcase
+      async addChecklist() {
+        const region = this.region;
+        const description = this.description;
+        const location = this.location;
         const end_date = this.end_date;
-        const attendees = this.attendees;
+        const username = this.username;
+        const regional_manager = this.regional_manager;
+        const manager = this.manager;
+        const start_date = this.start_date;
+        const media = this.media;
+        const ticket = this.ticket;
+        const project = this.project;
+        const prod_id = this.prod_id;
+        const created_at = this.created_at;
+        const country = this.country;
         await this.$apollo.mutate({
-          mutation: ADD_DEEPDIVE,
+          mutation: ADD_CHECKLISTS,
           variables: {
-            login,
-            whid,
+            username,
+            ticket,
+            regional_manager,
+            region,
             start_date,
-            content,
             end_date,
-            attendees,
+            project,
+            prod_id,
+            media,
+            manager,
+            location,
+            description,
+            created_at,
+            country,
           },
           update: (cache, {
             data: {
-              insertDeepdive
+              insertChecklists
             }
           }) => {
             // Read data from cache for this query
             try {
-              const insertedDeepdive = insertDeepdive.returning;
-              console.log(insertedDeepdive)
+              const insertedChecklist = insertChecklists.returning;
+              console.log(insertedChecklist)
               cache.writeQuery({
-                query: deepdive
+                query: checklists
               })
             } catch (err) {
               console.error(err)
@@ -127,21 +203,32 @@
           }
         }).then(() => {
           this.$router.push({
-            path: '../reports/deep-dive'
+            path: '../marketing/checklists'
           })
         }).catch(err => console.log(err));
-        this.login = ' ';
-        this.whid = ' ';
-        this.start_date = ' ';
-        this.content = ' ';
+        this.region = ' ';
+        this.description = ' ';
+        this.location = ' ';
         this.end_date = ' ';
-        this.attendees = ' ';
+        this.username = ' ';
+        this.regional_manager = ' ';
+        this.manager = ' ';
+        this.start_date = ' ';
+        this.media = ' ';
+        this.username = ' ';
+        this.ticket = ' ';
+        this.regional_manager = ' ';
+        this.region = ' ';
+        this.project = ' ';
+        this.prod_id = ' ';
+        this.media = ' ';
+        this.manager = ' ';
+        this.location = ' ';
+        this.description = ' ';
+        this.created_at = ' ';
+        this.country = ' ';
       },
 
-    },
-    // eslint-disable-next-line vue/order-in-components
-    head: {
-      title: 'Add New Deep Dive'
     }
   }
 

@@ -24,7 +24,7 @@
             <tr>
               <td style="text-align: right;">Content</td>
               <td>
-                <vue-simplemde id="longDescription" v-model="content" required />
+                <vue-simplemde id="longDescription" ref="markdownEditor" v-model="content" required />
               </td>
             </tr>
             <tr>
@@ -48,13 +48,13 @@
             <tr>
               <td style="text-align: right;">Revision</td>
               <td>
-                <FormulateInput v-model="revision" type="text" />
+                <FormulateInput v-model="revision" type="number" />
               </td>
             </tr>
             <tr>
               <td style="text-align: right;">Status</td>
               <td>
-                <FormulateInput v-model="status" type="text" />
+                <FormulateInput v-model="status" type="select" :options="[{value: 'Draft', label: 'Draft'}, {value: 'Expired', label: 'Expired'},{value: 'In Review', label: 'In Review'},{value: 'Private', label: 'Private'},{value: 'Public', label: 'Public'}]" />
               </td>
             </tr>
           </tbody>

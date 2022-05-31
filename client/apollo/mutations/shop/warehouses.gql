@@ -10,7 +10,7 @@ query MyQuery ($id: Int){
     name
     postal
     products
-    public
+    isPublic
     state
     status
   }
