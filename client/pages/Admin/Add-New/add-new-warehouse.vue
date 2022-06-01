@@ -45,17 +45,22 @@
                 <FormulateInput v-model="city" type="text" placeholder="#" />
               </td>
             </tr>
-            
             <tr>
               <td style="text-align: right;">State</td>
               <td>
-                <FormulateInput v-model="state" type="text" />
+                <select id="category" v-model="states" name="template" class="form-category">
+                  <option v-for="states in states" :key="states" :value="states">{{ states.name }}
+                  </option>
+                </select>
               </td>
             </tr>
             <tr>
               <td style="text-align: right;">Country</td>
               <td>
-                <FormulateInput v-model="country" type="text" />
+                <select id="category" v-model="countries" name="template" class="form-category">
+                  <option v-for="countries in countries" :key="countries" :value="countries">{{ countries.name }}
+                  </option>
+                </select>
               </td>
             </tr>
             <tr>
@@ -95,7 +100,8 @@ import gql from "graphql-tag";
 import {
     warehouses
   } from "~/apollo/queries/shop/warehouses";
-  import country from "~/apollo/queries/shop/countries"
+import states from '~/apollo/queries/shop/states'
+import countries from '~/apollo/queries/shop/countries'
 
   const ADD_WAREHOUSES = gql `
     mutation ($name: String!,$description: String!,$image: String!,$products: String!,$status: String!,$state: String!,$postal: String!,$country: String!,$isPublic: String!,$city: String){
@@ -206,18 +212,14 @@ import {
       },
     },
     apollo: {
-      country: {
+      states: {
         prefetch: true,
-        query: country
+        query: states
       },
-      /* countries: {
-          prefetch: true,
-          query: countries
-          },
-          descriptions: {
-          prefetch: true,
-          query: descriptions
-          } */
+      countries: {
+        prefetch: true,
+        query: countries
+      },
     }
 }
 </script>

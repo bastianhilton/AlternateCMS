@@ -212,7 +212,7 @@
 <script>
 import gql from "graphql-tag";
 
-import { generalSettings } from "~/apollo/queries/system/generalsettings";
+import { generalSettings } from "~/apollo/queries/system/settingsgeneral";
 
 const ADD_GENERAL_SETTINGS = gql`
     mutation ($siteTitle:String!,$tagline:String,$siteUrl:String,$siteAdminEmail:String,$value:String){

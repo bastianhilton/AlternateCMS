@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/admin/add-new/add-new-customergroup"><FormulateInput type="button">Add New Customer Group</FormulateInput></a>
+        <a class="navbar-brand" href="/admin/add-new/add-new-customergroup"><FormulateInput type="button">Add New Social Group</FormulateInput></a>
         
 </div>
 </nav>
@@ -50,7 +50,7 @@ export default {
     }
   },
     head: {
-      title: 'Customers Group'
+      title: 'Social Groups'
     }
   }
 

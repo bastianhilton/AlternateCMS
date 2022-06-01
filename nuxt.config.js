@@ -68,17 +68,18 @@ export default {
   ],
 
   plugins: [
-    { src: '~/plugins/extensions/simplemde.js', mode: 'client' },
-    { src: '~/plugins/main.js', mode: 'client' },
-    { src: '~/plugins/ecommerce/paypal.js', ssr: false },
-    { src: '~/plugins/ecommerce/pa-dss.js', ssr: false },
-    { src: '~/plugins/client.js', ssr: false },
-    { src: '~/plugins/extensions/datatables.js', ssr: false },
-    { src: '~/plugins/extensions/vue-formulate.js', ssr: false },
+    { src: '~plugins/extensions/simplemde.js', mode: 'client' },
+    { src: '~plugins/main.js', mode: 'client' },
+    { src: '~/plugins/apollo-error-handler.js', mode: 'client' },
+    { src: '~plugins/ecommerce/paypal.js', ssr: false },
+    { src: '~plugins/ecommerce/pa-dss.js', ssr: false },
+    { src: '~plugins/client.js', ssr: false },
+    { src: '~plugins/extensions/datatables.js', ssr: false },
+    { src: '~plugins/extensions/vue-formulate.js', ssr: false },
     { src: '~plugins/axios'},
-    // { src: '~/plugins/email.js', ssr: false },
-    { src: '~/plugins/upload.js', mode: 'client' },
-    // { src: '~/plugins/vue-chart.js', mode: 'client' },
+    // { src: '~plugins/email.js', ssr: false },
+    { src: '~plugins/upload.js', mode: 'client' },
+    // { src: '~plugins/vue-chart.js', mode: 'client' },
   ],
 
   components: true,
@@ -222,7 +223,7 @@ export default {
     },
     includeNodeModules: true, 
     authenticationType: 'Bearer', 
-    errorHandler: '~/plugins/apollo-error-handler.js',
+    errorHandler: '~plugins/apollo-error-handler.js',
     clientConfigs: {
       default: '~/apollo/clientConfig.js'
     }

@@ -1,12 +1,12 @@
 <template>
     <div class="accordion-item">
-        <h2 id="flush-headingFive" class="accordion-header">
+        <h2 id="flush-headingSeven" class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
-            data-mdb-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+            data-mdb-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
             Payment Providers
           </button>
         </h2>
-        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+        <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
           data-mdb-parent="#accordionFlushExample">
           <div class="accordion-body">
             <div class="table table-responsive">

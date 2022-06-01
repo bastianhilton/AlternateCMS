@@ -34,8 +34,8 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td style="text-align: right;">Sentry API Key</td>
-                        <td><FormulateInput v-model="siteTitle" type="text" required label="Sentry is a free reporting service." /></td>
+                        <td>Check the Sentry <a href="https://www.sentry.io">Website for more information.</a></td>
+                        <td><FormulateInput v-model="siteTitle" type="text" label="Enter your Sentry API Key" /></td>
                     </tr>
                 </tbody>
             </table>
@@ -50,7 +50,7 @@
 <script>
 import gql from "graphql-tag";
 
-import { generalSettings } from "~/apollo/queries/system/generalsettings";
+import { generalSettings } from "~/apollo/queries/system/settingsgeneral";
 
 const ADD_GENERAL_SETTINGS = gql`
     mutation ($siteTitle:String!,$tagline:String,$siteUrl:String,$siteAdminEmail:String,$value:String){

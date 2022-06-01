@@ -24,10 +24,11 @@
               </td>
             </tr>
             <tr>
-              <td style="text-align: right;">Attribute</td>
+              <td style="text-align: right;">Attributes</td>
               <td>
-                <FormulateInput v-model="attribute" name="productAttribute" type="text"
-                  label="Example is apple, bag, etc" />
+                <select id="category" v-model="attributes" name="template" class="form-attribute">
+                  <option v-for="attributes in attributes" :key="attributes" :value="attributes">{{ attributes.name }}</option>
+                </select>
               </td>
             </tr>
             <tr>
@@ -75,20 +76,22 @@
             <tr>
               <td style="text-align: right;">Visibility</td>
               <td>
-                <FormulateInput v-model="visibility" name="productVisibility" type="text" />
+                <FormulateInput v-model="visibility" type="select" :options="{first: 'Public', second: 'Draft'}" />
               </td>
             </tr>
             <tr>
               <td style="text-align: right;">Categories</td>
               <td>
-                <FormulateInput v-model="categories" name="productCategory" type="text" />
+                <select id="category" v-model="categories" name="template" class="form-category">
+                  <option v-for="categories in categories" :key="categories" :value="categories">{{ categories.name }}</option>
+                </select>
               </td>
             </tr>
             <tr>
               <td style="text-align: right;">Country of manufacture</td>
               <td>
                 <FormulateInput v-model="manufacture" name="productManufacture" type="text"
-                  label="Where is this product made?" />
+                  label="Who made this product?" />
               </td>
             </tr>
             <tr>
@@ -100,7 +103,7 @@
             <tr>
               <td style="text-align: right;">Format</td>
               <td>
-                <FormulateInput v-model="format" name="productFormat" type="text" label="Downloadable or Shipped" />
+                <FormulateInput v-model="format" type="select" :options="{first: 'Downloadable', second: 'Physical'}" />
               </td>
             </tr>
           </tbody>
@@ -234,7 +237,7 @@ import {
   } from "~/apollo/queries/shop/products";
   import categories from "~/apollo/queries/shop/categories"
   // import countries from "~/apollo/queries/shop/countries"
-  // import attributes from "~/apollo/queries/shop/attributes"
+  import attributes from "~/apollo/queries/shop/attributes"
 
   const ADD_PRODUCTS = gql `
     mutation ($thumbnail: String!,$name: String!,$attribute: String!,$price: String!,$quantity_per_source: String!,$salable_quantity: String!,$visibility: String!,$websites: String!,$product: String!,$tax_class: String!,$stock_status: String!,$weight: String!,$manufacture: String!,$categories: String!,$country: String!,$size: String!,$format: String!,$height: String!,$content: String!,$short_description: String!,$image: Upload!,$meta_title: String!,$meta_keywords: String!,$meta_description: String!,$meta_url: String!,$file: Upload!,$type: String){
@@ -444,11 +447,11 @@ import {
       /* countries: {
           prefetch: true,
           query: countries
-          },
+          }, */
           attributes: {
           prefetch: true,
           query: attributes
-          } */
+          } 
     }
 }
 </script>

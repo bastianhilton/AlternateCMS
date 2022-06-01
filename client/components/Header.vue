@@ -66,7 +66,7 @@
                                 <a class="dropdown-item" href="/admin/customers/segments">Segments</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/customers/customer-groups">Customer Groups</a>
+                                <a class="dropdown-item" href="/admin/customers/social-groups">Social Groups</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/customers/opportunities">Opportunities</a>
@@ -101,9 +101,9 @@
                             <li>
                                 <a class="dropdown-item" href="/admin/marketing/newsletter">Newsletter</a>
                             </li>
-                            <!--<li>
+                            <li>
                                 <a class="dropdown-item" href="/admin/marketing/communications">Communications</a>
-                            </li>-->
+                            </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/marketing/rewards">Rewards</a>
                             </li>
@@ -115,9 +115,6 @@
                             </li>
                              <li>
                                 <a class="dropdown-item" href="/admin/marketing/ticketing">Ticketing</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="/admin/marketing/equipment">Equipment</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/marketing/training">Training</a>
@@ -229,6 +226,12 @@
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/shop/attributes">Attributes</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/shop/shops">Shops</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="/admin/shop/partners">Partners</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/shop/coupons">Coupons</a>

@@ -212,7 +212,7 @@ import gql from "graphql-tag";
 import providersettings from '~/components/settings/providersettings';
 import apitokensettings from '~/components/settings/apitokensettings';
 import webhooks from '~/components/settings/webhooks'
-import { generalSettings } from "~/apollo/queries/system/generalsettings";
+import { generalSettings } from "~/apollo/queries/system/settingsgeneral";
 
 const ADD_GENERAL_SETTINGS = gql `
     mutation ($siteTitle:String!,$tagline:String,$siteUrl:String,$siteAdminEmail:String,$languages:String,$value:String){

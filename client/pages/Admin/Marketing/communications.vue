@@ -2,9 +2,8 @@
   <div>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/admin/add-new/email"><FormulateInput type="button" label="Send Email"></FormulateInput></a>
-        <a class="navbar-brand" href="/admin/marketing/email/email-designer"><FormulateInput type="button" style="float:right; right: 15px; position: absolute;" label="Email Designer"></FormulateInput></a>
-        
+        <a class="navbar-brand" href="/admin/add-new/add-new-email"><FormulateInput type="button" label="Send Email"></FormulateInput></a>
+        <!--<a class="navbar-brand" href="/admin/marketing/email/email-designer"><FormulateInput type="button" style="float:right; right: 15px; position: absolute;" label="Email Designer"></FormulateInput></a>-->
       </div>
 </nav>
 <br>
@@ -22,7 +21,7 @@
         <tbody v-for="emails in emails" :key="emails.id">
           <tr>
             <td>{{ emails.id }}</td>
-            <td>{{ emails.email }}</td>
+            <td>{{ emails.cc }}</td>
             <td>{{ emails.subject }}</td>
             <td>{{ emails.created_at }}</td>
             <td><a :href="`/admin/edit/email/${emails.id}`">View</a></td>

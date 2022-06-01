@@ -15,41 +15,17 @@
                 <tbody>
                     <tr>
                         <td style="text-align: right;">Collection Name</td>
-                        <td><FormulateInput id="collectionsName" v-model="name" type="collectionsName" required /></td>
+                        <td><FormulateInput id="collectionsName" v-model="name" type="text" required /></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;">Description</td>
+                        <td><FormulateInput id="collectionsName" v-model="description" type="textarea" required /></td>
                     </tr>
                 </tbody>
             </table>
         </div>
         <br><br>
         <div id="accordionExample" class="accordion">
-            <div class="accordion-item">
-                <h2 id="headingOne" class="accordion-header">
-                    <FormulateInput class="accordion-button" type="button" data-mdb-toggle="collapse"
-                        data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Content
-                    </FormulateInput>
-                </h2>
-                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                    data-mdb-parent="#accordionExample">
-                    <div class="accordion-body">
-                        <div class="table table-responsive">
-                            <table class="table" >
-                                <tbody>
-                                    <tr>
-                                        <td style="text-align: right;">Description</td>
-                                        <td>
-                                            <div class="form-check form-switch">
-                                                <FormulateInput
-  v-model="description" type="textarea" label="Product Description" rows="10" cols="50" />
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="accordion-item">
                 <h2 id="headingThree" class="accordion-header">
                     <FormulateInput class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
@@ -82,16 +58,16 @@
                                     </tr>
                                     <tr>
                                         <td style="text-align: right;">Meta Title</td>
-                                        <td><FormulateInput v-model="meta_title" type="text" label="Product Url" required /></td>
+                                        <td><FormulateInput v-model="meta_title" type="text" label="Collection Url" required /></td>
                                     </tr>
                                     <tr>
                                         <td style="text-align: right;">Meta Keywords</td>
-                                        <td><FormulateInput v-model="meta_keywords" type="text" label="Product Keywords" /></td>
+                                        <td><FormulateInput v-model="meta_keywords" type="text" label="Collection Keywords" /></td>
                                     </tr>
                                     <tr>
                                         <td style="text-align: right;">Meta Description</td>
                                         <td><FormulateInput
-  v-model="meta_description" type="textarea" label="Product Description" rows="10" cols="50" /></td>
+  v-model="meta_description" type="textarea" label="Collection Description" rows="10" cols="50" /></td>
                                     </tr>
                                 </tbody>
                             </table>
