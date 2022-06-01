@@ -14,16 +14,21 @@ datasource db {
 }
 
 model articles {
-  id         Int       @id @default(autoincrement())
-  name       String    @db.VarChar(255)
-  excerpt    String
-  content    String?
-  image      String?
-  categories String?
-  customers  String?
-  users      String?
-  published  DateTime? @default(now()) @db.Timestamptz(6)
-  cust_id    Int       @default(autoincrement())
+  id               Int     @id @default(autoincrement())
+  name             String
+  excerpt          String
+  content          String?
+  image            String?
+  categories       String?
+  customers        String?
+  users            String?
+  published        String?
+  cust_id          Int     @default(autoincrement())
+  meta_name        String?
+  meta_url         String?
+  meta_description String?
+  isPublic         String?
+  tags             String?
 }
 
 model cart_price_rules {
@@ -196,6 +201,7 @@ model customers {
   customer_group_customer_groupTocustomers customer_group[]
   customer_payment                         customer_payment?
   emails                                   emails[]
+  messages                                 messages[]
   newsletter_subscribers                   newsletter_subscribers[]
   orders                                   orders[]
   quotes                                   quotes[]
@@ -493,10 +499,10 @@ model shipments {
 
 model shops {
   id                Int     @id @default(autoincrement())
-  name              String  @db.VarChar(255)
+  name              String
   description       String?
   image             String?
-  website           String? @db.VarChar(255)
+  website           String?
   products          String?
   articles          String?
   customers         String?
@@ -516,6 +522,9 @@ model shops {
   special_discounts String?
   statistics        String?
   stocks            String?
+  country           String?
+  physical_store    String?
+  type              String?
 }
 
 model source {
@@ -686,7 +695,7 @@ model url_rewrites {
 }
 
 model users {
-  id               Int       @id @default(autoincrement())
+  id               Int        @id @default(autoincrement())
   username         String
   first_name       String
   last_name        String?
@@ -695,7 +704,9 @@ model users {
   interface_locale String?
   value            String?
   permissions      String?
-  created_at       DateTime? @default(now()) @db.Timestamptz(6)
+  created_at       DateTime?  @default(now()) @db.Timestamptz(6)
+  emails           emails[]
+  messages         messages[]
 }
 
 model agreements {
@@ -735,13 +746,17 @@ model customer_group {
 
 model emails {
   id         Int       @id @default(autoincrement())
-  title      DateTime? @db.Date
+  from       String?
   created_at DateTime? @default(now()) @db.Timestamp(6)
-  subject    String?   @db.VarChar(255)
+  subject    String?
   content    String?
-  recipients String?
+  cc         String?
   cust_id    Int       @default(autoincrement())
+  media      String?
+  bcc        String?
+  staff_id   Int?
   customers  customers @relation(fields: [cust_id], references: [id])
+  users      users?    @relation(fields: [staff_id], references: [id])
 }
 
 model events {
@@ -823,26 +838,6 @@ model general_settings {
   customer_support    String?
 }
 
-model sales_settings {
-  id                         BigInt    @id @default(autoincrement())
-  created_at                 DateTime? @default(now()) @db.Timestamptz(6)
-  sales_email                String?
-  hide_customer_ip           String?
-  checkout_subtotal          String?
-  checkout_discount          String?
-  checkout_shipping          String?
-  checkout_tax               String?
-  checkout_fixed_product_tax String?
-  checkout_grand_total       String?
-  checkout_gift_cards        String?
-  checkout_store_credit      String?
-  allow_reorder              String?
-  allow_zero_grandtotal      String?
-  invoice_logo               String?
-  invoice_html_print         String?
-  invoice_address            String?
-}
-
 model shop_settings {
   id                       BigInt    @id @default(autoincrement())
   created_at               DateTime? @default(now()) @db.Timestamptz(6)
@@ -884,20 +879,6 @@ model fullfillments {
   phone          String?
   pickup         String?
   stock          String?
-}
-
-model customer {
-  id         BigInt    @id @unique @default(autoincrement())
-  created_at DateTime? @default(now()) @db.Timestamptz(6)
-  firstname  String?
-  lastname   String?
-  username   String?
-  email      String?
-  city       String?
-  state      String?
-  country    String?
-  postal     String?
-  active     String?
 }
 
 model permissions {
@@ -1404,4 +1385,139 @@ model visits {
   end_date   String?
   task       String?
   meeting    String?
+}
+
+model channels {
+  id               BigInt    @id @default(autoincrement())
+  created_at       DateTime? @default(now()) @db.Timestamptz(6)
+  code             String?
+  token            String?
+  currency         String?
+  default_lang     String?
+  include_tax      String?
+  default_zone     String?
+  default_shipping String?
+  client_id        String?
+  client_secret    String?
+}
+
+model currencies {
+  id         BigInt    @id @default(autoincrement())
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  code       String?
+  name       String?
+  region     String?
+}
+
+model messages {
+  id         Int       @id @default(autoincrement())
+  from       String?
+  created_at DateTime? @default(now()) @db.Timestamp(6)
+  subject    String?
+  content    String?
+  sender     String?
+  cust_id    Int       @default(autoincrement())
+  media      String?
+  staff_id   Int?
+  customers  customers @relation(fields: [cust_id], references: [id])
+  users      users?    @relation(fields: [staff_id], references: [id])
+}
+
+model partners {
+  id            BigInt    @id @default(autoincrement())
+  created_at    DateTime? @default(now()) @db.Timestamptz(6)
+  name          String?
+  address       String?
+  city          String?
+  state         String?
+  country       String?
+  isPublic      String?
+  business_type String?
+}
+
+model settingscustomers {
+  id                       BigInt    @id @default(autoincrement())
+  created_at               DateTime? @default(now()) @db.Timestamptz(6)
+  login_as_customer        String?
+  share_customer_accounts  String?
+  online_minutes_interval  String?
+  customer_data_lifetime   String?
+  email_after_registration String?
+}
+
+model settingsgeneral {
+  id           BigInt    @id @default(autoincrement())
+  created_at   DateTime? @default(now()) @db.Timestamptz(6)
+  site_title   String?
+  site_tagline String?
+  site_website String?
+  email        String?
+  aws_s3       String?
+  google_drive String?
+}
+
+model settingshop {
+  id                              BigInt  @id @default(autoincrement())
+  enable_product_assignment       String?
+  product_videos                  String?
+  seller_payouts                  String?
+  admin_approval                  String?
+  enable_review_system            String?
+  customer_rate_vendor            String?
+  multishipping                   String?
+  vendor_transaction_id           String?
+  enable_vendor_product_attribute String?
+}
+
+model settingsmarketing {
+  id                     BigInt  @id @default(autoincrement())
+  mail_port              String?
+  recaptcha_api          String?
+  adsense_api            String?
+  sitemap_url            String?
+  customer_data_lifetime String?
+  mail_server            String?
+}
+
+model settingssales {
+  id                             BigInt    @id @default(autoincrement())
+  created_at                     DateTime? @default(now()) @db.Timestamptz(6)
+  analytics_account_type         String?
+  analytics_account_number       String?
+  analytics_anonymizeip          String?
+  analytics_content_experiments  String?
+  adwords_conversionid           String?
+  adwords_conversionlanguage     String?
+  adwords_conversionformat       String?
+  adwords_conversioncolor        String?
+  adwords_conversionlabel        String?
+  adwords_conversionvalue_type   String?
+  adwords_sendorder              String?
+  tag_manager_anonymizeip        String?
+  tag_manager_contentexperiments String?
+  tag_manager_containerid        String?
+}
+
+model tax_category {
+  id         BigInt    @id @default(autoincrement())
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  name       String?
+  default    String?
+}
+
+model wishlists {
+  id         BigInt    @id @default(autoincrement())
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  name       String?
+  customers  String?
+  visibility String?
+  products   String?
+  quantity   String?
+}
+
+model zones {
+  id         BigInt    @id @default(autoincrement())
+  created_at DateTime? @default(now()) @db.Timestamptz(6)
+  name       String?
+  updated_at DateTime? @default(now()) @db.Timestamptz(6)
 }
