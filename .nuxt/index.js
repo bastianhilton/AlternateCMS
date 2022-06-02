@@ -5,7 +5,7 @@ import ClientOnly from 'vue-client-only'
 import NoSsr from 'vue-no-ssr'
 import { createRouter } from './router.js'
 import NuxtChild from './components/nuxt-child.js'
-import NuxtError from '..\\client\\layouts\\error.vue'
+import NuxtError from '..\\layouts\\error.vue'
 import Nuxt from './components/nuxt.js'
 import App from './App.js'
 import { setContext, getLocation, getRouteData, normalizeError } from './utils'
@@ -35,16 +35,16 @@ import nuxt_plugin_iconplugin_6d61dc84 from 'nuxt_plugin_iconplugin_6d61dc84' //
 import nuxt_plugin_axios_ead9ab18 from 'nuxt_plugin_axios_ead9ab18' // Source: .\\axios.js (mode: 'all')
 import nuxt_plugin_nuxtplugin1ea8e8dd_e37afa94 from 'nuxt_plugin_nuxtplugin1ea8e8dd_e37afa94' // Source: .\\nuxt.plugin.1ea8e8dd.js (mode: 'all')
 import nuxt_plugin_moment_530494b8 from 'nuxt_plugin_moment_530494b8' // Source: .\\moment.js (mode: 'all')
-import nuxt_plugin_simplemde_d1d9a3c2 from 'nuxt_plugin_simplemde_d1d9a3c2' // Source: ..\\client\\plugins\\extensions\\simplemde.js (mode: 'client')
-import nuxt_plugin_main_101ad5e7 from 'nuxt_plugin_main_101ad5e7' // Source: ..\\client\\plugins\\main.js (mode: 'client')
-import nuxt_plugin_apolloerrorhandler_4a9e745a from 'nuxt_plugin_apolloerrorhandler_4a9e745a' // Source: ..\\client\\plugins\\apollo-error-handler.js (mode: 'client')
-import nuxt_plugin_paypal_6a44bfde from 'nuxt_plugin_paypal_6a44bfde' // Source: ..\\client\\plugins\\ecommerce\\paypal.js (mode: 'client')
-import nuxt_plugin_padss_bb1c526e from 'nuxt_plugin_padss_bb1c526e' // Source: ..\\client\\plugins\\ecommerce\\pa-dss.js (mode: 'client')
-import nuxt_plugin_client_14eb6855 from 'nuxt_plugin_client_14eb6855' // Source: ..\\client\\plugins\\client.js (mode: 'client')
-import nuxt_plugin_datatables_beea75b8 from 'nuxt_plugin_datatables_beea75b8' // Source: ..\\client\\plugins\\extensions\\datatables.js (mode: 'client')
-import nuxt_plugin_vueformulate_c6cdd0ea from 'nuxt_plugin_vueformulate_c6cdd0ea' // Source: ..\\client\\plugins\\extensions\\vue-formulate.js (mode: 'client')
-import nuxt_plugin_axios_fb9c9a02 from 'nuxt_plugin_axios_fb9c9a02' // Source: ..\\client\\plugins\\axios (mode: 'all')
-import nuxt_plugin_upload_5f76cb42 from 'nuxt_plugin_upload_5f76cb42' // Source: ..\\client\\plugins\\upload.js (mode: 'client')
+import nuxt_plugin_simplemde_cd1bd0c0 from 'nuxt_plugin_simplemde_cd1bd0c0' // Source: ..\\plugins\\extensions\\simplemde.js (mode: 'client')
+import nuxt_plugin_main_1856e168 from 'nuxt_plugin_main_1856e168' // Source: ..\\plugins\\main.js (mode: 'client')
+import nuxt_plugin_apolloerrorhandler_4a9e745a from 'nuxt_plugin_apolloerrorhandler_4a9e745a' // Source: ..\\plugins\\apollo-error-handler.js (mode: 'client')
+import nuxt_plugin_paypal_6c62dc42 from 'nuxt_plugin_paypal_6c62dc42' // Source: ..\\plugins\\ecommerce\\paypal.js (mode: 'client')
+import nuxt_plugin_padss_01fba8ca from 'nuxt_plugin_padss_01fba8ca' // Source: ..\\plugins\\ecommerce\\pa-dss.js (mode: 'client')
+import nuxt_plugin_client_035ad0d4 from 'nuxt_plugin_client_035ad0d4' // Source: ..\\plugins\\client.js (mode: 'client')
+import nuxt_plugin_datatables_2bede87a from 'nuxt_plugin_datatables_2bede87a' // Source: ..\\plugins\\extensions\\datatables.js (mode: 'client')
+import nuxt_plugin_vueformulate_1a75588c from 'nuxt_plugin_vueformulate_1a75588c' // Source: ..\\plugins\\extensions\\vue-formulate.js (mode: 'client')
+import nuxt_plugin_axios_3566aa80 from 'nuxt_plugin_axios_3566aa80' // Source: ..\\plugins\\axios (mode: 'all')
+import nuxt_plugin_upload_8ca86cc0 from 'nuxt_plugin_upload_8ca86cc0' // Source: ..\\plugins\\upload.js (mode: 'client')
 import nuxt_plugin_libnuxtclientinitpluginclient931b7b2a_01299480 from 'nuxt_plugin_libnuxtclientinitpluginclient931b7b2a_01299480' // Source: .\\lib.nuxt-client-init.plugin.client.931b7b2a.js (mode: 'client')
 
 // Component: <ClientOnly>
@@ -113,7 +113,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"AlternateCMS","meta":[{"name":"robots","content":"noindex,noarchive,nofollow"},{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"csrf-token","content":"{{csrfToken}}"},{"name":"format-detection","content":"telephone=no"},{"hid":"charset","charset":"utf-8"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"alternatecms"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"alternatecms"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"alternatecms"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Ffont-awesome\u002F5.15.1\u002Fcss\u002Fall.min.css"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:300,400,500,700&display=swap"},{"rel":"stylesheet","href":"\u002Fassets\u002Fweb\u002Fassets\u002Fmobirise-icons2\u002Fmobirise2.css"},{"rel":"stylesheet","href":"\u002Fassets\u002Ftether\u002Ftether.min.css"},{"rel":"stylesheet","href":"\u002Fassets\u002Fdropdown\u002Fcss\u002Fstyle.css"},{"rel":"stylesheet","href":"\u002Fassets\u002Fsocicon\u002Fcss\u002Fstyles.css"},{"rel":"stylesheet","href":"\u002Fassets\u002Ftheme\u002Fcss\u002Fstyle.css"},{"rel":"stylesheet","href":"\u002Fassets\u002Fmobirise\u002Fcss\u002Fmbr-additional.css"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Fmdb-ui-kit\u002F3.10.0\u002Fmdb.min.css"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"},{"hid":"shortcut-icon","rel":"shortcut icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_64x64.e3e9fb.png"},{"hid":"apple-touch-icon","rel":"apple-touch-icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_512x512.e3e9fb.png","sizes":"512x512"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.a755d3e1.json","hid":"manifest"}],"script":[{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fchart.js","mode":"client"},{"src":"https:\u002F\u002Fpolyfill.io\u002Fv3\u002Fpolyfill.min.js?features=es2015","mode":"client"},{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fjquery\u002Fdist\u002Fjquery.min.js","mode":"client"},{"src":"\u002Fassets\u002Fpopper\u002Fpopper.min.js","mode":"client"},{"src":"\u002Fassets\u002Ftether\u002Ftether.min.js","mode":"client"},{"src":"\u002Fassets\u002Fsmoothscroll\u002Fsmooth-scroll.js","mode":"client"},{"src":"\u002Fassets\u002Fdropdown\u002Fjs\u002Fnav-dropdown.js","mode":"client"},{"src":"\u002Fassets\u002Fdropdown\u002Fjs\u002Fnavbar-dropdown.js","mode":"client"},{"src":"\u002Fassets\u002Ftouchswipe\u002Fjquery.touch-swipe.min.js","mode":"client"},{"src":"\u002Fassets\u002Ftheme\u002Fjs\u002Fscript.js","mode":"client"},{"src":"https:\u002F\u002Feditor.unlayer.com\u002Fembed.js","mode":"client"},{"hid":"adsbygoogle-script","defer":true,"crossorigin":"anonymous","src":"\u002F\u002Fpagead2.googlesyndication.com\u002Fpagead\u002Fjs\u002Fadsbygoogle.js?client=ca-google"},{"hid":"adsbygoogle","innerHTML":"if (!window.__abg_called){ (window.adsbygoogle = window.adsbygoogle || []); adsbygoogle.pauseAdRequests=0;\n          adsbygoogle.push({\n      google_ad_client: \"ca-google\",\n      overlays: {bottom: false},\n      \n    }); window.__abg_called = true;}"}],"style":[],"__dangerouslyDisableSanitizersByTagID":{"adsbygoogle":["innerHTML"]},"htmlAttrs":{"lang":"en"}},
+    head: {"title":"AlternateCMS","meta":[{"name":"robots","content":"noindex,noarchive,nofollow"},{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"csrf-token","content":"{{csrfToken}}"},{"name":"format-detection","content":"telephone=no"},{"hid":"charset","charset":"utf-8"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"alternatecms"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"alternatecms"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"alternatecms"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Ffont-awesome\u002F5.15.1\u002Fcss\u002Fall.min.css"},{"rel":"stylesheet","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:300,400,500,700&display=swap"},{"rel":"stylesheet","href":"\u002Fassets\u002Fweb\u002Fassets\u002Fmobirise-icons2\u002Fmobirise2.css"},{"rel":"stylesheet","href":"\u002Fassets\u002Ftether\u002Ftether.min.css"},{"rel":"stylesheet","href":"\u002Fassets\u002Fdropdown\u002Fcss\u002Fstyle.css"},{"rel":"stylesheet","href":"\u002Fassets\u002Fsocicon\u002Fcss\u002Fstyles.css"},{"rel":"stylesheet","href":"\u002Fassets\u002Ftheme\u002Fcss\u002Fstyle.css"},{"rel":"stylesheet","href":"\u002Fassets\u002Fmobirise\u002Fcss\u002Fmbr-additional.css"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Fmdb-ui-kit\u002F3.10.0\u002Fmdb.min.css"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"},{"hid":"shortcut-icon","rel":"shortcut icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_64x64.e3e9fb.png"},{"hid":"apple-touch-icon","rel":"apple-touch-icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_512x512.e3e9fb.png","sizes":"512x512"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.a755d3e1.json","hid":"manifest"}],"script":[{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fchart.js","ssr":false},{"src":"https:\u002F\u002Fpolyfill.io\u002Fv3\u002Fpolyfill.min.js?features=es2015","ssr":false},{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fjquery\u002Fdist\u002Fjquery.min.js","ssr":false},{"src":"\u002Fassets\u002Fpopper\u002Fpopper.min.js","ssr":false},{"src":"\u002Fassets\u002Ftether\u002Ftether.min.js","ssr":false},{"src":"\u002Fassets\u002Fsmoothscroll\u002Fsmooth-scroll.js","ssr":false},{"src":"\u002Fassets\u002Fdropdown\u002Fjs\u002Fnav-dropdown.js","ssr":false},{"src":"\u002Fassets\u002Fdropdown\u002Fjs\u002Fnavbar-dropdown.js","ssr":false},{"src":"\u002Fassets\u002Ftouchswipe\u002Fjquery.touch-swipe.min.js","ssr":false},{"src":"\u002Fassets\u002Ftheme\u002Fjs\u002Fscript.js","ssr":false},{"src":"https:\u002F\u002Feditor.unlayer.com\u002Fembed.js","ssr":false},{"hid":"adsbygoogle-script","defer":true,"crossorigin":"anonymous","src":"\u002F\u002Fpagead2.googlesyndication.com\u002Fpagead\u002Fjs\u002Fadsbygoogle.js?client=ca-google"},{"hid":"adsbygoogle","innerHTML":"if (!window.__abg_called){ (window.adsbygoogle = window.adsbygoogle || []); adsbygoogle.pauseAdRequests=0;\n          adsbygoogle.push({\n      google_ad_client: \"ca-google\",\n      overlays: {bottom: false},\n      \n    }); window.__abg_called = true;}"}],"style":[],"__dangerouslyDisableSanitizersByTagID":{"adsbygoogle":["innerHTML"]},"htmlAttrs":{"lang":"en"}},
 
     store,
     router,
@@ -330,44 +330,44 @@ async function createApp(ssrContext, config = {}) {
     await nuxt_plugin_moment_530494b8(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_simplemde_d1d9a3c2 === 'function') {
-    await nuxt_plugin_simplemde_d1d9a3c2(app.context, inject)
+  if (process.client && typeof nuxt_plugin_simplemde_cd1bd0c0 === 'function') {
+    await nuxt_plugin_simplemde_cd1bd0c0(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_main_101ad5e7 === 'function') {
-    await nuxt_plugin_main_101ad5e7(app.context, inject)
+  if (process.client && typeof nuxt_plugin_main_1856e168 === 'function') {
+    await nuxt_plugin_main_1856e168(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_apolloerrorhandler_4a9e745a === 'function') {
     await nuxt_plugin_apolloerrorhandler_4a9e745a(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_paypal_6a44bfde === 'function') {
-    await nuxt_plugin_paypal_6a44bfde(app.context, inject)
+  if (process.client && typeof nuxt_plugin_paypal_6c62dc42 === 'function') {
+    await nuxt_plugin_paypal_6c62dc42(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_padss_bb1c526e === 'function') {
-    await nuxt_plugin_padss_bb1c526e(app.context, inject)
+  if (process.client && typeof nuxt_plugin_padss_01fba8ca === 'function') {
+    await nuxt_plugin_padss_01fba8ca(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_client_14eb6855 === 'function') {
-    await nuxt_plugin_client_14eb6855(app.context, inject)
+  if (process.client && typeof nuxt_plugin_client_035ad0d4 === 'function') {
+    await nuxt_plugin_client_035ad0d4(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_datatables_beea75b8 === 'function') {
-    await nuxt_plugin_datatables_beea75b8(app.context, inject)
+  if (process.client && typeof nuxt_plugin_datatables_2bede87a === 'function') {
+    await nuxt_plugin_datatables_2bede87a(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_vueformulate_c6cdd0ea === 'function') {
-    await nuxt_plugin_vueformulate_c6cdd0ea(app.context, inject)
+  if (process.client && typeof nuxt_plugin_vueformulate_1a75588c === 'function') {
+    await nuxt_plugin_vueformulate_1a75588c(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_fb9c9a02 === 'function') {
-    await nuxt_plugin_axios_fb9c9a02(app.context, inject)
+  if (typeof nuxt_plugin_axios_3566aa80 === 'function') {
+    await nuxt_plugin_axios_3566aa80(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_upload_5f76cb42 === 'function') {
-    await nuxt_plugin_upload_5f76cb42(app.context, inject)
+  if (process.client && typeof nuxt_plugin_upload_8ca86cc0 === 'function') {
+    await nuxt_plugin_upload_8ca86cc0(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_libnuxtclientinitpluginclient931b7b2a_01299480 === 'function') {

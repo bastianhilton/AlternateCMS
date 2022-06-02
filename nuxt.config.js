@@ -41,18 +41,18 @@ export default {
       {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.css'},
     ],
     script: [
-      { src: 'https://cdn.jsdelivr.net/npm/chart.js', mode: 'client' },
-      { src: 'https://polyfill.io/v3/polyfill.min.js?features=es2015', mode: 'client' },
-      // { src: 'https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.js', mode: 'client' },
-      { src: 'https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js', mode: 'client' },
-      { src: '/assets/popper/popper.min.js', mode: 'client' },
-      { src: '/assets/tether/tether.min.js', mode: 'client' },
-      { src: '/assets/smoothscroll/smooth-scroll.js', mode: 'client' },
-      { src: '/assets/dropdown/js/nav-dropdown.js', mode: 'client' },
-      { src: '/assets/dropdown/js/navbar-dropdown.js', mode: 'client' },
-      { src: '/assets/touchswipe/jquery.touch-swipe.min.js', mode: 'client' },
-      { src: '/assets/theme/js/script.js', mode: 'client' },
-      { src: 'https://editor.unlayer.com/embed.js', mode: 'client' },
+      { src: 'https://cdn.jsdelivr.net/npm/chart.js', ssr: false },
+      { src: 'https://polyfill.io/v3/polyfill.min.js?features=es2015', ssr: false },
+      // { src: 'https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.0/mdb.min.js', ssr: false },
+      { src: 'https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js', ssr: false },
+      { src: '/assets/popper/popper.min.js', ssr: false },
+      { src: '/assets/tether/tether.min.js', ssr: false },
+      { src: '/assets/smoothscroll/smooth-scroll.js', ssr: false },
+      { src: '/assets/dropdown/js/nav-dropdown.js', ssr: false },
+      { src: '/assets/dropdown/js/navbar-dropdown.js', ssr: false },
+      { src: '/assets/touchswipe/jquery.touch-swipe.min.js', ssr: false },
+      { src: '/assets/theme/js/script.js', ssr: false },
+      { src: 'https://editor.unlayer.com/embed.js', ssr: false },
     ]
   },
 
@@ -68,18 +68,18 @@ export default {
   ],
 
   plugins: [
-    { src: '~plugins/extensions/simplemde.js', mode: 'client' },
-    { src: '~plugins/main.js', mode: 'client' },
-    { src: '~/plugins/apollo-error-handler.js', mode: 'client' },
-    { src: '~plugins/ecommerce/paypal.js', ssr: false },
-    { src: '~plugins/ecommerce/pa-dss.js', ssr: false },
-    { src: '~plugins/client.js', ssr: false },
-    { src: '~plugins/extensions/datatables.js', ssr: false },
-    { src: '~plugins/extensions/vue-formulate.js', ssr: false },
-    { src: '~plugins/axios'},
-    // { src: '~plugins/email.js', ssr: false },
-    { src: '~plugins/upload.js', mode: 'client' },
-    // { src: '~plugins/vue-chart.js', mode: 'client' },
+    { src: '~/plugins/extensions/simplemde.js', ssr: false },
+    { src: '~/plugins/main.js', ssr: false },
+    { src: '~/plugins/apollo-error-handler.js', ssr: false },
+    { src: '~/plugins/ecommerce/paypal.js', ssr: false },
+    { src: '~/plugins/ecommerce/pa-dss.js', ssr: false },
+    { src: '~/plugins/client.js', ssr: false },
+    { src: '~/plugins/extensions/datatables.js', ssr: false },
+    { src: '~/plugins/extensions/vue-formulate.js', ssr: false },
+    { src: '~/plugins/axios'},
+    // { src: '~/plugins/email.js', ssr: false },
+    { src: '~/plugins/upload.js', ssr: false },
+    // { src: '~/plugins/vue-chart.js', ssr: false },
   ],
 
   components: true,
@@ -223,7 +223,7 @@ export default {
     },
     includeNodeModules: true, 
     authenticationType: 'Bearer', 
-    errorHandler: '~plugins/apollo-error-handler.js',
+    errorHandler: '~/plugins/apollo-error-handler.js',
     clientConfigs: {
       default: '~/apollo/clientConfig.js'
     }
@@ -255,8 +255,6 @@ export default {
   publicRuntimeConfig: {
     
   },
-
-  srcDir: 'client/',
   
   build: {
     extend(config, ctx) {},

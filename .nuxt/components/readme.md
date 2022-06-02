@@ -6,7 +6,7 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
-- `<IoSocketStatus>` | `<io-socket-status>` (../node_modules/nuxt-socket-io/lib/components/SocketStatus.js)
+- `<IoSocketStatus>` | `<io-socket-status>` (node_modules/nuxt-socket-io/lib/components/SocketStatus.js)
 - `<Breadcrumbs>` | `<breadcrumbs>` (components/Breadcrumbs.vue)
 - `<Colormode>` | `<colormode>` (components/colormode.vue)
 - `<Customerslimit>` | `<customerslimit>` (components/customerslimit.vue)
@@ -17,6 +17,8 @@ You can directly use them in pages and other components without the need to impo
 - `<Ottotracker>` | `<ottotracker>` (components/ottotracker.vue)
 - `<Reviewslimit>` | `<reviewslimit>` (components/reviewslimit.vue)
 - `<Visitsdisplay>` | `<visitsdisplay>` (components/visitsdisplay.vue)
+- `<ImportProducts>` | `<import-products>` (components/import/import-products.vue)
+- `<ImportId>` | `<import-id>` (components/import/_id.vue)
 - `<IntegrationsContent>` | `<integrations-content>` (components/integrations/content.vue)
 - `<IntegrationsCustomers>` | `<integrations-customers>` (components/integrations/customers.vue)
 - `<IntegrationsMarketing>` | `<integrations-marketing>` (components/integrations/marketing.vue)
@@ -25,8 +27,6 @@ You can directly use them in pages and other components without the need to impo
 - `<IntegrationsSettings>` | `<integrations-settings>` (components/integrations/settings.vue)
 - `<IntegrationsShop>` | `<integrations-shop>` (components/integrations/shop.vue)
 - `<IntegrationsToppicks>` | `<integrations-toppicks>` (components/integrations/toppicks.vue)
-- `<ImportProducts>` | `<import-products>` (components/import/import-products.vue)
-- `<ImportId>` | `<import-id>` (components/import/_id.vue)
 - `<SettingsApitokensettings>` | `<settings-apitokensettings>` (components/settings/apitokensettings.vue)
 - `<SettingsCustomersettings>` | `<settings-customersettings>` (components/settings/customersettings.vue)
 - `<SettingsGeneralsettings>` | `<settings-generalsettings>` (components/settings/generalsettings.vue)
@@ -37,5 +37,4 @@ You can directly use them in pages and other components without the need to impo
 - `<SettingsSalesettings>` | `<settings-salesettings>` (components/settings/salesettings.vue)
 - `<SettingsShopsettings>` | `<settings-shopsettings>` (components/settings/shopsettings.vue)
 - `<SettingsTicketdisplay>` | `<settings-ticketdisplay>` (components/settings/ticketdisplay.vue)
-- `<SettingsUsersettings>` | `<settings-usersettings>` (components/settings/usersettings.vue)
 - `<SettingsWebhooks>` | `<settings-webhooks>` (components/settings/webhooks.vue)

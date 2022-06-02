@@ -2,25 +2,25 @@ import Vue from 'vue'
 import { decode, parsePath, withoutBase, withoutTrailingSlash, normalizeURL } from 'ufo'
 
 import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils'
-import NuxtError from '..\\client\\layouts\\error.vue'
+import NuxtError from '..\\layouts\\error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
-import '..\\client\\static\\styles\\styles.css'
+import '..\\static\\styles\\styles.css'
 
 import '..\\node_modules\\simplemde\\dist\\simplemde.min.css'
 
-import '..\\client\\static\\styles\\snow.min.css'
+import '..\\static\\styles\\snow.min.css'
 
-import '..\\client\\static\\extensions\\DataTables\\datatables.min.css'
+import '..\\static\\extensions\\DataTables\\datatables.min.css'
 
 import '..\\node_modules\\leaflet\\dist\\leaflet.css'
 
 import '..\\node_modules\\vuetify\\dist\\vuetify.css'
 
-import _5fa3735e from '..\\client\\layouts\\dashboard.vue'
-import _6f6c098b from '..\\client\\layouts\\default.vue'
-import _dc54f4dc from '..\\client\\layouts\\nologin.vue'
+import _5fa3735e from '..\\layouts\\dashboard.vue'
+import _6f6c098b from '..\\layouts\\default.vue'
+import _dc54f4dc from '..\\layouts\\nologin.vue'
 
 const layouts = { "_dashboard": sanitizeComponent(_5fa3735e),"_default": sanitizeComponent(_6f6c098b),"_nologin": sanitizeComponent(_dc54f4dc) }
 
