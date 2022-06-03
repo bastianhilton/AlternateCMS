@@ -102,10 +102,8 @@ const _ebc5751a = () => interopDefault(import('..\\pages\\Admin\\Reports\\calend
 const _5b4be07e = () => interopDefault(import('..\\pages\\Admin\\Reports\\cases.vue' /* webpackChunkName: "pages/Admin/Reports/cases" */))
 const _0c2d9eb3 = () => interopDefault(import('..\\pages\\Admin\\Reports\\deep-dive.vue' /* webpackChunkName: "pages/Admin/Reports/deep-dive" */))
 const _79ab0e7b = () => interopDefault(import('..\\pages\\Admin\\Reports\\eosr.vue' /* webpackChunkName: "pages/Admin/Reports/eosr" */))
-const _d3ac7bd4 = () => interopDefault(import('..\\pages\\Admin\\Reports\\marketing-reports.vue' /* webpackChunkName: "pages/Admin/Reports/marketing-reports" */))
-const _4fd632c8 = () => interopDefault(import('..\\pages\\Admin\\Reports\\products-reports.vue' /* webpackChunkName: "pages/Admin/Reports/products-reports" */))
-const _22a3ab19 = () => interopDefault(import('..\\pages\\Admin\\Reports\\reviews.vue' /* webpackChunkName: "pages/Admin/Reports/reviews" */))
-const _5cac3afc = () => interopDefault(import('..\\pages\\Admin\\Reports\\sales-reports.vue' /* webpackChunkName: "pages/Admin/Reports/sales-reports" */))
+const _ebfd3d66 = () => interopDefault(import('..\\pages\\Admin\\Reports\\ooto.vue' /* webpackChunkName: "pages/Admin/Reports/ooto" */))
+const _7a3ad286 = () => interopDefault(import('..\\pages\\Admin\\Reports\\reports.vue' /* webpackChunkName: "pages/Admin/Reports/reports" */))
 const _c71502d6 = () => interopDefault(import('..\\pages\\Admin\\Reports\\statistics.vue' /* webpackChunkName: "pages/Admin/Reports/statistics" */))
 const _1632a752 = () => interopDefault(import('..\\pages\\Admin\\Reports\\surveys.vue' /* webpackChunkName: "pages/Admin/Reports/surveys" */))
 const _879bdc86 = () => interopDefault(import('..\\pages\\Admin\\Reports\\team-scheduler.vue' /* webpackChunkName: "pages/Admin/Reports/team-scheduler" */))
@@ -139,7 +137,6 @@ const _35767b8d = () => interopDefault(import('..\\pages\\Admin\\System\\help.vu
 const _85524262 = () => interopDefault(import('..\\pages\\Admin\\System\\import-management.vue' /* webpackChunkName: "pages/Admin/System/import-management" */))
 const _0ea25e6b = () => interopDefault(import('..\\pages\\Admin\\System\\integrations.vue' /* webpackChunkName: "pages/Admin/System/integrations" */))
 const _4304a89a = () => interopDefault(import('..\\pages\\Admin\\System\\knowledgebase.vue' /* webpackChunkName: "pages/Admin/System/knowledgebase" */))
-const _2b35b3a7 = () => interopDefault(import('..\\pages\\Admin\\System\\ooto.vue' /* webpackChunkName: "pages/Admin/System/ooto" */))
 const _31b9c322 = () => interopDefault(import('..\\pages\\Admin\\System\\role-manager.vue' /* webpackChunkName: "pages/Admin/System/role-manager" */))
 const _5ba22522 = () => interopDefault(import('..\\pages\\Admin\\System\\settings.vue' /* webpackChunkName: "pages/Admin/System/settings" */))
 const _0f36f970 = () => interopDefault(import('..\\pages\\Admin\\Customers\\customer\\newcustomer.vue' /* webpackChunkName: "pages/Admin/Customers/customer/newcustomer" */))
@@ -624,21 +621,13 @@ export const routerOptions = {
     component: _79ab0e7b,
     name: "Admin-Reports-eosr___en"
   }, {
-    path: "/Admin/Reports/marketing-reports",
-    component: _d3ac7bd4,
-    name: "Admin-Reports-marketing-reports___en"
+    path: "/Admin/Reports/ooto",
+    component: _ebfd3d66,
+    name: "Admin-Reports-ooto___en"
   }, {
-    path: "/Admin/Reports/products-reports",
-    component: _4fd632c8,
-    name: "Admin-Reports-products-reports___en"
-  }, {
-    path: "/Admin/Reports/reviews",
-    component: _22a3ab19,
-    name: "Admin-Reports-reviews___en"
-  }, {
-    path: "/Admin/Reports/sales-reports",
-    component: _5cac3afc,
-    name: "Admin-Reports-sales-reports___en"
+    path: "/Admin/Reports/reports",
+    component: _7a3ad286,
+    name: "Admin-Reports-reports___en"
   }, {
     path: "/Admin/Reports/statistics",
     component: _c71502d6,
@@ -771,10 +760,6 @@ export const routerOptions = {
     path: "/Admin/System/knowledgebase",
     component: _4304a89a,
     name: "Admin-System-knowledgebase___en"
-  }, {
-    path: "/Admin/System/ooto",
-    component: _2b35b3a7,
-    name: "Admin-System-ooto___en"
   }, {
     path: "/Admin/System/role-manager",
     component: _31b9c322,
@@ -1196,21 +1181,13 @@ export const routerOptions = {
     component: _79ab0e7b,
     name: "Admin-Reports-eosr___es"
   }, {
-    path: "/es/Admin/Reports/marketing-reports",
-    component: _d3ac7bd4,
-    name: "Admin-Reports-marketing-reports___es"
+    path: "/es/Admin/Reports/ooto",
+    component: _ebfd3d66,
+    name: "Admin-Reports-ooto___es"
   }, {
-    path: "/es/Admin/Reports/products-reports",
-    component: _4fd632c8,
-    name: "Admin-Reports-products-reports___es"
-  }, {
-    path: "/es/Admin/Reports/reviews",
-    component: _22a3ab19,
-    name: "Admin-Reports-reviews___es"
-  }, {
-    path: "/es/Admin/Reports/sales-reports",
-    component: _5cac3afc,
-    name: "Admin-Reports-sales-reports___es"
+    path: "/es/Admin/Reports/reports",
+    component: _7a3ad286,
+    name: "Admin-Reports-reports___es"
   }, {
     path: "/es/Admin/Reports/statistics",
     component: _c71502d6,
@@ -1343,10 +1320,6 @@ export const routerOptions = {
     path: "/es/Admin/System/knowledgebase",
     component: _4304a89a,
     name: "Admin-System-knowledgebase___es"
-  }, {
-    path: "/es/Admin/System/ooto",
-    component: _2b35b3a7,
-    name: "Admin-System-ooto___es"
   }, {
     path: "/es/Admin/System/role-manager",
     component: _31b9c322,
@@ -1716,21 +1689,13 @@ export const routerOptions = {
     component: _79ab0e7b,
     name: "Admin-Reports-eosr___fr"
   }, {
-    path: "/fr/Admin/Reports/marketing-reports",
-    component: _d3ac7bd4,
-    name: "Admin-Reports-marketing-reports___fr"
+    path: "/fr/Admin/Reports/ooto",
+    component: _ebfd3d66,
+    name: "Admin-Reports-ooto___fr"
   }, {
-    path: "/fr/Admin/Reports/products-reports",
-    component: _4fd632c8,
-    name: "Admin-Reports-products-reports___fr"
-  }, {
-    path: "/fr/Admin/Reports/reviews",
-    component: _22a3ab19,
-    name: "Admin-Reports-reviews___fr"
-  }, {
-    path: "/fr/Admin/Reports/sales-reports",
-    component: _5cac3afc,
-    name: "Admin-Reports-sales-reports___fr"
+    path: "/fr/Admin/Reports/reports",
+    component: _7a3ad286,
+    name: "Admin-Reports-reports___fr"
   }, {
     path: "/fr/Admin/Reports/statistics",
     component: _c71502d6,
@@ -1863,10 +1828,6 @@ export const routerOptions = {
     path: "/fr/Admin/System/knowledgebase",
     component: _4304a89a,
     name: "Admin-System-knowledgebase___fr"
-  }, {
-    path: "/fr/Admin/System/ooto",
-    component: _2b35b3a7,
-    name: "Admin-System-ooto___fr"
   }, {
     path: "/fr/Admin/System/role-manager",
     component: _31b9c322,

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/es/Admin/Content/media-manager", {data:[{_img:{}}],fetch:{},mutations:[]});

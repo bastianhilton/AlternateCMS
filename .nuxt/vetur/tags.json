@@ -94,5 +94,14 @@
   },
   "SettingsWebhooks": {
     "description": "Auto imported from components/settings/webhooks.vue"
+  },
+  "DashboardOrders": {
+    "description": "Auto imported from components/dashboard/orders/orders.vue"
+  },
+  "DashboardSales": {
+    "description": "Auto imported from components/dashboard/sales/sales.vue"
+  },
+  "DashboardSearchterms": {
+    "description": "Auto imported from components/dashboard/searchterms/searchterms.vue"
   }
 }

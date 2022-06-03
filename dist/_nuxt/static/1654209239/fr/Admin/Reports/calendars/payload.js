@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fr/Admin/Reports/calendars", {data:[{_img:{}}],fetch:{},mutations:[]});

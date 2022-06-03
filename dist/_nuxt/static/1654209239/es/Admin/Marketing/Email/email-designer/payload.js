@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/es/Admin/Marketing/Email/email-designer", {data:[{_img:{}}],fetch:{},mutations:[]});

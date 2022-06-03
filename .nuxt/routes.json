@@ -824,36 +824,20 @@
     "_name": "_79ab0e7b"
   },
   {
-    "name": "Admin-Reports-marketing-reports___en",
-    "path": "/Admin/Reports/marketing-reports",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\marketing-reports.vue",
-    "chunkName": "pages/Admin/Reports/marketing-reports",
-    "url": "/Admin/Reports/marketing-reports",
-    "_name": "_d3ac7bd4"
+    "name": "Admin-Reports-ooto___en",
+    "path": "/Admin/Reports/ooto",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\ooto.vue",
+    "chunkName": "pages/Admin/Reports/ooto",
+    "url": "/Admin/Reports/ooto",
+    "_name": "_ebfd3d66"
   },
   {
-    "name": "Admin-Reports-products-reports___en",
-    "path": "/Admin/Reports/products-reports",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\products-reports.vue",
-    "chunkName": "pages/Admin/Reports/products-reports",
-    "url": "/Admin/Reports/products-reports",
-    "_name": "_4fd632c8"
-  },
-  {
-    "name": "Admin-Reports-reviews___en",
-    "path": "/Admin/Reports/reviews",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\reviews.vue",
-    "chunkName": "pages/Admin/Reports/reviews",
-    "url": "/Admin/Reports/reviews",
-    "_name": "_22a3ab19"
-  },
-  {
-    "name": "Admin-Reports-sales-reports___en",
-    "path": "/Admin/Reports/sales-reports",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\sales-reports.vue",
-    "chunkName": "pages/Admin/Reports/sales-reports",
-    "url": "/Admin/Reports/sales-reports",
-    "_name": "_5cac3afc"
+    "name": "Admin-Reports-reports___en",
+    "path": "/Admin/Reports/reports",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\reports.vue",
+    "chunkName": "pages/Admin/Reports/reports",
+    "url": "/Admin/Reports/reports",
+    "_name": "_7a3ad286"
   },
   {
     "name": "Admin-Reports-statistics___en",
@@ -1118,14 +1102,6 @@
     "chunkName": "pages/Admin/System/knowledgebase",
     "url": "/Admin/System/knowledgebase",
     "_name": "_4304a89a"
-  },
-  {
-    "name": "Admin-System-ooto___en",
-    "path": "/Admin/System/ooto",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\System\\\\ooto.vue",
-    "chunkName": "pages/Admin/System/ooto",
-    "url": "/Admin/System/ooto",
-    "_name": "_2b35b3a7"
   },
   {
     "name": "Admin-System-role-manager___en",
@@ -1968,36 +1944,20 @@
     "_name": "_79ab0e7b"
   },
   {
-    "name": "Admin-Reports-marketing-reports___es",
-    "path": "/es/Admin/Reports/marketing-reports",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\marketing-reports.vue",
-    "chunkName": "pages/Admin/Reports/marketing-reports",
-    "url": "/es/Admin/Reports/marketing-reports",
-    "_name": "_d3ac7bd4"
+    "name": "Admin-Reports-ooto___es",
+    "path": "/es/Admin/Reports/ooto",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\ooto.vue",
+    "chunkName": "pages/Admin/Reports/ooto",
+    "url": "/es/Admin/Reports/ooto",
+    "_name": "_ebfd3d66"
   },
   {
-    "name": "Admin-Reports-products-reports___es",
-    "path": "/es/Admin/Reports/products-reports",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\products-reports.vue",
-    "chunkName": "pages/Admin/Reports/products-reports",
-    "url": "/es/Admin/Reports/products-reports",
-    "_name": "_4fd632c8"
-  },
-  {
-    "name": "Admin-Reports-reviews___es",
-    "path": "/es/Admin/Reports/reviews",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\reviews.vue",
-    "chunkName": "pages/Admin/Reports/reviews",
-    "url": "/es/Admin/Reports/reviews",
-    "_name": "_22a3ab19"
-  },
-  {
-    "name": "Admin-Reports-sales-reports___es",
-    "path": "/es/Admin/Reports/sales-reports",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\sales-reports.vue",
-    "chunkName": "pages/Admin/Reports/sales-reports",
-    "url": "/es/Admin/Reports/sales-reports",
-    "_name": "_5cac3afc"
+    "name": "Admin-Reports-reports___es",
+    "path": "/es/Admin/Reports/reports",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\reports.vue",
+    "chunkName": "pages/Admin/Reports/reports",
+    "url": "/es/Admin/Reports/reports",
+    "_name": "_7a3ad286"
   },
   {
     "name": "Admin-Reports-statistics___es",
@@ -2262,14 +2222,6 @@
     "chunkName": "pages/Admin/System/knowledgebase",
     "url": "/es/Admin/System/knowledgebase",
     "_name": "_4304a89a"
-  },
-  {
-    "name": "Admin-System-ooto___es",
-    "path": "/es/Admin/System/ooto",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\System\\\\ooto.vue",
-    "chunkName": "pages/Admin/System/ooto",
-    "url": "/es/Admin/System/ooto",
-    "_name": "_2b35b3a7"
   },
   {
     "name": "Admin-System-role-manager___es",
@@ -3008,36 +2960,20 @@
     "_name": "_79ab0e7b"
   },
   {
-    "name": "Admin-Reports-marketing-reports___fr",
-    "path": "/fr/Admin/Reports/marketing-reports",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\marketing-reports.vue",
-    "chunkName": "pages/Admin/Reports/marketing-reports",
-    "url": "/fr/Admin/Reports/marketing-reports",
-    "_name": "_d3ac7bd4"
+    "name": "Admin-Reports-ooto___fr",
+    "path": "/fr/Admin/Reports/ooto",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\ooto.vue",
+    "chunkName": "pages/Admin/Reports/ooto",
+    "url": "/fr/Admin/Reports/ooto",
+    "_name": "_ebfd3d66"
   },
   {
-    "name": "Admin-Reports-products-reports___fr",
-    "path": "/fr/Admin/Reports/products-reports",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\products-reports.vue",
-    "chunkName": "pages/Admin/Reports/products-reports",
-    "url": "/fr/Admin/Reports/products-reports",
-    "_name": "_4fd632c8"
-  },
-  {
-    "name": "Admin-Reports-reviews___fr",
-    "path": "/fr/Admin/Reports/reviews",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\reviews.vue",
-    "chunkName": "pages/Admin/Reports/reviews",
-    "url": "/fr/Admin/Reports/reviews",
-    "_name": "_22a3ab19"
-  },
-  {
-    "name": "Admin-Reports-sales-reports___fr",
-    "path": "/fr/Admin/Reports/sales-reports",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\sales-reports.vue",
-    "chunkName": "pages/Admin/Reports/sales-reports",
-    "url": "/fr/Admin/Reports/sales-reports",
-    "_name": "_5cac3afc"
+    "name": "Admin-Reports-reports___fr",
+    "path": "/fr/Admin/Reports/reports",
+    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\Reports\\\\reports.vue",
+    "chunkName": "pages/Admin/Reports/reports",
+    "url": "/fr/Admin/Reports/reports",
+    "_name": "_7a3ad286"
   },
   {
     "name": "Admin-Reports-statistics___fr",
@@ -3302,14 +3238,6 @@
     "chunkName": "pages/Admin/System/knowledgebase",
     "url": "/fr/Admin/System/knowledgebase",
     "_name": "_4304a89a"
-  },
-  {
-    "name": "Admin-System-ooto___fr",
-    "path": "/fr/Admin/System/ooto",
-    "component": "C:\\\\Users\\\\Basti\\\\OneDrive\\\\Documents\\\\My Websites\\\\Handmade Sites\\\\Javascript-Projects\\\\Nuxt-Projects\\\\Applications\\\\alternatenuxt\\\\pages\\\\Admin\\\\System\\\\ooto.vue",
-    "chunkName": "pages/Admin/System/ooto",
-    "url": "/fr/Admin/System/ooto",
-    "_name": "_2b35b3a7"
   },
   {
     "name": "Admin-System-role-manager___fr",

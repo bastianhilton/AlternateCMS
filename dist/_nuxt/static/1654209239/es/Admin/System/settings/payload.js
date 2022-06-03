@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/es/Admin/System/settings", {data:[{_img:{}}],fetch:{},mutations:[]});

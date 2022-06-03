@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/admin/customers/online-customers", {data:[{_img:{}}],fetch:{},mutations:[]});

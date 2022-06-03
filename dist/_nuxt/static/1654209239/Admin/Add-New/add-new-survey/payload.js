@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/Admin/Add-New/add-new-survey", {data:[{_img:{}}],fetch:{},mutations:[]});

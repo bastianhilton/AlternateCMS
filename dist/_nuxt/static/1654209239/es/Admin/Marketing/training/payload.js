@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/es/Admin/Marketing/training", {data:[{_img:{}}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fr/Admin/Shop/partners", {data:[{_img:{}}],fetch:{},mutations:[]});

@@ -38,3 +38,6 @@ You can directly use them in pages and other components without the need to impo
 - `<SettingsShopsettings>` | `<settings-shopsettings>` (components/settings/shopsettings.vue)
 - `<SettingsTicketdisplay>` | `<settings-ticketdisplay>` (components/settings/ticketdisplay.vue)
 - `<SettingsWebhooks>` | `<settings-webhooks>` (components/settings/webhooks.vue)
+- `<DashboardOrders>` | `<dashboard-orders>` (components/dashboard/orders/orders.vue)
+- `<DashboardSales>` | `<dashboard-sales>` (components/dashboard/sales/sales.vue)
+- `<DashboardSearchterms>` | `<dashboard-searchterms>` (components/dashboard/searchterms/searchterms.vue)

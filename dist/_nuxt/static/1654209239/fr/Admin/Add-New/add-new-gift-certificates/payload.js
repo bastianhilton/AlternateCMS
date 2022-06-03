@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fr/Admin/Add-New/add-new-gift-certificates", {data:[{_img:{}}],fetch:{},mutations:[]});

@@ -9,100 +9,9 @@
         </div>
     </div>-->
     <div class="row">
-
-            <div class="table table-responsive table-bordered orderTable col">
-                <h4>Sales</h4>
-                <table class="table" >
-                    <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Lifetime Sales</th>
-                            <th>Average Order</th>
-                            <th># of Shops</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>Thornton</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <!-- Latest Orders -->
-            <div class="table table-responsive table-bordered orderTable col">
-                <h4>Last Orders</h4>
-                <table class="table" >
-                    <thead>
-                        <tr>
-                            <th>Customer</th>
-                            <th>Items</th>
-                            <th>Total</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <!-- Latest Search Terms -->
-            <div class="table table-responsive table-bordered orderTable col">
-                <h4>Last Search Terms</h4>
-                <table class="table" >
-                    <thead>
-                        <tr>
-                            <th>Search Term</th>
-                            <th>Results</th>
-                            <th>Uses</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+        <sales />
+        <orders />
+        <searchterms />
         </div>
         <!-- Pills navs -->
         <ul id="ex1" class="nav nav-pills nav-fill mb-3" role="tablist">
@@ -209,9 +118,12 @@
 import Customerslimit from '~/components/customerslimit'
 import Newcustomers from '~/components/newcustomers'
 import Reviewslimit from '~/components/reviewslimit'
+import searchterms from '~/components/dashboard/searchterms/searchterms'
+import sales from '~/components/dashboard/sales/sales'
+import orders from '~/components/dashboard/orders/orders'
 
 export default {
-  components: { Newcustomers, Customerslimit, Reviewslimit},
+  components: { Newcustomers, Customerslimit, Reviewslimit, searchterms, sales, orders},
 
   layout: 'dashboard',
   head: {

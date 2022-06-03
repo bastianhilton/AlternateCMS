@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/admin/add-new/add-new-visit", {data:[{_img:{}}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/admin/add-new/add-new-event", {data:[{_img:{}}],fetch:{},mutations:[]});

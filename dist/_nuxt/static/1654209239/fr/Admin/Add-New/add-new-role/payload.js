@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fr/Admin/Add-New/add-new-role", {data:[{_img:{}}],fetch:{},mutations:[]});

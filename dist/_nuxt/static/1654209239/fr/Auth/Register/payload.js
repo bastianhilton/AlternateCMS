@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fr/Auth/Register", {data:[{_img:{}}],fetch:{},mutations:[]});

@@ -30,6 +30,9 @@ export { default as SettingsSalesettings } from '../..\\components\\settings\\sa
 export { default as SettingsShopsettings } from '../..\\components\\settings\\shopsettings.vue'
 export { default as SettingsTicketdisplay } from '../..\\components\\settings\\ticketdisplay.vue'
 export { default as SettingsWebhooks } from '../..\\components\\settings\\webhooks.vue'
+export { default as DashboardOrders } from '../..\\components\\dashboard\\orders\\orders.vue'
+export { default as DashboardSales } from '../..\\components\\dashboard\\sales\\sales.vue'
+export { default as DashboardSearchterms } from '../..\\components\\dashboard\\searchterms\\searchterms.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

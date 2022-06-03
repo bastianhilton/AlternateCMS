@@ -42,7 +42,7 @@
                                 <a class="dropdown-item" href="/admin/sales/transactions">Transactions</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/sales/certificates">Gift Certificates</a>
+                                <a class="dropdown-item" href="/admin/sales/certificates">Gift Certificates & Gift Cards</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/sales/quotes">Quotes</a>
@@ -96,7 +96,7 @@
                                 <a class="dropdown-item" href="/admin/marketing/invitations">Invitations</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/marketing/seo">SEO & Search</a>
+                                <a class="dropdown-item" href="/admin/marketing/seo">Search Engine Optimization</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/marketing/newsletter">Newsletter</a>
@@ -162,10 +162,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li>
-                                <a class="dropdown-item" href="/admin/reports/marketing-reports">Marketing Reports</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="/admin/reports/sales-reports">Sales Reports</a>
+                                <a class="dropdown-item" href="/admin/reports/reports">Reports</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/reports/deep-dive">Deep Dive</a>
@@ -180,13 +177,10 @@
                                 <a class="dropdown-item" href="/admin/reports/cases">Cases</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/reports/reviews">Reviews</a>
-                            </li>
-                            <li>
                                 <a class="dropdown-item" href="/admin/reports/team-scheduler">Team Scheduler</a>
                             </li>
                             <li>
-                                <a class="dropdown-item" href="/admin/reports/products-reports">Products Reports</a>
+                                <a class="dropdown-item" href="/admin/reports/ooto">Out of the Office Reporting Tool</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/reports/statistics">Statistics</a>
@@ -255,9 +249,6 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li>
                                 <a class="dropdown-item" href="/admin/system/general-settings">General Settings</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="/admin/system/ooto">Out of the Office Tracker</a>
                             </li>
                             <li>
                                 <a class="dropdown-item" href="/admin/system/integrations">Integrations</a>

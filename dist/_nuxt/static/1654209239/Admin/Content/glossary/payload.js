@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/Admin/Content/glossary", {data:[{_img:{}}],fetch:{},mutations:[]});

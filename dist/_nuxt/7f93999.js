@@ -1,0 +1,60 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[123],{1269:function(_,k,r){"use strict";r.r(k);var l=function(){var e=this,y=e.$createElement,t=e._self._c||y;return t("div",e._l(e.email_templates,function(c){return t("FormulateForm",{key:c.id,attrs:{method:"POST",enctype:"multipart/form-data"},on:{submit:function(s){s.preventDefault()}}},[t("div",{staticClass:"table table-responsive"},[t("table",{staticClass:"table"},[t("thead",[t("tr",[t("th"),e._v(" "),t("th",{staticClass:"email_templateAddOptions",attrs:{scope:"col"}},[t("li",[t("FormulateInput",{attrs:{type:"submit",label:"Save"},on:{click:e.addEMAIL_TEMPLATE}})],1)])])]),e._v(" "),t("tbody",[t("tr",[t("td",{staticStyle:{"text-align":"right"}},[e._v("Active")]),e._v(" "),t("td",[t("FormulateInput",{attrs:{type:"checkbox"},model:{value:e.active,callback:function(s){e.active=s},expression:"active"}}),e._v(e._s(c.active)+`
+            `)],1)]),e._v(" "),t("tr",[t("td",{staticStyle:{"text-align":"right"}},[e._v("Template Name")]),e._v(" "),t("td",[t("FormulateInput",{attrs:{type:"text",required:""},model:{value:e.name,callback:function(s){e.name=s},expression:"name"}}),e._v(e._s(c.name)+`
+            `)],1)]),e._v(" "),t("tr",[t("td",{staticStyle:{"text-align":"right"}},[e._v("Subject")]),e._v(" "),t("td",[t("FormulateInput",{attrs:{type:"text"},model:{value:e.subject,callback:function(s){e.subject=s},expression:"subject"}}),e._v(e._s(c.subject)+`
+            `)],1)]),e._v(" "),t("tr",[t("td",{staticStyle:{"text-align":"right"}},[e._v("Description")]),e._v(" "),t("td",[t("FormulateInput",{attrs:{type:"textarea"},model:{value:e.content,callback:function(s){e.content=s},expression:"content"}}),e._v(e._s(c.description)+`
+            `)],1)]),e._v(" "),t("tr",[t("td",{staticStyle:{"text-align":"right"}},[e._v("Header")]),e._v(" "),t("td",[t("FormulateInput",{attrs:{type:"text",placeholder:"#",required:""},model:{value:e.header,callback:function(s){e.header=s},expression:"header"}}),e._v(e._s(c.header)+`
+            `)],1)]),e._v(" "),t("tr",[t("td",{staticStyle:{"text-align":"right"}},[e._v("Footer")]),e._v(" "),t("td",[t("FormulateInput",{attrs:{type:"text"},model:{value:e.footer,callback:function(s){e.footer=s},expression:"footer"}}),e._v(e._s(c.footer)+`
+            `)],1)]),e._v(" "),t("tr",[t("td",{staticStyle:{"text-align":"right"}},[e._v("Width")]),e._v(" "),t("td",[t("FormulateInput",{attrs:{type:"text"},model:{value:e.width,callback:function(s){e.width=s},expression:"width"}}),e._v(e._s(c.width)+`
+            `)],1)]),e._v(" "),t("tr",[t("td",{staticStyle:{"text-align":"right"}},[e._v("Height")]),e._v(" "),t("td",[t("FormulateInput",{attrs:{type:"text"},model:{value:e.height,callback:function(s){e.height=s},expression:"height"}}),e._v(e._s(c.height)+`
+            `)],1)]),e._v(" "),t("tr",[t("td",{staticStyle:{"text-align":"right"}},[e._v("Type")]),e._v(" "),t("td",[t("FormulateInput",{attrs:{type:"text"},model:{value:e.type,callback:function(s){e.type=s},expression:"type"}}),e._v(e._s(c.type)+`
+            `)],1)]),e._v(" "),t("tr",[t("td",{staticStyle:{"text-align":"right"}},[e._v("Media")]),e._v(" "),t("td",[t("FormulateInput",{attrs:{type:"text"},model:{value:e.media,callback:function(s){e.media=s},expression:"media"}}),e._v(e._s(c.media)+`
+            `)],1)]),e._v(" "),t("tr",[t("td",{staticStyle:{"text-align":"right"}},[e._v("Assigned To")]),e._v(" "),t("td",[t("FormulateInput",{attrs:{type:"text"},model:{value:e.assigned_to,callback:function(s){e.assigned_to=s},expression:"assigned_to"}}),e._v(e._s(c.assigned_to)+`
+            `)],1)])])])])])}),1)},m=[],o=r(6),p=r(546),b=r(42),x=r(158),n=r(990),i=r.n(n),a=r(606),d=r.n(a),h,v,F=Object(x.a)(h||(h=Object(p.a)([`
+  mutation delete_email_templates($id: Int!){
+  delete_email_templates(where: {id: {_eq: $id}}){
+    affected_rows
+  }
+}
+`]))),u=Object(x.a)(v||(v=Object(p.a)([`
+  mutation update_email_templates($id: Int!){
+  update_email_templates(where: {id: {_eq: $id}}){
+    affected_rows
+  }
+}
+`]))),f={head:{name:"Edit Email Template"},mounted:function(){this.forceRerender()},data:function(){return{componentKey:0}},methods:{deleteEmail_template:function(y){var t=this;return Object(o.a)(regeneratorRuntime.mark(function c(){return regeneratorRuntime.wrap(function(g){for(;;)switch(g.prev=g.next){case 0:return g.next=2,t.$apollo.mutate({mutation:F,variables:{id:y.id},refetchQueries:[{query:d.a}]}).then(function(){t.$router.push({path:"../admin/marketing/email_templates"})}).catch(function(O){return console.log(O)});case 2:case"end":return g.stop()}},c)}))()},updateEmail_template:function(y){var t=this;return Object(o.a)(regeneratorRuntime.mark(function c(){return regeneratorRuntime.wrap(function(g){for(;;)switch(g.prev=g.next){case 0:return g.next=2,t.$apollo.mutate({mutation:u,variables:{id:y.id},refetchQueries:[{query:d.a}]});case 2:case"end":return g.stop()}},c)}))()},forceRerender:function(){this.componentKey+=1}},apollo:{email_templates:{query:i.a,prefetch:function(y){var t=y.route;return{id:t.params.id}},variables:function(){return{id:this.$route.params.id}}}}},S=f,N=r(991),j=r(31),E=Object(j.a)(S,l,m,!1,null,null,null),w=k.default=E.exports},546:function(_,k,r){"use strict";r.d(k,"a",function(){return l});function l(m,o){return o||(o=m.slice(0)),Object.freeze(Object.defineProperties(m,{raw:{value:Object.freeze(o)}}))}},606:function(_,k){var r={kind:"Document",definitions:[{kind:"OperationDefinition",operation:"query",name:{kind:"Name",value:"MyQuery"},variableDefinitions:[],directives:[],selectionSet:{kind:"SelectionSet",selections:[{kind:"Field",name:{kind:"Name",value:"email_templates"},arguments:[],directives:[],selectionSet:{kind:"SelectionSet",selections:[{kind:"Field",name:{kind:"Name",value:"id"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"height"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"header"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"footer"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"created_at"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"content"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"assigned_to"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"active"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"insert_variable"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"media"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"name"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"subject"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"type"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"width"},arguments:[],directives:[]}]}}]}}],loc:{start:0,end:224}};r.loc.source={body:`query MyQuery {\r
+  email_templates {\r
+    id\r
+    height\r
+    header\r
+    footer\r
+    created_at\r
+    content\r
+    assigned_to\r
+    active\r
+    insert_variable\r
+    media\r
+    name\r
+    subject\r
+    type\r
+    width\r
+  }\r
+}\r
+`,name:"GraphQL request",locationOffset:{line:1,column:1}};var l={};function m(n){return n.filter(function(i){if(i.kind!=="FragmentDefinition")return!0;var a=i.name.value;return l[a]?!1:(l[a]=!0,!0)})}function o(n,i){if(n.kind==="FragmentSpread")i.add(n.name.value);else if(n.kind==="VariableDefinition"){var a=n.type;a.kind==="NamedType"&&i.add(a.name.value)}n.selectionSet&&n.selectionSet.selections.forEach(function(d){o(d,i)}),n.variableDefinitions&&n.variableDefinitions.forEach(function(d){o(d,i)}),n.definitions&&n.definitions.forEach(function(d){o(d,i)})}var p={};(function(){r.definitions.forEach(function(i){if(i.name){var a=new Set;o(i,a),p[i.name.value]=a}})})();function b(n,i){for(var a=0;a<n.definitions.length;a++){var d=n.definitions[a];if(d.name&&d.name.value==i)return d}}function x(n,i){var a={kind:n.kind,definitions:[b(n,i)]};n.hasOwnProperty("loc")&&(a.loc=n.loc);var d=p[i]||new Set,h=new Set,v=new Set;for(d.forEach(function(u){v.add(u)});v.size>0;){var F=v;v=new Set,F.forEach(function(u){if(!h.has(u)){h.add(u);var f=p[u]||new Set;f.forEach(function(S){v.add(S)})}})}return h.forEach(function(u){var f=b(n,u);f&&a.definitions.push(f)}),a}_.exports=r,_.exports.MyQuery=x(r,"MyQuery")},711:function(_,k,r){var l=r(992);l.__esModule&&(l=l.default),typeof l=="string"&&(l=[[_.i,l,""]]),l.locals&&(_.exports=l.locals);var m=r(52).default,o=m("01a49eaa",l,!0,{sourceMap:!1})},990:function(_,k){var r={kind:"Document",definitions:[{kind:"OperationDefinition",operation:"query",name:{kind:"Name",value:"MyQuery"},variableDefinitions:[{kind:"VariableDefinition",variable:{kind:"Variable",name:{kind:"Name",value:"id"}},type:{kind:"NamedType",name:{kind:"Name",value:"Int"}},directives:[]}],directives:[],selectionSet:{kind:"SelectionSet",selections:[{kind:"Field",name:{kind:"Name",value:"email_templates"},arguments:[{kind:"Argument",name:{kind:"Name",value:"where"},value:{kind:"ObjectValue",fields:[{kind:"ObjectField",name:{kind:"Name",value:"id"},value:{kind:"ObjectValue",fields:[{kind:"ObjectField",name:{kind:"Name",value:"_eq"},value:{kind:"Variable",name:{kind:"Name",value:"id"}}}]}}]}}],directives:[],selectionSet:{kind:"SelectionSet",selections:[{kind:"Field",name:{kind:"Name",value:"id"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"height"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"header"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"footer"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"created_at"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"content"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"assigned_to"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"active"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"insert_variable"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"media"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"name"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"subject"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"type"},arguments:[],directives:[]},{kind:"Field",name:{kind:"Name",value:"width"},arguments:[],directives:[]}]}}]}}],loc:{start:0,end:259}};r.loc.source={body:`query MyQuery ($id: Int){\r
+  email_templates (where: {id: {_eq: $id}}){\r
+    id\r
+    height\r
+    header\r
+    footer\r
+    created_at\r
+    content\r
+    assigned_to\r
+    active\r
+    insert_variable\r
+    media\r
+    name\r
+    subject\r
+    type\r
+    width\r
+  }\r
+}\r
+`,name:"GraphQL request",locationOffset:{line:1,column:1}};var l={};function m(n){return n.filter(function(i){if(i.kind!=="FragmentDefinition")return!0;var a=i.name.value;return l[a]?!1:(l[a]=!0,!0)})}function o(n,i){if(n.kind==="FragmentSpread")i.add(n.name.value);else if(n.kind==="VariableDefinition"){var a=n.type;a.kind==="NamedType"&&i.add(a.name.value)}n.selectionSet&&n.selectionSet.selections.forEach(function(d){o(d,i)}),n.variableDefinitions&&n.variableDefinitions.forEach(function(d){o(d,i)}),n.definitions&&n.definitions.forEach(function(d){o(d,i)})}var p={};(function(){r.definitions.forEach(function(i){if(i.name){var a=new Set;o(i,a),p[i.name.value]=a}})})();function b(n,i){for(var a=0;a<n.definitions.length;a++){var d=n.definitions[a];if(d.name&&d.name.value==i)return d}}function x(n,i){var a={kind:n.kind,definitions:[b(n,i)]};n.hasOwnProperty("loc")&&(a.loc=n.loc);var d=p[i]||new Set,h=new Set,v=new Set;for(d.forEach(function(u){v.add(u)});v.size>0;){var F=v;v=new Set,F.forEach(function(u){if(!h.has(u)){h.add(u);var f=p[u]||new Set;f.forEach(function(S){v.add(S)})}})}return h.forEach(function(u){var f=b(n,u);f&&a.definitions.push(f)}),a}_.exports=r,_.exports.MyQuery=x(r,"MyQuery")},991:function(_,k,r){"use strict";var l=r(711),m=r.n(l)},992:function(_,k,r){var l=r(51),m=l(!1);m.push([_.i,"input,option,select{padding:5px}",""]),_.exports=m}}]);

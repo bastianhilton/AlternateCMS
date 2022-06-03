@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/admin/customers/social-groups", {data:[{_img:{}}],fetch:{},mutations:[]});

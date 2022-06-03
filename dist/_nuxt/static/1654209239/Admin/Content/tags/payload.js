@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/Admin/Content/tags", {data:[{_img:{}}],fetch:{},mutations:[]});

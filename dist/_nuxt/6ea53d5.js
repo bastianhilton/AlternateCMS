@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[116],{811:function(t,e,n){"use strict";n.r(e);var l={head:{title:"Integrations"}},r=n(35),component=Object(r.a)(l,(function(){var t=this.$createElement;return(this._self._c||t)("div")}),[],!1,null,null,null);e.default=component.exports}}]);

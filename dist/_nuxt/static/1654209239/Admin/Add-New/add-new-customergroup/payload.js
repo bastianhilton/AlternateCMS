@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/admin/add-new/add-new-customergroup", {data:[{_img:{}}],fetch:{},mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fr/Admin/Add-New/add-new-lead", {data:[{_img:{}}],fetch:{},mutations:[]});

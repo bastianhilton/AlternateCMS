@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/admin/sales/certificates", {data:[{_img:{}}],fetch:{},mutations:[]});

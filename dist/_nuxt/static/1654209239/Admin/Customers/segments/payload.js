@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/admin/customers/segments", {data:[{_img:{}}],fetch:{},mutations:[]});

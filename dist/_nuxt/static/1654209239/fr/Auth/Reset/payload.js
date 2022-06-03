@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fr/Auth/Reset", {data:[{_img:{}}],fetch:{},mutations:[]});
