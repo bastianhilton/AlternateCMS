@@ -111,52 +111,78 @@
 </template>
 
 <script>
+import gql from "graphql-tag";
+import { agreements } from "~/apollo/queries/sales/agreements";
 
-  export default {
+const ADD_AGREEMENTS = gql`
+    mutation ($name:String!,$excerpt:String,$type:String,$content:String,$image:String){
+    insert_agreements(objects: {name: $name, excerpt: $excerpt, type: $type, content: $content, image: $image}) {
+        affected_rows
+        returning {
+            name
+            excerpt
+            type
+            content
+            image
+    }
+  }
+}`;
+
+export default {
     data() {
-      return {
+    return {
         type: [],
         name: " ",
         excerpt: " ",
         content: " ",
         image: " ",
-
+        
       }
-    },
+  },
     head: {
-      title: 'Add New Agreement'
+        title: 'Add New Agreement'
     },
-    methods: {
-      // eslint-disable-next-line object-shorthand
-      addAgreement: async function (e) {
-        e.preventDefault()
-        const body = {
-          name: this.name,
-          content: this.content,
-          excerpt: this.excerpt,
-          type: this.type,
-          image: this.image,
-        }
-        try {
-          const res = await fetch(`http://localhost:8000/api/agreement`, {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json'
+  methods: {
+      async addAgreement() {
+            const name = this.name;
+            const content = this.content;
+            const excerpt = this.excerpt;
+            const type = this.type;
+            const image = this.image;
+            await this.$apollo.mutate({
+                mutation: ADD_AGREEMENTS,
+                variables: {
+                    name,
+                    excerpt,
+                    type,
+                    content,
+                    image,
+                },
+        update: (cache, { data: { insertAgreements }}) => {
+                        // Read data from cache for this query
+                        try {
+                            const insertedAgreement = insertAgreements.returning;
+                            console.log(insertedAgreement)
+                            cache.writeQuery({
+                                query: agreements
+                            })
+                        }
+                        catch (err) {
+                            console.error(err)
+                        }
+                    }
+                }).then(() => {
+                    this.$router.push({path: '../sales/agreements'})
+                }).catch(err => console.log(err));
+                this.name = ' ';
+                this.excerpt = ' ';
+                this.type = ' ';
+                this.content = ' ';
+                this.image = ' ';
             },
-            body: JSON.stringify(body),
-          })
-          // eslint-disable-next-line no-unused-vars
-          const data = await res.json()
-          await this.$router.push({
-            name: 'agreements'
-          })
-        } catch (error) {
-          console.error(error)
+            
         }
-      },
-    }
-  }
-
+}
 </script>
 
 <style>

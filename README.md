@@ -1,17 +1,17 @@
 # AlternateCMS
 AlternateCMS
 
-A powerful, consistent, and flexible content management framework. Built using the Nuxtjs framework, AlternateCMS provides traditional and headless content management system capabilities for sites of all types. 
+A powerful, consistent, and flexible headless content management framework. Built using the Nuxtjs framework, AlternateCMS provides headless content management system capabilities for sites of all types. 
 
 ## Features include:
 
 Since AlternateCMS is powered by Nuxtjs it support all of Nuxtjs and Vuejs features and hundreds of modules.
 
-- Integrated with Graphql-Mesh to provide a powerful graphql server that can connect to almost anything.
-- Integrated with Prisma, an ORM that allows AlternateCMS to connect to Mysql, PostgreSQL, MongoDB, SQLite, CockroachDB, and more
+- A powerful graphql server that can connect to almost anything.
+- AlternateCMS supports Mysql, PostgreSQL, MongoDB, SQLite, CockroachDB, and SQL Server
 - Blog Functionality with tags
 - Theme and Extensions support
-- Unlimited Products with product attributes
+- Unlimited Products with product attributes and product types
 - Per page & entire system SEO
 - Audio and Video management
 - Integrated File System Manager
@@ -24,7 +24,7 @@ Since AlternateCMS is powered by Nuxtjs it support all of Nuxtjs and Vuejs featu
 - Enhanced Security with monthly updates
 - Integrated with Bootstrap and Fontawesome
 - Multi-lingual support
-- Sales features including creation of agreements, integrated Braintree Terminal, and Sales reports
+- Sales features including creation of agreements, invoices, transactions, returns, Sales reports, and more
 - Charts on main dashboard
 - Customer management features including creating, deleting customers, users, staff members
 - Manage cities, countries, states, tax rates, and tax rules
@@ -35,6 +35,9 @@ Since AlternateCMS is powered by Nuxtjs it support all of Nuxtjs and Vuejs featu
 - Mobile and Desktop support
 - Docker Support
 - Integrated PM2 support
+- Built in CRM (Customer Relationship Management) including Cases, Opportunities, Tasks, Accounts, Meetings, Contracts, Leads, Campaigns, Quotes, and more.
+- Built in ERP (Enterprise Resource Planning) includes Project Management, Checklist, Error Reporting, Visits, Team Scheduler, Deep Dives, Dashboard Creations
+- Built on top of Nuxtjs
 
 and much more. Take a look at www.alternatecms.com 
 
@@ -48,7 +51,8 @@ Nodejs = https://nodejs.org/en/
 
 We recommend postgres as the database 
 
-1. git clone https://github.com/bastianhilton/alternatenuxt
-2. npm install 
-3. prisma migrate deploy
-4. npm run dev
+1. git clone https://github.com/bastianhilton/alternatecms
+2. cd alternatecms
+3. npm install 
+4. prisma migrate deploy
+5. npm run dev

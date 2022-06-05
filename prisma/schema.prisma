@@ -18,10 +18,10 @@ model articles {
   users            String?
   published        String?
   cust_id          Int     @default(autoincrement())
+  isPublic         String?
+  meta_description String?
   meta_name        String?
   meta_url         String?
-  meta_description String?
-  isPublic         String?
   tags             String?
 }
 
@@ -312,17 +312,10 @@ model polls {
 
 model product_attribute {
   id                                Int                     @id @default(autoincrement())
-  attribute_class                   String?
-  isPublic                          String?
-  faceted_navigation                Boolean?
+  default_label                     String?
   attribute_code                    String?
-  column_options                    String?
-  meta_name                         Boolean?
-  meta_url                          String?
-  meta_description                  String?
   filter_options                    String?
   use_search                        String?
-  attribute_value                   String?
   layered_navigation                Boolean?
   search_results_layered_navigation Boolean?
   position                          String?
@@ -332,7 +325,14 @@ model product_attribute {
   used_product_listing              Boolean?
   used_sorting_product_listing      Boolean?
   prod_id                           BigInt                  @default(autoincrement())
-  default_label                     String?
+  attribute_class                   String?
+  attribute_value                   String?
+  column_options                    String?
+  faceted_navigation                Boolean?
+  isPublic                          String?
+  meta_description                  String?
+  meta_name                         Boolean?
+  meta_url                          String?
   products                          products                @relation(fields: [prod_id], references: [id])
   product_attribute_set             product_attribute_set[]
 }
@@ -401,36 +401,36 @@ model quotes {
   cust_id                     Int       @default(autoincrement())
   prod_id                     BigInt    @default(autoincrement())
   order_id                    Int       @default(autoincrement())
-  invoice_status              String?
-  payment_terms               String?
-  assigned_to                 String?
-  approval_status             String?
-  approval_issues             String?
   account                     String?
-  contact                     String?
-  billing_street              String?
+  approval_issues             String?
+  approval_status             String?
+  assigned_to                 String?
   billing_city                String?
-  billing_state               String?
-  billing_postal              String?
   billing_country             String?
-  shipping_street             String?
-  shipping_city               String?
-  shipping_state              String?
-  shipping_postal             String?
-  shipping_country            String?
+  billing_postal              String?
+  billing_state               String?
+  billing_street              String?
+  contact                     String?
   currency                    String?
-  total                       String?
-  subtotal                    String?
   discount                    String?
-  shipping                    String?
-  shipping_tax                String?
-  tax                         String?
-  line_item_name              String?
-  line_item_total             String?
-  line_item_subtotal          String?
+  invoice_status              String?
   line_item_discount          String?
-  line_item_tax               String?
   line_item_group_total       String?
+  line_item_name              String?
+  line_item_subtotal          String?
+  line_item_tax               String?
+  line_item_total             String?
+  payment_terms               String?
+  shipping                    String?
+  shipping_city               String?
+  shipping_country            String?
+  shipping_postal             String?
+  shipping_state              String?
+  shipping_street             String?
+  shipping_tax                String?
+  subtotal                    String?
+  tax                         String?
+  total                       String?
   customers_customersToquotes customers @relation(fields: [cust_id], references: [id])
   orders                      orders    @relation(fields: [order_id], references: [id])
   products_productsToquotes   products  @relation(fields: [prod_id], references: [id])
@@ -485,9 +485,9 @@ model shipments {
   tracking_url  String?
   image         String?
   id            BigInt    @id @default(autoincrement())
-  country       String?
   client_id     String?
   client_secret String?
+  country       String?
   website       String?
 }
 
@@ -740,14 +740,14 @@ model customer_group {
 
 model emails {
   id         Int       @id @default(autoincrement())
-  from       String?
   created_at DateTime? @default(now()) @db.Timestamp(6)
   subject    String?
   content    String?
-  cc         String?
   cust_id    Int       @default(autoincrement())
-  media      String?
   bcc        String?
+  cc         String?
+  from       String?
+  media      String?
   staff_id   Int?
   customers  customers @relation(fields: [cust_id], references: [id])
   users      users?    @relation(fields: [staff_id], references: [id])
@@ -893,9 +893,9 @@ model warehouse {
   postal      String?
   status      String?
   image       String?
-  isPublic    String?
   products    String?
   category    String?
+  isPublic    String?
 }
 
 model apitoken {

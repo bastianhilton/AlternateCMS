@@ -75,11 +75,10 @@ export default {
     { src: '~/plugins/ecommerce/pa-dss.js', ssr: false },
     { src: '~/plugins/client.js', ssr: false },
     { src: '~/plugins/extensions/datatables.js', ssr: false },
-    { src: '~/plugins/extensions/vue-formulate.js', ssr: false },
     { src: '~/plugins/axios'},
-    // { src: '~/plugins/email.js', ssr: false },
+    // { src: '~/plugins/extensions/email.js', ssr: false },
     { src: '~/plugins/upload.js', ssr: false },
-    // { src: '~/plugins/vue-chart.js', ssr: false },
+    { src: '~/plugins/extensions/charts.js', ssr: false },
   ],
 
   components: true,

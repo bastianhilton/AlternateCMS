@@ -32,6 +32,9 @@
   "Visitsdisplay": {
     "description": "Auto imported from components/visitsdisplay.vue"
   },
+  "DashboardCharts": {
+    "description": "Auto imported from components/dashboard/charts.vue"
+  },
   "ImportProducts": {
     "description": "Auto imported from components/import/import-products.vue"
   },
@@ -94,6 +97,15 @@
   },
   "SettingsWebhooks": {
     "description": "Auto imported from components/settings/webhooks.vue"
+  },
+  "DashboardBestsellers": {
+    "description": "Auto imported from components/dashboard/bestsellers/bestsellers.vue"
+  },
+  "DashboardChartsChartRenderer": {
+    "description": "Auto imported from components/dashboard/charts/ChartRenderer.vue"
+  },
+  "DashboardMostviewed": {
+    "description": "Auto imported from components/dashboard/mostviewed/mostviewed.vue"
   },
   "DashboardOrders": {
     "description": "Auto imported from components/dashboard/orders/orders.vue"

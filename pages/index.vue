@@ -1,19 +1,11 @@
 <template>
   <div>
-    <!--<div class="row">
-        <div class="col">
-            <highchart :options="chartOptions" :update="['options.title', 'options.series']" />
-        </div>
-        <div class="col">
-            <div v-headway></div>
-        </div>
-    </div>-->
+    <!--<charts />-->
     <div class="row">
         <sales />
         <orders />
         <searchterms />
         </div>
-        <!-- Pills navs -->
         <ul id="ex1" class="nav nav-pills nav-fill mb-3" role="tablist">
             <li class="nav-item" role="presentation">
                 <a id="ex2-tab-1" class="nav-link active" data-mdb-toggle="pill" href="#ex2-pills-1" role="tab"
@@ -41,64 +33,10 @@
         <!-- Pills content -->
         <div id="ex2-content" class="tab-content">
             <div id="ex2-pills-1" class="tab-pane fade show active" role="tabpanel" aria-labelledby="ex2-tab-1">
-                <div class="table table-responsive table-bordered latestOrders col">
-                    <table class="table" >
-                        <thead>
-                            <tr>
-                                <th>Product</th>
-                                <th>Price</th>
-                                <th>Quantity</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <mostviewed />
             </div>
             <div id="ex2-pills-2" class="tab-pane fade" role="tabpanel" aria-labelledby="ex2-tab-2">
-                <div class="table table-responsive table-bordered latestOrders col">
-                    <table class="table" >
-                        <thead>
-                            <tr>
-                                <th>Product</th>
-                                <th>Price</th>
-                                <th>How Many Times Viewed</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">1</th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">2</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3</th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <bestsellers />
             </div>
             <div id="ex2-pills-3" class="tab-pane fade" role="tabpanel" aria-labelledby="ex2-tab-3">
                 <Newcustomers />
@@ -115,15 +53,28 @@
 
 <script>
 // import products from '~/apollo/queries/shop/products'
+// import charts from '~/components/dashboard/charts'
 import Customerslimit from '~/components/customerslimit'
 import Newcustomers from '~/components/newcustomers'
 import Reviewslimit from '~/components/reviewslimit'
 import searchterms from '~/components/dashboard/searchterms/searchterms'
 import sales from '~/components/dashboard/sales/sales'
 import orders from '~/components/dashboard/orders/orders'
+import mostviewed from '~/components/dashboard/mostviewed/mostviewed'
+import bestsellers from '~/components/dashboard/bestsellers/bestsellers'
 
 export default {
-  components: { Newcustomers, Customerslimit, Reviewslimit, searchterms, sales, orders},
+  components: { 
+      Newcustomers, 
+      Customerslimit, 
+      Reviewslimit, 
+      searchterms, 
+      sales, 
+      orders, 
+      mostviewed, 
+      bestsellers,
+    // charts
+  },
 
   layout: 'dashboard',
   head: {
