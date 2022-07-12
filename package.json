@@ -79,7 +79,7 @@
     "@nuxtjs/universal-storage": "^0.5.9",
     "@paypal/paypal-js": "^5.0.2",
     "@paypal/sdk-client": "^4.0.167",
-    "@sentry/tracing": "^6.16.1",
+    "@sentry/tracing": "^7.6.0",
     "@sentry/vue": "^6.16.1",
     "@supabase/supabase-js": "^1.30.7",
     "@vue/composition-api": "^1.6.1",
