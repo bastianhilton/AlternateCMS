@@ -1,69 +1,76 @@
-# alternatecms
+# AlternateCMS
 
-## Build Setup
+A powerful, consistent, and flexible headless content management framework. Built using the Nuxtjs framework, AlternateCMS provides headless content management system capabilities for sites of all types. 
 
-```bash
-# install dependencies
-$ npm install
+## Features include:
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+- AlternateCMS supports PostgresSQL, Postgraphile, Supabase, and Hasura with easy integration
+- Blog Functionality with tags
+- Extendible system that supports Nuxtjs and Vuejs modules
+- Inventory Management System with support for Unlimited Products with product attributes and product types, categories, multi-channel creation, graphql
+- Per page & entire system SEO
+- Integrated File System Manager
+- Powerful Search capabilities
+- User authentication and authorization 
+- Graphql support & Rest Apis with Rest Documentation
+- Integrated reporting tools and Sentry integration
+- Paypal & Stripe payment methods
+- Easily deploy with Netlify
+- Enhanced Security with monthly updates
+- Designed with Bootstrap and Fontawesome
+- Multi-lingual support
+- Sales features including creation of agreements, invoices, transactions, returns, Sales reports, and more
+- Dashboard sneek peak with your data
+- Customer management features including creating & managing customers, cases, opportunities, todo lists, meetings, contracts, leads, campaigns, quotes, leads, projects, tickets, and more.
+- Manage cities, countries, states, tax rates, and tax rules
+- Media Manager with support for media comments, watermarks, sharing, downloading, retail, wholesale, multi-channel support, create galleries, save to s3 or filesystem
+- Filterable datatables with export functionality
+- PWA Support
+- Mobile, Desktop, and Docker support
+- Built in ERP (Enterprise Resource Planning) includes Project Management, Checklist, Error Reporting, Visits, Team Scheduler, Deep Dives, Dashboard Creations.
+- Built in LMS (Learning Management System) includes Course Creation, Assign instructors, students, different forms of media, create digital schools, badges, announcements, training material, integrates with products, polls, checklists, cities, states, countries, create meetups, Digital Boards (digiboards), and labs
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+and much more. Take a look at www.alternatecms.com 
 
-# generate static project
-$ npm run generate
-```
+## Prerequisites:
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+You will need:
 
-## Special Directories
+Git = https://git-scm.com/
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+Nodejs = https://nodejs.org/en/
 
-### `assets`
+We recommend postgres as the database 
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
+rename .sample.env file to .env 
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
+Add your database type to DATABASE_PROVIDER, example is DATABASE_PROVIDER="postgresql" (" " are required)
 
-### `components`
+Add your database credentials to DATABASE_URL, example is DATABASE_URL=postgresql://databaseusername:databasepassword@databasehost:5432/databasename
 
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
+## Steps to Install - 10 Minute Install
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
+1. git clone https://github.com/meeovi/alternatecms
+2. cd alternatecms
+3. npm install
+4. npm run all
 
-### `layouts`
+AlternateCMS will be at: http://localhost:8000
 
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
+AlternateCMS API Documentation is located at: http://localhost:5858
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+## If you have an existing database
 
+1. git clone https://github.com/meeovi/alternatecms
+2. cd alternatecms
+3. npm install
+4. prisma db pull
+5. npm run all
 
-### `pages`
+AlternateCMS will be at: http://localhost:8000
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+AlternateCMS Graphiql Playground will be at: http://localhost:4002/graphql
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+AlternateCMS API Documentation is located at: http://localhost:5858
 
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+More installation and deployment details are located at https://docs.alternatecms.com
