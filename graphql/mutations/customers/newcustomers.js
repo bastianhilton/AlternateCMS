@@ -1,0 +1,38 @@
+import gql from 'graphql-tag';
+
+export default {
+  methods: {
+    async fetchSomething() {
+      const query = gql `
+query {
+  allcustomers(limit: 5, order_by: {customer_since: asc}) {
+    Address
+    address_two
+    confirmed_email
+    country
+    customer_group
+    customer_since
+    date_of_birth
+    description
+    email
+    first_name
+    gender
+    id
+    image
+    websites
+    thumbnail
+    tax_vat_number
+    state
+    short_description
+    product
+    phone
+    name_suffix
+    name_prefix
+    middle_name
+    last_name
+    zipcode
+  }
+}`
+    }
+  }
+}
