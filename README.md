@@ -4,7 +4,7 @@ A powerful, consistent, and flexible headless content management framework. Buil
 
 ## Features include:
 
-- AlternateCMS supports PostgresSQL, Postgraphile, Supabase, and Hasura with easy integration
+- AlternateCMS supports PostgresSQL, MySQL, SQLite, SQL Server, MongoDB, CockroachDB, Supabase, and Hasura with easy integration
 - Blog Functionality with tags
 - Extendible system that supports Nuxtjs and Vuejs modules
 - Inventory Management System with support for Unlimited Products with product attributes and product types, categories, multi-channel creation, graphql

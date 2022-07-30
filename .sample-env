@@ -18,6 +18,10 @@ DB_USER=""
 DB_PASSWORD=""
 DB_DATABASE=""
 
+# SQLITE3 Filename
+
+SQLITE_FILENAME="./mydb.sqlite"
+
 # RECAPTCHA Credentials
 
 RECAPTCHA_SITE_KEY=""

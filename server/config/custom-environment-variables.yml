@@ -1,0 +1,5 @@
+default:
+  service:
+    port: "PORT"
+  mq:
+    host: "MQ_HOST"
