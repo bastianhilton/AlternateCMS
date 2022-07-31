@@ -1,0 +1,19 @@
+
+query orders {
+  findManyOrders {
+    action
+    allocatedSources
+    billToName
+    braintreeTransactionSource
+    custId
+    grandTotalBase
+    grandTotalPurchased
+    id
+    nodeId
+    prodId
+    purchaseDate
+    purchasePoint
+    status
+    shipToName
+  }
+}

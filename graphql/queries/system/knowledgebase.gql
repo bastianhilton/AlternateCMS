@@ -1,0 +1,16 @@
+
+query knowledgebases {
+  findManyKnowledgebases {
+    approver
+    author
+    content
+    createdAt
+    dateModified
+    id
+    name
+    nodeId
+    resolution
+    revision
+    status
+  }
+}

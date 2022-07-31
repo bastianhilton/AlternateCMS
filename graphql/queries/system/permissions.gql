@@ -1,0 +1,16 @@
+
+query permissions {
+  findManyPermissions {
+    content
+    create
+    createdAt
+    delete
+    id
+    name
+    nodeId
+    read
+    role
+    update
+    users
+  }
+}

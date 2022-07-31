@@ -1,0 +1,14 @@
+
+query reviewsLimit {
+  findManyReviews(first: 5) {
+    id
+    firstName
+    createdAt
+    content
+    commentId
+    lastName
+    nodeId
+    shopId
+    websites
+  }
+}

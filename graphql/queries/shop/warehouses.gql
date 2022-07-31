@@ -1,0 +1,19 @@
+
+query warehouses {
+  findManyWarehouses {
+    status
+    state
+    products
+    postal
+    nodeId
+    name
+    isPublic
+    image
+    id
+    description
+    createdAt
+    country
+    city
+    category
+  }
+}

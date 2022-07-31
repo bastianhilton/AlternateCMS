@@ -1,0 +1,14 @@
+
+query websites {
+  findManyWebsites {
+    url
+    store
+    shop
+    name
+    id
+    createdAt
+    nodeId
+    image
+    category
+  }
+}

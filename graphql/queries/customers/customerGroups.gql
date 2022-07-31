@@ -1,0 +1,11 @@
+
+query customerGroups {
+  findManyCustomerGroups {
+    id
+    name
+    nodeId
+    taxClass
+    createdAt
+    custId
+  }
+}

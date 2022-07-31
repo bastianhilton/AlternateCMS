@@ -1,0 +1,18 @@
+
+query agreements($id: Int) {
+  createOneAgreements(where: {id: {_eq: $id}}) {
+    id
+    image
+    name
+    reference_id
+    type
+    updated
+    excerpt
+    created
+    content
+    user_id
+  }
+}
+
+
+  

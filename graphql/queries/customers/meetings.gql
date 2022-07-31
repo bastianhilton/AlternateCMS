@@ -1,0 +1,19 @@
+
+query meetings {
+  findManyMeetings {
+    assignedTo
+    content
+    createdAt
+    duration
+    endDate
+    id
+    invitees
+    nodeId
+    relatedTo
+    reminders
+    scheduling
+    startDate
+    status
+    subject
+  }
+}

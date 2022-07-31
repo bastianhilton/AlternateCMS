@@ -1,0 +1,14 @@
+
+query reviews {
+  findManyReviews {
+    id
+    firstName
+    createdAt
+    content
+    commentId
+    lastName
+    nodeId
+    shopId
+    websites
+  }
+}

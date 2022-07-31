@@ -1,0 +1,33 @@
+
+query targets {
+  findManyTargets {
+    accountName
+    address
+    altAddress
+    altCity
+    altCountry
+    altPostalcode
+    altState
+    city
+    country
+    createdAt
+    customerName
+    department
+    description
+    donotcall
+    email
+    emailOptOut
+    fax
+    firstName
+    id
+    jobTitle
+    lastName
+    mobile
+    nodeId
+    officePhone
+    postalcode
+    prefix
+    state
+    website
+  }
+}

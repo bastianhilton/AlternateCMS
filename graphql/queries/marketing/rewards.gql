@@ -1,0 +1,18 @@
+
+query rewards {
+  findManyRewards {
+    users
+    slug
+    products
+    nodeId
+    name
+    level
+    id
+    expiration
+    customers
+    createdAt
+    coupons
+    categories
+    articles
+  }
+}

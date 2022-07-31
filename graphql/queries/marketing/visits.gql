@@ -1,0 +1,17 @@
+
+query visits {
+  findManyVisits {
+    content
+    createdAt
+    emergency
+    endDate
+    id
+    location
+    meeting
+    nodeId
+    reason
+    startDate
+    task
+    username
+  }
+}

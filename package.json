@@ -30,8 +30,9 @@
     "prisma"
   ],
   "scripts": {
-    "dev": "nuxt dev && ts-node server/index.ts",
+    "dev": "nuxt dev",
     "start": "nuxt start",
+    "yoga": "ts-node server/index.ts",
     "build": "nuxt build",
     "generate": "nuxt generate",
     "prisma-dev": "npx prisma generate",
@@ -41,12 +42,17 @@
     "lintfix": "npm run lint:js -- --fix",
     "test:e2e": "nightwatch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "all": "npm-run-all --parallel dev prisma-dev"
+    "all": "npm-run-all --parallel dev yoga"
   },
   "dependencies": {
-    "@apollo/explorer": "^1.1.1",
     "@apollo/sandbox": "^0.2.1",
+    "@envelop/core": "^2.4.1",
+    "@envelop/live-query": "^3.4.1",
+    "@envelop/parser-cache": "^4.5.1",
+    "@envelop/validation-cache": "^4.5.1",
+    "@graphql-yoga/node": "^2.13.5",
     "@nuxt/content": "^1.15.1",
+    "@nuxtjs/apollo": "^4.0.1-rc.5",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/i18n": "^7.2.0",
     "@nuxtjs/moment": "^1.6.1",
@@ -68,12 +74,12 @@
     "dotenv": "^16.0.1",
     "dotenv-cli": "^5.1.0",
     "dropzone": "^6.0.0-beta.2",
-    "eslint-plugin-nuxt": "^3.2.0",
     "formidable": "^2.0.1",
     "formiojs": "^4.14.8",
     "graphql-fields": "^2.0.3",
     "graphql-scalars": "^1.17.0",
     "graphql-tag": "^2.12.6",
+    "graphql-yoga": "^2.13.5",
     "helmet": "^5.0.1",
     "js-yaml": "^4.1.0",
     "lerna": "^5.3.0",
@@ -95,16 +101,12 @@
     "webpack": "^4.46.0"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "^7.16.3",
-    "@nuxtjs/eslint-config": "^8.0.0",
-    "@nuxtjs/eslint-module": "^3.0.2",
     "@prisma/client": "^4.1.0",
     "chromedriver": "^96.0.0",
     "express": "^4.18.1",
     "graphql": "^15.8.0",
     "nightwatch": "^1.7.12",
     "npm-run-all": "^4.1.5",
-    "nuxt-graphql-request": "^5.2.0",
     "prisma": "^4.1.0"
   },
   "engines": {

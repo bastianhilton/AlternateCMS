@@ -1,0 +1,18 @@
+
+query surveys {
+  findManySurveys {
+    answer
+    assignedTo
+    createdAt
+    description
+    dissatisfiedText
+    id
+    name
+    neitherText
+    nodeId
+    question
+    satisfiedText
+    status
+    submitText
+  }
+}

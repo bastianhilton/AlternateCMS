@@ -26,7 +26,8 @@ export default {
     ],
     script: [
       { src: '/mdb/plugins/js/all.min.js', mode: 'client' },
-      { src: '/mdb/js/mdb.min.js', mode: 'client' }
+      { src: '/mdb/js/mdb.min.js', mode: 'client' },
+      { src: 'https://embeddable-sandbox.cdn.apollographql.com/_latest/embeddable-sandbox.umd.production.min.js', mode: 'client' }
     ]
   },
 
@@ -45,7 +46,6 @@ export default {
   components: true,
 
   buildModules: [
-    '@nuxtjs/eslint-module',
     '@nuxtjs/moment'
   ],
 
@@ -57,25 +57,13 @@ export default {
     // '@nuxtjs/recaptcha',
     'nuxt-stripe-module',
     'nuxt-highcharts',
-    'nuxt-graphql-request'
+    '@nuxtjs/apollo',
   ],
 
-  graphql: {
-
-    clients: {
-      default: {
-        endpoint: 'https://studio.apollographql.com/sandbox/explorer',
-        options: {}
-      },
-      secondClient: {
-      }
-    },
-
-    options: {
-      method: 'get' // Default to `POST`
-    },
-    useFetchPolyfill: true,
-    includeNodeModules: true
+  apollo: {
+    clientConfigs: {
+      default: '~/graphql/clientConfig.js'
+    }
   },
 
   stripe: {

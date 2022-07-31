@@ -1,0 +1,31 @@
+import { GraphQLResolveInfo } from "graphql";
+import { AggregateNewsletter_subscribersArgs } from "./args/AggregateNewsletter_subscribersArgs";
+import { CreateManyNewsletter_subscribersArgs } from "./args/CreateManyNewsletter_subscribersArgs";
+import { CreateOneNewsletter_subscribersArgs } from "./args/CreateOneNewsletter_subscribersArgs";
+import { DeleteManyNewsletter_subscribersArgs } from "./args/DeleteManyNewsletter_subscribersArgs";
+import { DeleteOneNewsletter_subscribersArgs } from "./args/DeleteOneNewsletter_subscribersArgs";
+import { FindFirstNewsletter_subscribersArgs } from "./args/FindFirstNewsletter_subscribersArgs";
+import { FindManyNewsletter_subscribersArgs } from "./args/FindManyNewsletter_subscribersArgs";
+import { FindUniqueNewsletter_subscribersArgs } from "./args/FindUniqueNewsletter_subscribersArgs";
+import { GroupByNewsletter_subscribersArgs } from "./args/GroupByNewsletter_subscribersArgs";
+import { UpdateManyNewsletter_subscribersArgs } from "./args/UpdateManyNewsletter_subscribersArgs";
+import { UpdateOneNewsletter_subscribersArgs } from "./args/UpdateOneNewsletter_subscribersArgs";
+import { UpsertOneNewsletter_subscribersArgs } from "./args/UpsertOneNewsletter_subscribersArgs";
+import { Newsletter_subscribers } from "../../../models/Newsletter_subscribers";
+import { AffectedRowsOutput } from "../../outputs/AffectedRowsOutput";
+import { AggregateNewsletter_subscribers } from "../../outputs/AggregateNewsletter_subscribers";
+import { Newsletter_subscribersGroupBy } from "../../outputs/Newsletter_subscribersGroupBy";
+export declare class Newsletter_subscribersCrudResolver {
+    aggregateNewsletter_subscribers(ctx: any, info: GraphQLResolveInfo, args: AggregateNewsletter_subscribersArgs): Promise<AggregateNewsletter_subscribers>;
+    createManyNewsletter_subscribers(ctx: any, info: GraphQLResolveInfo, args: CreateManyNewsletter_subscribersArgs): Promise<AffectedRowsOutput>;
+    createOneNewsletter_subscribers(ctx: any, info: GraphQLResolveInfo, args: CreateOneNewsletter_subscribersArgs): Promise<Newsletter_subscribers>;
+    deleteManyNewsletter_subscribers(ctx: any, info: GraphQLResolveInfo, args: DeleteManyNewsletter_subscribersArgs): Promise<AffectedRowsOutput>;
+    deleteOneNewsletter_subscribers(ctx: any, info: GraphQLResolveInfo, args: DeleteOneNewsletter_subscribersArgs): Promise<Newsletter_subscribers | null>;
+    findFirstNewsletter_subscribers(ctx: any, info: GraphQLResolveInfo, args: FindFirstNewsletter_subscribersArgs): Promise<Newsletter_subscribers | null>;
+    findManyNewsletter_subscribers(ctx: any, info: GraphQLResolveInfo, args: FindManyNewsletter_subscribersArgs): Promise<Newsletter_subscribers[]>;
+    findUniqueNewsletter_subscribers(ctx: any, info: GraphQLResolveInfo, args: FindUniqueNewsletter_subscribersArgs): Promise<Newsletter_subscribers | null>;
+    groupByNewsletter_subscribers(ctx: any, info: GraphQLResolveInfo, args: GroupByNewsletter_subscribersArgs): Promise<Newsletter_subscribersGroupBy[]>;
+    updateManyNewsletter_subscribers(ctx: any, info: GraphQLResolveInfo, args: UpdateManyNewsletter_subscribersArgs): Promise<AffectedRowsOutput>;
+    updateOneNewsletter_subscribers(ctx: any, info: GraphQLResolveInfo, args: UpdateOneNewsletter_subscribersArgs): Promise<Newsletter_subscribers | null>;
+    upsertOneNewsletter_subscribers(ctx: any, info: GraphQLResolveInfo, args: UpsertOneNewsletter_subscribersArgs): Promise<Newsletter_subscribers>;
+}

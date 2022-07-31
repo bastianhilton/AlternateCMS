@@ -1,0 +1,13 @@
+
+query returns {
+  findManyReturns {
+    createdAt
+    custId
+    id
+    name
+    nodeId
+    prodId
+    returnPrefix
+    validity
+  }
+}

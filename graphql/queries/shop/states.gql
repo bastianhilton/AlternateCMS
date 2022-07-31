@@ -1,0 +1,11 @@
+
+query states {
+  findManyStates {
+    country
+    description
+    id
+    image
+    name
+    nodeId
+  }
+}

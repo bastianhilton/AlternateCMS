@@ -1,0 +1,15 @@
+
+query agreements($id: Int) {
+  createOneKnowledgebase(where: {id: {_eq: $id}}) {
+    id
+    date_modified
+    created_at
+    content
+    author
+    approver
+    name
+    resolution
+    revision
+    status
+  }
+}

@@ -1,0 +1,31 @@
+import { GraphQLResolveInfo } from "graphql";
+import { AggregateOccassionsArgs } from "./args/AggregateOccassionsArgs";
+import { CreateManyOccassionsArgs } from "./args/CreateManyOccassionsArgs";
+import { CreateOneOccassionsArgs } from "./args/CreateOneOccassionsArgs";
+import { DeleteManyOccassionsArgs } from "./args/DeleteManyOccassionsArgs";
+import { DeleteOneOccassionsArgs } from "./args/DeleteOneOccassionsArgs";
+import { FindFirstOccassionsArgs } from "./args/FindFirstOccassionsArgs";
+import { FindManyOccassionsArgs } from "./args/FindManyOccassionsArgs";
+import { FindUniqueOccassionsArgs } from "./args/FindUniqueOccassionsArgs";
+import { GroupByOccassionsArgs } from "./args/GroupByOccassionsArgs";
+import { UpdateManyOccassionsArgs } from "./args/UpdateManyOccassionsArgs";
+import { UpdateOneOccassionsArgs } from "./args/UpdateOneOccassionsArgs";
+import { UpsertOneOccassionsArgs } from "./args/UpsertOneOccassionsArgs";
+import { Occassions } from "../../../models/Occassions";
+import { AffectedRowsOutput } from "../../outputs/AffectedRowsOutput";
+import { AggregateOccassions } from "../../outputs/AggregateOccassions";
+import { OccassionsGroupBy } from "../../outputs/OccassionsGroupBy";
+export declare class OccassionsCrudResolver {
+    aggregateOccassions(ctx: any, info: GraphQLResolveInfo, args: AggregateOccassionsArgs): Promise<AggregateOccassions>;
+    createManyOccassions(ctx: any, info: GraphQLResolveInfo, args: CreateManyOccassionsArgs): Promise<AffectedRowsOutput>;
+    createOneOccassions(ctx: any, info: GraphQLResolveInfo, args: CreateOneOccassionsArgs): Promise<Occassions>;
+    deleteManyOccassions(ctx: any, info: GraphQLResolveInfo, args: DeleteManyOccassionsArgs): Promise<AffectedRowsOutput>;
+    deleteOneOccassions(ctx: any, info: GraphQLResolveInfo, args: DeleteOneOccassionsArgs): Promise<Occassions | null>;
+    findFirstOccassions(ctx: any, info: GraphQLResolveInfo, args: FindFirstOccassionsArgs): Promise<Occassions | null>;
+    findManyOccassions(ctx: any, info: GraphQLResolveInfo, args: FindManyOccassionsArgs): Promise<Occassions[]>;
+    findUniqueOccassions(ctx: any, info: GraphQLResolveInfo, args: FindUniqueOccassionsArgs): Promise<Occassions | null>;
+    groupByOccassions(ctx: any, info: GraphQLResolveInfo, args: GroupByOccassionsArgs): Promise<OccassionsGroupBy[]>;
+    updateManyOccassions(ctx: any, info: GraphQLResolveInfo, args: UpdateManyOccassionsArgs): Promise<AffectedRowsOutput>;
+    updateOneOccassions(ctx: any, info: GraphQLResolveInfo, args: UpdateOneOccassionsArgs): Promise<Occassions | null>;
+    upsertOneOccassions(ctx: any, info: GraphQLResolveInfo, args: UpsertOneOccassionsArgs): Promise<Occassions>;
+}

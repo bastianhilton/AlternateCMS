@@ -1,0 +1,31 @@
+import { GraphQLResolveInfo } from "graphql";
+import { AggregateTasksArgs } from "./args/AggregateTasksArgs";
+import { CreateManyTasksArgs } from "./args/CreateManyTasksArgs";
+import { CreateOneTasksArgs } from "./args/CreateOneTasksArgs";
+import { DeleteManyTasksArgs } from "./args/DeleteManyTasksArgs";
+import { DeleteOneTasksArgs } from "./args/DeleteOneTasksArgs";
+import { FindFirstTasksArgs } from "./args/FindFirstTasksArgs";
+import { FindManyTasksArgs } from "./args/FindManyTasksArgs";
+import { FindUniqueTasksArgs } from "./args/FindUniqueTasksArgs";
+import { GroupByTasksArgs } from "./args/GroupByTasksArgs";
+import { UpdateManyTasksArgs } from "./args/UpdateManyTasksArgs";
+import { UpdateOneTasksArgs } from "./args/UpdateOneTasksArgs";
+import { UpsertOneTasksArgs } from "./args/UpsertOneTasksArgs";
+import { Tasks } from "../../../models/Tasks";
+import { AffectedRowsOutput } from "../../outputs/AffectedRowsOutput";
+import { AggregateTasks } from "../../outputs/AggregateTasks";
+import { TasksGroupBy } from "../../outputs/TasksGroupBy";
+export declare class TasksCrudResolver {
+    aggregateTasks(ctx: any, info: GraphQLResolveInfo, args: AggregateTasksArgs): Promise<AggregateTasks>;
+    createManyTasks(ctx: any, info: GraphQLResolveInfo, args: CreateManyTasksArgs): Promise<AffectedRowsOutput>;
+    createOneTasks(ctx: any, info: GraphQLResolveInfo, args: CreateOneTasksArgs): Promise<Tasks>;
+    deleteManyTasks(ctx: any, info: GraphQLResolveInfo, args: DeleteManyTasksArgs): Promise<AffectedRowsOutput>;
+    deleteOneTasks(ctx: any, info: GraphQLResolveInfo, args: DeleteOneTasksArgs): Promise<Tasks | null>;
+    findFirstTasks(ctx: any, info: GraphQLResolveInfo, args: FindFirstTasksArgs): Promise<Tasks | null>;
+    findManyTasks(ctx: any, info: GraphQLResolveInfo, args: FindManyTasksArgs): Promise<Tasks[]>;
+    findUniqueTasks(ctx: any, info: GraphQLResolveInfo, args: FindUniqueTasksArgs): Promise<Tasks | null>;
+    groupByTasks(ctx: any, info: GraphQLResolveInfo, args: GroupByTasksArgs): Promise<TasksGroupBy[]>;
+    updateManyTasks(ctx: any, info: GraphQLResolveInfo, args: UpdateManyTasksArgs): Promise<AffectedRowsOutput>;
+    updateOneTasks(ctx: any, info: GraphQLResolveInfo, args: UpdateOneTasksArgs): Promise<Tasks | null>;
+    upsertOneTasks(ctx: any, info: GraphQLResolveInfo, args: UpsertOneTasksArgs): Promise<Tasks>;
+}

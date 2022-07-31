@@ -1,0 +1,24 @@
+
+query occassions {
+  findManyOccassions {
+    id
+    description
+    name
+    products
+    tags
+    wishlists
+    category
+    code
+    created_at
+    product {
+      name
+      price
+      id
+    }
+    wishlist {
+      id
+      name
+      products
+    }
+  }
+}

@@ -1,0 +1,15 @@
+
+query endofshifts {
+  findManyEndofshifts {
+    content
+    createdAt
+    id
+    login
+    mcms
+    nextShift
+    nodeId
+    projects
+    tickets
+    whid
+  }
+}

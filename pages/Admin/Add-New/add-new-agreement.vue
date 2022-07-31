@@ -1,12 +1,12 @@
 <template>
   <div>
-    <form method="POST" enctype="multipart/form-data" @submit.prevent>
+    <form method="POST" enctype="multipart/form-data" @click="addAgreement">
       <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand">
             <button type="reset" class="btn btn-warning">Reset</button></a>
           <a class="navbar-brand">
-            <input type="submit" class="btn btn-warning" value="Save Agreement" @click="addAgreement" /></a>
+            <input type="submit" class="btn btn-warning" value="Save Agreement" /></a>
         </div>
       </nav>
       <br>
@@ -35,7 +35,7 @@
                     <tr>
                       <td style="text-align: right;">Agreement Type</td>
                       <td>
-                        <select name="agreementType" id="agreementType">
+                        <select name="agreementType" id="agreementType" v-model="type">
                           <option value="policies">Policies</option>
                           <option value="agreements">Agreements</option>
                           <option value="announcements">Announcements</option>
@@ -106,11 +106,11 @@
 
 <script>
   import gql from "graphql-tag";
-  import agreements from "~/graphql/queries/sales/agreements";
+  import findManyAgreements from "~/graphql/queries/sales/agreements";
 
   const ADD_AGREEMENTS = gql `
-    mutation createAgreement ($name:String!,$excerpt:String,$type:String,$content:String,$image:String){
-      createAgreement(objects: {name: $name, excerpt: $excerpt, type: $type, content: $content, image: $image}) {
+    mutation createOneAgreements ($name:String!,$excerpt:String,$type:String,$content:String,$image:String){
+      createOneAgreements(objects: {name: $name, excerpt: $excerpt, type: $type, content: $content, image: $image}) {
         name
         excerpt
         type
@@ -159,7 +159,7 @@
               const insertedAgreement = insertAgreements.returning;
               console.log(insertedAgreement)
               cache.writeQuery({
-                query: agreements
+                query: findManyAgreements
               })
             } catch (err) {
               console.error(err)

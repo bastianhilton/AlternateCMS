@@ -1,0 +1,14 @@
+
+query ootos {
+  findManyOotos {
+    createdAt
+    endDate
+    id
+    location
+    login
+    nodeId
+    note
+    startDate
+    usingTime
+  }
+}

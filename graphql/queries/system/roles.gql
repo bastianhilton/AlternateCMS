@@ -1,0 +1,10 @@
+
+query roles {
+  findManyRoles {
+    content
+    createdAt
+    id
+    nodeId
+    roleName
+  }
+}

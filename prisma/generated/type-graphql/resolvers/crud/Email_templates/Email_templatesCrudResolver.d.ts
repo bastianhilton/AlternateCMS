@@ -1,0 +1,31 @@
+import { GraphQLResolveInfo } from "graphql";
+import { AggregateEmail_templatesArgs } from "./args/AggregateEmail_templatesArgs";
+import { CreateManyEmail_templatesArgs } from "./args/CreateManyEmail_templatesArgs";
+import { CreateOneEmail_templatesArgs } from "./args/CreateOneEmail_templatesArgs";
+import { DeleteManyEmail_templatesArgs } from "./args/DeleteManyEmail_templatesArgs";
+import { DeleteOneEmail_templatesArgs } from "./args/DeleteOneEmail_templatesArgs";
+import { FindFirstEmail_templatesArgs } from "./args/FindFirstEmail_templatesArgs";
+import { FindManyEmail_templatesArgs } from "./args/FindManyEmail_templatesArgs";
+import { FindUniqueEmail_templatesArgs } from "./args/FindUniqueEmail_templatesArgs";
+import { GroupByEmail_templatesArgs } from "./args/GroupByEmail_templatesArgs";
+import { UpdateManyEmail_templatesArgs } from "./args/UpdateManyEmail_templatesArgs";
+import { UpdateOneEmail_templatesArgs } from "./args/UpdateOneEmail_templatesArgs";
+import { UpsertOneEmail_templatesArgs } from "./args/UpsertOneEmail_templatesArgs";
+import { Email_templates } from "../../../models/Email_templates";
+import { AffectedRowsOutput } from "../../outputs/AffectedRowsOutput";
+import { AggregateEmail_templates } from "../../outputs/AggregateEmail_templates";
+import { Email_templatesGroupBy } from "../../outputs/Email_templatesGroupBy";
+export declare class Email_templatesCrudResolver {
+    aggregateEmail_templates(ctx: any, info: GraphQLResolveInfo, args: AggregateEmail_templatesArgs): Promise<AggregateEmail_templates>;
+    createManyEmail_templates(ctx: any, info: GraphQLResolveInfo, args: CreateManyEmail_templatesArgs): Promise<AffectedRowsOutput>;
+    createOneEmail_templates(ctx: any, info: GraphQLResolveInfo, args: CreateOneEmail_templatesArgs): Promise<Email_templates>;
+    deleteManyEmail_templates(ctx: any, info: GraphQLResolveInfo, args: DeleteManyEmail_templatesArgs): Promise<AffectedRowsOutput>;
+    deleteOneEmail_templates(ctx: any, info: GraphQLResolveInfo, args: DeleteOneEmail_templatesArgs): Promise<Email_templates | null>;
+    findFirstEmail_templates(ctx: any, info: GraphQLResolveInfo, args: FindFirstEmail_templatesArgs): Promise<Email_templates | null>;
+    findManyEmail_templates(ctx: any, info: GraphQLResolveInfo, args: FindManyEmail_templatesArgs): Promise<Email_templates[]>;
+    findUniqueEmail_templates(ctx: any, info: GraphQLResolveInfo, args: FindUniqueEmail_templatesArgs): Promise<Email_templates | null>;
+    groupByEmail_templates(ctx: any, info: GraphQLResolveInfo, args: GroupByEmail_templatesArgs): Promise<Email_templatesGroupBy[]>;
+    updateManyEmail_templates(ctx: any, info: GraphQLResolveInfo, args: UpdateManyEmail_templatesArgs): Promise<AffectedRowsOutput>;
+    updateOneEmail_templates(ctx: any, info: GraphQLResolveInfo, args: UpdateOneEmail_templatesArgs): Promise<Email_templates | null>;
+    upsertOneEmail_templates(ctx: any, info: GraphQLResolveInfo, args: UpsertOneEmail_templatesArgs): Promise<Email_templates>;
+}

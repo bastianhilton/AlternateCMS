@@ -1,0 +1,31 @@
+import { GraphQLResolveInfo } from "graphql";
+import { AggregateSettingshopArgs } from "./args/AggregateSettingshopArgs";
+import { CreateManySettingshopArgs } from "./args/CreateManySettingshopArgs";
+import { CreateOneSettingshopArgs } from "./args/CreateOneSettingshopArgs";
+import { DeleteManySettingshopArgs } from "./args/DeleteManySettingshopArgs";
+import { DeleteOneSettingshopArgs } from "./args/DeleteOneSettingshopArgs";
+import { FindFirstSettingshopArgs } from "./args/FindFirstSettingshopArgs";
+import { FindManySettingshopArgs } from "./args/FindManySettingshopArgs";
+import { FindUniqueSettingshopArgs } from "./args/FindUniqueSettingshopArgs";
+import { GroupBySettingshopArgs } from "./args/GroupBySettingshopArgs";
+import { UpdateManySettingshopArgs } from "./args/UpdateManySettingshopArgs";
+import { UpdateOneSettingshopArgs } from "./args/UpdateOneSettingshopArgs";
+import { UpsertOneSettingshopArgs } from "./args/UpsertOneSettingshopArgs";
+import { Settingshop } from "../../../models/Settingshop";
+import { AffectedRowsOutput } from "../../outputs/AffectedRowsOutput";
+import { AggregateSettingshop } from "../../outputs/AggregateSettingshop";
+import { SettingshopGroupBy } from "../../outputs/SettingshopGroupBy";
+export declare class SettingshopCrudResolver {
+    aggregateSettingshop(ctx: any, info: GraphQLResolveInfo, args: AggregateSettingshopArgs): Promise<AggregateSettingshop>;
+    createManySettingshop(ctx: any, info: GraphQLResolveInfo, args: CreateManySettingshopArgs): Promise<AffectedRowsOutput>;
+    createOneSettingshop(ctx: any, info: GraphQLResolveInfo, args: CreateOneSettingshopArgs): Promise<Settingshop>;
+    deleteManySettingshop(ctx: any, info: GraphQLResolveInfo, args: DeleteManySettingshopArgs): Promise<AffectedRowsOutput>;
+    deleteOneSettingshop(ctx: any, info: GraphQLResolveInfo, args: DeleteOneSettingshopArgs): Promise<Settingshop | null>;
+    findFirstSettingshop(ctx: any, info: GraphQLResolveInfo, args: FindFirstSettingshopArgs): Promise<Settingshop | null>;
+    settingshops(ctx: any, info: GraphQLResolveInfo, args: FindManySettingshopArgs): Promise<Settingshop[]>;
+    settingshop(ctx: any, info: GraphQLResolveInfo, args: FindUniqueSettingshopArgs): Promise<Settingshop | null>;
+    groupBySettingshop(ctx: any, info: GraphQLResolveInfo, args: GroupBySettingshopArgs): Promise<SettingshopGroupBy[]>;
+    updateManySettingshop(ctx: any, info: GraphQLResolveInfo, args: UpdateManySettingshopArgs): Promise<AffectedRowsOutput>;
+    updateOneSettingshop(ctx: any, info: GraphQLResolveInfo, args: UpdateOneSettingshopArgs): Promise<Settingshop | null>;
+    upsertOneSettingshop(ctx: any, info: GraphQLResolveInfo, args: UpsertOneSettingshopArgs): Promise<Settingshop>;
+}

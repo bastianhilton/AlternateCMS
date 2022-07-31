@@ -1,0 +1,16 @@
+
+query reports {
+  findManyReports {
+    appliedCoupon
+    created
+    customer
+    email
+    id
+    ipAddress
+    nodeId
+    products
+    quantity
+    subtotal
+    updated
+  }
+}

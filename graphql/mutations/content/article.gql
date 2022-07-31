@@ -1,0 +1,20 @@
+
+query articles ($id: Int){
+  createOneArticles (where: {id: {_eq: $id}}) {
+    categories
+    content
+    cust_id
+    customers
+    excerpt
+    id
+    image
+    isPublic
+    meta_description
+    meta_name
+    meta_url
+    name
+    published
+    tags
+    users
+  }
+}

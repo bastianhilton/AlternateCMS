@@ -1,0 +1,18 @@
+
+query shipments {
+  findManyShipments {
+    carrierName
+    clientId
+    clientSecret
+    country
+    id
+    image
+    nodeId
+    product
+    shipDate
+    speedGrade
+    trackingUrl
+    transitTime
+    website
+  }
+}

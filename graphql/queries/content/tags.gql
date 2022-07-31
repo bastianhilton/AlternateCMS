@@ -1,0 +1,13 @@
+
+query tags {
+  findManyTags {
+    id
+    name
+    excerpt
+    categories
+    articles
+    customers
+    products
+    users
+  }
+}

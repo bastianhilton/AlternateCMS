@@ -1,0 +1,31 @@
+import { GraphQLResolveInfo } from "graphql";
+import { AggregateSettingssalesArgs } from "./args/AggregateSettingssalesArgs";
+import { CreateManySettingssalesArgs } from "./args/CreateManySettingssalesArgs";
+import { CreateOneSettingssalesArgs } from "./args/CreateOneSettingssalesArgs";
+import { DeleteManySettingssalesArgs } from "./args/DeleteManySettingssalesArgs";
+import { DeleteOneSettingssalesArgs } from "./args/DeleteOneSettingssalesArgs";
+import { FindFirstSettingssalesArgs } from "./args/FindFirstSettingssalesArgs";
+import { FindManySettingssalesArgs } from "./args/FindManySettingssalesArgs";
+import { FindUniqueSettingssalesArgs } from "./args/FindUniqueSettingssalesArgs";
+import { GroupBySettingssalesArgs } from "./args/GroupBySettingssalesArgs";
+import { UpdateManySettingssalesArgs } from "./args/UpdateManySettingssalesArgs";
+import { UpdateOneSettingssalesArgs } from "./args/UpdateOneSettingssalesArgs";
+import { UpsertOneSettingssalesArgs } from "./args/UpsertOneSettingssalesArgs";
+import { Settingssales } from "../../../models/Settingssales";
+import { AffectedRowsOutput } from "../../outputs/AffectedRowsOutput";
+import { AggregateSettingssales } from "../../outputs/AggregateSettingssales";
+import { SettingssalesGroupBy } from "../../outputs/SettingssalesGroupBy";
+export declare class SettingssalesCrudResolver {
+    aggregateSettingssales(ctx: any, info: GraphQLResolveInfo, args: AggregateSettingssalesArgs): Promise<AggregateSettingssales>;
+    createManySettingssales(ctx: any, info: GraphQLResolveInfo, args: CreateManySettingssalesArgs): Promise<AffectedRowsOutput>;
+    createOneSettingssales(ctx: any, info: GraphQLResolveInfo, args: CreateOneSettingssalesArgs): Promise<Settingssales>;
+    deleteManySettingssales(ctx: any, info: GraphQLResolveInfo, args: DeleteManySettingssalesArgs): Promise<AffectedRowsOutput>;
+    deleteOneSettingssales(ctx: any, info: GraphQLResolveInfo, args: DeleteOneSettingssalesArgs): Promise<Settingssales | null>;
+    findFirstSettingssales(ctx: any, info: GraphQLResolveInfo, args: FindFirstSettingssalesArgs): Promise<Settingssales | null>;
+    findManySettingssales(ctx: any, info: GraphQLResolveInfo, args: FindManySettingssalesArgs): Promise<Settingssales[]>;
+    findUniqueSettingssales(ctx: any, info: GraphQLResolveInfo, args: FindUniqueSettingssalesArgs): Promise<Settingssales | null>;
+    groupBySettingssales(ctx: any, info: GraphQLResolveInfo, args: GroupBySettingssalesArgs): Promise<SettingssalesGroupBy[]>;
+    updateManySettingssales(ctx: any, info: GraphQLResolveInfo, args: UpdateManySettingssalesArgs): Promise<AffectedRowsOutput>;
+    updateOneSettingssales(ctx: any, info: GraphQLResolveInfo, args: UpdateOneSettingssalesArgs): Promise<Settingssales | null>;
+    upsertOneSettingssales(ctx: any, info: GraphQLResolveInfo, args: UpsertOneSettingssalesArgs): Promise<Settingssales>;
+}

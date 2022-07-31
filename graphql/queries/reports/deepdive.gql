@@ -1,0 +1,14 @@
+
+query deepdives {
+  findManyDeepdives {
+    attendees
+    content
+    createdAt
+    endDate
+    id
+    login
+    nodeId
+    startDate
+    whid
+  }
+}

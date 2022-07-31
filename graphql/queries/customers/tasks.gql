@@ -1,0 +1,18 @@
+
+query tasks {
+  findManyTasks {
+    assignedTo
+    contact
+    createdAt
+    dateModified
+    description
+    dueDate
+    id
+    nodeId
+    priority
+    relatedTo
+    startDate
+    status
+    subject
+  }
+}

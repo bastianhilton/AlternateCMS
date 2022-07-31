@@ -1,0 +1,10 @@
+
+query taxRules {
+  findManyTaxRules {
+    id
+    name
+    nodeId
+    prodId
+    taxRate
+  }
+}

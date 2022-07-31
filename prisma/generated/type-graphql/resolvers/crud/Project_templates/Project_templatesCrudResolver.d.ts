@@ -1,0 +1,31 @@
+import { GraphQLResolveInfo } from "graphql";
+import { AggregateProject_templatesArgs } from "./args/AggregateProject_templatesArgs";
+import { CreateManyProject_templatesArgs } from "./args/CreateManyProject_templatesArgs";
+import { CreateOneProject_templatesArgs } from "./args/CreateOneProject_templatesArgs";
+import { DeleteManyProject_templatesArgs } from "./args/DeleteManyProject_templatesArgs";
+import { DeleteOneProject_templatesArgs } from "./args/DeleteOneProject_templatesArgs";
+import { FindFirstProject_templatesArgs } from "./args/FindFirstProject_templatesArgs";
+import { FindManyProject_templatesArgs } from "./args/FindManyProject_templatesArgs";
+import { FindUniqueProject_templatesArgs } from "./args/FindUniqueProject_templatesArgs";
+import { GroupByProject_templatesArgs } from "./args/GroupByProject_templatesArgs";
+import { UpdateManyProject_templatesArgs } from "./args/UpdateManyProject_templatesArgs";
+import { UpdateOneProject_templatesArgs } from "./args/UpdateOneProject_templatesArgs";
+import { UpsertOneProject_templatesArgs } from "./args/UpsertOneProject_templatesArgs";
+import { Project_templates } from "../../../models/Project_templates";
+import { AffectedRowsOutput } from "../../outputs/AffectedRowsOutput";
+import { AggregateProject_templates } from "../../outputs/AggregateProject_templates";
+import { Project_templatesGroupBy } from "../../outputs/Project_templatesGroupBy";
+export declare class Project_templatesCrudResolver {
+    aggregateProject_templates(ctx: any, info: GraphQLResolveInfo, args: AggregateProject_templatesArgs): Promise<AggregateProject_templates>;
+    createManyProject_templates(ctx: any, info: GraphQLResolveInfo, args: CreateManyProject_templatesArgs): Promise<AffectedRowsOutput>;
+    createOneProject_templates(ctx: any, info: GraphQLResolveInfo, args: CreateOneProject_templatesArgs): Promise<Project_templates>;
+    deleteManyProject_templates(ctx: any, info: GraphQLResolveInfo, args: DeleteManyProject_templatesArgs): Promise<AffectedRowsOutput>;
+    deleteOneProject_templates(ctx: any, info: GraphQLResolveInfo, args: DeleteOneProject_templatesArgs): Promise<Project_templates | null>;
+    findFirstProject_templates(ctx: any, info: GraphQLResolveInfo, args: FindFirstProject_templatesArgs): Promise<Project_templates | null>;
+    findManyProject_templates(ctx: any, info: GraphQLResolveInfo, args: FindManyProject_templatesArgs): Promise<Project_templates[]>;
+    findUniqueProject_templates(ctx: any, info: GraphQLResolveInfo, args: FindUniqueProject_templatesArgs): Promise<Project_templates | null>;
+    groupByProject_templates(ctx: any, info: GraphQLResolveInfo, args: GroupByProject_templatesArgs): Promise<Project_templatesGroupBy[]>;
+    updateManyProject_templates(ctx: any, info: GraphQLResolveInfo, args: UpdateManyProject_templatesArgs): Promise<AffectedRowsOutput>;
+    updateOneProject_templates(ctx: any, info: GraphQLResolveInfo, args: UpdateOneProject_templatesArgs): Promise<Project_templates | null>;
+    upsertOneProject_templates(ctx: any, info: GraphQLResolveInfo, args: UpsertOneProject_templatesArgs): Promise<Project_templates>;
+}

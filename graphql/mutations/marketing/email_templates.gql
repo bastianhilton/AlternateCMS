@@ -1,0 +1,19 @@
+
+query ($id: Int){
+  createOneEmail_templates (where: {id: {_eq: $id}}){
+    id
+    height
+    header
+    footer
+    created_at
+    content
+    assigned_to
+    active
+    insert_variable
+    media
+    name
+    subject
+    type
+    width
+  }
+}

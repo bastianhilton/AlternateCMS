@@ -1,0 +1,21 @@
+
+query categories {
+  findManyCategories {
+    content
+    country
+    description
+    id
+    image
+    metaDescription
+    metaKeywords
+    metaTitle
+    metaUrl
+    name
+    nodeId
+    product
+    websites
+    visibility
+    thumbnail
+    status
+  }
+}

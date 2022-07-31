@@ -1,0 +1,11 @@
+import { SettingscustomersOrderByRelevanceInput } from "../inputs/SettingscustomersOrderByRelevanceInput";
+export declare class SettingscustomersOrderByWithRelationAndSearchRelevanceInput {
+    id?: "asc" | "desc" | undefined;
+    created_at?: "asc" | "desc" | undefined;
+    login_as_customer?: "asc" | "desc" | undefined;
+    share_customer_accounts?: "asc" | "desc" | undefined;
+    online_minutes_interval?: "asc" | "desc" | undefined;
+    customer_data_lifetime?: "asc" | "desc" | undefined;
+    email_after_registration?: "asc" | "desc" | undefined;
+    _relevance?: SettingscustomersOrderByRelevanceInput | undefined;
+}

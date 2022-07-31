@@ -1,0 +1,13 @@
+
+query cities {
+  findManyCities {
+    country
+    description
+    id
+    image
+    name
+    nodeId
+    postalCode
+    state
+  }
+}

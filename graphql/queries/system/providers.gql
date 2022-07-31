@@ -1,0 +1,16 @@
+
+query providers {
+  findManyProviders {
+    active
+    clientId
+    clientSecret
+    createdAt
+    hostUri
+    icon
+    id
+    name
+    nodeId
+    redirectUrl
+    redirectUrlApp
+  }
+}

@@ -1,15 +1,15 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="/admin/add-new/add-new-agreement"><input type="submit" class="btn btn-warning" value="Create New Agreement"></a>
-        
       </div>
     </nav>
-    
+
     <br>
     <div class="table table-responsive">
-      <table class="table" >
+      <table class="table">
         <thead class="table table-dark">
           <tr>
             <th>Agreement ID</th>
@@ -21,7 +21,7 @@
             <th>Action</th>
           </tr>
         </thead>
-        <tbody v-for="agreements in agreements" :key="agreements.id">
+        <tbody v-for="agreements in findManyAgreements" :key="agreements.id">
           <tr>
             <td>{{ agreements.id }}</td>
             <td>{{ agreements.name }}</td>
@@ -38,23 +38,23 @@
 </template>
 
 <script>
-import agreements from '~/graphql/queries/sales/agreements'
+import findManyAgreements from '~/graphql/queries/sales/agreements'
 
 export default {
-  data() {
+  data () {
     return {
-      agreements: [],
+      findManyAgreements: []
     }
   },
   apollo: {
-    agreements: {
+    findManyAgreements: {
       prefetch: true,
-      query: agreements
+      query: findManyAgreements
     }
   },
-    head: {
-      title: 'Agreements'
-    }
+  head: {
+    title: 'Agreements'
   }
+}
 
 </script>

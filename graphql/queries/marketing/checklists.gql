@@ -1,0 +1,31 @@
+
+query checklists {
+  findManyChecklists {
+    country
+    createdAt
+    description
+    id
+    location
+    manager
+    media
+    nodeId
+    prodId
+    project
+    region
+    regionalManager
+    ticket
+    username
+    trainingsByChecklists {
+      id
+      assignments
+    }
+    statesByTrainingChecklistsAndState {
+      id
+      name
+    }
+    productsByTrainingChecklistsAndProducts {
+      id
+      name
+    }
+  }
+}

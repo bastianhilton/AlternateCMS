@@ -1,0 +1,21 @@
+
+query generalSettings {
+  findManyGeneralSettings {
+    accessRestrictions
+    createdAt
+    customerSupport
+    email
+    httpResponse
+    id
+    landingPage
+    restrictionMode
+    nodeId
+    startupPage
+    storeContact
+    storeContactTwo
+    storeEmail
+    tagline
+    title
+    url
+  }
+}

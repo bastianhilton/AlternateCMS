@@ -340,7 +340,7 @@
                   <a class="dropdown-item" target="_blank" href="/admin/">Customer View</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" target="_blank" href="http://127.0.0.1:4002/graphql">Graphql Playground</a>
+                  <a class="dropdown-item" target="_blank" href="http://127.0.0.1:4000/graphql">Graphql Playground</a>
                 </li>
                 <li>
                   <a class="dropdown-item" target="_blank" href="http://localhost:5858/">Rest API Documentation</a>

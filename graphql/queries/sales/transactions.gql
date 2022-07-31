@@ -1,0 +1,21 @@
+
+query transactions {
+  findManyTransactions {
+    closed
+    created
+    id
+    nodeId
+    orderId
+    parentTransactionId
+    paymentMethod
+    transactionId
+    orderByOrderId {
+      id
+      billToName
+    }
+    customerPaymentByPaymentMethod {
+      id
+      provider
+    }
+  }
+}

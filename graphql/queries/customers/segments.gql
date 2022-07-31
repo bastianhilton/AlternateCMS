@@ -1,0 +1,14 @@
+
+query segments {
+  findManySegments {
+    applyTo
+    createdAt
+    customers
+    description
+    id
+    name
+    nodeId
+    status
+    website
+  }
+}

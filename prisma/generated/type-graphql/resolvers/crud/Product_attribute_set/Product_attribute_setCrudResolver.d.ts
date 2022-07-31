@@ -1,0 +1,31 @@
+import { GraphQLResolveInfo } from "graphql";
+import { AggregateProduct_attribute_setArgs } from "./args/AggregateProduct_attribute_setArgs";
+import { CreateManyProduct_attribute_setArgs } from "./args/CreateManyProduct_attribute_setArgs";
+import { CreateOneProduct_attribute_setArgs } from "./args/CreateOneProduct_attribute_setArgs";
+import { DeleteManyProduct_attribute_setArgs } from "./args/DeleteManyProduct_attribute_setArgs";
+import { DeleteOneProduct_attribute_setArgs } from "./args/DeleteOneProduct_attribute_setArgs";
+import { FindFirstProduct_attribute_setArgs } from "./args/FindFirstProduct_attribute_setArgs";
+import { FindManyProduct_attribute_setArgs } from "./args/FindManyProduct_attribute_setArgs";
+import { FindUniqueProduct_attribute_setArgs } from "./args/FindUniqueProduct_attribute_setArgs";
+import { GroupByProduct_attribute_setArgs } from "./args/GroupByProduct_attribute_setArgs";
+import { UpdateManyProduct_attribute_setArgs } from "./args/UpdateManyProduct_attribute_setArgs";
+import { UpdateOneProduct_attribute_setArgs } from "./args/UpdateOneProduct_attribute_setArgs";
+import { UpsertOneProduct_attribute_setArgs } from "./args/UpsertOneProduct_attribute_setArgs";
+import { Product_attribute_set } from "../../../models/Product_attribute_set";
+import { AffectedRowsOutput } from "../../outputs/AffectedRowsOutput";
+import { AggregateProduct_attribute_set } from "../../outputs/AggregateProduct_attribute_set";
+import { Product_attribute_setGroupBy } from "../../outputs/Product_attribute_setGroupBy";
+export declare class Product_attribute_setCrudResolver {
+    aggregateProduct_attribute_set(ctx: any, info: GraphQLResolveInfo, args: AggregateProduct_attribute_setArgs): Promise<AggregateProduct_attribute_set>;
+    createManyProduct_attribute_set(ctx: any, info: GraphQLResolveInfo, args: CreateManyProduct_attribute_setArgs): Promise<AffectedRowsOutput>;
+    createOneProduct_attribute_set(ctx: any, info: GraphQLResolveInfo, args: CreateOneProduct_attribute_setArgs): Promise<Product_attribute_set>;
+    deleteManyProduct_attribute_set(ctx: any, info: GraphQLResolveInfo, args: DeleteManyProduct_attribute_setArgs): Promise<AffectedRowsOutput>;
+    deleteOneProduct_attribute_set(ctx: any, info: GraphQLResolveInfo, args: DeleteOneProduct_attribute_setArgs): Promise<Product_attribute_set | null>;
+    findFirstProduct_attribute_set(ctx: any, info: GraphQLResolveInfo, args: FindFirstProduct_attribute_setArgs): Promise<Product_attribute_set | null>;
+    product_attribute_sets(ctx: any, info: GraphQLResolveInfo, args: FindManyProduct_attribute_setArgs): Promise<Product_attribute_set[]>;
+    product_attribute_set(ctx: any, info: GraphQLResolveInfo, args: FindUniqueProduct_attribute_setArgs): Promise<Product_attribute_set | null>;
+    groupByProduct_attribute_set(ctx: any, info: GraphQLResolveInfo, args: GroupByProduct_attribute_setArgs): Promise<Product_attribute_setGroupBy[]>;
+    updateManyProduct_attribute_set(ctx: any, info: GraphQLResolveInfo, args: UpdateManyProduct_attribute_setArgs): Promise<AffectedRowsOutput>;
+    updateOneProduct_attribute_set(ctx: any, info: GraphQLResolveInfo, args: UpdateOneProduct_attribute_setArgs): Promise<Product_attribute_set | null>;
+    upsertOneProduct_attribute_set(ctx: any, info: GraphQLResolveInfo, args: UpsertOneProduct_attribute_setArgs): Promise<Product_attribute_set>;
+}

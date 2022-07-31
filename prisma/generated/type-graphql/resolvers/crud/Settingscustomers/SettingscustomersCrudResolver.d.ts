@@ -1,0 +1,31 @@
+import { GraphQLResolveInfo } from "graphql";
+import { AggregateSettingscustomersArgs } from "./args/AggregateSettingscustomersArgs";
+import { CreateManySettingscustomersArgs } from "./args/CreateManySettingscustomersArgs";
+import { CreateOneSettingscustomersArgs } from "./args/CreateOneSettingscustomersArgs";
+import { DeleteManySettingscustomersArgs } from "./args/DeleteManySettingscustomersArgs";
+import { DeleteOneSettingscustomersArgs } from "./args/DeleteOneSettingscustomersArgs";
+import { FindFirstSettingscustomersArgs } from "./args/FindFirstSettingscustomersArgs";
+import { FindManySettingscustomersArgs } from "./args/FindManySettingscustomersArgs";
+import { FindUniqueSettingscustomersArgs } from "./args/FindUniqueSettingscustomersArgs";
+import { GroupBySettingscustomersArgs } from "./args/GroupBySettingscustomersArgs";
+import { UpdateManySettingscustomersArgs } from "./args/UpdateManySettingscustomersArgs";
+import { UpdateOneSettingscustomersArgs } from "./args/UpdateOneSettingscustomersArgs";
+import { UpsertOneSettingscustomersArgs } from "./args/UpsertOneSettingscustomersArgs";
+import { Settingscustomers } from "../../../models/Settingscustomers";
+import { AffectedRowsOutput } from "../../outputs/AffectedRowsOutput";
+import { AggregateSettingscustomers } from "../../outputs/AggregateSettingscustomers";
+import { SettingscustomersGroupBy } from "../../outputs/SettingscustomersGroupBy";
+export declare class SettingscustomersCrudResolver {
+    aggregateSettingscustomers(ctx: any, info: GraphQLResolveInfo, args: AggregateSettingscustomersArgs): Promise<AggregateSettingscustomers>;
+    createManySettingscustomers(ctx: any, info: GraphQLResolveInfo, args: CreateManySettingscustomersArgs): Promise<AffectedRowsOutput>;
+    createOneSettingscustomers(ctx: any, info: GraphQLResolveInfo, args: CreateOneSettingscustomersArgs): Promise<Settingscustomers>;
+    deleteManySettingscustomers(ctx: any, info: GraphQLResolveInfo, args: DeleteManySettingscustomersArgs): Promise<AffectedRowsOutput>;
+    deleteOneSettingscustomers(ctx: any, info: GraphQLResolveInfo, args: DeleteOneSettingscustomersArgs): Promise<Settingscustomers | null>;
+    findFirstSettingscustomers(ctx: any, info: GraphQLResolveInfo, args: FindFirstSettingscustomersArgs): Promise<Settingscustomers | null>;
+    findManySettingscustomers(ctx: any, info: GraphQLResolveInfo, args: FindManySettingscustomersArgs): Promise<Settingscustomers[]>;
+    findUniqueSettingscustomers(ctx: any, info: GraphQLResolveInfo, args: FindUniqueSettingscustomersArgs): Promise<Settingscustomers | null>;
+    groupBySettingscustomers(ctx: any, info: GraphQLResolveInfo, args: GroupBySettingscustomersArgs): Promise<SettingscustomersGroupBy[]>;
+    updateManySettingscustomers(ctx: any, info: GraphQLResolveInfo, args: UpdateManySettingscustomersArgs): Promise<AffectedRowsOutput>;
+    updateOneSettingscustomers(ctx: any, info: GraphQLResolveInfo, args: UpdateOneSettingscustomersArgs): Promise<Settingscustomers | null>;
+    upsertOneSettingscustomers(ctx: any, info: GraphQLResolveInfo, args: UpsertOneSettingscustomersArgs): Promise<Settingscustomers>;
+}

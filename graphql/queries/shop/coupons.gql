@@ -1,0 +1,19 @@
+
+query coupons {
+  findManyCoupons {
+    articles
+    categories
+    customers
+    discount
+    excerpt
+    expiration
+    image
+    id
+    prodId
+    name
+    nodeId
+    products
+    published
+    users
+  }
+}

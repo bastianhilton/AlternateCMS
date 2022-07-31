@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div>
-    <div id="embedded-sandbox" style="width: 100%; height: 100%;" />
+    
   </div>
 </template>
 
@@ -16,3 +16,14 @@ export default {
 }
 
 </script>
+
+<style>
+    iframe {
+      width: 100% !important;
+      height: 100vh !important;
+    }
+
+    body {
+      margin: 0;
+    }
+  </style>

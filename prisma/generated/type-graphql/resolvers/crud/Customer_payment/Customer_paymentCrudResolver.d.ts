@@ -1,0 +1,31 @@
+import { GraphQLResolveInfo } from "graphql";
+import { AggregateCustomer_paymentArgs } from "./args/AggregateCustomer_paymentArgs";
+import { CreateManyCustomer_paymentArgs } from "./args/CreateManyCustomer_paymentArgs";
+import { CreateOneCustomer_paymentArgs } from "./args/CreateOneCustomer_paymentArgs";
+import { DeleteManyCustomer_paymentArgs } from "./args/DeleteManyCustomer_paymentArgs";
+import { DeleteOneCustomer_paymentArgs } from "./args/DeleteOneCustomer_paymentArgs";
+import { FindFirstCustomer_paymentArgs } from "./args/FindFirstCustomer_paymentArgs";
+import { FindManyCustomer_paymentArgs } from "./args/FindManyCustomer_paymentArgs";
+import { FindUniqueCustomer_paymentArgs } from "./args/FindUniqueCustomer_paymentArgs";
+import { GroupByCustomer_paymentArgs } from "./args/GroupByCustomer_paymentArgs";
+import { UpdateManyCustomer_paymentArgs } from "./args/UpdateManyCustomer_paymentArgs";
+import { UpdateOneCustomer_paymentArgs } from "./args/UpdateOneCustomer_paymentArgs";
+import { UpsertOneCustomer_paymentArgs } from "./args/UpsertOneCustomer_paymentArgs";
+import { Customer_payment } from "../../../models/Customer_payment";
+import { AffectedRowsOutput } from "../../outputs/AffectedRowsOutput";
+import { AggregateCustomer_payment } from "../../outputs/AggregateCustomer_payment";
+import { Customer_paymentGroupBy } from "../../outputs/Customer_paymentGroupBy";
+export declare class Customer_paymentCrudResolver {
+    aggregateCustomer_payment(ctx: any, info: GraphQLResolveInfo, args: AggregateCustomer_paymentArgs): Promise<AggregateCustomer_payment>;
+    createManyCustomer_payment(ctx: any, info: GraphQLResolveInfo, args: CreateManyCustomer_paymentArgs): Promise<AffectedRowsOutput>;
+    createOneCustomer_payment(ctx: any, info: GraphQLResolveInfo, args: CreateOneCustomer_paymentArgs): Promise<Customer_payment>;
+    deleteManyCustomer_payment(ctx: any, info: GraphQLResolveInfo, args: DeleteManyCustomer_paymentArgs): Promise<AffectedRowsOutput>;
+    deleteOneCustomer_payment(ctx: any, info: GraphQLResolveInfo, args: DeleteOneCustomer_paymentArgs): Promise<Customer_payment | null>;
+    findFirstCustomer_payment(ctx: any, info: GraphQLResolveInfo, args: FindFirstCustomer_paymentArgs): Promise<Customer_payment | null>;
+    customer_payments(ctx: any, info: GraphQLResolveInfo, args: FindManyCustomer_paymentArgs): Promise<Customer_payment[]>;
+    customer_payment(ctx: any, info: GraphQLResolveInfo, args: FindUniqueCustomer_paymentArgs): Promise<Customer_payment | null>;
+    groupByCustomer_payment(ctx: any, info: GraphQLResolveInfo, args: GroupByCustomer_paymentArgs): Promise<Customer_paymentGroupBy[]>;
+    updateManyCustomer_payment(ctx: any, info: GraphQLResolveInfo, args: UpdateManyCustomer_paymentArgs): Promise<AffectedRowsOutput>;
+    updateOneCustomer_payment(ctx: any, info: GraphQLResolveInfo, args: UpdateOneCustomer_paymentArgs): Promise<Customer_payment | null>;
+    upsertOneCustomer_payment(ctx: any, info: GraphQLResolveInfo, args: UpsertOneCustomer_paymentArgs): Promise<Customer_payment>;
+}

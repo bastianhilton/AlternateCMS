@@ -1,0 +1,11 @@
+
+query countries {
+  findManyCountries {
+    description
+    id
+    image
+    name
+    nodeId
+    region
+  }
+}

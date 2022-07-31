@@ -1,0 +1,31 @@
+import { GraphQLResolveInfo } from "graphql";
+import { AggregateSourceArgs } from "./args/AggregateSourceArgs";
+import { CreateManySourceArgs } from "./args/CreateManySourceArgs";
+import { CreateOneSourceArgs } from "./args/CreateOneSourceArgs";
+import { DeleteManySourceArgs } from "./args/DeleteManySourceArgs";
+import { DeleteOneSourceArgs } from "./args/DeleteOneSourceArgs";
+import { FindFirstSourceArgs } from "./args/FindFirstSourceArgs";
+import { FindManySourceArgs } from "./args/FindManySourceArgs";
+import { FindUniqueSourceArgs } from "./args/FindUniqueSourceArgs";
+import { GroupBySourceArgs } from "./args/GroupBySourceArgs";
+import { UpdateManySourceArgs } from "./args/UpdateManySourceArgs";
+import { UpdateOneSourceArgs } from "./args/UpdateOneSourceArgs";
+import { UpsertOneSourceArgs } from "./args/UpsertOneSourceArgs";
+import { Source } from "../../../models/Source";
+import { AffectedRowsOutput } from "../../outputs/AffectedRowsOutput";
+import { AggregateSource } from "../../outputs/AggregateSource";
+import { SourceGroupBy } from "../../outputs/SourceGroupBy";
+export declare class SourceCrudResolver {
+    aggregateSource(ctx: any, info: GraphQLResolveInfo, args: AggregateSourceArgs): Promise<AggregateSource>;
+    createManySource(ctx: any, info: GraphQLResolveInfo, args: CreateManySourceArgs): Promise<AffectedRowsOutput>;
+    createOneSource(ctx: any, info: GraphQLResolveInfo, args: CreateOneSourceArgs): Promise<Source>;
+    deleteManySource(ctx: any, info: GraphQLResolveInfo, args: DeleteManySourceArgs): Promise<AffectedRowsOutput>;
+    deleteOneSource(ctx: any, info: GraphQLResolveInfo, args: DeleteOneSourceArgs): Promise<Source | null>;
+    findFirstSource(ctx: any, info: GraphQLResolveInfo, args: FindFirstSourceArgs): Promise<Source | null>;
+    sources(ctx: any, info: GraphQLResolveInfo, args: FindManySourceArgs): Promise<Source[]>;
+    source(ctx: any, info: GraphQLResolveInfo, args: FindUniqueSourceArgs): Promise<Source | null>;
+    groupBySource(ctx: any, info: GraphQLResolveInfo, args: GroupBySourceArgs): Promise<SourceGroupBy[]>;
+    updateManySource(ctx: any, info: GraphQLResolveInfo, args: UpdateManySourceArgs): Promise<AffectedRowsOutput>;
+    updateOneSource(ctx: any, info: GraphQLResolveInfo, args: UpdateOneSourceArgs): Promise<Source | null>;
+    upsertOneSource(ctx: any, info: GraphQLResolveInfo, args: UpsertOneSourceArgs): Promise<Source>;
+}
