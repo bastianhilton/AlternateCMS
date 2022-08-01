@@ -1,5 +1,4 @@
 import { BigIntFieldUpdateOperationsInput } from "../inputs/BigIntFieldUpdateOperationsInput";
-import { NullableBigIntFieldUpdateOperationsInput } from "../inputs/NullableBigIntFieldUpdateOperationsInput";
 import { NullableDateTimeFieldUpdateOperationsInput } from "../inputs/NullableDateTimeFieldUpdateOperationsInput";
 import { NullableStringFieldUpdateOperationsInput } from "../inputs/NullableStringFieldUpdateOperationsInput";
 export declare class BrandsUpdateInput {
@@ -11,7 +10,7 @@ export declare class BrandsUpdateInput {
     state?: NullableStringFieldUpdateOperationsInput | undefined;
     isPublic?: NullableStringFieldUpdateOperationsInput | undefined;
     city?: NullableStringFieldUpdateOperationsInput | undefined;
-    product?: NullableBigIntFieldUpdateOperationsInput | undefined;
+    product?: NullableStringFieldUpdateOperationsInput | undefined;
     description?: NullableStringFieldUpdateOperationsInput | undefined;
     media?: NullableStringFieldUpdateOperationsInput | undefined;
     mediamanager?: NullableStringFieldUpdateOperationsInput | undefined;

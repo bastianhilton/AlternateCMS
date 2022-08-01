@@ -1,6 +1,6 @@
 <template>
-    <div v-if="agreements">
-        <form v-for="agreement in agreements" :key="agreement.id" method="POST" @submit.prevent>
+    <div v-if="findManyAgreements">
+        <form v-for="agreement in findManyAgreements" :key="agreement.id" method="POST" @submit.prevent>
         <div class="table table-responsive">
             <table class="table" >
                 <thead>
@@ -87,20 +87,20 @@
 <script>
 // eslint-disable-next-line camelcase
 import  gql from 'graphql-tag'
-import  agreements from '~/graphql/mutations/sales/agreement'
+import  createOneAgreements from '~/graphql/mutations/sales/agreement'
 
 const DELETE_AGREEMENT = gql `
-  mutation delete_agreements($id: Int!){
-  delete_agreements(where: {id: {_eq: $id}}){
-    affected_rows
+  mutation MyMutation {
+  deleteManyAgreements(where: {id: {equals: $id}}) {
+    count
   }
 }
 `;
 
 const UPDATE_AGREEMENT = gql `
-  mutation update_agreements($id: Int!){
-  update_agreements(where: {id: {_eq: $id}}){
-    affected_rows
+  mutation MyMutation {
+  updateManyAgreements(where: {id: {equals: $id}}) {
+    count
   }
 }
 `;
@@ -127,7 +127,7 @@ export default {
         },
         refetchQueries: [
           {
-            query: agreements
+            query: findManyAgreements
           }       
           
         ]
@@ -143,7 +143,7 @@ export default {
         },
         refetchQueries: [
           {
-            query: agreements
+            query: findManyAgreements
           }       
           
         ]
@@ -154,8 +154,8 @@ export default {
     }
   },
   apollo: {
-    agreements: {
-      query: agreements,
+    createOneAgreements: {
+      query: createOneAgreements,
       prefetch: ({ route }) => ({ id: route.params.id }),
       variables() {
         return { id: this.$route.params.id }

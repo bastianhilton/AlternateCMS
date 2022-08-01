@@ -7,7 +7,7 @@ export declare class BrandsMaxAggregate {
     state: string | null;
     isPublic: string | null;
     city: string | null;
-    product: bigint | null;
+    product: string | null;
     description: string | null;
     media: string | null;
     mediamanager: string | null;

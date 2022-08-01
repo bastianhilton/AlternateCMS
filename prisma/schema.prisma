@@ -136,7 +136,7 @@ model brands {
   state        String?
   isPublic     String?
   city         String?
-  product      BigInt?
+  product      String?
   description  String?
   media        String?
   mediamanager String?

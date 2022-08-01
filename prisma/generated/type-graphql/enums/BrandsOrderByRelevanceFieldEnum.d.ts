@@ -5,6 +5,7 @@ export declare enum BrandsOrderByRelevanceFieldEnum {
     state = "state",
     isPublic = "isPublic",
     city = "city",
+    product = "product",
     description = "description",
     media = "media",
     mediamanager = "mediamanager",

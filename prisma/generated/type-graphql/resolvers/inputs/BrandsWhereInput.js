@@ -5,7 +5,6 @@ exports.BrandsWhereInput = void 0;
 const tslib_1 = require("tslib");
 const TypeGraphQL = tslib_1.__importStar(require("type-graphql"));
 const BigIntFilter_1 = require("../inputs/BigIntFilter");
-const BigIntNullableFilter_1 = require("../inputs/BigIntNullableFilter");
 const DateTimeNullableFilter_1 = require("../inputs/DateTimeNullableFilter");
 const StringNullableFilter_1 = require("../inputs/StringNullableFilter");
 let BrandsWhereInput = BrandsWhereInput_1 = class BrandsWhereInput {
@@ -77,10 +76,10 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:type", StringNullableFilter_1.StringNullableFilter)
 ], BrandsWhereInput.prototype, "city", void 0);
 tslib_1.__decorate([
-    TypeGraphQL.Field(_type => BigIntNullableFilter_1.BigIntNullableFilter, {
+    TypeGraphQL.Field(_type => StringNullableFilter_1.StringNullableFilter, {
         nullable: true
     }),
-    tslib_1.__metadata("design:type", BigIntNullableFilter_1.BigIntNullableFilter)
+    tslib_1.__metadata("design:type", StringNullableFilter_1.StringNullableFilter)
 ], BrandsWhereInput.prototype, "product", void 0);
 tslib_1.__decorate([
     TypeGraphQL.Field(_type => StringNullableFilter_1.StringNullableFilter, {

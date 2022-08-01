@@ -4,7 +4,6 @@ exports.BrandsUpdateManyMutationInput = void 0;
 const tslib_1 = require("tslib");
 const TypeGraphQL = tslib_1.__importStar(require("type-graphql"));
 const BigIntFieldUpdateOperationsInput_1 = require("../inputs/BigIntFieldUpdateOperationsInput");
-const NullableBigIntFieldUpdateOperationsInput_1 = require("../inputs/NullableBigIntFieldUpdateOperationsInput");
 const NullableDateTimeFieldUpdateOperationsInput_1 = require("../inputs/NullableDateTimeFieldUpdateOperationsInput");
 const NullableStringFieldUpdateOperationsInput_1 = require("../inputs/NullableStringFieldUpdateOperationsInput");
 let BrandsUpdateManyMutationInput = class BrandsUpdateManyMutationInput {
@@ -58,10 +57,10 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:type", NullableStringFieldUpdateOperationsInput_1.NullableStringFieldUpdateOperationsInput)
 ], BrandsUpdateManyMutationInput.prototype, "city", void 0);
 tslib_1.__decorate([
-    TypeGraphQL.Field(_type => NullableBigIntFieldUpdateOperationsInput_1.NullableBigIntFieldUpdateOperationsInput, {
+    TypeGraphQL.Field(_type => NullableStringFieldUpdateOperationsInput_1.NullableStringFieldUpdateOperationsInput, {
         nullable: true
     }),
-    tslib_1.__metadata("design:type", NullableBigIntFieldUpdateOperationsInput_1.NullableBigIntFieldUpdateOperationsInput)
+    tslib_1.__metadata("design:type", NullableStringFieldUpdateOperationsInput_1.NullableStringFieldUpdateOperationsInput)
 ], BrandsUpdateManyMutationInput.prototype, "product", void 0);
 tslib_1.__decorate([
     TypeGraphQL.Field(_type => NullableStringFieldUpdateOperationsInput_1.NullableStringFieldUpdateOperationsInput, {

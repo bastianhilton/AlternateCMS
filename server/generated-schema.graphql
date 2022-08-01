@@ -2828,7 +2828,7 @@ type Brands {
   media: String
   mediamanager: String
   name: String
-  product: BigInt
+  product: String
   products: String
   state: String
   workspaces: String
@@ -2836,12 +2836,10 @@ type Brands {
 
 type BrandsAvgAggregate {
   id: Float
-  product: Float
 }
 
 input BrandsAvgOrderByAggregateInput {
   id: SortOrder
-  product: SortOrder
 }
 
 type BrandsCountAggregate {
@@ -2890,7 +2888,7 @@ input BrandsCreateInput {
   media: String
   mediamanager: String
   name: String
-  product: BigInt
+  product: String
   products: String
   state: String
   workspaces: String
@@ -2907,7 +2905,7 @@ input BrandsCreateManyInput {
   media: String
   mediamanager: String
   name: String
-  product: BigInt
+  product: String
   products: String
   state: String
   workspaces: String
@@ -2929,7 +2927,7 @@ type BrandsGroupBy {
   media: String
   mediamanager: String
   name: String
-  product: BigInt
+  product: String
   products: String
   state: String
   workspaces: String
@@ -2946,7 +2944,7 @@ type BrandsMaxAggregate {
   media: String
   mediamanager: String
   name: String
-  product: BigInt
+  product: String
   products: String
   state: String
   workspaces: String
@@ -2980,7 +2978,7 @@ type BrandsMinAggregate {
   media: String
   mediamanager: String
   name: String
-  product: BigInt
+  product: String
   products: String
   state: String
   workspaces: String
@@ -3012,6 +3010,7 @@ enum BrandsOrderByRelevanceFieldEnum {
   media
   mediamanager
   name
+  product
   products
   state
   workspaces
@@ -3094,7 +3093,7 @@ input BrandsScalarWhereWithAggregatesInput {
   media: StringNullableWithAggregatesFilter
   mediamanager: StringNullableWithAggregatesFilter
   name: StringNullableWithAggregatesFilter
-  product: BigIntNullableWithAggregatesFilter
+  product: StringNullableWithAggregatesFilter
   products: StringNullableWithAggregatesFilter
   state: StringNullableWithAggregatesFilter
   workspaces: StringNullableWithAggregatesFilter
@@ -3102,12 +3101,10 @@ input BrandsScalarWhereWithAggregatesInput {
 
 type BrandsSumAggregate {
   id: BigInt
-  product: BigInt
 }
 
 input BrandsSumOrderByAggregateInput {
   id: SortOrder
-  product: SortOrder
 }
 
 input BrandsUpdateInput {
@@ -3121,7 +3118,7 @@ input BrandsUpdateInput {
   media: NullableStringFieldUpdateOperationsInput
   mediamanager: NullableStringFieldUpdateOperationsInput
   name: NullableStringFieldUpdateOperationsInput
-  product: NullableBigIntFieldUpdateOperationsInput
+  product: NullableStringFieldUpdateOperationsInput
   products: NullableStringFieldUpdateOperationsInput
   state: NullableStringFieldUpdateOperationsInput
   workspaces: NullableStringFieldUpdateOperationsInput
@@ -3138,7 +3135,7 @@ input BrandsUpdateManyMutationInput {
   media: NullableStringFieldUpdateOperationsInput
   mediamanager: NullableStringFieldUpdateOperationsInput
   name: NullableStringFieldUpdateOperationsInput
-  product: NullableBigIntFieldUpdateOperationsInput
+  product: NullableStringFieldUpdateOperationsInput
   products: NullableStringFieldUpdateOperationsInput
   state: NullableStringFieldUpdateOperationsInput
   workspaces: NullableStringFieldUpdateOperationsInput
@@ -3158,7 +3155,7 @@ input BrandsWhereInput {
   media: StringNullableFilter
   mediamanager: StringNullableFilter
   name: StringNullableFilter
-  product: BigIntNullableFilter
+  product: StringNullableFilter
   products: StringNullableFilter
   state: StringNullableFilter
   workspaces: StringNullableFilter

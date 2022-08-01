@@ -220,11 +220,10 @@ input, select, option {
     height: auto !important;
 }
 
-/******************* Text Editor **************/
+/****************** Editor ********************/
 
 .wysiwyg {
-    width: 50%;
-    min-height: 225px;
+    min-height: 200px;
 }
 
 /****************** Footer ********************/

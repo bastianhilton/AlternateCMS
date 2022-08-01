@@ -11,6 +11,7 @@ var BrandsOrderByRelevanceFieldEnum;
     BrandsOrderByRelevanceFieldEnum["state"] = "state";
     BrandsOrderByRelevanceFieldEnum["isPublic"] = "isPublic";
     BrandsOrderByRelevanceFieldEnum["city"] = "city";
+    BrandsOrderByRelevanceFieldEnum["product"] = "product";
     BrandsOrderByRelevanceFieldEnum["description"] = "description";
     BrandsOrderByRelevanceFieldEnum["media"] = "media";
     BrandsOrderByRelevanceFieldEnum["mediamanager"] = "mediamanager";

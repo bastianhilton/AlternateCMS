@@ -1,5 +1,4 @@
 import { BigIntFilter } from "../inputs/BigIntFilter";
-import { BigIntNullableFilter } from "../inputs/BigIntNullableFilter";
 import { DateTimeNullableFilter } from "../inputs/DateTimeNullableFilter";
 import { StringNullableFilter } from "../inputs/StringNullableFilter";
 export declare class BrandsWhereInput {
@@ -14,7 +13,7 @@ export declare class BrandsWhereInput {
     state?: StringNullableFilter | undefined;
     isPublic?: StringNullableFilter | undefined;
     city?: StringNullableFilter | undefined;
-    product?: BigIntNullableFilter | undefined;
+    product?: StringNullableFilter | undefined;
     description?: StringNullableFilter | undefined;
     media?: StringNullableFilter | undefined;
     mediamanager?: StringNullableFilter | undefined;

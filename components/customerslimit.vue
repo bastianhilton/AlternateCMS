@@ -11,7 +11,7 @@
                                 <th>Email</th>
                             </tr>
                         </thead>
-                        <tbody v-for="customers in customers" :key="customers.id">
+                        <tbody v-for="customers in findFirstCustomers" :key="customers.id">
                             <tr>
                                 <th scope="row">{{customers.id}}</th>
                                 <td>{{customers.first_name}}</td>
@@ -26,18 +26,18 @@
 </template>
 
 <script>
-import customers from '~/graphql/queries/customers/customerslimit'
+import findFirstCustomers from '~/graphql/queries/customers/customerslimit'
 
 export default {
   data() {
     return {
-      customers: [],
+      findFirstCustomers: [],
     }
   },
   apollo: {
-    customers: {
+    findFirstCustomers: {
       prefetch: true,
-      query: customers
+      query: findFirstCustomers
     },
   },
 }

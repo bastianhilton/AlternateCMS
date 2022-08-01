@@ -7,7 +7,7 @@ export declare class BrandsCreateManyInput {
     state?: string | undefined;
     isPublic?: string | undefined;
     city?: string | undefined;
-    product?: bigint | undefined;
+    product?: string | undefined;
     description?: string | undefined;
     media?: string | undefined;
     mediamanager?: string | undefined;

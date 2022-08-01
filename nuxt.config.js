@@ -22,12 +22,15 @@ export default {
       { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css' },
       { rel: 'stylesheet', href: '/mdb/plugins/css/all.min.css' },
       { rel: 'stylesheet', href: '/mdb/css/mdb.min.css' },
-      { rel: 'stylesheet', href: '/styles/styles.css' }
+      { rel: 'stylesheet', href: '/mdb/plugins/css/wysiwyg.min.css' },
+      { rel: 'stylesheet', href: '/styles/styles.css' },
+      { rel: 'stylesheet', href: '/DataTables/datatables.css' }
     ],
     script: [
       { src: '/mdb/plugins/js/all.min.js', mode: 'client' },
       { src: '/mdb/js/mdb.min.js', mode: 'client' },
-      { src: 'https://embeddable-sandbox.cdn.apollographql.com/_latest/embeddable-sandbox.umd.production.min.js', mode: 'client' }
+      { src: '/mdb/plugins/js/wysiwyg.min.js' },
+      { src: '/DataTables/datatables.js', mode: 'client' },
     ]
   },
 
@@ -40,7 +43,8 @@ export default {
     // { src: '~/plugins/extensions/email.js', ssr: false },
     { src: '~/plugins/upload.js', ssr: false },
     { src: '~/plugins/extensions/apollo.js', ssr: false },
-    { src: '~/plugins/extensions/editor.js', ssr: false }
+    { src: '~/plugins/extensions/editor.js', mode: 'client' },
+    // { src: '~/plugins/extensions/tables.js', ssr: false }
   ],
 
   components: true,

@@ -12,12 +12,6 @@ tslib_1.__decorate([
     }),
     tslib_1.__metadata("design:type", typeof BigInt === "function" ? BigInt : Object)
 ], BrandsSumAggregate.prototype, "id", void 0);
-tslib_1.__decorate([
-    TypeGraphQL.Field(_type => GraphQLScalars.BigIntResolver, {
-        nullable: true
-    }),
-    tslib_1.__metadata("design:type", typeof BigInt === "function" ? BigInt : Object)
-], BrandsSumAggregate.prototype, "product", void 0);
 BrandsSumAggregate = tslib_1.__decorate([
     TypeGraphQL.ObjectType("BrandsSumAggregate", {
         isAbstract: true

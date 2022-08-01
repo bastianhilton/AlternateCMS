@@ -17,7 +17,7 @@
             <th>Agreement Excerpt</th>
             <th>Agreement Created On</th>
             <th>Agreement Updated On</th>
-            <td>Agreement Type</td>
+            <th>Agreement Type</th>
             <th>Action</th>
           </tr>
         </thead>

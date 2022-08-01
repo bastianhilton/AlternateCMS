@@ -1,34 +1,45 @@
-
-query customersNew {
-  findManyCustomers(first: 5, orderBy: CUSTOMER_SINCE_ASC) {
-    address
-    addressTwo
-    confirmedEmail
+query MyQuery {
+  findFirstCustomers(take: 5, orderBy: {customer_since: asc}) {
+    Address
+    address_two
+    comments
+    confirmed_email
     country
-    customerGroup
-    customerSince
-    dateOfBirth
+    credit_memos
+    customer_group
+    customer_payment
+    customer_group_customer_groupTocustomers
+    customer_since
+    date_of_birth
     description
     email
-    firstName
+    emails
+    first_name
     gender
     id
-    lastName
     image
-    middleName
-    namePrefix
-    nameSuffix
-    nodeId
-    product
-    phone
-    paymentType
+    last_name
+    mediamanager
+    messages
+    middle_name
+    name_prefix
+    name_suffix
+    newsletter_subscribers
+    orders
     password
-    shortDescription
+    payment_type
+    phone
+    product
+    projects
+    quotes
+    returns
+    short_description
     state
-    taxVatNumber
+    tax_vat_number
     thumbnail
     username
     websites
+    workspaces
     zipcode
   }
 }

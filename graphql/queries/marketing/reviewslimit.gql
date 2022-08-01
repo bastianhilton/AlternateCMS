@@ -1,14 +1,12 @@
-
-query reviewsLimit {
-  findManyReviews(first: 5) {
-    id
-    firstName
-    createdAt
+query MyQuery {
+  findFirstReviews(take: 5) {
+    comment_id
     content
-    commentId
-    lastName
-    nodeId
-    shopId
+    created_at
+    first_name
+    id
+    last_name
+    shop_id
     websites
   }
 }

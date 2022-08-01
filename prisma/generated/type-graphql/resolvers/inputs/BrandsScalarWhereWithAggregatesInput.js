@@ -4,7 +4,6 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.BrandsScalarWhereWithAggregatesInput = void 0;
 const tslib_1 = require("tslib");
 const TypeGraphQL = tslib_1.__importStar(require("type-graphql"));
-const BigIntNullableWithAggregatesFilter_1 = require("../inputs/BigIntNullableWithAggregatesFilter");
 const BigIntWithAggregatesFilter_1 = require("../inputs/BigIntWithAggregatesFilter");
 const DateTimeNullableWithAggregatesFilter_1 = require("../inputs/DateTimeNullableWithAggregatesFilter");
 const StringNullableWithAggregatesFilter_1 = require("../inputs/StringNullableWithAggregatesFilter");
@@ -77,10 +76,10 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:type", StringNullableWithAggregatesFilter_1.StringNullableWithAggregatesFilter)
 ], BrandsScalarWhereWithAggregatesInput.prototype, "city", void 0);
 tslib_1.__decorate([
-    TypeGraphQL.Field(_type => BigIntNullableWithAggregatesFilter_1.BigIntNullableWithAggregatesFilter, {
+    TypeGraphQL.Field(_type => StringNullableWithAggregatesFilter_1.StringNullableWithAggregatesFilter, {
         nullable: true
     }),
-    tslib_1.__metadata("design:type", BigIntNullableWithAggregatesFilter_1.BigIntNullableWithAggregatesFilter)
+    tslib_1.__metadata("design:type", StringNullableWithAggregatesFilter_1.StringNullableWithAggregatesFilter)
 ], BrandsScalarWhereWithAggregatesInput.prototype, "product", void 0);
 tslib_1.__decorate([
     TypeGraphQL.Field(_type => StringNullableWithAggregatesFilter_1.StringNullableWithAggregatesFilter, {

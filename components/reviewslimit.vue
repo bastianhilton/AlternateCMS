@@ -11,7 +11,7 @@
                                 <th>Websites</th>
                             </tr>
                         </thead>
-                        <tbody v-for="reviews in reviewsLimit" :key="reviews.id">
+                        <tbody v-for="reviews in findFirstReviews" :key="reviews.id">
                             <tr>
                                 <th scope="row">{{reviews.id}}</th>
                                 <td>{{reviews.first_name}} {{reviews.last_name}}</td>
@@ -26,18 +26,18 @@
 </template>
 
 <script>
-import reviewsLimit from '~/graphql/queries/marketing/reviewslimit'
+import findFirstReviews from '~/graphql/queries/marketing/reviewslimit'
 
 export default {
   data() {
     return {
-      reviewsLimit: [],
+      findFirstReviews: [],
     }
   },
   apollo: {
-    reviewsLimit: {
+    findFirstReviews: {
       prefetch: true,
-      query: reviewsLimit
+      query: findFirstReviews
     },
   },
 }

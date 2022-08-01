@@ -1,12 +1,12 @@
 <template>
   <div>
-    <form method="POST" enctype="multipart/form-data" @click="addAgreement">
+    <form method="post" enctype="multipart/form-data" @submit.prevent>
       <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand">
             <button type="reset" class="btn btn-warning">Reset</button></a>
           <a class="navbar-brand">
-            <input type="submit" class="btn btn-warning" value="Save Agreement" /></a>
+            <input type="submit" class="btn btn-warning" value="Save Agreement" @click="createOneAgreements" /></a>
         </div>
       </nav>
       <br>
@@ -42,42 +42,24 @@
                         </select>
                       </td>
                     </tr>
+                    <tr>
+                      <td style="text-align: right;">Excerpt</td>
+                      <td>
+                        <textarea id="excerpt" v-model="excerpt" cols="50" rows="10"
+                          value="Add a short Description"></textarea>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td style="text-align: right;">Description</td>
+                      <td>
+                        <div class="wysiwyg" data-mdb-wysiwyg="wysiwyg"></div>
+                      </td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
               <br><br>
               <div id="accordionExample" class="accordion">
-                <div class="accordion-item">
-                  <h2 id="headingOne" class="accordion-header">
-                    <button class="accordion-button" type="button" data-mdb-toggle="collapse"
-                      data-mdb-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Content
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                    data-mdb-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <div class="table table-responsive">
-                        <table class="table">
-                          <tbody>
-                            <tr>
-                              <td style="text-align: right;">Excerpt</td>
-                              <td>
-                                  <textarea id="excerpt" v-model="excerpt" cols="50" rows="10" value="Add a short Description"></textarea>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td style="text-align: right;">Description</td>
-                              <td>
-                                <editor :init="{ plugins: 'lists link image table code help wordcount'}" />
-                              </td>
-                            </tr>
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 <div class="accordion-item">
                   <h2 id="headingThree" class="accordion-header">
                     <button class="accordion-button" type="button" data-mdb-toggle="collapse"
@@ -134,7 +116,7 @@
       title: 'Add New Agreement'
     },
     methods: {
-      async addAgreement() {
+      async createOneAgreements() {
         const name = this.name;
         const content = this.content;
         const excerpt = this.excerpt;
@@ -193,8 +175,8 @@
     display: inline-block;
   }
 
-#agreementType {
-  width: 50%;
-}
+  #agreementType {
+    width: 50%;
+  }
 
 </style>

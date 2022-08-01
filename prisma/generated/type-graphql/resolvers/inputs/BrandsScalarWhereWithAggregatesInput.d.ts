@@ -1,4 +1,3 @@
-import { BigIntNullableWithAggregatesFilter } from "../inputs/BigIntNullableWithAggregatesFilter";
 import { BigIntWithAggregatesFilter } from "../inputs/BigIntWithAggregatesFilter";
 import { DateTimeNullableWithAggregatesFilter } from "../inputs/DateTimeNullableWithAggregatesFilter";
 import { StringNullableWithAggregatesFilter } from "../inputs/StringNullableWithAggregatesFilter";
@@ -14,7 +13,7 @@ export declare class BrandsScalarWhereWithAggregatesInput {
     state?: StringNullableWithAggregatesFilter | undefined;
     isPublic?: StringNullableWithAggregatesFilter | undefined;
     city?: StringNullableWithAggregatesFilter | undefined;
-    product?: BigIntNullableWithAggregatesFilter | undefined;
+    product?: StringNullableWithAggregatesFilter | undefined;
     description?: StringNullableWithAggregatesFilter | undefined;
     media?: StringNullableWithAggregatesFilter | undefined;
     mediamanager?: StringNullableWithAggregatesFilter | undefined;

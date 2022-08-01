@@ -55,10 +55,10 @@ tslib_1.__decorate([
     tslib_1.__metadata("design:type", String)
 ], Brands.prototype, "city", void 0);
 tslib_1.__decorate([
-    TypeGraphQL.Field(_type => GraphQLScalars.BigIntResolver, {
+    TypeGraphQL.Field(_type => String, {
         nullable: true
     }),
-    tslib_1.__metadata("design:type", typeof BigInt === "function" ? BigInt : Object)
+    tslib_1.__metadata("design:type", String)
 ], Brands.prototype, "product", void 0);
 tslib_1.__decorate([
     TypeGraphQL.Field(_type => String, {
