@@ -4,7 +4,9 @@ export default function(context){
   		httpLinkOptions: {
     		uri: 'http://127.0.0.1:4000/graphql',
     		credentials: 'same-origin',
-			headers: {}
+			headers: {
+				'Access-Control-Allow-Origin': '*'
+			}
   		},
   		cache: new InMemoryCache(),
 	    wsEndpoint: 'ws://127.0.0.1:4000/graphql',

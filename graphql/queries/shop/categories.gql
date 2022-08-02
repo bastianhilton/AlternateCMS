@@ -1,21 +1,20 @@
-
-query categories {
+query MyQuery {
   findManyCategories {
     content
     country
     description
     id
     image
-    metaDescription
-    metaKeywords
-    metaTitle
-    metaUrl
+    meta_description
+    meta_keywords
+    meta_title
+    meta_url
     name
-    nodeId
     product
-    websites
-    visibility
-    thumbnail
     status
+    thumbnail
+    visibility
+    websites
+    workspaces
   }
 }

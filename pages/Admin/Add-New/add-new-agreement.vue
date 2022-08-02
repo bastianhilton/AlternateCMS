@@ -1,12 +1,12 @@
 <template>
   <div>
-    <form method="post" enctype="multipart/form-data" @submit.prevent>
+    <form method="POSt" @click="createOneAgreements">
       <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand">
             <button type="reset" class="btn btn-warning">Reset</button></a>
           <a class="navbar-brand">
-            <input type="submit" class="btn btn-warning" value="Save Agreement" @click="createOneAgreements" /></a>
+            <input type="submit" class="btn btn-warning" value="Save Agreement" /></a>
         </div>
       </nav>
       <br>
@@ -90,9 +90,9 @@
   import gql from "graphql-tag";
   import findManyAgreements from "~/graphql/queries/sales/agreements";
 
-  const ADD_AGREEMENTS = gql `
-    mutation createOneAgreements ($name:String!,$excerpt:String,$type:String,$content:String,$image:String){
-      createOneAgreements(objects: {name: $name, excerpt: $excerpt, type: $type, content: $content, image: $image}) {
+  export const ADD_AGREEMENTS = gql`
+    mutation createOneAgreements ($name:String!,$excerpt:String!,$type:String!,$content:String!,$image:String!){
+      createOneAgreements(data: {name: $name, excerpt: $excerpt, type: $type, content: $content, image: $image}) {
         name
         excerpt
         type
@@ -109,20 +109,19 @@
         excerpt: " ",
         content: " ",
         image: " ",
-
       }
     },
     head: {
       title: 'Add New Agreement'
     },
     methods: {
-      async createOneAgreements() {
-        const name = this.name;
-        const content = this.content;
-        const excerpt = this.excerpt;
-        const type = this.type;
-        const image = this.image;
-        await this.$apollo.mutate({
+      createOneAgreements() {
+        const{ name, 
+         content, 
+         excerpt, 
+         type,
+         image } = this.$data
+        this.$apollo.mutate({
           mutation: ADD_AGREEMENTS,
           variables: {
             name,

@@ -20,7 +20,7 @@
             <th>Action</th>
           </tr>
         </thead>
-        <tbody v-for="categories in categories" :key="categories.id">
+        <tbody v-for="categories in findManyCategories" :key="categories.id">
           <tr>
             <td>{{ categories.name }}</td>
             <td>{{ categories.content }}</td>
@@ -36,18 +36,18 @@
 </template>
 
 <script>
- import  categories from '~/graphql/queries/shop/categories'
+ import  findManyCategories from '~/graphql/queries/shop/categories'
 
 export default {
   data() {
     return {
-      categories: [],
+      findManyCategories: [],
     }
   },
   apollo: {
-    categories: {
+    findManyCategories: {
       prefetch: true,
-      query: categories
+      query: findManyCategories
     }
   }, 
     // eslint-disable-next-line vue/order-in-components

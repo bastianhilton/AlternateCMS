@@ -42,7 +42,6 @@ export default {
     { src: '~/plugins/apollo-error-handler.js', ssr: false },
     // { src: '~/plugins/extensions/email.js', ssr: false },
     { src: '~/plugins/upload.js', ssr: false },
-    { src: '~/plugins/extensions/apollo.js', ssr: false },
     { src: '~/plugins/extensions/editor.js', mode: 'client' },
     // { src: '~/plugins/extensions/tables.js', ssr: false }
   ],
@@ -66,7 +65,9 @@ export default {
 
   apollo: {
     clientConfigs: {
-      default: '~/graphql/clientConfig.js'
+      default: {
+        httpEndpoint: 'http://localhost:4000/graphql'
+      }
     }
   },
 
