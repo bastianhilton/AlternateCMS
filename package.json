@@ -101,7 +101,7 @@
     "vue-mce": "^1.5.3",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
-    "webpack": "^4.46.0"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
     "@prisma/client": "^4.1.0",
