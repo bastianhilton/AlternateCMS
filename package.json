@@ -97,7 +97,7 @@
     "type-graphql": "^1.1.1",
     "typegraphql-prisma": "^0.21.2",
     "typescript": "^4.7.4",
-    "vue": "^2.6.14",
+    "vue": "^3.2.47",
     "vue-mce": "^1.5.3",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
